@@ -2,14 +2,17 @@ name: Test připojení k dodavatelům
 on:
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Zkusit stáhnout stránky dodavatelů
         run: |
+          mkdir -p test
           UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+          : > test/vysledek.txt
           for u in \
             "https://www.euronabycerny.com/webapi/eshop/products/all?page=1" \
             "https://www.euronabycerny.com/webapi/eshop/sku/3044" \
@@ -18,6 +21,14 @@ jobs:
             "https://www.lr-czech.com/parfemy-damske" \
             "https://www.kosmetikaeva.eu/" ; do
             code=$(curl -s -o /tmp/out -w "%{http_code} %{size_download}B %{time_total}s" -A "$UA" -H "Accept-Language: cs-CZ,cs;q=0.9" "$u")
-            echo "$u -> $code"
-            head -c 300 /tmp/out | tr '\n' ' '; echo; echo
+            echo "$u -> $code" >> test/vysledek.txt
+            head -c 300 /tmp/out | tr '\n\r' '  ' >> test/vysledek.txt; echo >> test/vysledek.txt
+            grep -o "Skladem\|Není skladem\|Nedostupné\|Kód[0-9-]*" /tmp/out | sort | uniq -c | head -5 >> test/vysledek.txt
+            echo >> test/vysledek.txt
           done
+          cat test/vysledek.txt
+      - name: Uložit výsledek
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add test/vysledek.txt && git commit -m "Výsledek testu připojení" && git push
