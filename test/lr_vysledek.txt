@@ -1,4 +1,0 @@
-headless=True https://www.lr-czech.com/parfemy-damske status=403 title='Okamžik…' len=28914 cards=0 nenisklad=0
-headless=True https://www.lr-czech.com/aloe-vera-care status=403 title='Okamžik…' len=28914 cards=0 nenisklad=0
-headless=False https://www.lr-czech.com/parfemy-damske status=403 title='Okamžik…' len=28892 cards=0 nenisklad=0
-headless=False https://www.lr-czech.com/aloe-vera-care status=403 title='Okamžik…' len=28892 cards=0 nenisklad=0
