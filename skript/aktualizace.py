@@ -259,4 +259,11 @@ def _url(eshop, kod):
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        tb = traceback.format_exc()
+        # chyba se zobrazí přímo v přehledu běhu na GitHubu
+        print("::error title=Chyba kontroly::" + tb.replace("%", "%25").replace("\r", "").replace("\n", "%0A"))
+        raise
