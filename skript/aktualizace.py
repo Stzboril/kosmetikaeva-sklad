@@ -134,8 +134,8 @@ def najdi(kod, katalog):
             if z + pripona != k and z + pripona in katalog:
                 return katalog[z + pripona]
     # LR mění koncovku za pomlčkou (20679-101 -> 20679-301): stačí shoda čísla před pomlčkou, je-li jediná
-    if "-" in k:
-        cislo_lr = k.split("-")[0]
+    cislo_lr = k.split("-")[0]
+    if cislo_lr.isdigit():
         shody = [x for x in katalog if x.split("-")[0] == cislo_lr]
         if len(shody) == 1:
             return katalog[shody[0]]
