@@ -1,17 +1,17 @@
-Sun Oct 11 09:21:25 CEST 2026
-https://www.lr-czech.com/zdravi – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/krasa – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/aloe-vera-care – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/parfemy – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/proti-starnuti – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/pece-o-telo – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/zdravi-reseni – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/health-mission-top-produkty – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/denni-nocni-ocni – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/make-up – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/pece-o-plet – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/sera – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
-https://www.lr-czech.com/specialiste – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED – žádost o povolení URL nebyla potvrzena), 0 řádků
+Sun Oct 11 09:27:01 CEST 2026
+https://www.lr-czech.com/zdravi – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/krasa – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/aloe-vera-care – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/parfemy – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/proti-starnuti – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/pece-o-telo – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/zdravi-reseni – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/health-mission-top-produkty – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/denni-nocni-ocni – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/make-up – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/pece-o-plet – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/sera – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/pece-o-telo-zuby – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
+https://www.lr-czech.com/specialiste – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
 Podezřele málo produktů LR (0), neukládám.
