@@ -1,17 +1,17 @@
-Sun Oct 11 09:27:01 CEST 2026
-https://www.lr-czech.com/zdravi – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/krasa – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/aloe-vera-care – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/parfemy – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/proti-starnuti – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/pece-o-telo – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/zdravi-reseni – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/health-mission-top-produkty – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/denni-nocni-ocni – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/make-up – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/pece-o-plet – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/sera – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-https://www.lr-czech.com/specialiste – chyba: WebFetch zamítnut (PROVENANCE_REQUIRED), 0 řádků
-Podezřele málo produktů LR (0), neukládám.
+Sun Oct 11 09:44:13 CEST 2026
+https://www.lr-czech.com/zdravi – 40 (1. pokus: žádost o oprávnění nezodpovězena, 2. pokus OK)
+https://www.lr-czech.com/pece-o-telo – 40
+https://www.lr-czech.com/krasa – 40
+https://www.lr-czech.com/aloe-vera-care – 40
+https://www.lr-czech.com/parfemy – 23
+https://www.lr-czech.com/proti-starnuti – 31
+https://www.lr-czech.com/zdravi-reseni – 29
+https://www.lr-czech.com/health-mission-top-produkty – 10
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5
+https://www.lr-czech.com/denni-nocni-ocni – CHYBA: proxy WebFetch HTTP 429 (rate limited), opakování zakázáno, stránka vynechána
+https://www.lr-czech.com/make-up – 26
+https://www.lr-czech.com/pece-o-plet – 40
+https://www.lr-czech.com/sera – 15
+https://www.lr-czech.com/pece-o-telo-zuby – CHYBA: proxy WebFetch HTTP 429 (rate limited), opakování zakázáno, stránka vynechána
+https://www.lr-czech.com/specialiste – CHYBA: proxy WebFetch HTTP 429 (rate limited), opakování zakázáno, stránka vynechána
+Uloženo 214 produktů LR, z toho není skladem: 7
