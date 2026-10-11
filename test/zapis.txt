@@ -1,0 +1,3 @@
+Čas (UTC): Sun Oct 11 07:03:18 UTC 2026
+Krok 1 (add_repo): nástroj add_repo v této relaci není k dispozici; repo stzboril/kosmetikaeva-sklad už bylo v rozsahu relace a naklonované.
+WebFetch k dispozici: ano
