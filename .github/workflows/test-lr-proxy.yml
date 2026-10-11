@@ -1,0 +1,23 @@
+name: Test LR přes čtecí službu
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          mkdir -p test
+          for u in parfemy-damske pece-o-plet; do
+            curl -s -m 90 -H "X-Return-Format: html" "https://r.jina.ai/https://www.lr-czech.com/$u" -o test/jina_$u.html -w "$u %{http_code} %{size_download}\n" >> test/jina.txt || echo "$u chyba" >> test/jina.txt
+            grep -o "Kód[^<]\{0,40\}" test/jina_$u.html | head -3 >> test/jina.txt || true
+            grep -c "product-card__name" test/jina_$u.html >> test/jina.txt || true
+            grep -c "Není skladem" test/jina_$u.html >> test/jina.txt || true
+          done
+          head -c 300 test/jina_parfemy-damske.html >> test/jina.txt
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add test/jina.txt && git commit -m "Test LR čtecí služba" && git pull --rebase -q && git push
