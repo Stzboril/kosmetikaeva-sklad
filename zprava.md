@@ -1,152 +1,73 @@
-Kontrola u dodavatelů proběhla 11.10.2026 v 08:28.
+Kontrola u dodavatelů proběhla 11.10.2026 v 08:35.
 
 - **Eurona:** zkontrolováno 535 viditelných produktů
 - **Essens:** zkontrolováno 392 viditelných produktů
-- **LR:** nekontrolováno – web lr-czech.com blokuje servery GitHubu; data LR nejsou k dispozici nebo jsou starší než 3 dny
+- **LR:** zkontrolováno 216 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (61 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (14 produktů)
 
-- ❌ dodavatel ho nenašel → 0 ks: [Eurona Impregnace na softshell a voděodolné membrány 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-impregnace-na-softshell-a-vodeodolne-membrany--250-ml/) (1146A)
+- ❌ dodavatel ho nenašel → 0 ks: [LR Aloe Vera Regenerační Krém DermaIntense 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-dermaintense-50-ml/) (20606)
+- ❌ dodavatel ho nenašel → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
+- ❌ dodavatel ho nenašel → 0 ks: [LR ZEITGARD Signature Smart Make-up Pouch](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-smart-make-up-pouch/) (29034-101)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens ES`Pure - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-es-pure-doplnek-stravy-30-tablet/) (6512)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera 99.5% Gel Drink - vitamin C 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/essens-aloe-vera-99-5--gel-drink-vitamin-c-500-ml/) (AVE01)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera 99.5% Gel Drink - hrozen 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/essens-aloe-vera-99-5--gel-drink-hrozen-500-ml/) (AVE02)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera 99.5% Gel Drink - jablko + acai 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/essens-aloe-vera-99-5--gel-drink-jablko-acai-500-ml/) (AVE03)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera Pěna na holení 200 ml](https://www.kosmetikaeva.eu/pro-muze/essens-aloe-vera-pena-na-holeni-200-ml/) (AVE32)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera Balzám po holení 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-aloe-vera-balzam-po-holeni-100-ml/) (AVE42)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Zubní pasta s aktivním uhlím a vitaminem B12 100 ml](https://www.kosmetikaeva.eu/usta-a-zuby/essens-zubni-pasta-s-aktivnim-uhlim-a-vitaminem-b12-100-ml/) (AVE50)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera Zubní pasta 100 ml](https://www.kosmetikaeva.eu/usta-a-zuby/essens-aloe-vera-zubni-pasta-100-ml/) (AVE51)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera Soft Spray 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-100-ml/) (AVE61B)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera + Boswellia 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-aloe-vera-boswellia-60-kapsi/) (AVE71)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe Vera + Q10 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-aloe-vera-q10-60-kapsli/) (AVE72)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Aloe vera Deo Stick 50 g](https://www.kosmetikaeva.eu/telo-2/essens-aloe-vera-deo-stick-50-g/) (AVE83)
+- ❌ dodavatel ho nenašel → 0 ks: [LR LIFETAKT Active Freedom Kapsle 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-freedom-plus-kapsle-60-kapsli/) (80190)
+- ❌ dodavatel ho nenašel → 0 ks: [LR Aloe Vera Drinking Gel Immune Plus Série 6 x 1000 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/lr-aloe-vera-drinking-gel-immune-plus-serie-6-x-1000-ml/) (81006)
 - ❌ dodavatel ho nenašel → 0 ks: [Eurona Lavender Designový aromadifuzér 50 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-lavender-designovy-aromadifuzer100-ml/) (CC6734)
 - ❌ dodavatel ho nenašel → 0 ks: [Eurona CC CERNY CAFÉ BRAZÍLIE Sul de Minas zrnková káva 500 g](https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-brazilie-sul-de-minas-500-g/) (CE0008)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Colostrum 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-60-kapsli/) (COL01)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Colostrum + Vitamin D 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-vitamin-d-60-kapsli/) (COL02)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Colostrum + Kurkumin 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-kurkumin-60-kapsli/) (COL03)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Krém proti celulitidě s colostrem 150 ml](https://www.kosmetikaeva.eu/telo-2/essens-krem-proti-celulitide-s-colostrem-200-ml/) (COL15)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Jogurtovač COL71](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-jogurtovac/) (COL71)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Flow'EN - doplněk stravy 3x30 tablet + Essens  ES'Pure - doplněk stravy 2x30 tablet + Essens Clea'NS - doplněk stravy 30 tablet + Essens ES`Pu…](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-detox-set-doplnky-stravy/) (DETOX)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Čisticí prostředek na mytí nádobí 500 ml](https://www.kosmetikaeva.eu/rucni-myti/essens-cistici-prostredek-na-myti-nadobi-500-ml/) (HOME01)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Prací prostředek na bílé prádlo 500 ml](https://www.kosmetikaeva.eu/bile-pradlo/essens-praci-prostredek-na-bile-pradlo-1000-ml/) (HOME11)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Prací prostředek na barevné prádlo 500 ml](https://www.kosmetikaeva.eu/barevne-pradlo/essens-praci-prostredek-na-barevne-pradlo-1000-ml/) (HOME13)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Víceúčelový čisticí prostředek 500 ml](https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/essens-viceucelovy-cistici-prostredek-1000-ml/) (HOME21)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Čisticí prostředek na skleněné povrchy 500 ml](https://www.kosmetikaeva.eu/okna-a-zrcadla/essens-cistici-prostredek-na-sklenene-povrchy-1000-ml/) (HOME22)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Čisticí prostředek na kuchyňské povrchy 500 ml](https://www.kosmetikaeva.eu/kuchyne/essens-cistici-prostredek-na-kuchynske-povrchy-1000-ml/) (HOME23)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Čisticí prostředek na koupelnové povrchy 500 ml](https://www.kosmetikaeva.eu/koupelny/essens-cistici-prostredek-na-koupelnove-povrchy-1000-ml/) (HOME24)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Clea'NS - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-clea-ns-doplnek-stravy-30-tablet/) (HOP51)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Pánský parfém m041 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m041-50-ml/) (M04150)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel pro muže m041 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m041-150-ml/) (M041G)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Pánský parfém m042 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m042-50-ml/) (M04250)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel pro muže m042 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m042-150-ml/) (M042G)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Pánský parfém m043 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m043-50-ml/) (M04350)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Pánský parfém m045 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m045-50-ml/) (M04550)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens SECOND SKIN ACTIVE CAPSULES 30 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-second-skin-active-capsules-30-kapsli/) (MHE01)
-- ❌ dodavatel ho nenašel → 0 ks: [ESSENS MONOLAURIN PREMIUM - doplněk stravy 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-monolaurin-premium-doplnek-stravy-60-kapsli/) (MON01)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Collagen - měsíční kúra 30 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-collagen-mesicni-kura-30-x-50-g/) (NSD73)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Nutriessens Collagen FISH - měsíční kúra 30 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-nutriessens-collagen-fish-mesicni-kura-30-x-50-g/) (NSD74)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Collagen - týdenní kúra 7 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-collagen-tydenni-kura-7-x-50-g/) (NSD83)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Nutriessens Collagen FISH - týdenní kúra 7 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-nutriessens-collagen-fish-tydenni-kura-7-x-50-g/) (NSD84)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Set pro hydratovanou pokožku](https://www.kosmetikaeva.eu/telo-2/essens-set-pro-hydratovanou-pokozku/) (SAVE06)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Set Aloe vera Kondicionér pro všechny typy vlasů + refill 200 ml + 500 ml](https://www.kosmetikaeva.eu/vlasy/essens-set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-refill-200-ml-500-ml/) (SAVE24)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens SUN CARE+ TABLETS - doplněk stravy 30 ks](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-sun-care--tablets-doplnek-stravy-30-ks/) (SC27)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Colostrum Set - doplňky stravy 3 x 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-set-doplnky-stravy-3-x-60-kapsli/) (SCOL15)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Tymiánový krém 50 ml](https://www.kosmetikaeva.eu/telo-2/essens-tymianovy-krem-50-ml/) (VIT01)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w145 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w145-50-ml/) (W14551)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w151 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w151-50-ml/) (W150150)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w183 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w183-50-ml/) (W18350)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel pro ženy w183 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-zeny-w183-150-ml/) (W183G)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w184 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w184-50-ml/) (W18450)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel pro ženy w184 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-zeny-w184-150-ml/) (W184G)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w185 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w185-50-ml/) (W18550)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w186 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w186-50-ml/) (W18650)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém W187 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essesn-damsky-parfem-w187-50-ml/) (W18750)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w188 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w188-50-ml/) (W18850)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel w190 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w190-150-ml/) (W190GX)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w193 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w193-50-ml/) (W19350)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel pro ženy w193 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-zeny-w193-150-ml/) (W193G)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Dámský parfém w194 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w194-50-ml/) (W19450)
 
 ## Ceny ke schválení
 
-Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (6 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (21 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění.
 
-⚠️ 3× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.
+⚠️ 13× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.
 
 | Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
 |---|---|---|--:|--:|--:|--:|
+| Essens | [Essens Aloe Vera Soft Spray 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-100-ml/) | AVE61B | 349 Kč | **369 Kč** | 395 Kč | +5.7 % |
 | Essens | [Essens Vitassens Cololipid – doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-vitassens-cololipid---doplnek-stravy-30-tablet/) | SYN04 | 549 Kč | **569 Kč** | 615 Kč | +3.6 % |
 | Eurona | [Eurona Lahvička na ředění s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-lahvicka-na-redeni-s-rozprasovacem/) | 4001 | 39 Kč | **29 Kč** | 29 Kč | -25.6 % ⚠️ |
 | Eurona | [Eurona Sada odměrek](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-sada-odmerek/) | 4008 | 19 Kč | **15 Kč** | 15 Kč | -21.1 % ⚠️ |
 | Eurona | [Eurona Náhradní rozprašovač (spray) pro 250 ml a 500 ml balení 1 ks](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-nahradni-rozprasovac--spray--pro-250-ml-a-500-ml-baleni--1-ks/) | 4050 | 10 Kč | **8 Kč** | 8 Kč | -20.0 % ⚠️ |
 | Eurona | [Eurona Prostředek do vysavače pro potlačení výskytu roztočů, 35 ml](https://www.kosmetikaeva.eu/koberce-a-vysavace/eurona-prostredek-do-vysavace-pro-potlaceni-vyskytu-roztocu--35-ml/) | E3106 | 99 Kč | **109 Kč** | 109 Kč | +10.1 % |
+| Eurona | [Eurona Impregnace na softshell a voděodolné membrány 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-impregnace-na-softshell-a-vodeodolne-membrany--250-ml/) | 1146A | 199 Kč | **189 Kč** | 199 Kč | -5.0 % |
 | Eurona | [Eurona Pumpička na parfém na praní](https://www.kosmetikaeva.eu/parfemy-na-prani/eurona-pumpicka-na-parfem-na-prani/) | 4446 | 20 Kč | **19 Kč** | 20 Kč | -5.0 % |
+| LR | [LR Aloe Vera Winter Pumpkin Hydratační pleťové sérum 30 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-winter-pumpkin-hydratacni-pletove-serum-30-ml/) | 27166-1 | 499 Kč | **369 Kč** | 399 Kč | -26.1 % ⚠️ |
+| LR | [LR Microsilver Plus Mycí krém 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/lr-microsilver-plus-myci-krem-150-ml/) | 25000 | 699 Kč | **519 Kč** | 559 Kč | -25.8 % ⚠️ |
+| LR | [LR Aloe Vera Winter Pumpkin Gelová maska 75 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-winter-pumpkin-gelova-maska-75-ml/) | 27165-1 | 469 Kč | **349 Kč** | 379 Kč | -25.6 % ⚠️ |
+| LR | [LR MICROSILVER PLUS Série pro zdravá ústa](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-serie-pro-zdrava-usta/) | 25125-1 | 1569 Kč | **1169 Kč** | 1270 Kč | -25.5 % ⚠️ |
+| LR | [LR Aloe Vera Krémový gel první pomoci 30 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-kremovy-gel-prvni-pomoci-30-ml/) | 20915-1 | 589 Kč | **439 Kč** | 476 Kč | -25.5 % ⚠️ |
+| LR | [LR Aloe Vera Ochranný krém s propolisem Série 2 ks](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-ochranny-krem-s-propolisem-serie-2-ks/) | 20729-1 | 1179 Kč | **879 Kč** | 955 Kč | -25.4 % ⚠️ |
+| LR | [LR LIFETAKT Reishi Plus Kapsle Série 2 ks](https://www.kosmetikaeva.eu/imunitni-system-2/lr-lifetakt-reishi-plus-kapsle-serie-2-ks/) | 80155-99 | 2559 Kč | **1919 Kč** | 2079 Kč | -25.0 % ⚠️ |
+| LR | [LR Aloe Vera Ochranný deo roll-on 2 ks](https://www.kosmetikaeva.eu/telo-2/lr-aloe-vera-ochranny-deo-roll-on-2-ks/) | 20757-1 | 369 Kč | **279 Kč** | 295 Kč | -24.4 % ⚠️ |
+| LR | [LR MICROSILVER PLUS Pleťový krém 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-microsilver-plus-pletovy-krem-50-ml-2/) | 25009-1 | 739 Kč | **559 Kč** | 599 Kč | -24.4 % ⚠️ |
+| LR | [LR Aloe Vera Broskev & Vita Active Set](https://www.kosmetikaeva.eu/aloe-vera-gel/lr-aloe-vera-broskev-vita-active-set/) | 97903 | 1699 Kč | **1319 Kč** | 1424 Kč | -22.4 % ⚠️ |
+| LR | [LR MICROSILVER PLUS Ošetřující zubní pasta série 2 ks](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-osetrujici-zubni-pasta-serie-2-ks/) | 25124-1 | 679 Kč | **549 Kč** | 590 Kč | -19.1 % |
+| LR | [LR LIFETAKT Pro 12+ Kapsle 30 ks](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-pro-12--kapsle-30-ks/) | 81180-99 | 1269 Kč | **1079 Kč** | 1169 Kč | -15.0 % |
+| LR | [LR MICROSILVER PLUS Ochranná ústní voda 300 ml](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-ochranna-ustni-voda-300-ml/) | 25130-101 | 889 Kč | **759 Kč** | 815 Kč | -14.6 % |
 
-## Dodavatel produkt nenašel (61)
+## Dodavatel produkt nenašel (14)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.
 
-- [Eurona Impregnace na softshell a voděodolné membrány 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-impregnace-na-softshell-a-vodeodolne-membrany--250-ml/) (1146A)
+- [LR Aloe Vera Regenerační Krém DermaIntense 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-dermaintense-50-ml/) (20606)
+- [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
+- [LR ZEITGARD Signature Smart Make-up Pouch](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-smart-make-up-pouch/) (29034-101)
 - [Essens ES`Pure - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-es-pure-doplnek-stravy-30-tablet/) (6512)
-- [Essens Aloe Vera 99.5% Gel Drink - vitamin C 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/essens-aloe-vera-99-5--gel-drink-vitamin-c-500-ml/) (AVE01)
-- [Essens Aloe Vera 99.5% Gel Drink - hrozen 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/essens-aloe-vera-99-5--gel-drink-hrozen-500-ml/) (AVE02)
-- [Essens Aloe Vera 99.5% Gel Drink - jablko + acai 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/essens-aloe-vera-99-5--gel-drink-jablko-acai-500-ml/) (AVE03)
-- [Essens Aloe Vera Pěna na holení 200 ml](https://www.kosmetikaeva.eu/pro-muze/essens-aloe-vera-pena-na-holeni-200-ml/) (AVE32)
-- [Essens Aloe Vera Balzám po holení 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-aloe-vera-balzam-po-holeni-100-ml/) (AVE42)
-- [Essens Zubní pasta s aktivním uhlím a vitaminem B12 100 ml](https://www.kosmetikaeva.eu/usta-a-zuby/essens-zubni-pasta-s-aktivnim-uhlim-a-vitaminem-b12-100-ml/) (AVE50)
-- [Essens Aloe Vera Zubní pasta 100 ml](https://www.kosmetikaeva.eu/usta-a-zuby/essens-aloe-vera-zubni-pasta-100-ml/) (AVE51)
-- [Essens Aloe Vera Soft Spray 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-100-ml/) (AVE61B)
-- [Essens Aloe Vera + Boswellia 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-aloe-vera-boswellia-60-kapsi/) (AVE71)
-- [Essens Aloe Vera + Q10 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-aloe-vera-q10-60-kapsli/) (AVE72)
-- [Essens Aloe vera Deo Stick 50 g](https://www.kosmetikaeva.eu/telo-2/essens-aloe-vera-deo-stick-50-g/) (AVE83)
+- [LR LIFETAKT Active Freedom Kapsle 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-freedom-plus-kapsle-60-kapsli/) (80190)
+- [LR Aloe Vera Drinking Gel Immune Plus Série 6 x 1000 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/lr-aloe-vera-drinking-gel-immune-plus-serie-6-x-1000-ml/) (81006)
 - [Eurona Lavender Designový aromadifuzér 50 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-lavender-designovy-aromadifuzer100-ml/) (CC6734)
 - [Eurona CC CERNY CAFÉ BRAZÍLIE Sul de Minas zrnková káva 500 g](https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-brazilie-sul-de-minas-500-g/) (CE0008)
-- [Essens Colostrum 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-60-kapsli/) (COL01)
-- [Essens Colostrum + Vitamin D 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-vitamin-d-60-kapsli/) (COL02)
-- [Essens Colostrum + Kurkumin 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-kurkumin-60-kapsli/) (COL03)
-- [Essens Krém proti celulitidě s colostrem 150 ml](https://www.kosmetikaeva.eu/telo-2/essens-krem-proti-celulitide-s-colostrem-200-ml/) (COL15)
-- [Essens Jogurtovač COL71](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-jogurtovac/) (COL71)
-- [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
-- [Essens Flow'EN - doplněk stravy 3x30 tablet + Essens  ES'Pure - doplněk stravy 2x30 tablet + Essens Clea'NS - doplněk stravy 30 tablet + Essens ES`Pu…](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-detox-set-doplnky-stravy/) (DETOX)
-- [Essens Čisticí prostředek na mytí nádobí 500 ml](https://www.kosmetikaeva.eu/rucni-myti/essens-cistici-prostredek-na-myti-nadobi-500-ml/) (HOME01)
-- [Essens Prací prostředek na bílé prádlo 500 ml](https://www.kosmetikaeva.eu/bile-pradlo/essens-praci-prostredek-na-bile-pradlo-1000-ml/) (HOME11)
-- [Essens Prací prostředek na barevné prádlo 500 ml](https://www.kosmetikaeva.eu/barevne-pradlo/essens-praci-prostredek-na-barevne-pradlo-1000-ml/) (HOME13)
-- [Essens Víceúčelový čisticí prostředek 500 ml](https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/essens-viceucelovy-cistici-prostredek-1000-ml/) (HOME21)
-- [Essens Čisticí prostředek na skleněné povrchy 500 ml](https://www.kosmetikaeva.eu/okna-a-zrcadla/essens-cistici-prostredek-na-sklenene-povrchy-1000-ml/) (HOME22)
-- [Essens Čisticí prostředek na kuchyňské povrchy 500 ml](https://www.kosmetikaeva.eu/kuchyne/essens-cistici-prostredek-na-kuchynske-povrchy-1000-ml/) (HOME23)
-- [Essens Čisticí prostředek na koupelnové povrchy 500 ml](https://www.kosmetikaeva.eu/koupelny/essens-cistici-prostredek-na-koupelnove-povrchy-1000-ml/) (HOME24)
 - [Essens Clea'NS - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-clea-ns-doplnek-stravy-30-tablet/) (HOP51)
-- [Essens Pánský parfém m041 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m041-50-ml/) (M04150)
-- [Essens Sprchový gel pro muže m041 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m041-150-ml/) (M041G)
-- [Essens Pánský parfém m042 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m042-50-ml/) (M04250)
-- [Essens Sprchový gel pro muže m042 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m042-150-ml/) (M042G)
-- [Essens Pánský parfém m043 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m043-50-ml/) (M04350)
-- [Essens Pánský parfém m045 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m045-50-ml/) (M04550)
-- [Essens SECOND SKIN ACTIVE CAPSULES 30 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-second-skin-active-capsules-30-kapsli/) (MHE01)
-- [ESSENS MONOLAURIN PREMIUM - doplněk stravy 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-monolaurin-premium-doplnek-stravy-60-kapsli/) (MON01)
-- [Essens Collagen - měsíční kúra 30 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-collagen-mesicni-kura-30-x-50-g/) (NSD73)
-- [Essens Nutriessens Collagen FISH - měsíční kúra 30 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-nutriessens-collagen-fish-mesicni-kura-30-x-50-g/) (NSD74)
-- [Essens Collagen - týdenní kúra 7 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-collagen-tydenni-kura-7-x-50-g/) (NSD83)
-- [Essens Nutriessens Collagen FISH - týdenní kúra 7 x 50 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-nutriessens-collagen-fish-tydenni-kura-7-x-50-g/) (NSD84)
 - [Essens Set pro hydratovanou pokožku](https://www.kosmetikaeva.eu/telo-2/essens-set-pro-hydratovanou-pokozku/) (SAVE06)
 - [Essens Set Aloe vera Kondicionér pro všechny typy vlasů + refill 200 ml + 500 ml](https://www.kosmetikaeva.eu/vlasy/essens-set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-refill-200-ml-500-ml/) (SAVE24)
-- [Essens SUN CARE+ TABLETS - doplněk stravy 30 ks](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-sun-care--tablets-doplnek-stravy-30-ks/) (SC27)
-- [Essens Colostrum Set - doplňky stravy 3 x 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-set-doplnky-stravy-3-x-60-kapsli/) (SCOL15)
-- [Essens Tymiánový krém 50 ml](https://www.kosmetikaeva.eu/telo-2/essens-tymianovy-krem-50-ml/) (VIT01)
 - [Essens Dámský parfém w145 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w145-50-ml/) (W14551)
 - [Essens Dámský parfém w151 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w151-50-ml/) (W150150)
-- [Essens Dámský parfém w183 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w183-50-ml/) (W18350)
-- [Essens Sprchový gel pro ženy w183 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-zeny-w183-150-ml/) (W183G)
-- [Essens Dámský parfém w184 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w184-50-ml/) (W18450)
-- [Essens Sprchový gel pro ženy w184 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-zeny-w184-150-ml/) (W184G)
-- [Essens Dámský parfém w185 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w185-50-ml/) (W18550)
-- [Essens Dámský parfém w186 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w186-50-ml/) (W18650)
-- [Essens Dámský parfém W187 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essesn-damsky-parfem-w187-50-ml/) (W18750)
-- [Essens Dámský parfém w188 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w188-50-ml/) (W18850)
 - [Essens Sprchový gel w190 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w190-150-ml/) (W190GX)
-- [Essens Dámský parfém w193 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w193-50-ml/) (W19350)
-- [Essens Sprchový gel pro ženy w193 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-zeny-w193-150-ml/) (W193G)
-- [Essens Dámský parfém w194 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w194-50-ml/) (W19450)
