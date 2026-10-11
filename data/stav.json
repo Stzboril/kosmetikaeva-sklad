@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T11:07+02:00",
+"cas": "2026-10-11T11:11+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -888,7 +888,7 @@
 },
 "23112-101": {
 "dop": 619.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -2464,17 +2464,17 @@
 "80102-499": {
 "dop": 959.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80108-19": {
 "dop": 2685.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80148-19": {
 "dop": 2065.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80155-99": {
 "dop": null,
@@ -2519,7 +2519,7 @@
 "80338-1": {
 "dop": 1269.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80352-499": {
 "dop": 2815.0,

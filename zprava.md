@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 11.10.2026 v 11:07.
+Kontrola u dodavatelů proběhla 11.10.2026 v 11:11.
 
 - **Eurona:** zkontrolováno 535 viditelných produktů
 - **Essens:** zkontrolováno 392 viditelných produktů
@@ -6,10 +6,9 @@ Kontrola u dodavatelů proběhla 11.10.2026 v 11:07.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (10 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (9 produktů)
 
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
-- ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 30 Opalovací mléko 100 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-30-opalovaci-mleko-100-ml/) (23112-101)
 - ❌ dodavatel ho nenašel → 0 ks: [LR ZEITGARD Signature Smart Make-up Pouch](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-smart-make-up-pouch/) (29034-101)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens ES`Pure - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-es-pure-doplnek-stravy-30-tablet/) (6512)
 - ❌ dodavatel ho nenašel → 0 ks: [Eurona Lavender Designový aromadifuzér 50 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-lavender-designovy-aromadifuzer100-ml/) (CC6734)
