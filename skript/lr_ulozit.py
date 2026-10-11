@@ -26,11 +26,13 @@ for radek in open(vstup, encoding="utf-8"):
         continue
     akce = len(casti) > 3 and casti[3].upper() == "ANO"
     url = casti[4] if len(casti) > 4 else ""
-    p = produkty.setdefault(kod, {"skladem": True, "cena": float(cena), "nazev": "", "url": url})
-    if stav == "NE":  # stačí jedna kategorie se štítkem „Není skladem“
-        p["skladem"] = False
+    p = produkty.setdefault(kod, {"skladem": True, "cena": float(cena), "nazev": "", "url": url, "_ano": 0, "_ne": 0})
+    p["_ne" if stav == "NE" else "_ano"] += 1
     if akce:  # akční cena se pro návrh ceny nepoužije
         p["cena"] = None
+# produkt bývá ve více kategoriích; při rozporu (chyba čtení) rozhoduje většina, při shodě „není skladem“
+for p in produkty.values():
+    p["skladem"] = p.pop("_ano") > p.pop("_ne")
 if len(produkty) < 150:
     sys.exit(f"Podezřele málo produktů LR ({len(produkty)}), neukládám.")
 ted = datetime.now(timezone(timedelta(hours=2)))
