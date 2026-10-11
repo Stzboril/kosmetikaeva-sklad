@@ -42,7 +42,10 @@ jobs:
           if git diff --cached --quiet -- ke_importu/; then echo "nove=0" >> "$GITHUB_OUTPUT"; else echo "nove=1" >> "$GITHUB_OUTPUT"; fi
           if ! git diff --cached --quiet; then
             git commit -m "Kontrola $(TZ=Europe/Prague date '+%d.%m.%Y %H:%M')"
-            git push origin HEAD:main
+            for pokus in 1 2 3; do
+              git pull --rebase -X theirs -q origin main && git push origin HEAD:main && break
+              sleep 10
+            done
           fi
 
       - name: Upozornění (GitHub issue + e-mail)
