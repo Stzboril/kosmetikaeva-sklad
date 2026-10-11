@@ -3,7 +3,7 @@ vstup = json.load(open(sys.argv[1]))
 out = json.load(open(sys.argv[2]))
 CZ = re.compile('[řůěŘŮĚ]')
 def tagy(h):
-    t = re.findall(r'<[^>]+>', h or '')
+    t = re.findall(r'<[/!]?[a-zA-Z][^>]*>', h or '')
     return [re.sub(r'\s(alt|title)="[^"]*"', '', x) for x in t]
 def txt(h): return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h or '')).strip()
 def slozeni(h):
