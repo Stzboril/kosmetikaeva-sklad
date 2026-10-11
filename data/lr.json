@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T11:07+02:00",
+"cas": "2026-10-11T11:10+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -286,7 +286,7 @@
 "23112-101": {
 "cena": 619.0,
 "nazev": "",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -298,7 +298,7 @@
 "23114-101": {
 "cena": 709.0,
 "nazev": "",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23116-101": {
@@ -935,19 +935,19 @@
 "cena": 959.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80108-499": {
 "cena": 2685.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80148-499": {
 "cena": 2065.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80155-99": {
 "cena": null,
@@ -1001,7 +1001,7 @@
 "cena": 1269.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80352-499": {
 "cena": 2815.0,
