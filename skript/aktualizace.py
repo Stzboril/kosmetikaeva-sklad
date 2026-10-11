@@ -1,17 +1,17 @@
 """Denní kontrola skladu a cen KosmetikaEva.eu podle dodavatelů.
 
-Výstupy:
-  feed/sklad.csv   – import skladu pro Shoptet (stahuje se automaticky)
-  navrh/ceny.csv   – navržené změny prodejních cen (jdou ke schválení přes Pull request)
-  navrh/popis.md   – text Pull requestu s tabulkou změn cen
-  zprava.md        – čitelná zpráva o posledním běhu
-  data/stav.json   – stav posledního běhu (pro porovnání)
+Výstupy (ukládají se do repozitáře):
+  ke_importu/sklad.csv – jen produkty, u kterých je potřeba změnit sklad (import do Shoptetu)
+  ke_importu/ceny.csv  – navržené nové prodejní ceny (import po schválení)
+  zprava.md            – čitelná zpráva: co se změnilo a proč
+  data/stav.json       – stav posledního běhu
 
 Pravidla (dohodnutá s majitelem e-shopu):
-  * skladem u dodavatele -> sklad 20, není skladem / nenalezeno -> sklad 0
+  * dodavatel má skladem a e-shop ne  -> sklad 20
+  * dodavatel nemá skladem (nebo produkt nenašel) a e-shop ano -> sklad 0
   * prodejní cena = doporučená cena výrobce − 8 %, zaokrouhleno nahoru na Kč končící 9,
     nikdy ne nad doporučenou cenu
-  * ceny Just a Nahrin se nemění (skript je vůbec nezpracovává)
+  * Just a Nahrin se nezpracovávají vůbec
   * produkt v akci (má akční cenu) -> cena se nenavrhuje
 """
 import csv
@@ -31,10 +31,12 @@ sys.path.insert(0, os.path.dirname(__file__))
 import dodavatele  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ESHOP_FEED = "https://www.kosmetikaeva.eu/google/export/products.xml"
+ESHOP = "https://www.kosmetikaeva.eu"
+GOOGLE_FEED = ESHOP + "/google/export/products.xml"
+SKLAD_FEED = ESHOP + "/heureka/export/availability.xml"
 G = "{http://base.google.com/ns/1.0}"
 SLEDOVANE = {"Eurona", "Essens", "LR"}
-NE_SKLAD, ANO_SKLAD = "0", "20"
+NOVY_SKLAD = 20
 PRAHA = timezone(timedelta(hours=2))
 
 
@@ -53,18 +55,18 @@ def nova_cena(doporucena):
 
 
 def cislo(s):
-    m = re.search(r"[\d.,]+", s or "")
+    m = re.search(r"-?[\d.,]+", s or "")
     return float(m.group(0).replace(",", ".")) if m else None
 
 
 # ------------------------------------------------------------ e-shop
 def eshop_produkty():
-    """Viditelné produkty e-shopu z veřejného Google feedu Shoptetu."""
-    r = requests.get(ESHOP_FEED, timeout=120, headers={"User-Agent": dodavatele.UA})
+    """Viditelné produkty e-shopu z veřejných feedů Shoptetu (Google + Heureka dostupnost)."""
+    ua = {"User-Agent": dodavatele.UA}
+    r = requests.get(GOOGLE_FEED, timeout=120, headers=ua)
     r.raise_for_status()
-    root = ET.fromstring(r.content)
     out = {}
-    for it in root.iter("item"):
+    for it in ET.fromstring(r.content).iter("item"):
         kod = (it.findtext(G + "id") or "").strip()
         znacka = (it.findtext(G + "brand") or "").strip()
         if not kod or znacka not in SLEDOVANE:
@@ -75,12 +77,19 @@ def eshop_produkty():
             "znacka": znacka,
             "cena": cislo(it.findtext(G + "price")),
             "akce": cislo(it.findtext(G + "sale_price")),
-            "skladem": (it.findtext(G + "availability") or "") == "in stock",
-            "skupina": (it.findtext(G + "item_group_id") or "").strip(),
+            "sklad": 1 if (it.findtext(G + "availability") or "") == "in stock" else 0,
             "url": (it.findtext("link") or "").strip(),
         }
     if len(out) < 300:
         raise RuntimeError(f"E-shop feed: podezřele málo produktů ({len(out)})")
+    # přesné počty kusů z Heureka feedu dostupnosti
+    r = requests.get(SKLAD_FEED, timeout=120, headers=ua)
+    if r.ok:
+        for it in ET.fromstring(r.content).iter("item"):
+            kod = (it.get("id") or "").strip().upper()
+            q = cislo(it.findtext("stock_quantity"))
+            if kod in out and q is not None:
+                out[kod]["sklad"] = int(q)
     return out
 
 
@@ -94,6 +103,7 @@ def nacti_csv(nazev):
 
 def zapis_csv(nazev, hlavicka, radky):
     """CSV ve formátu importu Shoptetu: UTF-8 s BOM, středník, vše v uvozovkách."""
+    os.makedirs(os.path.dirname(cesta(*nazev.split("/"))), exist_ok=True)
     buf = io.StringIO()
     w = csv.writer(buf, delimiter=";", quoting=csv.QUOTE_ALL, lineterminator="\r\n")
     w.writerow(hlavicka)
@@ -103,21 +113,26 @@ def zapis_csv(nazev, hlavicka, radky):
 
 
 # ------------------------------------------------------------ párování kódů
+ALIASY = {}        # data/aliasy.csv (kod_eshop;kod_dodavatel)
+NEMENIT_CENU = set()  # data/nemenit_cenu.csv – sady, série a jiné výjimky
+NESLEDOVAT = set()    # data/nesledovat.csv – produkty, které se vůbec nekontrolují
+
+
 def najdi(kod, katalog):
     """Najde produkt dodavatele podle kódu e-shopu (velikost písmen nehraje roli)."""
     k = kod.upper()
+    if k in ALIASY:
+        return katalog.get(ALIASY[k])
     if k in katalog:
         return katalog[k]
-    alias = ALIASY.get(k)
-    if alias and alias in katalog:
-        return katalog[alias]
     if k.startswith("E") and k[1:] in katalog:  # Eurona kódy s předponou E (kolize s jiným výrobcem)
         return katalog[k[1:]]
     return None
 
 
-ALIASY = {}  # doplní se z data/aliasy.csv (kod_eshop;kod_dodavatel)
-NEMENIT_CENU = set()  # data/nemenit_cenu.csv – sady, série a jiné výjimky
+def odkaz(nazev, url):
+    nazev = nazev.replace("|", "/")
+    return f"[{nazev}]({url})" if url else nazev
 
 
 def main():
@@ -126,9 +141,9 @@ def main():
         ALIASY[r["kod_eshop"].strip().upper()] = r["kod_dodavatel"].strip().upper()
     for r in nacti_csv("data/nemenit_cenu.csv"):
         NEMENIT_CENU.add(r["kod"].strip().upper())
+    for r in nacti_csv("data/nesledovat.csv"):
+        NESLEDOVAT.add(r["kod"].strip().upper())
     parove = {r["code"].strip().upper(): r["pairCode"].strip() for r in nacti_csv("data/eshop_kody.csv")}
-    # ceny schválené v posledních 48 h, které si Shoptet možná ještě nestáhl
-    schvalene = {r["code"].strip().upper(): cislo(r["price"]) for r in nacti_csv("feed/ceny.csv")}
 
     eshop = eshop_produkty()
     predchozi = {}
@@ -139,123 +154,133 @@ def main():
     for znacka, fce in (("Eurona", dodavatele.eurona), ("Essens", dodavatele.essens)):
         try:
             katalogy[znacka] = fce()
-        except Exception as e:  # dodavatel nedostupný -> jeho sklad tentokrát neměníme
+        except Exception as e:  # dodavatel nedostupný -> jeho produkty tentokrát neměníme
             chyby[znacka] = str(e)
-    chyby.setdefault("LR", "web lr-czech.com blokuje servery (Cloudflare) – LR se kontroluje zvlášť")
+    lr = nacti_lr()
+    if lr:
+        katalogy["LR"] = lr
+    else:
+        chyby["LR"] = "web lr-czech.com blokuje servery GitHubu; data LR nejsou k dispozici nebo jsou starší než 3 dny"
 
-    sklad_radky, ceny_radky, zmeny_skladu, nenalezeno, tabulka = [], [], [], [], []
-    stav = {"cas": ted.isoformat(timespec="minutes"), "produkty": {}}
-
-    # Essens: kódy, které nejsou v žádné kategorii, ještě dohledáme
+    # Essens: kódy, které nejsou v žádné kategorii, dohledáme přes vyhledávání / detail
     if "Essens" in katalogy:
-        chybi = [k for k, p in eshop.items() if p["znacka"] == "Essens" and not najdi(k, katalogy["Essens"])]
-        for kod in chybi[:120]:
-            if True:
+        chybi = [k for k, p in eshop.items() if p["znacka"] == "Essens" and k not in NESLEDOVAT
+                 and not najdi(k, katalogy["Essens"])]
+        for kod in chybi[:150]:
+            url = (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
+            try:
+                nalez = dodavatele.essens_hledej(kod) or (dodavatele.essens_detail(url) if url else None)
+            except Exception:
                 nalez = None
-                url = (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
-                try:
-                    nalez = dodavatele.essens_hledej(kod) or (dodavatele.essens_detail(url) if url else None)
-                except Exception:
-                    nalez = None
-                if nalez:
-                    katalogy["Essens"][kod] = nalez
-                time.sleep(0.3)
+            if nalez:
+                katalogy["Essens"][kod] = nalez
+            time.sleep(0.3)
+
+    sklad_radky, ceny_radky = [], []
+    naskladnit, vyprodat, nenalezeno, ceny = [], [], [], []
+    stav = {"cas": ted.isoformat(timespec="minutes"), "produkty": {}}
 
     for kod, p in sorted(eshop.items()):
         znacka = p["znacka"]
-        if znacka not in katalogy:
+        if znacka not in katalogy or kod in NESLEDOVAT:
             continue
         sup = najdi(kod, katalogy[znacka])
-        stary = (predchozi.get("produkty", {}).get(kod) or {})
-        if sup is None:
-            nenalezeno.append(p)
-            sklad = NE_SKLAD
-        else:
-            sklad = ANO_SKLAD if sup["skladem"] else NE_SKLAD
-        sklad_radky.append([p["kod"], parove.get(kod, ""), sklad])
-        if (ANO_SKLAD if p["skladem"] else NE_SKLAD) != sklad:
-            zmeny_skladu.append((p, sklad))
+        stary = predchozi.get("produkty", {}).get(kod) or {}
         stav["produkty"][kod] = {
-            "sklad": sklad,
+            "skladem": bool(sup and sup["skladem"]),
             "dop": sup["cena"] if sup else None,
             "url_dodavatel": (sup or {}).get("url") or stary.get("url_dodavatel", ""),
         }
 
+        # ---- sklad: měníme jen tam, kde nesedí „skladem / není skladem“
+        if sup is None:
+            nenalezeno.append(p)
+        dodavatel_ma = bool(sup and sup["skladem"])
+        if dodavatel_ma and p["sklad"] <= 0:
+            sklad_radky.append([p["kod"], parove.get(kod, ""), str(NOVY_SKLAD)])
+            naskladnit.append(p)
+        elif not dodavatel_ma and p["sklad"] > 0:
+            sklad_radky.append([p["kod"], parove.get(kod, ""), "0"])
+            vyprodat.append((p, "dodavatel ho nenašel" if sup is None else (sup.get("stav") or "není skladem")))
+
         # ---- cena
-        if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None:
-            continue
-        if p["akce"]:
+        if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None or p["akce"]:
             continue
         nova = nova_cena(sup["cena"])
-        if abs(nova - p["cena"]) < 0.5 or schvalene.get(kod) == nova:
+        if abs(nova - p["cena"]) < 0.5:
             continue
         zmena = (nova - p["cena"]) / p["cena"] * 100
         ceny_radky.append([p["kod"], parove.get(kod, ""), f"{nova:.0f}"])
-        tabulka.append((znacka, p["nazev"], p["kod"], p["cena"], nova, sup["cena"], zmena, p["url"]))
+        ceny.append((znacka, p, nova, sup["cena"], zmena))
 
-    # Dodavatel, který tentokrát nešel stáhnout: ponecháme jeho řádky z minula
-    stary_feed = {r["code"].upper(): r for r in nacti_csv("feed/sklad.csv")}
-    for kod, p in eshop.items():
-        if p["znacka"] not in katalogy and kod in stary_feed:
-            r = stary_feed[kod]
-            sklad_radky.append([r["code"], r.get("pairCode", ""), r["stock"]])
+    zapis_csv("ke_importu/sklad.csv", ["code", "pairCode", "stock"], sklad_radky)
+    zapis_csv("ke_importu/ceny.csv", ["code", "pairCode", "price"], ceny_radky)
 
-    zapis_csv("feed/sklad.csv", ["code", "pairCode", "stock"], sklad_radky)
-    zapis_csv("navrh/ceny.csv", ["code", "pairCode", "price"], ceny_radky)
-
-    # ---- text Pull requestu s návrhem cen
-    tabulka.sort(key=lambda x: (x[0], -abs(x[6])))
-    md = [f"Návrh nových prodejních cen podle doporučených cen výrobců ({ted:%d.%m.%Y %H:%M}).",
-          "",
-          "Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9, nikdy nad doporučenou cenu. "
-          "Produkty v akci, Just a Nahrin se nemění.",
-          "",
-          "**Schválení:** dole klikněte na *Merge pull request* → *Confirm merge*. Shoptet si nové ceny "
-          "stáhne při nejbližším automatickém importu. Když nesouhlasíte, Pull request jen zavřete.",
-          "",
-          f"Počet změn: **{len(tabulka)}**"
-          + (f" (z toho **{sum(1 for t in tabulka if abs(t[6]) >= 20)}** o 20 % a víc – zkontrolujte, "
-             "jestli nejde o sadu nebo jiné balení)" if any(abs(t[6]) >= 20 for t in tabulka) else ""),
-          "",
-          "| Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |",
-          "|---|---|---|--:|--:|--:|--:|"]
-    for z, n, k, c, nc, d, pct in tabulka:
-        varovani = " ⚠️" if abs(pct) >= 20 else ""
-        md.append(f"| {z} | [{n}]({_url(eshop, k)}) | {k} | {c:.0f} Kč | **{nc:.0f} Kč** | {d:.0f} Kč | {pct:+.1f} %{varovani} |")
-    with open(cesta("navrh", "popis.md"), "w", encoding="utf-8") as f:
-        f.write("\n".join(md) + "\n")
-
-    # ---- zpráva
-    z = [f"# Kontrola skladu a cen – {ted:%d.%m.%Y %H:%M}", ""]
+    # ---- zpráva (zároveň text upozornění na GitHubu)
+    raw = "https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu"
+    z = [f"Kontrola u dodavatelů proběhla {ted:%d.%m.%Y v %H:%M}.", ""]
     for znacka in ("Eurona", "Essens", "LR"):
         if znacka in katalogy:
             pocet = sum(1 for p in eshop.values() if p["znacka"] == znacka)
-            z.append(f"- **{znacka}:** zkontrolováno {pocet} produktů e-shopu (u dodavatele {len(katalogy[znacka])} produktů)")
+            z.append(f"- **{znacka}:** zkontrolováno {pocet} viditelných produktů")
         else:
-            z.append(f"- **{znacka}:** sklad se tentokrát neměnil – {chyby.get(znacka, '')}")
-    z += ["", f"## Změny skladu ({len(zmeny_skladu)})", ""]
-    for p, s in zmeny_skladu:
-        z.append(f"- {'✅ naskladněno' if s == ANO_SKLAD else '❌ vyprodáno'}: {p['nazev']} ({p['kod']})")
-    z += ["", f"## Nenalezeno u dodavatele ({len(nenalezeno)}) – sklad 0, zvažte skrytí", ""]
-    for p in nenalezeno:
-        z.append(f"- {p['nazev']} ({p['kod']})")
-    z += ["", f"## Navržené změny cen: {len(tabulka)} – viz otevřený Pull request", ""]
+            z.append(f"- **{znacka}:** nekontrolováno – {chyby.get(znacka, '')}")
+    z += ["", "## Sklad", ""]
+    if sklad_radky:
+        z.append(f"Soubor k importu: [sklad.csv]({raw}/sklad.csv) ({len(sklad_radky)} produktů)")
+        z.append("")
+        for p in naskladnit:
+            z.append(f"- ✅ zase skladem → 20 ks: {odkaz(p['nazev'], p['url'])} ({p['kod']})")
+        for p, proc in vyprodat:
+            z.append(f"- ❌ {proc} → 0 ks: {odkaz(p['nazev'], p['url'])} ({p['kod']})")
+    else:
+        z.append("Beze změn – sklad na e-shopu odpovídá dodavatelům.")
+    z += ["", "## Ceny ke schválení", ""]
+    if ceny:
+        velke = sum(1 for c in ceny if abs(c[4]) >= 20)
+        z.append(f"Soubor k importu: [ceny.csv]({raw}/ceny.csv) ({len(ceny)} produktů). "
+                 "Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. "
+                 "Produkty v akci, Just a Nahrin se nemění.")
+        if velke:
+            z.append("")
+            z.append(f"⚠️ {velke}× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.")
+        z += ["", "| Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |", "|---|---|---|--:|--:|--:|--:|"]
+        for znacka, p, nova, dop, pct in sorted(ceny, key=lambda c: (c[0], -abs(c[4]))):
+            z.append(f"| {znacka} | {odkaz(p['nazev'], p['url'])} | {p['kod']} | {p['cena']:.0f} Kč | "
+                     f"**{nova:.0f} Kč** | {dop:.0f} Kč | {pct:+.1f} %{' ⚠️' if abs(pct) >= 20 else ''} |")
+    else:
+        z.append("Beze změn – ceny odpovídají pravidlu.")
+    if nenalezeno:
+        z += ["", f"## Dodavatel produkt nenašel ({len(nenalezeno)})", "",
+              "Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.", ""]
+        for p in nenalezeno:
+            z.append(f"- {odkaz(p['nazev'], p['url'])} ({p['kod']})")
     with open(cesta("zprava.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(z) + "\n")
 
     with open(cesta("data", "stav.json"), "w", encoding="utf-8") as f:
         json.dump(stav, f, ensure_ascii=False, indent=0, sort_keys=True)
 
-    print(f"Sklad: {len(sklad_radky)} řádků, změn {len(zmeny_skladu)}; návrhy cen: {len(tabulka)}; "
-          f"nenalezeno: {len(nenalezeno)}; chyby: {chyby}")
-    # GitHub Actions: předáme počet návrhů dalšímu kroku
+    souhrn = f"sklad {len(sklad_radky)}, ceny {len(ceny)}"
+    print(f"Hotovo: {souhrn}; nenalezeno {len(nenalezeno)}; chyby: {chyby}")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"navrhu={len(tabulka)}\n")
+            f.write(f"sklad={len(sklad_radky)}\nceny={len(ceny)}\n")
 
 
-def _url(eshop, kod):
-    return eshop.get(kod.upper(), {}).get("url", "")
+def nacti_lr():
+    """Data LR se stahují zvlášť (data/lr.json); použijí se, jen když nejsou starší než 3 dny."""
+    p = cesta("data", "lr.json")
+    if not os.path.exists(p):
+        return None
+    d = json.load(open(p, encoding="utf-8"))
+    try:
+        kdy = datetime.fromisoformat(d["cas"])
+    except (KeyError, ValueError):
+        return None
+    if datetime.now(PRAHA) - kdy > timedelta(days=3):
+        return None
+    return {k.upper(): v for k, v in d["produkty"].items()}
 
 
 if __name__ == "__main__":

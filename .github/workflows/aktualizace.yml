@@ -2,13 +2,13 @@ name: Kontrola skladu a cen
 
 on:
   schedule:
-    # časy jsou v UTC (v Česku +2 h v létě, +1 h v zimě): cca 5:40, 11:40 a 17:40 letního času
-    - cron: "40 3,9,15 * * *"
+    # UTC čas; v Česku cca 6:15 (letní čas) / 5:15 (zimní čas)
+    - cron: "15 4 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pull-requests: write
+  issues: write
 
 concurrency:
   group: aktualizace
@@ -20,8 +20,6 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-python@v6
         with:
@@ -30,48 +28,37 @@ jobs:
       - name: Instalace knihoven
         run: pip install -r skript/requirements.txt
 
-      - name: Schválené ceny držet ve feedu 48 hodin, pak vyprázdnit
-        run: |
-          if [ -f feed/ceny.csv ] && [ "$(wc -l < feed/ceny.csv)" -gt 1 ]; then
-            kdy=$(git log -1 --format=%ct -- feed/ceny.csv)
-            if [ $(( $(date +%s) - kdy )) -gt 172800 ]; then
-              head -n 1 feed/ceny.csv > /tmp/h && mv /tmp/h feed/ceny.csv
-              echo "Schválené ceny jsou už v Shoptetu, feed cen vyprázdněn."
-            fi
-          fi
-
       - name: Kontrola dodavatelů
         id: kontrola
         run: python skript/aktualizace.py
 
-      - name: Uložit sklad a zprávu
+      - name: Uložit výsledek
+        id: ulozit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feed/ data/stav.json zprava.md navrh/
+          git add ke_importu/ data/stav.json zprava.md
+          # nové upozornění jen když se změnilo, co je potřeba naimportovat
+          if git diff --cached --quiet -- ke_importu/; then echo "nove=0" >> "$GITHUB_OUTPUT"; else echo "nove=1" >> "$GITHUB_OUTPUT"; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Sklad a ceny $(TZ=Europe/Prague date '+%d.%m.%Y %H:%M')"
+            git commit -m "Kontrola $(TZ=Europe/Prague date '+%d.%m.%Y %H:%M')"
             git push origin HEAD:main
           fi
 
-      - name: Návrh cen ke schválení (Pull request)
+      - name: Upozornění (GitHub issue + e-mail)
         env:
           GH_TOKEN: ${{ github.token }}
-          NAVRHU: ${{ steps.kontrola.outputs.navrhu }}
+          SKLAD: ${{ steps.kontrola.outputs.sklad }}
+          CENY: ${{ steps.kontrola.outputs.ceny }}
+          NOVE: ${{ steps.ulozit.outputs.nove }}
         run: |
-          OTEVRENY=$(gh pr list --head navrh-cen --state open --json number -q '.[0].number')
-          if [ "${NAVRHU:-0}" -gt 0 ]; then
-            git checkout -B navrh-cen
-            cp navrh/ceny.csv feed/ceny.csv
-            git add feed/ceny.csv
-            git commit -m "Návrh cen ke schválení ($NAVRHU změn)"
-            git push -f origin navrh-cen
-            TITULEK="Ke schválení: změny cen ($NAVRHU produktů)"
-            if [ -z "$OTEVRENY" ]; then
-              gh pr create --base main --head navrh-cen --title "$TITULEK" --body-file navrh/popis.md
-            else
-              gh pr edit "$OTEVRENY" --title "$TITULEK" --body-file navrh/popis.md
-            fi
-          elif [ -n "$OTEVRENY" ]; then
-            gh pr close "$OTEVRENY" --comment "Ceny už odpovídají doporučeným, návrh není potřeba." --delete-branch
+          gh label create k-importu --color FBCA04 --description "Změny k importu do Shoptetu" 2>/dev/null || true
+          OTEVRENE=$(gh issue list --label k-importu --state open --json number -q '.[].number')
+          if [ "${SKLAD:-0}" -eq 0 ] && [ "${CENY:-0}" -eq 0 ]; then
+            for n in $OTEVRENE; do gh issue close "$n" --comment "Vše odpovídá dodavatelům, není co importovat."; done
+          elif [ "$NOVE" = "1" ] || [ -z "$OTEVRENE" ]; then
+            for n in $OTEVRENE; do gh issue close "$n" --comment "Nahrazeno novější kontrolou."; done
+            gh issue create --label k-importu \
+              --title "K importu $(TZ=Europe/Prague date '+%d.%m.%Y'): sklad ${SKLAD:-0}, ceny ${CENY:-0}" \
+              --body-file zprava.md
           fi
