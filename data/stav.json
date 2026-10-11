@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T09:44+02:00",
+"cas": "2026-10-11T11:07+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -619,7 +619,7 @@
 "20328-101": {
 "dop": 429.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "2038": {
 "dop": 229.0,
@@ -654,7 +654,7 @@
 "20436-401": {
 "dop": 469.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "2044": {
 "dop": 229.0,
@@ -709,12 +709,12 @@
 "20603-1": {
 "dop": 469.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20604-101": {
 "dop": 959.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20606": {
 "dop": null,
@@ -729,12 +729,12 @@
 "20610-101": {
 "dop": 399.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20611-101": {
 "dop": 275.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "2062": {
 "dop": 169.0,
@@ -754,27 +754,27 @@
 "20639-102": {
 "dop": 629.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20643-1": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20647-1": {
 "dop": 499.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20648-1": {
 "dop": 429.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20649-1": {
 "dop": 499.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20671-101": {
 "dop": 529.0,
@@ -829,27 +829,27 @@
 "20690-301": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20691-101": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20729-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20730-1": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20757-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20813-1": {
 "dop": 309.0,
@@ -859,7 +859,7 @@
 "20856-1": {
 "dop": 969.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20905-1": {
 "dop": 1775.0,
@@ -879,7 +879,7 @@
 "20920-1": {
 "dop": 1029.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "23110-201": {
 "dop": 809.0,
@@ -912,8 +912,8 @@
 "url_dodavatel": "https://www.lr-czech.com/pece-o-plet"
 },
 "25123-1": {
-"dop": null,
-"skladem": false,
+"dop": 369.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
 },
 "25124-1": {
@@ -952,8 +952,8 @@
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27172-1": {
-"dop": null,
-"skladem": false,
+"dop": 719.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "27175-1": {
@@ -964,7 +964,7 @@
 "27176-1": {
 "dop": 709.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-plet"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "27177-1": {
 "dop": 615.0,
@@ -979,7 +979,7 @@
 "27517-1": {
 "dop": 429.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "28000-101": {
 "dop": 639.0,
@@ -994,11 +994,11 @@
 "28002-1": {
 "dop": 1129.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28100-201": {
-"dop": null,
-"skladem": false,
+"dop": 725.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28191-1": {
@@ -2449,7 +2449,7 @@
 "70110-4": {
 "dop": 8339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70111-1": {
 "dop": 14929.0,
@@ -2464,17 +2464,17 @@
 "80102-499": {
 "dop": 959.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/specialiste"
 },
 "80108-19": {
 "dop": 2685.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/specialiste"
 },
 "80148-19": {
 "dop": 2065.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/specialiste"
 },
 "80155-99": {
 "dop": null,
@@ -2502,8 +2502,8 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80325-1": {
-"dop": null,
-"skladem": false,
+"dop": 1295.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/specialiste"
 },
 "80331-499": {
@@ -2519,7 +2519,7 @@
 "80338-1": {
 "dop": 1269.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/specialiste"
 },
 "80352-499": {
 "dop": 2815.0,
