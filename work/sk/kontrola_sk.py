@@ -5,7 +5,7 @@ CZ = re.compile('[řůěŘŮĚ]')
 def tagy(h):
     t = re.findall(r'<[/!]?[a-zA-Z][^>]*>', h or '')
     return [re.sub(r'\s(alt|title)="[^"]*"', '', x) for x in t]
-def txt(h): return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', h or '')).strip()
+def txt(h): return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', (h or '').replace('Hrabůvka', 'Hrabuvka'))).strip()
 def slozeni(h):
     m = re.search(r'<summary>[^<]*(Složení|Zloženie|INCI|Ingredients)[^<]*</summary>(.*?)</details>', h or '', re.S | re.I)
     return txt(m.group(2)) if m else None
