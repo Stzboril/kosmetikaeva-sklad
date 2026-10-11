@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T17:06+02:00",
+"cas": "2026-10-11T17:09+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3792,9 +3792,9 @@
 "url_dodavatel": "https://www.essens.cz/esencialni-olej-levandule-d219920/"
 },
 "ESOIL02": {
-"dop": null,
+"dop": 450.0,
 "skladem": false,
-"url_dodavatel": ""
+"url_dodavatel": "https://www.essens.cz/esencialni-olej-citron-d219921/"
 },
 "ESOIL03": {
 "dop": 450.0,
@@ -3997,9 +3997,9 @@
 "url_dodavatel": "https://www.essens.cz/cistici-prostredek-na-koupelnove-povrchy-d363367/"
 },
 "HOME80": {
-"dop": null,
+"dop": 85.0,
 "skladem": false,
-"url_dodavatel": ""
+"url_dodavatel": "https://www.essens.cz/redici-lahev-s-rozprasovacem-d149395/"
 },
 "HOME82": {
 "dop": 60.0,
@@ -4322,14 +4322,14 @@
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m043-d341366/"
 },
 "M043G": {
-"dop": null,
+"dop": 210.0,
 "skladem": false,
-"url_dodavatel": ""
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m043-d341658/"
 },
 "M044G": {
-"dop": null,
+"dop": 210.0,
 "skladem": false,
-"url_dodavatel": ""
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m044-d341659/"
 },
 "M04550": {
 "dop": 635.0,
@@ -4867,9 +4867,9 @@
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-soft-spray-d341439/"
 },
 "SAVE06": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
+"dop": 805.0,
+"skladem": true,
+"url_dodavatel": "https://www.essens.cz/set-pro-hydratovanou-pokozku-d405145/"
 },
 "SAVE07": {
 "dop": 1380.0,
@@ -4897,9 +4897,9 @@
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-barvene-a-suche-vl-d498496/"
 },
 "SAVE24": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
+"dop": 1030.0,
+"skladem": true,
+"url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-d498497/"
 },
 "SBEARD": {
 "dop": 1260.0,
@@ -5447,9 +5447,9 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w174-d238211/"
 },
 "W17550": {
-"dop": null,
+"dop": 600.0,
 "skladem": false,
-"url_dodavatel": ""
+"url_dodavatel": "https://www.essens.cz/damsky-parfem-w175-d238212/"
 },
 "W17750": {
 "dop": 600.0,
@@ -5522,9 +5522,9 @@
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w188-d326941/"
 },
 "W190GX": {
-"dop": null,
+"dop": 210.0,
 "skladem": false,
-"url_dodavatel": ""
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,
