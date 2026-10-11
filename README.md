@@ -31,7 +31,8 @@ Soubor stáhnete tak, že v upozornění kliknete pravým tlačítkem na odkaz a
 - `zprava.md` – poslední zpráva (stejná jako v upozornění)
 - `ke_importu/sklad.csv`, `ke_importu/ceny.csv` – soubory pro import do Shoptetu
 - `data/lr.json`, `data/lr_protokol.txt` – data LR a protokol posledního stažení
-- `data/aliasy.csv` – ruční párování kódů e-shop → dodavatel
+- `data/aliasy.csv` – ruční párování kódů e-shop → dodavatel (např. když dodavatel změní kód)
+- `data/eshop_produkty.json` – seznam všech sledovaných produktů e-shopu; vyprodané produkty, které Google feed vynechává, se podle něj kontrolují přímo na jejich stránce, aby se mohly znovu naskladnit
 - `data/nesledovat.csv` – produkty, které se nekontrolují (vzorky, partnerské zboží)
 - `data/nemenit_cenu.csv` – produkty, u kterých se cena nenavrhuje
 - `data/eshop_kody.csv` – párové kódy variant pro import

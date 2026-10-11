@@ -35,6 +35,7 @@ ESHOP = "https://www.kosmetikaeva.eu"
 GOOGLE_FEED = ESHOP + "/google/export/products.xml"
 SKLAD_FEED = ESHOP + "/heureka/export/availability.xml"
 G = "{http://base.google.com/ns/1.0}"
+SNIMEK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "eshop_produkty.json")
 SLEDOVANE = {"Eurona", "Essens", "LR"}
 NOVY_SKLAD = 20
 # Parfémy Essens 50 ml (w…, m…, u…) starší řady (doporučená cena do 600 Kč) mají pevnou cenu 499 Kč
@@ -95,6 +96,29 @@ def eshop_produkty():
             q = cislo(it.findtext("stock_quantity"))
             if kod in out and q is not None:
                 out[kod]["sklad"] = int(q)
+
+    # Google feed vynechává vyprodané produkty (a např. CBD). Bez nich by se vyprodaný produkt
+    # už nikdy nenaskladnil -> pamatujeme si všechny produkty (data/eshop_produkty.json)
+    # a ty, které ve feedu chybí, zkontrolujeme přímo na jejich stránce.
+    znam = {}
+    if os.path.exists(SNIMEK):
+        znam = json.load(open(SNIMEK, encoding="utf-8"))
+    for k, p in out.items():
+        znam[k] = {"kod": p["kod"], "nazev": p["nazev"], "znacka": p["znacka"], "url": p["url"]}
+    for k, z in sorted(znam.items()):
+        if k in out or not z.get("url"):
+            continue
+        try:
+            r = requests.get(z["url"], timeout=40, headers=ua)
+        except requests.RequestException:
+            continue
+        if r.status_code != 200 or z["kod"].replace(" ", "").lower() not in r.text.replace(" ", "").lower():
+            continue  # skrytý nebo smazaný produkt
+        out[k] = {**z, "cena": None, "akce": None, "mimo_feed": True,
+                  "sklad": 1 if "schema.org/InStock" in r.text else 0}
+        time.sleep(0.2)
+    with open(SNIMEK, "w", encoding="utf-8") as f:
+        json.dump(znam, f, ensure_ascii=False, indent=0, sort_keys=True)
     return out
 
 
@@ -184,13 +208,14 @@ def main():
         chybi = [k for k, p in eshop.items() if p["znacka"] == "Essens" and k not in NESLEDOVAT
                  and not najdi(k, katalogy["Essens"])]
         for kod in chybi[:150]:
+            hledat = ALIASY.get(kod, kod)
             url = (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
             try:
-                nalez = dodavatele.essens_hledej(kod) or (dodavatele.essens_detail(url) if url else None)
+                nalez = dodavatele.essens_hledej(hledat) or (dodavatele.essens_detail(url) if url else None)
             except Exception:
                 nalez = None
             if nalez:
-                katalogy["Essens"][kod] = nalez
+                katalogy["Essens"][hledat] = nalez
             time.sleep(0.3)
 
     sklad_radky, ceny_radky = [], []
@@ -212,6 +237,8 @@ def main():
         # ---- sklad: měníme jen tam, kde nesedí „skladem / není skladem“
         if sup is None:
             nenalezeno.append(p)
+            if p.get("mimo_feed"):
+                continue  # produkt mimo Google feed, který dodavatel nezná: raději neměnit
         dodavatel_ma = bool(sup and sup["skladem"])
         if dodavatel_ma and p["sklad"] <= 0:
             sklad_radky.append([p["kod"], parove.get(kod, ""), str(NOVY_SKLAD)])
