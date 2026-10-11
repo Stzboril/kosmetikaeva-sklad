@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T09:47+02:00",
+"cas": "2026-10-11T11:07+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -364,7 +364,7 @@
 "27165-1": {
 "cena": null,
 "nazev": "",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "27166-1": {

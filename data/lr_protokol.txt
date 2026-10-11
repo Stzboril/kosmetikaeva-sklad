@@ -16,3 +16,4 @@ https://www.lr-czech.com/pece-o-plet – 40
 https://www.lr-czech.com/sera – 15
 Uloženo 218 produktů LR, z toho není skladem: 8
 Pozn.: stránka /sera vrátila u 27165-1 NE a u 27167-1 ANO, ostatní stránky opačně – pravděpodobně chyba čtení; 27165-1 je proto vedeno jako není skladem.
+Přepočet 11.10.2026 11:07 s pravidlem většiny: uloženo 218, není skladem 7 (27165-1 opraveno na skladem).
