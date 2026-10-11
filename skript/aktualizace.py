@@ -217,11 +217,16 @@ def main():
             url = (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
             try:
                 nalez = dodavatele.essens_hledej(hledat) or (dodavatele.essens_detail(url) if url else None)
-            except Exception:
+            except Exception as e:
                 nalez = None
+                if eshop[kod].get("mimo_feed"):
+                    print(f"::warning title=Essens hledání {kod}::{str(e)[:300]}")
             if nalez:
                 katalogy["Essens"][hledat] = nalez
+            elif eshop[kod].get("mimo_feed"):
+                print(f"::notice title=Essens nenašel {kod}::hledáno jako {hledat}")
             time.sleep(0.3)
+        print(f"::notice title=Essens dohledávání::chybělo {len(chybi)}, zkoušeno {min(len(chybi), 250)}")
 
     sklad_radky, ceny_radky = [], []
     naskladnit, vyprodat, nenalezeno, ceny = [], [], [], []
