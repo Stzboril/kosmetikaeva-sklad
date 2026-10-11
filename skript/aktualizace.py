@@ -120,7 +120,7 @@ NESLEDOVAT = set()    # data/nesledovat.csv – produkty, které se vůbec nekon
 
 def najdi(kod, katalog):
     """Najde produkt dodavatele podle kódu e-shopu (velikost písmen nehraje roli)."""
-    k = kod.upper()
+    k = re.sub(r"\s", "", kod.upper())
     if k in ALIASY:
         return katalog.get(ALIASY[k])
     if k in katalog:
@@ -133,6 +133,12 @@ def najdi(kod, katalog):
         for pripona in ("X", "N", "B", ""):
             if z + pripona != k and z + pripona in katalog:
                 return katalog[z + pripona]
+    # LR mění koncovku za pomlčkou (20679-101 -> 20679-301): stačí shoda čísla před pomlčkou, je-li jediná
+    if "-" in k:
+        cislo_lr = k.split("-")[0]
+        shody = [x for x in katalog if x.split("-")[0] == cislo_lr]
+        if len(shody) == 1:
+            return katalog[shody[0]]
     return None
 
 
