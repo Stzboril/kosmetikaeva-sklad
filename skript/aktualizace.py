@@ -148,6 +148,8 @@ def zapis_csv(nazev, hlavicka, radky):
 ALIASY = {}        # data/aliasy.csv (kod_eshop;kod_dodavatel)
 NEMENIT_CENU = set()  # data/nemenit_cenu.csv – sady, série a jiné výjimky
 NESLEDOVAT = set()    # data/nesledovat.csv – produkty, které se vůbec nekontrolují
+ESSENS_URL = {}       # data/essens_url.csv – detail produktu Essens, který není v žádné kategorii
+                      # (vyhledávání essens.cz bez přihlášení nefunguje)
 
 
 def najdi(kod, katalog):
@@ -187,6 +189,8 @@ def main():
         NEMENIT_CENU.add(r["kod"].strip().upper())
     for r in nacti_csv("data/nesledovat.csv"):
         NESLEDOVAT.add(r["kod"].strip().upper())
+    for r in nacti_csv("data/essens_url.csv"):
+        ESSENS_URL[r["kod"].strip().upper()] = r["url"].strip()
     parove = {r["code"].strip().upper(): r["pairCode"].strip() for r in nacti_csv("data/eshop_kody.csv")}
 
     eshop = eshop_produkty()
@@ -214,7 +218,7 @@ def main():
         chybi.sort(key=lambda k: not eshop[k].get("mimo_feed"))
         for kod in chybi[:250]:
             hledat = ALIASY.get(kod, kod)
-            url = (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
+            url = ESSENS_URL.get(kod) or (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
             try:
                 nalez = dodavatele.essens_hledej(hledat) or (dodavatele.essens_detail(url) if url else None)
             except Exception as e:
