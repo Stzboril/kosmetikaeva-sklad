@@ -1,0 +1,7192 @@
+{
+ "27001": {
+  "heureka": "1507",
+  "zbozi": "2809",
+  "xmlFeedName": ""
+ },
+ "20679-101": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "20672-101": {
+  "heureka": "1470",
+  "zbozi": "1786",
+  "xmlFeedName": ""
+ },
+ "20690-301": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "20691-101": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "25000": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "28502-1": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "20643-1": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "20606": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "20604-101": {
+  "heureka": "1450",
+  "zbozi": "10424",
+  "xmlFeedName": ""
+ },
+ "20601-1": {
+  "heureka": "4157",
+  "zbozi": "2839",
+  "xmlFeedName": ""
+ },
+ "20602-101": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "20603-1": {
+  "heureka": "1450",
+  "zbozi": "10418",
+  "xmlFeedName": ""
+ },
+ "20631-1": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "20420-101": {
+  "heureka": "1463",
+  "zbozi": "10508",
+  "xmlFeedName": ""
+ },
+ "20422-101": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "80301-499": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80148-19": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80325-1": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80331-499": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80338-1": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "20600-110": {
+  "heureka": "4157",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "28317-201": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "28318-201": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "80332-1": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "20676": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "20610-101": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "20611-101": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "80192-499": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80190": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80364-101": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80361-499": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80389-101": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80550-419": {
+  "heureka": "2036",
+  "zbozi": "1649",
+  "xmlFeedName": ""
+ },
+ "20674-1": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "28504-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "20639-102": {
+  "heureka": "1493",
+  "zbozi": "2839",
+  "xmlFeedName": ""
+ },
+ "80205-419": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "80102-499": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80108-19": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80950-482": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "80850-483": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80700-81": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80706-81": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80750-481": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80800-460": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80806-61": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "20670-101": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "20689-1": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "20675-301": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "20671-101": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "27517-1": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "80360-499": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "80980-99": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "20648-1": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "20649-1": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "20730-1": {
+  "heureka": "7207",
+  "zbozi": "343",
+  "xmlFeedName": ""
+ },
+ "20647-1": {
+  "heureka": "1510",
+  "zbozi": "343",
+  "xmlFeedName": ""
+ },
+ "27003-1": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "80756-481": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "6059": {
+  "heureka": "1459",
+  "zbozi": "2771",
+  "xmlFeedName": ""
+ },
+ "6057": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "6058": {
+  "heureka": "1458",
+  "zbozi": "4697",
+  "xmlFeedName": ""
+ },
+ "6061": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "6018": {
+  "heureka": "4157",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "6051": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6048": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6049": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6044": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "6071": {
+  "heureka": "1450",
+  "zbozi": "10430",
+  "xmlFeedName": ""
+ },
+ "6070": {
+  "heureka": "1450",
+  "zbozi": "10430",
+  "xmlFeedName": ""
+ },
+ "6060": {
+  "heureka": "1447",
+  "zbozi": "336",
+  "xmlFeedName": ""
+ },
+ "6062": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "1001": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1002": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1079": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1003": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1047": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1010": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1009": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1099": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1098": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1021": {
+  "heureka": "451",
+  "zbozi": "1614",
+  "xmlFeedName": ""
+ },
+ "1011": {
+  "heureka": "453",
+  "zbozi": "1614",
+  "xmlFeedName": ""
+ },
+ "1064": {
+  "heureka": "453",
+  "zbozi": "1614",
+  "xmlFeedName": ""
+ },
+ "1020": {
+  "heureka": "453",
+  "zbozi": "1614",
+  "xmlFeedName": ""
+ },
+ "3261": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3254": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3262": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3256": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3257": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3264": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3301": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3263": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "2027": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2040": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2041": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2044": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2045": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2038": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2039": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2005": {
+  "heureka": "6880",
+  "zbozi": "1931",
+  "xmlFeedName": ""
+ },
+ "2055": {
+  "heureka": "6844",
+  "zbozi": "9753",
+  "xmlFeedName": ""
+ },
+ "2057": {
+  "heureka": "6814",
+  "zbozi": "2868",
+  "xmlFeedName": ""
+ },
+ "2054": {
+  "heureka": "6796",
+  "zbozi": "9759",
+  "xmlFeedName": ""
+ },
+ "2069": {
+  "heureka": "6924",
+  "zbozi": "2870",
+  "xmlFeedName": ""
+ },
+ "2053": {
+  "heureka": "468",
+  "zbozi": "2867",
+  "xmlFeedName": ""
+ },
+ "2009": {
+  "heureka": "6711",
+  "zbozi": "3249",
+  "xmlFeedName": ""
+ },
+ "2022": {
+  "heureka": "6711",
+  "zbozi": "3249",
+  "xmlFeedName": ""
+ },
+ "1124": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1088": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1091": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1027": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1131": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1169": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "6341": {
+  "heureka": "4523",
+  "zbozi": "9741",
+  "xmlFeedName": ""
+ },
+ "6347": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "4008": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "AC0003": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "AC0001": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "AC0004": {
+  "heureka": "1289",
+  "zbozi": "2392",
+  "xmlFeedName": ""
+ },
+ "AC0002": {
+  "heureka": "4351",
+  "zbozi": "2392",
+  "xmlFeedName": ""
+ },
+ "3005": {
+  "heureka": "456",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "4001": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "3057": {
+  "heureka": "458",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3108": {
+  "heureka": "458",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3022": {
+  "heureka": "458",
+  "zbozi": "5427",
+  "xmlFeedName": ""
+ },
+ "E3021": {
+  "heureka": "458",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3136": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "3006": {
+  "heureka": "461",
+  "zbozi": "3727",
+  "xmlFeedName": ""
+ },
+ "3386": {
+  "heureka": "461",
+  "zbozi": "3727",
+  "xmlFeedName": ""
+ },
+ "3051": {
+  "heureka": "462",
+  "zbozi": "2877",
+  "xmlFeedName": ""
+ },
+ "3048": {
+  "heureka": "462",
+  "zbozi": "2877",
+  "xmlFeedName": ""
+ },
+ "3050": {
+  "heureka": "462",
+  "zbozi": "2877",
+  "xmlFeedName": ""
+ },
+ "3049": {
+  "heureka": "462",
+  "zbozi": "2877",
+  "xmlFeedName": ""
+ },
+ "1008": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1045": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1066": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1061": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1095": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1023": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1022": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1059": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1049": {
+  "heureka": "451",
+  "zbozi": "1612",
+  "xmlFeedName": ""
+ },
+ "6345": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6338": {
+  "heureka": "4527",
+  "zbozi": "9741",
+  "xmlFeedName": ""
+ },
+ "6340": {
+  "heureka": "4527",
+  "zbozi": "10442",
+  "xmlFeedName": ""
+ },
+ "6342": {
+  "heureka": "4527",
+  "zbozi": "9741",
+  "xmlFeedName": ""
+ },
+ "6339": {
+  "heureka": "1442",
+  "zbozi": "1887",
+  "xmlFeedName": ""
+ },
+ "6330": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "6331": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "1136": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6361": {
+  "heureka": "4529",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "6323": {
+  "heureka": "1442",
+  "zbozi": "1887",
+  "xmlFeedName": ""
+ },
+ "6304": {
+  "heureka": "4523",
+  "zbozi": "9741",
+  "xmlFeedName": ""
+ },
+ "6328": {
+  "heureka": "4524",
+  "zbozi": "9735",
+  "xmlFeedName": ""
+ },
+ "6336": {
+  "heureka": "7521",
+  "zbozi": "9747",
+  "xmlFeedName": ""
+ },
+ "6348": {
+  "heureka": "4524",
+  "zbozi": "9735",
+  "xmlFeedName": ""
+ },
+ "6319": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6329": {
+  "heureka": "7521",
+  "zbozi": "9747",
+  "xmlFeedName": ""
+ },
+ "6074": {
+  "heureka": "1479",
+  "zbozi": "1601",
+  "xmlFeedName": ""
+ },
+ "6073": {
+  "heureka": "1479",
+  "zbozi": "1601",
+  "xmlFeedName": ""
+ },
+ "3384": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "3091": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "3018": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "3083": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "3230": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "3004": {
+  "heureka": "456",
+  "zbozi": "9717",
+  "xmlFeedName": ""
+ },
+ "3355": {
+  "heureka": "2992",
+  "zbozi": "4325",
+  "xmlFeedName": ""
+ },
+ "3356": {
+  "heureka": "2992",
+  "zbozi": "4325",
+  "xmlFeedName": ""
+ },
+ "3058": {
+  "heureka": "460",
+  "zbozi": "2875",
+  "xmlFeedName": ""
+ },
+ "3354": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3043": {
+  "heureka": "460",
+  "zbozi": "2875",
+  "xmlFeedName": ""
+ },
+ "3417": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3416": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3339": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3341": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3059": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3379": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3380": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3382": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3383": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3044": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3129": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3033": {
+  "heureka": "461",
+  "zbozi": "3815",
+  "xmlFeedName": ""
+ },
+ "3357": {
+  "heureka": "2667",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3031": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3238": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3189": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3009": {
+  "heureka": "464",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3366": {
+  "heureka": "446",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3096": {
+  "heureka": "458",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3237": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3099": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3010": {
+  "heureka": "464",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3233": {
+  "heureka": "1479",
+  "zbozi": "1783",
+  "xmlFeedName": ""
+ },
+ "7008": {
+  "heureka": "2526",
+  "zbozi": "1082",
+  "xmlFeedName": ""
+ },
+ "7004": {
+  "heureka": "2526",
+  "zbozi": "1082",
+  "xmlFeedName": ""
+ },
+ "7003": {
+  "heureka": "2526",
+  "zbozi": "1082",
+  "xmlFeedName": ""
+ },
+ "7002": {
+  "heureka": "2526",
+  "zbozi": "1082",
+  "xmlFeedName": ""
+ },
+ "7001": {
+  "heureka": "2526",
+  "zbozi": "1082",
+  "xmlFeedName": ""
+ },
+ "7007": {
+  "heureka": "2526",
+  "zbozi": "1082",
+  "xmlFeedName": ""
+ },
+ "1036": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1060": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1137": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1179": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1163": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1040": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1063": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1014": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "5010": {
+  "heureka": "4362",
+  "zbozi": "1956",
+  "xmlFeedName": ""
+ },
+ "5013": {
+  "heureka": "4369",
+  "zbozi": "3604",
+  "xmlFeedName": ""
+ },
+ "5008": {
+  "heureka": "4369",
+  "zbozi": "3604",
+  "xmlFeedName": ""
+ },
+ "5003": {
+  "heureka": "4363",
+  "zbozi": "3604",
+  "xmlFeedName": ""
+ },
+ "5006": {
+  "heureka": "4364",
+  "zbozi": "2120",
+  "xmlFeedName": ""
+ },
+ "3013": {
+  "heureka": "458",
+  "zbozi": "9795",
+  "xmlFeedName": ""
+ },
+ "6356": {
+  "heureka": "7521",
+  "zbozi": "9747",
+  "xmlFeedName": ""
+ },
+ "6349": {
+  "heureka": "3094",
+  "zbozi": "1890",
+  "xmlFeedName": ""
+ },
+ "CC6735": {
+  "heureka": "1507",
+  "zbozi": "2809",
+  "xmlFeedName": ""
+ },
+ "6069": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "6068": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "6355": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6354": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "6353": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "6352": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "6351": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "6350": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "6063": {
+  "heureka": "1463",
+  "zbozi": "10526",
+  "xmlFeedName": ""
+ },
+ "1065": {
+  "heureka": "451",
+  "zbozi": "1612",
+  "xmlFeedName": ""
+ },
+ "1146A": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "1025": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "1024": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "1170": {
+  "heureka": "451",
+  "zbozi": "1612",
+  "xmlFeedName": ""
+ },
+ "1103": {
+  "heureka": "451",
+  "zbozi": "1612",
+  "xmlFeedName": ""
+ },
+ "1171": {
+  "heureka": "451",
+  "zbozi": "1612",
+  "xmlFeedName": ""
+ },
+ "1039": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1037": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1038": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1030": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1050": {
+  "heureka": "7548",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1143": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "81000-19": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "81006": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "6066": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "6067": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "CC6759": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "CC6760": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "CC6758": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "CC6754": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "CC6755": {
+  "heureka": "1470",
+  "zbozi": "2819",
+  "xmlFeedName": ""
+ },
+ "CC6753": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "1101": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1085": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1087": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1111": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1092": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3001": {
+  "heureka": "457",
+  "zbozi": "2874",
+  "xmlFeedName": ""
+ },
+ "3002": {
+  "heureka": "457",
+  "zbozi": "2874",
+  "xmlFeedName": ""
+ },
+ "3084": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "E3106": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "6083": {
+  "heureka": "439",
+  "zbozi": "3751",
+  "xmlFeedName": ""
+ },
+ "3016": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "4050": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "W10250": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w102 parfém dámský 50 ml"
+ },
+ "W10450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w104 parfém dámský 50 ml"
+ },
+ "W10550": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w105 parfém dámský 50 ml"
+ },
+ "W10650": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w106 parfém dámský 50 ml"
+ },
+ "W10750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w107 parfém dámský 50 ml"
+ },
+ "W11150": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w111 parfém dámský 50 ml"
+ },
+ "W11450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w114 parfém dámský 50 ml"
+ },
+ "W11550": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w115 parfém dámský 50 ml"
+ },
+ "W11650": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w116 parfém dámský 50 ml"
+ },
+ "W11750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w117 parfém dámský 50 ml"
+ },
+ "W11850": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w118 parfém dámský 50 ml"
+ },
+ "W12450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w124 parfém dámský 50 ml"
+ },
+ "W12750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w127 parfém dámský 50 ml"
+ },
+ "W13050": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w130 parfém dámský 50 ml"
+ },
+ "W13750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w137 parfém dámský 50 ml"
+ },
+ "W14150": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w141 parfém dámský 50 ml"
+ },
+ "W14250": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w142 parfém dámský 50 ml"
+ },
+ "W14450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w144 parfém dámský 50 ml"
+ },
+ "W14551": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w145 parfém dámský 50 ml"
+ },
+ "W14850": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w148 parfém dámský 50 ml"
+ },
+ "W15050": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w150 parfém dámský 50 ml"
+ },
+ "W150150": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w151 parfém dámský 50 ml"
+ },
+ "W15350": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w153 parfém dámský 50 ml"
+ },
+ "W15650": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w156 parfém dámský 50 ml"
+ },
+ "W15750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w157 parfém dámský 50 ml"
+ },
+ "W16650": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w166 parfém dámský 50 ml"
+ },
+ "W16850": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w168 parfém dámský 50 ml"
+ },
+ "W107GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "COL01": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "COL02": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "COL03": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "COL72": {
+  "heureka": "1544",
+  "zbozi": "3749",
+  "xmlFeedName": ""
+ },
+ "AVE01": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "AVE02": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "AVE03": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "AVE71": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "AVE72": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "NSD73": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "NSD74": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "NSD83": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "NSD84": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "LUX01": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens Divine Green luxusní parfém unisex 50 ml"
+ },
+ "LUX02": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens Silver Orange luxusní parfém unisex 50 ml"
+ },
+ "HOME11": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "HOME13": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "HOME21": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "HOME22": {
+  "heureka": "461",
+  "zbozi": "3727",
+  "xmlFeedName": ""
+ },
+ "HOME23": {
+  "heureka": "456",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "HOME24": {
+  "heureka": "456",
+  "zbozi": "9717",
+  "xmlFeedName": ""
+ },
+ "HOME80": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "HOP01": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "HOP02": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "HOP11": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "HOP21": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "HOP31": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "HOP51": {
+  "heureka": "1544",
+  "zbozi": "1989",
+  "xmlFeedName": ""
+ },
+ "HOP41": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "6512": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "DETOX": {
+  "heureka": "1544",
+  "zbozi": "1989",
+  "xmlFeedName": ""
+ },
+ "COL71": {
+  "heureka": "4855",
+  "zbozi": "1485",
+  "xmlFeedName": ""
+ },
+ "COL15": {
+  "heureka": "1488",
+  "zbozi": "326",
+  "xmlFeedName": ""
+ },
+ "9460": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "SCOL15": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "FC01": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "HC01": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "HC91": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "M00150": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m001 parfém pánský 50 ml"
+ },
+ "M00350": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m003 parfém pánský 50 ml"
+ },
+ "M00750": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m007 parfém pánský 50 ml"
+ },
+ "M00850": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m008 parfém pánský 50 ml"
+ },
+ "M01450": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m014 parfém pánský 50 ml"
+ },
+ "M01650": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m016 parfém pánský 50 ml"
+ },
+ "M02250": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m022 parfém pánský 50 ml"
+ },
+ "M02450": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m024 parfém pánský 50 ml"
+ },
+ "M02550": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m025 parfém pánský 50 ml"
+ },
+ "M02850": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m028 parfém pánský 50 ml"
+ },
+ "M02950": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m029 parfém pánský 50 ml"
+ },
+ "M03450": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m034 parfém pánský 50 ml"
+ },
+ "WBOUD01": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens Boudoir Second Skin parfém dámský 50 ml"
+ },
+ "PB4005": {
+  "heureka": "1544",
+  "zbozi": "1989",
+  "xmlFeedName": ""
+ },
+ "PB4003": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "PB4002": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "PB4004": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "3063": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "ESOIL01": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL02": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL03": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL04": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL05": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL06": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL07": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL08": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "MON01": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "CC6725": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "6362": {
+  "heureka": "4529",
+  "zbozi": "9741",
+  "xmlFeedName": ""
+ },
+ "3415": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3414": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3335": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3334": {
+  "heureka": "463",
+  "zbozi": "2878",
+  "xmlFeedName": ""
+ },
+ "3333": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1214": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1212": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "6134": {
+  "heureka": "1493",
+  "zbozi": "2839",
+  "xmlFeedName": ""
+ },
+ "3329": {
+  "heureka": "459",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "CC6734": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "3330": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "AVE50": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "AVE51": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "W17150": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w171 parfém dámský 50 ml"
+ },
+ "W17250": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w172 parfém dámský 50 ml"
+ },
+ "W17450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w174 parfém dámský 50 ml"
+ },
+ "W17550": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w175 parfém dámský 50 ml"
+ },
+ "W17750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w177 parfém dámský 50 ml"
+ },
+ "W17950": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w179 parfém dámský 50 ml"
+ },
+ "W18150": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w181 parfém dámský 50 ml"
+ },
+ "W18250": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w182 parfém dámský 50 ml"
+ },
+ "M03650": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m036 parfém pánský 50 ml"
+ },
+ "M03850": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m038 parfém pánský 50 ml"
+ },
+ "M04050": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m040 parfém pánský 50 ml"
+ },
+ "CL0085": {
+  "heureka": "6714",
+  "zbozi": "9311",
+  "xmlFeedName": ""
+ },
+ "SC26": {
+  "heureka": "1482",
+  "zbozi": "10292",
+  "xmlFeedName": ""
+ },
+ "SC27": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "MHE01": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "1217": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3349": {
+  "heureka": "2492",
+  "zbozi": "3574",
+  "xmlFeedName": ""
+ },
+ "AVE42": {
+  "heureka": "1419",
+  "zbozi": "10538",
+  "xmlFeedName": ""
+ },
+ "AVE32": {
+  "heureka": "1463",
+  "zbozi": "10508",
+  "xmlFeedName": ""
+ },
+ "AVE61B": {
+  "heureka": "4157",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "CLASSY/01": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY/02": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY/03": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY/04": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY/05": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY/06": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "DRAMA01": {
+  "heureka": "4491",
+  "zbozi": "2785",
+  "xmlFeedName": ""
+ },
+ "SSPRIM01": {
+  "heureka": "4837",
+  "zbozi": "2790",
+  "xmlFeedName": ""
+ },
+ "SSEYE01": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "SSEYE02": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "SSEYE03": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "SSEYE04": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "EYEBR01": {
+  "heureka": "5214",
+  "zbozi": "2787",
+  "xmlFeedName": ""
+ },
+ "EYEBR02": {
+  "heureka": "5214",
+  "zbozi": "2787",
+  "xmlFeedName": ""
+ },
+ "EYEBR03": {
+  "heureka": "5214",
+  "zbozi": "2787",
+  "xmlFeedName": ""
+ },
+ "SSEPRIM01": {
+  "heureka": "1434",
+  "zbozi": "2788",
+  "xmlFeedName": ""
+ },
+ "SSFND01": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND02": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND03": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND04": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND05": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND06": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND07": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSFND08": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "SSBB01": {
+  "heureka": "1436",
+  "zbozi": "2791",
+  "xmlFeedName": ""
+ },
+ "SSBB02": {
+  "heureka": "1436",
+  "zbozi": "2791",
+  "xmlFeedName": ""
+ },
+ "SSBB03": {
+  "heureka": "1436",
+  "zbozi": "2791",
+  "xmlFeedName": ""
+ },
+ "ADML01": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "ADML02": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "ADML03": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "ADML04": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "ADML05": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "ADML06": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "FRULIP01": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "FRULIP02": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "FRULIP03": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "FRULIP04": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "FRULIP05": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "FRULIP06": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "4ELN03": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens 4 Elements Noir č. 3 parfém unisex 50 ml"
+ },
+ "4ELN07": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens 4 Elements Noir č. 7 parfém dámský 50 ml"
+ },
+ "7390/1-5": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "7390/50": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "7390/75": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "7396/10": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "7396/20": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5085": {
+  "heureka": "4235",
+  "zbozi": "5505",
+  "xmlFeedName": ""
+ },
+ "5098": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "4210": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "5326": {
+  "heureka": "1453",
+  "zbozi": "2837",
+  "xmlFeedName": ""
+ },
+ "4708": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4207": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "6110": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4447": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "7124": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4469": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "7444/10": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "7444/500": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "6142": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4566": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "7073": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "7498/10": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "7498/500": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "CC6748": {
+  "heureka": "1469",
+  "zbozi": "2811",
+  "xmlFeedName": ""
+ },
+ "CC6747": {
+  "heureka": "1469",
+  "zbozi": "2811",
+  "xmlFeedName": ""
+ },
+ "CC6746": {
+  "heureka": "1469",
+  "zbozi": "2811",
+  "xmlFeedName": ""
+ },
+ "CC6745": {
+  "heureka": "1469",
+  "zbozi": "2811",
+  "xmlFeedName": ""
+ },
+ "PB5001": {
+  "heureka": "2302",
+  "zbozi": "1582",
+  "xmlFeedName": ""
+ },
+ "PB5003": {
+  "heureka": "2302",
+  "zbozi": "1582",
+  "xmlFeedName": ""
+ },
+ "PB5004": {
+  "heureka": "2302",
+  "zbozi": "1582",
+  "xmlFeedName": ""
+ },
+ "4201": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4516/500": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4516/700": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4526": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "4511": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "6056": {
+  "heureka": "2302",
+  "zbozi": "1582",
+  "xmlFeedName": ""
+ },
+ "4437": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "6137": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "5456": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5181": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5333": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5187": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5427": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "4989": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "5184": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5182": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5424": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "4451": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "5013A": {
+  "heureka": "1449",
+  "zbozi": "10538",
+  "xmlFeedName": ""
+ },
+ "6134A": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "7618/10": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "7618/30": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "7618/50": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5171B": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5430": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "5058/10": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "5058/100": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "5058/3": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "5151": {
+  "heureka": "1492",
+  "zbozi": "333",
+  "xmlFeedName": ""
+ },
+ "5172/10": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5172/100": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5172/30": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5190": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "5145": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5124": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "6098/10": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "6098/50": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "7669/30": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "VJ6063": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "VJ6099/10": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "VJ6099/50": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "7687/10": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "7687/75": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "6065/10": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "6065/50": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "6095": {
+  "heureka": "1470",
+  "zbozi": "2819",
+  "xmlFeedName": ""
+ },
+ "6087": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "6064": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "5146/05": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5146/10": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5146/100": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5146/30": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5593": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "5021": {
+  "heureka": "1453",
+  "zbozi": "2836",
+  "xmlFeedName": ""
+ },
+ "7717/100": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "7717/5 M": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5458": {
+  "heureka": "1459",
+  "zbozi": "2771",
+  "xmlFeedName": ""
+ },
+ "5462": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "5463": {
+  "heureka": "1458",
+  "zbozi": "4697",
+  "xmlFeedName": ""
+ },
+ "5100": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "5175": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "5461": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "5547": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "5368": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "5041": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "5042": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "5067": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "5122": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "6168": {
+  "heureka": "5241",
+  "zbozi": "1577",
+  "xmlFeedName": ""
+ },
+ "4312": {
+  "heureka": "5241",
+  "zbozi": "1577",
+  "xmlFeedName": ""
+ },
+ "5102": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "5489": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5484": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "1222": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1221": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3363": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "2062": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "2063": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "3361": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "6138": {
+  "heureka": "1453",
+  "zbozi": "2836",
+  "xmlFeedName": ""
+ },
+ "5469": {
+  "heureka": "2297",
+  "zbozi": "1577",
+  "xmlFeedName": ""
+ },
+ "5071A": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "3360": {
+  "heureka": "458",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3359": {
+  "heureka": "458",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "1229": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1230": {
+  "heureka": "454",
+  "zbozi": "1616",
+  "xmlFeedName": ""
+ },
+ "1228": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "4ELB05": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens Blanc č. 5 parfém dámský 50 ml"
+ },
+ "5017": {
+  "heureka": "4369",
+  "zbozi": "3604",
+  "xmlFeedName": ""
+ },
+ "CC6767": {
+  "heureka": "1507",
+  "zbozi": "2809",
+  "xmlFeedName": ""
+ },
+ "PB2015": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2001": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "3346": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "1218": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "CA0171": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "3348": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "2061": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "3347": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "CC6762": {
+  "heureka": "1496",
+  "zbozi": "335",
+  "xmlFeedName": ""
+ },
+ "CC6763": {
+  "heureka": "1496",
+  "zbozi": "335",
+  "xmlFeedName": ""
+ },
+ "CC6764": {
+  "heureka": "1470",
+  "zbozi": "2818",
+  "xmlFeedName": ""
+ },
+ "AVE65": {
+  "heureka": "4157",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "AVE66": {
+  "heureka": "4157",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "3358": {
+  "heureka": "465",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "CA0152": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0153": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0154": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0155": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0157": {
+  "heureka": "2421",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0158": {
+  "heureka": "2421",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0159": {
+  "heureka": "2421",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0160": {
+  "heureka": "2421",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "6015": {
+  "heureka": "1343",
+  "zbozi": "1557",
+  "xmlFeedName": ""
+ },
+ "LUX03": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens Ultramarine Blue luxusní parfém unisex 50 ml"
+ },
+ "81245 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81246 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81247 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81241 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81242 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81243 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81240 - 19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "20826 - 1": {
+  "heureka": "1450",
+  "zbozi": "10412",
+  "xmlFeedName": ""
+ },
+ "5348": {
+  "heureka": "1453",
+  "zbozi": "308",
+  "xmlFeedName": ""
+ },
+ "ESOIL41": {
+  "heureka": "1516",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3065": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3081": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3094": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3101": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3127": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "CA0175": {
+  "heureka": "2411",
+  "zbozi": "1862",
+  "xmlFeedName": ""
+ },
+ "3381": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3385": {
+  "heureka": "456",
+  "zbozi": "9717",
+  "xmlFeedName": ""
+ },
+ "2068": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "3387": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3390": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3389": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "5387A": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5168": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "5157": {
+  "heureka": "1479",
+  "zbozi": "1601",
+  "xmlFeedName": ""
+ },
+ "HPS07N": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "5500": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "3388": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "KAVA": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "W18350": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w183 parfém dámský 50 ml"
+ },
+ "W18450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w184 parfém dámský 50 ml"
+ },
+ "W18550": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w185 parfém dámský 50 ml"
+ },
+ "M04150": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m041 parfém pánský 50 ml"
+ },
+ "M04250": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m042 parfém pánský 50 ml"
+ },
+ "M04350": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m043 parfém pánský 50 ml"
+ },
+ "W18650": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w186 parfém dámský 50 ml"
+ },
+ "W18750": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w187 parfém dámský 50 ml"
+ },
+ "W18850": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w188 parfém dámský 50 ml"
+ },
+ "1248": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1246": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "3407": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3403": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "5044": {
+  "heureka": "4157",
+  "zbozi": "2839",
+  "xmlFeedName": ""
+ },
+ "1247": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3408": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "1245": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3404": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "W19350": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w193 parfém dámský 50 ml"
+ },
+ "W19450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w194 parfém dámský 50 ml"
+ },
+ "M04550": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m045 parfém pánský 50 ml"
+ },
+ "CC6787": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Cerny Cosmetix Skailyn parfémovaná voda dámská 50 ml"
+ },
+ "CC6784": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Eurona Cerny Cosmetix Gentless parfémovaná voda pánská 50 ml"
+ },
+ "6030": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "8833/10": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8833/100": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8833/30": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8833/60": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8836/20": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "8836/50": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "8836/75": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "5144/03": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5144/10": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5144/100": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5144/30": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5144/60": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5140": {
+  "heureka": "1453",
+  "zbozi": "308",
+  "xmlFeedName": ""
+ },
+ "8845": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "8848/10": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8848/100": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8848/3 M": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8848/30": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8848/60": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5084/100": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5084/30": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5084/5": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5084/60": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "8854/03": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8854/10": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8854/100": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8854/30": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8854/60": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5329": {
+  "heureka": "1453",
+  "zbozi": "2837",
+  "xmlFeedName": ""
+ },
+ "5325": {
+  "heureka": "1453",
+  "zbozi": "2837",
+  "xmlFeedName": ""
+ },
+ "5327": {
+  "heureka": "1453",
+  "zbozi": "2837",
+  "xmlFeedName": ""
+ },
+ "5330": {
+  "heureka": "1453",
+  "zbozi": "2837",
+  "xmlFeedName": ""
+ },
+ "5170": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "9462/10": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "9462/100": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "9462/30": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "9462/60": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "8896/10": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8896/100": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8896/30": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "8896/60": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "5143/03": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5143/10": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5143/100": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5143/30": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5143/60": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "5371": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "8908": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "5102A": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "8914": {
+  "heureka": "1482",
+  "zbozi": "10298",
+  "xmlFeedName": ""
+ },
+ "5171": {
+  "heureka": "1489",
+  "zbozi": "10388",
+  "xmlFeedName": ""
+ },
+ "1251": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1249": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1252": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1250": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3418": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3412": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3419": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3411": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "PB5002": {
+  "heureka": "2302",
+  "zbozi": "1582",
+  "xmlFeedName": ""
+ },
+ "CC6794": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "CC6792": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6793": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Eyos Magnoli parfémovaná voda dámská 50 ml"
+ },
+ "CC6791": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Eurona Man Zone No.1 parfémovaná voda pánská 50 ml"
+ },
+ "CA0179": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "CA0178": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "6053": {
+  "heureka": "5241",
+  "zbozi": "1577",
+  "xmlFeedName": ""
+ },
+ "5383": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "6166": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "LPHBFCN/50": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "BBS/5": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "LPRT/250": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "LBSCZ/150": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "LBSCZ/250": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "LBSCZ/50": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "2002": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "2001": {
+  "heureka": "4351",
+  "zbozi": "2392",
+  "xmlFeedName": ""
+ },
+ "5472": {
+  "heureka": "1507",
+  "zbozi": "2809",
+  "xmlFeedName": ""
+ },
+ "LPDFCCH/50_TUBA": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "5598": {
+  "heureka": "1483",
+  "zbozi": "10328",
+  "xmlFeedName": ""
+ },
+ "5065": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "7213": {
+  "heureka": "1498",
+  "zbozi": "2832",
+  "xmlFeedName": ""
+ },
+ "LGOCH/50": {
+  "heureka": "1469",
+  "zbozi": "2811",
+  "xmlFeedName": ""
+ },
+ "LOOCH/50": {
+  "heureka": "1469",
+  "zbozi": "2811",
+  "xmlFeedName": ""
+ },
+ "LPRGCH/100": {
+  "heureka": "1510",
+  "zbozi": "343",
+  "xmlFeedName": ""
+ },
+ "LPRGCH/200": {
+  "heureka": "1510",
+  "zbozi": "343",
+  "xmlFeedName": ""
+ },
+ "7212": {
+  "heureka": "1474",
+  "zbozi": "311",
+  "xmlFeedName": ""
+ },
+ "5174A": {
+  "heureka": "1492",
+  "zbozi": "333",
+  "xmlFeedName": ""
+ },
+ "3413": {
+  "heureka": "456",
+  "zbozi": "9717",
+  "xmlFeedName": ""
+ },
+ "6187": {
+  "heureka": "4526",
+  "zbozi": "1889",
+  "xmlFeedName": ""
+ },
+ "6186": {
+  "heureka": "4524",
+  "zbozi": "9735",
+  "xmlFeedName": ""
+ },
+ "5136": {
+  "heureka": "1493",
+  "zbozi": "2839",
+  "xmlFeedName": ""
+ },
+ "5180": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "5249": {
+  "heureka": "1453",
+  "zbozi": "308",
+  "xmlFeedName": ""
+ },
+ "5396": {
+  "heureka": "1496",
+  "zbozi": "335",
+  "xmlFeedName": ""
+ },
+ "9233": {
+  "heureka": "1463",
+  "zbozi": "10526",
+  "xmlFeedName": ""
+ },
+ "CE0004": {
+  "heureka": "5122",
+  "zbozi": "905",
+  "xmlFeedName": ""
+ },
+ "VIT01": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "VIT02": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "SYN02": {
+  "heureka": "1544",
+  "zbozi": "3749",
+  "xmlFeedName": ""
+ },
+ "SYN03": {
+  "heureka": "1544",
+  "zbozi": "3749",
+  "xmlFeedName": ""
+ },
+ "W183G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W184G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "M041G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "M042G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "M043G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "M044G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W193G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "9461": {
+  "heureka": "1510",
+  "zbozi": "343",
+  "xmlFeedName": ""
+ },
+ "5049": {
+  "heureka": "2340",
+  "zbozi": "10400",
+  "xmlFeedName": ""
+ },
+ "5061": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "5062": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "5251": {
+  "heureka": "1453",
+  "zbozi": "308",
+  "xmlFeedName": ""
+ },
+ "9349": {
+  "heureka": "1453",
+  "zbozi": "308",
+  "xmlFeedName": ""
+ },
+ "5063": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "HOME01": {
+  "heureka": "469",
+  "zbozi": "1932",
+  "xmlFeedName": ""
+ },
+ "6205": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "6250": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "5178": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "6201": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "5981": {
+  "heureka": "1614",
+  "zbozi": "4609",
+  "xmlFeedName": ""
+ },
+ "1259": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "SYN04": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "1261": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "CE0006": {
+  "heureka": "5122",
+  "zbozi": "905",
+  "xmlFeedName": ""
+ },
+ "CE0007": {
+  "heureka": "5122",
+  "zbozi": "905",
+  "xmlFeedName": ""
+ },
+ "CE0005": {
+  "heureka": "5122",
+  "zbozi": "905",
+  "xmlFeedName": ""
+ },
+ "CE0008": {
+  "heureka": "5122",
+  "zbozi": "905",
+  "xmlFeedName": ""
+ },
+ "CC6800": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6806": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6816": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Inspiring olejový parfém dámský 10 ml"
+ },
+ "CC6807": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6808": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6799": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6815": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "CC6814": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "CC6813": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "CC6812": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "CC6811": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "5595": {
+  "heureka": "1482",
+  "zbozi": "10280",
+  "xmlFeedName": ""
+ },
+ "5594": {
+  "heureka": "1482",
+  "zbozi": "10280",
+  "xmlFeedName": ""
+ },
+ "5596": {
+  "heureka": "1482",
+  "zbozi": "10292",
+  "xmlFeedName": ""
+ },
+ "6119": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "9466/125": {
+  "heureka": "1447",
+  "zbozi": "336",
+  "xmlFeedName": ""
+ },
+ "9466/250": {
+  "heureka": "1447",
+  "zbozi": "336",
+  "xmlFeedName": ""
+ },
+ "6207": {
+  "heureka": "1447",
+  "zbozi": "336",
+  "xmlFeedName": ""
+ },
+ "9472/100": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "9472/60": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "6231": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "23114-101": {
+  "heureka": "1482",
+  "zbozi": "10304",
+  "xmlFeedName": ""
+ },
+ "5060": {
+  "heureka": "1505",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "1274": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3459": {
+  "heureka": "456",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "CH0015": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "6138A": {
+  "heureka": "1544",
+  "zbozi": "3749",
+  "xmlFeedName": ""
+ },
+ "PB2025": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2026": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "AVE83": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "AVE104": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "AVE106": {
+  "heureka": "1496",
+  "zbozi": "335",
+  "xmlFeedName": ""
+ },
+ "81250-19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "28191-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "1280": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "3473": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3465": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3469": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "1276": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3464": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3468": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3472": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "1283": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "4446": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1279": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3467": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3471": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "30710-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Amaze Me parfémovaná voda dámská 50 ml"
+ },
+ "97541-7": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Amaze Me parfémovaná voda dámská 50 ml"
+ },
+ "30714-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Be Flirty parfémovaná voda dámská 50 ml"
+ },
+ "97541-11": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Be Flirty parfémovaná voda dámská 50 ml"
+ },
+ "30700-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Be Cheerful parfémovaná voda dámská 50 ml"
+ },
+ "9597/1 M": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Be Cheerful parfémovaná voda dámská 50 ml"
+ },
+ "30707-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Be Magical parfémovaná voda dámská 50 ml"
+ },
+ "97541-5": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Be Magical parfémovaná voda dámská 50 ml"
+ },
+ "30713-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Comfy parfémovaná voda dámská 50 ml"
+ },
+ "97541-10": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Comfy parfémovaná voda dámská 50 ml"
+ },
+ "30709-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Gorgeous parfémovaná voda dámská 50 ml"
+ },
+ "97541-8": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Gorgeous parfémovaná voda dámská 50 ml"
+ },
+ "30704-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Savage parfémovaná voda dámská 50 ml"
+ },
+ "97541-12": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Savage parfémovaná voda dámská 50 ml"
+ },
+ "30708-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Shiny parfémovaná voda dámská 50 ml"
+ },
+ "97541-6": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Feel Shiny parfémovaná voda dámská 50 ml"
+ },
+ "30706-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Impress Me parfémovaná voda dámská 50 ml"
+ },
+ "97541-13": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Impress Me parfémovaná voda dámská 50 ml"
+ },
+ "30705-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Stay Calm parfémovaná voda dámská 50 ml"
+ },
+ "97541-9": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Stay Calm parfémovaná voda dámská 50 ml"
+ },
+ "30701-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Think Big parfémovaná voda dámská 50 ml"
+ },
+ "97541-2": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Think Big parfémovaná voda dámská 50 ml"
+ },
+ "30712-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Be Back parfémovaná voda pánská 50 ml"
+ },
+ "97541-15": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Be Back parfémovaná voda pánská 50 ml"
+ },
+ "30715-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Feel Sexy parfémovaná voda pánská 50 ml"
+ },
+ "97541-18": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Feel Sexy parfémovaná voda pánská 50 ml"
+ },
+ "30717-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Get Addicted parfémovaná voda pánská 50 ml"
+ },
+ "97541-17": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Get Addicted parfémovaná voda pánská 50 ml"
+ },
+ "30702-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR In Focus parfémovaná voda pánská 50 ml"
+ },
+ "97541-3": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR In Focus parfémovaná voda pánská 50 ml"
+ },
+ "30711-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Into Jungle parfémovaná voda pánská 50 ml"
+ },
+ "97541-14": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Into Jungle parfémovaná voda pánská 50 ml"
+ },
+ "30716-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR No Bounds parfémovaná voda pánská 50 ml"
+ },
+ "97541-16": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR No Bounds parfémovaná voda pánská 50 ml"
+ },
+ "30703-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Think Wild parfémovaná voda pánská 50 ml"
+ },
+ "97541-4": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Think Wild parfémovaná voda pánská 50 ml"
+ },
+ "31012-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Famous Elixir for women parfémovaná voda dámská 100 ml"
+ },
+ "97543-3": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Famous Elixir for women parfémovaná voda dámská 100 ml"
+ },
+ "31010-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Glorious Elixir for women parfémovaná voda dámská 100 ml"
+ },
+ "97543-1": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "LR Glorious Elixir for women parfémovaná voda dámská 100 ml"
+ },
+ "31013-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Famous Elixir for men parfémovaná voda pánská 100 ml"
+ },
+ "97543-4": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Famous Elixir for men parfémovaná voda pánská 100 ml"
+ },
+ "31011-1": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Glorious Elixir for men parfémovaná voda pánská 100 ml"
+ },
+ "97543-2": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "LR Glorious Elixir for men parfémovaná voda pánská 100 ml"
+ },
+ "6066/30": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "6066/50": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "9660": {
+  "heureka": "7207",
+  "zbozi": "343",
+  "xmlFeedName": ""
+ },
+ "5459": {
+  "heureka": "446",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "5397": {
+  "heureka": "453",
+  "zbozi": "1614",
+  "xmlFeedName": ""
+ },
+ "LUX04": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens Crimson Aura luxusní parfém unisex 50 ml"
+ },
+ "LUX05": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens Stellar Glow luxusní parfém unisex 50 ml"
+ },
+ "LUX06": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Essens Ruby Whisper luxusní parfém unisex 50 ml"
+ },
+ "LUX07": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens Eternal Ember luxusní parfém dámský 50 ml"
+ },
+ "LUX08": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens Solar Noire luxusní parfém dámský 50 ml"
+ },
+ "LUX09": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens Nocturne Reserve luxusní parfém pánský 50 ml"
+ },
+ "LUX10": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens Western Spirit luxusní parfém pánský 50 ml"
+ },
+ "HPS08": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "HPS09": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "HPS10": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "HPS11": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "9702": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "9705": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "LUX01G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "LUX05G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "LUX08G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "LUX10G": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "28001-101": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "4347A": {
+  "heureka": "5241",
+  "zbozi": "1577",
+  "xmlFeedName": ""
+ },
+ "9726": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "5952": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "9732": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "DP200": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP40": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP400": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP500": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP1000": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP1500": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP2000": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP50": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP60": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP15": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "DP75": {
+  "heureka": "",
+  "zbozi": "",
+  "xmlFeedName": ""
+ },
+ "9768": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "9774": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "6255": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "5019": {
+  "heureka": "4681",
+  "zbozi": "1200",
+  "xmlFeedName": ""
+ },
+ "5020": {
+  "heureka": "4681",
+  "zbozi": "1200",
+  "xmlFeedName": ""
+ },
+ "5583": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "3093": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "6268": {
+  "heureka": "1492",
+  "zbozi": "333",
+  "xmlFeedName": ""
+ },
+ "9796": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "9799": {
+  "heureka": "1450",
+  "zbozi": "10412",
+  "xmlFeedName": ""
+ },
+ "9802": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "9805": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "6267": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "9811": {
+  "heureka": "1492",
+  "zbozi": "333",
+  "xmlFeedName": ""
+ },
+ "W90350": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w903 parfém dámský 50 ml"
+ },
+ "1139": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "97265": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97266": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97267": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97268": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97269": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97276": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97277": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97278": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97279": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97280": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "97631": {
+  "heureka": "1544",
+  "zbozi": "1989",
+  "xmlFeedName": ""
+ },
+ "97900": {
+  "heureka": "1544",
+  "zbozi": "1989",
+  "xmlFeedName": ""
+ },
+ "97903": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "81170-198": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80935-16": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "80856-483": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "81140-98": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "80940-19": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "80945-19": {
+  "heureka": "1544",
+  "zbozi": "3746",
+  "xmlFeedName": ""
+ },
+ "81255-19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "81251-19": {
+  "heureka": "1544",
+  "zbozi": "1988",
+  "xmlFeedName": ""
+ },
+ "80352-499": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "81330-98": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "81180-99": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "29022-1": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "29022-2": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "29022-3": {
+  "heureka": "4811",
+  "zbozi": "2792",
+  "xmlFeedName": ""
+ },
+ "29023-1": {
+  "heureka": "4854",
+  "zbozi": "2793",
+  "xmlFeedName": ""
+ },
+ "29024-1": {
+  "heureka": "4902",
+  "zbozi": "2797",
+  "xmlFeedName": ""
+ },
+ "70111-1": {
+  "heureka": "4500",
+  "zbozi": "4836",
+  "xmlFeedName": ""
+ },
+ "70106-1": {
+  "heureka": "4500",
+  "zbozi": "4836",
+  "xmlFeedName": ""
+ },
+ "70110-1": {
+  "heureka": "4500",
+  "zbozi": "4836",
+  "xmlFeedName": ""
+ },
+ "70110-2": {
+  "heureka": "4500",
+  "zbozi": "4836",
+  "xmlFeedName": ""
+ },
+ "70110-3": {
+  "heureka": "4500",
+  "zbozi": "4836",
+  "xmlFeedName": ""
+ },
+ "70110-4": {
+  "heureka": "4500",
+  "zbozi": "4836",
+  "xmlFeedName": ""
+ },
+ "29026-1": {
+  "heureka": "4861",
+  "zbozi": "2794",
+  "xmlFeedName": ""
+ },
+ "29028-1": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "80155-99": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "29029-1": {
+  "heureka": "4491",
+  "zbozi": "2785",
+  "xmlFeedName": ""
+ },
+ "29027-1": {
+  "heureka": "7407",
+  "zbozi": "2824",
+  "xmlFeedName": ""
+ },
+ "29030-1": {
+  "heureka": "7341",
+  "zbozi": "10215",
+  "xmlFeedName": ""
+ },
+ "29030-2": {
+  "heureka": "7341",
+  "zbozi": "10215",
+  "xmlFeedName": ""
+ },
+ "29032-1": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "29032-2": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "29032-3": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "29033-1": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "29033-2": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "29031-2": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "29031-3": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "29031-4": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "20757-1": {
+  "heureka": "1486",
+  "zbozi": "327",
+  "xmlFeedName": ""
+ },
+ "29032-4": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "27165-1": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "29031-1": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "28000-101": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "70102-1": {
+  "heureka": "4500",
+  "zbozi": "5704",
+  "xmlFeedName": ""
+ },
+ "70105-1": {
+  "heureka": "4500",
+  "zbozi": "5704",
+  "xmlFeedName": ""
+ },
+ "70103-1": {
+  "heureka": "4500",
+  "zbozi": "5704",
+  "xmlFeedName": ""
+ },
+ "70104-1": {
+  "heureka": "4500",
+  "zbozi": "5704",
+  "xmlFeedName": ""
+ },
+ "20915-1": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "28002-1": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "27166-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "70107-1": {
+  "heureka": "4500",
+  "zbozi": "5704",
+  "xmlFeedName": ""
+ },
+ "20920-1": {
+  "heureka": "1488",
+  "zbozi": "326",
+  "xmlFeedName": ""
+ },
+ "20436-401": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "20446-1": {
+  "heureka": "1463",
+  "zbozi": "10526",
+  "xmlFeedName": ""
+ },
+ "20813-1": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "20673-401": {
+  "heureka": "1470",
+  "zbozi": "2818",
+  "xmlFeedName": ""
+ },
+ "20328-101": {
+  "heureka": "1442",
+  "zbozi": "1887",
+  "xmlFeedName": ""
+ },
+ "20729-1": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "25009-1": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "25125-1": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "20905-1": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "28194-101": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "28192-101": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "25130-101": {
+  "heureka": "1459",
+  "zbozi": "2771",
+  "xmlFeedName": ""
+ },
+ "25123-1": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "28193-101": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "96999-19": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "28251-101": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "25124-1": {
+  "heureka": "1462",
+  "zbozi": "2775",
+  "xmlFeedName": ""
+ },
+ "29069-99": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "29021-2": {
+  "heureka": "4839",
+  "zbozi": "2796",
+  "xmlFeedName": ""
+ },
+ "29021-3": {
+  "heureka": "4839",
+  "zbozi": "2796",
+  "xmlFeedName": ""
+ },
+ "28250-101": {
+  "heureka": "1436",
+  "zbozi": "2791",
+  "xmlFeedName": ""
+ },
+ "29021-1": {
+  "heureka": "4839",
+  "zbozi": "2796",
+  "xmlFeedName": ""
+ },
+ "71060-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "27175-1": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "28319-201": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "28100-201": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "27176-1": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "28280-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "28283-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "27172-1": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "27177-1": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "27178-1": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "23116-101": {
+  "heureka": "1483",
+  "zbozi": "10322",
+  "xmlFeedName": ""
+ },
+ "23112-101": {
+  "heureka": "1482",
+  "zbozi": "10280",
+  "xmlFeedName": ""
+ },
+ "20856-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "29034-101": {
+  "heureka": "4450",
+  "zbozi": "1929",
+  "xmlFeedName": ""
+ },
+ "23110-201": {
+  "heureka": "1482",
+  "zbozi": "10298",
+  "xmlFeedName": ""
+ },
+ "23113-101": {
+  "heureka": "1482",
+  "zbozi": "10292",
+  "xmlFeedName": ""
+ },
+ "20910-1": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "WLMT13M": {
+  "heureka": "1497",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "WLMT11M": {
+  "heureka": "1497",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "W904GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W90450X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w904 parfém dámský 50 ml"
+ },
+ "WLMT12M": {
+  "heureka": "1497",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "W90650X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w906 parfém dámský 50 ml"
+ },
+ "W90950X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w909 parfém dámský 50 ml"
+ },
+ "W91150X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w911 parfém dámský 50 ml"
+ },
+ "W91350X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w913 parfém dámský 50 ml"
+ },
+ "W91050X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w910 parfém dámský 50 ml"
+ },
+ "W91250XR": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w912 parfém dámský 50 ml"
+ },
+ "W91450X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens Passenger Princess parfém dámský 50 ml"
+ },
+ "W21150X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w211 parfém dámský 50 ml"
+ },
+ "W20950X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w209 parfém dámský 50 ml"
+ },
+ "W21050X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w210 parfém dámský 50 ml"
+ },
+ "W20850X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w208 parfém dámský 50 ml"
+ },
+ "W20750X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w207 parfém dámský 50 ml"
+ },
+ "W20650X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w206 parfém dámský 50 ml"
+ },
+ "W20550X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w205 parfém dámský 50 ml"
+ },
+ "W20450X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w204 parfém dámský 50 ml"
+ },
+ "W20350X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w203 parfém dámský 50 ml"
+ },
+ "W20250X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w202 parfém dámský 50 ml"
+ },
+ "W20150X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w201 parfém dámský 50 ml"
+ },
+ "W19950X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w199 parfém dámský 50 ml"
+ },
+ "W19850X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w198 parfém dámský 50 ml"
+ },
+ "W19750X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w197 parfém dámský 50 ml"
+ },
+ "W19650X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w196 parfém dámský 50 ml"
+ },
+ "W20050X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w200 parfém dámský 50 ml"
+ },
+ "W19550X": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w195 parfém dámský 50 ml"
+ },
+ "W191GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W194GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W16050": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w160 parfém dámský 50 ml"
+ },
+ "W190GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W188GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W15950N": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w159 parfém dámský 50 ml"
+ },
+ "W187GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W15850": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w158 parfém dámský 50 ml"
+ },
+ "W14950": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w149 parfém dámský 50 ml"
+ },
+ "W14350": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w143 parfém dámský 50 ml"
+ },
+ "W13850": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w138 parfém dámský 50 ml"
+ },
+ "W153GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W11050": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w110 parfém dámský 50 ml"
+ },
+ "W111GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W142GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "W102GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "SETW102T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w102 parfémová sada dámská"
+ },
+ "W13450": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w134 parfém dámský 50 ml"
+ },
+ "SETW107T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w107 parfémová sada dámská"
+ },
+ "SETW111T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w111 parfémová sada dámská"
+ },
+ "SETW142T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w142 parfémová sada dámská"
+ },
+ "SETW153T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w153 parfémová sada dámská"
+ },
+ "SETW171T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w171 parfémová sada dámská"
+ },
+ "SETW183": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w183 parfémová sada dámská"
+ },
+ "SETW184": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w184 parfémová sada dámská"
+ },
+ "SETW187": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w187 parfémová sada dámská"
+ },
+ "SETW193": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w193 parfémová sada dámská"
+ },
+ "SETW188": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w188 parfémová sada dámská"
+ },
+ "SETW904T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w904 parfémová sada dámská"
+ },
+ "SETW190": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w190 parfémová sada dámská"
+ },
+ "W90150": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Essens w901 parfém dámský 50 ml"
+ },
+ "SETW194": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens w194 parfémová sada dámská"
+ },
+ "BEARD01": {
+  "heureka": "3179",
+  "zbozi": "5361",
+  "xmlFeedName": ""
+ },
+ "SBEARD": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "BEARD03": {
+  "heureka": "3182",
+  "zbozi": "5361",
+  "xmlFeedName": ""
+ },
+ "M902GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "M90250X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m902 parfém pánský 50 ml"
+ },
+ "M90350X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m903 parfém pánský 50 ml"
+ },
+ "M90550X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m905 parfém pánský 50 ml"
+ },
+ "M90450X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m904 parfém pánský 50 ml"
+ },
+ "M80950X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m809 parfém pánský 50 ml"
+ },
+ "M05350X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m053 parfém pánský 50 ml"
+ },
+ "M05250X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m052 parfém pánský 50 ml"
+ },
+ "M05150X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m051 parfém pánský 50 ml"
+ },
+ "M05050X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m050 parfém pánský 50 ml"
+ },
+ "M04950X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m049 parfém pánský 50 ml"
+ },
+ "M04750X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m047 parfém pánský 50 ml"
+ },
+ "M04850X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m048 parfém pánský 50 ml"
+ },
+ "M04650X": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m046 parfém pánský 50 ml"
+ },
+ "M045GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "M01550": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m015 parfém pánský 50 ml"
+ },
+ "M01350": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m013 parfém pánský 50 ml"
+ },
+ "M028GX": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "SETM902T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens m902 parfémová sada pánská"
+ },
+ "SETM028T": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens m028 parfémová sada pánská"
+ },
+ "SETM041": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens m041 parfémová sada pánská"
+ },
+ "SETM042": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens m042 parfémová sada pánská"
+ },
+ "SETM045": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens m045 parfémová sada pánská"
+ },
+ "G10150": {
+  "heureka": "1512",
+  "zbozi": "3555",
+  "xmlFeedName": "Essens Bright Star toaletní voda pro dívky 30 ml"
+ },
+ "M90150": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Essens m901 parfém pánský 50 ml"
+ },
+ "B00150": {
+  "heureka": "1512",
+  "zbozi": "3555",
+  "xmlFeedName": "Essens Mystic Moon toaletní voda pro chlapce 30 ml"
+ },
+ "VIT07": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "SETLUX01": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens Divine Green parfémová sada unisex"
+ },
+ "SETCH67": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "SYNSET01": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "MHE19": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "MHE17": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "MHE18": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "LIPOIL02": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "MHE20": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "LGEYE01": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "LGEYE03": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "MHE13": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "LGEYE02": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "CCO01": {
+  "heureka": "4839",
+  "zbozi": "2796",
+  "xmlFeedName": ""
+ },
+ "CCO02": {
+  "heureka": "4839",
+  "zbozi": "2796",
+  "xmlFeedName": ""
+ },
+ "LGEYE04": {
+  "heureka": "1434",
+  "zbozi": "2784",
+  "xmlFeedName": ""
+ },
+ "CLASSY07N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY08N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY09N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY11N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY12N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "CLASSY13N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "EXTRAV04": {
+  "heureka": "4491",
+  "zbozi": "2785",
+  "xmlFeedName": ""
+ },
+ "EXTRAV03": {
+  "heureka": "4491",
+  "zbozi": "2785",
+  "xmlFeedName": ""
+ },
+ "CLASSY10N": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "LELINER01": {
+  "heureka": "4493",
+  "zbozi": "2786",
+  "xmlFeedName": ""
+ },
+ "MHE02RFN": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "SETCH88": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "MHE21": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "SETMHE17": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "MGLOSS01": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "MGLOSS02": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "MGLOSS03": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "MGLOSS04": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "MGLOSS05": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "MHE15": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "MHE10": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "MHE12": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "MHE11": {
+  "heureka": "1468",
+  "zbozi": "318",
+  "xmlFeedName": ""
+ },
+ "SETMHE15": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "SETMHE16": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "SETMHE13": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "SETMHE14": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "MHE05": {
+  "heureka": "1470",
+  "zbozi": "2819",
+  "xmlFeedName": ""
+ },
+ "MHE04": {
+  "heureka": "1470",
+  "zbozi": "2814",
+  "xmlFeedName": ""
+ },
+ "SSPOW01": {
+  "heureka": "4854",
+  "zbozi": "2793",
+  "xmlFeedName": ""
+ },
+ "BLUSH02": {
+  "heureka": "4861",
+  "zbozi": "2794",
+  "xmlFeedName": ""
+ },
+ "MHE02": {
+  "heureka": "1470",
+  "zbozi": "2816",
+  "xmlFeedName": ""
+ },
+ "MHE06": {
+  "heureka": "1470",
+  "zbozi": "2819",
+  "xmlFeedName": ""
+ },
+ "MHE03": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "MHE09": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "MHE07": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "GLOSS02": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "GLOSS04": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "GLOSS06": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "LIPPEN04": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "GLOSS05": {
+  "heureka": "4430",
+  "zbozi": "2800",
+  "xmlFeedName": ""
+ },
+ "LIPPEN05": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "SSLIP02": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "SSLIP03": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "SETCH80": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "LIPPEN06": {
+  "heureka": "4431",
+  "zbozi": "2801",
+  "xmlFeedName": ""
+ },
+ "CONS01": {
+  "heureka": "5202",
+  "zbozi": "306",
+  "xmlFeedName": ""
+ },
+ "CONS03": {
+  "heureka": "5202",
+  "zbozi": "306",
+  "xmlFeedName": ""
+ },
+ "CONS02": {
+  "heureka": "5202",
+  "zbozi": "306",
+  "xmlFeedName": ""
+ },
+ "EYEBRW01": {
+  "heureka": "7401",
+  "zbozi": "10215",
+  "xmlFeedName": ""
+ },
+ "NLL01": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "NLL02": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "BLUSH03": {
+  "heureka": "4902",
+  "zbozi": "2797",
+  "xmlFeedName": ""
+ },
+ "NLL04": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "NLL03": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "NLL05": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "NLL06": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "EBA06": {
+  "heureka": "1421",
+  "zbozi": "301",
+  "xmlFeedName": ""
+ },
+ "NLL07": {
+  "heureka": "1435",
+  "zbozi": "2799",
+  "xmlFeedName": ""
+ },
+ "SETCH54": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "SAVE08": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "SETCH79": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "AVE04": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "SAVE06": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "SETCH41": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "SAVE05": {
+  "heureka": "4157",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "SAVE13": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "AVE13N": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "AVE13RF": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "AVE14N": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "AVE14RF": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "SAVE14": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "SAVE23": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "AVE23N": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "AVE24N": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "SAVE24": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "AVE24RF": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "AVE23RF": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "AVE62": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "AVE59": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "AVE56": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "AVE60": {
+  "heureka": "2365",
+  "zbozi": "6008",
+  "xmlFeedName": ""
+ },
+ "AVE57": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "AVE55N": {
+  "heureka": "1459",
+  "zbozi": "2771",
+  "xmlFeedName": ""
+ },
+ "SAVE07": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "COL15RF": {
+  "heureka": "1488",
+  "zbozi": "326",
+  "xmlFeedName": ""
+ },
+ "SCOL13N": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "COL16RF": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "COL14RF": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "SETCOL14": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "SETCOL15": {
+  "heureka": "1488",
+  "zbozi": "326",
+  "xmlFeedName": ""
+ },
+ "SETCOL16": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "COL16N": {
+  "heureka": "1494",
+  "zbozi": "334",
+  "xmlFeedName": ""
+ },
+ "SETCPL02": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "SETCPL01": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "CPL24N": {
+  "heureka": "1475",
+  "zbozi": "312",
+  "xmlFeedName": ""
+ },
+ "SETCPL03": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "CPL23N": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "CPL25N": {
+  "heureka": "1470",
+  "zbozi": "2815",
+  "xmlFeedName": ""
+ },
+ "CPL26N": {
+  "heureka": "1470",
+  "zbozi": "2817",
+  "xmlFeedName": ""
+ },
+ "HERB01": {
+  "heureka": "4157",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "SCOL01N": {
+  "heureka": "1544",
+  "zbozi": "3749",
+  "xmlFeedName": ""
+ },
+ "HERB02X": {
+  "heureka": "1450",
+  "zbozi": "10424",
+  "xmlFeedName": ""
+ },
+ "CPL40": {
+  "heureka": "4429",
+  "zbozi": "313",
+  "xmlFeedName": ""
+ },
+ "HERB05N": {
+  "heureka": "1450",
+  "zbozi": "10436",
+  "xmlFeedName": ""
+ },
+ "SETHERB1": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "HOME82": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "HOME83": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "HOME85": {
+  "heureka": "465",
+  "zbozi": "5478",
+  "xmlFeedName": ""
+ },
+ "ESOIL97": {
+  "heureka": "2410",
+  "zbozi": "9849",
+  "xmlFeedName": ""
+ },
+ "ESOIL99": {
+  "heureka": "2411",
+  "zbozi": "1862",
+  "xmlFeedName": ""
+ },
+ "HERB03X": {
+  "heureka": "1450",
+  "zbozi": "10424",
+  "xmlFeedName": ""
+ },
+ "ESOIL09": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL10": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "ESOIL51": {
+  "heureka": "1421",
+  "zbozi": "301",
+  "xmlFeedName": ""
+ },
+ "ESOIL11": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "HPR07N": {
+  "heureka": "2414",
+  "zbozi": "2325",
+  "xmlFeedName": ""
+ },
+ "LAC02B": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "ESOIL52": {
+  "heureka": "1421",
+  "zbozi": "301",
+  "xmlFeedName": ""
+ },
+ "ESOIL53": {
+  "heureka": "1421",
+  "zbozi": "301",
+  "xmlFeedName": ""
+ },
+ "HC05": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "KETO92CZ": {
+  "heureka": "1544",
+  "zbozi": "354",
+  "xmlFeedName": ""
+ },
+ "HC03": {
+  "heureka": "1490",
+  "zbozi": "330",
+  "xmlFeedName": ""
+ },
+ "SETLUX05": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens Stellar Glow parfémová sada unisex"
+ },
+ "SETLUX08": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens Solar Noire parfémová sada dámská"
+ },
+ "SETCH21": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": ""
+ },
+ "SETLUX10": {
+  "heureka": "1448",
+  "zbozi": "2828",
+  "xmlFeedName": "Essens Western Spirit parfémová sada pánská"
+ },
+ "1057": {
+  "heureka": "448",
+  "zbozi": "9813",
+  "xmlFeedName": ""
+ },
+ "1164": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1180": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1260": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1262": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1278": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1281": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1282": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1284": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1285": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1286": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1287": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1288": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1289": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1290": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1291": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1292": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1293": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1294": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1295": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1296": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1297": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1298": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1299": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1300": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1301": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1302": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1303": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1304": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1305": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1306": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1307": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1308": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1309": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1310": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1311": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "1312": {
+  "heureka": "450",
+  "zbozi": "1611",
+  "xmlFeedName": ""
+ },
+ "1313": {
+  "heureka": "450",
+  "zbozi": "9579",
+  "xmlFeedName": ""
+ },
+ "1314": {
+  "heureka": "2422",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "1315": {
+  "heureka": "6720",
+  "zbozi": "1617",
+  "xmlFeedName": ""
+ },
+ "3011": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "3014": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3184": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3187": {
+  "heureka": "456",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3190": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "3223": {
+  "heureka": "465",
+  "zbozi": "9813",
+  "xmlFeedName": ""
+ },
+ "3240": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3272": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3289": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3352": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3420": {
+  "heureka": "7521",
+  "zbozi": "10352",
+  "xmlFeedName": ""
+ },
+ "3438": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3439": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3450": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3451": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3452": {
+  "heureka": "465",
+  "zbozi": "9711",
+  "xmlFeedName": ""
+ },
+ "3453": {
+  "heureka": "458",
+  "zbozi": "1740",
+  "xmlFeedName": ""
+ },
+ "3466": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3470": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3474": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3475": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3476": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3477": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3478": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3479": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3480": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3481": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3482": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3483": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3484": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3485": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3486": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3487": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3488": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3493": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3494": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "E3495": {
+  "heureka": "466",
+  "zbozi": "2879",
+  "xmlFeedName": ""
+ },
+ "3496": {
+  "heureka": "448",
+  "zbozi": "5467",
+  "xmlFeedName": ""
+ },
+ "3497": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3498": {
+  "heureka": "7521",
+  "zbozi": "10340",
+  "xmlFeedName": ""
+ },
+ "3499": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3500": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "3501": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "3502": {
+  "heureka": "448",
+  "zbozi": "9813",
+  "xmlFeedName": ""
+ },
+ "6088": {
+  "heureka": "439",
+  "zbozi": "3751",
+  "xmlFeedName": ""
+ },
+ "6090": {
+  "heureka": "439",
+  "zbozi": "3751",
+  "xmlFeedName": ""
+ },
+ "6139": {
+  "heureka": "439",
+  "zbozi": "3751",
+  "xmlFeedName": ""
+ },
+ "6140": {
+  "heureka": "1614",
+  "zbozi": "4609",
+  "xmlFeedName": ""
+ },
+ "E6097": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "6098": {
+  "heureka": "1460",
+  "zbozi": "4542",
+  "xmlFeedName": ""
+ },
+ "6360": {
+  "heureka": "448",
+  "zbozi": "1598",
+  "xmlFeedName": ""
+ },
+ "CA0173": {
+  "heureka": "2421",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0302": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CA0200": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0199": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0198": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0197": {
+  "heureka": "1516",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0309": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CC6860": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CA0312": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CA0310": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CA0164": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "CC6859": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Cerny Lavender olejový parfém dámský 10 ml"
+ },
+ "PB7014": {
+  "heureka": "1334",
+  "zbozi": "1537",
+  "xmlFeedName": ""
+ },
+ "CA0313": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CA0202": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "PB2029": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2030": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "CA0311": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CA0314": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CA0315": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CC6847": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6850": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6853": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6832": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Eurona Pure Ways for him Cool parfém pánský 50 ml"
+ },
+ "CC6831": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Eurona Pure Ways for him Active parfém pánský 50 ml"
+ },
+ "CC6830": {
+  "heureka": "1512",
+  "zbozi": "347",
+  "xmlFeedName": "Eurona Pure Ways for him Charismatic parfém pánský 50 ml"
+ },
+ "CC6848": {
+  "heureka": "1497",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "CC6849": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Eurona Neony Go! Aqua Blue olejový parfém unisex 10 ml"
+ },
+ "CC6851": {
+  "heureka": "1497",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "CC6852": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Eurona Neony Go! Energy Green olejový parfém unisex 10 ml"
+ },
+ "CC6854": {
+  "heureka": "1497",
+  "zbozi": "5589",
+  "xmlFeedName": ""
+ },
+ "CC6855": {
+  "heureka": "1512",
+  "zbozi": "348",
+  "xmlFeedName": "Eurona Neony Go! Juicy Pink olejový parfém unisex 10 ml"
+ },
+ "PB7004": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "PB7005": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "PB7006": {
+  "heureka": "5128",
+  "zbozi": "1701",
+  "xmlFeedName": ""
+ },
+ "CC6845": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "CC6844": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "CC6846": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "CC6839": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "CC6840": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "PB7002": {
+  "heureka": "1333",
+  "zbozi": "1535",
+  "xmlFeedName": ""
+ },
+ "PB7003": {
+  "heureka": "1333",
+  "zbozi": "1535",
+  "xmlFeedName": ""
+ },
+ "PB7001": {
+  "heureka": "1333",
+  "zbozi": "1535",
+  "xmlFeedName": ""
+ },
+ "CA0165": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "CA0172": {
+  "heureka": "2421",
+  "zbozi": "3856",
+  "xmlFeedName": ""
+ },
+ "CA0308": {
+  "heureka": "3425",
+  "zbozi": "893",
+  "xmlFeedName": ""
+ },
+ "CC6843": {
+  "heureka": "7503",
+  "zbozi": "10334",
+  "xmlFeedName": ""
+ },
+ "CC6718": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "PB2027": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2028": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "CC6751": {
+  "heureka": "1470",
+  "zbozi": "2818",
+  "xmlFeedName": ""
+ },
+ "CC6752": {
+  "heureka": "1465",
+  "zbozi": "317",
+  "xmlFeedName": ""
+ },
+ "CC6756": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "CC6757": {
+  "heureka": "1466",
+  "zbozi": "315",
+  "xmlFeedName": ""
+ },
+ "CA0169": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "CC6841": {
+  "heureka": "1505",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "CC6837": {
+  "heureka": "1509",
+  "zbozi": "342",
+  "xmlFeedName": ""
+ },
+ "CC6838": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "CC6842": {
+  "heureka": "1502",
+  "zbozi": "340",
+  "xmlFeedName": ""
+ },
+ "CC6821": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Angelic olejový parfém dámský 10 ml"
+ },
+ "CC6804": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6820": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Boho olejový parfém dámský 10 ml"
+ },
+ "CC6803": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6809": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "CC6818": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Loving olejový parfém dámský 10 ml"
+ },
+ "CC6801": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6819": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Sporty olejový parfém dámský 10 ml"
+ },
+ "CC6802": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6822": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Hypnotic olejový parfém dámský 10 ml"
+ },
+ "CC6805": {
+  "heureka": "1491",
+  "zbozi": "332",
+  "xmlFeedName": ""
+ },
+ "CC6817": {
+  "heureka": "1512",
+  "zbozi": "346",
+  "xmlFeedName": "Eurona Pure Ways for her Elegant olejový parfém dámský 10 ml"
+ },
+ "CC6810": {
+  "heureka": "1495",
+  "zbozi": "2838",
+  "xmlFeedName": ""
+ },
+ "PB7007": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "PB7008": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "PB7009": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "PB7010": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "PB7011": {
+  "heureka": "5128",
+  "zbozi": "1701",
+  "xmlFeedName": ""
+ },
+ "PB7012": {
+  "heureka": "4849",
+  "zbozi": "1702",
+  "xmlFeedName": ""
+ },
+ "CA0166": {
+  "heureka": "2410",
+  "zbozi": "9855",
+  "xmlFeedName": ""
+ },
+ "PB4007": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ },
+ "PB1029": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1031": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1030": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1019": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1004": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1002": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1003": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1014": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1001": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB1034": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB2005": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2006": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2007": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2008": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2011": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2021": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2022": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2013": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB2020": {
+  "heureka": "1352",
+  "zbozi": "4212",
+  "xmlFeedName": ""
+ },
+ "PB6001": {
+  "heureka": "1340",
+  "zbozi": "1544",
+  "xmlFeedName": ""
+ },
+ "PB6002": {
+  "heureka": "1340",
+  "zbozi": "1544",
+  "xmlFeedName": ""
+ },
+ "CH0013": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "CH0014": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "CH0020": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "CH0019": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "CH0018": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "CH0017": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "CH0016": {
+  "heureka": "1328",
+  "zbozi": "903",
+  "xmlFeedName": ""
+ },
+ "PB1032": {
+  "heureka": "2033",
+  "zbozi": "1644",
+  "xmlFeedName": ""
+ },
+ "PB4001": {
+  "heureka": "1544",
+  "zbozi": "355",
+  "xmlFeedName": ""
+ }
+}
