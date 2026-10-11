@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T11:11+02:00",
+"cas": "2026-10-11T13:26+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -801,11 +801,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
-"20676": {
-"dop": 199.0,
-"skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
-},
 "20679-101": {
 "dop": 849.0,
 "skladem": true,
@@ -1185,11 +1180,6 @@
 "dop": 795.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
-},
-"29034-101": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "29069-99": {
 "dop": 15969.0,
@@ -2366,11 +2356,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/6362/puremimi-gentle-baby-soothing-bath-salt-280-g"
 },
-"6512": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "7001": {
 "dop": 329.0,
 "skladem": true,
@@ -3136,11 +3121,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6725/man-zone-no-1-deodorant-50-ml"
 },
-"CC6734": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "CC6735": {
 "dop": 279.0,
 "skladem": true,
@@ -3530,11 +3510,6 @@
 "dop": 589.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CE0007/indie-chikmagalur-selected-coffee-beans-500-g"
-},
-"CE0008": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "CH0013": {
 "dop": 169.0,
@@ -3970,11 +3945,6 @@
 "dop": 700.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/es-leep-doplnek-stravy-d97182/"
-},
-"HOP51": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "HPR07N": {
 "dop": 495.0,
@@ -4781,11 +4751,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-soft-spray-d341439/"
 },
-"SAVE06": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "SAVE07": {
 "dop": 1380.0,
 "skladem": true,
@@ -4810,11 +4775,6 @@
 "dop": 1030.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-barvene-a-suche-vl-d498496/"
-},
-"SAVE24": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SBEARD": {
 "dop": 1260.0,
@@ -5425,11 +5385,6 @@
 "dop": 210.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w188-d326941/"
-},
-"W190GX": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "W191GX": {
 "dop": 210.0,
