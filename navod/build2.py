@@ -12,7 +12,7 @@ SK_OPRAVY = [('>Acqua di Gio<', '>Acqua di Giò<'), ('>Si</strong>', '>Sì</stro
 
 TAIL = {
     'cs': re.compile(r'^(Složení(?! vůně)|Upozornění|Skladování|Péče|Nutriční|Výživové)', re.I),
-    'sk': re.compile(r'^(Zloženie(?! vône)|Upozornenie|Skladovanie|Starostlivosť|Nutričné|Výživové)', re.I),
+    'sk': re.compile(r'^(Zloženie(?! vône)|Zložky|Upozornenie|Skladovanie|Starostlivosť|Nutričné|Výživové)', re.I),
 }
 USE = re.compile(r'Použit|Aplikac|Aplikác|dávkov|Návod|Příprava|Príprava|podávat|podávať', re.I)
 
