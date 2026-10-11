@@ -127,6 +127,12 @@ def najdi(kod, katalog):
         return katalog[k]
     if k.startswith("E") and k[1:] in katalog:  # Eurona kódy s předponou E (kolize s jiným výrobcem)
         return katalog[k[1:]]
+    # Essens mění kódy přidáním písmene na konec (AVE01 -> AVE01B, W18350 -> W18350X, AVE61B -> AVE61N)
+    zaklad = re.sub(r"(?<=\d)[A-Z]{1,2}$", "", k)
+    for z in dict.fromkeys((k, zaklad)):
+        for pripona in ("X", "N", "B", ""):
+            if z + pripona != k and z + pripona in katalog:
+                return katalog[z + pripona]
     return None
 
 
