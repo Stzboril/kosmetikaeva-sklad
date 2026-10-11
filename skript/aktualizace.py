@@ -37,6 +37,10 @@ SKLAD_FEED = ESHOP + "/heureka/export/availability.xml"
 G = "{http://base.google.com/ns/1.0}"
 SLEDOVANE = {"Eurona", "Essens", "LR"}
 NOVY_SKLAD = 20
+# Parfémy Essens 50 ml (w…, m…, u…) mají pevnou cenu podle rozhodnutí majitele (11. 10. 2026).
+# Netýká se luxusních / niche parfémů, sad a vzorků.
+ESSENS_PARFEM = re.compile(r"^Essens (Dámský|Pánský|Unisex) parfém [WMU]\d+ 50 ml$", re.I)
+ESSENS_PARFEM_CENA = 499
 PRAHA = timezone(timedelta(hours=2))
 
 
@@ -219,6 +223,8 @@ def main():
         if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None or p["akce"]:
             continue
         nova = nova_cena(sup["cena"])
+        if znacka == "Essens" and ESSENS_PARFEM.match(" ".join(p["nazev"].split())):
+            nova = ESSENS_PARFEM_CENA
         if abs(nova - p["cena"]) < 0.5:
             continue
         zmena = (nova - p["cena"]) / p["cena"] * 100

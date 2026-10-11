@@ -14,7 +14,7 @@ Když je co importovat, vznikne **upozornění (Issue)** s přehledem a GitHub p
 ## Pravidla
 
 - Dodavatel má skladem a e-shop ne → **sklad 20**. Dodavatel nemá (nebo produkt nenašel) a e-shop ano → **sklad 0**.
-- Nová cena = **doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9**, nikdy nad doporučenou.
+- Nová cena = **doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9**, nikdy nad doporučenou. Výjimka: **parfémy Essens 50 ml (w…, m…, u…) mají pevnou cenu 499 Kč** (luxusní parfémy a sady ne).
 - Ceny se jen **navrhují ke schválení**. Produkty v akci, Just a Nahrin se nemění. U LR se nepoužijí ceny se štítkem „Akce“ / „Měsíční akce“.
 
 ## Co udělat, když přijde e-mail
