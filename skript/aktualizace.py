@@ -42,6 +42,9 @@ NOVY_SKLAD = 20
 # podle rozhodnutí majitele (11. 10. 2026). Novější řada (doporučená 635 Kč) jde podle pravidla −8 % (589 Kč).
 # Netýká se luxusních / niche parfémů, sad a vzorků.
 ESSENS_PARFEM = re.compile(r"^Essens (Dámský|Pánský|Unisex) parfém [WMU]\d+ 50 ml$", re.I)
+# Google feed může mít jiný (srovnávačový) název, např. „Essens m001 parfém pánský 50 ml“ -> poznáme i podle kódu
+ESSENS_PARFEM_FEED = re.compile(r"^Essens [WMU]\d+ parfém (dámský|pánský|unisex) 50 ml$", re.I)
+ESSENS_PARFEM_KOD = re.compile(r"^[WMU]\d{3}5[01][A-Z]?$")
 ESSENS_PARFEM_CENA = 499
 PRAHA = timezone(timedelta(hours=2))
 
@@ -251,8 +254,9 @@ def main():
         if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None or p["akce"]:
             continue
         nova = nova_cena(sup["cena"])
+        nazev = " ".join(p["nazev"].split())
         if (znacka == "Essens" and sup["cena"] <= 600
-                and ESSENS_PARFEM.match(" ".join(p["nazev"].split()))):
+                and (ESSENS_PARFEM.match(nazev) or ESSENS_PARFEM_FEED.match(nazev) or ESSENS_PARFEM_KOD.match(kod))):
             nova = ESSENS_PARFEM_CENA
         if abs(nova - p["cena"]) < 0.5:
             continue
