@@ -93,6 +93,28 @@ def _essens_dlazdice(html, out):
             "url": det["href"] if det and det.has_attr("href") else "",
         }
         n += 1
+    # nedostupné produkty nemají tlačítko do košíku s daty -> kód vezmeme z „oblíbených“
+    for box in soup.select(".thumbnail-new"):
+        fav = box.select_one("[onclick*=markFavorite]")
+        m = re.search(r"markFavorite\(this,\s*'([^']+)'", fav.get("onclick", "")) if fav else None
+        if not m:
+            continue
+        kod = m.group(1).strip().upper()
+        if kod in out:
+            continue
+        text = " ".join(box.get_text(" ").split())
+        d = DOSTUPNOST.search(text)
+        stav = d.group(1) if d else ""
+        nazev = box.select_one(".h-po")
+        det = box.select_one("a.p-item-fd")
+        out[kod] = {
+            "skladem": stav.startswith("Skladem") or stav.startswith("Méně než"),
+            "stav": stav,
+            "cena": None,  # u nedostupných produktů cenu nenavrhujeme
+            "nazev": " ".join(nazev.get_text(" ").split()) if nazev else "",
+            "url": det["href"] if det and det.has_attr("href") else "",
+        }
+        n += 1
     return n
 
 

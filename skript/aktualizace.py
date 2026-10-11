@@ -210,7 +210,9 @@ def main():
     if "Essens" in katalogy:
         chybi = [k for k, p in eshop.items() if p["znacka"] == "Essens" and k not in NESLEDOVAT
                  and not najdi(k, katalogy["Essens"])]
-        for kod in chybi[:150]:
+        # nejdřív vyprodané produkty mimo Google feed (ty jinak nikdo nezkontroluje)
+        chybi.sort(key=lambda k: not eshop[k].get("mimo_feed"))
+        for kod in chybi[:250]:
             hledat = ALIASY.get(kod, kod)
             url = (predchozi.get("produkty", {}).get(kod) or {}).get("url_dodavatel")
             try:
