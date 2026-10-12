@@ -109,7 +109,6 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
 .btn.btn-default,a.btn.btn-default,.box-bg-default .btn.btn-default,.box-bg-default a.btn.btn-default{
   background-color:var(--ke-accent)!important;border-color:var(--ke-accent)!important;color:#fff!important;
 }
-.btn.btn-conversion:hover,a.btn.btn-conversion:hover,.btn.btn-cart:hover,a.btn.btn-cart:hover,
 .btn.btn-default:hover,a.btn.btn-default:hover{background-color:var(--ke-ink)!important;border-color:var(--ke-ink)!important}
 /* „Detail“ a další sekundární tlačítka jako obrys */
 .btn.btn-primary,a.btn.btn-primary{background:#fff!important;color:var(--ke-ink)!important;border:1px solid var(--ke-ink)!important}
@@ -175,12 +174,57 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
 .p-detail .p-final-price-wrapper .price-final,.p-detail .price-final-holder{font-size:30px!important;font-weight:700!important;color:var(--ke-ink)!important}
 .buy-box .bottom,.p-detail .buy-box .bottom{background:#fff!important;border:1px solid var(--ke-line);border-radius:var(--ke-radius)!important;box-shadow:var(--ke-shadow)}
 .p-detail .add-to-cart .btn-conversion,.p-detail .btn-conversion{height:52px!important;line-height:52px!important;padding:0 34px!important}
-.quantity{border-radius:999px!important}
-.quantity .increase,.quantity .decrease{background-color:#fff!important;border:1px solid #dcdbe3!important}
-.quantity .increase::before,.quantity .decrease::before{color:var(--ke-ink)!important}
-.quantity .increase:hover,.quantity .decrease:hover{background-color:var(--ke-soft)!important}
-.quantity input{border-color:#dcdbe3!important}
-.p-detail .add-to-cart .quantity .increase,.p-detail .add-to-cart .quantity .decrease{border-radius:999px!important}
+
+/* Tlačítko Vložit do košíku – hover: tmavší vínová, jemné nadzvednutí a měkký stín */
+.btn.btn-conversion,a.btn.btn-conversion,.btn.btn-cart,a.btn.btn-cart,.add-to-cart-button{
+  transition:background-color .3s ease,border-color .3s ease,box-shadow .3s ease,translate .3s ease!important;
+  box-shadow:0 6px 16px -10px rgba(163,57,42,.6)!important;
+}
+.btn.btn-conversion:hover,a.btn.btn-conversion:hover,.btn.btn-cart:hover,a.btn.btn-cart:hover,.add-to-cart-button:hover,
+.btn.btn-conversion:focus-visible,.btn.btn-cart:focus-visible{
+  background-color:var(--ke-accent-hover)!important;border-color:var(--ke-accent-hover)!important;color:#fff!important;
+  box-shadow:0 14px 28px -12px rgba(163,57,42,.75)!important;translate:0 -2px;
+}
+.btn.btn-conversion:active,.btn.btn-cart:active,.add-to-cart-button:active{translate:0 0;box-shadow:0 4px 10px -6px rgba(163,57,42,.6)!important}
+
+/* Počet kusů – jeden čistý „pill“ s kulatými tlačítky uvnitř */
+.quantity{
+  display:inline-flex!important;align-items:center;justify-content:center;position:relative!important;
+  height:44px!important;padding:0 40px!important;box-sizing:border-box!important;
+  background:#fff!important;border:1px solid #dcdbe3!important;border-radius:999px!important;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+.quantity:hover{border-color:#c9c7d3!important}
+.quantity:focus-within{border-color:var(--ke-ink)!important;box-shadow:0 0 0 3px rgba(28,27,41,.06)}
+.quantity label{margin:0!important;display:block}
+.quantity input,.quantity input.amount{
+  border:0!important;background:transparent!important;box-shadow:none!important;
+  width:34px!important;height:100%!important;padding:0!important;margin:0!important;
+  text-align:center;font-size:16px!important;font-weight:600!important;color:var(--ke-ink)!important;
+  -moz-appearance:textfield;appearance:textfield;outline:0!important;
+}
+.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.quantity .increase,.quantity .decrease{
+  position:absolute!important;top:50%!important;bottom:auto!important;margin-top:-16px!important;
+  width:32px!important;height:32px!important;padding:0!important;
+  border:0!important;border-radius:50%!important;background:transparent!important;box-shadow:none!important;
+  color:var(--ke-ink)!important;cursor:pointer;transition:background-color .2s ease,color .2s ease!important;
+}
+.quantity .decrease{left:6px!important;right:auto!important}
+.quantity .increase{right:6px!important;left:auto!important}
+.quantity .increase::before,.quantity .decrease::before{
+  position:absolute!important;inset:0!important;width:auto!important;height:auto!important;
+  display:flex!important;align-items:center;justify-content:center;
+  font-family:var(--ke-font)!important;font-size:19px!important;font-weight:500!important;line-height:1!important;
+  color:currentColor!important;margin:0!important;
+}
+.quantity .decrease::before{content:"\2212"!important}
+.quantity .increase::before{content:"+"!important}
+.quantity .increase:hover,.quantity .decrease:hover{background:var(--ke-soft)!important;color:var(--ke-accent)!important}
+.p-detail .add-to-cart .quantity,.p-detail .quantity{height:52px!important;padding:0 44px!important;margin-right:12px!important}
+.p-detail .add-to-cart .quantity .increase,.p-detail .add-to-cart .quantity .decrease{width:36px!important;height:36px!important;margin-top:-18px!important;border-radius:50%!important}
+.p-detail .add-to-cart .quantity .decrease{left:8px!important}
+.p-detail .add-to-cart .quantity .increase{right:8px!important}
 .shp-tabs-holder{border-bottom:1px solid var(--ke-line)}
 .shp-tab-link{font-size:14px!important;font-weight:600!important;color:var(--ke-muted)!important}
 .shp-tab.active .shp-tab-link,.shp-tab-link.active{color:var(--ke-ink)!important}
@@ -192,32 +236,59 @@ h2>em,.basic-description h2 em{font-style:normal;font-weight:700;font-size:24px!
 .basic-description h2{text-align:left;margin-bottom:16px}
 .basic-description li::marker,article li::marker{color:var(--ke-accent)}
 
-/* Rozbalovací sekce (Hlava / Srdce / …) – čisté linky místo karet a červených přechodů */
-#content details,.basic-description details,article details{
-  background:transparent!important;box-shadow:none!important;border-radius:0!important;
-  border:0!important;border-image:none!important;border-bottom:1px solid var(--ke-line)!important;
-  padding:16px 4px!important;margin:0!important;width:100%;
+/* Rozbalovací sekce (Hlava / Srdce / Základ …) – samostatné zaoblené karty s kulatou ikonou +/× */
+:root{interpolate-size:allow-keywords}
+#content details,.basic-description details,article details,.accordion-item{
+  background:#fff!important;border:1px solid var(--ke-line)!important;border-image:none!important;
+  border-radius:14px!important;box-shadow:0 2px 10px rgba(28,27,41,.035)!important;
+  padding:0!important;margin:0 0 10px!important;width:100%;overflow:hidden;
+  transition:border-color .25s ease,box-shadow .25s ease;
 }
-#content details summary,.basic-description details summary,article details summary{
-  font-size:15px!important;font-weight:600;color:var(--ke-ink);border:0!important;border-image:none!important;
-  padding:0 28px 0 0!important;margin:0!important;position:relative;cursor:pointer;
+#content details:hover,.basic-description details:hover,article details:hover,.accordion-item:hover{border-color:#dedce6!important}
+#content details[open],.basic-description details[open],article details[open],.accordion-item.active{
+  border-color:rgba(163,57,42,.28)!important;box-shadow:0 12px 28px -10px rgba(28,27,41,.12)!important;
 }
-#content details[open] summary{margin-bottom:10px!important;border-image:none!important}
-#content details summary::after,#content details[open] summary::after{
-  content:""!important;position:absolute!important;right:6px!important;top:50%!important;left:auto!important;
-  width:8px;height:8px;border-right:2px solid var(--ke-accent);border-bottom:2px solid var(--ke-accent);
-  border-image:none!important;scale:1!important;rotate:0deg!important;transform:translateY(-70%) rotate(45deg);
-  transition:transform .3s ease;margin:0!important;display:block!important;
+#content details summary,.basic-description details summary,article details summary,.accordion-header{
+  display:block!important;list-style:none!important;position:relative!important;cursor:pointer;
+  font-size:15px!important;font-weight:600!important;line-height:1.4!important;color:var(--ke-ink)!important;
+  background:transparent!important;border:0!important;border-image:none!important;transform:none!important;
+  padding:17px 64px 17px 22px!important;margin:0!important;transition:color .2s ease,background-color .2s ease;
 }
-#content details[open] summary::after{transform:translateY(-20%) rotate(-135deg)}
-#content details p{margin:0 0 4px;color:var(--ke-ink-soft)}
-.accordion-item{border:0!important;border-radius:0!important;box-shadow:none!important;border-bottom:1px solid var(--ke-line)!important;margin:0!important}
-.accordion-header{transform:none!important;border-image:none!important;border:0!important;padding:16px 32px 16px 4px!important;font-size:15px!important;font-weight:600;color:var(--ke-ink)}
+#content details summary::-webkit-details-marker,article details summary::-webkit-details-marker{display:none}
+#content details summary::marker,article details summary::marker{content:""}
+#content details summary:hover,article details summary:hover,.accordion-header:hover{background:#fcfbfd!important}
+#content details[open] summary,article details[open] summary,.accordion-item.active .accordion-header{color:var(--ke-accent)!important}
+/* kulatá ikona: plus složené ze dvou linek; po otevření se otočí na × a zbarví */
+#content details summary::after,#content details[open] summary::after,
+article details summary::after,article details[open] summary::after,
 .accordion-header::before,.accordion-item.active .accordion-header::before{
-  content:""!important;width:8px;height:8px;border-right:2px solid var(--ke-accent);border-bottom:2px solid var(--ke-accent);
-  right:10px!important;transform:translateY(-70%) rotate(45deg)!important;
+  content:""!important;display:block!important;position:absolute!important;
+  right:18px!important;left:auto!important;top:50%!important;bottom:auto!important;margin:-15px 0 0!important;
+  width:30px!important;height:30px!important;border:0!important;border-image:none!important;border-radius:50%!important;
+  background:linear-gradient(var(--ke-ink),var(--ke-ink)) center/11px 1.6px no-repeat,
+             linear-gradient(var(--ke-ink),var(--ke-ink)) center/1.6px 11px no-repeat,var(--ke-soft)!important;
+  transform:none!important;scale:1!important;rotate:0deg!important;
+  transition:rotate .35s ease,background-color .25s ease!important;
 }
-.accordion-item.active .accordion-header::before{transform:translateY(-20%) rotate(-135deg)!important}
+#content details[open] summary::after,article details[open] summary::after,.accordion-item.active .accordion-header::before{
+  rotate:135deg!important;
+  background:linear-gradient(#fff,#fff) center/11px 1.6px no-repeat,
+             linear-gradient(#fff,#fff) center/1.6px 11px no-repeat,var(--ke-accent)!important;
+}
+.accordion-header::after{display:none!important}
+/* obsah */
+#content details>:not(summary),article details>:not(summary){margin-left:22px!important;margin-right:22px!important;color:var(--ke-ink-soft)!important;font-size:14.5px;line-height:1.7}
+#content details>p,article details>p{margin-top:0!important;margin-bottom:8px!important}
+#content details>:last-child:not(summary),article details>:last-child:not(summary){margin-bottom:20px!important}
+#content details[open] summary+*,article details[open] summary+*{padding-top:2px}
+.accordion-content,.accordion-body{padding:0 22px 20px!important;color:var(--ke-ink-soft)!important;font-size:14.5px;line-height:1.7;background:transparent!important;border:0!important}
+/* plynulé rozbalení (Chrome, Edge, Safari 18+; jinde se otevře bez animace) */
+#content details::details-content,article details::details-content{
+  block-size:0;overflow:clip;transition:block-size .35s ease,content-visibility .35s allow-discrete;
+}
+#content details[open]::details-content,article details[open]::details-content{block-size:auto}
+/* skupina rozbalovacích sekcí – odstup od textu pod ní */
+#content div:has(> details)+*,article div:has(> details)+*{margin-top:22px}
 
 /* ---------- 9. Články ---------- */
 .news-item .text{background-color:#fff!important;color:var(--ke-ink)!important;border-radius:0 0 var(--ke-radius) var(--ke-radius)!important;box-shadow:var(--ke-shadow)}
@@ -241,7 +312,23 @@ h2>em,.basic-description h2 em{font-style:normal;font-weight:700;font-size:24px!
 #footer,#footer p,#footer li,#footer span,#footer ul{color:#d9d8e2!important}
 #footer a,#footer ul a{color:#e7e6ee!important;font-size:14px!important;text-decoration:none}
 #footer a:hover{color:#fff!important;text-decoration:underline}
-#footer ul li.sipka1:before,#footer li.sipka1:hover:before{color:var(--ke-accent-light)!important}
+/* Odrážky v patičce: místo šipek ➤ fajfka v kroužku (výhody) a jemná tečka (odkazy) */
+#footer .custom-footer li,#footer .custom-footer li a{font-size:14px!important;line-height:1.55!important;font-weight:400!important}
+#footer .custom-footer li{display:flex!important;align-items:flex-start;gap:12px;margin:0 0 12px!important;padding:0!important}
+#footer ul li.sipka1::before,#footer ul li.sipka1:hover::before,#footer li.sipka1:before,#footer li.sipka1:hover:before{
+  content:""!important;flex:0 0 auto;display:block!important;position:static!important;margin:8px 0 0!important;
+  width:6px!important;height:6px!important;border-radius:999px;background:var(--ke-accent-light)!important;
+  font-size:0!important;transform:none!important;transition:width .25s ease,background-color .25s ease!important;
+}
+#footer .custom-footer__banner24 li.sipka1{align-items:center}
+#footer .custom-footer__banner24 li.sipka1::before{margin:0 4px 0 0!important}
+#footer .custom-footer__banner24 li.sipka1:hover::before{width:14px!important;background:#fff!important}
+#footer .custom-footer__banner32 li.sipka1::before,#footer .custom-footer__banner32 li.sipka1:hover::before{
+  width:20px!important;height:20px!important;margin:1px 0 0!important;border-radius:50%;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='10' fill='%23e39a8d' fill-opacity='.16'/%3E%3Cpath d='M6 10.4l2.6 2.6L14.2 7.4' fill='none' stroke='%23e39a8d' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/20px 20px no-repeat!important;
+}
+#footer .custom-footer li a:hover{text-decoration:none!important;color:#fff!important}
+#footer .contact-box a{white-space:nowrap}
 #footer .contact-box ul li a{font-size:15px!important}
 #footer .contact-box strong::after{color:rgba(217,216,226,.7)!important;font-size:12px}
 #footer .contact-box .cellphone::before,#footer .contact-box .mail::before,#footer .contact-box .tel::before,
