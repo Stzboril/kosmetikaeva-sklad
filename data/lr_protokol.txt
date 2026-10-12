@@ -1,19 +1,19 @@
-Sun Oct 11 09:47:01 CEST 2026
-https://www.lr-czech.com/zdravi – 40
-https://www.lr-czech.com/krasa – 40
-https://www.lr-czech.com/aloe-vera-care – 40
-https://www.lr-czech.com/parfemy – 23
-https://www.lr-czech.com/proti-starnuti – 31
-https://www.lr-czech.com/pece-o-telo – 40
-https://www.lr-czech.com/denni-nocni-ocni – 23
-https://www.lr-czech.com/pece-o-telo-zuby – 7
-https://www.lr-czech.com/specialiste – 32
-https://www.lr-czech.com/zdravi-reseni – 29
-https://www.lr-czech.com/health-mission-top-produkty – 10
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5
-https://www.lr-czech.com/make-up – 26
-https://www.lr-czech.com/pece-o-plet – 40
-https://www.lr-czech.com/sera – 15
-Uloženo 218 produktů LR, z toho není skladem: 8
-Pozn.: stránka /sera vrátila u 27165-1 NE a u 27167-1 ANO, ostatní stránky opačně – pravděpodobně chyba čtení; 27165-1 je proto vedeno jako není skladem.
-Přepočet 11.10.2026 11:07 s pravidlem většiny: uloženo 218, není skladem 7 (27165-1 opraveno na skladem).
+Mon Oct 12 05:23:25 CEST 2026
+https://www.lr-czech.com/zdravi – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/krasa – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/aloe-vera-care – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/parfemy – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/proti-starnuti – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/pece-o-telo – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/zdravi-reseni – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/health-mission-top-produkty – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/denni-nocni-ocni – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/make-up – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/pece-o-plet – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/sera – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/pece-o-telo-zuby – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+https://www.lr-czech.com/specialiste – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
+Opakovaný pokus (zdravi) – stejná chyba PROVENANCE_REQUIRED
+Ověření „není skladem“: žádné kódy (0 řádků staženo)
+Podezřele málo produktů LR (0), neukládám.
