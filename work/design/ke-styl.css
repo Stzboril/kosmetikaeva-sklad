@@ -230,6 +230,8 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
   .p-detail .add-to-cart .quantity .increase,.p-detail .add-to-cart .quantity .decrease{width:32px!important;height:32px!important;margin-top:-16px!important}
   .p-detail .add-to-cart .quantity .decrease{left:5px!important}
   .p-detail .add-to-cart .quantity .increase{right:5px!important}
+  .p-detail .buy-box .bottom{padding:16px!important}
+  .p-detail .add-to-cart .quantity{right:16px!important;left:auto!important;top:18px!important}
 }
 .shp-tabs-holder{border-bottom:1px solid var(--ke-line)}
 .shp-tab-link{font-size:14px!important;font-weight:600!important;color:var(--ke-muted)!important}
