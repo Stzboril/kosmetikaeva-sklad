@@ -3,6 +3,14 @@
    Načítá se až po starších stylech (csske…, DMupravy…) a přepisuje je.
    ===================================================================== */
 
+/* ---------- Písmo Cormorant Garamond (OFL), uložené v e-shopu ---------- */
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;
+  src:url('/user/documents/upload/ke-design/fonts/cormorant-garamond-500.woff') format('woff')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;
+  src:url('/user/documents/upload/ke-design/fonts/cormorant-garamond-600.woff') format('woff')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;
+  src:url('/user/documents/upload/ke-design/fonts/cormorant-garamond-500-italic.woff') format('woff')}
+
 /* ---------- 0. Barvy a písma ---------- */
 :root{
   --ke-ink:#1d1b2f;
@@ -191,6 +199,7 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,
 .shp-tab.active .shp-tab-link,.shp-tab-link.active{color:var(--ke-ink)!important}
 #tab-content,.p-detail-tabs-wrapper .tab-content{background:#fff}
 .p-detail-tabs-wrapper .row>.col-sm-12{background:#fff!important}
+.p-detail-tabs-wrapper .row>.col-sm-12::before{background:#fff!important}
 .buy-box .bottom,.p-detail .buy-box .bottom{background:var(--ke-ivory)!important;border:1px solid var(--ke-line);border-radius:18px!important}
 .p-detail h1,.welcome-wrapper .h1,#footer h4,.category-title{font-variant-numeric:lining-nums proportional-nums}
 

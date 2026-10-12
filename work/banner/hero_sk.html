@@ -1,21 +1,23 @@
 <!doctype html>
 <html lang="sk"><head><meta charset="utf-8">
 <style>
+@font-face{font-family:'CG';src:url('cormorant-garamond-600.ttf');font-weight:600}
+@font-face{font-family:'CG';src:url('cormorant-garamond-500.ttf');font-weight:500}
 *{box-sizing:border-box}
-body{margin:0;width:1920px;height:400px;font-family:Poppins,sans-serif;background:#f7f3ef;color:#1a1937;overflow:hidden}
+body{margin:0;width:1920px;height:400px;font-family:Poppins,sans-serif;background:#faf7f2;color:#1d1b2f;overflow:hidden}
 .wrap{display:flex;align-items:center;height:400px;padding:0 120px;gap:40px}
 .text{flex:0 0 760px;display:flex;flex-direction:column;gap:18px}
-.eyebrow{font-size:20px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#aa3b29}
-h1{margin:0;font-size:42px;line-height:1.14;font-weight:700}
+.eyebrow{font-size:17px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:#aa3b29}
+h1{margin:0;font-family:CG,serif;font-size:58px;line-height:1.04;font-weight:600;letter-spacing:.002em;font-variant-numeric:lining-nums}
 .sub{font-size:22px;line-height:1.5;color:#4a4a5e;margin:0}
 .row{display:flex;align-items:center;gap:28px;margin-top:6px}
-.btn{background:#aa3b29;color:#fff;font-weight:600;font-size:22px;padding:16px 34px;border-radius:999px}
-.rating{font-size:20px;display:flex;align-items:center;gap:10px}
-.stars{color:#e0a100;font-size:24px;letter-spacing:2px}
+.btn{background:#aa3b29;color:#fff;font-weight:500;font-size:17px;letter-spacing:.16em;text-transform:uppercase;padding:18px 36px;border-radius:999px;white-space:nowrap}
+.rating{font-size:20px;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.stars{color:#b8955a;font-size:24px;letter-spacing:2px}
 .cards{flex:1;display:flex;gap:20px;align-items:center;justify-content:flex-end}
-.card{background:#fff;border-radius:24px;width:190px;height:290px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:14px}
+.card{background:#fff;border:1px solid rgba(29,27,47,.08);border-radius:22px;width:190px;height:290px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:14px}
 .card img{width:160px;height:215px;object-fit:contain;object-position:50% 100%}
-.card span{font-size:16px;color:#4a4a5e}
+.card span{font-family:CG,serif;font-size:22px;font-weight:600;color:#1d1b2f;letter-spacing:.02em}
 </style></head>
 <body><div class="wrap">
 <div class="text">
