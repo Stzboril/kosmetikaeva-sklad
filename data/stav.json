@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-11T17:12+02:00",
+"cas": "2026-10-12T06:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -903,7 +903,7 @@
 },
 "23112-101": {
 "dop": 619.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -913,7 +913,7 @@
 },
 "23114-101": {
 "dop": 709.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23116-101": {
@@ -3258,7 +3258,7 @@
 },
 "CC6762": {
 "dop": 299.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6762/luxury-caring-hydrating-body-scrub-for-women-150-ml"
 },
 "CC6763": {
