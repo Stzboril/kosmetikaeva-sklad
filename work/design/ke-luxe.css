@@ -133,7 +133,7 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,
 /* ---------- 4. Úvodní stránka ---------- */
 .benefitBanner.position--benefitHomepage{
   background:#fff;border-top:1px solid var(--ke-line);border-bottom:1px solid var(--ke-line);
-  padding:34px 20px!important;margin:44px 0 72px!important;
+  padding:30px 20px!important;margin:36px 0 44px!important;
 }
 .benefitBanner__title{font-size:23px!important;font-weight:600!important;color:var(--ke-ink)!important}
 .benefitBanner__data{color:var(--ke-muted)!important;font-size:13px!important;letter-spacing:.02em}
@@ -327,7 +327,8 @@ img.comgate{background:#fff;border-radius:10px;padding:6px 16px;width:auto!impor
   .category-title{font-size:36px!important}
   .p-detail-inner h1,.p-detail-inner-header h1,.p-detail-inner-header .h1{font-size:34px!important;line-height:1.1!important}
   h2>em,.basic-description h2 em{font-size:27px!important}
-  .benefitBanner.position--benefitHomepage{margin:24px 0 40px!important;padding:24px 12px!important}
+  .benefitBanner.position--benefitHomepage{margin:20px 0 24px!important;padding:20px 12px!important}
+  .benefitBanner__title{font-size:21px!important}
   #footer .custom-footer>div{margin-bottom:28px}
 }
 
