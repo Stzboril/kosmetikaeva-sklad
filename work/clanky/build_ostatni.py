@@ -145,7 +145,7 @@ c57 = f"""<h1>Doplněk stravy, nebo lék? V čem je rozdíl</h1>
 </ul>
 <p>Pokud užíváte léky, máte zdravotní potíže, jste těhotná nebo kojíte, poraďte se před užíváním doplňku stravy s lékařem nebo lékárníkem.</p>
 <h2>Příklad: Aloe Vera Drinking Gel od LR</h2>
-<p>Nápojové gely <a class="odkaz" href="/aloe-vera-gel/">LR LIFETAKT Aloe Vera Drinking Gel</a> jsou doplňky stravy. Obsahují 85–98 % gelu z listů aloe vera a podle příchuti další složky, například med, zázvor nebo extrakt z kopřivy. Doporučená denní dávka je 3× 30 ml před jídlem. Přehled příchutí a jejich složení najdete v článku <a class="odkaz" href="/clanky-2-2/aloe-vera-gel/">Aloe Vera Gel dávkování</a>.</p>"""
+<p>Nápojové gely <a class="odkaz" href="/aloe-vera-gel/">LR LIFETAKT Aloe Vera Drinking Gel</a> jsou doplňky stravy. Obsahují 85–98 % gelu z listů aloe vera a podle příchuti další složky, například med, zázvor nebo extrakt z kopřivy. Doporučená denní dávka je 3× 30 ml před jídlem. Přehled příchutí a jejich složení najdete v článku <a class="odkaz" href="/vse-o-produktech/aloe-vera-gel/">Aloe Vera Gel dávkování</a>.</p>"""
 META['57'] = dict(title='Doplněk stravy, nebo lék? V čem je rozdíl',
                   metaTitle='Doplněk stravy, nebo lék? V čem je rozdíl',
                   metaDescription='Jaký je rozdíl mezi doplňkem stravy a lékem, kdo je kontroluje, co smí výrobce tvrdit a jak číst etiketu doplňku stravy. Srozumitelný přehled.')

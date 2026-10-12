@@ -378,7 +378,13 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
   background:var(--ke-accent-light) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%232a1a20' d='M13.6 20v-6.6h2.3l.4-2.8h-2.7V8.9c0-.8.3-1.3 1.4-1.3h1.4V5.1c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5v2.1H8.7v2.8H11V20z'/%3E%3C/svg%3E") center/18px 18px no-repeat;
 }
 #footer .contact-box .facebook a::after{content:"Sledujte nás na Facebooku"!important;font-size:14px!important;font-weight:500;line-height:1.2;color:#fff;white-space:nowrap}
-#footer .contact-box .facebook a:hover,#footer .contact-box .facebook a:focus-visible{background-color:rgba(255,255,255,.07)!important;border-color:var(--ke-accent-light)!important}
+#footer:not(#ke):not(#ke2) .contact-box .facebook a:hover,#footer:not(#ke):not(#ke2) .contact-box .facebook a:focus-visible{
+  background-color:var(--ke-accent-light)!important;border-color:var(--ke-accent-light)!important;
+}
+#footer:not(#ke):not(#ke2) .contact-box .facebook a:hover::after,#footer:not(#ke):not(#ke2) .contact-box .facebook a:focus-visible::after{color:var(--ke-footer)!important}
+#footer:not(#ke):not(#ke2) .contact-box .facebook a:hover::before,#footer:not(#ke):not(#ke2) .contact-box .facebook a:focus-visible::before{background-color:#fff!important}
+#footer .contact-box .facebook a::after{transition:color .25s ease}
+#footer .contact-box .facebook a::before{transition:background-color .25s ease}
 #footer .footer-bottom,#footer .copyright,#footer .copyright strong,#footer #signature a{color:rgba(217,216,226,.7)!important;font-size:13px!important}
 #footer #signature img{filter:brightness(0) invert(1);opacity:.8}
 .custom-footer__facebook{display:none!important}
