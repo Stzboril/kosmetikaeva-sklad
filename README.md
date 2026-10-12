@@ -37,6 +37,7 @@ Soubor stáhnete tak, že v upozornění kliknete pravým tlačítkem na odkaz a
 - `data/essens_url.csv` – odkazy na detail Essens u produktů, které nejsou v žádné kategorii na essens.cz
 - `data/nemenit_cenu.csv` – produkty, u kterých se cena nenavrhuje
 - `data/eshop_kody.csv` – párové kódy variant pro import
+- `data/google_doplnek.tsv` – doplňkový zdroj pro Google Merchant Center (stahuje se denně): produkty vyřazené z reklam (nízká marže, podle filtru „Marže do 15 %“ v Shoptetu). Ve výsledcích zdarma na Googlu zůstávají. Kód smažete z řádku = produkt se do reklam vrátí.
 - `skript/` – program kontroly
 
 V repozitáři nejsou žádná hesla ani nákupní ceny – je veřejný, protože Shoptet i GitHub potřebují soubory číst bez přihlášení.
