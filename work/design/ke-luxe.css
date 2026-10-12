@@ -285,7 +285,7 @@ h2>em,.basic-description h2 em{
 }
 /* platební loga pod patičkou */
 body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-ink);padding:0 0 28px;margin:0}
-img.comgate{background:#fff;border-radius:10px;padding:6px 16px;width:auto!important;max-width:440px}
+img.comgate{background:#fff;border-radius:10px;padding:6px 16px;width:auto!important;height:auto;max-width:min(440px,calc(100vw - 32px))!important;box-sizing:border-box}
 
 /* ---------- 10b. Opravy proti starším stylům (DMupravy, Venus) ---------- */
 /* nadpisy v patičce – starší pravidlo „#footer .custom-footer > div h4“ vnucuje Poppins */
