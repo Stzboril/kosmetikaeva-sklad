@@ -387,6 +387,11 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
 }
 body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-footer);padding:0 0 28px;margin:0;box-shadow:0 -3px 0 var(--ke-footer)}
 img.comgate{background:#fff;border-radius:12px;padding:6px 16px;width:auto!important;height:auto;max-width:min(440px,calc(100vw - 32px))!important;box-sizing:border-box}
+/* Platební metody v jedné řadě s copyrightem a „Vytvořil Shoptet“ (jen na širokých obrazovkách, kde je dost místa) */
+@media (min-width:1200px){
+  body>div.container:has(> img.comgate){position:relative;height:0;padding:0!important;overflow:visible;box-shadow:none}
+  body>div.container:has(> img.comgate) img.comgate{position:absolute;left:50%;bottom:51px;transform:translate(-50%,50%);max-width:380px!important;margin:0!important}
+}
 
 /* ---------- 12. Mobil ---------- */
 @media (max-width:767px){
