@@ -8,6 +8,8 @@ E = html.escape
 
 
 def obal(obsah):
+    # nadpis H1 vypisuje Shoptet sám (název článku) – v obsahu by byl podruhé
+    obsah = re.sub(r'^\s*<h1[^>]*>.*?</h1>\s*', '', obsah.strip(), count=1, flags=re.S)
     return f'<div class="ke-clanek">\n{obsah.strip()}\n</div>'
 
 
