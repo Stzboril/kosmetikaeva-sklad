@@ -1,19 +1,36 @@
-Mon Oct 12 05:23:25 CEST 2026
-https://www.lr-czech.com/zdravi – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/krasa – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/aloe-vera-care – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/parfemy – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/proti-starnuti – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/pece-o-telo – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/zdravi-reseni – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/health-mission-top-produkty – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/denni-nocni-ocni – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/make-up – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/pece-o-plet – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/sera – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-https://www.lr-czech.com/specialiste – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla v čase zodpovězena a byla stažena; neobsluhovaný běh), 0 řádků
-Opakovaný pokus (zdravi) – stejná chyba PROVENANCE_REQUIRED
-Ověření „není skladem“: žádné kódy (0 řádků staženo)
-Podezřele málo produktů LR (0), neukládám.
+Mon Oct 12 06:24:30 CEST 2026
+(Ranní neobsluhovaný běh selhal – WebFetch čekal na povolení URL; opakováno ručně po povolení uživatelem.)
+https://www.lr-czech.com/zdravi – 40
+https://www.lr-czech.com/krasa – 40
+https://www.lr-czech.com/aloe-vera-care – 40
+https://www.lr-czech.com/parfemy – 23
+https://www.lr-czech.com/proti-starnuti – 31
+https://www.lr-czech.com/pece-o-telo – 40
+https://www.lr-czech.com/zdravi-reseni – 29
+https://www.lr-czech.com/health-mission-top-produkty – 10
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5
+https://www.lr-czech.com/denni-nocni-ocni – 23
+https://www.lr-czech.com/make-up – 26
+https://www.lr-czech.com/pece-o-plet – 40
+https://www.lr-czech.com/sera – 15
+https://www.lr-czech.com/pece-o-telo-zuby – 7
+https://www.lr-czech.com/specialiste – 32
+Ověření „není skladem“:
+80630-599 (zdravi) – ANO
+27167-1 (krasa) – ANO
+27167-1 (aloe-vera-care) – ANO
+27164-1 (aloe-vera-care) – ANO
+20676-101 (aloe-vera-care) – ANO
+27170-1 (pece-o-telo) – ANO
+27171-1 (pece-o-telo) – ANO
+81330-98 (zdravi-reseni) – NE → opraveno na ANO
+23112-101 (pece-o-telo-ochrana-před-sluncem) – ANO
+27167-1 (denni-nocni-ocni) – ANO
+27164-1 (denni-nocni-ocni) – ANO
+27167-1 (pece-o-plet) – NE → opraveno na ANO
+27164-1 (pece-o-plet) – NE → opraveno na ANO
+20676-101 (pece-o-plet) – NE → opraveno na ANO
+27170-1 (pece-o-plet) – ANO
+27171-1 (pece-o-plet) – NE → opraveno na ANO
+27167-1 (sera) – NE → opraveno na ANO
+Uloženo 218 produktů LR, z toho není skladem: 7
