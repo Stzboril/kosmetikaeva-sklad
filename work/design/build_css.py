@@ -48,5 +48,12 @@ def scope(block):
         else: res+=pre+scope_sel(sel)+'{'+body+'}'
         i=k
     return res
-open('ke-styl-nahled.css','w',encoding='utf-8').write(scope(re.sub(r'/\*[\s\S]*?\*/','',css)))
+HERO='''
+/* náhled nového úvodního banneru (jen pro správce) */
+body.admin-logged img[src*="uvodni-banner-znacky-1920x400"]{content:url(/user/documents/upload/CSS/ke-hero-cz-1920x400.jpg)}
+body.admin-logged img[src*="uvodni-banner-znacky-sk-1920x400"]{content:url(/user/documents/upload/CSS/ke-hero-sk-1920x400.jpg)}
+body.admin-logged img[src*="uvodni-banner-znacky-mobil-750x600"]{content:url(/user/documents/upload/CSS/ke-hero-cz-mobil-750x600.jpg)}
+body.admin-logged img[src*="uvodni-banner-znacky-sk-mobil-750x600"]{content:url(/user/documents/upload/CSS/ke-hero-sk-mobil-750x600.jpg)}
+'''
+open('ke-styl-nahled.css','w',encoding='utf-8').write(scope(re.sub(r'/\*[\s\S]*?\*/','',css))+HERO)
 print(len(css), os.path.getsize('ke-styl-nahled.css'))
