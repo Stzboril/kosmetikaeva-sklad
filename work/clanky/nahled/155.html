@@ -1,0 +1,248 @@
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>
+@font-face{font-family:Montserrat;src:url('/home/claude/work/design/mock/fonts/Montserrat[wght].ttf');font-weight:100 900}
+body{margin:0;padding:30px 24px;background:#fff;font-family:Montserrat,sans-serif;width:1100px}
+h1{font-size:36px;color:#1c1b29;max-width:920px;margin:0 auto 18px}
+/* KE články – jednotný vzhled blogu (třídy ke-*) */
+.ke-clanek{--k-acc:#a3392a;--k-acc2:#87301f;--k-ink:#1c1b29;--k-txt:#3f3d4f;--k-soft:#f7f5f8;--k-blush:#fbf3f1;--k-line:#eceaf0;
+  max-width:920px;margin:0 auto;color:var(--k-txt);font-size:16px;line-height:1.75;text-align:left}
+.ke-clanek p{margin:0 0 14px;text-align:left!important}
+.ke-clanek h2{position:relative;font-size:26px!important;line-height:1.25!important;color:var(--k-ink)!important;margin:46px 0 16px!important;padding:18px 0 0!important;text-align:left!important;font-weight:700!important;border:0!important;background:none!important}
+.ke-clanek h2::before{content:"";position:absolute;left:0;top:0;width:44px;height:3px;border-radius:3px;background:var(--k-acc)}
+.ke-clanek h2 em{font-style:normal}
+.ke-clanek h3{font-size:19px!important;line-height:1.35!important;color:var(--k-ink)!important;margin:28px 0 10px!important;text-align:left!important;font-weight:700!important}
+.ke-clanek a{color:var(--k-acc)}
+.ke-clanek img{max-width:100%;height:auto;border-radius:14px}
+.ke-perex{font-size:18px;line-height:1.7;color:var(--k-ink)!important}
+.ke-box{background:var(--k-blush);border-radius:16px;padding:20px 24px;margin:24px 0}
+.ke-box>:last-child{margin-bottom:0}
+.ke-box-titulek{display:block;font-weight:700;color:var(--k-acc);margin-bottom:6px;font-size:15px;letter-spacing:.02em}
+.ke-box-velky{font-size:28px;font-weight:700;color:var(--k-ink);line-height:1.2;display:block;margin:2px 0 6px}
+.ke-mrizka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:20px 0 26px}
+.ke-karta{background:#fff;border:1px solid var(--k-line);border-radius:16px;padding:18px 20px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-karta>:last-child{margin-bottom:0}
+.ke-karta h3{margin:0 0 6px!important;font-size:17px!important}
+.ke-karta-stitek{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--k-acc);margin-bottom:6px}
+.ke-produkt{display:flex;gap:22px;align-items:flex-start;background:#fff;border:1px solid var(--k-line);border-radius:18px;padding:20px;margin:0 0 18px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-produkt-foto{flex:0 0 150px;text-align:center}
+.ke-produkt-foto img{max-height:170px;width:auto;border-radius:10px}
+.ke-produkt-text{flex:1 1 auto;min-width:0}
+.ke-produkt-text h3{margin-top:0!important}
+.ke-produkt-text>:last-child{margin-bottom:0}
+.ke-tab{width:100%!important;border-collapse:separate!important;border-spacing:0;border:1px solid var(--k-line)!important;border-radius:14px;overflow:hidden;font-size:15px;line-height:1.5;margin:16px 0 26px!important;background:#fff}
+.ke-clanek table.ke-tab th{background:var(--k-ink)!important;color:#fff!important;text-align:left!important;padding:12px 16px!important;font-weight:600!important;border:0!important}
+.ke-clanek table.ke-tab td{padding:11px 16px!important;border:0!important;border-top:1px solid var(--k-line)!important;vertical-align:top;text-align:left!important;background:#fff}
+.ke-clanek table.ke-tab tr:nth-child(even) td{background:#faf9fb}
+.ke-clanek table.ke-tab a{color:var(--k-acc);font-weight:600;text-decoration:none}
+.ke-clanek table.ke-tab a:hover{text-decoration:underline}
+.ke-tab-obal{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ke-tlacitko,a.ke-tlacitko{display:inline-block;background:var(--k-acc);color:#fff!important;border-radius:999px;padding:12px 28px;font-weight:600;text-decoration:none!important;transition:background-color .25s ease,box-shadow .25s ease}
+.ke-tlacitko:hover,a.ke-tlacitko:hover{background:var(--k-acc2);box-shadow:0 10px 22px -10px rgba(163,57,42,.7)}
+.ke-tlacitko-obal{margin:22px 0 8px}
+.ke-seznam{list-style:none!important;padding:0!important;margin:0 0 18px!important}
+.ke-seznam li{position:relative;padding-left:26px!important;margin:0 0 8px!important;list-style:none!important}
+.ke-seznam li::before{content:"";position:absolute;left:4px;top:.65em;width:8px;height:8px;border-radius:50%;background:var(--k-acc)}
+.ke-seznam li::marker{content:""}
+.ke-cisla{counter-reset:ke;list-style:none!important;padding:0!important;margin:0 0 18px!important}
+.ke-cisla li{counter-increment:ke;position:relative;padding-left:44px!important;margin:0 0 12px!important;min-height:30px;list-style:none!important}
+.ke-cisla li::before{content:counter(ke);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--k-acc);color:#fff;font-weight:700;font-size:14px;line-height:30px;text-align:center}
+.ke-cisla li::marker{content:""}
+.ke-pozn{font-size:14px;color:#6e6c7a}
+@media (max-width:640px){
+  .ke-clanek{font-size:15.5px}
+  .ke-clanek h2{font-size:22px!important;margin-top:36px!important}
+  .ke-perex{font-size:17px}
+  .ke-produkt{flex-direction:column;align-items:center;text-align:left}
+  .ke-produkt-foto{flex-basis:auto}
+  .ke-clanek table.ke-tab th,.ke-clanek table.ke-tab td{padding:10px 12px!important}
+  .ke-tab{font-size:14px}
+}
+</style></head><body><div class="ke-clanek">
+<h1>Parfémy Essens – přehled vůní podle typu</h1>
+<p class="ke-perex"><a href="/znacka/essens/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Essens/essens parfémy.jpg" alt="parfémy Essens" width="203" height="203" style="float: right; margin: 0 0 12px 18px;" /></a>Kvalitní a dobře zvolený parfém se stane vaší druhou kůží. Parfémy <strong>Essens</strong> obsahují až 20 % vonných esencí a vyrábějí se v České republice. V tomto průvodci zjistíte, jak parfém správně nanášet, čím se liší parfém od toaletní vody a která vůně Essens je ta vaše.</p>
+<h2>Kam nanášet parfém, aby vydržel celý den</h2>
+<p>Vůni aplikujte na tzv. <strong>pulzní body</strong> – místa, kde je pokožka nejteplejší a vůně se nejlépe rozvine:</p>
+<ul class="ke-seznam">
+<li>spánky a oblast za ušima</li>
+<li>krk a dekolt</li>
+<li>vnitřní strana zápěstí a loketní jamky</li>
+<li>podkolenní jamky – v létě se vůně krásně uvolňuje při chůzi</li>
+</ul>
+<div class="ke-box"><span class="ke-box-titulek">Tip</span><p>Parfém nestříkejte přímo na jemné tkaniny – vonné oleje by je mohly poškodit. S intenzitou to nepřehánějte, méně je často více.</p></div>
+<h2>Hlava, srdce a základ vůně</h2>
+<p>Každý parfém se uvolňuje postupně ve třech fázích:</p>
+<div class="ke-mrizka">
+<div class="ke-karta"><span class="ke-karta-stitek">1. fáze</span><h3>Hlava</h3><p>První dojem po nanesení. Je intenzivní, ale prchavá – cítíte ji několik minut až čtvrt hodiny.</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">2. fáze</span><h3>Srdce</h3><p>Charakter vůně, který se rozvine po odeznění hlavy a vydrží zhruba 2–3 hodiny.</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">3. fáze</span><h3>Základ</h3><p>To, co cítíte nejdéle. Pomalu prchavé látky vydrží vonět několik hodin, často celý den.</p></div>
+</div>
+<h2>Parfém, toaletní, nebo kolínská voda?</h2>
+<div class="ke-tab-obal"><table class="ke-tab">
+<thead><tr><th>Druh</th><th>Podíl vonných esencí</th><th>Výdrž</th></tr></thead>
+<tbody>
+<tr><td>Parfum (parfém)</td><td>15–30 %</td><td>nejdelší</td></tr>
+<tr><td>Eau de Parfum (EdP)</td><td>8–15 %</td><td>dlouhá</td></tr>
+<tr><td>Eau de Toilette (EdT)</td><td>4–8 %</td><td>střední</td></tr>
+<tr><td>Eau de Cologne (EdC)</td><td>3–5 %</td><td>krátká, na osvěžení</td></tr>
+</tbody>
+</table></div>
+<div class="ke-box"><span class="ke-box-titulek">Věděli jste?</span><p>Vůně Essens obsahují až <strong>20 % vonných esencí</strong>. Nejsou to toaletní vody, ale skutečné parfémy s dlouhou výdrží.</p></div>
+<h2>Jak si vybrat vůni podle typu</h2>
+<div class="ke-mrizka">
+<div class="ke-karta"><h3>Květinová</h3><p>růže, jasmín, pivoňka či konvalinka – ženská a něžná</p></div>
+<div class="ke-karta"><h3>Ovocná</h3><p>broskev, malina nebo jablko – svěží a hravá</p></div>
+<div class="ke-karta"><h3>Citrusová</h3><p>bergamot, citron, grep – lehká a osvěžující</p></div>
+<div class="ke-karta"><h3>Dřevitá</h3><p>cedr, santal, vetiver – elegantní a klidná</p></div>
+<div class="ke-karta"><h3>Orientální</h3><p>ambra, vanilka, koření – plná a smyslná</p></div>
+<div class="ke-karta"><h3>Chyprová</h3><p>citrusy a zemitý mech – sofistikovaná klasika</p></div>
+<div class="ke-karta"><h3>Fougérová</h3><p>levandule, kumarin, bylinky – čistá pánská vůně</p></div>
+<div class="ke-karta"><h3>Gurmánská</h3><p>karamel, vanilka, sladké tóny – lákavá a hřejivá</p></div>
+<div class="ke-karta"><h3>Vodní a zelená</h3><p>mořské tóny, tráva a listí – přirozená svěžest</p></div>
+</div>
+<h2>Seznam parfémů Essens</h2>
+<p>V tabulkách najdete všechny parfémy Essens, které máme v nabídce, i s typem vůně a s tím, za jakou vůni je naši zákazníci nejčastěji zaměňují. Kliknutím na název se dostanete na detail parfému, kde najdete celé složení vůně.</p>
+<h3>Dámské parfémy</h3>
+<div class="ke-tab-obal"><table class="ke-tab">
+<thead><tr><th>Parfém</th><th>Typ vůně</th><th>Zákazníci ho nejčastěji zaměňují za</th></tr></thead>
+<tbody>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w102-50-ml/">Essens w102</a></td><td>Květinové, zelené</td><td>Éclat d&#x27;Arpège</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w104-50-ml/">Essens w104</a></td><td>Květinové, ovocné</td><td>Light Blue</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w105-50-ml/">Essens w105</a></td><td>Květinová, dřevitá, pižmová</td><td>Be Delicious</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w106-50-ml/">Essens w106</a></td><td>Květinová</td><td>Acqua di Gioia</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w107-50-ml/">Essens w107</a></td><td>Orientální, květinová</td><td>–</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w110-50-ml/">Essens w110</a></td><td>Květinová, dřevitá, pižmová</td><td>Daisy</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w111-50-ml/">Essens w111</a></td><td>Květinová, ovocná</td><td>Bright Crystal</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w114-50-ml/">Essens w114</a></td><td>Květinová, dřevitá, pižmová</td><td>Rush 2</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w115-50-ml/">Essens w115</a></td><td>Orientální, vanilková</td><td>Angel</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w116-50-ml/">Essens w116</a></td><td>Květinová, dřevitá, pižmová</td><td>–</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w117-50-ml/">Essens w117</a></td><td>Chyprové, květinové</td><td>Coco Mademoiselle</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w118-50-ml/">Essens w118</a></td><td>Květinová, ovocná</td><td>J&#x27;adore</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w124-50-ml/">Essens w124</a></td><td>Chyprová, květinová</td><td>Coco Chance</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w127-50-ml/">Essens w127</a></td><td>Květinová, ovocná</td><td>Lady Million</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w130-50-ml/">Essens w130</a></td><td>Květinová, ovocná</td><td>Moon Sparkle</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w134-50-ml/">Essens w134</a></td><td>Orientální, květinová</td><td>Code</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w137-50-ml/">Essens w137</a></td><td>Květinová, orientální</td><td>–</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w138-50-ml/">Essens w138</a></td><td>Květinová</td><td>Flowerbomb</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w141-50-ml/">Essens w141</a></td><td>Orientální, ovocná</td><td>La Vie est Belle</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w142-50-ml/">Essens w142</a></td><td>Orientální</td><td>Black Opium</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w143-50-ml/">Essens w143</a></td><td>Květinová, dřevitá</td><td>No. 5</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w144-50-ml/">Essens w144</a></td><td>Květinová, zelená</td><td>Ange ou Démon Le Secret</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w145-50-ml/">Essens w145</a></td><td>Orientální</td><td>Hypnotic Poison</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w148-50-ml/">Essens w148</a></td><td>Květinová, chyprová</td><td>Sì</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w149-50-ml/">Essens w149</a></td><td>Orientální</td><td>Decadence</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w150-50-ml/">Essens w150</a></td><td>Květinová</td><td>Olympéa</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w151-50-ml/">Essens w151</a></td><td>Květinová</td><td>Good Girl</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w153-50-ml/">Essens w153</a></td><td>Květinová</td><td>L&#x27;Impératrice 3</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w156-50-ml/">Essens w156</a></td><td>Citrusová</td><td>Chance Eau Fraîche</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w157-50-ml/">Essens w157</a></td><td>Dřevitá</td><td>Alien</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w158-50-ml/">Essens w158</a></td><td>Květinová</td><td>Roses Musk</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w159-50-ml/">Essens w159</a></td><td>Orientální, květinová</td><td>Molecule 02</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w160-50-ml/">Essens w160</a></td><td>–</td><td>–</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w166-50-ml/">Essens w166</a></td><td>Ovocná, květinová</td><td>Because It&#x27;s</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w168-50-ml/">Essens w168</a></td><td>Květinová</td><td>Bombshell</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w171-50-ml/">Essens w171</a></td><td>Květinová, zelená</td><td>My Way</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w172-50-ml/">Essens w172</a></td><td>Citrusová, květinová</td><td>Libre</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w174-50-ml/">Essens w174</a></td><td>Ovocná, gurmánská</td><td>Her Intense</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w177-50-ml/">Essens w177</a></td><td>Květinová, gurmánská</td><td>La Nuit Trésor Nude</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w179-50-ml/">Essens w179</a></td><td>Ovocná, kořeněná</td><td>Pomegranate Noir</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w181-50-ml/">Essens w181</a></td><td>Orientální, květinová</td><td>L&#x27;Interdit</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w182-50-ml/">Essens w182</a></td><td>Květinová</td><td>Chance Eau Tendre</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w183-50-ml/">Essens w183</a></td><td>Orientální</td><td>Not a Perfume</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w184-50-ml/">Essens w184</a></td><td>Dřevitá, ovocná</td><td>Alive Women</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w185-50-ml/">Essens w185</a></td><td>Citrusová, květinová</td><td>Joy</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w186-50-ml/">Essens w186</a></td><td>Citrusová, dřevitá</td><td>Lime Basil &amp; Mandarin</td></tr>
+<tr><td><a href="/damske-parfemy/essesn-damsky-parfem-w187-50-ml/">Essens w187</a></td><td>Orientální, květinová</td><td>Scandal Woman</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w188-50-ml/">Essens w188</a></td><td>Chyprová, květinová</td><td>Idôle</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w193-50-ml/">Essens w193</a></td><td>Orientální, květinová</td><td>The One</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w194-50-ml/">Essens w194</a></td><td>Květinová, ovocná</td><td>I Am</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w195-50-ml/">Essens w195</a></td><td>Květinová</td><td>Paradoxe</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w196-50-ml/">Essens w196</a></td><td>Květinová, ovocná</td><td>Flora Gorgeous Gardena</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w197-50-ml/">Essens w197</a></td><td>Citrusová, dřevitá</td><td>Molecule 01 + Mandarin</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w198-50-ml/">Essens w198</a></td><td>Květinová</td><td>Voce Viva</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w199-50-ml/">Essens w199</a></td><td>Dřevitá</td><td>Devotion</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w200-50-ml/">Essens w200</a></td><td>Květinová</td><td>Born in Roma</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w201-50-ml/">Essens w201</a></td><td>Květinová, ovocná</td><td>Irresistible</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w202-50-ml/">Essens w202</a></td><td>Chyprová, květinová</td><td>Nomade</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w203-50-ml/">Essens w203</a></td><td>Květinová, ovocná</td><td>Omnia Coral</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w204-50-ml/">Essens w204</a></td><td>Květinová, ovocná</td><td>Cassiopea</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w205-50-ml/">Essens w205</a></td><td>Květinová, orientální</td><td>Arabians Tonka</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w206-50-ml/">Essens w206</a></td><td>Květinová, ovocná</td><td>Miutine</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w207-50-ml/">Essens w207</a></td><td>Chyprová, květinová</td><td>Good Girl Blush</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w208-50-ml/">Essens w208</a></td><td>Orientální</td><td>Goddess</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w209-50-ml/">Essens w209</a></td><td>Květinová</td><td>Scarlet Poppy</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w210-50-ml/">Essens w210</a></td><td>Květinová, gurmánská</td><td>Bianco Latte</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w211-50-ml/">Essens w211</a></td><td>Orientální, květinová</td><td>Pure Poison</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w901-50-ml/">Essens w901</a></td><td>Květinová, zelená</td><td>Star Magnolia</td></tr>
+<tr><td><a href="/damske-parfemy/essens-w903/">Essens w903</a></td><td>Květinová</td><td>Musk Kashmir</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w904-50-ml/">Essens w904</a></td><td>Květinová</td><td>Good Girl Gone Bad</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w906-50-ml/">Essens w906</a></td><td>Květinová, ambrová</td><td>Lamar</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w909-50-ml/">Essens w909</a></td><td>Ovocná, dřevitá</td><td>Pink Molecule 090.09</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w910-50-ml/">Essens w910</a></td><td>Dřevitá, ovocná</td><td>Bitter Peach</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w911-50-ml/">Essens w911</a></td><td>Dřevitá, pižmová</td><td>Gypsy Water</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w912-50-ml/">Essens w912</a></td><td>Dřevitá, ovocná</td><td>Blue Talisman</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-w913-50-ml/">Essens w913</a></td><td>Květinová, dřevitá</td><td>Devil&#x27;s Intrigue</td></tr>
+<tr><td><a href="/damske-parfemy/essens-parfem-noir-by-essens-c--7-pro-damy-50-ml/">Essens 4 Elements Noir č. 7</a></td><td>Chyprová, květinová</td><td>White Patchouli</td></tr>
+<tr><td><a href="/damske-parfemy/essens-parfem-blanc-by-essens-c--5-parfem-pro-zeny-50-ml/">Essens Blanc č. 5</a></td><td>Květinová, citrusová</td><td>À la Rose</td></tr>
+<tr><td><a href="/damske-parfemy/essens-parfem-essens-boudoir-second-skin-50-ml/">Essens Boudoir Second Skin</a></td><td>Orientální, květinová</td><td>–</td></tr>
+<tr><td><a href="/damske-parfemy/essens-luxusni-damsky-parfem-eternal-ember-50-ml/">Essens Eternal Ember (luxusní)</a></td><td>Květinová, balsamická</td><td>Méttalique</td></tr>
+<tr><td><a href="/damske-parfemy/essens-damsky-parfem-passenger-princess-50-ml/">Essens Passenger Princess</a></td><td>Květinová, dřevitá</td><td>–</td></tr>
+<tr><td><a href="/damske-parfemy/essens-luxusni-damsky-parfem-solar-noire-50-ml/">Essens Solar Noire (luxusní)</a></td><td>Orientální, gurmánská</td><td>Stars La Capitale</td></tr>
+</tbody>
+</table></div>
+<h3>Pánské parfémy</h3>
+<div class="ke-tab-obal"><table class="ke-tab">
+<thead><tr><th>Parfém</th><th>Typ vůně</th><th>Zákazníci ho nejčastěji zaměňují za</th></tr></thead>
+<tbody>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m001-50-ml/">Essens m001</a></td><td>Dřevité, květinové, pižmové</td><td>Fahrenheit</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m003-50-ml/">Essens m003</a></td><td>Vodní</td><td>Acqua di Giò</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m007-50-ml/">Essens m007</a></td><td>Dřevité, kořeněné</td><td>Bottled</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m008-50-ml/">Essens m008</a></td><td>Dřevité, kořeněné</td><td>1 Million</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m013-50-ml/">Essens m013</a></td><td>Zelená</td><td>Silver Mountain Water</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m014-50-ml/">Essens m014</a></td><td>Dřevitá, vodní</td><td>Man Eau Fraîche</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m015-50-ml/">Essens m015</a></td><td>Dřevitá</td><td>–</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m016-50-ml/">Essens m016</a></td><td>Citrusová, ovocná</td><td>Light Blue pour Homme</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m022-50-ml/">Essens m022</a></td><td>Orientální, dřevitá</td><td>Code</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m024-50-ml/">Essens m024</a></td><td>Citrusová, vodní, dřevitá</td><td>Invictus</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m025-50-ml/">Essens m025</a></td><td>Fougérová</td><td>Sauvage</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m028-50-ml/">Essens m028</a></td><td>Dřevitá</td><td>L.12.12 Blanc</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m029-50-ml/">Essens m029</a></td><td>Citrusová</td><td>Allure Homme Sport</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m034-50-ml/">Essens m034</a></td><td>Fougérová</td><td>Stronger with You</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m036-50-ml/">Essens m036</a></td><td>Dřevitá, kořeněná</td><td>Man Wood Essence</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m038-50-ml/">Essens m038</a></td><td>Citrusová, květinová</td><td>Earl Grey &amp; Cucumber</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m040-50-ml/">Essens m040</a></td><td>Fougérová, květinová</td><td>Y for Men</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m041-50-ml/">Essens m041</a></td><td>Orientální, kořeněná</td><td>Bad Boy</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m042-50-ml/">Essens m042</a></td><td>Orientální, dřevitá</td><td>The One for Men</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m043-50-ml/">Essens m043</a></td><td>Fougérová</td><td>Gentleman</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m045-50-ml/">Essens m045</a></td><td>Dřevitá</td><td>Phantom</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m046-50-ml/">Essens m046</a></td><td>Fougérová</td><td>Eros</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m047-50-ml/">Essens m047</a></td><td>Citrusová</td><td>Wood Sage &amp; Sea Salt</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m048-50-ml/">Essens m048</a></td><td>Citrusová</td><td>MYSLF</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m049-50-ml/">Essens m049</a></td><td>Citrusová</td><td>Play Sport</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m050-50-ml/">Essens m050</a></td><td>Orientální, květinová</td><td>Bois d&#x27;Argent</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m051-50-ml/">Essens m051</a></td><td>Dřevitá</td><td>Paradigme</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m052-50-ml/">Essens m052</a></td><td>Chyprová</td><td>Solo</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m053-50-ml/">Essens m053</a></td><td>Orientální</td><td>Scandal pour Homme</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m809-50-ml/">Essens m809</a></td><td>Dřevitá, kořeněná</td><td>Tobacco Oud</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m901-50-ml/">Essens m901</a></td><td>Zelená, dřevitá</td><td>Égoiste Platinum</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m902-50-ml/">Essens m902</a></td><td>Dřevitá, orientální</td><td>Fierce</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m903-50-ml/">Essens m903</a></td><td>Chyprová, ovocná</td><td>Aventus</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m904-50-ml/">Essens m904</a></td><td>Citrusová, ovocná, dřevitá</td><td>Gumin</td></tr>
+<tr><td><a href="/panske-parfemy/essens-pansky-parfem-m905-50-ml/">Essens m905</a></td><td>Orientální, ovocná</td><td>Erba Pura</td></tr>
+<tr><td><a href="/panske-parfemy/essens-luxusni-pansky-parfem-nocturne-reserve-50-ml/">Essens Nocturne Reserve (luxusní)</a></td><td>Květinová, gurmánská</td><td>Angels Share</td></tr>
+<tr><td><a href="/panske-parfemy/essens-luxusni-pansky-parfem-western-spirit-50-ml/">Essens Western Spirit (luxusní)</a></td><td>Ovocná, dřevitá</td><td>Santal 33</td></tr>
+</tbody>
+</table></div>
+<h3>Unisex parfémy</h3>
+<div class="ke-tab-obal"><table class="ke-tab">
+<thead><tr><th>Parfém</th><th>Typ vůně</th><th>Zákazníci ho nejčastěji zaměňují za</th></tr></thead>
+<tbody>
+<tr><td><a href="/unisex-parfemy/essens-parfem-noir-by-essens-c--3-unisex-50-ml/">Essens 4 Elements Noir č. 3</a></td><td>Dřevitá, květinová</td><td>Rose Prick</td></tr>
+<tr><td><a href="/unisex-parfemy/essens-luxusni-unisex-parfem-crimson-aura-50-ml/">Essens Crimson Aura (luxusní)</a></td><td>Orientální</td><td>Baccarat Rouge 540</td></tr>
+<tr><td><a href="/unisex-parfemy/essens-parfem-niche-divine-green-100-ml-unisex/">Essens Divine Green (luxusní)</a></td><td>tóny: bergamot, cedrové dřevo, ambra</td><td>Bal d&#x27;Afrique</td></tr>
+<tr><td><a href="/unisex-parfemy/essens-luxusni-unisex-parfem-ruby-whisper-50-ml/">Essens Ruby Whisper (luxusní)</a></td><td>Orientální, květinová</td><td>Lost Cherry</td></tr>
+<tr><td><a href="/unisex-parfemy/essens-parfem-niche-silver-orange-100-ml-unisex/">Essens Silver Orange (luxusní)</a></td><td>tóny: broskev, konvalinka, vanilka</td><td>Kirke</td></tr>
+<tr><td><a href="/unisex-parfemy/essens-luxusni-unisex-parfem-stellar-glow-50-ml/">Essens Stellar Glow (luxusní)</a></td><td>Orientální, dřevitá</td><td>Sirrah</td></tr>
+<tr><td><a href="/unisex-parfemy/essens-parfem-niche-ultramarine-blue-parfem-unisex-100-ml/">Essens Ultramarine Blue (luxusní)</a></td><td>Květinová, dřevitá</td><td>Fleur Narcotique</td></tr>
+</tbody>
+</table></div>
+<p class="ke-tlacitko-obal"><a class="ke-tlacitko" href="/znacka/essens/">Všechny produkty Essens</a></p>
+</div></body></html>

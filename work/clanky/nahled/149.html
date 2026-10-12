@@ -1,0 +1,132 @@
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>
+@font-face{font-family:Montserrat;src:url('/home/claude/work/design/mock/fonts/Montserrat[wght].ttf');font-weight:100 900}
+body{margin:0;padding:30px 24px;background:#fff;font-family:Montserrat,sans-serif;width:1100px}
+h1{font-size:36px;color:#1c1b29;max-width:920px;margin:0 auto 18px}
+/* KE články – jednotný vzhled blogu (třídy ke-*) */
+.ke-clanek{--k-acc:#a3392a;--k-acc2:#87301f;--k-ink:#1c1b29;--k-txt:#3f3d4f;--k-soft:#f7f5f8;--k-blush:#fbf3f1;--k-line:#eceaf0;
+  max-width:920px;margin:0 auto;color:var(--k-txt);font-size:16px;line-height:1.75;text-align:left}
+.ke-clanek p{margin:0 0 14px;text-align:left!important}
+.ke-clanek h2{position:relative;font-size:26px!important;line-height:1.25!important;color:var(--k-ink)!important;margin:46px 0 16px!important;padding:18px 0 0!important;text-align:left!important;font-weight:700!important;border:0!important;background:none!important}
+.ke-clanek h2::before{content:"";position:absolute;left:0;top:0;width:44px;height:3px;border-radius:3px;background:var(--k-acc)}
+.ke-clanek h2 em{font-style:normal}
+.ke-clanek h3{font-size:19px!important;line-height:1.35!important;color:var(--k-ink)!important;margin:28px 0 10px!important;text-align:left!important;font-weight:700!important}
+.ke-clanek a{color:var(--k-acc)}
+.ke-clanek img{max-width:100%;height:auto;border-radius:14px}
+.ke-perex{font-size:18px;line-height:1.7;color:var(--k-ink)!important}
+.ke-box{background:var(--k-blush);border-radius:16px;padding:20px 24px;margin:24px 0}
+.ke-box>:last-child{margin-bottom:0}
+.ke-box-titulek{display:block;font-weight:700;color:var(--k-acc);margin-bottom:6px;font-size:15px;letter-spacing:.02em}
+.ke-box-velky{font-size:28px;font-weight:700;color:var(--k-ink);line-height:1.2;display:block;margin:2px 0 6px}
+.ke-mrizka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:20px 0 26px}
+.ke-karta{background:#fff;border:1px solid var(--k-line);border-radius:16px;padding:18px 20px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-karta>:last-child{margin-bottom:0}
+.ke-karta h3{margin:0 0 6px!important;font-size:17px!important}
+.ke-karta-stitek{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--k-acc);margin-bottom:6px}
+.ke-produkt{display:flex;gap:22px;align-items:flex-start;background:#fff;border:1px solid var(--k-line);border-radius:18px;padding:20px;margin:0 0 18px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-produkt-foto{flex:0 0 150px;text-align:center}
+.ke-produkt-foto img{max-height:170px;width:auto;border-radius:10px}
+.ke-produkt-text{flex:1 1 auto;min-width:0}
+.ke-produkt-text h3{margin-top:0!important}
+.ke-produkt-text>:last-child{margin-bottom:0}
+.ke-tab{width:100%!important;border-collapse:separate!important;border-spacing:0;border:1px solid var(--k-line)!important;border-radius:14px;overflow:hidden;font-size:15px;line-height:1.5;margin:16px 0 26px!important;background:#fff}
+.ke-clanek table.ke-tab th{background:var(--k-ink)!important;color:#fff!important;text-align:left!important;padding:12px 16px!important;font-weight:600!important;border:0!important}
+.ke-clanek table.ke-tab td{padding:11px 16px!important;border:0!important;border-top:1px solid var(--k-line)!important;vertical-align:top;text-align:left!important;background:#fff}
+.ke-clanek table.ke-tab tr:nth-child(even) td{background:#faf9fb}
+.ke-clanek table.ke-tab a{color:var(--k-acc);font-weight:600;text-decoration:none}
+.ke-clanek table.ke-tab a:hover{text-decoration:underline}
+.ke-tab-obal{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ke-tlacitko,a.ke-tlacitko{display:inline-block;background:var(--k-acc);color:#fff!important;border-radius:999px;padding:12px 28px;font-weight:600;text-decoration:none!important;transition:background-color .25s ease,box-shadow .25s ease}
+.ke-tlacitko:hover,a.ke-tlacitko:hover{background:var(--k-acc2);box-shadow:0 10px 22px -10px rgba(163,57,42,.7)}
+.ke-tlacitko-obal{margin:22px 0 8px}
+.ke-seznam{list-style:none!important;padding:0!important;margin:0 0 18px!important}
+.ke-seznam li{position:relative;padding-left:26px!important;margin:0 0 8px!important;list-style:none!important}
+.ke-seznam li::before{content:"";position:absolute;left:4px;top:.65em;width:8px;height:8px;border-radius:50%;background:var(--k-acc)}
+.ke-seznam li::marker{content:""}
+.ke-cisla{counter-reset:ke;list-style:none!important;padding:0!important;margin:0 0 18px!important}
+.ke-cisla li{counter-increment:ke;position:relative;padding-left:44px!important;margin:0 0 12px!important;min-height:30px;list-style:none!important}
+.ke-cisla li::before{content:counter(ke);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--k-acc);color:#fff;font-weight:700;font-size:14px;line-height:30px;text-align:center}
+.ke-cisla li::marker{content:""}
+.ke-pozn{font-size:14px;color:#6e6c7a}
+@media (max-width:640px){
+  .ke-clanek{font-size:15.5px}
+  .ke-clanek h2{font-size:22px!important;margin-top:36px!important}
+  .ke-perex{font-size:17px}
+  .ke-produkt{flex-direction:column;align-items:center;text-align:left}
+  .ke-produkt-foto{flex-basis:auto}
+  .ke-clanek table.ke-tab th,.ke-clanek table.ke-tab td{padding:10px 12px!important}
+  .ke-tab{font-size:14px}
+}
+</style></head><body><div class="ke-clanek">
+<h1>Péče o citlivou dětskou pokožku s Eurona Eco Mimi a Pure Mimi</h1>
+<p class="ke-perex">Pokožka novorozenců a kojenců je tenčí a citlivější než pokožka dospělých a rychleji ztrácí vlhkost. Zaslouží si proto jemnou péči a šetrné prostředky – na tělo i na prádlo, které se jí dotýká.</p>
+<p>Česká společnost Eurona by Cerny vyvinula pro nejmenší dvě řady: <a href="/praci-prostredky-pro-nejmensi/">Eco Mimi</a> pro praní dětského prádla a <a href="/pro-deti/">Pure Mimi</a> pro péči o pokožku. Jsou určené pro miminka od narození, děti i dospělé s citlivou pokožkou, neobsahují fosfáty, formaldehyd ani chlór a nejsou testované na zvířatech.</p>
+<div class="ke-box"><span class="ke-box-titulek">Výrobky s označením Natural Product jsou</span>
+<ul class="ke-seznam">
+<li>bez parabenů</li>
+<li>bez ropných derivátů</li>
+<li>bez SLS/SLES (laurylsulfát sodný / laurethsulfát sodný)</li>
+<li>bez barviv</li>
+</ul></div>
+<h2>Eco Mimi – šetrné praní pro miminka</h2>
+<div class="ke-produkt">
+<div class="ke-produkt-foto"><a href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-praci-prostredek-pro-miminka--935-g/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Eurona/eco mimi sensitive 935 g.png" alt="Eco Mimi 0+ Jemný prací prostředek pro miminka" /></a></div>
+<div class="ke-produkt-text">
+<h3><a href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-praci-prostredek-pro-miminka--935-g/">Eco Mimi 0+ Jemný prací prostředek pro miminka</a></h3>
+<p>Ekologický prací prostředek na rostlinné bázi, bez fosfátů, fosfonátů a optických zjasňovačů. Draselné mýdlo a speciální složky omezují žmolkování a prodlužují životnost prádla. Jemná vůně čerstvých hrušek a krémové ovesné kaše. Dermatologicky testováno Státním zdravotním ústavem.</p>
+<p><strong>Balení:</strong> 935 g a 2 750 g (cca 100–120 pracích dávek).</p>
+<p><a class="ke-tlacitko" href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-praci-prostredek-pro-miminka--935-g/">Zobrazit</a></p>
+</div>
+</div>
+<div class="ke-produkt">
+<div class="ke-produkt-foto"><a href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-praci-gel-pro-miminka--1000-ml/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Eurona/5318_eurona-eco-mimi-0--jemny-praci-gel-pro-miminka--1000-ml.png" alt="Eco Mimi 0+ Jemný prací gel pro miminka" /></a></div>
+<div class="ke-produkt-text">
+<h3><a href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-praci-gel-pro-miminka--1000-ml/">Eco Mimi 0+ Jemný prací gel pro miminka</a></h3>
+<p>Tekutá varianta s kokosovým a slunečnicovým olejem, inulinem a enzymy. Bez fosfátů, fosfonátů a optických zjasňovačů, s jemnou vůní hrušek a ovesné kaše. Dermatologicky testováno Státním zdravotním ústavem.</p>
+<p><strong>Balení:</strong> 1000 ml – 50 pracích dávek.</p>
+<p><a class="ke-tlacitko" href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-praci-gel-pro-miminka--1000-ml/">Zobrazit</a></p>
+</div>
+</div>
+<div class="ke-produkt">
+<div class="ke-produkt-foto"><a href="/avivaze-s-kondicionerem/eurona-eco-mimi-0--jemny-avivazni-kondicioner-pro-miminka--1000-ml/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Eurona/Avivážní kondicionér.png" alt="Eco Mimi 0+ Jemný avivážní kondicionér" /></a></div>
+<div class="ke-produkt-text">
+<h3><a href="/avivaze-s-kondicionerem/eurona-eco-mimi-0--jemny-avivazni-kondicioner-pro-miminka--1000-ml/">Eco Mimi 0+ Jemný avivážní kondicionér</a></h3>
+<p>Aviváž s kondicionérem 2 v 1 pro hebké a měkké prádlo, s antistatickým účinkem a snazším žehlením. Vyrobená z obnovitelných zdrojů na rostlinné bázi.</p>
+<p><strong>Balení:</strong> 1000 ml – 55 pracích dávek.</p>
+<p><a class="ke-tlacitko" href="/avivaze-s-kondicionerem/eurona-eco-mimi-0--jemny-avivazni-kondicioner-pro-miminka--1000-ml/">Zobrazit</a></p>
+</div>
+</div>
+<div class="ke-produkt">
+<div class="ke-produkt-foto"><a href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-neutralizacni-roztok-pro-miminka--1000-ml/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Eurona/Neutralizační roztok.png" alt="Eco Mimi 0+ Jemný neutralizační roztok" /></a></div>
+<div class="ke-produkt-text">
+<h3><a href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-neutralizacni-roztok-pro-miminka--1000-ml/">Eco Mimi 0+ Jemný neutralizační roztok</a></h3>
+<p>Přidává se do posledního máchání místo aviváže. Upravuje pH máchací lázně na hodnotu bližší pH pokožky, odstraňuje zbytky pracích prostředků a prádlo mírně změkčuje. Bez parfemace.</p>
+<p><strong>Balení:</strong> 1000 ml – 33 pracích dávek.</p>
+<p><a class="ke-tlacitko" href="/praci-prostredky-pro-nejmensi/eurona-eco-mimi-0--jemny-neutralizacni-roztok-pro-miminka--1000-ml/">Zobrazit</a></p>
+</div>
+</div>
+<h2>Pure Mimi – jemná péče o pokožku</h2>
+<p>Ekologicky šetrná kosmetika z obnovitelných zdrojů na rostlinné bázi s označením Natural Product.</p>
+<div class="ke-mrizka">
+<div class="ke-karta"><span class="ke-karta-stitek">Hlavní složka</span><h3>Ovesný olej a výtažek</h3><p>jemně čistí, hydratuje a vyživuje pokožku; olej má certifikát ECOCERT</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">Hlavní složka</span><h3>Meruňkový olej a mléko</h3><p>zjemňují a vyživují citlivou pokožku a zanechávají ji vláčnou</p></div>
+</div>
+<div class="ke-produkt">
+<div class="ke-produkt-foto"><a href="/pro-deti/eurona-puremimi-jemny-myci-olej-na-zadecek-pro-miminka--150-ml/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Eurona/jemný olej pro miminka.png" alt="Pure Mimi Jemný mycí olej na zadeček" /></a></div>
+<div class="ke-produkt-text">
+<h3><a href="/pro-deti/eurona-puremimi-jemny-myci-olej-na-zadecek-pro-miminka--150-ml/">Pure Mimi Jemný mycí olej na zadeček</a></h3>
+<p>Lehká konzistence s rostlinnými oleji pro miminka od prvních dnů. Šetrná alternativa vlhčených ubrousků při každodenní péči o zadeček. Obsahuje ovesný a meruňkový olej a vitamín E. Dermatologicky testováno Státním zdravotním ústavem.</p>
+<p><strong>Balení:</strong> 150 ml.</p>
+<p><a class="ke-tlacitko" href="/pro-deti/eurona-puremimi-jemny-myci-olej-na-zadecek-pro-miminka--150-ml/">Zobrazit</a></p>
+</div>
+</div>
+<div class="ke-produkt">
+<div class="ke-produkt-foto"><a href="/pro-deti/eurona-pure-mimi-0--jemne-vlhcene-ubrousky-pro-miminka--72-ks/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/Eurona/vlhčené ubrousky.jpg" alt="Pure Mimi 0+ Jemné vlhčené ubrousky" /></a></div>
+<div class="ke-produkt-text">
+<h3><a href="/pro-deti/eurona-pure-mimi-0--jemne-vlhcene-ubrousky-pro-miminka--72-ks/">Pure Mimi 0+ Jemné vlhčené ubrousky</a></h3>
+<p>Hypoalergenní ubrousky z přírodní viskózy s olejem z ovesných lipidů, meruňkovým mlékem, aloe vera, panthenolem a squalanem. Vhodné i na obličej, pH neutrální, biologicky odbouratelné a kompostovatelné.</p>
+<p><strong>Balení:</strong> 72 ks.</p>
+<p><a class="ke-tlacitko" href="/pro-deti/eurona-pure-mimi-0--jemne-vlhcene-ubrousky-pro-miminka--72-ks/">Zobrazit</a></p>
+</div>
+</div>
+<p class="ke-tlacitko-obal"><a class="ke-tlacitko" href="/praci-prostredky-pro-nejmensi/">Prací prostředky pro nejmenší</a> &nbsp; <a class="ke-tlacitko" href="/pro-deti/">Péče pro děti</a></p>
+</div></body></html>

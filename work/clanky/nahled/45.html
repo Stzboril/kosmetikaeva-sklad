@@ -1,0 +1,108 @@
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>
+@font-face{font-family:Montserrat;src:url('/home/claude/work/design/mock/fonts/Montserrat[wght].ttf');font-weight:100 900}
+body{margin:0;padding:30px 24px;background:#fff;font-family:Montserrat,sans-serif;width:1100px}
+h1{font-size:36px;color:#1c1b29;max-width:920px;margin:0 auto 18px}
+/* KE články – jednotný vzhled blogu (třídy ke-*) */
+.ke-clanek{--k-acc:#a3392a;--k-acc2:#87301f;--k-ink:#1c1b29;--k-txt:#3f3d4f;--k-soft:#f7f5f8;--k-blush:#fbf3f1;--k-line:#eceaf0;
+  max-width:920px;margin:0 auto;color:var(--k-txt);font-size:16px;line-height:1.75;text-align:left}
+.ke-clanek p{margin:0 0 14px;text-align:left!important}
+.ke-clanek h2{position:relative;font-size:26px!important;line-height:1.25!important;color:var(--k-ink)!important;margin:46px 0 16px!important;padding:18px 0 0!important;text-align:left!important;font-weight:700!important;border:0!important;background:none!important}
+.ke-clanek h2::before{content:"";position:absolute;left:0;top:0;width:44px;height:3px;border-radius:3px;background:var(--k-acc)}
+.ke-clanek h2 em{font-style:normal}
+.ke-clanek h3{font-size:19px!important;line-height:1.35!important;color:var(--k-ink)!important;margin:28px 0 10px!important;text-align:left!important;font-weight:700!important}
+.ke-clanek a{color:var(--k-acc)}
+.ke-clanek img{max-width:100%;height:auto;border-radius:14px}
+.ke-perex{font-size:18px;line-height:1.7;color:var(--k-ink)!important}
+.ke-box{background:var(--k-blush);border-radius:16px;padding:20px 24px;margin:24px 0}
+.ke-box>:last-child{margin-bottom:0}
+.ke-box-titulek{display:block;font-weight:700;color:var(--k-acc);margin-bottom:6px;font-size:15px;letter-spacing:.02em}
+.ke-box-velky{font-size:28px;font-weight:700;color:var(--k-ink);line-height:1.2;display:block;margin:2px 0 6px}
+.ke-mrizka{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:20px 0 26px}
+.ke-karta{background:#fff;border:1px solid var(--k-line);border-radius:16px;padding:18px 20px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-karta>:last-child{margin-bottom:0}
+.ke-karta h3{margin:0 0 6px!important;font-size:17px!important}
+.ke-karta-stitek{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--k-acc);margin-bottom:6px}
+.ke-produkt{display:flex;gap:22px;align-items:flex-start;background:#fff;border:1px solid var(--k-line);border-radius:18px;padding:20px;margin:0 0 18px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-produkt-foto{flex:0 0 150px;text-align:center}
+.ke-produkt-foto img{max-height:170px;width:auto;border-radius:10px}
+.ke-produkt-text{flex:1 1 auto;min-width:0}
+.ke-produkt-text h3{margin-top:0!important}
+.ke-produkt-text>:last-child{margin-bottom:0}
+.ke-tab{width:100%!important;border-collapse:separate!important;border-spacing:0;border:1px solid var(--k-line)!important;border-radius:14px;overflow:hidden;font-size:15px;line-height:1.5;margin:16px 0 26px!important;background:#fff}
+.ke-clanek table.ke-tab th{background:var(--k-ink)!important;color:#fff!important;text-align:left!important;padding:12px 16px!important;font-weight:600!important;border:0!important}
+.ke-clanek table.ke-tab td{padding:11px 16px!important;border:0!important;border-top:1px solid var(--k-line)!important;vertical-align:top;text-align:left!important;background:#fff}
+.ke-clanek table.ke-tab tr:nth-child(even) td{background:#faf9fb}
+.ke-clanek table.ke-tab a{color:var(--k-acc);font-weight:600;text-decoration:none}
+.ke-clanek table.ke-tab a:hover{text-decoration:underline}
+.ke-tab-obal{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ke-tlacitko,a.ke-tlacitko{display:inline-block;background:var(--k-acc);color:#fff!important;border-radius:999px;padding:12px 28px;font-weight:600;text-decoration:none!important;transition:background-color .25s ease,box-shadow .25s ease}
+.ke-tlacitko:hover,a.ke-tlacitko:hover{background:var(--k-acc2);box-shadow:0 10px 22px -10px rgba(163,57,42,.7)}
+.ke-tlacitko-obal{margin:22px 0 8px}
+.ke-seznam{list-style:none!important;padding:0!important;margin:0 0 18px!important}
+.ke-seznam li{position:relative;padding-left:26px!important;margin:0 0 8px!important;list-style:none!important}
+.ke-seznam li::before{content:"";position:absolute;left:4px;top:.65em;width:8px;height:8px;border-radius:50%;background:var(--k-acc)}
+.ke-seznam li::marker{content:""}
+.ke-cisla{counter-reset:ke;list-style:none!important;padding:0!important;margin:0 0 18px!important}
+.ke-cisla li{counter-increment:ke;position:relative;padding-left:44px!important;margin:0 0 12px!important;min-height:30px;list-style:none!important}
+.ke-cisla li::before{content:counter(ke);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--k-acc);color:#fff;font-weight:700;font-size:14px;line-height:30px;text-align:center}
+.ke-cisla li::marker{content:""}
+.ke-pozn{font-size:14px;color:#6e6c7a}
+@media (max-width:640px){
+  .ke-clanek{font-size:15.5px}
+  .ke-clanek h2{font-size:22px!important;margin-top:36px!important}
+  .ke-perex{font-size:17px}
+  .ke-produkt{flex-direction:column;align-items:center;text-align:left}
+  .ke-produkt-foto{flex-basis:auto}
+  .ke-clanek table.ke-tab th,.ke-clanek table.ke-tab td{padding:10px 12px!important}
+  .ke-tab{font-size:14px}
+}
+</style></head><body><div class="ke-clanek">
+<h1>Jak se chránit při opalování</h1>
+<p class="ke-perex"><a href="/opalovani/"><img src="https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/documents/upload/blobid0-2.jpg?1606131576" alt="opalování" style="float: right; margin: 0 0 12px 18px; max-width: 42%;" /></a>Sluníčko k létu patří, ale pokožku je potřeba před ním chránit. Nadměrné slunění a spálení patří k hlavním faktorům, které urychlují stárnutí pokožky a zvyšují riziko kožních onemocnění. Jak vybrat správnou ochranu?</p>
+<h2>UVA a UVB – v čem je rozdíl</h2>
+<div class="ke-mrizka">
+<div class="ke-karta"><span class="ke-karta-stitek">Hlubší vrstvy kůže</span><h3>UVA záření</h3><p>Je přítomné celý den a po celý rok a podílí se na předčasném stárnutí pokožky – vráskách a pigmentových skvrnách.</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">Povrch kůže</span><h3>UVB záření</h3><p>Působí na povrchové vrstvy kůže a je hlavní příčinou zarudnutí a spálení.</p></div>
+</div>
+<p>Kvalitní opalovací přípravek chrání proti oběma. Hodnota <strong>SPF</strong> udává ochranu před UVB, ochranu před UVA označuje symbol „UVA“ v kroužku.</p>
+<h2>Jaký jste fototyp?</h2>
+<div class="ke-mrizka">
+<div class="ke-karta"><span class="ke-karta-stitek">Fototyp I</span><h3>Velmi světlá pokožka</h3><p>Bledá nebo pihovatá, prakticky se neopálí a snadno se spálí. Vlasy světlé nebo zrzavé.</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">Fototyp II</span><h3>Světlá pokožka</h3><p>Sklon k pihám, opaluje se obtížně a často se spálí. Vlasy světlé.</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">Fototyp III</span><h3>Běžná pokožka</h3><p>U nás nejčastější. Zpočátku se může spálit, pak se opálí rovnoměrně.</p></div>
+<div class="ke-karta"><span class="ke-karta-stitek">Fototyp IV</span><h3>Snědší pokožka</h3><p>Rychle se opaluje a spálí se jen výjimečně. Vlasy hnědé až černé.</p></div>
+</div>
+<h2>Jaký ochranný faktor zvolit</h2>
+<div class="ke-tab-obal"><table class="ke-tab">
+<thead><tr><th>Situace</th><th>Doporučený faktor</th></tr></thead>
+<tbody>
+<tr><td>děti, fototyp I a II, citlivá pokožka</td><td>SPF 50</td></tr>
+<tr><td>moře, hory, jižní země, první dny na slunci</td><td>SPF 50</td></tr>
+<tr><td>fototyp III a IV při běžném letním pobytu venku</td><td>SPF 30</td></tr>
+<tr><td>miminka a malé děti</td><td>žádné přímé slunce – stín, oblečení, pokrývka hlavy</td></tr>
+</tbody>
+</table></div>
+<div class="ke-box"><span class="ke-box-titulek">Pozor na výpočty „vlastní ochranná doba × SPF“</span><p>V praxi naneseme obvykle méně přípravku, než se používá při testování, a krém se postupně stírá potem, vodou i ručníkem. Skutečná ochrana je proto nižší – dobu na slunci tímto způsobem neprodlužujte.</p></div>
+<h2>Zásady bezpečného opalování</h2>
+<ol class="ke-cisla">
+<li>Přípravek naneste <strong>dostatečně</strong> a rovnoměrně zhruba 15–30 minut před pobytem na slunci.</li>
+<li>Nanášení opakujte <strong>přibližně každé 2 hodiny</strong> a vždy po koupání, pocení nebo osušení ručníkem.</li>
+<li>Opakované nanesení <strong>neprodlužuje</strong> dobu, kterou můžete na slunci bezpečně strávit – jen udržuje ochranu.</li>
+<li>Mezi 11. a 15. hodinou vyhledávejte stín a noste klobouk, tričko a sluneční brýle.</li>
+<li>Po opalování dopřejte pokožce hydratační péči.</li>
+</ol>
+<h2>Opalovací přípravky v naší nabídce</h2>
+<div class="ke-tab-obal"><table class="ke-tab">
+<thead><tr><th>Přípravek</th><th>Kdy se hodí</th></tr></thead>
+<tbody>
+<tr><td><a href="/opalovani/lr-aloe-vera-sun-spf-30-opalovaci-mleko-100-ml/">LR Aloe Vera Sun SPF 30 Opalovací mléko</a></td><td>lehké mléko na celé tělo pro běžné opalování</td></tr>
+<tr><td><a href="/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/">LR Aloe Vera Sun SPF 50 Opalovací krém</a></td><td>vysoká ochrana pro světlou a citlivou pokožku</td></tr>
+<tr><td><a href="/opalovani/lr-aloe-vera-kids-sun-spf-50-opalovaci-mleko-ve-spreji-150-ml/">LR Aloe Vera Kids Sun SPF 50 ve spreji</a></td><td>pro děti, ve spreji se snadno nanáší</td></tr>
+<tr><td><a href="/opalovani/just-opalovaci-mleko-spf-50-125-ml/">Just Opalovací mléko SPF 50</a></td><td>vysoká ochrana od švýcarské značky JUST</td></tr>
+<tr><td><a href="/opalovani/just-opalovaci-krem-spf-30-2-x-30-ml/">Just Opalovací krém SPF 30 (2 × 30 ml)</a></td><td>praktické menší balení na cesty</td></tr>
+<tr><td><a href="/opalovani/lr-aloe-vera-after-sun-kremovy-gel-po-opalovani-200-ml/">LR Aloe Vera After Sun Krémový gel</a></td><td>osvěžující péče po opalování, bez UV filtrů</td></tr>
+<tr><td><a href="/opalovani/just-balzam-po-opalovani-250-ml/">Just Balzám po opalování</a></td><td>hydratační péče po slunění</td></tr>
+</tbody>
+</table></div>
+<p class="ke-tlacitko-obal"><a class="ke-tlacitko" href="/opalovani/">Všechny opalovací přípravky</a></p>
+</div></body></html>
