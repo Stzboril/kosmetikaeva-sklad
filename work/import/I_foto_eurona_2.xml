@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SHOP>
+<SHOPITEM><CODE>1001</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na bílé a jemné světlé prádlo, 2750 g">https://www.euronabycerny.com/images/products/1001_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1002</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na bílé a jemné světlé prádlo, 935 g">https://www.euronabycerny.com/images/products/1002_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1003</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na praní barevného prádla, 2750 g">https://www.euronabycerny.com/images/products/1003_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1008</CODE><IMAGES><IMAGE description="Eurona Wool &amp; Delicate Tekutý prostředek na vlnu a jemné, 1000 ml">https://www.euronabycerny.com/images/products/1008_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1009</CODE><IMAGES><IMAGE description="Eurona Tekutý prostředek na šetrné praní barevného prádla, 1000 ml">https://www.euronabycerny.com/images/products/1009_4.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1010</CODE><IMAGES><IMAGE description="Eurona Tekutý prací prostředek na praní černého a tmavého prádla, 1000 ml">https://www.euronabycerny.com/images/products/1010_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1021</CODE><IMAGES><IMAGE description="Eurona Univerzální multifunkční agent s obsahem kyslíku, 800 g">https://www.euronabycerny.com/images/products/1021_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1022</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na záclony, 400 g">https://www.euronabycerny.com/images/products/1022_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1023</CODE><IMAGES><IMAGE description="Eurona Kondicionér na záclony se zjasňujícími účinky, 500 ml">https://www.euronabycerny.com/images/products/1023_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1030</CODE><IMAGES><IMAGE description="Eurona Prostředek na ruční praní a na cesty, 250 ml">https://www.euronabycerny.com/images/products/maketa-1030.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1037</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na péřové bundy a spací pytle, 250 ml">https://www.euronabycerny.com/images/products/1037_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1038</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na sportovní oblečení a obuv, 250 ml">https://www.euronabycerny.com/images/products/maketa-1038.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1047</CODE><IMAGES><IMAGE description="Eurona Prací prostředek na praní barevného prádla, 935 g">https://www.euronabycerny.com/images/products/1047_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1049</CODE><IMAGES><IMAGE description="Eurona Tužidlo na záclony, 500 ml">https://www.euronabycerny.com/images/products/1049_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1065</CODE><IMAGES><IMAGE description="Eurona Pohotovostní žehlička s vůní Green, 500 ml">https://www.euronabycerny.com/images/products/1165_1.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1079</CODE><IMAGES><IMAGE description="Eurona White &amp; Bright Tekutý prostředek na bílé a světlé 1000 ml">https://www.euronabycerny.com/images/products/1079_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1098</CODE><IMAGES><IMAGE description="Eurona Tekutý prací prostředek na praní všech druhů prádla, 1000 ml">https://www.euronabycerny.com/images/products/1098_7.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1103</CODE><IMAGES><IMAGE description="Eurona Pohotovostní žehlička s vůní Green, 100 ml">https://www.euronabycerny.com/images/products/1103_11.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1143</CODE><IMAGES><IMAGE description="Eurona Tekutý prostředek na praní softshellových oděvů, 250 ml">https://www.euronabycerny.com/images/products/maketa-1143.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1170</CODE><IMAGES><IMAGE description="Eurona Pohotovostní žehlička s vůní Black Grape, 100 ml">https://www.euronabycerny.com/images/products/1170_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1171</CODE><IMAGES><IMAGE description="Eurona Pohotovostní žehlička s vůní Black Grape, 500 ml">https://www.euronabycerny.com/images/products/1171_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1228</CODE><IMAGES><IMAGE description="Eurona Silky &amp; Delicate Speciální prací gel na extra jemné prádlo, merino a satén 1000 ml">https://www.euronabycerny.com/images/products/1228_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1229</CODE><IMAGES><IMAGE description="Eurona All in Spectrum Speciální prací prostředek na všechny druhy prádla 2750g">https://www.euronabycerny.com/images/products/1229_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>1230</CODE><IMAGES><IMAGE description="Eurona All in Spectrum Speciální prací prostředek na všechny druhy prádla 935g">https://www.euronabycerny.com/images/products/1230_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2009</CODE><IMAGES><IMAGE description="Eurona Vůně do myček - Pomeranč a grapefruit, 1 ks">https://www.euronabycerny.com/images/products/2009_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2022</CODE><IMAGES><IMAGE description="Eurona Vůně do myček - Svěží oceán, 1 ks">https://www.euronabycerny.com/images/products/2022_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2038</CODE><IMAGES><IMAGE description="Eurona Gel na ruční mytí nádobí s Aloe vera – Malina a máta, 1 000 ml">https://www.euronabycerny.com/images/products/2038_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2039</CODE><IMAGES><IMAGE description="Eurona Gel na ruční mytí nádobí s Aloe vera – Malina a máta, 400 ml">https://www.euronabycerny.com/images/products/2039_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2040</CODE><IMAGES><IMAGE description="Eurona Gel na ruční mytí nádobí s heřmánkem a s Aloe vera - Pramen Aloe, 1 000 ml">https://www.euronabycerny.com/images/products/2040_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2044</CODE><IMAGES><IMAGE description="Eurona Gel na ruční mytí nádobí s Aloe vera - Lesní plody 1000 ml">https://www.euronabycerny.com/images/products/2044_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2053</CODE><IMAGES><IMAGE description="Eurona Eco Wave Tablety do myčky nádobí, 40 x 16 g">https://www.euronabycerny.com/images/products/2053_4.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>2057</CODE><IMAGES><IMAGE description="Eurona EcoWave Oplachovací a lešticí prostředek do myček nádobí, 500 ml">https://www.euronabycerny.com/images/products/maketa-2057.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>3001</CODE><IMAGES><IMAGE description="Eurona Šampon na koberce - ruční, 1000 ml">https://www.euronabycerny.com/images/products/3001_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>3002</CODE><IMAGES><IMAGE description="Eurona Šampon na koberce - strojní, 1000 ml">https://www.euronabycerny.com/images/products/3002_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>3005</CODE><IMAGES><IMAGE description="Eurona Čistič kuchyní, 500 ml">https://www.euronabycerny.com/images/products/3005_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>3009</CODE><IMAGES><IMAGE description="Eurona Gel na rez a vodní kámen, 500 ml">https://www.euronabycerny.com/images/products/maketa-3009.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>3010</CODE><IMAGES><IMAGE description="Eurona Rozpouštěč vodního kamene na domácí spotřebiče, 500 ml">https://www.euronabycerny.com/images/products/3010_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>4446</CODE><IMAGES><IMAGE description="Eurona Pumpička na parfém na praní">https://www.euronabycerny.com/images/products/pumpicka-na-parfem-na-prani-500-ml-maketa_1.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>5006</CODE><IMAGES><IMAGE description="Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml">https://www.euronabycerny.com/images/products/5006_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>6018</CODE><IMAGES><IMAGE description="Eurona 90% Aloe vera S.O.S. sprej, 250 ml">https://www.euronabycerny.com/images/products/6018_1.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>6058</CODE><IMAGES><IMAGE description="Eurona Brilliant Condition - Přírodní ochranný sprej pro svěží dech, 50 ml">https://www.euronabycerny.com/images/products/6058_1.jpg</IMAGE><IMAGE description="ZE6058[1]">https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/shop/orig/4346-1_ze6058-1.jpg?5d1919d4</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>6059</CODE><IMAGES><IMAGE description="Eurona Brilliant Condition - Přírodní ochranná ústní voda, 250 ml">https://www.euronabycerny.com/images/products/6059_1.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>6350</CODE><IMAGES><IMAGE description="Eurona Eco Mimi 0+ Jemný prací prostředek pro miminka, 2750 g">https://www.euronabycerny.com/images/products/6350_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>6351</CODE><IMAGES><IMAGE description="Eurona Eco Mimi 0+ Jemný prací prostředek pro miminka, 935 g">https://www.euronabycerny.com/images/products/6351_3.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>7001</CODE><IMAGES><IMAGE description="Eurona Univerzální organické tekuté hnojivo, 1000 ml">https://www.euronabycerny.com/images/products/7001_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>7004</CODE><IMAGES><IMAGE description="Eurona Tekuté hnojivo pro balkónové květiny, 500 ml">https://www.euronabycerny.com/images/products/7004_2.jpg</IMAGE></IMAGES></SHOPITEM>
+<SHOPITEM><CODE>7007</CODE><IMAGES><IMAGE description="Eurona Univerzální tekutá bionesence s obsahem enzymů z žížal, 500 ml">https://www.euronabycerny.com/images/products/7007_4.jpg</IMAGE></IMAGES></SHOPITEM>
+</SHOP>
