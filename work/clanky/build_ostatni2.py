@@ -188,8 +188,8 @@ META['177'] = dict(title='Esence JUST: Klíč k výběru',
 # ---------------------------------------------------------------- 195 SK LR parfémy (vyčištění, SK odkazy)
 h = open(P + '195.html').read()
 h = re.sub(r'^<p><meta[^>]*/><meta[^>]*/></p>\s*', '', h)
-h = re.sub(r'<style><!--.*?--></style>\s*', '', h, flags=re.S)
-assert '<meta' not in h and '<style' not in h, h[:300]
+h = re.sub(r'<style><!--\s*(?:<style><!--\s*)?(.*?)--></style>', lambda m: '<style><!--\n' + m.group(1).strip() + '\n--></style>', h, count=1, flags=re.S)
+assert '<meta' not in h and h.count('<style') == 1, h[:300]
 h = re.sub(r'href="/(?!sk/)', 'href="/sk/', h)
 h = nahrad(h, '<p><a href="/sk/parfemy/">Zobraziť celú kategóriu parfémov</a></p>', '<p><a class="odkaz" href="/sk/parfemy/">Zobraziť celú kategóriu parfumov</a></p>') if '<p><a href="/sk/parfemy/">Zobraziť celú kategóriu parfémov</a></p>' in h else h
 open(O + '195.html', 'w').write(h)
