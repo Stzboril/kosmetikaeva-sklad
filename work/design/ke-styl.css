@@ -26,6 +26,7 @@
   --ke-accent-hover:#87301f;
   --ke-accent-light:#e39a8d;
   --ke-star:#e0a100;
+  --ke-footer:#2a1a20;
   --ke-radius:18px;
   --ke-shadow:0 10px 30px rgba(28,27,41,.06);
   --ke-shadow-hover:0 16px 40px rgba(28,27,41,.12);
@@ -322,7 +323,7 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
 .hodnoceni-wrapper{background:transparent!important}
 
 /* ---------- 11. Patička ---------- */
-#footer.footer{background:var(--ke-ink)!important;color:#d9d8e2!important}
+#footer.footer{background:var(--ke-footer)!important;color:#d9d8e2!important}
 #footer .footer-rows{padding-top:52px;padding-bottom:28px}
 #footer h3,#footer h4,#footer .contact-box strong,#footer .custom-footer > div h4,#footer .custom-footer > div h3{
   color:#fff!important;font-size:17px!important;font-weight:700!important;text-align:left;margin-bottom:18px!important;
@@ -361,25 +362,16 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
 #footer .contact-box strong::after{color:rgba(217,216,226,.7)!important;font-size:12px}
 #footer .contact-box .cellphone::before,#footer .contact-box .mail::before,#footer .contact-box .tel::before,
 #footer .contact-box li>span::before{color:var(--ke-accent-light)!important}
-#footer .footer-bottom{border-top:1px solid rgba(255,255,255,.12)}
+#footer .footer-bottom{border-top:1px solid rgba(255,255,255,.10)}
+#footer .contact-box li:has(.facebook){display:none!important}
 #footer .footer-bottom,#footer .copyright,#footer .copyright strong,#footer #signature a{color:rgba(217,216,226,.7)!important;font-size:13px!important}
 #footer #signature img{filter:brightness(0) invert(1);opacity:.8}
 .custom-footer__facebook{display:none!important}
-/* Logo v patičce – dvoubarevná verze pro tmavé pozadí (bílá silueta, světle vínový text) */
-#footer .custom-footer::before{
-  content:""!important;display:block!important;grid-column:1/-1;justify-self:start;
-  width:230px;max-width:70%;height:59px;margin:0 0 34px;
-  background:url(/user/documents/upload/CSS/ke-logo-patka.png) left center/contain no-repeat;
-}
-@media (max-width:767px){
-  #footer .custom-footer::before{order:-1;flex:0 0 auto;width:210px;height:54px;margin:8px auto 26px;background-position:center}
-}
-
 @media (min-width:768px){
   #footer .custom-footer{display:grid!important;grid-template-columns:1.3fr 1fr 1fr;column-gap:48px;row-gap:0}
   #footer .custom-footer>div{width:auto!important;max-width:none!important;flex:none!important;padding:0!important}
 }
-body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-ink);padding:0 0 28px;margin:0}
+body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-footer);padding:0 0 28px;margin:0}
 img.comgate{background:#fff;border-radius:12px;padding:6px 16px;width:auto!important;height:auto;max-width:min(440px,calc(100vw - 32px))!important;box-sizing:border-box}
 
 /* ---------- 12. Mobil ---------- */
