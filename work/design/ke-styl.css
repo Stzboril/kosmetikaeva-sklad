@@ -44,7 +44,7 @@
 }
 
 /* ---------- 1. Písmo a základ ----------
-   Starší styly vnucují Poppins přes „* {…!important}“ a dlouhý seznam selektorů
+   Starší styly vnucují Poppins přes univerzální selektor s !important a dlouhý seznam selektorů
    (až #footer .custom-footer > div h4). :not(#ke):not(#ke2) zvedá váhu pravidla nad ně. */
 :root:not(#ke):not(#ke2) *{font-family:var(--ke-font)!important}
 body{color:var(--ke-ink);background:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
