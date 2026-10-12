@@ -371,7 +371,7 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
   #footer .custom-footer{display:grid!important;grid-template-columns:1.3fr 1fr 1fr;column-gap:48px;row-gap:0}
   #footer .custom-footer>div{width:auto!important;max-width:none!important;flex:none!important;padding:0!important}
 }
-body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-footer);padding:0 0 28px;margin:0}
+body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-footer);padding:0 0 28px;margin:0;box-shadow:0 -3px 0 var(--ke-footer)}
 img.comgate{background:#fff;border-radius:12px;padding:6px 16px;width:auto!important;height:auto;max-width:min(440px,calc(100vw - 32px))!important;box-sizing:border-box}
 
 /* ---------- 12. Mobil ---------- */
