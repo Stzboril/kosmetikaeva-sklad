@@ -1,0 +1,269 @@
+/* =====================================================================
+   KosmetikaEva.eu – vzhled „KE Luxe“ (vzdušný, elegantní)
+   Načítá se až po starších stylech (csske…, DMupravy…) a přepisuje je.
+   ===================================================================== */
+
+/* ---------- 0. Barvy a písma ---------- */
+:root{
+  --ke-ink:#1d1b2f;
+  --ke-ink-soft:#45435a;
+  --ke-muted:#77737f;
+  --ke-ivory:#faf7f2;
+  --ke-sand:#f1ebe3;
+  --ke-line:rgba(29,27,47,.10);
+  --ke-accent:#aa3b29;
+  --ke-accent-hover:#8c2f22;
+  --ke-gold:#b8955a;
+  --ke-serif:'Cormorant Garamond','Cormorant',Georgia,'Times New Roman',serif;
+  --ke-radius:14px;
+
+  /* proměnné šablony – jemnější hover místo křiklavé oranžové */
+  --color-primary-hover:#8c2f22;
+  --color-primary-hover-h:8; --color-primary-hover-s:61%; --color-primary-hover-l:34%;
+  --color-secondary-hover:#8c2f22;
+  --color-secondary-hover-h:8; --color-secondary-hover-s:61%; --color-secondary-hover-l:34%;
+  --color-tertiary-hover:#8c2f22;
+  --hover:#8c2f22;
+}
+
+body{color:var(--ke-ink);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+p,ul,ol,.basic-description li,article li,.news-item-detail li{color:var(--ke-ink-soft)}
+p{text-align:left;line-height:1.75}
+.basic-description p,article p,.news-item-detail p{color:var(--ke-ink-soft)!important;text-align:left!important}
+a{transition:color .2s ease}
+
+/* Nadpisy patkovým písmem (přebíjí * {font-family:Poppins !important}) */
+h1,h2,h3,
+.category-title,.homepage-group-title,.products-related-header,
+.p-detail-inner h1,.news-item .title,.benefitBanner__title{
+  font-family:var(--ke-serif)!important;
+  letter-spacing:.005em;
+}
+h1,h2{color:var(--ke-ink)!important;font-weight:600;text-align:center;line-height:1.15}
+h2{font-size:34px}
+h3{font-weight:600;color:var(--ke-ink)}
+
+/* Sekční nadpisy se zlatou linkou */
+.homepage-group-title,.products-related-header,
+#content h2.products-related-header{
+  font-size:40px!important;font-weight:500!important;color:var(--ke-ink)!important;
+  text-align:center;line-height:1.15;margin-bottom:44px!important;
+}
+.homepage-group-title::after,.products-related-header::after{
+  content:"";display:block;width:56px;height:1px;background:var(--ke-gold);margin:18px auto 0;
+}
+
+/* ---------- 1. Horní lišta a hlavička ---------- */
+.top-navigation-bar{background:var(--ke-ivory)!important;border-bottom:1px solid var(--ke-line)}
+.top-navigation-bar,.top-navigation-bar a,.top-navigation-bar button,.top-navigation-bar .dropdown button{
+  font-size:12.5px!important;letter-spacing:.02em;color:var(--ke-ink-soft)!important;
+}
+.top-navigation-bar .dropdown{border-color:var(--ke-line)!important}
+#header{background:#fff;border-bottom:1px solid var(--ke-line)}
+@media (min-width:1200px){
+  .navigation-in>ul>li>a{
+    font-size:13px!important;font-weight:500!important;text-transform:uppercase;
+    letter-spacing:.12em;color:var(--ke-ink)!important;
+  }
+  .navigation-in>ul>li>a:hover,.navigation-in>ul>li.exp>a{color:var(--ke-accent)!important}
+  .navigation-in>ul>li.ext>ul{border-top:1px solid var(--ke-line);box-shadow:0 18px 40px rgba(29,27,47,.08)}
+}
+.menu-helper>span,.menu-helper{font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.lupa::before{color:var(--ke-ink)!important}
+body:not(.carousel-yes) .navigation-buttons>a[data-target="cart"] i,
+body:not(.carousel-yes) .cart-count:not(.full)::after,
+.cart-count:not(.full)::after{background-color:var(--ke-accent)!important;color:#fff!important}
+
+/* ---------- 2. Drobečková navigace (místo červeného pruhu) ---------- */
+.container.breadcrumbs-wrapper{background:transparent!important;margin-bottom:6px!important}
+.breadcrumbs{background:transparent!important;color:var(--ke-muted)!important}
+.breadcrumbs-wrapper .breadcrumbs>span>a,
+.breadcrumbs-wrapper .breadcrumbs>span>span{
+  font-size:12.5px!important;color:var(--ke-muted)!important;letter-spacing:.04em;
+}
+.breadcrumbs-wrapper .breadcrumbs>span>a:hover{color:var(--ke-accent)!important}
+.breadcrumbs .navigation-home-icon::before,.breadcrumbs>span::before,.breadcrumbs>span::after{color:var(--ke-muted)!important}
+
+/* ---------- 3. Tlačítka a formuláře ---------- */
+.btn.btn-primary,a.btn.btn-primary,
+.btn.btn-conversion,a.btn.btn-conversion,
+.btn.btn-cart,a.btn.btn-cart,
+.btn.btn-default,a.btn.btn-default,
+.btn.btn-secondary,a.btn.btn-secondary,
+.box-bg-default .btn.btn-default,.box-bg-default a.btn.btn-default{
+  border-radius:999px!important;font-weight:500!important;letter-spacing:.12em;
+  text-transform:uppercase;font-size:12px!important;box-shadow:none!important;
+  transition:background-color .25s ease,border-color .25s ease,color .25s ease;
+}
+.btn.btn-conversion,a.btn.btn-conversion,.btn.btn-cart,a.btn.btn-cart{
+  background-color:var(--ke-accent)!important;border-color:var(--ke-accent)!important;color:#fff!important;
+}
+.btn.btn-conversion:hover,a.btn.btn-conversion:hover,.btn.btn-cart:hover,a.btn.btn-cart:hover{
+  background-color:var(--ke-ink)!important;border-color:var(--ke-ink)!important;
+}
+.btn.btn-primary,a.btn.btn-primary,.btn.btn-default,a.btn.btn-default,
+.box-bg-default .btn.btn-default,.box-bg-default a.btn.btn-default{
+  background-color:var(--ke-ink)!important;border-color:var(--ke-ink)!important;color:#fff!important;
+}
+.btn.btn-primary:hover,a.btn.btn-primary:hover,.btn.btn-default:hover,a.btn.btn-default:hover{
+  background-color:var(--ke-accent)!important;border-color:var(--ke-accent)!important;
+}
+.btn.btn-ghost,.btn.btn-ghost:hover{
+  border-radius:999px!important;background:transparent!important;color:var(--ke-ink)!important;
+  border:1px solid var(--ke-ink)!important;letter-spacing:.1em;text-transform:uppercase;font-size:12px!important;
+}
+.btn.btn-ghost:hover{background:var(--ke-ink)!important;color:#fff!important}
+.form-control,select,
+.form-group>input.form-control,.form-group>select.form-control,
+.co-basic-information .form-group>select.form-control{
+  border-radius:10px!important;border-color:rgba(29,27,47,.18)!important;
+}
+
+/* ---------- 4. Úvodní stránka ---------- */
+.benefitBanner.position--benefitHomepage{
+  background:var(--ke-ivory);border-radius:var(--ke-radius);padding:34px 20px!important;margin:36px 0 64px!important;
+}
+.benefitBanner__title{font-size:23px!important;font-weight:600!important;color:var(--ke-ink)!important}
+.benefitBanner__data{color:var(--ke-muted)!important;font-size:13px!important;letter-spacing:.02em}
+.benefitBanner__img{opacity:.85}
+.homepage-box.welcome-wrapper{background:var(--ke-ivory);padding-top:56px;padding-bottom:56px;margin-top:40px}
+.welcome h2,.welcome-wrapper h2{font-size:34px!important;font-weight:500!important;margin:34px 0 22px!important}
+
+/* ---------- 5. Karty produktů ---------- */
+.products-block .product .p,.products .product .p{border:0!important;box-shadow:none!important;background:transparent!important}
+.products-block .product .p .image,.products .product .p .image{
+  display:block;background:var(--ke-ivory);border-radius:var(--ke-radius);overflow:hidden;padding:14px;
+}
+.products-block .product .p .image img,.products .product .p .image img{
+  mix-blend-mode:multiply;transition:transform .6s cubic-bezier(.2,.7,.2,1);
+}
+.products-block .product:hover .p .image img,.products .product:hover .p .image img{transform:scale(1.04)}
+.image:hover,.image:hover img,img.h:hover{opacity:1!important;filter:none!important}
+.product .name,.product .name span{font-size:15px!important;color:var(--ke-ink)!important;line-height:1.45;font-weight:400}
+.product .name:hover span{color:var(--ke-accent)!important}
+.product .price-final,.product .price-final strong{color:var(--ke-ink)!important;font-size:17px!important;font-weight:600}
+.product .price-additional,.product .price-measure{color:var(--ke-muted)!important}
+.product .p-tools .btn{height:42px!important;line-height:42px!important;min-height:0!important;padding:0 22px!important}
+.product .ratings-wrapper{margin-top:14px}
+
+/* Hvězdičky zlatě */
+.stars .star.star-on,.stars .star.star-on::before,.star-on{color:var(--ke-gold)!important}
+
+/* Štítky */
+.flag{border-radius:3px!important;font-size:10.5px!important;letter-spacing:.12em;text-transform:uppercase;font-weight:500!important;padding:4px 9px!important}
+.flag.flag-new{background-color:var(--ke-ink)!important;color:#fff!important}
+.flag.flag-tip{background-color:var(--ke-gold)!important;color:#fff!important}
+.flag.flag-action,.flag.flag-discount{background-color:var(--ke-accent)!important;color:#fff!important}
+.flags-extra .flag{background-color:var(--ke-sand)!important;color:var(--ke-ink)!important;border-radius:3px!important}
+
+/* ---------- 6. Kategorie ---------- */
+.category-title{font-size:48px!important;font-weight:500!important;margin:18px 0 18px!important}
+.category-perex,.category-top .category-perex p{max-width:820px;margin-left:auto;margin-right:auto;text-align:center!important;color:var(--ke-ink-soft)}
+.category-top h2{font-size:30px!important;font-weight:500!important;color:var(--ke-ink)!important}
+.subcategories li a{
+  background:#fff!important;color:var(--ke-ink)!important;border:1px solid var(--ke-line)!important;
+  border-radius:12px!important;transition:border-color .2s ease,color .2s ease;
+}
+.subcategories li a:hover{border-color:var(--ke-accent)!important;color:var(--ke-accent)!important;background:#fff!important}
+.subcategories.with-image li a .text{font-size:15px!important}
+.category-order.right{background-color:var(--ke-ink)!important}
+
+/* Stránkování */
+.pagination>a,.pagination>strong,.pagination .pagination__link,.pagination .pagination__currentPage{
+  border-radius:999px!important;border-color:var(--ke-line)!important;
+}
+.pagination>strong,.pagination .pagination__currentPage{border-color:var(--ke-ink)!important;color:var(--ke-ink)}
+
+/* ---------- 7. Detail produktu ---------- */
+.p-detail-inner h1,.p-detail-inner-header h1{
+  font-size:42px!important;font-weight:500!important;text-align:left;line-height:1.12;color:var(--ke-ink)!important;
+}
+.p-detail .p-image-wrapper .p-image,.p-detail .p-image{background:var(--ke-ivory);border-radius:18px}
+.p-detail .p-image img{mix-blend-mode:multiply}
+.p-detail .p-final-price-wrapper .price-final,.p-detail .price-final-holder{font-size:30px!important;font-weight:600;color:var(--ke-ink)!important}
+.p-detail .add-to-cart .btn-conversion,.p-detail .btn-conversion{height:52px!important;line-height:52px!important;padding:0 34px!important}
+.quantity{border-color:rgba(29,27,47,.18)!important;border-radius:999px!important}
+.p-detail .add-to-cart .quantity .increase,.p-detail .add-to-cart .quantity .decrease{border-radius:999px!important}
+.shp-tabs-holder{border-bottom:1px solid var(--ke-line)}
+.shp-tab-link{font-size:12.5px!important;text-transform:uppercase;letter-spacing:.12em;font-weight:500!important;color:var(--ke-ink-soft)!important}
+.shp-tab.active .shp-tab-link,.shp-tab-link.active{color:var(--ke-ink)!important}
+#tab-content,.p-detail-tabs-wrapper .tab-content{background:#fff}
+
+/* Nadpis popisu (dříve ručně psané červené písmo) */
+h2>em,.basic-description h2 em{
+  font-family:var(--ke-serif)!important;font-style:italic;font-weight:500;font-size:34px!important;
+  color:var(--ke-ink)!important;letter-spacing:0;
+}
+.basic-description h2{text-align:left;margin-bottom:18px}
+.basic-description li::marker,article li::marker{color:var(--ke-gold)}
+
+/* Rozbalovací sekce v popisu (Hlava / Srdce / …) */
+.basic-description details,article details{
+  background:transparent!important;box-shadow:none!important;border-radius:0!important;
+  border-bottom:1px solid var(--ke-line)!important;padding:16px 4px!important;margin:0!important;
+}
+.basic-description details summary,article details summary{
+  font-size:15px!important;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:var(--ke-ink);
+  background-image:none!important;border:0!important;
+}
+.basic-description details summary::after{color:var(--ke-gold)!important}
+
+/* ---------- 8. Články ---------- */
+.news-item .text{
+  background-color:#fff!important;color:var(--ke-ink)!important;border-radius:0 0 var(--ke-radius) var(--ke-radius)!important;
+}
+.news-item .text .title,.news-item:hover .text .title{color:var(--ke-ink)!important;font-size:24px!important;line-height:1.2!important;font-weight:600}
+.news-item time,.news-item:hover .text time{color:var(--ke-muted)!important;text-transform:uppercase;letter-spacing:.1em;font-size:11.5px!important}
+.news-item:hover .text{background-color:#fff!important}
+.news-item:hover .text .title{color:var(--ke-accent)!important}
+.news-item .image img{border-radius:var(--ke-radius) var(--ke-radius) 0 0!important}
+.news-item-detail h1,.news-item-detail h2{text-align:left}
+
+/* ---------- 9. Hodnocení obchodu nad patičkou ---------- */
+.rating-wrapper,.custom-footer__banner10{background:var(--ke-ivory)!important}
+.rating-wrapper h2,.rating-wrapper h3,.rating-wrapper h4,.rating-wrapper .h4{
+  font-family:var(--ke-serif)!important;font-size:28px!important;font-weight:500!important;color:var(--ke-ink)!important;
+}
+
+/* ---------- 10. Patička ---------- */
+#footer.footer{background:var(--ke-ink)!important;color:#e9e4dc!important;padding-top:24px}
+#footer .footer-rows{padding-top:48px;padding-bottom:28px}
+#footer h3,#footer h4,#footer .contact-box strong,#footer .pageElement__heading{
+  font-family:var(--ke-serif)!important;color:#fff!important;font-size:24px!important;font-weight:500!important;
+  text-align:left;letter-spacing:.01em;margin-bottom:22px!important;
+}
+#footer,#footer p,#footer li,#footer span,#footer ul{color:#d9d3ca!important}
+#footer a,#footer ul a{color:#e9e4dc!important;font-size:14.5px!important;text-decoration:none}
+#footer a:hover{color:#fff!important;text-decoration:underline}
+#footer ul li.sipka1:before,#footer li.sipka1:hover:before{color:var(--ke-gold)!important}
+#footer .contact-box ul li a{font-size:16px!important}
+#footer .contact-box [class*="icon"],#footer .contact-box .cellphone::before,#footer .contact-box .mail::before,
+#footer .contact-box .tel::before,#footer .contact-box li>span::before{color:var(--ke-gold)!important}
+#footer .footer-bottom{border-top:1px solid rgba(255,255,255,.12)}
+#footer .footer-bottom,#footer .copyright,#footer .copyright strong,#footer #signature a{color:rgba(233,228,220,.72)!important;font-size:13px!important}
+#footer #signature img{filter:brightness(0) invert(1);opacity:.8}
+/* prázdný widget Facebooku */
+.custom-footer__facebook{display:none!important}
+@media (min-width:768px){
+  #footer .custom-footer{display:grid!important;grid-template-columns:1.25fr 1fr 1fr;gap:56px}
+  #footer .custom-footer>div{width:auto!important;max-width:none!important;flex:none!important;padding:0!important}
+}
+/* platební loga pod patičkou */
+body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-ink);padding:0 0 28px;margin:0}
+img.comgate{background:#fff;border-radius:10px;padding:6px 16px;width:auto!important;max-width:440px}
+
+/* ---------- 11. Mobil ---------- */
+@media (max-width:767px){
+  h2{font-size:28px}
+  .homepage-group-title,.products-related-header{font-size:31px!important;margin-bottom:30px!important}
+  .category-title{font-size:36px!important}
+  .p-detail-inner h1,.p-detail-inner-header h1{font-size:32px!important}
+  h2>em,.basic-description h2 em{font-size:27px!important}
+  .benefitBanner.position--benefitHomepage{margin:24px 0 40px!important;padding:24px 12px!important}
+  #footer .custom-footer>div{margin-bottom:28px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .products-block .product .p .image img,.products .product .p .image img{transition:none}
+  .products-block .product:hover .p .image img,.products .product:hover .p .image img{transform:none}
+}
