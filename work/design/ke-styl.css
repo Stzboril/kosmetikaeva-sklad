@@ -62,7 +62,7 @@ h4,h5,h6{color:var(--ke-ink)}
 /* Sekční nadpisy s krátkou linkou */
 .homepage-group-title,.products-related-header,#content h2.products-related-header{
   font-size:30px!important;font-weight:700!important;color:var(--ke-ink)!important;
-  text-align:center;line-height:1.2;letter-spacing:-.01em;margin-bottom:40px!important;
+  text-align:center;line-height:1.2;letter-spacing:-.01em;margin-bottom:40px!important;margin-top:40px!important;
 }
 .homepage-group-title::after,.products-related-header::after{
   content:"";display:block;width:44px;height:2px;border-radius:2px;background:var(--ke-accent);margin:16px auto 0;
