@@ -286,6 +286,11 @@ article details summary::after,article details[open] summary::after,
 #content details ul li::marker,article details ul li::marker{content:""!important}
 #content details ul li::before,article details ul li::before{content:""!important;position:absolute!important;left:3px!important;top:.62em!important;width:6px!important;height:6px!important;border-radius:50%;background:var(--ke-accent)!important;opacity:.85}
 #content details table,article details table{width:calc(100% - 44px)!important;font-size:14px}
+/* tabulky výživových údajů a parametrů – barvy webu místo zelené */
+table.nutrition-table{border-collapse:separate!important;border-spacing:0;border:1px solid var(--ke-line)!important;border-radius:12px;overflow:hidden}
+table.nutrition-table th{background:var(--ke-soft)!important;color:var(--ke-ink)!important;font-weight:600!important;border:0!important;border-bottom:1px solid var(--ke-line)!important;padding:12px 14px!important}
+table.nutrition-table td{border:0!important;border-top:1px solid var(--ke-line)!important;padding:11px 14px!important;color:var(--ke-ink-soft)!important}
+table.nutrition-table tr:nth-child(2) td{border-top:0!important}
 .accordion-content,.accordion-body{padding:0 22px 20px!important;color:var(--ke-ink-soft)!important;font-size:14.5px;line-height:1.7;background:transparent!important;border:0!important}
 /* plynulé rozbalení (Chrome, Edge, Safari 18+; jinde se otevře bez animace) */
 #content details::details-content,article details::details-content{
