@@ -202,16 +202,35 @@ h2>em,.basic-description h2 em{
 .basic-description h2{text-align:left;margin-bottom:18px}
 .basic-description li::marker,article li::marker{color:var(--ke-gold)}
 
-/* Rozbalovací sekce v popisu (Hlava / Srdce / …) */
-.basic-description details,article details{
+/* Rozbalovací sekce v popisu (Hlava / Srdce / … ) – čisté linky místo karet a červených přechodů */
+#content details,.basic-description details,article details{
   background:transparent!important;box-shadow:none!important;border-radius:0!important;
-  border-bottom:1px solid var(--ke-line)!important;padding:16px 4px!important;margin:0!important;
+  border:0!important;border-image:none!important;border-bottom:1px solid var(--ke-line)!important;
+  padding:18px 4px!important;margin:0!important;width:100%;
 }
-.basic-description details summary,article details summary{
-  font-size:15px!important;letter-spacing:.06em;text-transform:uppercase;font-weight:500;color:var(--ke-ink);
-  background-image:none!important;border:0!important;
+#content details summary,.basic-description details summary,article details summary{
+  font-size:13.5px!important;letter-spacing:.12em;text-transform:uppercase;font-weight:500;color:var(--ke-ink);
+  border:0!important;border-image:none!important;padding:0 28px 0 0!important;margin:0!important;
+  position:relative;cursor:pointer;
 }
-.basic-description details summary::after{color:var(--ke-gold)!important}
+#content details[open] summary{margin-bottom:12px!important;border-image:none!important}
+#content details summary::after,#content details[open] summary::after{
+  content:""!important;position:absolute!important;right:6px!important;top:50%!important;left:auto!important;
+  width:8px;height:8px;border-right:1.5px solid var(--ke-gold);border-bottom:1.5px solid var(--ke-gold);
+  border-image:none!important;scale:1!important;rotate:0deg!important;transform:translateY(-70%) rotate(45deg);
+  transition:transform .3s ease;margin:0!important;display:block!important;
+}
+#content details[open] summary::after{transform:translateY(-20%) rotate(-135deg)}
+#content details p{margin:0 0 4px;color:var(--ke-ink-soft)}
+/* Akordeony psané přes .accordion-item (popisy Just / Nahrin) */
+.accordion-item{border:0!important;border-radius:0!important;box-shadow:none!important;border-bottom:1px solid var(--ke-line)!important;margin:0!important}
+.accordion-header{transform:none!important;border-image:none!important;border:0!important;padding:18px 32px 18px 4px!important;
+  font-size:13.5px!important;letter-spacing:.12em;text-transform:uppercase;font-weight:500;color:var(--ke-ink)}
+.accordion-header::before,.accordion-item.active .accordion-header::before{
+  content:""!important;width:8px;height:8px;border-right:1.5px solid var(--ke-gold);border-bottom:1.5px solid var(--ke-gold);
+  right:10px!important;transform:translateY(-70%) rotate(45deg)!important;
+}
+.accordion-item.active .accordion-header::before{transform:translateY(-20%) rotate(-135deg)!important}
 
 /* ---------- 8. Články ---------- */
 .news-item .text{
