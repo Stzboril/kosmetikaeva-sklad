@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'MS';src:url('montserrat-700.ttf');font-weight:700}
+@font-face{font-family:'MS';src:url('montserrat-600.ttf');font-weight:600}
+@font-face{font-family:'MS';src:url('montserrat-500.ttf');font-weight:500}
+@font-face{font-family:'MS';src:url('montserrat-400.ttf');font-weight:400}
+*{box-sizing:border-box}
+body{margin:0;width:1640px;height:624px;font-family:MS,sans-serif;background:linear-gradient(120deg,#ffffff 0%,#fbf3f1 100%);color:#1c1b29;overflow:hidden;position:relative}
+/* bezpečná zóna pro mobil: střed 1100 px */
+.wrap{position:absolute;left:300px;top:0;width:1040px;height:624px;display:flex;align-items:center;gap:36px}
+.text{flex:0 0 540px;display:flex;flex-direction:column;gap:20px;margin-top:-40px}
+.eyebrow{font-size:16px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:#a3392a}
+h1{margin:0;font-size:46px;line-height:1.15;font-weight:700;letter-spacing:-.01em}
+.sub{font-size:21px;line-height:1.5;color:#3f3d4f;margin:0}
+.pill{align-self:flex-start;background:#a3392a;color:#fff;font-weight:600;font-size:20px;letter-spacing:.06em;padding:16px 34px;border-radius:999px}
+.grid{flex:1;display:grid;grid-template-columns:repeat(2,226px);grid-template-rows:repeat(2,236px);gap:18px;justify-content:end;margin-top:-30px}
+.card{background:#fff;border:1px solid #f0eff3;border-radius:22px;box-shadow:0 12px 34px rgba(28,27,41,.07);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:12px}
+.card img{width:180px;height:170px;object-fit:contain;object-position:50% 100%}
+.card span{font-size:16px;font-weight:600}
+</style></head>
+<body><div class="wrap">
+<div class="text">
+<div class="eyebrow">Just · LR · Eurona · Essens · Nahrin</div>
+<h1>Kosmetika, parfémy a drogerie od značek, které znáte</h1>
+<p class="sub">Stovky produktů skladem<br>Na Zásilkovnu zdarma od 2&nbsp;500&nbsp;Kč</p>
+<div class="pill">www.kosmetikaeva.eu</div>
+</div>
+<div class="grid">
+<div class="card"><img src="img/just_olej31_crop.png"><span>Just</span></div>
+<div class="card"><img src="img/essens_w114_crop.png"><span>Essens</span></div>
+<div class="card"><img src="img/lr_colostrum_crop.png"><span>LR</span></div>
+<div class="card"><img src="img/eurona_praci_crop.png"><span>Eurona</span></div>
+</div>
+</div></body></html>
