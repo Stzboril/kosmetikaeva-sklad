@@ -367,10 +367,13 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
 .custom-footer__facebook{display:none!important}
 /* Logo v patičce – původní barevné logo na bílé zaoblené kartě (ladí s pruhem platebních metod dole) */
 #footer .custom-footer::before{
-  content:""!important;display:block!important;grid-column:1/-1;flex:0 0 100%;justify-self:start;
+  content:""!important;display:block!important;grid-column:1/-1;justify-self:start;
   width:250px;max-width:80%;height:78px;margin:0 0 36px;padding:12px 20px;box-sizing:border-box;
   background:#fff url(https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/logos/logo_ke_10_let.png) center/contain no-repeat;
   background-origin:content-box;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+@media (max-width:767px){
+  #footer .custom-footer::before{order:-1;flex:0 0 auto;width:240px;height:74px;margin:8px auto 28px}
 }
 @media (min-width:768px){
   #footer .custom-footer{display:grid!important;grid-template-columns:1.3fr 1fr 1fr;column-gap:48px;row-gap:0}
