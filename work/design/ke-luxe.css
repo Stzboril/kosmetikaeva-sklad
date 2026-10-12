@@ -121,7 +121,8 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,
 
 /* ---------- 4. Úvodní stránka ---------- */
 .benefitBanner.position--benefitHomepage{
-  background:var(--ke-ivory);border-radius:var(--ke-radius);padding:34px 20px!important;margin:36px 0 64px!important;
+  background:#fff;border-top:1px solid var(--ke-line);border-bottom:1px solid var(--ke-line);
+  padding:34px 20px!important;margin:44px 0 72px!important;
 }
 .benefitBanner__title{font-size:23px!important;font-weight:600!important;color:var(--ke-ink)!important}
 .benefitBanner__data{color:var(--ke-muted)!important;font-size:13px!important;letter-spacing:.02em}
@@ -251,6 +252,37 @@ h2>em,.basic-description h2 em{
 /* platební loga pod patičkou */
 body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-ink);padding:0 0 28px;margin:0}
 img.comgate{background:#fff;border-radius:10px;padding:6px 16px;width:auto!important;max-width:440px}
+
+/* ---------- 10b. Opravy proti starším stylům (DMupravy, Venus) ---------- */
+/* nadpisy v patičce – starší pravidlo „#footer .custom-footer > div h4“ vnucuje Poppins */
+#footer .custom-footer > div h4,#footer .custom-footer > div h3{
+  font-family:var(--ke-serif)!important;color:#fff!important;font-size:25px!important;font-weight:500!important;
+}
+#footer .contact-box small,#footer .contact-box em,#footer .contact-box div,#footer .contact-box p,
+#footer .contact-box strong+*{color:rgba(233,228,220,.7)!important}
+.news-item .text .title,.news-item:hover .text .title{font-family:var(--ke-serif)!important}
+.hodnoceni-wrapper{background:transparent!important}
+.stars .star.star-half::before,.star-half::before{color:var(--ke-gold)!important}
+/* uvítací text na úvodní stránce */
+.welcome-wrapper .h1,[data-testid="eshopHeader"].h1{
+  font-family:var(--ke-serif)!important;font-size:46px!important;font-weight:500!important;
+  text-align:center;color:var(--ke-ink)!important;line-height:1.12;margin-bottom:18px;
+}
+.welcome-wrapper .welcome p{text-align:center!important;max-width:760px;margin-left:auto;margin-right:auto}
+.welcome-wrapper .ke-tile{background:#fff!important;border:1px solid var(--ke-line)!important}
+.welcome-wrapper .ke-tile strong{font-family:var(--ke-serif)!important;font-size:22px;font-weight:600}
+/* menu: bez barevné „pilulky“ při najetí */
+@media (min-width:768px){
+  .navigation-in > ul > li:hover > a,.menu-helper:hover,.cart-window-visible .cart-count{background-color:transparent!important}
+  .navigation-in > ul > li > a,.menu-helper,.cart-count{border-radius:0!important}
+  .navigation-in>ul>li.exp{background-color:transparent}
+}
+.top-nav-button::before,.btn.cart-count::before,a.btn.cart-count::before{color:var(--ke-ink)!important}
+/* množství: jemné ovládání místo červených tlačítek */
+.quantity .increase,.quantity .decrease{background-color:#fff!important;border:1px solid rgba(29,27,47,.18)!important}
+.quantity .increase::before,.quantity .decrease::before{color:var(--ke-ink)!important}
+.quantity .increase:hover,.quantity .decrease:hover{background-color:var(--ke-ivory)!important}
+.quantity input{border-color:rgba(29,27,47,.18)!important}
 
 /* ---------- 11. Mobil ---------- */
 @media (max-width:767px){
