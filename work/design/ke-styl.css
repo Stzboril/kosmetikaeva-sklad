@@ -189,7 +189,7 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
 
 /* Počet kusů – jeden čistý „pill“ s kulatými tlačítky uvnitř */
 .quantity{
-  display:inline-flex!important;align-items:center;justify-content:center;position:relative!important;
+  display:inline-flex!important;align-items:center;justify-content:center;
   height:44px!important;padding:0 40px!important;box-sizing:border-box!important;
   background:#fff!important;border:1px solid #dcdbe3!important;border-radius:999px!important;
   transition:border-color .2s ease,box-shadow .2s ease;
@@ -225,6 +225,12 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
 .p-detail .add-to-cart .quantity .increase,.p-detail .add-to-cart .quantity .decrease{width:36px!important;height:36px!important;margin-top:-18px!important;border-radius:50%!important}
 .p-detail .add-to-cart .quantity .decrease{left:8px!important}
 .p-detail .add-to-cart .quantity .increase{right:8px!important}
+@media (max-width:767px){
+  .p-detail .add-to-cart .quantity,.p-detail .quantity{height:48px!important;padding:0 38px!important;margin-right:0!important}
+  .p-detail .add-to-cart .quantity .increase,.p-detail .add-to-cart .quantity .decrease{width:32px!important;height:32px!important;margin-top:-16px!important}
+  .p-detail .add-to-cart .quantity .decrease{left:5px!important}
+  .p-detail .add-to-cart .quantity .increase{right:5px!important}
+}
 .shp-tabs-holder{border-bottom:1px solid var(--ke-line)}
 .shp-tab-link{font-size:14px!important;font-weight:600!important;color:var(--ke-muted)!important}
 .shp-tab.active .shp-tab-link,.shp-tab-link.active{color:var(--ke-ink)!important}
