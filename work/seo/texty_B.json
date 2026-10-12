@@ -1,0 +1,458 @@
+{
+ "kategorie": [
+  {
+   "id": "1693",
+   "nazev": "Kosmetika",
+   "cs": {
+    "description": "<p>Kategorie Kosmetika shrnuje péči o pleť, tělo, ruce, nohy i vlasy, dekorativní kosmetiku a parfémy. Najdete v ní podkategorie pro ústní hygienu, sprchové gely a tekutá mýdla, dětskou a pánskou kosmetiku, opalování, esenciální oleje a CBD kosmetiku. Vyberte si oblast péče a pokračujte do konkrétní podkategorie.</p>",
+    "secondDescription": "<h2>Jak si vybrat kosmetiku podle potřeby</h2><p>Rozumné je začít péčí, kterou používáte každý den: čištěním a krémem na obličej, šamponem a kondicionérem, sprchovým gelem a tělovým krémem. Teprve poté přidávejte doplňky, jako jsou pleťové masky, séra, peeling nebo esenciální oleje.</p><ul><li>Texturu volte podle typu pokožky: lehčí gely a krémy se hodí pro normální až mastnější pleť, bohatší krémy pro suchou.</li><li>Novou kosmetiku nejdřív vyzkoušejte na malé ploše pokožky, například na předloktí.</li><li>Dekorativní kosmetiku vždy před spaním důkladně odlíčte.</li><li>Parfém, sprchový gel a tělový krém s podobnou vůní spolu ladí.</li><li>V létě myslete na ochranu před sluncem, v zimě na výživnější krém na ruce a balzám na rty.</li></ul>",
+    "metaTitle": "Kosmetika pro pleť, tělo a vlasy | KosmetikaEva.eu",
+    "metaDescription": "Kosmetika na jednom místě: péče o pleť, tělo a vlasy, dekorativní kosmetika, parfémy, opalování a další. Prohlédněte si jednotlivé podkategorie."
+   },
+   "sk": {
+    "description": "<p>Kategória Kozmetika zahŕňa starostlivosť o pleť, telo, ruky, nohy aj vlasy, dekoratívnu kozmetiku a parfumy. Nájdete v nej podkategórie pre ústnu hygienu, sprchové gély a tekuté mydlá, detskú a pánsku kozmetiku, opaľovanie, esenciálne oleje a CBD kozmetiku. Vyberte si oblasť starostlivosti a pokračujte do konkrétnej podkategórie.</p>",
+    "secondDescription": "<h2>Ako si vybrať kozmetiku podľa potreby</h2><p>Rozumné je začať starostlivosťou, ktorú používate každý deň: čistením a krémom na tvár, šampónom a kondicionérom, sprchovým gélom a telovým krémom. Až potom pridávajte doplnky, ako sú pleťové masky, séra, peeling alebo esenciálne oleje.</p><ul><li>Textúru voľte podľa typu pokožky: ľahšie gély a krémy sa hodia pre normálnu až mastnejšiu pleť, bohatšie krémy pre suchú.</li><li>Novú kozmetiku najprv vyskúšajte na malej ploche pokožky, napríklad na predlaktí.</li><li>Dekoratívnu kozmetiku vždy pred spaním dôkladne odlíčte.</li><li>Parfum, sprchový gél a telový krém s podobnou vôňou spolu ladia.</li><li>V lete myslite na ochranu pred slnkom, v zime na výživnejší krém na ruky a balzam na pery.</li></ul>",
+    "metaTitle": "Kozmetika pre pleť, telo a vlasy | KosmetikaEva.eu",
+    "metaDescription": "Kozmetika na jednom mieste: starostlivosť o pleť, telo a vlasy, dekoratívna kozmetika, parfumy, opaľovanie a ďalšie. Pozrite si jednotlivé podkategórie."
+   }
+  },
+  {
+   "id": "1921",
+   "nazev": "Kosmetika / Obličej",
+   "cs": {
+    "description": "<p>Péče o pleť obličeje od značek Essens, LR, Just, Eurona a wellU. Najdete zde čisticí gely a pleťová mýdla, tonika, odličovače, krémy, séra, oční gely, plátýnkové masky i sety. Doplňují je pomůcky Gua Sha z ametystu, křišťálu a růženínu a obličejový krém s faktorem SPF 50+. Vyberte si podle typu pleti.</p>",
+    "secondDescription": "<h2>Jak sestavit jednoduchou péči o pleť</h2><p>Základ tvoří odlíčení a čištění, tonikum, krém a ráno ochrana před sluncem. Sérum nebo oční gel přidejte po toniku, masku podle potřeby jednou až dvakrát týdně. Bohatší krémy se hodí na večer, lehčí textury pod make-up.</p><ul><li>Odličovač a čisticí gel se hodí hlavně na večer, ráno často stačí jemné omytí a tonikum.</li><li>Pro suchou a citlivou pleť volte hydratační krémy a jemné čisticí přípravky.</li><li>Plátýnkovou masku nechte působit dobu uvedenou na obalu, zbytek séra vmasírujte do pleti.</li><li>Gua Sha používejte na pleť s trochou oleje nebo krému, lehkými tahy od středu obličeje ke spánkům.</li><li>Novou kosmetiku nejprve vyzkoušejte na malé ploše, například za uchem.</li></ul>",
+    "metaTitle": "Pleťová kosmetika – Essens, LR, Just | KosmetikaEva.eu",
+    "metaDescription": "Pleťová kosmetika Essens, LR, Just, Eurona a wellU: krémy, séra, masky, čisticí gely a Gua Sha. Vyberte si péči podle typu pleti."
+   },
+   "sk": {
+    "description": "<p>Starostlivosť o pleť tváre od značiek Essens, LR, Just, Eurona a wellU. Nájdete tu čistiace gély a pleťové mydlá, tonikum, odličovače, krémy, séra, očné gély, plátienkové masky aj sety. Dopĺňajú ich pomôcky Gua Sha z ametystu, krištáľu a ruženínu a krém na tvár s faktorom SPF 50+. Vyberte si podľa typu pleti.</p>",
+    "secondDescription": "<h2>Ako zostaviť jednoduchú starostlivosť o pleť</h2><p>Základ tvorí odličovanie a čistenie, tonikum, krém a ráno ochrana pred slnkom. Sérum alebo očný gél pridajte po tonikume, masku podľa potreby raz až dvakrát týždenne. Bohatšie krémy sa hodia na večer, ľahšie textúry pod make-up.</p><ul><li>Odličovač a čistiaci gél sa hodia hlavne na večer, ráno často stačí jemné umytie a tonikum.</li><li>Pre suchú a citlivú pleť voľte hydratačné krémy a jemné čistiace prípravky.</li><li>Plátienkovú masku nechajte pôsobiť čas uvedený na obale, zvyšok séra vmasírujte do pleti.</li><li>Gua Sha používajte na pleť s trochou oleja alebo krému, ľahkými ťahmi od stredu tváre ku spánkom.</li><li>Novú kozmetiku najprv vyskúšajte na malej ploche, napríklad za uchom.</li></ul>",
+    "metaTitle": "Pleťová kozmetika – Essens, LR, Just | KosmetikaEva.eu",
+    "metaDescription": "Pleťová kozmetika Essens, LR, Just, Eurona a wellU: krémy, séra, masky, čistiace gély a Gua Sha. Vyberte si starostlivosť podľa typu pleti."
+   }
+  },
+  {
+   "id": "1924",
+   "nazev": "Kosmetika / Tělo",
+   "cs": {
+    "description": "<p>Tělová kosmetika od značek Essens, Eurona, Just a LR. Najdete tu výživné tělové krémy a balzámy, tělový peeling s Aloe vera, deodoranty, jemný intimní gel a gel na holení pro ženy i praktické sety. Součástí nabídky jsou také doplňovací balení (refill) krémů s colostrem.</p>",
+    "secondDescription": "<h2>Jak pečovat o pokožku těla</h2><p>Tělové krémy a balzámy nanášejte po sprše na lehce vlhkou pokožku, snadno se roztírají a dobře se vstřebávají. Bohatší složení se hodí pro suchá místa, jako jsou lokty, kolena a lýtka, lehčí textury pro každodenní použití. Po sprše pokožku jen jemně osušte ručníkem, krém se pak lépe roztírá.</p><p>Peeling používejte jednou až dvakrát týdně: krouživými pohyby ho vmasírujte do vlhké pokožky a důkladně opláchněte. Deodorant nanášejte na čistou, suchou pokožku a nechte ho zaschnout, než se oblečete. Gel na holení a intimní gel používejte podle návodu na obalu, po holení pokožku ošetřete krémem nebo balzámem. Doplňovací balení (refill) slouží k opakovanému doplnění původního obalu.</p>",
+    "metaTitle": "Tělová kosmetika – Essens, Eurona, Just | KosmetikaEva.eu",
+    "metaDescription": "Tělová kosmetika Essens, Eurona, Just a LR: tělové krémy, peelingy, deodoranty a sety. Vyberte si péči o pokožku po sprše či koupeli."
+   },
+   "sk": {
+    "description": "<p>Telová kozmetika od značiek Essens, Eurona, Just a LR. Nájdete tu výživné telové krémy a balzamy, telový peeling s Aloe vera, dezodoranty, jemný intímny gél a gél na holenie pre ženy aj praktické sety. Súčasťou ponuky sú aj náhradné balenia (refill) krémov s colostrom.</p>",
+    "secondDescription": "<h2>Ako sa starať o pokožku tela</h2><p>Telové krémy a balzamy naneste po sprche na jemne vlhkú pokožku, ľahko sa rozotierajú a dobre sa vstrebávajú. Bohatšie zloženie sa hodí na suché miesta, ako sú lakte, kolená a lýtka, ľahšie textúry na každodenné použitie. Po sprche pokožku len jemne osušte uterákom, krém sa potom lepšie rozotiera.</p><p>Peeling používajte raz až dvakrát týždenne: krúživými pohybmi ho vmasírujte do vlhkej pokožky a dôkladne opláchnite. Dezodorant nanášajte na čistú, suchú pokožku a nechajte ho zaschnúť, než sa oblečiete. Gél na holenie a intímny gél používajte podľa návodu na obale, po holení pokožku ošetrite krémom alebo balzamom. Náhradné balenie (refill) slúži na opakované doplnenie pôvodného obalu.</p>",
+    "metaTitle": "Telová kozmetika – Essens, Eurona, Just | KosmetikaEva.eu",
+    "metaDescription": "Telová kozmetika Essens, Eurona, Just a LR: telové krémy, peelingy, dezodoranty a sety. Vyberte si starostlivosť o pokožku po sprche či kúpeli."
+   }
+  },
+  {
+   "id": "1927",
+   "nazev": "Kosmetika / Ruce",
+   "cs": {
+    "description": "<p>Péče o ruce od značek Essens, Eurona, Just a LR. Najdete tu krémy na ruce včetně malých balení 30 ml a sad, ochranný krém, bylinné krémy Just, sérum na ruce, čisticí gel s abrazivní směsí a tekuté mýdlo s aloe vera. Vyberte si krém do kabelky i na doma.</p>",
+    "secondDescription": "<h2>Jak o ruce pečovat po celý rok</h2><p>Ruce jsou často vystaveny mytí, chladu i větru, proto krém nanášejte po každém umytí a vždy před odchodem do mrazu. Stačí malé množství, které rozetřete po celé ruce včetně hřbetů a okolí nehtů. Nezapomeňte na okolí nehtů a nehtovou kůžičku, kam krém jemně vmasírujte. Malé balení 30 ml se vejde do kabelky nebo do kapsy.</p><p>Večer můžete krém nanést v hustší vrstvě a navléknout lehké bavlněné rukavice. Čisticí gel s abrazivní směsí se hodí na výrazněji zašpiněné ruce, poté je dobré ruce ošetřit krémem. Ochranný krém naneste před prací v domácnosti či na zahradě. Tekutá mýdla s aloe vera se hodí pro každodenní mytí rukou.</p>",
+    "metaTitle": "Krémy na ruce – Essens, Eurona, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Krémy na ruce a péče o ruce Essens, Eurona, Just a LR: cestovní balení, ochranné krémy i tekutá mýdla. Prohlédněte si nabídku."
+   },
+   "sk": {
+    "description": "<p>Starostlivosť o ruky od značiek Essens, Eurona, Just a LR. Nájdete tu krémy na ruky vrátane malých balení po 30 ml a sád, ochranný krém, bylinné krémy Just, sérum na ruky, čistiaci gél s abrazívnou zmesou a tekuté mydlo s aloe vera. Vyberte si krém do kabelky aj domov.</p>",
+    "secondDescription": "<h2>Ako sa o ruky starať počas celého roka</h2><p>Ruky sú často vystavené umývaniu, chladu aj vetru, preto krém nanášajte po každom umytí a vždy pred odchodom do mrazu. Stačí malé množstvo, ktoré rozotriete po celých rukách vrátane chrbtov rúk a okolia nechtov. Nezabudnite na okolie nechtov a nechtovú kožtičku, kam krém jemne vmasírujte. Malé balenie 30 ml sa zmestí do kabelky alebo do vrecka.</p><p>Večer môžete krém naniesť v hustejšej vrstve a natiahnuť si ľahké bavlnené rukavice. Čistiaci gél s abrazívnou zmesou sa hodí na výraznejšie zašpinené ruky, potom je dobré ruky ošetriť krémom. Ochranný krém naneste pred prácou v domácnosti či na záhrade. Tekuté mydlá s aloe vera sa hodia na každodenné umývanie rúk.</p>",
+    "metaTitle": "Krémy na ruky – Essens, Eurona, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Krémy na ruky a starostlivosť o ruky Essens, Eurona, Just a LR: cestovné balenia, ochranné krémy aj tekuté mydlá. Pozrite si ponuku."
+   }
+  },
+  {
+   "id": "1936",
+   "nazev": "Kosmetika / Krémy na nohy",
+   "cs": {
+    "description": "<p>Krémy na nohy a péče o chodidla od značek Essens, Eurona, Just a LR. Najdete tu krém na nohy Essens, sadu krémů na ruce a nohy, přírodní ochranný krém Eurona, balzám na nohy Just i péči o chodidla LR Aloe Vera. Hodí se pro každodenní péči o pokožku nohou.</p>",
+    "secondDescription": "<h2>Jak pečovat o chodidla a paty</h2><p>Krém na nohy nanášejte po koupeli nebo sprše na čistou, dobře osušenou pokožku, ideálně večer. Masírujte ho především do pat a chodidel, mezi prsty stačí jen tenká vrstva, aby pokožka zůstala suchá. Na hrubší místa se hodí bohatší balzám, na každodenní použití lehčí krém. Zrohovatělou kůži na patách můžete předem jemně ošetřit pemzou nebo peelingem.</p><p>Po aplikaci si můžete obout bavlněné ponožky, krém tak zůstane na pokožce a neušpiní povlečení. Pro pohodlí nohou volte prodyšnou obuv a střídejte ji, aby mohla vyschnout. Krém na nohy se hodí kombinovat s koupelí nohou, například se solí z kategorie Speciální péče.</p>",
+    "metaTitle": "Krémy na nohy – Essens, Eurona, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Krémy na nohy a péče o chodidla Essens, Eurona, Just a LR: krémy, balzámy i sady na ruce a nohy. Vyberte si péči pro každý den."
+   },
+   "sk": {
+    "description": "<p>Krémy na nohy a starostlivosť o chodidlá od značiek Essens, Eurona, Just a LR. Nájdete tu krém na nohy Essens, sadu krémov na ruky a nohy, prírodný ochranný krém Eurona, balzam na nohy Just aj starostlivosť o chodidlá LR Aloe Vera. Hodia sa na každodennú starostlivosť o pokožku nôh.</p>",
+    "secondDescription": "<h2>Ako sa starať o chodidlá a päty</h2><p>Krém na nohy naneste po kúpeli alebo sprche na čistú, dobre osušenú pokožku, ideálne večer. Masírujte ho najmä do päť a chodidiel, medzi prsty stačí len tenká vrstva, aby pokožka zostala suchá. Na drsnejšie miesta sa hodí bohatší balzam, na každodenné použitie ľahší krém. Zrohovatenú kožu na pätách môžete vopred jemne ošetriť pemzou alebo peelingom.</p><p>Po aplikácii si môžete obuť bavlnené ponožky, krém tak zostane na pokožke a neznečistí posteľnú bielizeň. Pre pohodlie nôh voľte priedušnú obuv a striedajte ju, aby mohla vyschnúť. Krém na nohy sa hodí kombinovať s kúpeľom nôh, napríklad so soľou z kategórie Špeciálna starostlivosť.</p>",
+    "metaTitle": "Krémy na nohy – Essens, Eurona, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Krémy na nohy a starostlivosť o chodidlá Essens, Eurona, Just a LR: krémy, balzamy aj sady na ruky a nohy. Vyberte si starostlivosť na každý deň."
+   }
+  },
+  {
+   "id": "1795",
+   "nazev": "Kosmetika / Parfémy",
+   "cs": {
+    "description": "<p>Parfémy značek Essens a LR rozdělené na dámské, pánské a unisex vůně. Přímo v této kategorii najdete také dětské toaletní vody Essens Bright Star pro dívky a Mystic Moon pro chlapce a LR Feel Savage EdP pro ženy.</p>",
+    "secondDescription": "<h2>Jak vybrat parfém a čemu rozumět na obalu</h2><p>Vůně se dělí do rodin: květinové, ovocné, svěží citrusové, dřevité, kořeněné a orientální s vanilkou či ambrou. Při výběru zvažte roční období i příležitost: svěží vůně se hodí do tepla, hřejivější spíše na podzim a v zimě.</p><p>Označení Eau de Parfum (EdP) znamená obvykle vyšší koncentraci vonných látek než u toaletní vody, proto se na pokožce většinou udrží déle. Parfém zkoušejte na zápěstí a počkejte několik hodin, vůně se na kůži postupně rozvíjí. Nanášejte ho na pulzní místa, zápěstí o sebe netřete, aby se vůně nezměnila, a skladujte jej mimo světlo a teplo. Dětské toaletní vody jsou určené pro děti, řiďte se pokyny na obalu.</p>",
+    "metaTitle": "Parfémy – Essens a LR, dámské i pánské | KosmetikaEva.eu",
+    "metaDescription": "Parfémy Essens a LR: dámské, pánské a unisex vůně, EdP i dětské toaletní vody. Vyberte si vůni podle svého stylu a příležitosti."
+   },
+   "sk": {
+    "description": "<p>Parfumy značiek Essens a LR rozdelené na dámske, pánske a unisex vône. Priamo v tejto kategórii nájdete aj detské toaletné vody Essens Bright Star pre dievčatá a Mystic Moon pre chlapcov a LR Feel Savage EdP pre ženy.</p>",
+    "secondDescription": "<h2>Ako vybrať parfum a čomu rozumieť na obale</h2><p>Vône sa delia do rodín: kvetinové, ovocné, sviežie citrusové, drevité, korenisté a orientálne s vanilkou či ambrou. Pri výbere zvážte ročné obdobie aj príležitosť: sviežie vône sa hodia do tepla, hrejivejšie skôr na jeseň a v zime.</p><p>Označenie Eau de Parfum (EdP) znamená zvyčajne vyššiu koncentráciu voňavých látok než pri toaletnej vode, preto sa na pokožke väčšinou udrží dlhšie. Parfum skúšajte na zápästí a počkajte niekoľko hodín, vôňa sa na koži postupne rozvíja. Nanášajte ho na pulzné miesta, zápästia o seba netrite, aby sa vôňa nezmenila, a skladujte ho mimo svetla a tepla. Detské toaletné vody sú určené pre deti, riaďte sa pokynmi na obale.</p>",
+    "metaTitle": "Parfumy – Essens a LR, dámske aj pánske | KosmetikaEva.eu",
+    "metaDescription": "Parfumy Essens a LR: dámske, pánske a unisex vône, EdP aj detské toaletné vody. Vyberte si vôňu podľa svojho štýlu a príležitosti."
+   }
+  },
+  {
+   "id": "1864",
+   "nazev": "Kosmetika / Parfémy / Dámské parfémy",
+   "cs": {
+    "description": "<p>Dámské parfémy značek Essens, LR a Eurona. Najdete tu parfémy Essens 50 ml (značené písmenem w a číslem), řadu 4 ELEMENTS Noir, Passenger Princess a tělové mlhy Body Mist, k tomu parfémy LR a Eurona. Vyberte si květinovou, ovocnou, svěží či orientální vůni.</p>",
+    "secondDescription": "<h2>Jak vybrat dámský parfém</h2><p>Vůně se dělí do rodin. Květinové vycházejí z jasmínu, růže či pivoňky, ovocné a citrusové působí svěže, vanilkové a orientální jsou sladší a hřejivější, dřevité a pižmové hlubší. U oblíbené vůně si poznamenejte označení (např. w107), ať ji příště snadno najdete.</p><p>Eau de Parfum (EdP) má obvykle vyšší koncentraci vonných látek než toaletní voda, proto se na pokožce většinou udrží déle. Zkoušejte na zápěstí a počkejte pár hodin, vůně se rozvíjí od vrchních tónů přes srdce k základu. Tělová mlha (Body Mist) je lehčí a hodí se k osvěžení během dne. Parfém aplikujte na čistou pokožku bez silně vonícího krému.</p>",
+    "metaTitle": "Dámské parfémy – Essens, LR, Eurona | KosmetikaEva.eu",
+    "metaDescription": "Dámské parfémy Essens, LR a Eurona: květinové, ovocné i orientální vůně, EdP a tělové mlhy Body Mist. Vyberte si svou vůni."
+   },
+   "sk": {
+    "description": "<p>Dámske parfumy značiek Essens, LR a Eurona. Nájdete tu parfumy Essens 50 ml (značené písmenom w a číslom), sériu 4 ELEMENTS Noir, Passenger Princess a telové hmly Body Mist, k tomu parfumy LR a Eurona. Vyberte si kvetinovú, ovocnú, sviežu alebo orientálnu vôňu.</p>",
+    "secondDescription": "<h2>Ako vybrať dámsky parfum</h2><p>Vône sa delia do rodín. Kvetinové vychádzajú z jazmínu, ruže či pivónie, ovocné a citrusové pôsobia sviežo, vanilkové a orientálne sú sladšie a hrejivejšie, drevité a pižmové hlbšie. Pri obľúbenej vôni si poznačte označenie (napr. w107), nech ju nabudúce ľahko nájdete.</p><p>Eau de Parfum (EdP) má zvyčajne vyššiu koncentráciu voňavých látok než toaletná voda, preto sa na pokožke väčšinou udrží dlhšie. Skúšajte na zápästí a počkajte pár hodín, vôňa sa rozvíja od vrchných tónov cez srdce k základu. Telová hmla (Body Mist) je ľahšia a hodí sa na osvieženie počas dňa. Parfum aplikujte na čistú pokožku bez silno voňavého krému.</p>",
+    "metaTitle": "Dámske parfumy – Essens, LR, Eurona | KosmetikaEva.eu",
+    "metaDescription": "Dámske parfumy Essens, LR a Eurona: kvetinové, ovocné aj orientálne vône, EdP a telové hmly Body Mist. Vyberte si svoju vôňu."
+   }
+  },
+  {
+   "id": "1867",
+   "nazev": "Kosmetika / Parfémy / Pánské parfémy",
+   "cs": {
+    "description": "<p>Pánské parfémy značek Essens, LR a Eurona. Najdete tu parfémy Essens 50 ml (značené písmenem m a číslem), luxusní pánské vůně Nocturne Reserve a Western Spirit, parfémy LR EdP pro muže a vůně Eurona. Vyberte si svěží, dřevitou nebo kořeněnou vůni.</p>",
+    "secondDescription": "<h2>Jak vybrat pánský parfém</h2><p>Svěží citrusové a vodní vůně se hodí do tepla i ke každodennímu nošení, dřevité a kořeněné působí klasicky, orientální a ambrové jsou hřejivější a patří spíše na večer či do chladnějších měsíců. Mezi nimi stojí aromatické vůně s levandulí nebo bylinkami. Vůně Essens jsou označené písmenem m a číslem, takže si oblíbenou snadno zapamatujete.</p><p>Parfém nanášejte na čistou, suchou pokožku, třeba na krk nebo zápěstí. Eau de Parfum (EdP) má obvykle vyšší koncentraci vonných látek než toaletní voda, proto stačí menší množství. Vůni můžete doplnit sprchovým gelem nebo deodorantem podobného zaměření, vůně se pak navzájem neruší.</p>",
+    "metaTitle": "Pánské parfémy – Essens, LR, Eurona | KosmetikaEva.eu",
+    "metaDescription": "Pánské parfémy Essens, LR a Eurona: svěží, dřevité i kořeněné vůně, EdP a luxusní řady. Najděte vůni, která vám sedí, v nabídce KosmetikaEva.eu."
+   },
+   "sk": {
+    "description": "<p>Pánske parfumy značiek Essens, LR a Eurona. Nájdete tu parfumy Essens 50 ml (značené písmenom m a číslom), luxusné pánske vône Nocturne Reserve a Western Spirit, parfumy LR EdP pre mužov a vône Eurona. Vyberte si sviežu, drevitú alebo korenistú vôňu.</p>",
+    "secondDescription": "<h2>Ako vybrať pánsky parfum</h2><p>Sviežie citrusové a vodné vône sa hodia do tepla aj na každodenné nosenie, drevité a korenisté pôsobia klasicky, orientálne a jantárové sú hrejivejšie a patria skôr na večer či do chladnejších mesiacov. Medzi nimi stoja aromatické vône s levanduľou alebo bylinkami. Vône Essens sú označené písmenom m a číslom, takže si obľúbenú ľahko zapamätáte.</p><p>Parfum nanášajte na čistú, suchú pokožku, napríklad na krk alebo zápästie. Eau de Parfum (EdP) má zvyčajne vyššiu koncentráciu voňavých látok než toaletná voda, preto stačí menšie množstvo. Vôňu môžete doplniť sprchovým gélom alebo dezodorantom podobného zamerania, vône sa potom navzájom nerušia.</p>",
+    "metaTitle": "Pánske parfumy – Essens, LR, Eurona | KosmetikaEva.eu",
+    "metaDescription": "Pánske parfumy Essens, LR a Eurona: sviežie, drevité aj korenisté vône, EdP a luxusné série. Nájdite vôňu, ktorá vám sedí, v ponuke KosmetikaEva.eu."
+   }
+  },
+  {
+   "id": "1870",
+   "nazev": "Kosmetika / Parfémy / Unisex parfémy",
+   "cs": {
+    "description": "<p>Unisex parfémy značek Essens a Eurona. Najdete tu luxusní unisex vůně Crimson Aura, Ruby Whisper a Stellar Glow, řadu Niche s vůněmi Divine Green, Silver Orange a Ultramarine Blue, parfém 4 ELEMENTS Noir č. 3 a parfémované sety. Eurona přidává olejové aroma roll-ony NEONY GO! v objemu 10 ml.</p>",
+    "secondDescription": "<h2>Jak vybrat unisex vůni</h2><p>Unisex parfémy nejsou určené jedné skupině. Bývají citrusové, dřevité, ambrové, pižmové nebo bylinné, a proto se snadno sdílejí v páru či v rodině. Pokud váháte, začněte vůní, která vás zaujme popisem nebo názvem, a vyzkoušejte ji na zápěstí.</p><p>Olejové aroma roll-ony NEONY GO! mají objem 10 ml, vejdou se do kabelky a nanášejí se přímo na pulzní místa. Parfémované sety rozšiřují vůni o další produkty, takže se hodí i jako dárek. Eau de Parfum (EdP) má obvykle vyšší koncentraci vonných látek než toaletní voda; před použitím se vždy řiďte návodem na obalu.</p>",
+    "metaTitle": "Unisex parfémy – Essens a Eurona | KosmetikaEva.eu",
+    "metaDescription": "Unisex parfémy Essens a Eurona: luxusní a Niche vůně, parfémované sety i olejové roll-ony NEONY GO! Vyberte si vůni pro sebe."
+   },
+   "sk": {
+    "description": "<p>Unisex parfumy značiek Essens a Eurona. Nájdete tu luxusné unisex vône Crimson Aura, Ruby Whisper a Stellar Glow, sériu Niche s vôňami Divine Green, Silver Orange a Ultramarine Blue, parfum 4 ELEMENTS Noir č. 3 a parfumované sety. Eurona dopĺňa olejové aróma roll-ony NEONY GO! v objeme 10 ml.</p>",
+    "secondDescription": "<h2>Ako vybrať unisex vôňu</h2><p>Unisex parfumy nie sú určené jednej skupine. Bývajú citrusové, drevité, jantárové, pižmové alebo bylinné, a preto sa ľahko zdieľajú v páre či v rodine. Ak váhate, začnite vôňou, ktorá vás zaujme popisom alebo názvom, a vyskúšajte ju na zápästí.</p><p>Olejové aróma roll-ony NEONY GO! majú objem 10 ml, zmestia sa do kabelky a nanášajú sa priamo na pulzné miesta. Parfumované sety rozširujú vôňu o ďalšie produkty, takže sa hodia aj ako darček. Eau de Parfum (EdP) má zvyčajne vyššiu koncentráciu voňavých látok než toaletná voda; pred použitím sa vždy riaďte návodom na obale.</p>",
+    "metaTitle": "Unisex parfumy – Essens a Eurona | KosmetikaEva.eu",
+    "metaDescription": "Unisex parfumy Essens a Eurona: luxusné a Niche vône, parfumované sety aj olejové roll-ony NEONY GO! Vyberte si vôňu pre seba."
+   }
+  },
+  {
+   "id": "1783",
+   "nazev": "Kosmetika / Dekorativní kosmetika",
+   "cs": {
+    "description": "<p>Dekorativní kosmetika na obličej, oči a rty. V podkategoriích najdete make-upy a BB krémy, korektory, pudry, tvářenky a rozjasňovače, řasenky, oční stíny a linky, tužky na obočí, rtěnky, lesky a balzámy na rty. Vyberte si oblast, kterou chcete doplnit.</p>",
+    "secondDescription": "<h2>Jak sestavit make-up krok za krokem</h2><p>Základem je upravená pleť: krém a podkladová báze, poté make-up nebo BB krém, korektor a pudr. Tvářenka a rozjasňovač dodají tvářím barvu, na oči a rty se pak přidají stíny, řasenka a rtěnka. Odstín make-upu zkoušejte na linii čelisti a výsledek zkontrolujte u okna při denním světle.</p><p>Tekuté a krémové produkty roztírejte prsty nebo houbičkou, pudrové štětcem. Řasenky a tekuté produkty je dobré po několika měsících používání vyměnit, štětce a houbičky pravidelně myjte. Večer kosmetiku vždy důkladně odlíčte a pleť poté ošetřete krémem. Pro denní líčení stačí lehká vrstva make-upu, korektor a řasenka; na večer přidejte výraznější rty nebo oči, ne však obojí naráz.</p>",
+    "metaTitle": "Dekorativní kosmetika – obličej, oči, rty | KosmetikaEva.eu",
+    "metaDescription": "Dekorativní kosmetika na obličej, oči a rty: make-upy, korektory, řasenky, stíny, rtěnky a další. Vyberte si podkategorii a sestavte si make-up."
+   },
+   "sk": {
+    "description": "<p>Dekoratívna kozmetika na tvár, oči a pery. V podkategóriách nájdete make-upy a BB krémy, korektory, púdre, lícenky a rozjasňovače, riasenky, očné tiene a linky, ceruzky na obočie, rúže, lesky a balzamy na pery. Vyberte si oblasť, ktorú chcete doplniť.</p>",
+    "secondDescription": "<h2>Ako zostaviť make-up krok za krokom</h2><p>Základom je upravená pleť: krém a podkladová báza, potom make-up alebo BB krém, korektor a púder. Lícenka a rozjasňovač dodajú lícam farbu, na oči a pery sa potom pridajú tiene, riasenka a rúž. Odtieň make-upu skúšajte na línii čeľuste a výsledok skontrolujte pri okne za denného svetla.</p><p>Tekuté a krémové produkty rozotierajte prstami alebo hubkou, púdrové štetcom. Riasenky a tekuté produkty je dobré po niekoľkých mesiacoch používania vymeniť, štetce a hubky pravidelne umývajte. Večer kozmetiku vždy dôkladne odlíčte a pleť potom ošetrite krémom. Na denné líčenie stačí ľahká vrstva make-upu, korektor a riasenka; na večer pridajte výraznejšie pery alebo oči, nie však oboje naraz.</p>",
+    "metaTitle": "Dekoratívna kozmetika – tvár, oči, pery | KosmetikaEva.eu",
+    "metaDescription": "Dekoratívna kozmetika na tvár, oči a pery: make-upy, korektory, riasenky, tiene, rúže a ďalšie. Vyberte si podkategóriu a zostavte si make-up."
+   }
+  },
+  {
+   "id": "1852",
+   "nazev": "Kosmetika / Dekorativní kosmetika / Dekorativní kosmetika na obličej",
+   "cs": {
+    "description": "<p>Dekorativní kosmetika na obličej od značek Essens a LR. Najdete tu make-upy, BB krém, podkladové báze, krémové korektory, pudry, konturovací tužky, tvářenky a rozjasňovače. Řady Essens Second Skin a LR ZEITGARD Signature nabízejí několik odstínů, ze kterých vyberete podle tónu své pleti.</p>",
+    "secondDescription": "<h2>Jak vybrat odstín a skladbu make-upu</h2><p>Make-up nebo BB krém zkoušejte na linii čelisti a při denním světle, správný odstín plynule splyne s krkem. Pod make-up naneste krém a podkladovou bázi, make-up se pak lépe roztírá. Korektor volte o malý odstín světlejší než make-up, transparentní nebo fixační pudr make-up zmatní a ustálí.</p><p>Tekuté a krémové produkty, jako jsou korektor, tvářenka či rozjasňovač, roztírejte prsty nebo houbičkou, pudrové štětcem. Konturovací tužky jsou ve třech odstínech Light, Medium a Deep; kontura se nanáší pod lícní kosti a poté rozetře. Make-up roztírejte od středu obličeje směrem ke krajům, aby u vlasové linie nevznikla viditelná hranice. Večer vždy důkladně odlíčte.</p>",
+    "metaTitle": "Make-up na obličej – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "Make-up, BB krém, korektory, pudry a tvářenky Essens a LR v různých odstínech. Prohlédněte si dekorativní kosmetiku na obličej v nabídce."
+   },
+   "sk": {
+    "description": "<p>Dekoratívna kozmetika na tvár od značiek Essens a LR. Nájdete tu make-upy, BB krém, podkladové bázy, krémové korektory, púdre, kontúrovacie ceruzky, lícenky a rozjasňovače. Série Essens Second Skin a LR ZEITGARD Signature ponúkajú niekoľko odtieňov, z ktorých vyberiete podľa tónu svojej pleti.</p>",
+    "secondDescription": "<h2>Ako vybrať odtieň a zostaviť make-up</h2><p>Make-up alebo BB krém skúšajte na línii čeľuste a pri dennom svetle, správny odtieň plynulo splynie s krkom. Pod make-up naneste krém a podkladovú bázu, make-up sa potom lepšie rozotiera. Korektor voľte o malý odtieň svetlejší než make-up, transparentný alebo fixačný púder make-up zmatní a ustáli.</p><p>Tekuté a krémové produkty, ako sú korektor, lícenka či rozjasňovač, rozotierajte prstami alebo hubkou, púdrové štetcom. Kontúrovacie ceruzky sú v troch odtieňoch Light, Medium a Deep; kontúra sa nanáša pod lícne kosti a potom rozotrie. Make-up rozotierajte od stredu tváre smerom k okrajom, aby pri vlasovej línii nevznikla viditeľná hranica. Večer vždy dôkladne odlíčte.</p>",
+    "metaTitle": "Make-up na tvár – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "Make-up, BB krém, korektory, púdre a lícenky Essens a LR v rôznych odtieňoch. Pozrite si dekoratívnu kozmetiku na tvár v ponuke."
+   }
+  },
+  {
+   "id": "1855",
+   "nazev": "Kosmetika / Dekorativní kosmetika / Dekorativní kosmetika - Oči",
+   "cs": {
+    "description": "<p>Dekorativní kosmetika na oči od značek Essens a LR. Najdete tu řasenky prodlužující i zhušťující, tekuté oční linky a stíny, stíny v tužce, paletku očních stínů, tužky a gely na obočí a bázi pod stíny. Doplňují je kosmetické ořezávátko a sérum na řasy.</p>",
+    "secondDescription": "<h2>Jak na oční make-up a péči o obočí</h2><p>Pod oční stíny naneste bázi, stíny pak drží rovnoměrněji a barva je výraznější. Světlý odstín patří do vnitřních koutků, tmavší do vnějších. Tekuté linky kreslete jedním tahem od vnitřního koutku ven a nechte zaschnout, než oči otevřete. Stíny v tužce nanášejte přímo na víčko a rozetřete je prstem nebo štětečkem, než zaschnou.</p><p>Řasenku nanášejte od kořínků ke špičkám jemným cik-cak pohybem a nechte ji zaschnout. Obočí vykreslete tužkou krátkými tahy a upravte gelem či fixačním voskem; odstín gelu Light nebo Medium zvolte podle barvy obočí. Řasenku po několika měsících vyměňte a oční make-up vždy odlíčte.</p>",
+    "metaTitle": "Řasenky a oční stíny – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "Řasenky, oční stíny, linky a tužky na obočí Essens a LR. Vyberte si dekorativní kosmetiku na oči a doplňte svůj make-up."
+   },
+   "sk": {
+    "description": "<p>Dekoratívna kozmetika na oči od značiek Essens a LR. Nájdete tu riasenky predlžujúce aj zhusťujúce, tekuté očné linky a tiene, tiene v ceruzke, paletku očných tieňov, ceruzky a gély na obočie a bázu pod tiene. Dopĺňajú ich kozmetické strúhatko a sérum na riasy.</p>",
+    "secondDescription": "<h2>Ako na očný make-up a starostlivosť o obočie</h2><p>Pod očné tiene naneste bázu, tiene potom držia rovnomernejšie a farba je výraznejšia. Svetlý odtieň patrí do vnútorných kútikov, tmavší do vonkajších. Tekuté linky kreslite jedným ťahom od vnútorného kútika von a nechajte zaschnúť, kým oči otvoríte. Tiene v ceruzke nanášajte priamo na viečko a rozotrite ich prstom alebo štetčekom, kým zaschnú.</p><p>Riasenku nanášajte od koreňov ku špičkám jemným cik-cak pohybom a nechajte ju zaschnúť. Obočie vykreslite ceruzkou krátkymi ťahmi a upravte gélom či fixačným voskom; odtieň gélu Light alebo Medium zvoľte podľa farby obočia. Riasenku po niekoľkých mesiacoch vymeňte a očný make-up vždy odlíčte.</p>",
+    "metaTitle": "Riasenky a očné tiene – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "Riasenky, očné tiene, linky a ceruzky na obočie Essens a LR. Vyberte si dekoratívnu kozmetiku na oči a doplňte svoj make-up."
+   }
+  },
+  {
+   "id": "1858",
+   "nazev": "Kosmetika / Dekorativní kosmetika / Dekorativní kosmetika - Rty",
+   "cs": {
+    "description": "<p>Dekorativní kosmetika na rty od značek Essens a LR. Najdete tu matné, krémové i tekuté rtěnky, rtěnky v tužce, konturovací tužky, lesky pro větší objem, olej na rty s melounem, ovocné máslo a balzám na rty s colostrem. Odstíny sahají od nude přes korálovou a fuchsiovou po červenou a vínovou.</p>",
+    "secondDescription": "<h2>Jak vybrat a nosit rtěnku</h2><p>Odstín volte podle podtónu pleti: korálové ladí s teplým podtónem, vínové a fuchsiové s chladným. Nude odstíny se hodí na každý den, tmavší červené a vínové na večer. Matná rtěnka zvýrazní suchá místa, proto rty předem ošetřete balzámem nebo olejem.</p><p>Pro přesný tvar obtáhněte rty konturovací tužkou, vybarvěte je a rtěnku nanášejte v tenké vrstvě. Konturovací tužku v odstínu Red, Dark Red nebo Wine zvolte podle barvy rtěnky. Lesk přidejte doprostřed rtů pro efekt větší plnosti. Kosmetické ořezávátko udrží tužky ostré. Odstín raději zkuste na bříšku prstu, na rtech může působit jinak než v obalu. Večer rty odlíčte a ošetřete balzámem.</p>",
+    "metaTitle": "Rtěnky a lesky na rty – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "Rtěnky, lesky, tužky a balzámy na rty Essens a LR v odstínech od nude po vínovou. Prohlédněte si nabídku a vyberte si svou barvu."
+   },
+   "sk": {
+    "description": "<p>Dekoratívna kozmetika na pery od značiek Essens a LR. Nájdete tu matné, krémové aj tekuté rúže, rúže v ceruzke, kontúrovacie ceruzky, lesky pre väčší objem, olej na pery s melónom, ovocné maslo a balzam na pery s colostrom. Odtiene siahajú od nude cez koralovú a fuchsiovú po červenú a vínovú.</p>",
+    "secondDescription": "<h2>Ako vybrať a nosiť rúž</h2><p>Odtieň voľte podľa podtónu pleti: koralové ladia s teplým podtónom, vínové a fuchsiové s chladným. Nude odtiene sa hodia na každý deň, tmavšie červené a vínové na večer. Matný rúž zvýrazní suché miesta, preto pery vopred ošetrite balzamom alebo olejom.</p><p>Pre presný tvar obtiahnite pery kontúrovacou ceruzkou, vyfarbite ich a rúž nanášajte v tenkej vrstve. Kontúrovaciu ceruzku v odtieni Red, Dark Red alebo Wine zvoľte podľa farby rúžu. Lesk pridajte doprostred pier pre efekt väčšej plnosti. Kozmetické strúhatko udrží ceruzky ostré. Odtieň radšej vyskúšajte na bruško prsta, na perách môže pôsobiť inak než v obale. Večer pery odlíčte a ošetrite balzamom.</p>",
+    "metaTitle": "Rúže a lesky na pery – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "Rúže, lesky, ceruzky a balzamy na pery Essens a LR v odtieňoch od nude po vínovú. Pozrite si ponuku a vyberte si svoju farbu."
+   }
+  },
+  {
+   "id": "1786",
+   "nazev": "Kosmetika / Vlasová kosmetika",
+   "cs": {
+    "description": "<p>Vlasová kosmetika od značek Essens, Eurona, Just, LR a wellU. Najdete tu šampony a kondicionéry s Aloe vera pro všechny typy i pro barvené a suché vlasy, doplňovací balení Refill 500 ml, řady Eurona pro mastné, suché i citlivé vlasy, dětské šampony a balzámy, masky a pěsticí balzámy Just.</p>",
+    "secondDescription": "<h2>Jak vybrat šampon a kondicionér</h2><p>Šampon vybírejte podle typu vlasů a vlasové pokožky: lehčí pro mastné vlasy, výživnější pro suché a barvené, jemný pro citlivou pokožku hlavy. Šampon vmasírujte do pokožky hlavy, kondicionér nebo balzám naneste do délek a konečků a nechte chvíli působit.</p><ul><li>Vlasy před mytím rozčešte, po mytí je důkladně opláchněte vlažnou vodou.</li><li>Masku na vlasy používejte podle návodu na obalu.</li><li>Doplňovací balení Refill slouží k doplnění původní láhve o objemu 200 ml.</li><li>Pro děti volte šampony a balzámy určené pro dětské vlásky, balzám usnadní rozčesávání.</li><li>Vlasy neoplachujte příliš horkou vodou, vysušuje vlasy i pokožku hlavy.</li></ul>",
+    "metaTitle": "Vlasová kosmetika – Essens, Eurona, Just | KosmetikaEva.eu",
+    "metaDescription": "Šampony, kondicionéry a masky Essens, Eurona, Just, LR a wellU pro mastné, suché i barvené vlasy. Vyberte si péči o vlasy."
+   },
+   "sk": {
+    "description": "<p>Vlasová kozmetika od značiek Essens, Eurona, Just, LR a wellU. Nájdete tu šampóny a kondicionéry s Aloe vera pre všetky typy aj pre farbené a suché vlasy, náhradné balenia Refill 500 ml, série Eurona pre mastné, suché aj citlivé vlasy, detské šampóny a balzamy, masky a pestiace balzamy Just.</p>",
+    "secondDescription": "<h2>Ako vybrať šampón a kondicionér</h2><p>Šampón vyberajte podľa typu vlasov a vlasovej pokožky: ľahší pre mastné vlasy, výživnejší pre suché a farbené, jemný pre citlivú pokožku hlavy. Šampón vmasírujte do pokožky hlavy, kondicionér alebo balzam naneste do dĺžok a končekov a nechajte chvíľu pôsobiť.</p><ul><li>Vlasy pred umývaním rozčešte, po umytí ich dôkladne opláchnite vlažnou vodou.</li><li>Masku na vlasy používajte podľa návodu na obale.</li><li>Náhradné balenie Refill slúži na doplnenie pôvodnej fľaše s objemom 200 ml.</li><li>Pre deti voľte šampóny a balzamy určené pre detské vlásky, balzam uľahčí rozčesávanie.</li><li>Vlasy neoplachujte príliš horúcou vodou, vysušuje vlasy aj pokožku hlavy.</li></ul>",
+    "metaTitle": "Vlasová kozmetika – Essens, Eurona, Just | KosmetikaEva.eu",
+    "metaDescription": "Šampóny, kondicionéry a masky Essens, Eurona, Just, LR a wellU pre mastné, suché aj farbené vlasy. Vyberte si starostlivosť o vlasy."
+   }
+  },
+  {
+   "id": "1768",
+   "nazev": "Kosmetika / Ústa a zuby",
+   "cs": {
+    "description": "<p>Péče o ústa a zuby od značek Essens, Eurona, Just a LR. Najdete tu zubní pasty včetně verze s aktivním uhlím a pasty pro péči od prvních zoubků, ústní vody a spreje, zubní kartáčky Extra Soft, Ultra Soft a SUPERSOFT, mezizubní kartáčky a balzámy na rty.</p>",
+    "secondDescription": "<h2>Jak pečovat o ústní hygienu</h2><p>Zuby se obecně doporučuje čistit dvakrát denně přibližně dvě minuty měkkým kartáčkem a jemným tlakem. Kartáčky Extra Soft, Ultra Soft a SUPERSOFT jsou měkké a hodí se pro ty, kdo upřednostňují šetrné čištění. Kartáček je vhodné vyměnit zhruba po třech měsících nebo dříve, jakmile se štětinky rozcuchají.</p><p>Mezizubní kartáčky pomáhají vyčistit prostor mezi zuby tam, kam se klasický kartáček nedostane; zvolte velikost, která zapadne bez násilí. Ústní voda nebo sprej slouží jako doplněk, nikoli náhrada čištění zubů. Pastu pro děti vybírejte podle věku uvedeného na obalu, balzám na rty nanášejte podle potřeby.</p>",
+    "metaTitle": "Zubní pasty a ústní vody – Essens, LR | KosmetikaEva.eu",
+    "metaDescription": "Zubní pasty, kartáčky, ústní vody a balzámy na rty Essens, Eurona, Just a LR. Vyberte si péči o ústa a zuby pro celou rodinu."
+   },
+   "sk": {
+    "description": "<p>Starostlivosť o ústa a zuby od značiek Essens, Eurona, Just a LR. Nájdete tu zubné pasty vrátane verzie s aktívnym uhlím a pasty na starostlivosť od prvých zúbkov, ústne vody a spreje, zubné kefky Extra Soft, Ultra Soft a SUPERSOFT, medzizubné kefky a balzamy na pery.</p>",
+    "secondDescription": "<h2>Ako sa starať o ústnu hygienu</h2><p>Zuby sa vo všeobecnosti odporúča čistiť dvakrát denne približne dve minúty mäkkou kefkou a jemným tlakom. Kefky Extra Soft, Ultra Soft a SUPERSOFT sú mäkké a hodia sa pre tých, ktorí uprednostňujú šetrné čistenie. Kefku je vhodné vymeniť zhruba po troch mesiacoch alebo skôr, keď sa štetinky rozstrapatia.</p><p>Medzizubné kefky pomáhajú vyčistiť priestor medzi zubami tam, kam sa klasická kefka nedostane; zvoľte veľkosť, ktorá zapadne bez násilia. Ústna voda alebo sprej slúži ako doplnok, nie náhrada čistenia zubov. Pastu pre deti vyberajte podľa veku uvedeného na obale, balzam na pery nanášajte podľa potreby.</p>",
+    "metaTitle": "Zubné pasty a ústne vody – Essens, LR | KosmetikaEva.eu",
+    "metaDescription": "Zubné pasty, kefky, ústne vody a balzamy na pery Essens, Eurona, Just a LR. Vyberte si starostlivosť o ústa a zuby pre celú rodinu."
+   }
+  },
+  {
+   "id": "1804",
+   "nazev": "Kosmetika / Sprchové gely a pěny",
+   "cs": {
+    "description": "<p>Sprchové gely a pěny od značek Essens, Eurona, Just a LR. Najdete tu sprchové gely včetně doplňovacího balení s colostrem, dámské a pánské parfémované sety, Colostrum Body Set a vůně se stejným označením jako parfémy Essens. Hodí se pro každodenní sprchu i jako dárek.</p>",
+    "secondDescription": "<h2>Jak vybrat a používat sprchový gel</h2><p>Sprchový gel naneste na vlhkou pokožku nebo žínku, rozpěňte a důkladně opláchněte. Stačí malé množství, gel se při rozpěnění dobře rozetře. Příliš horká voda pokožku vysušuje, vlažná je pro ni příjemnější. Po sprše pokožku jemně osušte a ošetřete tělovým krémem nebo mlékem.</p><p>Vůni sprchového gelu můžete sladit s parfémem: sety a gely Essens často nesou stejné označení vůně (např. w107 nebo m028) jako příslušný parfém. Máte-li citlivější pokožku, volte jemnější složení bez výrazné vůně a nové produkty vyzkoušejte na malé ploše. Doplňovací balení Refill 500 ml slouží k opakovanému plnění původní láhve.</p>",
+    "metaTitle": "Sprchové gely a sety – Essens, Eurona, LR | KosmetikaEva.eu",
+    "metaDescription": "Sprchové gely Essens, Eurona, Just a LR i parfémované sety s vůněmi Essens. Vyberte si gel pro každodenní sprchu či jako dárek."
+   },
+   "sk": {
+    "description": "<p>Sprchové gély a peny od značiek Essens, Eurona, Just a LR. Nájdete tu sprchové gély vrátane náhradného balenia s colostrom, dámske a pánske parfumované sety, Colostrum Body Set a vône s rovnakým označením ako parfumy Essens. Hodia sa na každodennú sprchu aj ako darček.</p>",
+    "secondDescription": "<h2>Ako vybrať a používať sprchový gél</h2><p>Sprchový gél naneste na vlhkú pokožku alebo žinku, rozpeňte a dôkladne opláchnite. Stačí malé množstvo, gél sa pri rozpenení dobre rozotrie. Príliš horúca voda pokožku vysušuje, vlažná je pre ňu príjemnejšia. Po sprche pokožku jemne osušte a ošetrite telovým krémom alebo mliekom.</p><p>Vôňu sprchového gélu môžete zladiť s parfumom: sety a gély Essens často nesú rovnaké označenie vône (napr. w107 alebo m028) ako príslušný parfum. Ak máte citlivejšiu pokožku, voľte jemnejšie zloženie bez výraznej vône a nové produkty vyskúšajte na malej ploche. Náhradné balenie Refill 500 ml slúži na opakované plnenie pôvodnej fľaše.</p>",
+    "metaTitle": "Sprchové gély a sety – Essens, Eurona, LR | KosmetikaEva.eu",
+    "metaDescription": "Sprchové gély Essens, Eurona, Just a LR aj parfumované sety s vôňami Essens. Vyberte si gél na každodennú sprchu alebo ako darček."
+   }
+  },
+  {
+   "id": "1801",
+   "nazev": "Kosmetika / Tekutá mýdla",
+   "cs": {
+    "description": "<p>Tekutá a tuhá mýdla od značek Eurona, Essens a LR. Většinu nabídky tvoří tekutá mýdla Eurona s Aloe vera v objemu 400 ml v mnoha vůních, od citronové trávy po černý hrozen. Najdete tu také přírodní tuhá mýdla CC CERNY COSMETIX, jemné mýdlo Pure Mimi pro miminka a pleťové mýdlo Essens.</p>",
+    "secondDescription": "<h2>Jak vybrat mýdlo a pečovat o pokožku rukou</h2><p>Tekutá mýdla v balení 400 ml jsou praktická do koupelny i kuchyně. Vůni volte podle místa: svěžejší citrusové a bylinné se hodí do kuchyně, květinové a jemnější do koupelny. Tuhá mýdla s levandulovým olejem, medem, růžovým jílem nebo kávou odkládejte na suchou podložku, aby vydržela déle. Ruce myjte vlažnou vodou, horká voda pokožku více vysušuje, a důkladně je opláchněte.</p><p>Pleťové mýdlo používejte jen na obličej, na ruce a tělo se hodí tekutá mýdla. Mýdlo pro miminka vybírejte podle pokynů na obalu. Po každém mytí rukou je dobré použít krém na ruce, pokožka pak zůstane příjemná.</p>",
+    "metaTitle": "Tekutá a tuhá mýdla – Eurona, Essens, LR | KosmetikaEva.eu",
+    "metaDescription": "Tekutá mýdla s Aloe vera, tuhá mýdla CC CERNY COSMETIX a mýdlo pro miminka. Značky Eurona, Essens a LR. Vyberte si své mýdlo."
+   },
+   "sk": {
+    "description": "<p>Tekuté a tuhé mydlá od značiek Eurona, Essens a LR. Väčšinu ponuky tvoria tekuté mydlá Eurona s Aloe vera v objeme 400 ml v mnohých vôňach, od citrónovej trávy po čierne hrozno. Nájdete tu aj prírodné tuhé mydlá CC CERNY COSMETIX, jemné mydlo Pure Mimi pre bábätká a pleťové mydlo Essens.</p>",
+    "secondDescription": "<h2>Ako vybrať mydlo a starať sa o pokožku rúk</h2><p>Tekuté mydlá v balení 400 ml sú praktické do kúpeľne aj kuchyne. Vôňu voľte podľa miesta: sviežejšie citrusové a bylinné sa hodia do kuchyne, kvetinové a jemnejšie do kúpeľne. Tuhé mydlá s levanduľovým olejom, medom, ružovou hlinkou alebo kávou odkladajte na suchú podložku, aby vydržali dlhšie. Ruky umývajte vlažnou vodou, horúca voda pokožku viac vysušuje, a dôkladne ich opláchnite.</p><p>Pleťové mydlo používajte len na tvár, na ruky a telo sa hodia tekuté mydlá. Mydlo pre bábätká vyberajte podľa pokynov na obale. Po každom umytí rúk je dobré použiť krém na ruky, pokožka tak zostane príjemná.</p>",
+    "metaTitle": "Tekuté a tuhé mydlá – Eurona, Essens, LR | KosmetikaEva.eu",
+    "metaDescription": "Tekuté mydlá s Aloe vera, tuhé mydlá CC CERNY COSMETIX a mydlo pre bábätká. Značky Eurona, Essens a LR. Vyberte si svoje mydlo."
+   }
+  },
+  {
+   "id": "1765",
+   "nazev": "Kosmetika / Speciální péče",
+   "cs": {
+    "description": "<p>Speciální péče od značek Essens, Eurona, Just a LR. Najdete tu Aloe Vera spreje a hydratační gelový koncentrát, bylinné krémy a balzámy, krém-gel s arnikou, přípravky Bodyfresh a produkty do koupele, jako jsou koupelové soli, pěny a alpská koupel. Vyberte si podle toho, co vaši běžnou péči doplní.</p>",
+    "secondDescription": "<h2>Jak vybrat speciální péči</h2><p>Kategorie sdružuje přípravky, které doplňují běžnou péči: osvěžující Aloe Vera spreje a gely, bylinné krémy a balzámy a produkty do koupele. Používejte je podle pokynů výrobce na obalu a u nových přípravků vyzkoušejte reakci pokožky na malé ploše.</p><ul><li>Aloe Vera sprej lze použít k osvěžení pleti nebo těla během dne; Soft Spray for Kids je určen pro děti.</li><li>Koupelové soli a pěny rozpusťte ve vlažné až teplé vodě, ne v horké, a délku koupele nepřehánějte, aby se pokožka nevysušovala.</li><li>Bylinné krémy a balzámy naneste v tenké vrstvě a nedávejte je do očí ani na sliznice.</li><li>Po koupeli pokožku ošetřete tělovým krémem.</li></ul>",
+    "metaTitle": "Speciální péče – Essens, Just, Eurona, LR | KosmetikaEva.eu",
+    "metaDescription": "Speciální péče Essens, Eurona, Just a LR: Aloe Vera spreje, bylinné krémy a balzámy, soli a pěny do koupele. Prohlédněte si nabídku."
+   },
+   "sk": {
+    "description": "<p>Špeciálna starostlivosť od značiek Essens, Eurona, Just a LR. Nájdete tu Aloe Vera spreje a hydratačný gélový koncentrát, bylinné krémy a balzamy, krém-gél s arnikou, prípravky Bodyfresh a produkty do kúpeľa, ako sú kúpeľové soli, peny a alpský kúpeľ. Vyberte si podľa toho, čo vašu bežnú starostlivosť doplní.</p>",
+    "secondDescription": "<h2>Ako vybrať špeciálnu starostlivosť</h2><p>Kategória združuje prípravky, ktoré dopĺňajú bežnú starostlivosť: osviežujúce Aloe Vera spreje a gély, bylinné krémy a balzamy a produkty do kúpeľa. Používajte ich podľa pokynov výrobcu na obale a pri nových prípravkoch vyskúšajte reakciu pokožky na malej ploche.</p><ul><li>Aloe Vera sprej sa dá použiť na osvieženie pleti alebo tela počas dňa; Soft Spray for Kids je určený pre deti.</li><li>Kúpeľové soli a peny rozpustite vo vlažnej až teplej vode, nie v horúcej, a dĺžku kúpeľa neprehánajte, aby sa pokožka nevysúšala.</li><li>Bylinné krémy a balzamy naneste v tenkej vrstve a nedávajte ich do očí ani na sliznice.</li><li>Po kúpeli pokožku ošetrite telovým krémom.</li></ul>",
+    "metaTitle": "Špeciálna starostlivosť – Essens, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Špeciálna starostlivosť Essens, Eurona, Just a LR: Aloe Vera spreje, bylinné krémy a balzamy, soli a peny do kúpeľa. Pozrite si ponuku."
+   }
+  },
+  {
+   "id": "1774",
+   "nazev": "Kosmetika / Kosmetika pro děti",
+   "cs": {
+    "description": "<p>Kosmetika pro děti a miminka od značek Eurona, Essens, Just a LR. Najdete tu řady Pure Mimi (šampon, koupelový olej, masážní olej, ubrousky) a Pinky Frou, dětské přípravky Just Baby &amp; Kids, LR Aloe Vera Kids Care a opalovací mléko pro děti ve spreji, jemnou zubní pastu od prvních zoubků a dětské toaletní vody Essens.</p>",
+    "secondDescription": "<h2>Jak vybírat kosmetiku pro děti</h2><p>Dětská pokožka je tenčí než pokožka dospělých, proto volte přípravky určené přímo pro děti a řiďte se věkem uvedeným na obalu. Před prvním použitím nového přípravku vyzkoušejte malé množství na malé ploše pokožky a při podráždění přípravek přestaňte používat.</p><ul><li>Koupel miminka má být krátká a v příjemně vlažné vodě; koupelový olej nebo šampon používejte v malém množství.</li><li>Šampon a balzám Pinky Frou usnadní mytí a rozčesávání delších vlásků.</li><li>První zoubky čistěte jemnou pastou určenou pro malé děti a pod dohledem dospělého.</li><li>Před sluncem děti chraňte stínem, oblečením a opalovacím mlékem a krém obnovujte po koupání.</li></ul>",
+    "metaTitle": "Kosmetika pro děti – Pure Mimi, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Kosmetika pro děti a miminka: Pure Mimi, Pinky Frou, Just Baby & Kids a LR Kids. Vyberte si jemnou péči pro koupel, vlásky i zoubky."
+   },
+   "sk": {
+    "description": "<p>Kozmetika pre deti a bábätká od značiek Eurona, Essens, Just a LR. Nájdete tu série Pure Mimi (šampón, kúpeľový olej, masážny olej, vlhčené utierky) a Pinky Frou, detské prípravky Just Baby &amp; Kids, LR Aloe Vera Kids Care a opaľovacie mlieko pre deti v spreji, jemnú zubnú pastu od prvých zúbkov a detské toaletné vody Essens.</p>",
+    "secondDescription": "<h2>Ako vyberať kozmetiku pre deti</h2><p>Detská pokožka je tenšia ako pokožka dospelých, preto voľte prípravky určené priamo pre deti a riaďte sa vekom uvedeným na obale. Pred prvým použitím nového prípravku vyskúšajte malé množstvo na malej ploche pokožky a pri podráždení prípravok prestaňte používať.</p><ul><li>Kúpeľ bábätka má byť krátky a v príjemne vlažnej vode; kúpeľový olej alebo šampón používajte v malom množstve.</li><li>Šampón a balzam Pinky Frou uľahčia umývanie a rozčesávanie dlhších vláskov.</li><li>Prvé zúbky čistite jemnou pastou určenou pre malé deti a pod dohľadom dospelého.</li><li>Pred slnkom deti chráňte tieňom, oblečením a opaľovacím mliekom a krém obnovujte po kúpaní.</li></ul>",
+    "metaTitle": "Kozmetika pre deti – Pure Mimi, Just, LR | KosmetikaEva.eu",
+    "metaDescription": "Kozmetika pre deti a bábätká: Pure Mimi, Pinky Frou, Just Baby & Kids a LR Kids. Vyberte si jemnú starostlivosť na kúpeľ, vlásky aj zúbky."
+   }
+  },
+  {
+   "id": "1777",
+   "nazev": "Kosmetika / Kosmetika pro muže",
+   "cs": {
+    "description": "<p>Kosmetika pro muže od značek Essens, Eurona, Just a LR. Najdete tu produkty na holení (pěna, gel, balzám či gel po holení), sadu pro péči o vousy, šampon a vosk na vousy, sprchové gely, deodorant a šampon Eurona MAN ZONE No.1, LR Aloe Vera 4v1 a pleťový krém LR ZEITGARD PowerLIFT.</p>",
+    "secondDescription": "<h2>Jak pečovat o pleť při holení a o vousy</h2><p>Před holením pleť navlhčete teplou vodou a naneste pěnu či gel na holení, břit pak lépe klouže. Holte se po směru růstu chloupků a po holení použijte balzám nebo gel po holení, který pleť osvěží. Pomůže i čistý a pravidelně vyměňovaný holicí strojek.</p><ul><li>Vousy myjte šamponem na vousy a upravujte voskem na vousy a knír.</li><li>Deodorant nanášejte na čistou a suchou pokožku.</li><li>Sprchový gel a parfém Essens se stejným označením (např. m028) tvoří ladící dvojici.</li><li>Pleťový krém používejte ráno i večer po očištění pleti.</li><li>U citlivější pleti volte přípravky bez výrazné vůně a po holení pleť netřete, jen ji jemně osušte ručníkem.</li></ul>",
+    "metaTitle": "Kosmetika pro muže – Essens, Eurona, LR | KosmetikaEva.eu",
+    "metaDescription": "Kosmetika pro muže Essens, Eurona, Just a LR: holení, péče o vousy, sprchové gely, deodoranty a šampony. Vyberte si péči pro sebe."
+   },
+   "sk": {
+    "description": "<p>Kozmetika pre mužov od značiek Essens, Eurona, Just a LR. Nájdete tu produkty na holenie (pena, gél, balzam alebo gél po holení), sadu na starostlivosť o bradu, šampón a vosk na bradu, sprchové gély, dezodorant a šampón Eurona MAN ZONE No.1, LR Aloe Vera 4v1 a pleťový krém LR ZEITGARD PowerLIFT.</p>",
+    "secondDescription": "<h2>Ako sa starať o pleť pri holení a o bradu</h2><p>Pred holením pleť navlhčite teplou vodou a naneste penu či gél na holenie, britva potom lepšie kĺže. Holte sa v smere rastu chlpov a po holení použite balzam alebo gél po holení, ktorý pleť osvieži. Pomôže aj čistý a pravidelne vymieňaný holiaci strojček.</p><ul><li>Bradu umývajte šampónom na bradu a upravujte voskom na bradu a fúzy.</li><li>Dezodorant nanášajte na čistú a suchú pokožku.</li><li>Sprchový gél a parfum Essens s rovnakým označením (napr. m028) tvoria ladiaci pár.</li><li>Pleťový krém používajte ráno aj večer po očistení pleti.</li><li>Pri citlivejšej pleti voľte prípravky bez výraznej vône a po holení pleť netrite, len ju jemne osušte uterákom.</li></ul>",
+    "metaTitle": "Kozmetika pre mužov – Essens, Eurona, LR | KosmetikaEva.eu",
+    "metaDescription": "Kozmetika pre mužov Essens, Eurona, Just a LR: holenie, starostlivosť o bradu, sprchové gély, dezodoranty a šampóny. Vyberte si starostlivosť pre seba."
+   }
+  },
+  {
+   "id": "1780",
+   "nazev": "Kosmetika / Opalování",
+   "cs": {
+    "description": "<p>Opalovací kosmetika od značek LR, Just a Essens. Najdete tu opalovací krémy, mléka a spreje s faktory SPF 15, 30 a 50, opalovací mléko ve spreji pro děti, krém na obličej SPF 50+ od Essens a přípravky po opalování. Vyberte si ochranu podle typu pleti, aktivity a pobytu na slunci.</p>",
+    "secondDescription": "<h2>Jak správně používat opalovací přípravky</h2><p>Opalovací přípravek naneste dostatečně štědře asi půl hodiny před pobytem na slunci a obnovujte ho přibližně po dvou hodinách, po koupání, otírání ručníkem nebo výraznějším pocení. Žádný přípravek neposkytuje úplnou ochranu, proto se v polední době zdržujte ve stínu a využijte oblečení, klobouk a brýle.</p><ul><li>Faktor volte podle typu pleti a intenzity slunce; pro světlou pleť a děti se doporučuje vyšší faktor, např. SPF 50.</li><li>Na obličej se hodí samostatný krém s SPF.</li><li>Sprej rozetřete rukou, aby vznikla rovnoměrná vrstva, a nestříkejte jej přímo do obličeje.</li><li>Po opalování pleť osvěžte a ošetřete přípravkem po opalování.</li></ul>",
+    "metaTitle": "Opalovací krémy a mléka – LR, Just, Essens | KosmetikaEva.eu",
+    "metaDescription": "Opalovací krémy, mléka a spreje SPF 15 až 50 od LR, Just a Essens, včetně dětských a po opalování. Vyberte si ochranu na slunce."
+   },
+   "sk": {
+    "description": "<p>Opaľovacia kozmetika od značiek LR, Just a Essens. Nájdete tu opaľovacie krémy, mlieka a spreje s faktormi SPF 15, 30 a 50, opaľovacie mlieko v spreji pre deti, krém na tvár SPF 50+ od Essens a prípravky po opaľovaní. Vyberte si ochranu podľa typu pleti, aktivity a pobytu na slnku.</p>",
+    "secondDescription": "<h2>Ako správne používať opaľovacie prípravky</h2><p>Opaľovací prípravok naneste dostatočne štedro asi pol hodiny pred pobytom na slnku a obnovujte ho približne každé dve hodiny, po kúpaní, utieraní uterákom alebo výraznejšom potení. Žiadny prípravok neposkytuje úplnú ochranu, preto sa v obedňajších hodinách zdržiavajte v tieni a využite oblečenie, klobúk a okuliare.</p><ul><li>Faktor voľte podľa typu pleti a intenzity slnka; pre svetlú pleť a deti sa odporúča vyšší faktor, napr. SPF 50.</li><li>Na tvár sa hodí samostatný krém s SPF.</li><li>Sprej rozotrite rukou, aby vznikla rovnomerná vrstva, a nestriekajte ho priamo do tváre.</li><li>Po opaľovaní pleť osviežte a ošetrite prípravkom po opaľovaní.</li></ul>",
+    "metaTitle": "Opaľovacie krémy – LR, Just, Essens | KosmetikaEva.eu",
+    "metaDescription": "Opaľovacie krémy, mlieka a spreje SPF 15 až 50 od LR, Just a Essens, vrátane detských a po opaľovaní. Vyberte si ochranu na slnko."
+   }
+  },
+  {
+   "id": "1798",
+   "nazev": "Kosmetika / Esenciální oleje",
+   "cs": {
+    "description": "<p>Esenciální oleje a pomůcky pro vonnou domácnost od značek Essens, Eurona a Just. Najdete tu oleje Essens v balení 10 ml (citron, levandule, eukalyptus, máta peprná, rozmarýn, Tea Tree a další), vůně Eurona Angelic Lights a Iconic Stars, esenciální oleje Just, aromalampy a ultrazvukový aroma difuzér.</p>",
+    "secondDescription": "<h2>Jak používat esenciální oleje bezpečně</h2><p>Esenciální oleje jsou silně koncentrované vonné látky. Do aromalampy je používejte podle návodu výrobce, do ultrazvukového difuzéru jen několik kapek do vody. Vůně můžete kombinovat podle rodin: citrusové (citron, pomeranč, grapefruit), květinové (levandule, magnolie), svěže bylinné (eukalyptus, máta, rozmarýn) či kořeněné a dřevité (hřebíček, kasia, cedr).</p><ul><li>Olej nenanášejte nenaředěný na pokožku ani do očí a neužívejte jej vnitřně.</li><li>Uchovávejte je mimo dosah dětí a domácích zvířat a místnost větrejte.</li><li>Aromalampu nenechávejte bez dozoru.</li><li>Při větší citlivosti na vůně zvolte slabší vůni a kratší dobu používání.</li></ul>",
+    "metaTitle": "Esenciální oleje – Essens, Eurona, Just | KosmetikaEva.eu",
+    "metaDescription": "Esenciální oleje Essens, Eurona a Just: citrusové, květinové i bylinné vůně, aromalampy a difuzér. Vyberte si svou vůni do domova."
+   },
+   "sk": {
+    "description": "<p>Esenciálne oleje a pomôcky pre voňavú domácnosť od značiek Essens, Eurona a Just. Nájdete tu oleje Essens v balení 10 ml (citrón, levanduľa, eukalyptus, mäta pieperná, rozmarín, Tea Tree a ďalšie), vône Eurona Angelic Lights a Iconic Stars, esenciálne oleje Just, aromalampy a ultrazvukový aróma difúzer.</p>",
+    "secondDescription": "<h2>Ako používať esenciálne oleje bezpečne</h2><p>Esenciálne oleje sú silno koncentrované voňavé látky. Do aromalampy ich používajte podľa návodu výrobcu, do ultrazvukového difúzera len niekoľko kvapiek do vody. Vône môžete kombinovať podľa rodín: citrusové (citrón, pomaranč, grapefruit), kvetinové (levanduľa, magnólia), sviežo bylinné (eukalyptus, mäta, rozmarín) či korenisté a drevité (klinček, kasia, céder).</p><ul><li>Olej nenanášajte nenariedený na pokožku ani do očí a neužívajte ho vnútorne.</li><li>Uchovávajte ich mimo dosahu detí a domácich zvierat a miestnosť vetrajte.</li><li>Aromalampu nenechávajte bez dozoru.</li><li>Pri väčšej citlivosti na vône zvoľte slabšiu vôňu a kratší čas používania.</li></ul>",
+    "metaTitle": "Esenciálne oleje – Essens, Eurona, Just | KosmetikaEva.eu",
+    "metaDescription": "Esenciálne oleje Essens, Eurona a Just: citrusové, kvetinové aj bylinné vône, aromalampy a difúzer. Vyberte si svoju vôňu do domova."
+   }
+  },
+  {
+   "id": "1762",
+   "nazev": "Kosmetika / CBD kosmetika",
+   "cs": {
+    "description": "<p>CBD kosmetika od značek Essens a LR. Najdete tu kosmetické přípravky s konopnou složkou CBD: gely Canassens v hřejivé a chladivé variantě, jejich set, univerzální mast Canassens a masážní roll-on LR Aloe Vera CBD. Určeno pro vnější použití; řiďte se pokyny výrobce na obalu.</p>",
+    "secondDescription": "<h2>Jak vybírat a používat CBD kosmetiku</h2><p>CBD kosmetika patří mezi kosmetické přípravky s konopnou složkou. Před výběrem si přečtěte složení a návod na obalu a dodržujte množství a způsob použití podle výrobce. Nový přípravek nejprve vyzkoušejte na malé ploše pokožky.</p><ul><li>Gely a masti nanášejte v tenké vrstvě na čistou, neporušenou pokožku a po aplikaci si umyjte ruce.</li><li>Vyhněte se kontaktu s očima, sliznicemi a poraněnou pokožkou.</li><li>Hřejivou a chladivou variantu gelu si můžete vybrat podle toho, jaký pocit při aplikaci preferujete.</li><li>Uchovávejte mimo dosah dětí a nepoužívejte při přecitlivělosti na kteroukoli složku.</li></ul>",
+    "metaTitle": "CBD kosmetika – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "CBD kosmetika Essens a LR: gely Canassens, univerzální mast a masážní roll-on s konopnou složkou. Prohlédněte si nabídku."
+   },
+   "sk": {
+    "description": "<p>CBD kozmetika od značiek Essens a LR. Nájdete tu kozmetické prípravky s konopnou zložkou CBD: gély Canassens v hrejivej a chladivej verzii, ich set, univerzálnu masť Canassens a masážny roll-on LR Aloe Vera CBD. Určené na vonkajšie použitie; riaďte sa pokynmi výrobcu na obale.</p>",
+    "secondDescription": "<h2>Ako vyberať a používať CBD kozmetiku</h2><p>CBD kozmetika patrí medzi kozmetické prípravky s konopnou zložkou. Pred výberom si prečítajte zloženie a návod na obale a dodržiavajte množstvo a spôsob použitia podľa výrobcu. Nový prípravok najprv vyskúšajte na malej ploche pokožky.</p><ul><li>Gély a masti nanášajte v tenkej vrstve na čistú, neporušenú pokožku a po aplikácii si umyte ruky.</li><li>Vyhnite sa kontaktu s očami, sliznicami a poranenou pokožkou.</li><li>Hrejivú a chladivú verziu gélu si môžete vybrať podľa toho, aký pocit pri aplikácii uprednostňujete.</li><li>Uchovávajte mimo dosahu detí a nepoužívajte pri precitlivenosti na ktorúkoľvek zložku.</li></ul>",
+    "metaTitle": "CBD kozmetika – Essens a LR | KosmetikaEva.eu",
+    "metaDescription": "CBD kozmetika Essens a LR: gély Canassens, univerzálna masť a masážny roll-on s konopnou zložkou. Pozrite si ponuku a vyberte si."
+   }
+  }
+ ],
+ "znacky": [
+  {
+   "id": 41,
+   "name": "Essens",
+   "cs": {
+    "description": "<p>Společnost Essens byla založena v roce 2011 v České republice se sídlem v Brně. Zaměřuje se na výrobu exkluzivních parfémů, kosmetiky a doplňků stravy a v e-shopu KosmetikaEva.eu od ní najdete široký výběr produktů.</p><p>V nabídce jsou parfémy: dámské, pánské a unisex vůně v objemu 50 ml i parfémované sety. K nim se hodí sprchové gely, kosmetika s Aloe vera a pleťová péče z řady Colostrum+ Anti-ageing. Zájemci o make-up vyberou z dekorativní kosmetiky, například rtěnek, lesků, tužek a stínů.</p><p>Součástí sortimentu jsou také doplňky stravy (Colostrum, Collagen, Aloe Vera gel drinky a vitamíny) a drogerie Home, tedy čisticí prostředky pro domácnost. Doplňky stravy nejsou náhradou pestré a vyvážené stravy.</p>",
+    "metaTitle": "Essens – parfémy, kosmetika, doplňky | KosmetikaEva.eu",
+    "metaDescription": "Essens z Brna: dámské, pánské a unisex parfémy, kosmetika s Aloe vera, dekorativní kosmetika a doplňky stravy. Prohlédněte si nabídku."
+   },
+   "sk": {
+    "description": "<p>Spoločnosť Essens bola založená v roku 2011 v Českej republike so sídlom v Brne. Zameriava sa na výrobu exkluzívnych parfumov, kozmetiky a výživových doplnkov a v e-shope KosmetikaEva.eu od nej nájdete široký výber produktov.</p><p>V ponuke sú parfumy: dámske, pánske a unisex vône v objeme 50 ml aj parfumované sety. K nim sa hodia sprchové gély, kozmetika s Aloe vera a pleťová starostlivosť zo série Colostrum+ Anti-ageing. Záujemcovia o make-up si vyberú z dekoratívnej kozmetiky, napríklad rúžov, leskov, ceruziek a tieňov.</p><p>Súčasťou sortimentu sú aj výživové doplnky (Colostrum, Collagen, Aloe Vera gél drinky a vitamíny) a drogéria Home, teda čistiace prostriedky pre domácnosť. Výživové doplnky nie sú náhradou pestrej a vyváženej stravy.</p>",
+    "metaTitle": "Essens – parfumy, kozmetika, doplnky | KosmetikaEva.eu",
+    "metaDescription": "Essens z Brna: dámske, pánske a unisex parfumy, kozmetika s Aloe vera, dekoratívna kozmetika a výživové doplnky. Pozrite si ponuku."
+   }
+  },
+  {
+   "id": 35,
+   "name": "Eurona",
+   "cs": {
+    "description": "<p>Společnost Eurona by Cerny vznikla v roce 2003 jako ryze česká společnost. Nabízí vlasovou, tělovou a pleťovou kosmetiku, ale také bytovou kosmetiku pro komplexní péči o domácnost. Podle výrobce nesou její produkty certifikáty jako EU Ecolabel, Česká kvalita a Ekologicky šetrný výrobek.</p><p>V e-shopu KosmetikaEva.eu najdete od Eurony prací prostředky a aviváže, parfémy na praní a čisticí prostředky do kuchyně, koupelny i na podlahy. Domov provoní osvěžovače vzduchu: aromatika, sašetky, difuzéry a svíčky.</p><p>V kosmetice patří mezi hlavní řady tekutá mýdla s Aloe vera, vlasová a pleťová péče (New Uniqua, Pure Ways) a dětské řady Eco Mimi a Pure Mimi. Nabídku doplňují potraviny Bohemian (Medbar, Aloebar, Jetbar), čaje C Cerny Herbalist a káva CC Cerny Café.</p>",
+    "metaTitle": "Eurona – kosmetika a péče o domácnost | KosmetikaEva.eu",
+    "metaDescription": "Eurona by Cerny: tekutá mýdla s Aloe vera, vlasová a pleťová kosmetika, dětské řady, prací a čisticí prostředky. Prohlédněte si nabídku."
+   },
+   "sk": {
+    "description": "<p>Spoločnosť Eurona by Cerny vznikla v roku 2003 ako ryzo česká spoločnosť. Ponúka vlasovú, telovú a pleťovú kozmetiku, ale aj bytovú kozmetiku pre komplexnú starostlivosť o domácnosť. Podľa výrobcu nesú jej produkty certifikáty ako EU Ecolabel, Česká kvalita a Ekologicky šetrný výrobok.</p><p>V e-shope KosmetikaEva.eu nájdete od Eurony pracie prostriedky a aviváže, parfumy na pranie a čistiace prostriedky do kuchyne, kúpeľne aj na podlahy. Domov prevonia osviežovače vzduchu: aromatika, vonné vrecúška, difúzery a sviečky.</p><p>V kozmetike patria medzi hlavné série tekuté mydlá s Aloe vera, vlasová a pleťová starostlivosť (New Uniqua, Pure Ways) a detské série Eco Mimi a Pure Mimi. Ponuku dopĺňajú potraviny Bohemian (Medbar, Aloebar, Jetbar), čaje C Cerny Herbalist a káva CC Cerny Café.</p>",
+    "metaTitle": "Eurona – kozmetika a domácnosť | KosmetikaEva.eu",
+    "metaDescription": "Eurona by Cerny: tekuté mydlá s Aloe vera, vlasová a pleťová kozmetika, detské série, pracie a čistiace prostriedky. Pozrite si ponuku."
+   }
+  },
+  {
+   "id": 46,
+   "name": "Just",
+   "cs": {
+    "description": "<p>Společnost Just byla založena v roce 1930 Ulrichem Jüstrichem ve Walzenhausenu v Appenzellu ve Švýcarsku. Její výrobky obsahují místní bylinky a jsou inspirovány místní přírodou, každý výrobek je originál Made in Switzerland.</p><p>V e-shopu KosmetikaEva.eu najdete od značky Just krémy, mezi nimiž je Tymiánový krém a Eucasol balzám, dále Eucasol sprej a olej z 31 bylin. Nabídku doplňují esenciální oleje, masážní a tělové oleje, deodoranty, vlasová péče, péče o nohy a produkty do koupele.</p><p>Výrobky Just najdete v kategoriích podle použití, například pro péči o tělo, ruce, nohy a vlasy nebo mezi esenciálními oleji. Místní bylinky a příroda Appenzellu jsou charakteristickým znakem značky. U každého produktu se řiďte popisem a návodem k použití.</p>",
+    "metaTitle": "Just – švýcarské bylinné výrobky | KosmetikaEva.eu",
+    "metaDescription": "Švýcarská značka Just od roku 1930: bylinné krémy, esenciální oleje, vlasová péče a péče o nohy. Prohlédněte si nabídku Just."
+   },
+   "sk": {
+    "description": "<p>Spoločnosť Just bola založená v roku 1930 Ulrichom Jüstrichom vo Walzenhausene v Appenzelli vo Švajčiarsku. Jej výrobky obsahujú miestne bylinky a sú inšpirované miestnou prírodou, každý výrobok je originál Made in Switzerland.</p><p>V e-shope KosmetikaEva.eu nájdete od značky Just krémy, medzi ktorými je Tymiánový krém a Eucasol balzam, ďalej Eucasol sprej a olej z 31 bylín. Ponuku dopĺňajú esenciálne oleje, masážne a telové oleje, dezodoranty, vlasová starostlivosť, starostlivosť o nohy a produkty do kúpeľa.</p><p>Výrobky Just nájdete v kategóriách podľa použitia, napríklad pre starostlivosť o telo, ruky, nohy a vlasy alebo medzi esenciálnymi olejmi. Miestne bylinky a príroda Appenzellu sú charakteristickým znakom značky. Pri každom produkte sa riaďte popisom a návodom na použitie.</p>",
+    "metaTitle": "Just – švajčiarske bylinné výrobky | KosmetikaEva.eu",
+    "metaDescription": "Švajčiarska značka Just od roku 1930: bylinné krémy, esenciálne oleje, vlasová starostlivosť a starostlivosť o nohy. Pozrite si ponuku Just."
+   }
+  },
+  {
+   "id": 31,
+   "name": "LR Health & Beauty",
+   "cs": {
+    "description": "<p>Společnost LR Health &amp; Beauty byla založena v německém Ahlenu v roce 1975. Zaměřuje se na výrobu doplňků stravy, kosmetických výrobků a parfémů. Doplňky stravy i kosmetika vycházejí z Aloe Vera gelu a konečné produkty i výrobní procesy jsou podle výrobce pravidelně kontrolovány institutem SGS INSTITUT FRESENIUS.</p><p>V e-shopu KosmetikaEva.eu najdete od LR Aloe Vera drinking gely a doplňky stravy LR LIFETAKT (Colostrum, Mind Master, Pro Balance). Aloe Vera kosmetika zahrnuje péči o pleť a tělo i řady Sun, Kids a Men.</p><p>Pro péči o pleť je tu řada ZEITGARD včetně Beauty Diamonds a dekorativní kosmetiky Signature, a také parfémy EdP pro ženy a pro muže. Doplňky stravy nejsou náhradou pestré a vyvážené stravy.</p>",
+    "metaTitle": "LR Health & Beauty – Aloe Vera, ZEITGARD | KosmetikaEva.eu",
+    "metaDescription": "LR Health & Beauty: Aloe Vera kosmetika, řada ZEITGARD, parfémy EdP a doplňky stravy LR LIFETAKT. Prohlédněte si nabídku značky LR."
+   },
+   "sk": {
+    "description": "<p>Spoločnosť LR Health &amp; Beauty bola založená v nemeckom Ahlene v roku 1975. Zameriava sa na výrobu výživových doplnkov, kozmetických výrobkov a parfumov. Výživové doplnky aj kozmetika vychádzajú z Aloe Vera gélu a konečné produkty aj výrobné procesy sú podľa výrobcu pravidelne kontrolované inštitútom SGS INSTITUT FRESENIUS.</p><p>V e-shope KosmetikaEva.eu nájdete od LR Aloe Vera drinking gély a výživové doplnky LR LIFETAKT (Colostrum, Mind Master, Pro Balance). Aloe Vera kozmetika zahŕňa starostlivosť o pleť a telo aj série Sun, Kids a Men.</p><p>Na starostlivosť o pleť je tu séria ZEITGARD vrátane Beauty Diamonds a dekoratívnej kozmetiky Signature, a tiež parfumy EdP pre ženy a pre mužov. Výživové doplnky nie sú náhradou pestrej a vyváženej stravy.</p>",
+    "metaTitle": "LR Health & Beauty – Aloe Vera, ZEITGARD | KosmetikaEva.eu",
+    "metaDescription": "LR Health & Beauty: Aloe Vera kozmetika, séria ZEITGARD, parfumy EdP a výživové doplnky LR LIFETAKT. Pozrite si ponuku značky LR."
+   }
+  },
+  {
+   "id": 52,
+   "name": "Nahrin",
+   "cs": {
+    "description": "<p>Společnost Nahrin byla založena v roce 1954 ve švýcarském městě Sarnen. Zaměřuje se na výrobu kořenících směsí, bujónů a omáček, ale také výživových doplňků. Podle výrobce výrobky Nahrin neobsahují palmový tuk a mnohé jsou bez lepku, laktózy a glutamátu.</p><p>V e-shopu KosmetikaEva.eu najdete od Nahrin kořenící směsi a bujóny pro každodenní vaření, které se používají k dochucení polévek, omáček, masa i zeleniny, dále doplňky stravy (Narosan, vitamíny a minerály) a bonbony Swissycandy.</p><p>U potravin a doplňků stravy se vždy řiďte informacemi na obalu, zejména složením, alergeny a doporučeným použitím. Údaje o složení najdete vždy u konkrétního výrobku. Doplňky stravy nejsou náhradou pestré a vyvážené stravy.</p>",
+    "metaTitle": "Nahrin – švýcarské koření a bujóny | KosmetikaEva.eu",
+    "metaDescription": "Švýcarská značka Nahrin od roku 1954: kořenící směsi, bujóny, doplňky stravy a bonbony Swissycandy. Prohlédněte si nabídku Nahrin."
+   },
+   "sk": {
+    "description": "<p>Spoločnosť Nahrin bola založená v roku 1954 vo švajčiarskom meste Sarnen. Zameriava sa na výrobu zmesí korenín, bujónov a omáčok, ale aj výživových doplnkov. Podľa výrobcu výrobky Nahrin neobsahujú palmový tuk a mnohé sú bez lepku, laktózy a glutamátu.</p><p>V e-shope KosmetikaEva.eu nájdete od Nahrin zmesi korenín a bujóny na každodenné varenie, ktoré sa používajú na dochutenie polievok, omáčok, mäsa aj zeleniny, ďalej výživové doplnky (Narosan, vitamíny a minerály) a cukríky Swissycandy.</p><p>Pri potravinách a výživových doplnkoch sa vždy riaďte informáciami na obale, najmä zložením, alergénmi a odporúčaným použitím. Údaje o zložení nájdete vždy pri konkrétnom výrobku. Výživové doplnky nie sú náhradou pestrej a vyváženej stravy.</p>",
+    "metaTitle": "Nahrin – švajčiarske korenie a bujóny | KosmetikaEva.eu",
+    "metaDescription": "Švajčiarska značka Nahrin od roku 1954: zmesi korenín, bujóny, výživové doplnky a cukríky Swissycandy. Pozrite si ponuku Nahrin."
+   }
+  },
+  {
+   "id": 49,
+   "name": "wellU",
+   "cs": {
+    "description": "<p>WellU je specializovaná značka kosmeceutik zaměřených na péči o pleť obličeje a těla. Podle výrobce byly produkty značky díky synergii aktivních složek oceněny porotami odborných soutěží v Polsku i v Evropě. Společnost wellU zastřešuje značky Larens, Nutrivi a Slim Foot.</p><p>V e-shopu KosmetikaEva.eu najdete od wellU pleťová séra a krémy a také péči o tělo. Nabídka wellU je menší a soustředí se na pleťovou a tělovou péči. Produkty najdete mezi pleťovou kosmetikou, kde je můžete porovnat s dalšími značkami. Hodí se pro ty, kdo preferují pleťovou péči postavenou na aktivních složkách.</p><p>Séra se obvykle nanášejí na čistou pleť před krémem, který péči uzavře. Nový přípravek nejprve vyzkoušejte na malé ploše pokožky a řiďte se pokyny na obalu.</p>",
+    "metaTitle": "wellU – kosmeceutika pro pleť a tělo | KosmetikaEva.eu",
+    "metaDescription": "wellU: kosmeceutika pro péči o pleť obličeje a těla, pleťová séra a krémy. Prohlédněte si nabídku značky wellU na KosmetikaEva.eu."
+   },
+   "sk": {
+    "description": "<p>WellU je špecializovaná značka kosmeceutík zameraných na starostlivosť o pleť tváre a tela. Podľa výrobcu boli produkty značky vďaka synergii aktívnych zložiek ocenené porotami odborných súťaží v Poľsku aj v Európe. Spoločnosť wellU zastrešuje značky Larens, Nutrivi a Slim Foot.</p><p>V e-shope KosmetikaEva.eu nájdete od wellU pleťové séra a krémy a tiež starostlivosť o telo. Ponuka wellU je menšia a sústreďuje sa na pleťovú a telovú starostlivosť. Produkty nájdete medzi pleťovou kozmetikou, kde ich môžete porovnať s ďalšími značkami. Hodia sa pre tých, ktorí uprednostňujú pleťovú starostlivosť postavenú na aktívnych zložkách.</p><p>Séra sa zvyčajne nanášajú na čistú pleť pred krémom, ktorý starostlivosť uzavrie. Nový prípravok najprv vyskúšajte na malej ploche pokožky a riaďte sa pokynmi na obale.</p>",
+    "metaTitle": "wellU – kosmeceutika pre pleť a telo | KosmetikaEva.eu",
+    "metaDescription": "wellU: kosmeceutika na starostlivosť o pleť tváre a tela, pleťové séra a krémy. Pozrite si ponuku značky wellU na KosmetikaEva.eu."
+   }
+  }
+ ]
+}
