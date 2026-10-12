@@ -369,8 +369,7 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
 #footer .custom-footer::before{
   content:""!important;display:block!important;grid-column:1/-1;flex:0 0 100%;
   width:230px;max-width:70%;height:58px;margin:0 0 34px;
-  background:url(https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/logos/logo_ke_10_let.png) left center/contain no-repeat;
-  filter:brightness(0) invert(1);opacity:.92;
+  background:url(/user/documents/upload/CSS/ke-logo-bile.png) left center/contain no-repeat;opacity:.95;
 }
 @media (min-width:768px){
   #footer .custom-footer{display:grid!important;grid-template-columns:1.3fr 1fr 1fr;gap:48px}
