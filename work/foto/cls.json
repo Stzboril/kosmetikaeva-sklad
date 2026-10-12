@@ -1,0 +1,4266 @@
+{
+"1001": {
+"lab": "MAKETA",
+"fi": 9.9,
+"fm": 9.9,
+"img": "1001-i_4.jpg",
+"maq": "1001_2.jpg",
+"n_ours": 1
+},
+"1002": {
+"lab": "MAKETA",
+"fi": 9.8,
+"fm": 6,
+"img": "1002-i_5.jpg",
+"maq": "1002_2.jpg",
+"n_ours": 1
+},
+"1003": {
+"lab": "MAKETA",
+"fi": 24.2,
+"fm": 11.2,
+"img": "1003-i_1.jpg",
+"maq": "1003_2.jpg",
+"n_ours": 1
+},
+"1008": {
+"lab": "MAKETA",
+"fi": 19.4,
+"fm": 6,
+"img": "1008-i_3.jpg",
+"maq": "1008_3.jpg",
+"n_ours": 1
+},
+"1009": {
+"lab": "MAKETA",
+"fi": 19.2,
+"fm": 5.5,
+"img": "1009-i_1.jpg",
+"maq": "1009_4.jpg",
+"n_ours": 1
+},
+"1010": {
+"lab": "MAKETA",
+"fi": 31,
+"fm": 16.2,
+"img": "1010-i_1.jpg",
+"maq": "1010_3.jpg",
+"n_ours": 1
+},
+"1011": {
+"lab": "MAKETA",
+"fi": 8.7,
+"fm": 2.6,
+"img": "1011-i_2.jpg",
+"maq": "1011_3.jpg",
+"n_ours": 1
+},
+"1014": {
+"lab": "MAKETA",
+"fi": 7.7,
+"fm": 1.5,
+"img": "1014-i_1.jpg",
+"maq": "1014_16.jpg",
+"n_ours": 1
+},
+"1020": {
+"lab": "MAKETA",
+"fi": 8.5,
+"fm": 0.6,
+"img": "1020-i_2.jpg",
+"maq": "1020_3.jpg",
+"n_ours": 1
+},
+"1021": {
+"lab": "MAKETA",
+"fi": 17.2,
+"fm": 13.6,
+"img": "1021-i_1.jpg",
+"maq": "1021_3.jpg",
+"n_ours": 1
+},
+"1022": {
+"lab": "MAKETA",
+"fi": 8.6,
+"fm": 6.6,
+"img": "1022-i_4.jpg",
+"maq": "1022_2.jpg",
+"n_ours": 1
+},
+"1023": {
+"lab": "MAKETA",
+"fi": 6.5,
+"fm": 3.1,
+"img": "1023-i_2.jpg",
+"maq": "1023_2.jpg",
+"n_ours": 1
+},
+"1024": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15,
+"img": "1024-i_2.jpg",
+"maq": "1024_3.jpg",
+"n_ours": 2
+},
+"1025": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.3,
+"img": "1025-i_2.jpg",
+"maq": "1025_3.jpg",
+"n_ours": 2
+},
+"1027": {
+"lab": "MAKETA",
+"fi": 7.7,
+"fm": 1.3,
+"img": "1027-i.jpg",
+"maq": "1027_3.jpg",
+"n_ours": 1
+},
+"1030": {
+"lab": "MAKETA",
+"fi": 22.1,
+"fm": 3.9,
+"img": "image-1030-redesign.jpg",
+"maq": "maketa-1030.jpg",
+"n_ours": 1
+},
+"1036": {
+"lab": "MAKETA",
+"fi": 7.6,
+"fm": 1.6,
+"img": "1036-i_1.jpg",
+"maq": "1036_3.jpg",
+"n_ours": 1
+},
+"1037": {
+"lab": "MAKETA",
+"fi": 20.9,
+"fm": 3.4,
+"img": "1037-i_1.jpg",
+"maq": "1037_2.jpg",
+"n_ours": 1
+},
+"1038": {
+"lab": "MAKETA",
+"fi": 22.4,
+"fm": 3.4,
+"img": "image-1038-redeign.jpg",
+"maq": "maketa-1038.jpg",
+"n_ours": 1
+},
+"1039": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.8,
+"img": "1039-i_2.jpg",
+"maq": "1039_2.jpg",
+"n_ours": 3
+},
+"1040": {
+"lab": "MAKETA",
+"fi": 7.9,
+"fm": 2.2,
+"img": "1040-i_1.jpg",
+"maq": "1040_3.jpg",
+"n_ours": 1
+},
+"1045": {
+"lab": "MAKETA",
+"fi": 7.4,
+"fm": 1.4,
+"img": "1045-i_2.jpg",
+"maq": "1045_3.jpg",
+"n_ours": 1
+},
+"1047": {
+"lab": "MAKETA",
+"fi": 21,
+"fm": 5,
+"img": "1047-i.jpg",
+"maq": "1047_2.jpg",
+"n_ours": 1
+},
+"1049": {
+"lab": "MAKETA",
+"fi": 6.9,
+"fm": 3.6,
+"img": "1049-i_3.jpg",
+"maq": "1049_2.jpg",
+"n_ours": 1
+},
+"1050": {
+"lab": "MAKETA",
+"fi": 16,
+"fm": 0.6,
+"img": "1050-i_2.jpg",
+"maq": "1050_3.jpg",
+"n_ours": 1
+},
+"1057": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 22.8,
+"img": "1057-i_1.jpg",
+"maq": "1057_2.jpg",
+"n_ours": 1
+},
+"1059": {
+"lab": "MAKETA",
+"fi": 6.5,
+"fm": 2.8,
+"img": "1059-i_2.jpg",
+"maq": "1059_2.jpg",
+"n_ours": 1
+},
+"1060": {
+"lab": "MAKETA",
+"fi": 7.8,
+"fm": 1.8,
+"img": "1060-i_1.jpg",
+"maq": "1060_3.jpg",
+"n_ours": 1
+},
+"1061": {
+"lab": "MAKETA",
+"fi": 8,
+"fm": 2.6,
+"img": "1061-i_1.jpg",
+"maq": "1061_4.jpg",
+"n_ours": 2
+},
+"1063": {
+"lab": "MAKETA",
+"fi": 9.6,
+"fm": 1.5,
+"img": "1063-i_1.jpg",
+"maq": "1063_3.jpg",
+"n_ours": 1
+},
+"1064": {
+"lab": "MAKETA",
+"fi": 8.4,
+"fm": 1.5,
+"img": "image-1064.jpg",
+"maq": "maketa-1064.jpg",
+"n_ours": 1
+},
+"1065": {
+"lab": "MAKETA",
+"fi": 16.9,
+"fm": 7.3,
+"img": "1165-i.jpg",
+"maq": "1165_1.jpg",
+"n_ours": 1
+},
+"1066": {
+"lab": "MAKETA",
+"fi": 9.8,
+"fm": 2.3,
+"img": "1066-i_1.jpg",
+"maq": "1066_3.jpg",
+"n_ours": 1
+},
+"1079": {
+"lab": "MAKETA",
+"fi": 9.2,
+"fm": 4.1,
+"img": "1079-i_1.jpg",
+"maq": "1079_3.jpg",
+"n_ours": 1
+},
+"1085": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.7,
+"img": "1085-i_3.jpg",
+"maq": "1085_10.jpg",
+"n_ours": 2
+},
+"1087": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.2,
+"img": "1087-i_1.jpg",
+"maq": "1087_2.jpg",
+"n_ours": 2
+},
+"1088": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.5,
+"img": "1088-i_1.jpg",
+"maq": "1088_2.jpg",
+"n_ours": 2
+},
+"1091": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.7,
+"img": "1091-i_1.jpg",
+"maq": "1091_2.jpg",
+"n_ours": 2
+},
+"1092": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.6,
+"img": "1092-i_1.jpg",
+"maq": "1092_2.jpg",
+"n_ours": 2
+},
+"1095": {
+"lab": "MAKETA",
+"fi": 7.7,
+"fm": 1.2,
+"img": "1095-i_1.jpg",
+"maq": "1095_3.jpg",
+"n_ours": 1
+},
+"1098": {
+"lab": "MAKETA",
+"fi": 9.6,
+"fm": 5.1,
+"img": "1098-i_5.jpg",
+"maq": "1098_7.jpg",
+"n_ours": 1
+},
+"1099": {
+"lab": "MAKETA",
+"fi": 16.6,
+"fm": 0.6,
+"img": "1099-i_2.jpg",
+"maq": "1099_4.jpg",
+"n_ours": 1
+},
+"1101": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.9,
+"img": "1101-i_2.jpg",
+"maq": "1101_2.jpg",
+"n_ours": 2
+},
+"1103": {
+"lab": "MAKETA",
+"fi": 13.1,
+"fm": 4.5,
+"img": "1103-i_1.jpg",
+"maq": "1103_11.jpg",
+"n_ours": 1
+},
+"1111": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.3,
+"img": "1111-i_1.jpg",
+"maq": "1111_2.jpg",
+"n_ours": 2
+},
+"1124": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.2,
+"img": "1124-i_1.jpg",
+"maq": "1124_2.jpg",
+"n_ours": 2
+},
+"1131": {
+"lab": "MAKETA",
+"fi": 7.8,
+"fm": 1.1,
+"img": "1131-i_1.jpg",
+"maq": "1131_3.jpg",
+"n_ours": 1
+},
+"1136": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 7.7,
+"img": "1136-i_1.jpg",
+"maq": "1136_2.jpg",
+"n_ours": 3
+},
+"1137": {
+"lab": "MAKETA",
+"fi": 7.8,
+"fm": 0.4,
+"img": "1237-i.jpg",
+"maq": "1137_2.jpg",
+"n_ours": 1
+},
+"1139": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7,
+"img": "1139-i_1.jpg",
+"maq": "1139_2.jpg",
+"n_ours": 1
+},
+"1143": {
+"lab": "MAKETA",
+"fi": 22,
+"fm": 3,
+"img": "image-1143-redesign.jpg",
+"maq": "maketa-1143.jpg",
+"n_ours": 1
+},
+"1163": {
+"lab": "MAKETA",
+"fi": 8.3,
+"fm": 1.2,
+"img": "1163-i_1.jpg",
+"maq": "1163_4.jpg",
+"n_ours": 1
+},
+"1164": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.6,
+"img": "1164-i_1.jpg",
+"maq": "1164_2.jpg",
+"n_ours": 1
+},
+"1169": {
+"lab": "MAKETA",
+"fi": 8.7,
+"fm": 1.3,
+"img": "1169-i_2.jpg",
+"maq": "1169_3.jpg",
+"n_ours": 1
+},
+"1170": {
+"lab": "MAKETA",
+"fi": 13.2,
+"fm": 4.6,
+"img": "1170-i_1.jpg",
+"maq": "1170_2.jpg",
+"n_ours": 1
+},
+"1171": {
+"lab": "MAKETA",
+"fi": 16.7,
+"fm": 7.4,
+"img": "1171-i_3.jpg",
+"maq": "1171_3.jpg",
+"n_ours": 1
+},
+"1179": {
+"lab": "MAKETA",
+"fi": 10.6,
+"fm": 1.6,
+"img": "1179-i_1.jpg",
+"maq": "1179_3.jpg",
+"n_ours": 1
+},
+"1180": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.9,
+"img": "1180-i_1.jpg",
+"maq": "1180_2.jpg",
+"n_ours": 1
+},
+"1212": {
+"lab": "MAKETA",
+"fi": 12.5,
+"fm": 1.1,
+"img": "1212-i.jpg",
+"maq": "1212_1.jpg",
+"n_ours": 2
+},
+"1214": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.7,
+"img": "1214-i.jpg",
+"maq": "1214.jpg",
+"n_ours": 2
+},
+"1217": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.1,
+"img": "1217-i_1.jpg",
+"maq": "1217.jpg",
+"n_ours": 2
+},
+"1218": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.5,
+"img": "1218-i_1.jpg",
+"maq": "1218.jpg",
+"n_ours": 2
+},
+"1221": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.6,
+"img": "1221-i.jpg",
+"maq": "1221.jpg",
+"n_ours": 2
+},
+"1222": {
+"lab": "MAKETA",
+"fi": 7.8,
+"fm": 0.4,
+"img": "1222-i.jpg",
+"maq": "1222_1.jpg",
+"n_ours": 1
+},
+"1228": {
+"lab": "MAKETA",
+"fi": 17.7,
+"fm": 3.3,
+"img": "1228-i_1.jpg",
+"maq": "1228_2.jpg",
+"n_ours": 1
+},
+"1229": {
+"lab": "MAKETA",
+"fi": 15,
+"fm": 7.5,
+"img": "1229-i_2.jpg",
+"maq": "1229_2.jpg",
+"n_ours": 1
+},
+"1230": {
+"lab": "MAKETA",
+"fi": 14.3,
+"fm": 8.7,
+"img": "1230-i_2.jpg",
+"maq": "1230_2.jpg",
+"n_ours": 1
+},
+"1245": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 57.9,
+"img": "1245-i_1.jpg",
+"maq": "1245.jpg",
+"n_ours": 2
+},
+"1246": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 57.3,
+"img": "1246-i_3.jpg",
+"maq": "1246.jpg",
+"n_ours": 2
+},
+"1247": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.4,
+"img": "1247-i_1.jpg",
+"maq": "1247.jpg",
+"n_ours": 2
+},
+"1248": {
+"lab": "MAKETA",
+"fi": 9.3,
+"fm": 2.2,
+"img": "1248-i_3.jpg",
+"maq": "1248.jpg",
+"n_ours": 1
+},
+"1249": {
+"lab": "MAKETA",
+"fi": 7.6,
+"fm": 0.6,
+"img": "1249-i.jpg",
+"maq": "1249_1.jpg",
+"n_ours": 1
+},
+"1250": {
+"lab": "MAKETA",
+"fi": 7.3,
+"fm": 0.9,
+"img": "1250-i.jpg",
+"maq": "1250_1.jpg",
+"n_ours": 1
+},
+"1251": {
+"lab": "MAKETA",
+"fi": 7,
+"fm": 0.3,
+"img": "1251-i.jpg",
+"maq": "1251_1.jpg",
+"n_ours": 1
+},
+"1252": {
+"lab": "MAKETA",
+"fi": 6.7,
+"fm": 0.6,
+"img": "1252-i.jpg",
+"maq": "1252_1.jpg",
+"n_ours": 1
+},
+"1259": {
+"lab": "MAKETA",
+"fi": 8,
+"fm": 0.9,
+"img": "1259i.jpg",
+"maq": "1259.jpg",
+"n_ours": 1
+},
+"1260": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 32.8,
+"img": "1260i_1.jpg",
+"maq": "1260m.jpg",
+"n_ours": 1
+},
+"1261": {
+"lab": "MAKETA",
+"fi": 9.7,
+"fm": 0.9,
+"img": "1261-i.jpg",
+"maq": "1261.jpg",
+"n_ours": 1
+},
+"1262": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.8,
+"img": "1262-i.jpg",
+"maq": "1262.jpg",
+"n_ours": 1
+},
+"1274": {
+"lab": "MAKETA",
+"fi": 19.3,
+"fm": 0.9,
+"img": "1274i.jpg",
+"maq": "1274.jpg",
+"n_ours": 1
+},
+"1276": {
+"lab": "MAKETA",
+"fi": 23.7,
+"fm": 1,
+"img": "1276-i.jpg",
+"maq": "1276.jpg",
+"n_ours": 1
+},
+"1278": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 23.8,
+"img": "1278-i.jpg",
+"maq": "1278.jpg",
+"n_ours": 1
+},
+"1279": {
+"lab": "MAKETA",
+"fi": 24,
+"fm": 0.9,
+"img": "1279-i_1.jpg",
+"maq": "1279.jpg",
+"n_ours": 1
+},
+"1280": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 22.7,
+"img": "1280-i.jpg",
+"maq": "1280.jpg",
+"n_ours": 2
+},
+"1281": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 22.9,
+"img": "1281-i.jpg",
+"maq": "1281.jpg",
+"n_ours": 1
+},
+"1282": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 25.2,
+"img": "1282-i_1.jpg",
+"maq": "1283.jpg",
+"n_ours": 1
+},
+"1283": {
+"lab": "MAKETA",
+"fi": 25.4,
+"fm": 0.9,
+"img": "1283-i.jpg",
+"maq": "1282.jpg",
+"n_ours": 1
+},
+"1284": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.2,
+"img": "i-1284_1.jpg",
+"maq": "m-1284_3.jpg",
+"n_ours": 1
+},
+"1285": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24,
+"img": "i-1285.jpg",
+"maq": "m-1285.jpg",
+"n_ours": 1
+},
+"1286": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.7,
+"img": "i-1286.png",
+"maq": "m-1286_1.jpg",
+"n_ours": 1
+},
+"1287": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24.3,
+"img": "i-1287.jpg",
+"maq": "m-1287_1.jpg",
+"n_ours": 1
+},
+"1288": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.5,
+"img": "m-1288.jpg",
+"maq": "i-1288.jpg",
+"n_ours": 1
+},
+"1289": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 23.6,
+"img": "1289-i.jpg",
+"maq": "1289-m.jpg",
+"n_ours": 1
+},
+"1290": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 7.1,
+"img": "image-avi-snowy-white.jpg",
+"maq": "maketa-avi-snowy-white.jpg",
+"n_ours": 1
+},
+"1291": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.1,
+"img": "image-sasetka-snowy-white.jpg",
+"maq": "maketa-sasetka-snowy-white.jpg",
+"n_ours": 1
+},
+"1292": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 25.1,
+"img": "image-parfem-na-prani-snowy-white-200-ml.jpg",
+"maq": "maketa-parfem-na-prani-snowy-white-200-ml.jpg",
+"n_ours": 1
+},
+"1293": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 24.2,
+"img": "image-parfem-na-prani-snowy-white-500-ml.jpg",
+"maq": "maketa-parfem-na-prani-snowy-white-500-ml.jpg",
+"n_ours": 1
+},
+"1294": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8,
+"img": "image-avi-diwa-vivien.jpg",
+"maq": "maketa-avi-diwa-vivien.jpg",
+"n_ours": 1
+},
+"1295": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 8.5,
+"img": "image-sasetka-diwa-vivien.jpg",
+"maq": "maketa-sasetka-diwa-vivien.jpg",
+"n_ours": 1
+},
+"1296": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.3,
+"img": "image-parfem-na-prani-diwa-vivien-200-ml.jpg",
+"maq": "maketa-parfem-na-prani-diwa-vivien-200-ml.jpg",
+"n_ours": 1
+},
+"1297": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.5,
+"img": "image-parfem-na-prani-diwa-vivien-500-ml.jpg",
+"maq": "maketa-parfem-na-prani-diwa-vivien-500-ml.jpg",
+"n_ours": 1
+},
+"1298": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 29.2,
+"img": "image-parfem-na-prani-200-ml-black-pearl.jpg",
+"maq": "maketa-parfem-na-prani-200-ml-black-pearl.jpg",
+"n_ours": 1
+},
+"1299": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 29.7,
+"img": "1299-i.jpg",
+"maq": "1299.jpg",
+"n_ours": 1
+},
+"1300": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.9,
+"img": "image-parfem-na-prani-200-ml-zahrada-snu.jpg",
+"maq": "maketa-parfem-na-prani-200-ml-zahrada-snu.jpg",
+"n_ours": 1
+},
+"1301": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24.1,
+"img": "image-parfem-na-prani-500-ml-zahrada-snu.jpg",
+"maq": "maketa-parfem-na-prani-500-ml-zahrada-snu.jpg",
+"n_ours": 1
+},
+"1302": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 28.1,
+"img": "image-parfem-na-prani-200-ml-enchanted-beauty.jpg",
+"maq": "maketa-parfem-na-prani-200-ml-enchanted-beauty.jpg",
+"n_ours": 1
+},
+"1303": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 27.4,
+"img": "image-parfem-na-prani-500-ml-enchanted-beauty.jpg",
+"maq": "maketa-parfem-na-prani-500-ml-enchanted-beauty.jpg",
+"n_ours": 1
+},
+"1304": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 24.9,
+"img": "1304-i.jpg",
+"maq": "1304.jpg",
+"n_ours": 1
+},
+"1305": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 23.4,
+"img": "1035-i.jpg",
+"maq": "1035_1.jpg",
+"n_ours": 1
+},
+"1306": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24.8,
+"img": "image-parfem-na-prani-200-ml-aiwysnow.jpg",
+"maq": "maketa-parfem-na-prani-aiwysnow-200-ml.jpg",
+"n_ours": 1
+},
+"1307": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 23.5,
+"img": "image-parfem-na-prani-500-ml-aiwysnow.jpg",
+"maq": "maketa-parfem-na-prani-aiwysnow-500-ml.jpg",
+"n_ours": 1
+},
+"1308": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 25,
+"img": "1308-i.jpg",
+"maq": "1308_2.jpg",
+"n_ours": 1
+},
+"1309": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 27.6,
+"img": "1309-i.jpg",
+"maq": "1309_2.jpg",
+"n_ours": 1
+},
+"1310": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 19,
+"img": "1310-i.jpg",
+"maq": "1310.jpg",
+"n_ours": 1
+},
+"1311": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 20.3,
+"img": "1311-i.jpg",
+"maq": "1311.jpg",
+"n_ours": 1
+},
+"1312": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 28.6,
+"img": "1312-i.jpg",
+"maq": "1_2.jpg",
+"n_ours": 1
+},
+"1313": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 30.1,
+"img": "1313-i.jpg",
+"maq": "1313.jpg",
+"n_ours": 1
+},
+"1314": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.2,
+"img": "1314-i.jpg",
+"maq": "1314.jpg",
+"n_ours": 1
+},
+"1315": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 64.8,
+"img": "image-foto-3000x3000-26_1.jpg",
+"maq": "makety24.jpg",
+"n_ours": 1
+},
+"2005": {
+"lab": "MAKETA",
+"fi": 8.6,
+"fm": 0.7,
+"img": "2005-i_1.jpg",
+"maq": "2005_2.jpg",
+"n_ours": 1
+},
+"2009": {
+"lab": "MAKETA",
+"fi": 13.7,
+"fm": 3.1,
+"img": "2009-i_1.jpg",
+"maq": "2009_2.jpg",
+"n_ours": 1
+},
+"2022": {
+"lab": "MAKETA",
+"fi": 15.1,
+"fm": 4.4,
+"img": "2022-i_1.jpg",
+"maq": "2022_2.jpg",
+"n_ours": 1
+},
+"2027": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 17.5,
+"img": "image-2027-redesign.jpg",
+"maq": "maketa-2027.jpg",
+"n_ours": 2
+},
+"2038": {
+"lab": "MAKETA",
+"fi": 9.3,
+"fm": 4.4,
+"img": "2038-i_1.jpg",
+"maq": "2038_2.jpg",
+"n_ours": 1
+},
+"2039": {
+"lab": "MAKETA",
+"fi": 10.4,
+"fm": 3.9,
+"img": "2039-i_1.jpg",
+"maq": "2039_2.jpg",
+"n_ours": 1
+},
+"2040": {
+"lab": "MAKETA",
+"fi": 9.2,
+"fm": 5.1,
+"img": "2040-i_1.jpg",
+"maq": "2040_2.jpg",
+"n_ours": 1
+},
+"2041": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.1,
+"img": "2041-i_1.jpg",
+"maq": "2041_3.jpg",
+"n_ours": 2
+},
+"2044": {
+"lab": "MAKETA",
+"fi": 9.3,
+"fm": 5.1,
+"img": "2044-i_1.jpg",
+"maq": "2044_2.jpg",
+"n_ours": 1
+},
+"2045": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.3,
+"img": "2045-i_1.jpg",
+"maq": "2045_2.jpg",
+"n_ours": 2
+},
+"2053": {
+"lab": "MAKETA",
+"fi": 16.9,
+"fm": 10.9,
+"img": "2053-i_3.jpg",
+"maq": "2053_4.jpg",
+"n_ours": 1
+},
+"2054": {
+"lab": "MAKETA",
+"fi": 16.8,
+"fm": 0.6,
+"img": "2054-i_1.jpg",
+"maq": "2054_2.jpg",
+"n_ours": 1
+},
+"2055": {
+"lab": "MAKETA",
+"fi": 5.5,
+"fm": 0.4,
+"img": "2055-i_1.jpg",
+"maq": "2055_3.jpg",
+"n_ours": 1
+},
+"2057": {
+"lab": "MAKETA",
+"fi": 10.4,
+"fm": 7.5,
+"img": "image-2057-redesign.jpg",
+"maq": "maketa-2057.jpg",
+"n_ours": 1
+},
+"2061": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.6,
+"img": "2061-i.jpg",
+"maq": "2061.jpg",
+"n_ours": 2
+},
+"2062": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.7,
+"img": "2062-i.jpg",
+"maq": "2062.jpg",
+"n_ours": 2
+},
+"2063": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 10.1,
+"img": "2063-i.jpg",
+"maq": "2063.jpg",
+"n_ours": 2
+},
+"2068": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 6.4,
+"img": "2068-i_1.jpg",
+"maq": "2068.jpg",
+"n_ours": 2
+},
+"2069": {
+"lab": "MAKETA",
+"fi": 6.3,
+"fm": 0.5,
+"img": "2069-i.jpg",
+"maq": "2069.jpg",
+"n_ours": 1
+},
+"3001": {
+"lab": "MAKETA",
+"fi": 14.6,
+"fm": 3.7,
+"img": "3001-i_1.jpg",
+"maq": "3001_3.jpg",
+"n_ours": 1
+},
+"3002": {
+"lab": "MAKETA",
+"fi": 14.6,
+"fm": 3.7,
+"img": "3002-i_1.jpg",
+"maq": "3002_2.jpg",
+"n_ours": 1
+},
+"3004": {
+"lab": "MAKETA",
+"fi": 7.9,
+"fm": 0.3,
+"img": "3004-i_2.jpg",
+"maq": "3004_3.jpg",
+"n_ours": 1
+},
+"3005": {
+"lab": "MAKETA",
+"fi": 9.3,
+"fm": 3.8,
+"img": "3005-i_1.jpg",
+"maq": "3005_2.jpg",
+"n_ours": 1
+},
+"3006": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 19.4,
+"img": "3006-i_1.jpg",
+"maq": "3006_2.jpg",
+"n_ours": 2
+},
+"3009": {
+"lab": "MAKETA",
+"fi": 13.6,
+"fm": 5,
+"img": "image-3009.jpg",
+"maq": "maketa-3009.jpg",
+"n_ours": 1
+},
+"3010": {
+"lab": "MAKETA",
+"fi": 23.1,
+"fm": 5.4,
+"img": "3010-i_4.jpg",
+"maq": "3010_3.jpg",
+"n_ours": 1
+},
+"3011": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.8,
+"img": "3011-i.jpg",
+"maq": "3011_1.jpg",
+"n_ours": 1
+},
+"3013": {
+"lab": "MAKETA",
+"fi": 7.6,
+"fm": 0.5,
+"img": "3013-i_2.jpg",
+"maq": "3013_3.jpg",
+"n_ours": 1
+},
+"3014": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4,
+"img": "3014-i_1.jpg",
+"maq": "3014_2.jpg",
+"n_ours": 1
+},
+"3016": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.3,
+"img": "3016-i_3.jpg",
+"maq": "3016_10.jpg",
+"n_ours": 2
+},
+"3018": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 14.7,
+"img": "3018-i_2.jpg",
+"maq": "3018_4.jpg",
+"n_ours": 3
+},
+"3022": {
+"lab": "MAKETA",
+"fi": 17.2,
+"fm": 0.6,
+"img": "grill-and-oven-cleaner-2.jpg",
+"maq": "grill-and-oven-cleaner.jpg",
+"n_ours": 1
+},
+"3031": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.9,
+"img": "3031-i_1.jpg",
+"maq": "3031_2.jpg",
+"n_ours": 2
+},
+"3033": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.4,
+"img": "3033-i_1.jpg",
+"maq": "3033_2.jpg",
+"n_ours": 3
+},
+"3043": {
+"lab": "MAKETA",
+"fi": 10.5,
+"fm": 0.6,
+"img": "3043-i_2.jpg",
+"maq": "3043_3.jpg",
+"n_ours": 1
+},
+"3044": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12,
+"img": "image-3044.jpg",
+"maq": "maketa-3044.jpg",
+"n_ours": 1
+},
+"3048": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.8,
+"img": "3048-i_1.jpg",
+"maq": "3048_2.jpg",
+"n_ours": 2
+},
+"3049": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.8,
+"img": "3049-i_1.jpg",
+"maq": "3049_2.jpg",
+"n_ours": 2
+},
+"3050": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.1,
+"img": "3050-i_1.jpg",
+"maq": "3050_2.jpg",
+"n_ours": 2
+},
+"3051": {
+"lab": "MAKETA",
+"fi": 14,
+"fm": 1.4,
+"img": "3051-i_1.jpg",
+"maq": "3051_2.jpg",
+"n_ours": 2
+},
+"3057": {
+"lab": "MAKETA",
+"fi": 15.9,
+"fm": 0.4,
+"img": "3057-i_2.jpg",
+"maq": "3057_3.jpg",
+"n_ours": 2
+},
+"3058": {
+"lab": "MAKETA",
+"fi": 10.2,
+"fm": 0.5,
+"img": "3058-i_2.jpg",
+"maq": "3058_3.jpg",
+"n_ours": 1
+},
+"3059": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12.9,
+"img": "3059-i_2.jpg",
+"maq": "3059_3.jpg",
+"n_ours": 2
+},
+"3063": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.9,
+"img": "image-3063.jpg",
+"maq": "maketa-3063.jpg",
+"n_ours": 2
+},
+"3065": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 4.3,
+"img": "3065-i_1.jpg",
+"maq": "3065_2.jpg",
+"n_ours": 2
+},
+"3081": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 4.3,
+"img": "3081-i_1.jpg",
+"maq": "3081_2.jpg",
+"n_ours": 2
+},
+"3083": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15.2,
+"img": "3083-i_2.jpg",
+"maq": "3083_3.jpg",
+"n_ours": 3
+},
+"3084": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15.1,
+"img": "3084-i_2.jpg",
+"maq": "3084_8.jpg",
+"n_ours": 3
+},
+"3091": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15.2,
+"img": "3091-i_2.jpg",
+"maq": "3091_3.jpg",
+"n_ours": 3
+},
+"3094": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.1,
+"img": "3094-i_1.jpg",
+"maq": "3094_2.jpg",
+"n_ours": 2
+},
+"3096": {
+"lab": "MAKETA",
+"fi": 13.9,
+"fm": 0.6,
+"img": "3096-i_3.jpg",
+"maq": "3096_4.jpg",
+"n_ours": 2
+},
+"3099": {
+"lab": "MAKETA",
+"fi": 24,
+"fm": 0.3,
+"img": "3099-i_2.jpg",
+"maq": "3099_3.jpg",
+"n_ours": 1
+},
+"3101": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 5.6,
+"img": "3101-i_1.jpg",
+"maq": "3101_2.jpg",
+"n_ours": 2
+},
+"3108": {
+"lab": "MAKETA",
+"fi": 13,
+"fm": 2.8,
+"img": "3108-i_2.jpg",
+"maq": "3108_2.jpg",
+"n_ours": 2
+},
+"3127": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.1,
+"img": "3127-i_2.jpg",
+"maq": "3127_3.jpg",
+"n_ours": 2
+},
+"3129": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.9,
+"img": "3129-i_2.jpg",
+"maq": "3129_3.jpg",
+"n_ours": 2
+},
+"3136": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.7,
+"img": "3136-i_2.jpg",
+"maq": "3136_3.jpg",
+"n_ours": 2
+},
+"3184": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 5.6,
+"img": "3184-i_1.jpg",
+"maq": "3184_2.jpg",
+"n_ours": 1
+},
+"3187": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.5,
+"img": "3187-i_2.jpg",
+"maq": "3187_3.jpg",
+"n_ours": 1
+},
+"3189": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 23.2,
+"img": "3189-i_2.jpg",
+"maq": "3189_3.jpg",
+"n_ours": 2
+},
+"3190": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 18.9,
+"img": "3190-i_2.jpg",
+"maq": "3190_3.jpg",
+"n_ours": 1
+},
+"3223": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 21.8,
+"img": "3223-i_1.jpg",
+"maq": "3223_3.jpg",
+"n_ours": 1
+},
+"3230": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15.4,
+"img": "3230-i_2.jpg",
+"maq": "3230_3.jpg",
+"n_ours": 3
+},
+"3233": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 24.9,
+"img": "3233-i_1.jpg",
+"maq": "3233_2.jpg",
+"n_ours": 3
+},
+"3237": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 13.6,
+"img": "3237-i_1.jpg",
+"maq": "3237_2.jpg",
+"n_ours": 2
+},
+"3238": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.4,
+"img": "3238-i_1.jpg",
+"maq": "3238_4.jpg",
+"n_ours": 2
+},
+"3240": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.4,
+"img": "3240-i_1.jpg",
+"maq": "3240_2.jpg",
+"n_ours": 1
+},
+"3254": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.6,
+"img": "3254-i_1.jpg",
+"maq": "3254_2.jpg",
+"n_ours": 3
+},
+"3256": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.7,
+"img": "3256-i_2.jpg",
+"maq": "3256_3.jpg",
+"n_ours": 3
+},
+"3257": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 7.5,
+"img": "3257-i_1.jpg",
+"maq": "3257_2.jpg",
+"n_ours": 3
+},
+"3261": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.5,
+"img": "3261-i_1.jpg",
+"maq": "3261_2.jpg",
+"n_ours": 3
+},
+"3262": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.5,
+"img": "3262-i_1.jpg",
+"maq": "3262_2.jpg",
+"n_ours": 3
+},
+"3263": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9,
+"img": "3263-i_3.jpg",
+"maq": "3263_10.jpg",
+"n_ours": 3
+},
+"3264": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.9,
+"img": "3264-i_1.jpg",
+"maq": "3264_2.jpg",
+"n_ours": 3
+},
+"3272": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 4.7,
+"img": "3272-i_1.jpg",
+"maq": "3272_2.jpg",
+"n_ours": 1
+},
+"3289": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 5.6,
+"img": "3289-i_1.jpg",
+"maq": "3289_2.jpg",
+"n_ours": 1
+},
+"3301": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.8,
+"img": "3301-i_1.jpg",
+"maq": "3301_2.jpg",
+"n_ours": 3
+},
+"3329": {
+"lab": "MAKETA",
+"fi": 12.1,
+"fm": 0.9,
+"img": "3329-i_2.jpg",
+"maq": "3329_2.jpg",
+"n_ours": 1
+},
+"3330": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.5,
+"img": "3030-i.jpg",
+"maq": "3330_1.jpg",
+"n_ours": 2
+},
+"3333": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.5,
+"img": "3333-i_1.jpg",
+"maq": "3333_1.jpg",
+"n_ours": 2
+},
+"3334": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.5,
+"img": "3334-i.jpg",
+"maq": "3334.jpg",
+"n_ours": 1
+},
+"3335": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.4,
+"img": "3335-i.jpg",
+"maq": "3335.jpg",
+"n_ours": 2
+},
+"3339": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 10.5,
+"img": "3339-i.jpg",
+"maq": "3339.jpg",
+"n_ours": 2
+},
+"3341": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.6,
+"img": "3341-i.jpg",
+"maq": "3341.jpg",
+"n_ours": 2
+},
+"3346": {
+"lab": "MAKETA",
+"fi": 10.6,
+"fm": 0.4,
+"img": "3346-i_1.jpg",
+"maq": "3346_1.jpg",
+"n_ours": 1
+},
+"3347": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.6,
+"img": "3347-i.jpg",
+"maq": "3347.jpg",
+"n_ours": 2
+},
+"3348": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 3.5,
+"img": "3348-i_1.jpg",
+"maq": "3348.jpg",
+"n_ours": 2
+},
+"3349": {
+"lab": "MAKETA",
+"fi": 12,
+"fm": 0.2,
+"img": "3349-i_1.jpg",
+"maq": "3349_1.jpg",
+"n_ours": 1
+},
+"3352": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12.7,
+"img": "3352-i.jpg",
+"maq": "3352_1.jpg",
+"n_ours": 1
+},
+"3354": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 10.5,
+"img": "3354-i_1.jpg",
+"maq": "3354_1.jpg",
+"n_ours": 2
+},
+"3355": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 10.8,
+"img": "3355-i_1.jpg",
+"maq": "3355_1.jpg",
+"n_ours": 2
+},
+"3356": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.7,
+"img": "3356-i_1.jpg",
+"maq": "3356_1.jpg",
+"n_ours": 2
+},
+"3357": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.8,
+"img": "3357-i.jpg",
+"maq": "3357.jpg",
+"n_ours": 2
+},
+"3358": {
+"lab": "MAKETA",
+"fi": 20.7,
+"fm": 0.4,
+"img": "3358-i.jpg",
+"maq": "3358.jpg",
+"n_ours": 1
+},
+"3359": {
+"lab": "MAKETA",
+"fi": 14.4,
+"fm": 0.8,
+"img": "3359-i_1.jpg",
+"maq": "3359_1.jpg",
+"n_ours": 1
+},
+"3360": {
+"lab": "MAKETA",
+"fi": 16.6,
+"fm": 0.3,
+"img": "3360-i.jpg",
+"maq": "3360.jpg",
+"n_ours": 1
+},
+"3361": {
+"lab": "MAKETA",
+"fi": 13,
+"fm": 0.4,
+"img": "3361-i.jpg",
+"maq": "3361.jpg",
+"n_ours": 1
+},
+"3363": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 3.9,
+"img": "3363-i_1.jpg",
+"maq": "3363_1.jpg",
+"n_ours": 2
+},
+"3366": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 13,
+"img": "3366-i_1.jpg",
+"maq": "3366_1.jpg",
+"n_ours": 2
+},
+"3379": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.3,
+"img": "3379-i.jpg",
+"maq": "3379.jpg",
+"n_ours": 2
+},
+"3380": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.9,
+"img": "3380-i.jpg",
+"maq": "3380.jpg",
+"n_ours": 2
+},
+"3381": {
+"lab": "MAKETA",
+"fi": 11,
+"fm": 0.4,
+"img": "3381-i.jpg",
+"maq": "3381.jpg",
+"n_ours": 1
+},
+"3382": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.1,
+"img": "3382-i.jpg",
+"maq": "3382.jpg",
+"n_ours": 2
+},
+"3383": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 10.9,
+"img": "3383-i.jpg",
+"maq": "3383.jpg",
+"n_ours": 2
+},
+"3384": {
+"lab": "MAKETA",
+"fi": 10.6,
+"fm": 0.6,
+"img": "3384-i.jpg",
+"maq": "3384.jpg",
+"n_ours": 1
+},
+"3385": {
+"lab": "MAKETA",
+"fi": 9.5,
+"fm": 0.2,
+"img": "3385-i.jpg",
+"maq": "3385.jpg",
+"n_ours": 1
+},
+"3386": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.1,
+"img": "3386-i.jpg",
+"maq": "3386.jpg",
+"n_ours": 2
+},
+"3387": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 4.3,
+"img": "3387-i.jpg",
+"maq": "3387.jpg",
+"n_ours": 2
+},
+"3388": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.4,
+"img": "3388-i.jpg",
+"maq": "3388.jpg",
+"n_ours": 2
+},
+"3389": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 4.4,
+"img": "3389-i.jpg",
+"maq": "3389.jpg",
+"n_ours": 2
+},
+"3390": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.3,
+"img": "3390-i.jpg",
+"maq": "3390.jpg",
+"n_ours": 2
+},
+"3403": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 61.4,
+"img": "3403-i_2.jpg",
+"maq": "3403.jpg",
+"n_ours": 2
+},
+"3404": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 59.8,
+"img": "3404-i_2.jpg",
+"maq": "3404.jpg",
+"n_ours": 2
+},
+"3407": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.4,
+"img": "3407-i_2.jpg",
+"maq": "3407.jpg",
+"n_ours": 2
+},
+"3408": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.3,
+"img": "3408-i_3.jpg",
+"maq": "3408.jpg",
+"n_ours": 2
+},
+"3411": {
+"lab": "MAKETA",
+"fi": 8,
+"fm": 0.4,
+"img": "3411-i.jpg",
+"maq": "3411_2.jpg",
+"n_ours": 1
+},
+"3412": {
+"lab": "MAKETA",
+"fi": 4.3,
+"fm": 0.2,
+"img": "3412-i.jpg",
+"maq": "3412_1.jpg",
+"n_ours": 1
+},
+"3413": {
+"lab": "MAKETA",
+"fi": 10.8,
+"fm": 0.5,
+"img": "3413-i.jpg",
+"maq": "3413_1.jpg",
+"n_ours": 1
+},
+"3414": {
+"lab": "MAKETA",
+"fi": 10.1,
+"fm": 0.4,
+"img": "3414-i.jpg",
+"maq": "3414_1.jpg",
+"n_ours": 1
+},
+"3415": {
+"lab": "MAKETA",
+"fi": 10,
+"fm": 0.4,
+"img": "3415-i.jpg",
+"maq": "3415_3.jpg",
+"n_ours": 1
+},
+"3416": {
+"lab": "MAKETA",
+"fi": 10.1,
+"fm": 0.4,
+"img": "3416-i.jpg",
+"maq": "3416_1.jpg",
+"n_ours": 1
+},
+"3417": {
+"lab": "MAKETA",
+"fi": 10.2,
+"fm": 0.4,
+"img": "3417-i.jpg",
+"maq": "3417_1.jpg",
+"n_ours": 1
+},
+"3418": {
+"lab": "MAKETA",
+"fi": 3.7,
+"fm": 0.1,
+"img": "3418-i.jpg",
+"maq": "3418_1.jpg",
+"n_ours": 1
+},
+"3419": {
+"lab": "MAKETA",
+"fi": 6.7,
+"fm": 0.2,
+"img": "3419-i.jpg",
+"maq": "3419_2.jpg",
+"n_ours": 1
+},
+"3420": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.6,
+"img": "3420-i.jpg",
+"maq": "3420.jpg",
+"n_ours": 1
+},
+"3438": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.2,
+"img": "3438i.jpg",
+"maq": "3438m.jpg",
+"n_ours": 1
+},
+"3439": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.8,
+"img": "3439-i.jpg",
+"maq": "3439.jpg",
+"n_ours": 1
+},
+"3450": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 19.8,
+"img": "3450i.jpg",
+"maq": "3450m.jpg",
+"n_ours": 1
+},
+"3451": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.8,
+"img": "3451-i.jpg",
+"maq": "3451.jpg",
+"n_ours": 1
+},
+"3452": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.3,
+"img": "3452i.jpg",
+"maq": "3452.jpg",
+"n_ours": 1
+},
+"3453": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.4,
+"img": "image-sprej-lcd.jpg",
+"maq": "maketa-sprej-lcd.jpg",
+"n_ours": 1
+},
+"3459": {
+"lab": "MAKETA",
+"fi": 22.7,
+"fm": 0.4,
+"img": "3459i.jpg",
+"maq": "3459.jpg",
+"n_ours": 1
+},
+"3464": {
+"lab": "MAKETA",
+"fi": 27.8,
+"fm": 0.2,
+"img": "3464-i.jpg",
+"maq": "3464.jpg",
+"n_ours": 1
+},
+"3465": {
+"lab": "MAKETA",
+"fi": 27.6,
+"fm": 0.2,
+"img": "3465-i.jpg",
+"maq": "3465.jpg",
+"n_ours": 1
+},
+"3466": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 27.6,
+"img": "3466-i.jpg",
+"maq": "3466.jpg",
+"n_ours": 1
+},
+"3467": {
+"lab": "MAKETA",
+"fi": 27.9,
+"fm": 0.2,
+"img": "3467-i.jpg",
+"maq": "3467.jpg",
+"n_ours": 1
+},
+"3468": {
+"lab": "MAKETA",
+"fi": 30.5,
+"fm": 0.5,
+"img": "3469-i.jpg",
+"maq": "3468.jpg",
+"n_ours": 1
+},
+"3469": {
+"lab": "MAKETA",
+"fi": 30.3,
+"fm": 0.5,
+"img": "3469-i_1.jpg",
+"maq": "3469.jpg",
+"n_ours": 1
+},
+"3470": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.7,
+"img": "3470-i.jpg",
+"maq": "3470.jpg",
+"n_ours": 1
+},
+"3471": {
+"lab": "MAKETA",
+"fi": 30.9,
+"fm": 0.5,
+"img": "3471-i.jpg",
+"maq": "3471.jpg",
+"n_ours": 1
+},
+"3472": {
+"lab": "MAKETA",
+"fi": 35.6,
+"fm": 0.3,
+"img": "3472-i.jpg",
+"maq": "3472.jpg",
+"n_ours": 1
+},
+"3473": {
+"lab": "MAKETA",
+"fi": 35.6,
+"fm": 0.4,
+"img": "3473-i.jpg",
+"maq": "3473.jpg",
+"n_ours": 1
+},
+"3474": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 35.3,
+"img": "3474-i.jpg",
+"maq": "3474.jpg",
+"n_ours": 1
+},
+"3475": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 35.9,
+"img": "3475-i.jpg",
+"maq": "3475.jpg",
+"n_ours": 1
+},
+"3476": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.1,
+"img": "image-univerzal-snowy-white.jpg",
+"maq": "maketa-univerzal-snowy-white.jpg",
+"n_ours": 1
+},
+"3477": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.2,
+"img": "image-aromatikum-snowy-white.jpg",
+"maq": "maketa-aromatikum-snowy-white.jpg",
+"n_ours": 1
+},
+"3478": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.2,
+"img": "image-univerzal-diwa-vivien.jpg",
+"maq": "maketa-univerzal-diwa-vivien.jpg",
+"n_ours": 1
+},
+"3479": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.6,
+"img": "image-aromatikum-diwa-vivien.jpg",
+"maq": "maketa-aromatikum-diwa-vivien.jpg",
+"n_ours": 1
+},
+"3480": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.2,
+"img": "image-mydlo-snowy-white.jpg",
+"maq": "maketa-mydlo-snowy-white.jpg",
+"n_ours": 1
+},
+"3481": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.9,
+"img": "image-mydlo-diwa-vivien.jpg",
+"maq": "maketa-mydlo-diwa-vivien.jpg",
+"n_ours": 1
+},
+"3482": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 19,
+"img": "3482-i.jpg",
+"maq": "3482.jpg",
+"n_ours": 1
+},
+"3483": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.1,
+"img": "3483-i.jpg",
+"maq": "3483.jpg",
+"n_ours": 1
+},
+"3484": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.6,
+"img": "3484-i.jpg",
+"maq": "3484.jpg",
+"n_ours": 1
+},
+"3485": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.8,
+"img": "3485-i.jpg",
+"maq": "3485.jpg",
+"n_ours": 1
+},
+"3486": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 23.2,
+"img": "3486-i.jpg",
+"maq": "3486.jpg",
+"n_ours": 1
+},
+"3487": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 22.3,
+"img": "3487-i.jpg",
+"maq": "3487.jpg",
+"n_ours": 1
+},
+"3488": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 19.2,
+"img": "3488-i_1.jpg",
+"maq": "3388_1.jpg",
+"n_ours": 1
+},
+"3493": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.5,
+"img": "3493-i.jpg",
+"maq": "3493.jpg",
+"n_ours": 1
+},
+"3494": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.8,
+"img": "3494-i.jpg",
+"maq": "3494.jpg",
+"n_ours": 1
+},
+"3496": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 87,
+"img": "image-foto-3000x3000-24_2.jpg",
+"maq": "makety25.jpg",
+"n_ours": 1
+},
+"3497": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.9,
+"img": "3497-i.jpg",
+"maq": "3497.jpg",
+"n_ours": 1
+},
+"3498": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12.7,
+"img": "3498-i.jpg",
+"maq": "3498.jpg",
+"n_ours": 1
+},
+"3499": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12.3,
+"img": "3499-i.jpg",
+"maq": "3499.jpg",
+"n_ours": 1
+},
+"3500": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 42.5,
+"img": "3500-i.jpg",
+"maq": "3500.jpg",
+"n_ours": 1
+},
+"3501": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 57.6,
+"img": "i-3501.png",
+"maq": "mak-3501.png",
+"n_ours": 1
+},
+"3502": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 70.9,
+"img": "image-foto-3000x3000-25_1.jpg",
+"maq": "makety26.jpg",
+"n_ours": 1
+},
+"4001": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 11.6,
+"img": "4001i.jpg",
+"maq": "4001_3.jpg",
+"n_ours": 2
+},
+"4008": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.2,
+"img": "4008-i.jpg",
+"maq": "4008_1.jpg",
+"n_ours": 2
+},
+"4050": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 9.9,
+"img": "4050-i.jpg",
+"maq": "4050_1.jpg",
+"n_ours": 2
+},
+"4446": {
+"lab": "MAKETA",
+"fi": 10.6,
+"fm": 4.3,
+"img": "pumpicka-na-parfem-na-prani-500-ml-image_2.jpg",
+"maq": "pumpicka-na-parfem-na-prani-500-ml-maketa_1.jpg",
+"n_ours": 1
+},
+"5003": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 35.8,
+"img": "5003-i_2.jpg",
+"maq": "5003_3.jpg",
+"n_ours": 2
+},
+"5006": {
+"lab": "MAKETA",
+"fi": 33.7,
+"fm": 4.2,
+"img": "5006-i_1.jpg",
+"maq": "5006_2.jpg",
+"n_ours": 1
+},
+"5008": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 35.3,
+"img": "5008-i_3.jpg",
+"maq": "5008_3.jpg",
+"n_ours": 2
+},
+"5010": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 30.7,
+"img": "5010-i_1.jpg",
+"maq": "5010_2.jpg",
+"n_ours": 2
+},
+"5013": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 35.3,
+"img": "5013-i_2.jpg",
+"maq": "5013_10.jpg",
+"n_ours": 2
+},
+"5017": {
+"lab": "MAKETA",
+"fi": 35.5,
+"fm": 0.9,
+"img": "5017-i_1.jpg",
+"maq": "5017_1.jpg",
+"n_ours": 1
+},
+"6018": {
+"lab": "MAKETA",
+"fi": 17.6,
+"fm": 5.6,
+"img": "6018-i.jpg",
+"maq": "6018_1.jpg",
+"n_ours": 1
+},
+"6044": {
+"lab": "MAKETA",
+"fi": 14.5,
+"fm": 0.5,
+"img": "6044-i.jpg",
+"maq": "6044_2.jpg",
+"n_ours": 1
+},
+"6048": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.8,
+"img": "6048-i_2.jpg",
+"maq": "6048_2.jpg",
+"n_ours": 3
+},
+"6049": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 21.2,
+"img": "6049-i_1.jpg",
+"maq": "6049_2.jpg",
+"n_ours": 3
+},
+"6051": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 19.8,
+"img": "6051-i_2.jpg",
+"maq": "6051_2.jpg",
+"n_ours": 3
+},
+"6057": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.2,
+"img": "6057-i.jpg",
+"maq": "6057_1.jpg",
+"n_ours": 3
+},
+"6058": {
+"lab": "MAKETA",
+"fi": 14.3,
+"fm": 3.3,
+"img": "6058-i.jpg",
+"maq": "6058_1.jpg",
+"n_ours": 2
+},
+"6059": {
+"lab": "MAKETA",
+"fi": 17.7,
+"fm": 7.1,
+"img": "6059-i.jpg",
+"maq": "6059_1.jpg",
+"n_ours": 1
+},
+"6060": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.3,
+"img": "6060-i.jpg",
+"maq": "6060_1.jpg",
+"n_ours": 3
+},
+"6061": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.2,
+"img": "6061-i.jpg",
+"maq": "6061_1.jpg",
+"n_ours": 3
+},
+"6062": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 13.5,
+"img": "6062-i.jpg",
+"maq": "6062_1.jpg",
+"n_ours": 3
+},
+"6063": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.5,
+"img": "6063-i.jpg",
+"maq": "6063_1.jpg",
+"n_ours": 3
+},
+"6066": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 11,
+"img": "6066-i.jpg",
+"maq": "6066_1.jpg",
+"n_ours": 2
+},
+"6067": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.4,
+"img": "6067-i.jpg",
+"maq": "6067_1.jpg",
+"n_ours": 2
+},
+"6068": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 37.8,
+"img": "6068-i_3.jpg",
+"maq": "6068_1.jpg",
+"n_ours": 3
+},
+"6069": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 38.9,
+"img": "6069-i_1.jpg",
+"maq": "6069_1.jpg",
+"n_ours": 3
+},
+"6070": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 44.4,
+"img": "6070-i.jpg",
+"maq": "6070_1.jpg",
+"n_ours": 2
+},
+"6071": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 45.1,
+"img": "6071-i.jpg",
+"maq": "6071_1.jpg",
+"n_ours": 4
+},
+"6073": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 16.3,
+"img": "6073-i.jpg",
+"maq": "6073_1.jpg",
+"n_ours": 3
+},
+"6074": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.8,
+"img": "6074-i.jpg",
+"maq": "6074_1.jpg",
+"n_ours": 3
+},
+"6083": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.4,
+"img": "6083-i.jpg",
+"maq": "6083-2.jpg",
+"n_ours": 1
+},
+"6088": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 16.1,
+"img": "6088-i.jpg",
+"maq": "6088-1.jpg",
+"n_ours": 1
+},
+"6090": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 15.4,
+"img": "6090-i_1.jpg",
+"maq": "6090-2.jpg",
+"n_ours": 1
+},
+"6098": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.7,
+"img": "6098_1.jpg",
+"maq": "6098.jpg",
+"n_ours": 1
+},
+"6134": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 47.8,
+"img": "6134-i.jpg",
+"maq": "6134.jpg",
+"n_ours": 3
+},
+"6138": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.6,
+"img": "6138.jpg",
+"maq": "6138_1.jpg",
+"n_ours": 2
+},
+"6139": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 11,
+"img": "6139-i.jpg",
+"maq": "6139.jpg",
+"n_ours": 1
+},
+"6140": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 16.3,
+"img": "6140-i_1.jpg",
+"maq": "6140_1.jpg",
+"n_ours": 1
+},
+"6304": {
+"lab": "MAKETA",
+"fi": 13.9,
+"fm": 0.4,
+"img": "6304-i_2.jpg",
+"maq": "6304_3.jpg",
+"n_ours": 1
+},
+"6319": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15.4,
+"img": "6319-i_1.jpg",
+"maq": "6319_2.jpg",
+"n_ours": 3
+},
+"6323": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.9,
+"img": "6323-i_5.jpg",
+"maq": "6323_6.jpg",
+"n_ours": 3
+},
+"6328": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.5,
+"img": "6328-i_5.jpg",
+"maq": "6328_7.jpg",
+"n_ours": 2
+},
+"6329": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 7.7,
+"img": "6329-i_1.jpg",
+"maq": "6329_2.jpg",
+"n_ours": 2
+},
+"6330": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 11.4,
+"img": "6330-i_3.jpg",
+"maq": "6330_5.jpg",
+"n_ours": 2
+},
+"6331": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.6,
+"img": "6331-i_1.jpg",
+"maq": "6331_2.jpg",
+"n_ours": 2
+},
+"6336": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.7,
+"img": "6336-i_2.jpg",
+"maq": "6336_2.jpg",
+"n_ours": 3
+},
+"6338": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 5.9,
+"img": "6338-i_1.jpg",
+"maq": "6338_2.jpg",
+"n_ours": 3
+},
+"6339": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 5.9,
+"img": "6339-i_1.jpg",
+"maq": "6339_2.jpg",
+"n_ours": 3
+},
+"6340": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.6,
+"img": "6340-i_2.jpg",
+"maq": "6340_4.jpg",
+"n_ours": 3
+},
+"6341": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 12.7,
+"img": "6341-i_2.jpg",
+"maq": "6341_4.jpg",
+"n_ours": 3
+},
+"6342": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.8,
+"img": "6342-i_1.jpg",
+"maq": "6342_2.jpg",
+"n_ours": 3
+},
+"6345": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 6.9,
+"img": "6345-i_1.jpg",
+"maq": "6345_2.jpg",
+"n_ours": 3
+},
+"6347": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 5.8,
+"img": "6347-i_1.jpg",
+"maq": "6347_2.jpg",
+"n_ours": 3
+},
+"6348": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 13,
+"img": "6348-i_3.jpg",
+"maq": "6348_4.jpg",
+"n_ours": 3
+},
+"6349": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.1,
+"img": "6349-i_1.jpg",
+"maq": "6349_2.jpg",
+"n_ours": 3
+},
+"6350": {
+"lab": "MAKETA",
+"fi": 11,
+"fm": 6.7,
+"img": "6350-i_1.jpg",
+"maq": "6350_3.jpg",
+"n_ours": 1
+},
+"6351": {
+"lab": "MAKETA",
+"fi": 10.9,
+"fm": 6.1,
+"img": "6351-i_2.jpg",
+"maq": "6351_3.jpg",
+"n_ours": 1
+},
+"6352": {
+"lab": "MAKETA",
+"fi": 6.2,
+"fm": 0.6,
+"img": "6352-i_2.jpg",
+"maq": "6352_4.jpg",
+"n_ours": 1
+},
+"6353": {
+"lab": "MAKETA",
+"fi": 9.8,
+"fm": 0.5,
+"img": "6353-i.jpg",
+"maq": "6353_1.jpg",
+"n_ours": 1
+},
+"6354": {
+"lab": "MAKETA",
+"fi": 9,
+"fm": 0.5,
+"img": "6354-i_3.jpg",
+"maq": "6354_6.jpg",
+"n_ours": 1
+},
+"6355": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 7.7,
+"img": "6355i-i.jpg",
+"maq": "6355_2.jpg",
+"n_ours": 3
+},
+"6356": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 8.1,
+"img": "6356-i_1.jpg",
+"maq": "6356_2.jpg",
+"n_ours": 3
+},
+"6360": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 10.4,
+"img": "6360-i_1.jpg",
+"maq": "6360_2.jpg",
+"n_ours": 1
+},
+"6361": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 15.2,
+"img": "6361-i_1.jpg",
+"maq": "6361_3.jpg",
+"n_ours": 2
+},
+"6362": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 12.4,
+"img": "6362-i_1.jpg",
+"maq": "6362_1.jpg",
+"n_ours": 2
+},
+"7001": {
+"lab": "MAKETA",
+"fi": 11,
+"fm": 4.2,
+"img": "7001-i_2.jpg",
+"maq": "7001_2.jpg",
+"n_ours": 1
+},
+"7002": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12.4,
+"img": "7002-i_3.jpg",
+"maq": "7002_3.jpg",
+"n_ours": 2
+},
+"7003": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13,
+"img": "7003-i_2.jpg",
+"maq": "7003_3.jpg",
+"n_ours": 2
+},
+"7004": {
+"lab": "MAKETA",
+"fi": 13.9,
+"fm": 5.8,
+"img": "7004-i_1.jpg",
+"maq": "7004_2.jpg",
+"n_ours": 1
+},
+"7007": {
+"lab": "MAKETA",
+"fi": 12.1,
+"fm": 3.2,
+"img": "7007-i_2.jpg",
+"maq": "7007_4.jpg",
+"n_ours": 1
+},
+"7008": {
+"lab": "MAKETA",
+"fi": 11.8,
+"fm": 0.5,
+"img": "7008-i_3.jpg",
+"maq": "7008_5.jpg",
+"n_ours": 1
+},
+"PB4005": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 19.3,
+"img": "pb4005-i_1.jpg",
+"maq": "pb4005_1.jpg",
+"n_ours": 2
+},
+"CA0175": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 4.5,
+"img": "ca0175-i.jpg",
+"maq": "ca0175.jpg",
+"n_ours": 3
+},
+"PB4002": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 20.4,
+"img": "pb4002-i_1.jpg",
+"maq": "pb4002_1.jpg",
+"n_ours": 2
+},
+"PB4003": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 20.8,
+"img": "pb4003-i_1.jpg",
+"maq": "pb4003_1.jpg",
+"n_ours": 2
+},
+"PB4004": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 20.3,
+"img": "pb4004-i_1.jpg",
+"maq": "pb4004_1.jpg",
+"n_ours": 2
+},
+"CA0171": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.6,
+"img": "ca0171-i.jpg",
+"maq": "ca0171.jpg",
+"n_ours": 2
+},
+"PB4007": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.1,
+"img": "pb4007-i.jpg",
+"maq": "pb4007.jpg",
+"n_ours": 1
+},
+"CA0178": {
+"lab": "MAKETA",
+"fi": 9.9,
+"fm": 0.9,
+"img": "ca0178-i.jpg",
+"maq": "ca0178_1.jpg",
+"n_ours": 1
+},
+"CA0155": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.6,
+"img": "ca0155-i.jpg",
+"maq": "ca0155.jpg",
+"n_ours": 2
+},
+"CA0152": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 12.8,
+"img": "ca0152-i.jpg",
+"maq": "ca0152.jpg",
+"n_ours": 2
+},
+"CA0153": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 14.7,
+"img": "ca0153-i.jpg",
+"maq": "ca0153.jpg",
+"n_ours": 2
+},
+"CA0154": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 17,
+"img": "ca0154-i.jpg",
+"maq": "ca0154.jpg",
+"n_ours": 2
+},
+"CC6859": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 24.5,
+"img": "cc6859-i.jpg",
+"maq": "cc6859.jpg",
+"n_ours": 1
+},
+"CA0173": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.6,
+"img": "ca0173-i.jpg",
+"maq": "ca0173.jpg",
+"n_ours": 1
+},
+"CC6849": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.7,
+"img": "cc6849-i_1.jpg",
+"maq": "cc6849.jpg",
+"n_ours": 1
+},
+"CC6852": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 34.5,
+"img": "cc6852-i.jpg",
+"maq": "cc6852.jpg",
+"n_ours": 1
+},
+"CC6855": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 47.4,
+"img": "cc6855-i.jpg",
+"maq": "cc6855.jpg",
+"n_ours": 1
+},
+"CC6822": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 49.2,
+"img": "cc6822-i_1.jpg",
+"maq": "cc6822_1.jpg",
+"n_ours": 2
+},
+"CC6821": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 35.9,
+"img": "cc6814-f_1.jpg",
+"maq": "cc6821_1.jpg",
+"n_ours": 2
+},
+"CC6817": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 43.6,
+"img": "cc6817-i-f.jpg",
+"maq": "cc6817_1.jpg",
+"n_ours": 2
+},
+"CC6820": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 33.9,
+"img": "cc6820-i-f.jpg",
+"maq": "cc6820_1.jpg",
+"n_ours": 2
+},
+"CC6818": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 33.2,
+"img": "cc6818-i-fin.jpg",
+"maq": "cc6818_1.jpg",
+"n_ours": 2
+},
+"CC6819": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 40.7,
+"img": "cc6816-i-fin.jpg",
+"maq": "cc6819_1.jpg",
+"n_ours": 2
+},
+"PB5001": {
+"lab": "MAKETA",
+"fi": 15.8,
+"fm": 1.1,
+"img": "pb5001-i.jpg",
+"maq": "pb5001.jpg",
+"n_ours": 1
+},
+"PB5004": {
+"lab": "MAKETA",
+"fi": 15.2,
+"fm": 1,
+"img": "pb5004-i.jpg",
+"maq": "pb5004.jpg",
+"n_ours": 1
+},
+"PB5003": {
+"lab": "MAKETA",
+"fi": 14.8,
+"fm": 0.9,
+"img": "pb5003-i.jpg",
+"maq": "pb5003.jpg",
+"n_ours": 1
+},
+"PB4001": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 19.2,
+"img": "pb4001-i_1.jpg",
+"maq": "pb4001_1.jpg",
+"n_ours": 1
+},
+"PB1032": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.4,
+"img": "pb1032-i.jpg",
+"maq": "pb1032.jpg",
+"n_ours": 1
+},
+"PB5002": {
+"lab": "MAKETA",
+"fi": 23.2,
+"fm": 1.2,
+"img": "pb5002-i.jpg",
+"maq": "pb5002.jpg",
+"n_ours": 2
+},
+"PB2008": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.6,
+"img": "pb2008-i_3.jpg",
+"maq": "pb2008_2.jpg",
+"n_ours": 1
+},
+"PB2006": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 30.9,
+"img": "pb2006-i_3.jpg",
+"maq": "pb2006_2.jpg",
+"n_ours": 1
+},
+"PB2026": {
+"lab": "MAKETA",
+"fi": 41.2,
+"fm": 0,
+"img": "image-foto-3000x3000-2_7.jpg",
+"maq": "makety2_6.jpg",
+"n_ours": 1
+},
+"PB2025": {
+"lab": "MAKETA",
+"fi": 40.9,
+"fm": 0,
+"img": "image-foto-3000x3000_7.jpg",
+"maq": "makety_6.jpg",
+"n_ours": 1
+},
+"PB2011": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 30,
+"img": "pb2011-i_2.jpg",
+"maq": "pb2011_1.jpg",
+"n_ours": 1
+},
+"PB2001": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.7,
+"img": "pb2001-i_2.jpg",
+"maq": "pb2001_1.jpg",
+"n_ours": 3
+},
+"PB2015": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 28.9,
+"img": "pb2015-i_2.jpg",
+"maq": "pb2015_1.jpg",
+"n_ours": 3
+},
+"PB2007": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.2,
+"img": "pb2007-i_3.jpg",
+"maq": "pb2007_2.jpg",
+"n_ours": 1
+},
+"PB2005": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 30.7,
+"img": "pb2005-i_3.jpg",
+"maq": "pb2005_2.jpg",
+"n_ours": 1
+},
+"CH0016": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.7,
+"img": "ch0016-i.jpg",
+"maq": "ch0016-2.jpg",
+"n_ours": 1
+},
+"CH0015": {
+"lab": "MAKETA",
+"fi": 31.6,
+"fm": 0.6,
+"img": "ch0015-i.jpg",
+"maq": "ch0015.jpg",
+"n_ours": 1
+},
+"CH0017": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 31.8,
+"img": "ch0017-i.jpg",
+"maq": "ch0017.jpg",
+"n_ours": 1
+},
+"CH0013": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.3,
+"img": "ch0014-i.jpg",
+"maq": "ch0013.jpg",
+"n_ours": 1
+},
+"CH0014": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.3,
+"img": "ch0013-i_1.jpg",
+"maq": "ch0016.jpg",
+"n_ours": 1
+},
+"PB7012": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24.8,
+"img": "e-i.jpg",
+"maq": "d_1.jpg",
+"n_ours": 1
+},
+"PB7007": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 33.7,
+"img": "pb7007-i_1.jpg",
+"maq": "pb7007.jpg",
+"n_ours": 1
+},
+"CH0020": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 34.1,
+"img": "ch0020-i.jpg",
+"maq": "ch0020.jpg",
+"n_ours": 1
+},
+"PB7004": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 28.1,
+"img": "pb7004-i.jpg",
+"maq": "pb7004.jpg",
+"n_ours": 1
+},
+"PB7009": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24.7,
+"img": "a-i.jpg",
+"maq": "a_1.jpg",
+"n_ours": 1
+},
+"PB7008": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 29.6,
+"img": "d-i.jpg",
+"maq": "c_1.jpg",
+"n_ours": 1
+},
+"CH0018": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.2,
+"img": "ch0018-i.jpg",
+"maq": "ch0018.jpg",
+"n_ours": 1
+},
+"PB7005": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 28.6,
+"img": "pb7005-i.jpg",
+"maq": "pb7005.jpg",
+"n_ours": 1
+},
+"CH0019": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 49,
+"img": "ch0019-i.jpg",
+"maq": "ch0019_1.jpg",
+"n_ours": 1
+},
+"PB7010": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 27.9,
+"img": "c-i.jpg",
+"maq": "b_1.jpg",
+"n_ours": 1
+},
+"PB7006": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 33.3,
+"img": "pb7006-i-right.png",
+"maq": "pb7006.jpg",
+"n_ours": 1
+},
+"PB7011": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 30.3,
+"img": "b-i.jpg",
+"maq": "f.jpg",
+"n_ours": 1
+},
+"CE0007": {
+"lab": "MAKETA",
+"fi": 44,
+"fm": 1.6,
+"img": "i-ce0007.jpg",
+"maq": "maketa-ce0007.jpg",
+"n_ours": 1
+},
+"CE0006": {
+"lab": "MAKETA",
+"fi": 43.2,
+"fm": 1.9,
+"img": "i-ce0006.jpg",
+"maq": "maketa-ce0006.jpg",
+"n_ours": 1
+},
+"CE0005": {
+"lab": "MAKETA",
+"fi": 42.5,
+"fm": 1.8,
+"img": "i-ce0005_1.jpg",
+"maq": "maketa-ce0006_1.jpg",
+"n_ours": 1
+},
+"CC6784": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 69.8,
+"img": "cc6784-i.jpg",
+"maq": "cc6784.jpg",
+"n_ours": 2
+},
+"CC6845": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.1,
+"img": "cc6845-i.jpg",
+"maq": "cc6845.jpg",
+"n_ours": 1
+},
+"CC6787": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 33.7,
+"img": "cc6787-i.jpg",
+"maq": "cc6787.jpg",
+"n_ours": 2
+},
+"CC6846": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.6,
+"img": "cc6846-i.jpg",
+"maq": "cc6846.jpg",
+"n_ours": 1
+},
+"CC6844": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 12.8,
+"img": "cc6844-i.jpg",
+"maq": "cc6844_1.jpg",
+"n_ours": 1
+},
+"CL0085": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 15.1,
+"img": "cl0085-i.jpg",
+"maq": "cl0085.jpg",
+"n_ours": 2
+},
+"CE0004": {
+"lab": "MAKETA",
+"fi": 42,
+"fm": 1.9,
+"img": "i-ce0004_2.jpg",
+"maq": "maketa-ce0004.jpg",
+"n_ours": 1
+},
+"CC6754": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 12.5,
+"img": "cc6754-i_1.jpg",
+"maq": "cc6754_1.jpg",
+"n_ours": 2
+},
+"CC6840": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 49,
+"img": "cc6840-i.jpg",
+"maq": "cc6840.jpg",
+"n_ours": 1
+},
+"CC6839": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 35.9,
+"img": "cc6839-i.jpg",
+"maq": "cc6839.jpg",
+"n_ours": 1
+},
+"CA0302": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 23.3,
+"img": "a.jpg",
+"maq": "ca0302.jpg",
+"n_ours": 1
+},
+"CA0309": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.8,
+"img": "image-svicka-ca0309-vanilkova-ambra.jpg",
+"maq": "maketa-svicka-vanilkova-ambra.jpg",
+"n_ours": 1
+},
+"CA0310": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 18.4,
+"img": "image-svicka-ca0310-amethis.jpg",
+"maq": "maketa-svicka-amethis.jpg",
+"n_ours": 1
+},
+"CA0313": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 26.6,
+"img": "ca0313-i.jpg",
+"maq": "ca0313.jpg",
+"n_ours": 1
+},
+"CA0312": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 43.9,
+"img": "ca0312-i.jpg",
+"maq": "ca0312.jpg",
+"n_ours": 1
+},
+"CA0308": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.4,
+"img": "image-svicka-ca0308-levandule.jpg",
+"maq": "maketa-svicka-levandue.jpg",
+"n_ours": 1
+},
+"CA0311": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.3,
+"img": "image-svicka-ca0311-zahrada-snu.jpg",
+"maq": "maketa-svicka-zahrada-snu.jpg",
+"n_ours": 1
+},
+"CA0314": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.2,
+"img": "ca0314-i.jpg",
+"maq": "ca3014.jpg",
+"n_ours": 1
+},
+"CA0164": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.5,
+"img": "ca0164-i.jpg",
+"maq": "ca0164.jpg",
+"n_ours": 1
+},
+"CA0315": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 52.6,
+"img": "ca0315-i.jpg",
+"maq": "ca0315m.jpg",
+"n_ours": 1
+},
+"CA0169": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.4,
+"img": "ca0169-i.jpg",
+"maq": "ca0169.jpg",
+"n_ours": 1
+},
+"CA0166": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.7,
+"img": "ca0166-i.jpg",
+"maq": "ca0166.jpg",
+"n_ours": 1
+},
+"CA0202": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 31.1,
+"img": "ca0202-i.jpg",
+"maq": "ca0202.jpg",
+"n_ours": 1
+},
+"CA0165": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 9.6,
+"img": "ca0165-i.jpg",
+"maq": "ca0165.jpg",
+"n_ours": 1
+},
+"CC6767": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 38.3,
+"img": "cc6767-i.jpg",
+"maq": "cc6767.jpg",
+"n_ours": 2
+},
+"CA0179": {
+"lab": "MAKETA",
+"fi": 9.8,
+"fm": 1,
+"img": "ca0179-i.jpg",
+"maq": "ca0179_1.jpg",
+"n_ours": 1
+},
+"CA0198": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15,
+"img": "image-foto-3000x3000-4_7.jpg",
+"maq": "makety4_6.jpg",
+"n_ours": 1
+},
+"CA0199": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 16.1,
+"img": "image-foto-3000x3000-2_9.jpg",
+"maq": "makety2_8.jpg",
+"n_ours": 1
+},
+"CA0200": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 16.4,
+"img": "image-foto-3000x3000_9.jpg",
+"maq": "makety_12.jpg",
+"n_ours": 1
+},
+"CC6794": {
+"lab": "MAKETA",
+"fi": 15.9,
+"fm": 0.2,
+"img": "cc6794-i_1.jpg",
+"maq": "cc679450_1.jpg",
+"n_ours": 1
+},
+"CC6792": {
+"lab": "MAKETA",
+"fi": 18.3,
+"fm": 0.4,
+"img": "cc6792-i.jpg",
+"maq": "cc6792_1.jpg",
+"n_ours": 1
+},
+"CA0197": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 17.2,
+"img": "image-foto-3000x3000-3_7.jpg",
+"maq": "makety3_7.jpg",
+"n_ours": 1
+},
+"CC6793": {
+"lab": "MAKETA",
+"fi": 16.3,
+"fm": 1,
+"img": "cc6793-i.jpg",
+"maq": "cc679320_1.jpg",
+"n_ours": 1
+},
+"CC6756": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 11.9,
+"img": "cc6756-i.jpg",
+"maq": "cc6756.jpg",
+"n_ours": 1
+},
+"CC6757": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 11.7,
+"img": "cc6757-i.jpg",
+"maq": "cc6757.jpg",
+"n_ours": 1
+},
+"CC6755": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 12.6,
+"img": "cc6755-i.jpg",
+"maq": "cc6755.jpg",
+"n_ours": 2
+},
+"CC6751": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 11.1,
+"img": "cc6751-i.jpg",
+"maq": "cc6751.jpg",
+"n_ours": 1
+},
+"CC6752": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 14,
+"img": "cc6752-i.jpg",
+"maq": "cc6752.jpg",
+"n_ours": 1
+},
+"CC6753": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 13.6,
+"img": "cc6753-i.jpg",
+"maq": "cc6753.jpg",
+"n_ours": 2
+},
+"CC6803": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 15.7,
+"img": "cc6803-i.jpg",
+"maq": "cc6803.jpg",
+"n_ours": 2
+},
+"CC6804": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 20.2,
+"img": "cc6804-i.jpg",
+"maq": "cc6804.jpg",
+"n_ours": 2
+},
+"CC6801": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 15.3,
+"img": "cc6801-i.jpg",
+"maq": "cc6801.jpg",
+"n_ours": 2
+},
+"CC6802": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 18.8,
+"img": "cc6802-i.jpg",
+"maq": "cc6802.jpg",
+"n_ours": 2
+},
+"CC6805": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 25.9,
+"img": "cc6805-i.jpg",
+"maq": "cc6805.jpg",
+"n_ours": 2
+},
+"CA0158": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.1,
+"img": "ca0158-i.jpg",
+"maq": "ca0158.jpg",
+"n_ours": 2
+},
+"CA0160": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 17.3,
+"img": "ca0160-i.jpg",
+"maq": "ca0160.jpg",
+"n_ours": 2
+},
+"CC6860": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 70.8,
+"img": "image-foto-3000x3000-23_2.jpg",
+"maq": "makety27.jpg",
+"n_ours": 1
+},
+"CA0157": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.4,
+"img": "ca0157-i.jpg",
+"maq": "ca0157.jpg",
+"n_ours": 2
+},
+"CA0159": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 18.5,
+"img": "ca0159-i.jpg",
+"maq": "ca0159.jpg",
+"n_ours": 2
+},
+"CC6838": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 63.3,
+"img": "cc6838-i.jpg",
+"maq": "cc6838.jpg",
+"n_ours": 1
+},
+"CC6842": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 18.9,
+"img": "cc6842-i.jpg",
+"maq": "cc6842.jpg",
+"n_ours": 1
+},
+"PB7014": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 24.6,
+"img": "pb7014-i.jpg",
+"maq": "pb7014.jpg",
+"n_ours": 1
+},
+"CC6748": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 21.3,
+"img": "cc6748-i.jpg",
+"maq": "cc6748.jpg",
+"n_ours": 2
+},
+"CA0172": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 18.2,
+"img": "ca0172-i.jpg",
+"maq": "ca0172.jpg",
+"n_ours": 1
+},
+"CC6745": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 29.6,
+"img": "cc6745-i.jpg",
+"maq": "cc6745.jpg",
+"n_ours": 2
+},
+"CC6746": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 22.6,
+"img": "cc6746-i.jpg",
+"maq": "cc6746.jpg",
+"n_ours": 2
+},
+"CC6725": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 20,
+"img": "cc6725-i.jpg",
+"maq": "cc6725_1.jpg",
+"n_ours": 3
+},
+"CC6791": {
+"lab": "MAKETA",
+"fi": 48.1,
+"fm": 0.9,
+"img": "cc6791_2.jpg",
+"maq": "cc6791.jpg",
+"n_ours": 1
+},
+"CC6735": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 19.6,
+"img": "image-cc6735.jpg",
+"maq": "maketa-cc6735.jpg",
+"n_ours": 2
+},
+"CC6747": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 27.6,
+"img": "cc6747-i.jpg",
+"maq": "cc6747.jpg",
+"n_ours": 2
+},
+"PB2029": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 40.1,
+"img": "pb2029-1.jpg",
+"maq": "pb2029.jpg",
+"n_ours": 1
+},
+"PB2020": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 22.4,
+"img": "pb2020-i.jpg",
+"maq": "pb2020_1.jpg",
+"n_ours": 1
+},
+"PB2028": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 43.3,
+"img": "pb2028-i-1.jpg",
+"maq": "pb2028.jpg",
+"n_ours": 1
+},
+"PB2027": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 41.6,
+"img": "pb2027-i-1.jpg",
+"maq": "pb2027.jpg",
+"n_ours": 1
+},
+"PB2030": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 40,
+"img": "pb2030-i.jpg",
+"maq": "pb2030.jpg",
+"n_ours": 1
+},
+"PB2021": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 35.4,
+"img": "pb2021-i-2_1.jpg",
+"maq": "pb2021-2_1.jpg",
+"n_ours": 1
+},
+"PB2013": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 32.2,
+"img": "pb2013-i_3.jpg",
+"maq": "pb2013_2.jpg",
+"n_ours": 1
+},
+"PB2022": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 38,
+"img": "pb2022-i_1.jpg",
+"maq": "pb2022_1.jpg",
+"n_ours": 1
+},
+"PB6001": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 20.8,
+"img": "pb6001-im.jpg",
+"maq": "pb6001-mak.jpg",
+"n_ours": 1
+},
+"PB6002": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 21.4,
+"img": "pb6002-image.jpg",
+"maq": "pb6002_1.jpg",
+"n_ours": 1
+},
+"PB7001": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 20.3,
+"img": "pb7001-i.jpg",
+"maq": "pb7001.jpg",
+"n_ours": 1
+},
+"CC6759": {
+"lab": "MAKETA",
+"fi": 14,
+"fm": 0.8,
+"img": "cc6759-i.jpg",
+"maq": "cc6759.jpg",
+"n_ours": 1
+},
+"PB7002": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 20.6,
+"img": "pb7002-i.jpg",
+"maq": "pb7002.jpg",
+"n_ours": 1
+},
+"CC6760": {
+"lab": "MAKETA",
+"fi": 14.3,
+"fm": 0.8,
+"img": "cc6760-i.jpg",
+"maq": "cc6760.jpg",
+"n_ours": 1
+},
+"CC6758": {
+"lab": "MAKETA",
+"fi": 17.2,
+"fm": 0.8,
+"img": "cc6758-i.jpg",
+"maq": "cc6758.jpg",
+"n_ours": 1
+},
+"PB7003": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 22.9,
+"img": "pb7003-i.jpg",
+"maq": "pb7003.jpg",
+"n_ours": 1
+},
+"PB1029": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 26.2,
+"img": "pb1029-i.jpg",
+"maq": "pb1029.jpg",
+"n_ours": 1
+},
+"CC6831": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 40.5,
+"img": "cc6831-i.jpg",
+"maq": "cc6831_2.jpg",
+"n_ours": 1
+},
+"CC6830": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 28.7,
+"img": "cc6830-i.jpg",
+"maq": "cc6830_3.jpg",
+"n_ours": 1
+},
+"CC6832": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 43.3,
+"img": "cc6832-i.jpg",
+"maq": "cc6832_2.jpg",
+"n_ours": 1
+},
+"AC0003": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.2,
+"img": "ac0003_2.jpg",
+"maq": "ac0003_3.jpg",
+"n_ours": 2
+},
+"AC0001": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.2,
+"img": "ac0001_2.jpg",
+"maq": "ac0001_3.jpg",
+"n_ours": 2
+},
+"CC6810": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 36.2,
+"img": "cc6810-i.jpg",
+"maq": "cc6810_1.jpg",
+"n_ours": 2
+},
+"CC6809": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.6,
+"img": "cc6809-i.jpg",
+"maq": "cc6809_2.jpg",
+"n_ours": 2
+},
+"CC6764": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 13.8,
+"img": "cc6764-i.jpg",
+"maq": "cc6764.jpg",
+"n_ours": 2
+},
+"AC0004": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 14.5,
+"img": "ac0004_1.jpg",
+"maq": "ac0004_2.jpg",
+"n_ours": 2
+},
+"CC6762": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 18.2,
+"img": "cc6762-i.jpg",
+"maq": "cc6762.jpg",
+"n_ours": 2
+},
+"AC0002": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.6,
+"img": "ac0002_1.jpg",
+"maq": "ac0002_2.jpg",
+"n_ours": 2
+},
+"CC6763": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 18.6,
+"img": "cc6763-i.jpg",
+"maq": "cc6763.jpg",
+"n_ours": 2
+},
+"CC6843": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 21.3,
+"img": "cc3485-i.jpg",
+"maq": "cc3485.jpg",
+"n_ours": 1
+},
+"CC6813": {
+"lab": "MAKETA",
+"fi": 28.8,
+"fm": 1.4,
+"img": "cc6813-i.jpg",
+"maq": "cc6813_1.jpg",
+"n_ours": 1
+},
+"CC6800": {
+"lab": "MAKETA",
+"fi": 19.5,
+"fm": 0.9,
+"img": "cc6800-i.jpg",
+"maq": "cc6800.jpg",
+"n_ours": 1
+},
+"CC6816": {
+"lab": "MAKETA",
+"fi": 40.4,
+"fm": 1.1,
+"img": "cc6816-i_3.jpg",
+"maq": "cc6816_2.jpg",
+"n_ours": 1
+},
+"CC6815": {
+"lab": "MAKETA",
+"fi": 40.5,
+"fm": 1.7,
+"img": "cc6815-i.jpg",
+"maq": "cc6815_1.jpg",
+"n_ours": 1
+},
+"CC6814": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 30.3,
+"img": "cc6814-i.jpg",
+"maq": "cc6814_1.jpg",
+"n_ours": 2
+},
+"CC6799": {
+"lab": "MAKETA",
+"fi": 19.9,
+"fm": 0.8,
+"img": "cc6799-i.jpg",
+"maq": "cc6799.jpg",
+"n_ours": 1
+},
+"CC6806": {
+"lab": "MAKETA",
+"fi": 17,
+"fm": 1,
+"img": "cc6806-i.jpg",
+"maq": "cc6806.jpg",
+"n_ours": 1
+},
+"CC6808": {
+"lab": "MAKETA",
+"fi": 23,
+"fm": 0.8,
+"img": "cc6808-i.jpg",
+"maq": "cc6808.jpg",
+"n_ours": 1
+},
+"CC6812": {
+"lab": "MAKETA",
+"fi": 34,
+"fm": 1.8,
+"img": "cc6812-i.jpg",
+"maq": "cc6812_1.jpg",
+"n_ours": 1
+},
+"CC6811": {
+"lab": "MAKETA",
+"fi": 28.5,
+"fm": 1.5,
+"img": "cc6811-i.jpg",
+"maq": "cc6811_1.jpg",
+"n_ours": 1
+},
+"CC6807": {
+"lab": "MAKETA",
+"fi": 24,
+"fm": 0.9,
+"img": "cc6807-i.jpg",
+"maq": "cc6807.jpg",
+"n_ours": 1
+},
+"CC6850": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 34.6,
+"img": "cc6850-i.jpg",
+"maq": "cc6850.jpg",
+"n_ours": 1
+},
+"CC6718": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 19.6,
+"img": "cc6718-i_2.jpg",
+"maq": "cc6718_2.jpg",
+"n_ours": 1
+},
+"CC6847": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 28.1,
+"img": "cc6847-i_1.jpg",
+"maq": "cc6847.jpg",
+"n_ours": 1
+},
+"CC6853": {
+"lab": "SCENA",
+"fi": 0.2,
+"fm": 50.7,
+"img": "cc6853-i.jpg",
+"maq": "cc6853_1.jpg",
+"n_ours": 1
+},
+"CC6841": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 23.7,
+"img": "cc6841-i.jpg",
+"maq": "cc6841.jpg",
+"n_ours": 1
+},
+"CC6837": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 49.3,
+"img": "cc6837-i.jpg",
+"maq": "cc6837.jpg",
+"n_ours": 1
+},
+"CC6848": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.4,
+"img": "cc6848-i_1.jpg",
+"maq": "cc6848.jpg",
+"n_ours": 1
+},
+"CC6851": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 32.8,
+"img": "cc6851-i.jpg",
+"maq": "cc6851.jpg",
+"n_ours": 1
+},
+"CC6854": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 50.2,
+"img": "cc66854-i.jpg",
+"maq": "cc6854.jpg",
+"n_ours": 1
+},
+"PB1003": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 29.1,
+"img": "pb1003-i.jpg",
+"maq": "pb1003.jpg",
+"n_ours": 1
+},
+"PB1031": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 27.1,
+"img": "pb1031-i.jpg",
+"maq": "1031_1.jpg",
+"n_ours": 1
+},
+"PB1034": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 17.7,
+"img": "pb1034-i.jpg",
+"maq": "pb1034.jpg",
+"n_ours": 1
+},
+"PB1014": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 24.2,
+"img": "pb1014-i.jpg",
+"maq": "pb1014.jpg",
+"n_ours": 1
+},
+"PB1001": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 23.5,
+"img": "pb1001-i.jpg",
+"maq": "pb1001_1.jpg",
+"n_ours": 1
+},
+"PB1004": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 25.4,
+"img": "pb1004-i.jpg",
+"maq": "pb1004_1.jpg",
+"n_ours": 1
+},
+"PB1030": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 22.4,
+"img": "pb1030-i.jpg",
+"maq": "pb1030.jpg",
+"n_ours": 1
+},
+"PB1019": {
+"lab": "SCENA",
+"fi": 0,
+"fm": 25.4,
+"img": "pb1019-i.jpg",
+"maq": "pb1019.jpg",
+"n_ours": 1
+},
+"PB1002": {
+"lab": "SCENA",
+"fi": 0.1,
+"fm": 24.5,
+"img": "pb1002-i_1.jpg",
+"maq": "pb1002_2.jpg",
+"n_ours": 1
+}
+}
