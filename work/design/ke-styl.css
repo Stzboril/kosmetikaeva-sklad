@@ -372,7 +372,7 @@ table.nutrition-table tr:nth-child(2) td{border-top:0!important}
   background:url(/user/documents/upload/CSS/ke-logo-bile.png) left center/contain no-repeat;opacity:.95;
 }
 @media (min-width:768px){
-  #footer .custom-footer{display:grid!important;grid-template-columns:1.3fr 1fr 1fr;gap:48px}
+  #footer .custom-footer{display:grid!important;grid-template-columns:1.3fr 1fr 1fr;column-gap:48px;row-gap:0}
   #footer .custom-footer>div{width:auto!important;max-width:none!important;flex:none!important;padding:0!important}
 }
 body>div.container:has(> img.comgate){max-width:none;width:100%;background:var(--ke-ink);padding:0 0 28px;margin:0}
