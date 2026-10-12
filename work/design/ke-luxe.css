@@ -187,7 +187,8 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,
 .pagination>strong,.pagination .pagination__currentPage{border-color:var(--ke-ink)!important;color:var(--ke-ink)}
 
 /* ---------- 7. Detail produktu ---------- */
-.p-detail-inner h1,.p-detail-inner-header h1{
+.p-detail-inner h1,.p-detail-inner-header h1,.p-detail-inner-header .h1{
+  font-family:var(--ke-serif)!important;font-variant-numeric:lining-nums proportional-nums;
   font-size:42px!important;font-weight:500!important;text-align:left;line-height:1.12;color:var(--ke-ink)!important;
 }
 .p-detail .p-image-wrapper .p-image,.p-detail .p-image{background:var(--ke-ivory);border-radius:18px}
@@ -324,7 +325,7 @@ img.comgate{background:#fff;border-radius:10px;padding:6px 16px;width:auto!impor
   h2{font-size:28px}
   .homepage-group-title,.products-related-header{font-size:31px!important;margin-bottom:30px!important}
   .category-title{font-size:36px!important}
-  .p-detail-inner h1,.p-detail-inner-header h1{font-size:32px!important}
+  .p-detail-inner h1,.p-detail-inner-header h1,.p-detail-inner-header .h1{font-size:34px!important;line-height:1.1!important}
   h2>em,.basic-description h2 em{font-size:27px!important}
   .benefitBanner.position--benefitHomepage{margin:24px 0 40px!important;padding:24px 12px!important}
   #footer .custom-footer>div{margin-bottom:28px}
