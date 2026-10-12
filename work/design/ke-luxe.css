@@ -38,6 +38,7 @@ h1,h2,h3,
 .p-detail-inner h1,.news-item .title,.benefitBanner__title{
   font-family:var(--ke-serif)!important;
   letter-spacing:.005em;
+  font-variant-numeric:lining-nums proportional-nums;
 }
 h1,h2{color:var(--ke-ink)!important;font-weight:600;text-align:center;line-height:1.15}
 h2{font-size:34px}
@@ -189,6 +190,9 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,
 .shp-tab-link{font-size:12.5px!important;text-transform:uppercase;letter-spacing:.12em;font-weight:500!important;color:var(--ke-ink-soft)!important}
 .shp-tab.active .shp-tab-link,.shp-tab-link.active{color:var(--ke-ink)!important}
 #tab-content,.p-detail-tabs-wrapper .tab-content{background:#fff}
+.p-detail-tabs-wrapper .row>.col-sm-12{background:#fff!important}
+.buy-box .bottom,.p-detail .buy-box .bottom{background:var(--ke-ivory)!important;border:1px solid var(--ke-line);border-radius:18px!important}
+.p-detail h1,.welcome-wrapper .h1,#footer h4,.category-title{font-variant-numeric:lining-nums proportional-nums}
 
 /* Nadpis popisu (dříve ručně psané červené písmo) */
 h2>em,.basic-description h2 em{
