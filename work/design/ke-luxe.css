@@ -63,11 +63,13 @@ h3{font-weight:600;color:var(--ke-ink)}
 }
 
 /* ---------- 1. Horní lišta a hlavička ---------- */
-.top-navigation-bar{background:var(--ke-ivory)!important;border-bottom:1px solid var(--ke-line)}
-.top-navigation-bar,.top-navigation-bar a,.top-navigation-bar button,.top-navigation-bar .dropdown button{
-  font-size:12.5px!important;letter-spacing:.02em;color:var(--ke-ink-soft)!important;
+@media (min-width:1200px){
+  .top-navigation-bar{background:var(--ke-ivory)!important;border-bottom:1px solid var(--ke-line)}
+  .top-navigation-bar,.top-navigation-bar a,.top-navigation-bar button,.top-navigation-bar .dropdown button{
+    font-size:12.5px!important;letter-spacing:.02em;color:var(--ke-ink-soft)!important;
+  }
+  .top-navigation-bar .dropdown{border-color:var(--ke-line)!important}
 }
-.top-navigation-bar .dropdown{border-color:var(--ke-line)!important}
 #header{background:#fff;border-bottom:1px solid var(--ke-line)}
 @media (min-width:1200px){
   .navigation-in>ul>li>a{
