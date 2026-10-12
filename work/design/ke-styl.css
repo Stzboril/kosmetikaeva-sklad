@@ -281,6 +281,11 @@ article details summary::after,article details[open] summary::after,
 #content details>p,article details>p{margin-top:0!important;margin-bottom:8px!important}
 #content details>:last-child:not(summary),article details>:last-child:not(summary){margin-bottom:20px!important}
 #content details[open] summary+*,article details[open] summary+*{padding-top:2px}
+#content details ul,article details ul{list-style:none!important;padding:0!important;margin-top:0!important}
+#content details ul li,article details ul li{position:relative;list-style:none!important;padding:0 0 0 20px!important;margin:0 0 6px!important;font-size:14.5px!important;line-height:1.65!important;color:var(--ke-ink-soft)!important}
+#content details ul li::marker,article details ul li::marker{content:""!important}
+#content details ul li::before,article details ul li::before{content:""!important;position:absolute!important;left:3px!important;top:.62em!important;width:6px!important;height:6px!important;border-radius:50%;background:var(--ke-accent)!important;opacity:.85}
+#content details table,article details table{width:calc(100% - 44px)!important;font-size:14px}
 .accordion-content,.accordion-body{padding:0 22px 20px!important;color:var(--ke-ink-soft)!important;font-size:14.5px;line-height:1.7;background:transparent!important;border:0!important}
 /* plynulé rozbalení (Chrome, Edge, Safari 18+; jinde se otevře bez animace) */
 #content details::details-content,article details::details-content{
@@ -320,8 +325,7 @@ article details summary::after,article details[open] summary::after,
   width:6px!important;height:6px!important;border-radius:999px;background:var(--ke-accent-light)!important;
   font-size:0!important;transform:none!important;transition:width .25s ease,background-color .25s ease!important;
 }
-#footer .custom-footer__banner24 li.sipka1{align-items:center}
-#footer .custom-footer__banner24 li.sipka1::before{margin:0 4px 0 0!important}
+#footer .custom-footer__banner24 li.sipka1::before{margin:8px 4px 0 0!important}
 #footer .custom-footer__banner24 li.sipka1:hover::before{width:14px!important;background:#fff!important}
 #footer .custom-footer__banner32 li.sipka1::before,#footer .custom-footer__banner32 li.sipka1:hover::before{
   width:20px!important;height:20px!important;margin:1px 0 0!important;border-radius:50%;
