@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-12T13:56+02:00",
+"cas": "2026-10-13T08:26+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -903,7 +903,7 @@
 },
 "23112-101": {
 "dop": 619.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -2584,7 +2584,7 @@
 "80550-419": {
 "dop": 1209.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80700-81": {
 "dop": 1025.0,
@@ -5079,7 +5079,7 @@
 "SETW107T": {
 "dop": 810.0,
 "skladem": true,
-"url_dodavatel": "https://www.essens.cz/-damsky-parfemovany-set-w107-d411006/"
+"url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w107-d411006/"
 },
 "SETW111T": {
 "dop": 810.0,
@@ -5099,7 +5099,7 @@
 "SETW171T": {
 "dop": 810.0,
 "skladem": true,
-"url_dodavatel": "https://www.essens.cz/-damsky-parfemovany-set-w171-d411014/"
+"url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w171-d411014/"
 },
 "SETW183": {
 "dop": 870.0,
@@ -5139,7 +5139,7 @@
 "SETW904T": {
 "dop": 845.0,
 "skladem": true,
-"url_dodavatel": "https://www.essens.cz/-damsky-parfemovany-set-w904-d411015/"
+"url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w904-d411015/"
 },
 "SSEPRIM01": {
 "dop": 290.0,
@@ -5173,7 +5173,7 @@
 },
 "SSFND08": {
 "dop": 690.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-08-d201913/"
 },
 "SSLIP02": {
@@ -5448,7 +5448,7 @@
 },
 "W17550": {
 "dop": 600.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w175-d238212/"
 },
 "W17750": {
