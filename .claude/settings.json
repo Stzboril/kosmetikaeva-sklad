@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.lr-czech.com)",
+      "WebFetch(domain:lr-czech.com)"
+    ]
+  }
+}
