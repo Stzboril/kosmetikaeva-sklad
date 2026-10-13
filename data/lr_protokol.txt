@@ -1,35 +1,18 @@
-Mon Oct 12 06:35:20 CEST 2026
-https://www.lr-czech.com/zdravi – 40 řádků
-https://www.lr-czech.com/krasa – 40 řádků
-https://www.lr-czech.com/aloe-vera-care – 40 řádků
-https://www.lr-czech.com/parfemy – 23 řádků
-https://www.lr-czech.com/proti-starnuti – 31 řádků
-https://www.lr-czech.com/pece-o-telo – 40 řádků
-https://www.lr-czech.com/zdravi-reseni – 29 řádků
-https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
-https://www.lr-czech.com/denni-nocni-ocni – 23 řádků
-https://www.lr-czech.com/make-up – 26 řádků
-https://www.lr-czech.com/pece-o-plet – 40 řádků
-https://www.lr-czech.com/sera – 15 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – 7 řádků
-https://www.lr-czech.com/specialiste – 32 řádků
-Ověření „není skladem“:
-80630-599 (zdravi) – ANO
-27167-1 (krasa) – ANO
-27167-1 (aloe-vera-care) – ANO
-27164-1 (aloe-vera-care) – ANO
-20676-101 (aloe-vera-care) – ANO
-27170-1 (pece-o-telo) – ANO
-27171-1 (pece-o-telo) – ANO
-81330-98 (zdravi-reseni) – NE → opraveno na skladem
-23112-101 (pece-o-telo-ochrana-před-sluncem) – ANO
-27167-1 (denni-nocni-ocni) – ANO
-27164-1 (denni-nocni-ocni) – ANO
-27167-1 (pece-o-plet) – ANO
-27164-1 (pece-o-plet) – NE → opraveno na skladem
-20676-101 (pece-o-plet) – ANO
-27170-1 (pece-o-plet) – ANO
-27171-1 (pece-o-plet) – ANO
-27167-1 (sera) – NE → opraveno na skladem
-Uloženo 218 produktů LR, z toho není skladem: 7
+Tue Oct 13 05:39:05 CEST 2026
+https://www.lr-czech.com/zdravi – WebFetch chyba (2 pokusy): PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena (běh bez uživatele)
+https://www.lr-czech.com/krasa – WebFetch chyba: PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena; opakování vynecháno, protože všechny pokusy selhaly stejně
+https://www.lr-czech.com/aloe-vera-care – WebFetch chyba: PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena; opakování vynecháno, protože všechny pokusy selhaly stejně
+https://www.lr-czech.com/parfemy – WebFetch chyba: PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena; opakování vynecháno, protože všechny pokusy selhaly stejně
+https://www.lr-czech.com/proti-starnuti – WebFetch chyba: PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena; opakování vynecháno, protože všechny pokusy selhaly stejně
+https://www.lr-czech.com/pece-o-telo – WebFetch chyba (2 pokusy): PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena (běh bez uživatele)
+https://www.lr-czech.com/zdravi-reseni – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/health-mission-top-produkty – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/denni-nocni-ocni – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/make-up – WebFetch chyba (2 pokusy): PROVENANCE_REQUIRED – žádost o povolení URL nebyla včas schválena (běh bez uživatele)
+https://www.lr-czech.com/pece-o-plet – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/sera – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/pece-o-telo-zuby – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+https://www.lr-czech.com/specialiste – nenačteno – WebFetch na lr-czech.com v této relaci blokován (PROVENANCE_REQUIRED)
+Ověření „není skladem“: neprovedeno (žádná data)
+Podezřele málo produktů LR (0), neukládám.
