@@ -120,6 +120,25 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
 .form-control,select,.form-group>input.form-control,.form-group>select.form-control,
 .co-basic-information .form-group>select.form-control{border-radius:12px!important;border-color:#dcdbe3!important}
 
+/* Vyhledávání: pole jako pilulka, tlačítko = vínový kroužek s lupou uvnitř pole (bez textu „Hledat“) */
+.search-form fieldset{position:relative}
+.search-form .search-input.form-control,.search-form input.query-input{
+  border-radius:999px!important;border:1px solid #dcdbe3!important;background:#fff!important;
+  height:48px!important;padding:0 58px 0 22px!important;font-size:15px!important;color:var(--ke-ink)!important;box-shadow:none!important;
+  transition:border-color .2s ease,box-shadow .2s ease}
+.search-form .search-input.form-control::placeholder{color:var(--ke-muted)!important;opacity:1}
+.search-form .search-input.form-control:focus{border-color:var(--ke-accent)!important;box-shadow:0 0 0 4px rgba(163,57,42,.12)!important;outline:0!important}
+.search-form:not(#ke) button.btn.btn-default,.search-form:not(#ke) button.btn.btn-default:hover{
+  position:absolute!important;top:4px!important;right:4px!important;left:auto!important;bottom:auto!important;
+  width:40px!important;min-width:0!important;height:40px!important;padding:0!important;margin:0!important;
+  border:0!important;border-radius:50%!important;background:var(--ke-accent)!important;color:#fff!important;
+  font-size:0!important;letter-spacing:0!important;line-height:40px!important;text-align:center!important;
+  box-shadow:none!important;translate:none!important;transform:none!important;overflow:hidden!important;
+  display:flex!important;align-items:center;justify-content:center;transition:background-color .2s ease!important}
+.search-form:not(#ke) button.btn.btn-default:hover,.search-form:not(#ke) button.btn.btn-default:focus-visible{background:var(--ke-accent-hover)!important}
+.search-form:not(#ke) button.btn.btn-default::before{
+  font-size:18px!important;line-height:1!important;color:#fff!important;margin:0!important;position:static!important;display:block!important}
+
 /* ---------- 5. Úvodní stránka ---------- */
 .benefitBanner.position--benefitHomepage{background:#fff;border-bottom:1px solid var(--ke-line);padding:26px 20px!important;margin:24px 0 48px!important}
 .benefitBanner__title{font-size:15px!important;font-weight:600!important;color:var(--ke-ink)!important}
