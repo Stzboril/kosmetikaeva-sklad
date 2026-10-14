@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-13T13:45+02:00",
+"cas": "2026-10-14T11:29+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -5123,7 +5123,7 @@
 },
 "SETW190": {
 "dop": 870.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w190-d363318/"
 },
 "SETW193": {
@@ -5172,8 +5172,8 @@
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-07-d201912/"
 },
 "SSFND08": {
-"dop": 690.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-08-d201913/"
 },
 "SSLIP02": {
@@ -5447,7 +5447,7 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w174-d238211/"
 },
 "W17550": {
-"dop": 600.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w175-d238212/"
 },
