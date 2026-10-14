@@ -1,19 +1,8 @@
-Wed Oct 14 05:23:03 CEST 2026
+Wed Oct 14 10:28:01 CEST 2026
+pokus 2
 https://www.lr-czech.com/zdravi – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
 https://www.lr-czech.com/krasa – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
 https://www.lr-czech.com/aloe-vera-care – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/parfemy – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/proti-starnuti – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/pece-o-telo – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/zdravi-reseni – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/health-mission-top-produkty – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/denni-nocni-ocni – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/make-up – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/pece-o-plet – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/sera – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/specialiste – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-Pozn.: opakovaný pokus u /zdravi selhal stejně; chyba je systémová (neschválené oprávnění ve WebFetch při běhu bez obsluhy), ostatní URL nebyly opakovány.
-Ověření „není skladem“: žádné kódy se STAV NE (žádná data).
+První 3 stránky selhaly stejnou chybou (PROVENANCE_REQUIRED), zbylých 12 stránek přeskočeno. Stahování: WebFetch (shell/prohlížeč na počítači uživatele nedostupný – běh v cloudu).
+Ověření „není skladem“: nic k ověření (0 řádků).
 Podezřele málo produktů LR (0), neukládám.
