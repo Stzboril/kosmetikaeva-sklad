@@ -13,8 +13,9 @@ with sync_playwright() as p:
         for url in URLS:
             try:
                 r = page.goto(url, wait_until="domcontentloaded", timeout=60000)
-                for _ in range(20):  # až 40 s na vyřešení výzvy
-                    if "Just a moment" not in page.title():
+                for _ in range(30):  # až 60 s na vyřešení výzvy
+                    t = page.title()
+                    if "Just a moment" not in t and "Okamžik" not in t:
                         break
                     page.wait_for_timeout(2000)
                 text = page.inner_text("body")
