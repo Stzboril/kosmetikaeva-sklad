@@ -204,11 +204,14 @@ def main():
             katalogy[znacka] = fce()
         except Exception as e:  # dodavatel nedostupný -> jeho produkty tentokrát neměníme
             chyby[znacka] = str(e)
-    lr = nacti_lr()
+    lr, lr_kdy = nacti_lr()
+    lr_dnes = bool(lr_kdy) and lr_kdy.astimezone(PRAHA).date() == ted.date()
+    lr_datum = f"{lr_kdy.astimezone(PRAHA):%d.%m.%Y}" if lr_kdy else "neznámo"
     if lr:
         katalogy["LR"] = lr
     else:
-        chyby["LR"] = "web lr-czech.com blokuje servery GitHubu; data LR nejsou k dispozici nebo jsou starší než 3 dny"
+        chyby["LR"] = (f"data LR jsou starší než 3 dny (poslední z {lr_datum}); "
+                       "stahují se úlohou Claude „LR sklad KosmetikaEva“, protože LR blokuje servery GitHubu")
 
     # Essens: kódy, které nejsou v žádné kategorii, dohledáme přes vyhledávání / detail
     if "Essens" in katalogy:
@@ -284,7 +287,11 @@ def main():
     for znacka in ("Eurona", "Essens", "LR"):
         if znacka in katalogy:
             pocet = sum(1 for p in eshop.values() if p["znacka"] == znacka)
-            z.append(f"- **{znacka}:** zkontrolováno {pocet} viditelných produktů")
+            pozn = ""
+            if znacka == "LR" and not lr_dnes:
+                pozn = (f" – ⚠️ data LR jsou z {lr_datum}, dnešní stažení zatím neproběhlo "
+                        "(stačí napsat Claude „stáhni LR“)")
+            z.append(f"- **{znacka}:** zkontrolováno {pocet} viditelných produktů{pozn}")
         else:
             z.append(f"- **{znacka}:** nekontrolováno – {chyby.get(znacka, '')}")
     z += ["", "## Sklad", ""]
@@ -327,22 +334,24 @@ def main():
     print(f"Hotovo: {souhrn}; nenalezeno {len(nenalezeno)}; chyby: {chyby}")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"sklad={len(sklad_radky)}\nceny={len(ceny)}\n")
+            f.write(f"sklad={len(sklad_radky)}\nceny={len(ceny)}\n"
+                    f"lr_dnes={1 if lr_dnes else 0}\nlr_datum={lr_datum}\n")
 
 
 def nacti_lr():
-    """Data LR se stahují zvlášť (data/lr.json); použijí se, jen když nejsou starší než 3 dny."""
+    """Data LR se stahují zvlášť (data/lr.json); použijí se, jen když nejsou starší než 3 dny.
+    Vrací (katalog nebo None, čas stažení nebo None)."""
     p = cesta("data", "lr.json")
     if not os.path.exists(p):
-        return None
+        return None, None
     d = json.load(open(p, encoding="utf-8"))
     try:
         kdy = datetime.fromisoformat(d["cas"])
     except (KeyError, ValueError):
-        return None
+        return None, None
     if datetime.now(PRAHA) - kdy > timedelta(days=3):
-        return None
-    return {k.upper(): v for k, v in d["produkty"].items()}
+        return None, kdy
+    return {k.upper(): v for k, v in d["produkty"].items()}, kdy
 
 
 if __name__ == "__main__":

@@ -65,3 +65,24 @@ jobs:
               --title "K importu $(TZ=Europe/Prague date '+%d.%m.%Y'): sklad ${SKLAD:-0}, ceny ${CENY:-0}" \
               --body-file zprava.md
           fi
+
+      - name: Upozornění na stará data LR (GitHub issue + e-mail)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LR_DNES: ${{ steps.kontrola.outputs.lr_dnes }}
+          LR_DATUM: ${{ steps.kontrola.outputs.lr_datum }}
+        run: |
+          gh label create lr-data --color D93F0B --description "Data LR nejsou z dneška" 2>/dev/null || true
+          OTEVRENE=$(gh issue list --label lr-data --state open --json number -q '.[].number')
+          if [ "${LR_DNES:-0}" = "1" ]; then
+            for n in $OTEVRENE; do gh issue close "$n" --comment "Data LR jsou zase z dneška."; done
+          elif [ -z "$OTEVRENE" ]; then
+            cat > lr_upozorneni.md <<EOF
+          Automatické stažení dostupnosti a cen LR (naplánovaná úloha Claude „LR sklad KosmetikaEva“) dnes zatím neproběhlo, kontrola skladu proto u LR použila data z ${LR_DATUM}.
+
+          **Co udělat:** napište v chatu Claude (projekt KosmetikaEva) „stáhni LR“ – data se stáhnou ručně a kontrola skladu a cen se spustí znovu.
+
+          Podrobnosti posledního pokusu: [data/lr_protokol.txt](https://github.com/Stzboril/kosmetikaeva-sklad/blob/main/data/lr_protokol.txt). Upozornění se zavře samo, jakmile budou data LR z dneška.
+          EOF
+            gh issue create --label lr-data --title "Data LR nejsou z dneška (poslední z ${LR_DATUM})" --body-file lr_upozorneni.md
+          fi
