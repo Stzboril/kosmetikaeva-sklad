@@ -439,3 +439,23 @@ img.comgate{background:#fff;border-radius:12px;padding:6px 16px;width:auto!impor
 /* ---------- SK: starší styl (csske) přejmenovává nadpis „Skladom a obľúbené“ přes ::after – sladění se stylem C (14. 10. 2026) ---------- */
 html[lang="sk"] body .homepage-group-title.homepage-products-heading-6.h4::after{display:block;width:auto;height:auto;border-radius:0;margin:0;padding-bottom:18px;font-size:30px;line-height:1.2;font-weight:700;color:var(--ke-ink);background:linear-gradient(var(--ke-accent),var(--ke-accent)) no-repeat center bottom/44px 2px}
 @media (max-width:767px){html[lang="sk"] body .homepage-group-title.homepage-products-heading-6.h4::after{font-size:24px}}
+/* rozbalovací sekce: text vložený přímo do <details> bez odstavce – stejné odsazení a písmo jako ostatní (14. 10. 2026) */
+#content details,article details{color:var(--ke-ink-soft);font-size:14.5px;line-height:1.7}
+@supports selector(::details-content){
+#content details::details-content,article details::details-content{padding:0 22px;transition:block-size .35s ease,padding .35s ease,content-visibility .35s allow-discrete}
+#content details[open]::details-content,article details[open]::details-content{padding-bottom:20px}
+#content details>:not(summary),article details>:not(summary){margin-left:0!important;margin-right:0!important}
+#content details>:last-child:not(summary),article details>:last-child:not(summary){margin-bottom:0!important}
+#content details>ul>li:last-child,article details>ul>li:last-child{margin-bottom:0!important}
+#content details table,article details table{width:100%!important}
+}
+/* ikona +/× v rozbalovacích sekcích – ostré SVG místo skládaných čar (14. 10. 2026) */
+#content details summary::after,article details summary::after,.accordion-header::before{
+  background:var(--ke-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath d='M15 9.5v11M9.5 15h11' fill='none' stroke='%231c1b29' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E") center/30px 30px no-repeat!important;
+  transition:rotate .3s ease,background-color .25s ease!important}
+#content details[open] summary::after,article details[open] summary::after,.accordion-item.active .accordion-header::before{
+  rotate:45deg!important;background:var(--ke-accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath d='M15 9.5v11M9.5 15h11' fill='none' stroke='%23fff' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E") center/30px 30px no-repeat!important}
+/* tabulka živin – barevnější hlavička (jemný odstín, 14. 10. 2026) */
+table.nutrition-table th{background:#f6e3df!important;color:var(--ke-accent)!important;border-bottom:1px solid rgba(163,57,42,.18)!important}
+table.nutrition-table{border-color:rgba(163,57,42,.22)!important}
+table.nutrition-table tbody tr:first-child td{border-top:0!important}
