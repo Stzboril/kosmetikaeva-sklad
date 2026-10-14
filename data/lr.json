@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-13T08:26+02:00",
+"cas": "2026-10-14T15:43+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -286,7 +286,7 @@
 "23112-101": {
 "cena": 619.0,
 "nazev": "",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -358,7 +358,7 @@
 "27164-1": {
 "cena": null,
 "nazev": "",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27165-1": {
@@ -376,7 +376,7 @@
 "27167-1": {
 "cena": null,
 "nazev": "",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "27170-1": {

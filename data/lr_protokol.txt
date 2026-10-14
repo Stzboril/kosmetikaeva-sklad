@@ -1,20 +1,33 @@
-Wed Oct 14 10:33:18 CEST 2026
-pokus 3
-https://www.lr-czech.com/zdravi – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/krasa – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/aloe-vera-care – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-https://www.lr-czech.com/parfemy – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/proti-starnuti – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/pece-o-telo – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/zdravi-reseni – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/health-mission-top-produkty – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/denni-nocni-ocni – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/make-up – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/pece-o-plet – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/sera – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/pece-o-telo-zuby – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-https://www.lr-czech.com/specialiste – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
-Pozn.: stahováno nástrojem WebFetch; opakovaný pokus u /zdravi selhal stejně. Běh v cloudu bez obsluhy – stažení přes shell nepoužito (není počítač uživatele).
-Ověření „není skladem“: žádné kódy se STAV NE (žádná data).
-Podezřele málo produktů LR (0), neukládám.
+Wed Oct 14 15:43:51 CEST 2026
+pokus 4
+https://www.lr-czech.com/zdravi – 40 řádků
+https://www.lr-czech.com/krasa – 40 řádků
+https://www.lr-czech.com/aloe-vera-care – 40 řádků
+https://www.lr-czech.com/parfemy – 23 řádků
+https://www.lr-czech.com/proti-starnuti – 31 řádků
+https://www.lr-czech.com/pece-o-telo – 40 řádků
+https://www.lr-czech.com/zdravi-reseni – 28 řádků
+https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
+https://www.lr-czech.com/denni-nocni-ocni – 23 řádků
+https://www.lr-czech.com/make-up – 26 řádků
+https://www.lr-czech.com/pece-o-plet – 40 řádků
+https://www.lr-czech.com/sera – 15 řádků
+https://www.lr-czech.com/pece-o-telo-zuby – 7 řádků
+https://www.lr-czech.com/specialiste – 32 řádků
+Stahování: WebFetch, ručně z chatu (automatické běhy dnes selhaly na PROVENANCE_REQUIRED). U specialiste vynechán 1 chybný řádek modelu (4229|4229|ANO|NE).
+Ověření „není skladem“:
+27167-1 (krasa) – ANO
+27167-1 (aloe-vera-care) – ANO
+27166-1 (aloe-vera-care) – ANO
+20328-101 (aloe-vera-care) – NE → opraveno na skladem
+27170-1 (pece-o-telo) – ANO
+27171-1 (pece-o-telo) – ANO
+23112-101 (pece-o-telo-ochrana-před-sluncem) – ANO
+27167-1 (denni-nocni-ocni) – ANO
+27167-1 (pece-o-plet) – ANO
+20676-101 (pece-o-plet) – ANO
+27170-1 (pece-o-plet) – ANO
+27171-1 (pece-o-plet) – ANO
+27167-1 (sera) – ANO
+Uloženo 217 produktů LR, z toho není skladem: 5
