@@ -1,8 +1,20 @@
-Wed Oct 14 10:28:01 CEST 2026
-pokus 2
+Wed Oct 14 10:33:18 CEST 2026
+pokus 3
 https://www.lr-czech.com/zdravi – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
 https://www.lr-czech.com/krasa – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
 https://www.lr-czech.com/aloe-vera-care – CHYBA: WebFetch PROVENANCE_REQUIRED (žádost o oprávnění k URL nebyla v čase zodpovězena a byla stažena), 0 řádků
-První 3 stránky selhaly stejnou chybou (PROVENANCE_REQUIRED), zbylých 12 stránek přeskočeno. Stahování: WebFetch (shell/prohlížeč na počítači uživatele nedostupný – běh v cloudu).
-Ověření „není skladem“: nic k ověření (0 řádků).
+https://www.lr-czech.com/parfemy – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/proti-starnuti – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/pece-o-telo – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/zdravi-reseni – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/health-mission-top-produkty – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/denni-nocni-ocni – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/make-up – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/pece-o-plet – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/sera – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/pece-o-telo-zuby – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+https://www.lr-czech.com/specialiste – přeskočeno (první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED)
+Pozn.: stahováno nástrojem WebFetch; opakovaný pokus u /zdravi selhal stejně. Běh v cloudu bez obsluhy – stažení přes shell nepoužito (není počítač uživatele).
+Ověření „není skladem“: žádné kódy se STAV NE (žádná data).
 Podezřele málo produktů LR (0), neukládám.
