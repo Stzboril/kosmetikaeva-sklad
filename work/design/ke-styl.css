@@ -435,3 +435,7 @@ img.comgate{background:#fff;border-radius:12px;padding:6px 16px;width:auto!impor
   .products-block .product .p,.products .product .p{transition:none}
   .products-block .product:hover .p,.products .product:hover .p{transform:none}
 }
+
+/* ---------- SK: starší styl (csske) přejmenovává nadpis „Skladom a obľúbené“ přes ::after – sladění se stylem C (14. 10. 2026) ---------- */
+html[lang="sk"] body .homepage-group-title.homepage-products-heading-6.h4::after{display:block;width:auto;height:auto;border-radius:0;margin:0;padding-bottom:18px;font-size:30px;line-height:1.2;font-weight:700;color:var(--ke-ink);background:linear-gradient(var(--ke-accent),var(--ke-accent)) no-repeat center bottom/44px 2px}
+@media (max-width:767px){html[lang="sk"] body .homepage-group-title.homepage-products-heading-6.h4::after{font-size:24px}}
