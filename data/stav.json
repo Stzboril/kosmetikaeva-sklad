@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-14T11:29+02:00",
+"cas": "2026-10-14T15:44+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -903,7 +903,7 @@
 },
 "23112-101": {
 "dop": 619.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
