@@ -32,7 +32,7 @@ def doprava(L):
           '<li><strong>Pošleme odkaz na sledování.</strong> Po předání zásilky dopravci vám přijde e-mail s odkazem, kde uvidíte, kde zásilka právě je.</li>'
           '<li><strong>Dopravce se ozve.</strong> Kurýr vám předem dá vědět, kdy přijede. Na výdejním místě nebo v Z-BOXu na vás zásilka počká a přijde vám SMS s kódem pro vyzvednutí.</li>'
           '<li><strong>Hlídáme každou zásilku.</strong> Průběh doručení denně kontrolujeme. Když se něco zadrhne, sami se vám ozveme a domluvíme řešení.</li></ol>')
-        h.append('<h2>Způsoby platby</h2>\n<p>Všechny způsoby platby jsou zdarma. Zboží odesíláme hned po připsání platby.</p>\n<div class="ke-mrizka">'
+        h.append('<h2>Způsoby platby</h2>\n<p>Všechny způsoby platby jsou zdarma. Zboží expedujeme po připsání platby.</p>\n<div class="ke-mrizka">'
           '<div class="ke-karta" id="pk"><img class="ke-info-logo" src="%s" alt="Platební karty"><span class="ke-karta-stitek">Zdarma</span><h3>Kartou online</h3><p>Po odeslání objednávky vás přesměrujeme na zabezpečenou platební bránu Comgate, kde zaplatíte kartou.</p></div>'
           '<div class="ke-karta" id="Apple"><img class="ke-info-logo" src="%s" alt="Apple Pay"><span class="ke-karta-stitek">Zdarma</span><h3>Apple Pay</h3><p>Na iPhonu, iPadu nebo Macu zaplatíte přes Apple Pay bez vyplňování údajů o kartě. Platba proběhne přes bránu Comgate.</p></div>'
           '</div>\n<div class="ke-mrizka ke-info-1"><div class="ke-karta" id="air"><span class="ke-karta-stitek">Zdarma</span><h3>Převodem na účet</h3><p>Zaplaťte převodem z internetového bankovnictví, nejrychleji načtením QR kódu. Účet vedeme u Air Bank.</p>'
@@ -55,7 +55,7 @@ def doprava(L):
           '<li><strong>Pošleme odkaz na sledovanie.</strong> Po odovzdaní zásielky prepravcovi vám príde e-mail s odkazom, kde uvidíte, kde sa zásielka práve nachádza.</li>'
           '<li><strong>Prepravca sa ozve.</strong> Kuriér vám vopred dá vedieť, kedy príde. Na výdajnom mieste alebo v Z-BOXe na vás zásielka počká a príde vám SMS s kódom na vyzdvihnutie.</li>'
           '<li><strong>Strážime každú zásielku.</strong> Priebeh doručenia denne kontrolujeme. Ak sa niečo zasekne, sami sa vám ozveme a dohodneme riešenie.</li></ol>')
-        h.append('<h2>Spôsoby platby</h2>\n<p>Všetky spôsoby platby sú zadarmo. Tovar odosielame hneď po pripísaní platby.</p>\n<div class="ke-mrizka">'
+        h.append('<h2>Spôsoby platby</h2>\n<p>Všetky spôsoby platby sú zadarmo. Tovar expedujeme po pripísaní platby.</p>\n<div class="ke-mrizka">'
           '<div class="ke-karta" id="pk"><img class="ke-info-logo" src="%s" alt="Platobné karty"><span class="ke-karta-stitek">Zadarmo</span><h3>Kartou online</h3><p>Po odoslaní objednávky vás presmerujeme na zabezpečenú platobnú bránu Comgate, kde zaplatíte kartou.</p></div>'
           '<div class="ke-karta" id="Apple"><img class="ke-info-logo" src="%s" alt="Apple Pay"><span class="ke-karta-stitek">Zadarmo</span><h3>Apple Pay</h3><p>Na iPhone, iPade alebo Macu zaplatíte cez Apple Pay bez vypĺňania údajov o karte. Platba prebehne cez bránu Comgate.</p></div>'
           '</div>\n<div class="ke-mrizka ke-info-1"><div class="ke-karta" id="eur"><span class="ke-karta-stitek">Zadarmo</span><h3>Prevodom v eurách (SEPA)</h3><p>Zaplaťte SEPA prevodom zo svojho internet bankingu, najrýchlejšie načítaním QR kódu. Účet vedieme v Air Bank.</p>'

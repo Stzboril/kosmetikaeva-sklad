@@ -1,0 +1,2 @@
+/* horní lišta – všechny odkazy vedle sebe (prázdný blok kontaktů skrytý), v12 15. 10. 2026 */
+@media (min-width:992px){.top-navigation-bar .container>.top-navigation-contacts{display:none!important}.top-navigation-bar .container>.top-navigation-menu{flex:1 1 auto!important;min-width:0}.top-navigation-bar .container>.top-navigation-tools{flex:0 0 auto!important;width:auto!important}}

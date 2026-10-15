@@ -639,3 +639,6 @@ a.ke-info-k:hover{transform:translateY(-3px);border-color:rgba(163,57,42,.3);box
 @media (max-width:860px){.ke-info-hl{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:1000px){.ke-info-kontakt{grid-template-columns:1fr;gap:10px}a.ke-info-k{display:grid;grid-template-columns:50px 1fr;column-gap:16px;row-gap:1px;align-items:center;padding:16px 18px}a.ke-info-k::before{grid-row:1/4;margin:0}a.ke-info-k b{font-size:17px}}
 @media (max-width:480px){.ke-info-hl{gap:10px}.ke-info-hl>div{padding:13px 14px}.ke-info-hl b{font-size:22px}.ke-info-ucet{flex-direction:column;align-items:flex-start}.ke-info-ucet__t{grid-template-columns:1fr;gap:0}.ke-info-ucet__t b{margin-bottom:6px}.pageArticleDetail:has(.ke-info)>header h1{font-size:26px!important}}
+
+/* horní lišta – všechny odkazy vedle sebe (prázdný blok kontaktů skrytý), v12 15. 10. 2026 */
+@media (min-width:992px){.top-navigation-bar .container>.top-navigation-contacts{display:none!important}.top-navigation-bar .container>.top-navigation-menu{flex:1 1 auto!important;min-width:0}.top-navigation-bar .container>.top-navigation-tools{flex:0 0 auto!important;width:auto!important}}
