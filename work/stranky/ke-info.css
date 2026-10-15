@@ -1,0 +1,42 @@
+/* ===== Info stránky – Doprava a platba, Kontakty (v11, 15. 10. 2026) ===== */
+.ke-info{max-width:980px}
+.ke-info .ke-perex{margin-bottom:22px}
+.ke-info h2[id],.ke-info [id]{scroll-margin-top:110px}
+.ke-info-hl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:6px 0 8px}
+.ke-info-hl>div{background:var(--k-blush);border-radius:16px;padding:16px 18px;display:flex;flex-direction:column;gap:3px}
+.ke-info-hl__k{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--k-acc)}
+.ke-info-hl b{font-size:26px;line-height:1.2;color:var(--k-ink)}
+.ke-info-hl span:last-child{font-size:13.5px;line-height:1.4;color:var(--k-txt)}
+.ke-info .ke-karta{display:flex;flex-direction:column}
+.ke-info .ke-karta p{font-size:15px;line-height:1.65}
+.ke-info img.ke-info-logo{height:30px!important;width:auto!important;max-width:150px;object-fit:contain;border-radius:0!important;margin:0 0 12px;align-self:flex-start}
+.ke-info-cena{margin-top:auto;padding-top:12px;border-top:1px solid var(--k-line);font-size:14px;line-height:1.7}
+.ke-info-cena b{color:var(--k-ink)}
+.ke-info-zdarma{color:#2e8b57;font-weight:700}
+.ke-nw{white-space:nowrap}
+.ke-info table.ke-tab th{background:#f6e3df!important;color:var(--k-acc)!important}
+.ke-info table.ke-tab td:first-child{font-weight:600;color:var(--k-ink)}
+.ke-info-ucet{display:flex;gap:14px;align-items:center;background:var(--k-soft);border-radius:12px;padding:12px 14px;margin:12px 0 0;font-size:14px;line-height:1.65}
+.ke-info-ucet img{flex:0 0 88px;width:88px!important;height:88px!important;border-radius:8px!important;background:#fff}
+.ke-info-ucet__t{display:grid;grid-template-columns:auto 1fr;gap:3px 16px;text-align:left}
+.ke-info-ucet__t span{color:#6e6c7a}
+.ke-info-ucet__t b{color:var(--k-ink);font-weight:600}
+.ke-info-1{grid-template-columns:1fr}
+.ke-info .ke-mrizka h3{margin-top:0!important}
+.pageArticleDetail:has(.ke-info)>header h1{font-size:34px!important;line-height:1.2!important;text-align:left!important;max-width:980px;margin:6px auto 14px!important;color:var(--ke-ink)!important}
+.ke-info-kontakt{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:6px 0 8px}
+a.ke-info-k{display:flex;flex-direction:column;gap:3px;background:#fff;border:1px solid var(--k-line);border-radius:18px;padding:22px 22px 20px;text-decoration:none!important;color:var(--k-txt)!important;box-shadow:0 8px 24px rgba(28,27,41,.05);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+a.ke-info-k::before{content:"";width:50px;height:50px;border-radius:50%;margin-bottom:12px;background:var(--k-blush) center/24px no-repeat}
+a.ke-info-k--tel::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a3392a' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2'/%3E%3C/svg%3E")}
+a.ke-info-k--mail::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a3392a' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Cpath d='m3 7 9 6 9-6'/%3E%3C/svg%3E")}
+a.ke-info-k--fb::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a3392a' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 3h-2.5A3.5 3.5 0 0 0 9 6.5V10H7v3h2v8h3v-8h2.5l.5-3h-3V7a1 1 0 0 1 1-1H15z'/%3E%3C/svg%3E")}
+.ke-info-k__l{font-size:11.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--k-acc)}
+a.ke-info-k b{font-size:18px;line-height:1.35;color:var(--k-ink);word-break:break-word}
+.ke-info-k__p{font-size:13.5px;color:#6e6c7a}
+a.ke-info-k:hover{transform:translateY(-3px);border-color:rgba(163,57,42,.3);box-shadow:0 18px 34px -16px rgba(28,27,41,.3)}
+.ke-info-odkazy{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 6px}
+.ke-info-odkazy a{display:inline-flex;align-items:center;border:1px solid var(--k-acc);color:var(--k-acc)!important;border-radius:999px;padding:10px 20px;font-size:14px;font-weight:600;text-decoration:none!important;transition:background-color .2s ease,color .2s ease}
+.ke-info-odkazy a:hover{background:var(--k-acc);color:#fff!important}
+@media (max-width:860px){.ke-info-hl{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1000px){.ke-info-kontakt{grid-template-columns:1fr;gap:10px}a.ke-info-k{display:grid;grid-template-columns:50px 1fr;column-gap:16px;row-gap:1px;align-items:center;padding:16px 18px}a.ke-info-k::before{grid-row:1/4;margin:0}a.ke-info-k b{font-size:17px}}
+@media (max-width:480px){.ke-info-hl{gap:10px}.ke-info-hl>div{padding:13px 14px}.ke-info-hl b{font-size:22px}.ke-info-ucet{flex-direction:column;align-items:flex-start}.ke-info-ucet__t{grid-template-columns:1fr;gap:0}.ke-info-ucet__t b{margin-bottom:6px}.pageArticleDetail:has(.ke-info)>header h1{font-size:26px!important}}
