@@ -695,3 +695,13 @@ a.ke-info-k:hover{transform:translateY(-3px);border-color:rgba(163,57,42,.3);box
 .ke-vop-stahnout>span{font-size:13.5px;line-height:1.45;color:#6e6c7a}
 @media (max-width:760px){.ke-vop-firma__g{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:420px){.ke-vop-firma{padding:16px}.ke-vop-firma__g{grid-template-columns:1fr;gap:10px}}
+
+/* ===== v15 (15. 10. 2026) ===== */
+/* Eurona ikony s popiskem v rozbalovacích sekcích – popisek se neořízne */
+#content details:has(.etooltip),.basic-description details:has(.etooltip),article details:has(.etooltip){overflow:visible!important}
+#content details[open]:has(.etooltip)::details-content,article details[open]:has(.etooltip)::details-content{overflow:visible}
+/* obchodní podmínky – úvod s údaji o prodávajícím v jednom rámečku */
+.ke-clanek .ke-vop-uvod2{margin:0 0 22px}
+.ke-clanek .ke-vop-uvod2>p{margin:0 0 18px!important;font-size:15.5px;line-height:1.7}
+.ke-vop-uvod2 .ke-box-titulek>span{font-weight:400;color:#6e6c7a;letter-spacing:0}
+.ke-vop-firma__g>.ke-vop-firma__w{grid-column:1/-1}
