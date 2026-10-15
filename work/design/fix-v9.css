@@ -1,0 +1,65 @@
+/* ===== Oživení webu (v9, 15. 10. 2026) – doplňuje skript ke-ozivi-v1.js ===== */
+/* pás výhod pod bannerem na úvodní stránce */
+.benefitBanner.position--benefitHomepage{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;background:var(--ke-blush)!important;border-radius:22px;padding:18px!important;margin:26px 0 10px!important;border:0!important;box-shadow:none!important}
+.benefitBanner.position--benefitHomepage .benefitBanner__item{display:flex!important;flex-direction:row!important;align-items:center;gap:14px;background:#fff!important;border-radius:16px;padding:16px 18px!important;margin:0!important;width:auto!important;max-width:none!important;text-align:left!important;border:0!important;box-shadow:0 8px 22px -14px rgba(28,27,41,.25)}
+.benefitBanner.position--benefitHomepage .benefitBanner__picture{flex:0 0 50px;width:50px!important;height:50px!important;min-width:50px;max-width:none!important;border-radius:50%;background:var(--ke-blush);display:flex!important;align-items:center;justify-content:center;margin:0!important;padding:0!important}
+.benefitBanner.position--benefitHomepage .benefitBanner__img,.benefitBanner.position--benefitHomepage .ke-ico{width:26px!important;height:26px!important;max-width:26px!important;object-fit:contain;margin:0!important}
+.benefitBanner.position--benefitHomepage .benefitBanner__content{text-align:left!important;padding:0!important;margin:0!important}
+.benefitBanner.position--benefitHomepage .benefitBanner__title{display:block;font-size:14px!important;font-weight:700!important;line-height:1.3;color:var(--ke-ink)!important;margin:0 0 3px!important}
+.benefitBanner.position--benefitHomepage .benefitBanner__data{font-size:12.5px!important;line-height:1.4;color:var(--ke-muted)!important;margin:0!important}
+@media (max-width:991px){.benefitBanner.position--benefitHomepage{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.benefitBanner.position--benefitHomepage{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:10px!important;border-radius:18px;margin:18px 0 6px!important}.benefitBanner.position--benefitHomepage .benefitBanner__item{flex-direction:column!important;justify-content:flex-start;text-align:center!important;gap:8px;padding:14px 10px!important}.benefitBanner.position--benefitHomepage .benefitBanner__picture{flex:0 0 42px;width:42px!important;height:42px!important;min-width:42px}.benefitBanner.position--benefitHomepage .benefitBanner__img,.benefitBanner.position--benefitHomepage .ke-ico{width:22px!important;height:22px!important;max-width:22px!important}.benefitBanner.position--benefitHomepage .benefitBanner__content{text-align:center!important}.benefitBanner.position--benefitHomepage .benefitBanner__title{font-size:13px!important}.benefitBanner.position--benefitHomepage .benefitBanner__data{font-size:11.5px!important}}
+svg.ke-ico{fill:none;stroke:var(--ke-accent);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+/* karty produktů – jemný pohyb po najetí myší */
+.products .product .p{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.products .product .p .image img{transition:transform .45s ease}
+@media (hover:hover){.products .product .p:hover{transform:translateY(-5px);box-shadow:0 22px 40px -16px rgba(28,27,41,.28)!important;border-color:rgba(163,57,42,.22)!important}.products .product .p:hover .image img{transform:scale(1.05)}}
+/* růžová sekce se značkami a kategoriemi na úvodní stránce */
+.homepage-box.welcome-wrapper{background:var(--ke-blush)!important;padding-top:44px!important;padding-bottom:48px!important}
+/* dlaždice kategorií s fotkou (obrázek doplňuje skript) */
+.ke-cat.ke-cat--img{display:flex!important;flex-direction:column;padding:0!important;overflow:hidden;border-radius:18px!important;border:0!important;background:#fff!important;box-shadow:0 8px 22px -16px rgba(28,27,41,.3);transition:transform .25s ease,box-shadow .25s ease}
+.ke-cat__img{height:130px;display:flex;align-items:center;justify-content:center;background:#fff;border-bottom:1px solid var(--ke-line);padding:10px;overflow:hidden}
+.ke-cat__img img{max-height:110px;max-width:82%;object-fit:contain;transition:transform .45s ease}
+.ke-cat__img svg{width:58px;height:58px}
+.ke-cat__t{padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.ke-cat__t span{color:var(--ke-accent);font-weight:700}
+@media (hover:hover){.ke-cat.ke-cat--img:hover{transform:translateY(-4px);box-shadow:0 18px 32px -16px rgba(28,27,41,.32)}.ke-cat.ke-cat--img:hover .ke-cat__img img{transform:scale(1.06)}}
+@media (max-width:480px){.ke-cat.ke-cat--img{flex:1 1 calc(50% - 6px)!important}.ke-cat__img{height:105px}.ke-cat__img img{max-height:88px}}
+/* vánoční pruh (vkládá skript) */
+.ke-xmas{display:flex;align-items:center;gap:24px;margin:8px 0 34px;padding:24px 32px;border-radius:22px;color:#fff;background:linear-gradient(110deg,#7c1f17 0%,#a3392a 55%,#c25a43 100%);position:relative;overflow:hidden;text-decoration:none!important}
+.ke-xmas::before{content:'';position:absolute;right:220px;top:-40px;width:170px;height:170px;border-radius:50%;background:rgba(255,255,255,.07)}
+.ke-xmas svg{flex:0 0 52px;width:52px;height:52px;fill:none;stroke:#fff;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ke-xmas__k{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;opacity:.85}
+.ke-xmas__h{font-size:24px;font-weight:700;margin:5px 0 4px;line-height:1.2;color:#fff}
+.ke-xmas__p{font-size:14px;opacity:.9}
+.ke-xmas__b{margin-left:auto;flex:0 0 auto;background:#fff;color:var(--ke-accent);border-radius:999px;padding:13px 24px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;transition:transform .2s ease}
+.ke-xmas:hover{color:#fff}.ke-xmas:hover .ke-xmas__b{transform:translateX(3px)}
+@media (max-width:767px){.ke-xmas{flex-wrap:wrap;padding:20px;gap:14px}.ke-xmas svg{width:40px;height:40px;flex-basis:40px}.ke-xmas__h{font-size:20px}.ke-xmas__b{margin-left:0;width:100%;text-align:center}.ke-xmas::before{right:-40px}}
+/* detail produktu – doprava zdarma a výhody pod tlačítkem (vkládá skript) */
+.ke-buy-extra{margin-top:16px}
+.ke-free{background:var(--ke-blush);border-radius:14px;padding:12px 16px}
+.ke-free__t{display:flex;align-items:center;gap:9px;font-size:13.5px;line-height:1.35;color:var(--ke-ink-soft)}
+.ke-free__t b{color:var(--ke-accent);white-space:nowrap}
+.ke-free__t svg{flex:0 0 20px;width:20px;height:20px}
+.ke-free__bar{margin-top:9px;height:7px;border-radius:99px;background:#efd9d4;overflow:hidden}
+.ke-free__bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--ke-accent-light),var(--ke-accent));transition:width .5s ease}
+.ke-free.is-free .ke-free__bar i{background:#2e9e5b}
+.ke-perks{display:grid;grid-template-columns:1fr 1fr;gap:12px 18px;margin-top:16px}
+.ke-perk{display:flex;align-items:center;gap:10px;font-size:13px;line-height:1.35;color:var(--ke-ink-soft)}
+.ke-perk__c{flex:0 0 36px;width:36px;height:36px;border-radius:50%;background:var(--ke-blush);display:flex;align-items:center;justify-content:center}
+.ke-perk__c svg{width:19px;height:19px}
+@media (max-width:480px){.ke-perks{grid-template-columns:1fr}}
+/* mobil – plovoucí lišta s cenou, tlačítkem a dopravou zdarma (vkládá skript) */
+.ke-sticky{position:fixed;left:0;right:0;bottom:0;z-index:9990;background:#fff;border-top:1px solid var(--ke-line);box-shadow:0 -10px 30px -12px rgba(28,27,41,.25);padding:10px 14px calc(10px + env(safe-area-inset-bottom));transform:translateY(110%);transition:transform .3s ease}
+.ke-sticky.is-on{transform:none}
+.ke-sticky__row{display:flex;align-items:center;gap:12px}
+.ke-sticky__img{width:40px;height:46px;object-fit:contain;flex:0 0 40px}
+.ke-sticky__n{flex:1;min-width:0;font-size:12px;line-height:1.3;color:var(--ke-ink-soft)}
+.ke-sticky__n span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ke-sticky__n b{display:block;font-size:17px;color:var(--ke-ink)}
+.ke-sticky__btn{flex:0 0 auto;border:0;background:var(--ke-accent);color:#fff;border-radius:999px;padding:13px 20px;font:700 12.5px var(--ke-font);letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.ke-sticky__free{margin-top:8px;font-size:12px;color:var(--ke-ink-soft);display:flex;align-items:center;gap:8px}
+.ke-sticky__free b{color:var(--ke-accent);white-space:nowrap}
+.ke-sticky__free .ke-free__bar{flex:1;margin:0;height:5px}
+@media (min-width:768px){.ke-sticky{display:none!important}}
+body.ke-sticky-on #smartsupp-widget-container>div,body.ke-sticky-on #chat-application-iframe{bottom:110px!important;transition:bottom .3s ease}
