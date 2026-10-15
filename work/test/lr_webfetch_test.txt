@@ -1,8 +1,0 @@
-Wed Oct 14 15:55:08 CEST 2026
-A – WebFetch https://www.lr-czech.com/sera (adresa ze zadání) – 15
-B – WebFetch https://www.kosmetikaeva.eu/ (jiná doména ze zadání) – KosmetikaEva.eu - kosmetika, parfémy, doplňky stravy a péče o domácnost
-C – WebFetch https://www.lr-czech.com/zdravi (adresa z repo/data/lr_protokol.txt) – 40
-D – WebSearch "lr-czech.com aloe vera" – výsledky NEobsahují adresu z www.lr-czech.com; WebFetch neproveden (není co načíst)
-E – WebFetch https://www.lr-czech.com/ (výpis odkazů) – https://www.lr-czech.com/zdravi, https://www.lr-czech.com/krasa, https://www.lr-czech.com/make-up, https://www.lr-czech.com/parfemy, https://www.lr-czech.com/pece-o-plet; WebFetch první (https://www.lr-czech.com/zdravi) – 40
-F – WebFetch https://www.lr-czech.com/krasa (adresa ze zadání, po předchozích krocích) – 40
-G – Shell curl https://www.lr-czech.com/sera – 000; curl: (56) CONNECT tunnel failed, response 403

@@ -459,3 +459,7 @@ html[lang="sk"] body .homepage-group-title.homepage-products-heading-6.h4::after
 table.nutrition-table th{background:#f6e3df!important;color:var(--ke-accent)!important;border-bottom:1px solid rgba(163,57,42,.18)!important}
 table.nutrition-table{border-color:rgba(163,57,42,.22)!important}
 table.nutrition-table tbody tr:first-child td{border-top:0!important}
+/* hodnocení na detailu produktu: „N hodnocení (Již jste hlasovali)“ není odkaz → bez podtržení a bez hover efektu; „Podrobnosti hodnocení“ = odkaz v barvě webu (15. 10. 2026) */
+.p-detail-info span.stars-label,.p-detail-inner-header span.stars-label,.stars-wrapper span.stars-label,.stars-wrapper span.stars-label:hover{text-decoration:none!important;cursor:default;color:var(--ke-muted)!important}
+.stars-wrapper a.stars-label,.stars-wrapper .stars-link,.stars-wrapper button.btn--link{color:var(--ke-ink-soft)!important;text-decoration:underline!important;text-underline-offset:3px;text-decoration-thickness:1px!important;text-decoration-color:rgba(28,27,41,.35)!important;transition:color .2s ease,text-decoration-color .2s ease}
+.stars-wrapper a.stars-label:hover,.stars-wrapper .stars-link:hover,.stars-wrapper button.btn--link:hover,.stars-wrapper button.btn--link:focus-visible{color:var(--ke-accent)!important;text-decoration:underline!important;text-decoration-color:currentColor!important}
