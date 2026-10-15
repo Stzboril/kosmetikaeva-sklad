@@ -528,3 +528,5 @@ table.nutrition-table tbody tr:first-child td{border-top:0!important}
 .p-detail-inner-header .stars-wrapper{margin-right:0!important;flex-wrap:wrap;row-gap:4px}
 .p-detail .stars-wrapper button.btn--link{white-space:nowrap}
 @media (max-width:480px){.p-detail .stars-wrapper .stars .star{width:14px!important;height:14px!important;min-width:14px!important}.p-detail .stars-wrapper span.stars-label,.p-detail .stars-wrapper button.btn--link{font-size:12.5px!important}.p-detail .stars-wrapper span.stars-label{margin-left:8px!important}}
+/* mobil a tablet: hodnocení až pod nadpisem (mezi nadpisem a fotkou) */
+@media (max-width:991px){.p-detail-inner>.p-detail-inner-header{display:flex;flex-direction:column}.p-detail-inner>.p-detail-inner-header>.h1,.p-detail-inner>.p-detail-inner-header>h1{order:1}.p-detail-inner>.p-detail-inner-header>.stars-wrapper{order:2;margin:10px 0 4px!important;justify-content:flex-start}.p-detail-inner>.p-detail-inner-header>.h1,.p-detail-inner>.p-detail-inner-header>.h1>h1{margin-bottom:0!important}}
