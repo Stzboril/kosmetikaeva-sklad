@@ -2,7 +2,7 @@ Thu Oct 15 06:40:04 CEST 2026
 pokus 2
 Stahování: nástroj WebFetch (cloudový běh, bez přístupu k počítači)
 https://www.lr-czech.com/zdravi – 40 řádků (1. pokus chyba PROVENANCE_REQUIRED, opakování úspěšné)
-https://www.lr-czech.com/krasa – 0 řádků (1. pokus chyba PROVENANCE_REQUIRED, opakování vrátilo 40 řádků bez kódu – nepoužitelné, vynecháno)
+https://www.lr-czech.com/krasa – 40 řádků (doplněno dodatečně v 06:48; ráno chyba PROVENANCE_REQUIRED a pak řádky bez kódu)
 https://www.lr-czech.com/aloe-vera-care – 40 řádků
 https://www.lr-czech.com/parfemy – 23 řádků
 https://www.lr-czech.com/proti-starnuti – 31 řádků
@@ -31,4 +31,5 @@ Ověření „není skladem“:
 27171-1 (pece-o-plet) – ANO
 27165-1 (sera) – NE → opraveno na skladem
 27167-1 (sera) – ANO
+27167-1 (krasa) – ANO
 Uloženo 217 produktů LR, z toho není skladem: 5
