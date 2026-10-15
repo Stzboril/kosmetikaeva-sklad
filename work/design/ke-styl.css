@@ -463,3 +463,74 @@ table.nutrition-table tbody tr:first-child td{border-top:0!important}
 .p-detail-info span.stars-label,.p-detail-inner-header span.stars-label,.stars-wrapper span.stars-label,.stars-wrapper span.stars-label:hover{text-decoration:none!important;cursor:default;color:var(--ke-muted)!important}
 .stars-wrapper a.stars-label,.stars-wrapper .stars-link,.stars-wrapper button.btn--link{color:var(--ke-ink-soft)!important;text-decoration:underline!important;text-underline-offset:3px;text-decoration-thickness:1px!important;text-decoration-color:rgba(28,27,41,.35)!important;transition:color .2s ease,text-decoration-color .2s ease}
 .stars-wrapper a.stars-label:hover,.stars-wrapper .stars-link:hover,.stars-wrapper button.btn--link:hover,.stars-wrapper button.btn--link:focus-visible{color:var(--ke-accent)!important;text-decoration:underline!important;text-decoration-color:currentColor!important}
+/* ===== Hvězdičky a hodnocení (v5, 15. 10. 2026) ===== */
+:root{--ke-star:#e8a317;--ke-star-off:#e6e3ea}
+/* hvězdičky všude (detail, karty produktů, okno hodnocení) – ostré SVG místo ikonového písma; poloviční hvězdička se zobrazí jako půlka */
+.stars .star,.stars a.star{position:relative!important;display:inline-block!important;width:15px!important;height:15px!important;min-width:15px!important;margin:0 2px 0 0!important;background:none!important;vertical-align:middle}
+.stars .star::before,.stars a.star::before{content:''!important;position:absolute!important;inset:0!important;width:auto!important;height:auto!important;font-size:0!important;background:var(--ke-star-off)!important;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 3.4l2.55 5.2 5.7.83-4.13 4.02.98 5.68L12 16.45l-5.1 2.68.98-5.68L3.75 9.43l5.7-.83z' fill='%23000' stroke='%23000' stroke-width='1.7' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 3.4l2.55 5.2 5.7.83-4.13 4.02.98 5.68L12 16.45l-5.1 2.68.98-5.68L3.75 9.43l5.7-.83z' fill='%23000' stroke='%23000' stroke-width='1.7' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
+.stars .star.star-on::before,.stars a.star-on::before{background:var(--ke-star)!important}
+.stars .star.star-half::before,.stars a.star-half::before{background:linear-gradient(90deg,var(--ke-star) 50%,var(--ke-star-off) 50%)!important}
+/* řádek s hodnocením na detailu produktu (mobil i počítač) */
+.p-detail .stars-wrapper,.p-detail-info .stars-wrapper{align-items:center}
+.p-detail .stars-wrapper .stars,.p-detail-info .stars-wrapper .stars{display:inline-flex!important;align-items:center}
+.p-detail .stars-wrapper .stars .star,.p-detail-info .stars-wrapper .stars .star{width:16px!important;height:16px!important;min-width:16px!important}
+.p-detail .stars-wrapper span.stars-label,.p-detail-info .stars-wrapper span.stars-label{margin-left:10px!important;font-size:13px!important;line-height:20px!important;color:var(--ke-muted)!important;text-decoration:none!important}
+.p-detail .stars-wrapper button.btn--link,.p-detail-info .stars-wrapper button.btn--link,.p-detail .stars-wrapper button.btn--link:not(:hover),.p-detail-info .stars-wrapper button.btn--link:not(:hover){margin-left:0!important;padding:0 0 0 13px!important;position:relative;font-size:13px!important;line-height:20px!important;font-weight:500!important;text-decoration:none!important;color:var(--ke-accent)!important}
+.p-detail .stars-wrapper button.btn--link::before,.p-detail-info .stars-wrapper button.btn--link::before{content:'';position:absolute;left:5px;top:50%;width:3px;height:3px;margin-top:-1.5px;border-radius:50%;background:#c9c6d0}
+.p-detail .stars-wrapper button.btn--link::after,.p-detail-info .stars-wrapper button.btn--link::after{content:'\00a0›';font-weight:600}
+.p-detail .stars-wrapper button.btn--link:hover,.p-detail-info .stars-wrapper button.btn--link:hover{color:var(--ke-accent-hover)!important;text-decoration:underline!important;text-underline-offset:3px}
+/* kód produktu a „Více informací“ pod názvem */
+.p-detail-info{display:flex;flex-wrap:wrap;align-items:center;column-gap:22px;row-gap:8px}
+.p-detail-info .stars-wrapper{margin-right:0!important}
+.p-detail-info .p-code{display:inline-flex;align-items:center;gap:5px;font-size:12.5px!important;line-height:1;color:var(--ke-muted)!important;background:var(--ke-soft);border-radius:999px;padding:6px 12px}
+.p-detail-info .p-code .p-code-label{color:var(--ke-muted)!important;font-weight:400}
+.p-detail-info .p-code>span:last-child{color:var(--ke-ink-soft)!important;font-weight:600;letter-spacing:.02em}
+.p-detail .vice a,.p-info-wrapper .vice a{color:var(--ke-accent)!important;font-weight:500;font-size:14px;text-decoration:none!important}
+.p-detail .vice a:hover,.p-info-wrapper .vice a:hover{color:var(--ke-accent-hover)!important;text-decoration:underline!important;text-underline-offset:3px}
+/* okno „Hodnocení produktu“ */
+#colorbox.ratingDialog #cboxContent,#colorbox.ratingDialog #cboxLoadedContent{border-radius:22px!important;background:#fff!important}
+#colorbox.ratingDialog .content-modal{padding:30px 34px 26px!important}
+#colorbox.ratingDialog .content-modal h2{font-size:22px!important;font-weight:700!important;text-align:center;margin:0 0 22px!important;color:var(--ke-ink)!important}
+#colorbox.ratingDialog .rate-wrap{display:flex!important;align-items:center;gap:28px;background:var(--ke-soft);border-radius:16px;padding:20px 24px!important;margin-bottom:22px!important}
+#colorbox.ratingDialog .rate-average-wrap{width:auto!important;flex:0 0 auto;text-align:center;padding-right:26px!important;border-right:1px solid var(--ke-line)}
+#colorbox.ratingDialog .rate-average-inner{flex-direction:column!important;align-items:center!important}
+#colorbox.ratingDialog .rate-average{font-size:44px!important;line-height:1!important;color:var(--ke-ink)!important;margin:0 0 8px!important}
+#colorbox.ratingDialog .rate-star-wrap{margin:0!important;display:flex;flex-direction:column;align-items:center;gap:6px}
+#colorbox.ratingDialog .rate-star-wrap .stars{width:auto!important;height:auto!important;display:inline-flex!important}
+#colorbox.ratingDialog .rate-average-wrap .stars .star{width:18px!important;height:18px!important;min-width:18px!important}
+#colorbox.ratingDialog .rate-star-wrap .stars-label{display:block!important;font-size:13px!important;color:var(--ke-muted)!important;text-decoration:none!important}
+#colorbox.ratingDialog .votes{flex:1 1 auto;min-width:0}
+#colorbox.ratingDialog .rate-list{position:relative;display:grid!important;grid-template-columns:30px 1fr 30px!important;align-items:center;gap:10px;margin:0 0 7px!important}
+#colorbox.ratingDialog .rate-list .rate-star,#colorbox.ratingDialog .rate-list .rate-star.stars{margin:0!important;width:auto!important;min-width:0!important;justify-content:flex-start!important;gap:4px;font-size:13px;font-weight:600;color:var(--ke-ink-soft)}
+#colorbox.ratingDialog .rate-list .rate-star::after{content:none!important}
+#colorbox.ratingDialog .rate-list .rate-star .star{width:12px!important;height:12px!important;min-width:12px!important;background-image:none!important}
+#colorbox.ratingDialog .rate-list .rate-star .star::before{background:var(--ke-star)!important}
+#colorbox.ratingDialog .rate-block{position:static!important;overflow:visible!important;height:8px!important;border-radius:99px;background:#e9e6ee;display:block!important}
+#colorbox.ratingDialog .rate-bar{position:static!important;display:block!important;height:8px!important;width:var(--rate-bar-width)!important;background:var(--ke-star)!important;border-radius:99px}
+#colorbox.ratingDialog .rate-list .rate-count{position:absolute!important;right:0;left:auto;top:50%;transform:translateY(-50%);text-align:right;font-size:12.5px!important;color:var(--ke-muted)!important}
+#colorbox.ratingDialog .vote-form h3{display:block!important;font-size:16px!important;font-weight:700;text-align:center;margin:4px 0 4px!important;color:var(--ke-ink)}
+#colorbox.ratingDialog .rating-stars-description{font-size:13px!important;color:var(--ke-muted)!important;text-align:center}
+#colorbox.ratingDialog .rating-stars-wrapper{gap:6px;margin:8px 0 4px!important}
+#colorbox.ratingDialog label.rating-star{width:42px!important;height:42px!important;cursor:pointer;position:relative}
+#colorbox.ratingDialog label.rating-star::before{content:''!important;position:absolute;inset:3px;width:auto!important;height:auto!important;font-size:0!important;background:var(--ke-star-off)!important;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 3.4l2.55 5.2 5.7.83-4.13 4.02.98 5.68L12 16.45l-5.1 2.68.98-5.68L3.75 9.43l5.7-.83z' fill='%23000' stroke='%23000' stroke-width='1.7' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 3.4l2.55 5.2 5.7.83-4.13 4.02.98 5.68L12 16.45l-5.1 2.68.98-5.68L3.75 9.43l5.7-.83z' fill='%23000' stroke='%23000' stroke-width='1.7' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;transition:background-color .15s ease,transform .15s ease}
+#colorbox.ratingDialog label.rating-star.full::before,#colorbox.ratingDialog .rating-stars-wrapper:hover label.rating-star::before{background:var(--ke-star)!important}
+#colorbox.ratingDialog .rating-stars-wrapper:hover label.rating-star:hover~label.rating-star::before{background:var(--ke-star-off)!important}
+#colorbox.ratingDialog label.rating-star:hover::before{transform:scale(1.12)}
+#colorbox.ratingDialog p.rating-star-description{font-size:13px;color:var(--ke-ink-soft);min-height:20px;text-align:center}
+#colorbox.ratingDialog .dialog__actionButtons{text-align:center;margin-top:6px!important}
+#colorbox.ratingDialog .js-rating-submit{background:var(--ke-accent)!important;border-color:var(--ke-accent)!important;color:#fff!important;border-radius:999px!important;padding:12px 30px!important;font-weight:600!important;letter-spacing:.02em}
+#colorbox.ratingDialog .js-rating-submit:hover{background:var(--ke-accent-hover)!important;border-color:var(--ke-accent-hover)!important}
+@media (max-width:600px){#colorbox.ratingDialog .rate-wrap{flex-direction:column;gap:16px}#colorbox.ratingDialog .rate-average-wrap{border-right:0;padding-right:0!important;border-bottom:1px solid var(--ke-line);padding-bottom:14px!important}#colorbox.ratingDialog .votes{width:100%}#colorbox.ratingDialog .content-modal{padding:24px 18px!important}}
+/* odkazy pod cenou na detailu (Značka, Dotaz k produktu, Hlídací pes, Sdílet, Tisk) */
+.p-info-wrapper .znacka a,.p-info-wrapper .link-icons a.link-icon{color:var(--ke-ink-soft)!important;text-decoration:none!important;font-size:13.5px;transition:color .2s ease}
+.p-info-wrapper .znacka a:hover,.p-info-wrapper .link-icons a.link-icon:hover{color:var(--ke-accent)!important;text-decoration:underline!important;text-underline-offset:3px}
+.p-info-wrapper .link-icons a.link-icon::before{color:var(--ke-muted)!important}
+.p-info-wrapper .link-icons a.link-icon:hover::before{color:var(--ke-accent)!important}
+/* hvězdičky v řadě bez zalomení (karty produktů měly pevnou šířku pro staré ikony) */
+.stars.star-list{display:inline-flex!important;flex-wrap:nowrap!important;align-items:center;width:auto!important;min-width:0!important}
+.stars.star-list .star:last-of-type{margin-right:0!important}
+.product .stars .star,.products .stars .star{width:14px!important;height:14px!important;min-width:14px!important}
+/* mobil: řádek s hodnocením na jeden řádek */
+.p-detail-inner-header .stars-wrapper{margin-right:0!important;flex-wrap:wrap;row-gap:4px}
+.p-detail .stars-wrapper button.btn--link{white-space:nowrap}
+@media (max-width:480px){.p-detail .stars-wrapper .stars .star{width:14px!important;height:14px!important;min-width:14px!important}.p-detail .stars-wrapper span.stars-label,.p-detail .stars-wrapper button.btn--link{font-size:12.5px!important}.p-detail .stars-wrapper span.stars-label{margin-left:8px!important}}
