@@ -112,8 +112,8 @@ body:not(.carousel-yes) .cart-count:not(.full)::after,.cart-count:not(.full)::af
 }
 .btn.btn-default:hover,a.btn.btn-default:hover{background-color:var(--ke-ink)!important;border-color:var(--ke-ink)!important}
 /* „Detail“ a další sekundární tlačítka jako obrys */
-.btn.btn-primary,a.btn.btn-primary{background:#fff!important;color:var(--ke-ink)!important;border:1px solid var(--ke-ink)!important}
-.btn.btn-primary:hover,a.btn.btn-primary:hover{background:var(--ke-ink)!important;color:#fff!important}
+.btn.btn-primary,a.btn.btn-primary{background:#fff!important;color:var(--ke-accent)!important;border:1px solid var(--ke-accent)!important}
+.btn.btn-primary:hover,a.btn.btn-primary:hover{background:var(--ke-accent)!important;color:#fff!important;border-color:var(--ke-accent)!important}
 .btn.btn-ghost,.btn.btn-ghost:hover{border-radius:999px!important;background:#fff!important;color:var(--ke-ink)!important;border:1px solid var(--ke-ink)!important;
   letter-spacing:.12em;text-transform:uppercase;font-size:12px!important;font-weight:600!important}
 .btn.btn-ghost:hover{background:var(--ke-ink)!important;color:#fff!important}
