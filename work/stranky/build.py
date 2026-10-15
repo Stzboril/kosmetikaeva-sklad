@@ -22,8 +22,10 @@ def doprava(L):
           '<div class="ke-karta" id="Zasilkovna"><img class="ke-info-logo" src="%s" alt="Zásilkovna"><span class="ke-karta-stitek">Nejoblíbenější</span><h3>Výdejní místo nebo Z-BOX</h3><p>Zásilku si vyzvednete na vybrané pobočce Zásilkovny, na partnerském výdejním místě nebo v Z-BOXu. Jakmile bude připravená, přijde vám SMS s kódem pro vyzvednutí. <a href="https://www.zasilkovna.cz/pobocky" target="_blank" rel="noopener">Najít výdejní místo ›</a></p><div class="ke-info-cena"><b>80 Kč</b>, nad 2 500 Kč %s</div></div>'
           '<div class="ke-karta" id="doruceni_kuryrem"><img class="ke-info-logo" src="%s" alt="Zásilkovna"><span class="ke-karta-stitek">Až ke dveřím</span><h3>Kurýr na adresu</h3><p>Zásilku vám přiveze kurýr Zásilkovny až domů na adresu uvedenou v objednávce. Před doručením vám dá vědět, kdy dorazí.</p><div class="ke-info-cena"><b>99 Kč</b>, od 2 500 Kč <b>95 Kč</b>, nad 3 500 Kč %s</div></div>'
           '</div>' % (Z_LOGO, Z.format(zd), Z_LOGO, Z.format(zd)))
-        h.append('<h2 id="CZ">Ceník dopravy</h2>\n<div class="ke-tab-obal"><table class="ke-tab"><thead><tr><th>Doprava</th><th>Do 2 500 Kč</th><th>2 500–3 500 Kč</th><th>Nad 3 500 Kč</th></tr></thead><tbody>'
-          '<tr><td>Výdejní místo / Z-BOX</td><td>80 Kč</td><td>%s</td><td>%s</td></tr><tr><td>Kurýr na adresu</td><td>99 Kč</td><td>95 Kč</td><td>%s</td></tr></tbody></table></div>' % ((Z.format(zd),)*3))
+        h.append('<h2 id="CZ">Ceník dopravy</h2>\n<div class="ke-tab-obal"><table class="ke-tab ke-info-cenik"><thead><tr><th>Objednávka</th><th>Výdejní místo</th><th>Kurýr na adresu</th></tr></thead><tbody>'
+          '<tr><td><span class="ke-nw">do 2&nbsp;500&nbsp;Kč</span></td><td>80&nbsp;Kč</td><td>99&nbsp;Kč</td></tr>'
+          '<tr><td><span class="ke-nw">2&nbsp;500–3&nbsp;500&nbsp;Kč</span></td><td>%s</td><td>95&nbsp;Kč</td></tr>'
+          '<tr><td><span class="ke-nw">nad 3&nbsp;500&nbsp;Kč</span></td><td>%s</td><td>%s</td></tr></tbody></table></div>' % ((Z.format(zd),)*3))
         h.append('<p class="ke-pozn">Balné je už v ceně dopravy. Nejnižší možná hodnota objednávky je 130 Kč. Elektronické dárkové poukazy posíláme e-mailem zdarma.</p>')
         h.append('<h2>Jak to u nás funguje</h2>\n<ol class="ke-cisla">'
           '<li><strong>Pečlivě zabalíme.</strong> Zboží balíme do papírových krabic, parfémy a křehké věci navíc do bublinkové fólie.</li>'
@@ -44,8 +46,9 @@ def doprava(L):
           '<div class="ke-karta" id="Zasilkovna"><span class="ke-karta-stitek">Najobľúbenejšie</span><h3>Výdajné miesto alebo Z-BOX</h3><p>Zásielku si vyzdvihnete na vybranej pobočke Packety, na partnerskom výdajnom mieste alebo v Z-BOXe. Keď bude pripravená, príde vám SMS s kódom na vyzdvihnutie. <a href="https://www.zasilkovna.cz/pobocky" target="_blank" rel="noopener">Nájsť výdajné miesto ›</a></p><div class="ke-info-cena"><b>6 €</b>, nad 120 € %s</div></div>'
           '<div class="ke-karta" id="doruceni_kuryrem"><span class="ke-karta-stitek">Až k dverám</span><h3>Kuriér na adresu</h3><p>Zásielku vám prinesie kuriér Packety až domov na adresu uvedenú v objednávke. Pred doručením vám dá vedieť, kedy príde.</p><div class="ke-info-cena"><b>6,70 €</b>, nad 120 € %s</div></div>'
           '</div>' % (Z.format(zd), Z.format(zd)))
-        h.append('<h2 id="SK">Cenník dopravy</h2>\n<div class="ke-tab-obal"><table class="ke-tab"><thead><tr><th>Doprava</th><th>Do 120 €</th><th>Nad 120 €</th></tr></thead><tbody>'
-          '<tr><td>Výdajné miesto / Z-BOX</td><td>6 €</td><td>%s</td></tr><tr><td>Kuriér na adresu</td><td>6,70 €</td><td>%s</td></tr></tbody></table></div>' % ((Z.format(zd),)*2))
+        h.append('<h2 id="SK">Cenník dopravy</h2>\n<div class="ke-tab-obal"><table class="ke-tab ke-info-cenik"><thead><tr><th>Objednávka</th><th>Výdajné miesto</th><th>Kuriér na adresu</th></tr></thead><tbody>'
+          '<tr><td><span class="ke-nw">do 120&nbsp;€</span></td><td>6&nbsp;€</td><td>6,70&nbsp;€</td></tr>'
+          '<tr><td><span class="ke-nw">nad 120&nbsp;€</span></td><td>%s</td><td>%s</td></tr></tbody></table></div>' % ((Z.format(zd),)*2))
         h.append('<p class="ke-pozn">Balné je už v cene dopravy. Najnižšia možná hodnota objednávky je 12 €. Elektronické darčekové poukážky posielame e-mailom zadarmo.</p>')
         h.append('<h2>Ako to u nás funguje</h2>\n<ol class="ke-cisla">'
           '<li><strong>Starostlivo zabalíme.</strong> Tovar balíme do papierových krabíc, parfumy a krehké veci navyše do bublinkovej fólie.</li>'
