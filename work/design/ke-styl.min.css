@@ -642,3 +642,30 @@ a.ke-info-k:hover{transform:translateY(-3px);border-color:rgba(163,57,42,.3);box
 
 /* horní lišta – všechny odkazy vedle sebe (prázdný blok kontaktů skrytý), v12 15. 10. 2026 */
 @media (min-width:992px){.top-navigation-bar .container>.top-navigation-contacts{display:none!important}.top-navigation-bar .container>.top-navigation-menu{flex:1 1 auto!important;min-width:0}.top-navigation-bar .container>.top-navigation-tools{flex:0 0 auto!important;width:auto!important}}
+
+/* ===== Obchodní podmínky (v13, 15. 10. 2026) ===== */
+.ke-vop .ke-vop-uvod p{margin:0}
+.ke-vop-obsah{background:#fff;border:1px solid var(--k-line);border-radius:18px;padding:18px 24px 14px;margin:26px 0 8px;box-shadow:0 8px 24px rgba(28,27,41,.05)}
+.ke-clanek .ke-vop-obsah ol{list-style:none!important;margin:10px 0 0!important;padding:0!important;columns:2;column-gap:32px}
+.ke-clanek .ke-vop-obsah li{break-inside:avoid;margin:0 0 4px!important;padding:0!important;list-style:none!important}
+.ke-vop-obsah li::marker{content:""}
+.ke-clanek .ke-vop-obsah a{display:flex;gap:10px;align-items:baseline;padding:4px 0;font-size:14.5px;line-height:1.45;color:var(--k-ink)!important;text-decoration:none!important}
+.ke-vop-obsah a span{flex:0 0 28px;color:var(--k-acc);font-weight:700}
+.ke-clanek .ke-vop-obsah a:hover{color:var(--k-acc)!important}
+.ke-clanek h2.ke-vop-h{display:flex;align-items:center;gap:14px;font-size:22px!important}
+.ke-vop [id]{scroll-margin-top:110px}
+.ke-vop-n{flex:0 0 38px;height:38px;border-radius:50%;background:var(--k-blush);color:var(--k-acc);font-size:16px;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
+.ke-clanek .ke-vop-b,.ke-clanek .ke-vop-p{position:relative;padding-left:50px!important;margin:0 0 10px!important;font-size:15.5px;line-height:1.7}
+.ke-clanek .ke-vop-p{padding-left:80px!important}
+.ke-vop-c{position:absolute;left:0;top:0;color:var(--k-acc);font-weight:700}
+.ke-vop-p .ke-vop-c{left:50px}
+.ke-vop-stav{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;line-height:1.6;padding:1px 10px;border-radius:999px;background:#f6e3df;color:var(--k-acc)}
+.ke-vop-stav--ok{background:#e3f3e9;color:#2e8b57}
+.ke-vop-stav--konec{background:#eeedf2;color:#6e6c7a}
+.ke-vop-priloha{background:var(--k-blush);border-radius:18px;padding:4px 26px 18px;margin:40px 0 0}
+.ke-vop-priloha+.ke-vop-priloha{margin-top:20px}
+.ke-clanek .ke-vop-priloha h2{font-size:21px!important;margin-top:26px!important}
+.ke-clanek .ke-vop-priloha h3{font-size:17px!important;margin-top:16px!important}
+.ke-vop-priloha p{font-size:15px}
+@media (max-width:640px){.ke-clanek .ke-vop-obsah ol{columns:1}.ke-clanek .ke-vop-b{padding-left:42px!important}.ke-clanek .ke-vop-p{padding-left:66px!important}.ke-vop-p .ke-vop-c{left:42px}.ke-clanek h2.ke-vop-h{font-size:19px!important;gap:10px}.ke-vop-n{flex-basis:32px;height:32px;font-size:14px}.ke-vop-priloha{padding:2px 16px 14px}.ke-clanek .ke-vop-b,.ke-clanek .ke-vop-p{font-size:15px}}
+.ke-vop a{overflow-wrap:anywhere}
