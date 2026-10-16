@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 16.10.2026 v 05:57.
+Kontrola u dodavatelů proběhla 16.10.2026 v 11:00.
 
 - **Eurona:** zkontrolováno 541 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 16.10.2026 v 05:57.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (8 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (9 produktů)
 
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-spray--prvni-pomoci--500-ml-2/) (20600-110)
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Sun SPF 50 Anti-aging opalovací fluid 50 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-anti-aging-opalovaci-fluid-50-ml/) (23114-101)
@@ -15,6 +15,7 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m043 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m043-150-ml/) (M043G)
+- ❌ Nedostupné → 0 ks: [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 
 ## Ceny ke schválení

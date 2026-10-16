@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-16T05:57+02:00",
+"cas": "2026-10-16T11:00+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -5123,7 +5123,7 @@
 },
 "SETW190": {
 "dop": 870.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w190-d363318/"
 },
 "SETW193": {
