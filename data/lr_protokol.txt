@@ -1,35 +1,10 @@
-Thu Oct 15 06:40:04 CEST 2026
-pokus 2
-Stahování: nástroj WebFetch (cloudový běh, bez přístupu k počítači)
-https://www.lr-czech.com/zdravi – 40 řádků (1. pokus chyba PROVENANCE_REQUIRED, opakování úspěšné)
-https://www.lr-czech.com/krasa – 40 řádků (doplněno dodatečně v 06:48; ráno chyba PROVENANCE_REQUIRED a pak řádky bez kódu)
-https://www.lr-czech.com/aloe-vera-care – 40 řádků
-https://www.lr-czech.com/parfemy – 23 řádků
-https://www.lr-czech.com/proti-starnuti – 31 řádků
-https://www.lr-czech.com/pece-o-telo – 40 řádků
-https://www.lr-czech.com/zdravi-reseni – 28 řádků
-https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
-https://www.lr-czech.com/denni-nocni-ocni – 23 řádků
-https://www.lr-czech.com/make-up – 26 řádků
-https://www.lr-czech.com/pece-o-plet – 40 řádků
-https://www.lr-czech.com/sera – 15 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – 5 řádků
-https://www.lr-czech.com/specialiste – 32 řádků
-Ověření „není skladem“:
-27167-1 (aloe-vera-care) – ANO
-27166-1 (aloe-vera-care) – ANO
-20676-101 (aloe-vera-care) – NE → opraveno na skladem
-27170-1 (pece-o-telo) – ANO
-27171-1 (pece-o-telo) – ANO
-23112-101 (pece-o-telo-ochrana-před-sluncem) – ANO
-27167-1 (denni-nocni-ocni) – ANO
-27167-1 (pece-o-plet) – ANO
-27166-1 (pece-o-plet) – NE → opraveno na skladem
-20676-101 (pece-o-plet) – ANO
-27170-1 (pece-o-plet) – ANO
-27171-1 (pece-o-plet) – ANO
-27165-1 (sera) – NE → opraveno na skladem
-27167-1 (sera) – ANO
-27167-1 (krasa) – ANO
-Uloženo 217 produktů LR, z toho není skladem: 5
+Fri Oct 16 05:33:52 CEST 2026
+pokus 1
+Stahování: nástroj WebFetch (cloudová relace, bez přístupu k počítači)
+https://www.lr-czech.com/zdravi – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas potvrzena), i při opakování
+https://www.lr-czech.com/krasa – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas potvrzena), i při opakování
+https://www.lr-czech.com/aloe-vera-care – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas potvrzena), i při opakování
+Zbylých 12 stránek přeskočeno: první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED.
+Ověření „není skladem“: nic k ověření (0 řádků).
+--- výstup lr_ulozit.py ---
+Podezřele málo produktů LR (0), neukládám.
