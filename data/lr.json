@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-15T06:48+02:00",
+"cas": "2026-10-16T05:57+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -59,13 +59,13 @@
 "cena": 469.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20604-201": {
 "cena": 959.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20606-101": {
 "cena": null,
@@ -77,25 +77,25 @@
 "cena": 399.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20611-301": {
 "cena": 275.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20612-201": {
 "cena": 399.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20630-301": {
 "cena": 429.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20631-401": {
 "cena": 459.0,
@@ -107,19 +107,19 @@
 "cena": 559.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20639-201": {
 "cena": 629.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20643-401": {
 "cena": 199.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20647-101": {
 "cena": 499.0,
@@ -215,7 +215,7 @@
 "cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20730-101": {
 "cena": 619.0,
@@ -227,7 +227,7 @@
 "cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20783": {
 "cena": null,
@@ -365,7 +365,7 @@
 "cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "27166-1": {
 "cena": null,
@@ -377,7 +377,7 @@
 "cena": null,
 "nazev": "",
 "skladem": false,
-"url": "https://www.lr-czech.com/aloe-vera-care"
+"url": "https://www.lr-czech.com/krasa"
 },
 "27170-1": {
 "cena": 489.0,
@@ -581,127 +581,127 @@
 "cena": 1389.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29022-2": {
 "cena": 1389.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29022-3": {
 "cena": 1389.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29023-1": {
 "cena": 1059.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29024-1": {
 "cena": 795.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29026-1": {
 "cena": 795.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29027-1": {
 "cena": 1009.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29028-1": {
 "cena": 1329.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29029-1": {
 "cena": 745.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29030-1": {
 "cena": 535.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29030-2": {
 "cena": 535.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29031-1": {
 "cena": 665.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29031-2": {
 "cena": 665.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29031-3": {
 "cena": 665.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29031-4": {
 "cena": 665.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29032-1": {
 "cena": 1059.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29032-2": {
 "cena": 1059.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29032-3": {
 "cena": 1059.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29032-4": {
 "cena": 1059.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29033-1": {
 "cena": 795.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29033-2": {
 "cena": 795.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/make-up"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29068": {
 "cena": 10069.0,
@@ -829,6 +829,12 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/parfemy"
 },
+"30813-1": {
+"cena": 3679.0,
+"nazev": "",
+"skladem": true,
+"url": "https://www.lr-czech.com/parfemy"
+},
 "31010-1": {
 "cena": 3679.0,
 "nazev": "",
@@ -842,12 +848,6 @@
 "url": "https://www.lr-czech.com/parfemy"
 },
 "31012-1": {
-"cena": 3679.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"31013-1": {
 "cena": 3679.0,
 "nazev": "",
 "skladem": true,
@@ -881,7 +881,7 @@
 "cena": 8569.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70107-1": {
 "cena": 829.0,
@@ -893,31 +893,31 @@
 "cena": 8339.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-2": {
 "cena": 8339.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-3": {
 "cena": 8339.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-4": {
 "cena": 8339.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70111-1": {
 "cena": 14929.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "71011-1": {
 "cena": 739.0,
@@ -971,7 +971,7 @@
 "cena": 655.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80301-698": {
 "cena": 755.0,
@@ -1151,7 +1151,7 @@
 "cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "81240-19": {
 "cena": 1195.0,
