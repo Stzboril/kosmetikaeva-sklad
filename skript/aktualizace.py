@@ -176,6 +176,54 @@ def najdi(kod, katalog):
     return None
 
 
+NOVE_JSON = "data/nove_u_dodavatele.json"    # kdy se který produkt u dodavatele objevil poprvé
+NOVE_CSV = "nove_u_dodavatele.csv"            # úplný seznam produktů dodavatelů, které e-shop nemá
+NOVE_IGNOROVAT = set()  # data/nove_ignorovat.csv – produkty dodavatele, které na e-shop nechceme
+NOVE_DNI = 14           # jak dlouho se nový produkt ukazuje ve zprávě
+
+
+def nove_u_dodavatele(katalogy, eshop, ted):
+    """Produkty dodavatelů, které na e-shopu nejsou (ani mezi skrytými známými produkty).
+    Vrací (seznam položek, výchozí běh True/False)."""
+    znam = dict(eshop)
+    if os.path.exists(SNIMEK):  # i skryté produkty e-shopu, ať se nehlásí jako nové
+        for k, z in json.load(open(SNIMEK, encoding="utf-8")).items():
+            znam.setdefault(k, z)
+    pouzite = {}
+    for kod, p in znam.items():
+        if p.get("znacka") in katalogy:
+            sup = najdi(kod, katalogy[p["znacka"]])
+            if sup is not None:
+                pouzite.setdefault(p["znacka"], set()).add(id(sup))
+
+    p_json = cesta(*NOVE_JSON.split("/"))
+    vychozi = not os.path.exists(p_json)
+    historie = {} if vychozi else json.load(open(p_json, encoding="utf-8"))
+    dnes = ted.date().isoformat()
+    polozky = []
+    for znacka, katalog in katalogy.items():
+        for kod, sup in katalog.items():
+            klic = f"{znacka}:{kod}"
+            if id(sup) in pouzite.get(znacka, set()) or kod in NOVE_IGNOROVAT or klic.upper() in NOVE_IGNOROVAT:
+                continue
+            h = historie.setdefault(klic, {"od": "výchozí" if vychozi else dnes})
+            h["naposledy"] = dnes
+            polozky.append({"znacka": znacka, "kod": kod, "od": h["od"], **sup})
+    # produkty, které dodavatel přestal nabízet, zapomeneme po 30 dnech
+    hranice = (ted.date() - timedelta(days=30)).isoformat()
+    historie = {k: v for k, v in historie.items() if v.get("naposledy", dnes) >= hranice}
+    with open(p_json, "w", encoding="utf-8") as f:
+        json.dump(historie, f, ensure_ascii=False, indent=0, sort_keys=True)
+    polozky.sort(key=lambda x: (x["znacka"], not x["skladem"], x["kod"]))
+    zapis_csv("prehled/" + NOVE_CSV,
+              ["vyrobce", "kod", "nazev", "skladem", "doporucena_cena", "navrzena_cena", "od", "url"],
+              [[x["znacka"], x["kod"], " ".join((x.get("nazev") or "").split()), "ano" if x["skladem"] else "ne",
+                f"{x['cena']:.0f}" if x.get("cena") else "",
+                f"{nova_cena(x['cena']):.0f}" if x.get("cena") else "", x["od"], x.get("url", "")]
+               for x in polozky])
+    return polozky, vychozi
+
+
 def odkaz(nazev, url):
     nazev = nazev.replace("|", "/")
     return f"[{nazev}]({url})" if url else nazev
@@ -189,6 +237,8 @@ def main():
         NEMENIT_CENU.add(r["kod"].strip().upper())
     for r in nacti_csv("data/nesledovat.csv"):
         NESLEDOVAT.add(r["kod"].strip().upper())
+    for r in nacti_csv("data/nove_ignorovat.csv"):
+        NOVE_IGNOROVAT.add(r["kod"].strip().upper())
     for r in nacti_csv("data/essens_url.csv"):
         ESSENS_URL[r["kod"].strip().upper()] = r["url"].strip()
     parove = {r["code"].strip().upper(): r["pairCode"].strip() for r in nacti_csv("data/eshop_kody.csv")}
@@ -324,6 +374,34 @@ def main():
               "Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.", ""]
         for p in nenalezeno:
             z.append(f"- {odkaz(p['nazev'], p['url'])} ({p['kod']})")
+
+    # ---- nové produkty u dodavatelů, které e-shop nemá
+    nove, vychozi = nove_u_dodavatele(katalogy, eshop, ted)
+    hranice = (ted.date() - timedelta(days=NOVE_DNI - 1)).isoformat()
+    cerstve = [x for x in nove if x["od"] != "výchozí" and x["od"] >= hranice]
+    po_znackach = ", ".join(f"{zn} {sum(1 for x in nove if x['znacka'] == zn)}"
+                            for zn in ("Eurona", "Essens", "LR") if any(x["znacka"] == zn for x in nove))
+    z += ["", f"## Nové u dodavatele ({len(cerstve)})", ""]
+    if vychozi:
+        z.append("První přehled: zatím se jen zaznamenalo, co dodavatelé nabízejí navíc. "
+                 "Od příští kontroly se tu ukážou produkty, které dodavatel nově přidá.")
+    elif cerstve:
+        z.append(f"Produkty, které se u dodavatele objevily za posledních {NOVE_DNI} dní a na e-shopu nejsou. "
+                 "Navržená cena = doporučená − 8 % podle pravidla.")
+        z += ["", "| Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |", "|---|---|---|:-:|--:|--:|--:|"]
+        for x in sorted(cerstve, key=lambda x: (x["od"], x["znacka"], x["kod"]), reverse=True):
+            nazev = " ".join((x.get("nazev") or "").split()) or "(název neuveden)"
+            dop = f"{x['cena']:.0f} Kč" if x.get("cena") else "–"
+            nav = f"{nova_cena(x['cena']):.0f} Kč" if x.get("cena") else "–"
+            od = datetime.fromisoformat(x["od"]).strftime("%d.%m.")
+            z.append(f"| {x['znacka']} | {odkaz(nazev, x.get('url'))} | {x['kod']} | "
+                     f"{'✅' if x['skladem'] else '❌'} | {dop} | {nav} | {od} |")
+    else:
+        z.append(f"Za posledních {NOVE_DNI} dní dodavatelé nepřidali nic, co by e-shop neměl.")
+    if nove:
+        z += ["", f"Celkem dodavatelé nabízejí {len(nove)} produktů, které na e-shopu nejsou ({po_znackach}) – "
+                  f"úplný seznam: [{NOVE_CSV}]({raw.replace('ke_importu', 'prehled')}/{NOVE_CSV}). Produkt, který na e-shop nechcete, "
+                  "stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat."]
     with open(cesta("zprava.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(z) + "\n")
 

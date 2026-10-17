@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ke_importu/ data/stav.json data/eshop_produkty.json zprava.md
+          git add ke_importu/ data/stav.json data/eshop_produkty.json data/nove_u_dodavatele.json prehled/ zprava.md
           # nové upozornění jen když se změnilo, co je potřeba naimportovat
           if git diff --cached --quiet -- ke_importu/; then echo "nove=0" >> "$GITHUB_OUTPUT"; else echo "nove=1" >> "$GITHUB_OUTPUT"; fi
           if ! git diff --cached --quiet; then
