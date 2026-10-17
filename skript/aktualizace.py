@@ -180,6 +180,13 @@ NOVE_JSON = "data/nove_u_dodavatele.json"    # kdy se který produkt u dodavatel
 NOVE_CSV = "nove_u_dodavatele.csv"            # úplný seznam produktů dodavatelů, které e-shop nemá
 NOVE_IGNOROVAT = set()  # data/nove_ignorovat.csv – produkty dodavatele, které na e-shop nechceme
 NOVE_DNI = 14           # jak dlouho se nový produkt ukazuje ve zprávě
+# propagační a pomocné materiály dodavatelů (katalogy, tašky, nálepky, vzorky, startovací sady…)
+NOVE_NE = re.compile(r"katalog|catalogue|start[ée]r|ta[šs]k|n[áa]lepk|samolepk|odznak|vzorek|vzork|tester|"
+                     r"testovac[íi] pap|kick ?off|let[áa]k|bro[žz]ur|po[uú]kaz|voucher|registra[cč]|"
+                     r"propisk|deštník|destnik|kel[ií]mek|hrnek|tri[čc]ko|kartičk|mikin|tepl[áa]k|selfie|shaker|krabi[čc]k|"
+                     r"\bblok\b|sample|bestseller pack|v[íi]no\b|medovin|frizzante|[šs][áa]la\b|pono[žz]k|ru[čc]n[íi]k|osu[šs]k|"
+                     r"ut[ěe]rk|[žz][íi]nk|p[řr]edlo[žz]k|pareo|[šs][áa]tek|hadř[íi]k|kybl[íi]k|pumpi[čc]k|bez n[áa]pln|"
+                     r"galave[čc]er|bylo nebylo|caf[ée]\b|vzore[čc]|propisovac", re.I)
 
 
 def nove_u_dodavatele(katalogy, eshop, ted):
@@ -189,6 +196,14 @@ def nove_u_dodavatele(katalogy, eshop, ted):
     if os.path.exists(SNIMEK):  # i skryté produkty e-shopu, ať se nehlásí jako nové
         for k, z in json.load(open(SNIMEK, encoding="utf-8")).items():
             znam.setdefault(k, z)
+    def zaklad(znacka, kod):  # Essens: AVE91 = AVE91N, LR: 20679-101 = 20679-301
+        k = re.sub(r"\s", "", kod.upper())
+        if znacka == "Essens":
+            return re.sub(r"(?<=\d)[A-Z]{1,2}$", "", k)
+        if znacka == "LR":
+            return k.split("-")[0]
+        return k
+    zaklady = {(p.get("znacka"), zaklad(p.get("znacka"), kod)) for kod, p in znam.items()}
     pouzite = {}
     for kod, p in znam.items():
         if p.get("znacka") in katalogy:
@@ -206,6 +221,10 @@ def nove_u_dodavatele(katalogy, eshop, ted):
             klic = f"{znacka}:{kod}"
             if id(sup) in pouzite.get(znacka, set()) or kod in NOVE_IGNOROVAT or klic.upper() in NOVE_IGNOROVAT:
                 continue
+            if NOVE_NE.search(sup.get("nazev") or "") or (znacka, zaklad(znacka, kod)) in zaklady:
+                continue  # propagační materiál, nebo jen nový kód produktu, který e-shop už má
+            if sup.get("cena") is not None and sup["cena"] < 20:
+                continue  # vzorky a drobnosti
             h = historie.setdefault(klic, {"od": "výchozí" if vychozi else dnes})
             h["naposledy"] = dnes
             polozky.append({"znacka": znacka, "kod": kod, "od": h["od"], **sup})
