@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-16T11:00+02:00",
+"cas": "2026-10-17T07:41+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -919,7 +919,7 @@
 "23116-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "25000": {
 "dop": null,
@@ -934,20 +934,20 @@
 "25123-1": {
 "dop": 369.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "25124-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "25125-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "25130-101": {
-"dop": null,
+"dop": 959.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
@@ -968,7 +968,7 @@
 },
 "27166-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27172-1": {
@@ -1022,7 +1022,7 @@
 "url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28191-1": {
-"dop": 1379.0,
+"dop": 615.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/sera"
 },
@@ -1487,8 +1487,8 @@
 "url_dodavatel": "https://www.lr-czech.com/parfemy"
 },
 "31013-1": {
-"dop": null,
-"skladem": false,
+"dop": 3679.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/parfemy"
 },
 "3108": {
@@ -2497,9 +2497,9 @@
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "80102-499": {
-"dop": 959.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80108-19": {
 "dop": 2685.0,
@@ -2517,9 +2517,9 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80190": {
-"dop": 1059.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80192-499": {
 "dop": 3025.0,
@@ -2527,7 +2527,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80205-419": {
-"dop": 655.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2537,9 +2537,9 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80325-1": {
-"dop": 1295.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80331-499": {
 "dop": 1389.0,
@@ -2547,14 +2547,14 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80332-1": {
-"dop": 1025.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80338-1": {
-"dop": 1269.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80352-499": {
 "dop": 2815.0,
@@ -2582,12 +2582,12 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80550-419": {
-"dop": 1209.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80700-81": {
-"dop": 1025.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2607,7 +2607,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80800-460": {
-"dop": 1145.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2617,7 +2617,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80850-483": {
-"dop": 1145.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2632,7 +2632,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80940-19": {
-"dop": 645.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2642,17 +2642,17 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80950-482": {
-"dop": 515.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80980-99": {
-"dop": 939.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81000-19": {
-"dop": 1145.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2662,23 +2662,23 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81140-98": {
-"dop": 4329.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81170-198": {
-"dop": 4329.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81180-99": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81240 - 19": {
-"dop": 1195.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81241 - 19": {
@@ -2697,28 +2697,28 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81245 - 19": {
-"dop": 1195.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81246 - 19": {
-"dop": 1195.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81247 - 19": {
-"dop": 1195.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81250-19": {
-"dop": 1195.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81251-19": {
-"dop": 1195.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81255-19": {
@@ -2727,7 +2727,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81330-98": {
-"dop": 925.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -5523,7 +5523,7 @@
 },
 "W190GX": {
 "dop": 210.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
