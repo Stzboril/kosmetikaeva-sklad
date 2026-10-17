@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 17.10.2026 v 14:23.
+Kontrola u dodavatelů proběhla 17.10.2026 v 14:29.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -62,6 +62,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, pro
 
 ## Nové u dodavatele (0)
 
-První přehled: zatím se jen zaznamenalo, co dodavatelé nabízejí navíc. Od příští kontroly se tu ukážou produkty, které dodavatel nově přidá.
+Za posledních 14 dní dodavatelé nepřidali nic, co by e-shop neměl.
 
-Celkem dodavatelé nabízejí 371 produktů, které na e-shopu nejsou (Eurona 118, Essens 234, LR 19) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 65 produktů, které na e-shopu nejsou (Eurona 27, Essens 19, LR 19) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
