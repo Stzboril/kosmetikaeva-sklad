@@ -1,0 +1,91 @@
+{
+ "perex": [
+  "Hledáte dárek, který udělá radost a nezapadne v šuplíku? Z naší nabídky jsme vybrali kosmetiku a vůně, které se pod stromečkem vyjímají: dárkové sady pro ni i pro něj, vůně pro domov, drobnosti za pár korun a pro nerozhodné dárkový poukaz.",
+  "Hľadáte darček, ktorý poteší a neskončí v šuplíku? Z našej ponuky sme vybrali kozmetiku a vône, ktoré sa pod stromčekom vyjímajú: darčekové sady pre ňu aj pre neho, vône pre domov, drobnosti za pár eur a pre nerozhodných darčekový poukaz."
+ ],
+ "sekce": [
+  {
+   "h2": [
+    "Pro ni",
+    "Pre ňu"
+   ],
+   "produkty": [
+    "9768",
+    "10819"
+   ]
+  },
+  {
+   "h2": [
+    "Pro něj",
+    "Pre neho"
+   ],
+   "produkty": [
+    "9774",
+    "10315",
+    "10825"
+   ]
+  },
+  {
+   "h2": [
+    "Vůně pro domov",
+    "Vône pre domov"
+   ],
+   "produkty": [
+    "11158",
+    "8577"
+   ],
+   "pozn": [
+    "Do aromalampy se hodí i éterické oleje JUST – poradíme v článku <a href=\"/clanky-2-2/esence-just/\">Esence JUST: Klíč k výběru</a>.",
+    "Do aromalampy sa hodia aj éterické oleje JUST – <a href=\"/sk/esencialni-oleje/\">pozrite si ich ponuku</a>."
+   ]
+  },
+  {
+   "h2": [
+    "Drobnosti pod stromeček",
+    "Drobnosti pod stromček"
+   ],
+   "uvod": [
+    "Malé dárky pro kolegy, učitelky nebo jako doplněk k většímu dárku:",
+    "Malé darčeky pre kolegov, pani učiteľky alebo ako doplnok k väčšiemu darčeku:"
+   ],
+   "karty": [
+    "10813",
+    "10504",
+    "6629",
+    "11155"
+   ]
+  },
+  {
+   "h2": [
+    "Když si nejste jistí: dárkový poukaz",
+    "Keď si nie ste istí: darčekový poukaz"
+   ],
+   "uvod": [
+    "DOPLNIT",
+    "DOPLNIT"
+   ],
+   "tlacitko": [
+    [
+     "DOPLNIT",
+     "Vybrat dárkový poukaz"
+    ],
+    [
+     "DOPLNIT",
+     "Vybrať darčekový poukaz"
+    ]
+   ]
+  }
+ ],
+ "boxy": [
+  {
+   "t": [
+    "Doprava zdarma a objednání včas",
+    "Doprava zadarmo a objednávka včas"
+   ],
+   "p": [
+    "Na výdejní místo Zásilkovny posíláme zdarma při nákupu nad 2 500 Kč. Dárky objednávejte s předstihem – v prosinci mají dopravci plné ruce práce.",
+    "Na výdajné miesto Packety posielame zadarmo pri nákupe nad 120 €. Darčeky objednávajte s predstihom – v decembri majú dopravcovia plné ruky práce."
+   ]
+  }
+ ]
+}
