@@ -305,7 +305,7 @@ def main():
         print(f"::notice title=Essens dohledávání::chybělo {len(chybi)}, zkoušeno {min(len(chybi), 250)}")
 
     sklad_radky, ceny_radky = [], []
-    naskladnit, vyprodat, nenalezeno, ceny = [], [], [], []
+    naskladnit, vyprodat, nenalezeno, ceny, lr_overit = [], [], [], [], []
     stav = {"cas": ted.isoformat(timespec="minutes"), "produkty": {}}
 
     for kod, p in sorted(eshop.items()):
@@ -344,6 +344,11 @@ def main():
         if abs(nova - p["cena"]) < 0.5:
             continue
         zmena = (nova - p["cena"]) / p["cena"] * 100
+        if znacka == "LR" and abs(zmena) >= 20:
+            # ceny LR se čtou z výpisu kategorií (WebFetch) a umí se splést s vedlejší kartou
+            # -> velkou změnu do importu nedáváme, jen ji ukážeme k ruční kontrole
+            lr_overit.append((p, nova, sup["cena"], zmena, sup.get("url", "")))
+            continue
         ceny_radky.append([p["kod"], parove.get(kod, ""), f"{nova:.0f}"])
         ceny.append((znacka, p, nova, sup["cena"], zmena))
 
@@ -388,6 +393,13 @@ def main():
                      f"**{nova:.0f} Kč** | {dop:.0f} Kč | {pct:+.1f} %{' ⚠️' if abs(pct) >= 20 else ''} |")
     else:
         z.append("Beze změn – ceny odpovídají pravidlu.")
+    if lr_overit:
+        z += ["", f"### LR – ověřit ručně ({len(lr_overit)})", "",
+              "Změna o 20 % a víc u LR není v ceny.csv: cena z webu LR může patřit vedlejší kartě. "
+              "Ověřte na stránce produktu u LR; je-li správně, upravte cenu ručně.", ""]
+        for p, nova, dop, pct, url in lr_overit:
+            z.append(f"- {odkaz(p['nazev'], p['url'])} ({p['kod']}): nyní {p['cena']:.0f} Kč, "
+                     f"LR uvádí {dop:.0f} Kč ([stránka]({url})) → vycházelo by {nova:.0f} Kč ({pct:+.1f} %)")
     if nenalezeno:
         z += ["", f"## Dodavatel produkt nenašel ({len(nenalezeno)})", "",
               "Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.", ""]
