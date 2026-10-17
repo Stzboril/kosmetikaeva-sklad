@@ -1,8 +1,32 @@
-Sat Oct 17 07:38:15 CEST 2026
-pokus 3
-https://www.lr-czech.com/zdravi – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla zodpovězena včas, WebFetch; opakováno 1×, stejná chyba)
-https://www.lr-czech.com/krasa – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla zodpovězena včas, WebFetch; opakováno 1×, stejná chyba)
-https://www.lr-czech.com/aloe-vera-care – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla zodpovězena včas, WebFetch; opakováno 1×, stejná chyba)
-První 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED – zbylých 12 stránek přeskočeno. Stahování přes shell nepoužito (běh v cloudu, ne na počítači uživatele).
-Ověření „není skladem“: neprovedeno (žádná data).
-Podezřele málo produktů LR (0), neukládám.
+Sat Oct 17 07:41:34 CEST 2026
+pokus 4
+https://www.lr-czech.com/zdravi – 40 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/krasa – 40 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/aloe-vera-care – 40 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/parfemy – 23 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/proti-starnuti – 31 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/pece-o-telo – 40 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/zdravi-reseni – 28 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/health-mission-top-produkty – 10 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/denni-nocni-ocni – 23 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/make-up – 26 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/pece-o-plet – 40 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/sera – 15 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/pece-o-telo-zuby – 5 řádků (WebFetch, po schválení uživatelem)
+https://www.lr-czech.com/specialiste – 32 řádků (WebFetch, po schválení uživatelem)
+Ověření „není skladem“:
+27167-1 – ANO
+27166-1 – ANO
+20676-101 – ANO
+27170-1 – ANO
+27171-1 – ANO
+23112-101 – ANO
+27167-1 – ANO
+27166-1 – ANO
+20676-101 – ANO
+27170-1 – ANO
+27171-1 – ANO
+27167-1 – ANO
+27166-1 – NE (opraveno na ANO)
+Uloženo 209 produktů LR, z toho není skladem: 6

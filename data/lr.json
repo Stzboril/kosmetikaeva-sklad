@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-16T05:57+02:00",
+"cas": "2026-10-17T07:41+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -305,7 +305,7 @@
 "cena": 619.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/pece-o-telo"
 },
 "25000": {
 "cena": null,
@@ -323,22 +323,10 @@
 "cena": 369.0,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-zuby"
-},
-"25124-1": {
-"cena": null,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo"
-},
-"25125-1": {
-"cena": null,
-"nazev": "",
-"skladem": true,
 "url": "https://www.lr-czech.com/pece-o-telo"
 },
 "25130-101": {
-"cena": null,
+"cena": 959.0,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/pece-o-telo"
@@ -370,7 +358,7 @@
 "27166-1": {
 "cena": null,
 "nazev": "",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27167-1": {
@@ -452,7 +440,7 @@
 "url": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28191-1": {
-"cena": 1379.0,
+"cena": 615.0,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/sera"
@@ -829,12 +817,6 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/parfemy"
 },
-"30813-1": {
-"cena": 3679.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
 "31010-1": {
 "cena": 3679.0,
 "nazev": "",
@@ -848,6 +830,12 @@
 "url": "https://www.lr-czech.com/parfemy"
 },
 "31012-1": {
+"cena": 3679.0,
+"nazev": "",
+"skladem": true,
+"url": "https://www.lr-czech.com/parfemy"
+},
+"31013-1": {
 "cena": 3679.0,
 "nazev": "",
 "skladem": true,
@@ -932,10 +920,10 @@
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "80102-599": {
-"cena": 959.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80108-499": {
 "cena": 2685.0,
@@ -956,10 +944,10 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80190-699": {
-"cena": 1059.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80192-499": {
 "cena": 3025.0,
@@ -968,7 +956,7 @@
 "url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80205-608": {
-"cena": 655.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -980,10 +968,10 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80325-699": {
-"cena": 1295.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80331-799": {
 "cena": 1389.0,
@@ -992,16 +980,16 @@
 "url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80332-799": {
-"cena": 1025.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80338-698": {
-"cena": 1269.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80352-499": {
 "cena": 2815.0,
@@ -1040,13 +1028,13 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80550-419": {
-"cena": 1209.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80700-680": {
-"cena": 1025.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1070,7 +1058,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80800-780": {
-"cena": 1145.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1082,7 +1070,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80850-683": {
-"cena": 1145.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1100,7 +1088,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80940-19": {
-"cena": 645.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1112,19 +1100,19 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80950-682": {
-"cena": 515.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80980-399": {
-"cena": 939.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81000-19": {
-"cena": 1145.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1136,25 +1124,19 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81140-98": {
-"cena": 4329.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81170-198": {
-"cena": 4329.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81180-99": {
 "cena": null,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
-},
-"81240-19": {
-"cena": 1195.0,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1177,36 +1159,6 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
-"81245-19": {
-"cena": 1195.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81246-19": {
-"cena": 1195.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81247-119": {
-"cena": 1195.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81250-19": {
-"cena": 1195.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81251-19": {
-"cena": 1195.0,
-"nazev": "",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
 "81255-19": {
 "cena": 1195.0,
 "nazev": "",
@@ -1214,7 +1166,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81330-98": {
-"cena": 925.0,
+"cena": null,
 "nazev": "",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
