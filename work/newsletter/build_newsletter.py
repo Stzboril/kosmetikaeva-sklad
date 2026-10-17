@@ -11,6 +11,7 @@ IMG = {
     'krem': CDN + '8833-2_tymianovy-krem-kompozice-web.png?ff=1&x=423&y=318&q=85&ts=6acb411a&sg=2175fb9d',
     'olej': CDN + '11431_tymianovy-olej-kompozice-web.png?ff=1&x=423&y=318&q=85&ts=6ad30c3a&sg=2175fb9d',
     'esence': CDN + '7408_tymianovy-olej-kompozice.png?ff=1&x=423&y=318&q=85&ts=67503a85&sg=2175fb9d',
+    'eucasol': CDN + '7390_eucasol-50-ml.png?ff=1&x=423&y=318&q=85&ts=6acb4118&sg=2175fb9d',
 }
 RADIUS = '14px'
 
@@ -82,14 +83,14 @@ def wrap(rows, preheader):
 
 T = {
  'cs': dict(
-   subject='Tymián od JUST, nový vzhled e-shopu a první vánoční tipy',
-   preheader='Hřejivá tymiánová péče, e-shop v novém kabátě a dárky, které potěší.',
+   subject='Tymián a Eucasol od JUST, nový vzhled e-shopu a vánoční tipy',
+   preheader='Hřejivá tymiánová péče, oblíbený Eucasol, e-shop v novém kabátě a dárky, které potěší.',
    eyebrow='Novinky z KosmetikaEva.eu · říjen 2026',
    h1='Dlouho jsme se neozvali – to napravujeme',
    intro=['Dobrý den,',
           'od teď Vám jednou za měsíc pošleme to nejzajímavější z našeho e-shopu: novinky, tipy, jak výrobky používat, a výhodné nabídky. Píšeme Vám, protože jste u nás v posledních dvou letech nakoupili – moc děkujeme!'],
-   s1=('Podzimní tip', 'Tymián od JUST'),
-   s1text='Když venku fouká a prší, nic nepotěší víc než vůně tymiánu. Švýcarská značka JUST z něj vyrábí hřejivý krém, čistý éterický olej i esenci do koupele.',
+   s1=('Podzimní tip', 'Bylinky od JUST na sychravé dny'),
+   s1text='Když venku fouká a prší, nic nepotěší víc než vůně bylinek. Švýcarská značka JUST z tymiánu vyrábí hřejivý krém, čistý éterický olej i esenci do koupele – a k nim patří oblíbený bylinný sprej Eucasol.',
    prods=[
      ('krem', 'Tymiánový krém', WEB + '/telo-2/just-tymianovy-krem-100-ml/',
       'Hřejivý bylinný krém s tymiánem, eukalyptem, borovicí a rozmarýnem – ideální k večerní masáži hrudníku a zad.',
@@ -100,6 +101,9 @@ T = {
      ('esence', 'Tymiánová esence do koupele 75 ml', WEB + '/specialni-pece/just-tymianova-esence-75-ml/',
       'Tymián, eukalyptus, šalvěj a mandlový olej. Stačí 1–2 uzávěry do vany a celá koupelna provoní bylinkami.',
       '879 Kč', None),
+     ('eucasol', 'Eucasol sprej 50 ml a 75 ml', WEB + '/esencialni-oleje/just-eucasol-sprej-50-ml/',
+      'Oblíbený bylinný sprej s éterickými oleji z eukalyptu, máty, rozmarýnu a jehličnanů. Stačí jedno stříknutí na kapesník, do místnosti nebo do koupele.',
+      '50 ml 529 Kč · 75 ml 695 Kč', 'Oblíbený'),
    ],
    buy='Koupit',
    article=(WEB + '/clanky-2-2/tymian-od-just-krem-olej-a-esence-do-koupele/', 'V čem se liší a jak je používat? Přečtěte si náš článek'),
@@ -116,14 +120,14 @@ T = {
    why='Tento e-mail dostáváte, protože jste u nás nakoupili. Pokud už o naše novinky nestojíte, odhlásit se můžete zde: #unsubscribe#',
    op='Provozovatel: Stanislav Zbořil, IČO 86963139, Přílucká 4118, 760 01 Zlín · ' ),
  'sk': dict(
-   subject='Tymian od JUST, nový vzhľad e-shopu a prvé vianočné tipy',
-   preheader='Hrejivá tymianová starostlivosť, e-shop v novom šate a darčeky, ktoré potešia.',
+   subject='Tymian a Eucasol od JUST, nový vzhľad e-shopu a vianočné tipy',
+   preheader='Hrejivá tymianová starostlivosť, obľúbený Eucasol, e-shop v novom šate a darčeky, ktoré potešia.',
    eyebrow='Novinky z KosmetikaEva.eu · október 2026',
    h1='Dlho sme sa neozvali – napravujeme to',
    intro=['Dobrý deň,',
           'odteraz Vám raz za mesiac pošleme to najzaujímavejšie z nášho e-shopu: novinky, tipy, ako produkty používať, a výhodné ponuky. Píšeme Vám, pretože ste u nás v posledných dvoch rokoch nakúpili – veľmi ďakujeme!'],
-   s1=('Jesenný tip', 'Tymian od JUST'),
-   s1text='Keď vonku fúka a prší, nič nepoteší viac ako vôňa tymianu. Švajčiarska značka JUST z neho vyrába hrejivý krém, čistý éterický olej aj esenciu do kúpeľa.',
+   s1=('Jesenný tip', 'Bylinky od JUST na sychravé dni'),
+   s1text='Keď vonku fúka a prší, nič nepoteší viac ako vôňa byliniek. Švajčiarska značka JUST z tymianu vyrába hrejivý krém, čistý éterický olej aj esenciu do kúpeľa – a k nim patrí obľúbený bylinný sprej Eucasol.',
    prods=[
      ('krem', 'Tymianový krém', WEB + '/sk/telo-2/just-tymianovy-krem-100-ml/',
       'Hrejivý bylinkový krém s tymianom, eukalyptom, borovicou a rozmarínom – ideálny na večernú masáž hrudníka a chrbta.',
@@ -134,6 +138,9 @@ T = {
      ('esence', 'Tymianová esencia do kúpeľa 75 ml', WEB + '/sk/specialni-pece/just-tymianova-esence-75-ml/',
       'Tymian, eukalyptus, šalvia a mandľový olej. Stačia 1–2 uzávery do vane a celá kúpeľňa zavonia bylinkami.',
       '36,14 €', None),
+     ('eucasol', 'Eucasol sprej 50 ml a 75 ml', WEB + '/sk/esencialni-oleje/just-eucasol-sprej-50-ml/',
+      'Obľúbený bylinný sprej s éterickými olejmi z eukalyptu, mäty, rozmarínu a ihličnanov. Stačí jedno streknutie na vreckovku, do miestnosti alebo do kúpeľa.',
+      '50 ml 21,75 € · 75 ml 28,57 €', 'Obľúbený'),
    ],
    buy='Kúpiť',
    article=(WEB + '/sk/clanky-2-2/tymian-od-just-krem-olej-a-esencia-do-kupela/', 'V čom sa líšia a ako ich používať? Prečítajte si náš článok'),
