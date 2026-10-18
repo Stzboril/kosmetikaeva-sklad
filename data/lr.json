@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-17T07:41+02:00",
+"cas": "2026-10-18T10:16+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -358,7 +358,7 @@
 "27166-1": {
 "cena": null,
 "nazev": "",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27167-1": {
