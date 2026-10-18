@@ -22,3 +22,14 @@ Připraveno 18. 10. 2026 (Claude). Zdroj: https://www.lr-czech.com/serox-serie-p
 5. Srovnávače: import 4_srovnavace.xml.
 6. Fotku nahrát z odkazu výše.
 7. Ikony vlastností nový produkt automaticky nemá (až při příští verzi ke-ikony).
+
+## Hotovo 18. 10. 2026 (Claude, schválil majitel)
+- Produkt id 11440: https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-serox-serie-pro-plet/ (SK /sk/oblicej-3/lr-zeitgard-serox-serie-pro-plet/), viditelný, sklad 20.
+- Cena 3 699 Kč, bez přeškrtnuté ceny (jako ostatní série LR), nákupní 2 971 Kč = partnerská cena LR (v akci LR partnerská 2 078 Kč).
+- Akce 2 589 Kč 18.–21. 10. 2026 (štítek Akce), SK přepočet Shoptetu 106,43 €.
+- Importy 1–4 doběhly bez chyb; Heureka „Kosmetické sady“ (2729), Zboží „Kosmetické sady“ (2828).
+- Doplňkové parametry: Objem 50 ml + 30 ml, Země původu, Výrobce. Filtr Objem (30 ml ze séra) odebrán, měrná cena zrušena.
+- Fotky LR: série (hlavní), krém 28244-301, sérum 28251-101; popisky obrázků česky (popisky jsou společné pro CZ i SK).
+- Search Console: požádáno o indexování CZ i SK.
+- Marže bez akce ~20 % (zisk ~602 Kč bez DPH) → zůstává v Google reklamách.
+- Pozor: uložení SK formuláře produktu smazalo český SEO titulek (obnoven) – po SK úpravě vždy zkontrolovat CZ seoTitle.
