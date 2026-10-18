@@ -53,16 +53,17 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           SKLAD: ${{ steps.kontrola.outputs.sklad }}
           CENY: ${{ steps.kontrola.outputs.ceny }}
+          AKCE: ${{ steps.kontrola.outputs.akce }}
           NOVE: ${{ steps.ulozit.outputs.nove }}
         run: |
           gh label create k-importu --color FBCA04 --description "Změny k importu do Shoptetu" 2>/dev/null || true
           OTEVRENE=$(gh issue list --label k-importu --state open --json number -q '.[].number')
-          if [ "${SKLAD:-0}" -eq 0 ] && [ "${CENY:-0}" -eq 0 ]; then
+          if [ "${SKLAD:-0}" -eq 0 ] && [ "${CENY:-0}" -eq 0 ] && [ "${AKCE:-0}" -eq 0 ]; then
             for n in $OTEVRENE; do gh issue close "$n" --comment "Vše odpovídá dodavatelům, není co importovat."; done
           elif [ "$NOVE" = "1" ] || [ -z "$OTEVRENE" ]; then
             for n in $OTEVRENE; do gh issue close "$n" --comment "Nahrazeno novější kontrolou."; done
             gh issue create --label k-importu \
-              --title "K importu $(TZ=Europe/Prague date '+%d.%m.%Y'): sklad ${SKLAD:-0}, ceny ${CENY:-0}" \
+              --title "K importu $(TZ=Europe/Prague date '+%d.%m.%Y'): sklad ${SKLAD:-0}, ceny ${CENY:-0}, akce ${AKCE:-0}" \
               --body-file zprava.md
           fi
 

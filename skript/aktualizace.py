@@ -3,6 +3,7 @@
 Výstupy (ukládají se do repozitáře):
   ke_importu/sklad.csv – jen produkty, u kterých je potřeba změnit sklad (import do Shoptetu)
   ke_importu/ceny.csv  – navržené nové prodejní ceny (import po schválení)
+  ke_importu/akce.csv  – akční ceny podle akcí LR (import po schválení)
   zprava.md            – čitelná zpráva: co se změnilo a proč
   data/stav.json       – stav posledního běhu
 
@@ -13,6 +14,8 @@ Pravidla (dohodnutá s majitelem e-shopu):
     nikdy ne nad doporučenou cenu
   * Just a Nahrin se nezpracovávají vůbec
   * produkt v akci (má akční cenu) -> cena se nenavrhuje
+  * LR má produkt v akci -> navrhne se akční cena na e-shopu = akční cena LR − 8 % (stejné zaokrouhlení),
+    s platností podle štítku LR („Měsíční akce“ do konce měsíce) – ke_importu/akce.csv
 """
 import csv
 import io
@@ -304,8 +307,8 @@ def main():
             time.sleep(0.3)
         print(f"::notice title=Essens dohledávání::chybělo {len(chybi)}, zkoušeno {min(len(chybi), 250)}")
 
-    sklad_radky, ceny_radky = [], []
-    naskladnit, vyprodat, nenalezeno, ceny, lr_overit = [], [], [], [], []
+    sklad_radky, ceny_radky, akce_radky = [], [], []
+    naskladnit, vyprodat, nenalezeno, ceny, lr_overit, akce = [], [], [], [], [], []
     stav = {"cas": ted.isoformat(timespec="minutes"), "produkty": {}}
 
     for kod, p in sorted(eshop.items()):
@@ -333,6 +336,17 @@ def main():
             sklad_radky.append([p["kod"], parove.get(kod, ""), "0"])
             vyprodat.append((p, "dodavatel ho nenašel" if sup is None else (sup.get("stav") or "není skladem")))
 
+        # ---- akce LR -> akční cena i na e-shopu
+        a = (sup or {}).get("akce")
+        if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and p["cena"] is not None \
+                and a.get("do", "") >= ted.date().isoformat():
+            akcni = nova_cena(a["cena"])
+            # jen když je akční cena nižší než běžná na e-shopu a e-shop ji ještě nemá
+            if akcni < p["cena"] - 0.5 and not (p["akce"] and abs(p["akce"] - akcni) < 0.5):
+                od = a["od"]
+                akce_radky.append([p["kod"], parove.get(kod, ""), f"{akcni:.0f}", od, a["do"], "1", od, a["do"]])
+                akce.append((p, akcni, a))
+
         # ---- cena
         if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None or p["akce"]:
             continue
@@ -354,6 +368,8 @@ def main():
 
     zapis_csv("ke_importu/sklad.csv", ["code", "pairCode", "stock"], sklad_radky)
     zapis_csv("ke_importu/ceny.csv", ["code", "pairCode", "price"], ceny_radky)
+    zapis_csv("ke_importu/akce.csv", ["code", "pairCode", "actionPrice", "actionFrom", "actionUntil",
+                                      "actionFlagActive", "actionFlagValidFrom", "actionFlagValidUntil"], akce_radky)
 
     # ---- zpráva (zároveň text upozornění na GitHubu)
     raw = "https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu"
@@ -393,6 +409,19 @@ def main():
                      f"**{nova:.0f} Kč** | {dop:.0f} Kč | {pct:+.1f} %{' ⚠️' if abs(pct) >= 20 else ''} |")
     else:
         z.append("Beze změn – ceny odpovídají pravidlu.")
+    z += ["", "## Akce podle LR", ""]
+    if akce:
+        z.append(f"Soubor k importu: [akce.csv]({raw}/akce.csv) ({len(akce)} produktů). "
+                 "LR má produkt v akci → akční cena na e-shopu = akční cena LR − 8 %, zaokrouhleno nahoru "
+                 "na Kč končící 9, platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). "
+                 "Po skončení se akční cena v Shoptetu sama vypne.")
+        z += ["", "| Produkt | Kód | Běžná | Akční | Akce LR | Platnost |", "|---|---|--:|--:|--:|---|"]
+        for p, akcni, a in sorted(akce, key=lambda x: x[0]["nazev"]):
+            od, do = (datetime.fromisoformat(x).strftime("%d.%m.") for x in (a["od"], a["do"]))
+            z.append(f"| {odkaz(p['nazev'], p['url'])} | {p['kod']} | {p['cena']:.0f} Kč | **{akcni:.0f} Kč** | "
+                     f"{a['cena']:.0f} Kč ({a.get('stitek') or 'akce'}) | {od}–{do} |")
+    else:
+        z.append("Žádná nová akce – produkty LR v akci buď na e-shopu nejsou, nebo už akční cenu mají.")
     if lr_overit:
         z += ["", f"### LR – ověřit ručně ({len(lr_overit)})", "",
               "Změna o 20 % a víc u LR není v ceny.csv: cena z webu LR může patřit vedlejší kartě. "
@@ -439,11 +468,11 @@ def main():
     with open(cesta("data", "stav.json"), "w", encoding="utf-8") as f:
         json.dump(stav, f, ensure_ascii=False, indent=0, sort_keys=True)
 
-    souhrn = f"sklad {len(sklad_radky)}, ceny {len(ceny)}"
+    souhrn = f"sklad {len(sklad_radky)}, ceny {len(ceny)}, akce {len(akce)}"
     print(f"Hotovo: {souhrn}; nenalezeno {len(nenalezeno)}; chyby: {chyby}")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"sklad={len(sklad_radky)}\nceny={len(ceny)}\n"
+            f.write(f"sklad={len(sklad_radky)}\nceny={len(ceny)}\nakce={len(akce)}\n"
                     f"lr_dnes={1 if lr_dnes else 0}\nlr_datum={lr_datum}\n")
 
 

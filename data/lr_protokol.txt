@@ -1,6 +1,6 @@
-Sun Oct 18 10:16:42 CEST 2026
-pokus 4
-(spuštěno ručně na pokyn uživatele; stahování nástrojem WebFetch)
+Sun Oct 18 10:27:32 CEST 2026
+pokus 5
+(spuštěno ručně na pokyn uživatele; stahování nástrojem WebFetch; nově i název produktu a text štítku akce)
 https://www.lr-czech.com/zdravi – 40 řádků
 https://www.lr-czech.com/krasa – 40 řádků
 https://www.lr-czech.com/aloe-vera-care – 40 řádků
@@ -16,12 +16,13 @@ https://www.lr-czech.com/pece-o-plet – 40 řádků
 https://www.lr-czech.com/sera – 15 řádků
 https://www.lr-czech.com/pece-o-telo-zuby – 5 řádků
 https://www.lr-czech.com/specialiste – 32 řádků
-Ověření „není skladem“ (každý kód na své stránce):
-27167-1 – ANO (aloe-vera-care, pece-o-plet, sera)
-27166-1 – ANO (aloe-vera-care)
-20676-101 – ANO (aloe-vera-care, pece-o-plet)
-27170-1 – ANO (pece-o-telo, pece-o-plet)
-27171-1 – ANO (pece-o-telo, pece-o-plet)
-23112-101 – ANO (pece-o-telo-ochrana-před-sluncem)
-27165-1 – ANO (sera)
-Uloženo 209 produktů LR, z toho není skladem: 5
+Rozdíly stavu mezi čteními (použit ověřený stav):
+27167-1 (aloe-vera-care): 2. čtení ANO, ověřeno NE
+27166-1 (aloe-vera-care): 2. čtení ANO, ověřeno NE
+20676-101 (aloe-vera-care): 2. čtení ANO, ověřeno NE
+27167-1 (pece-o-plet): 2. čtení ANO, ověřeno NE
+20676-101 (pece-o-plet): 2. čtení ANO, ověřeno NE
+27165-1 (sera): 2. čtení ANO, ověřeno NE
+Ověření „není skladem“ (z pokusu 4 dnes, každý kód na své stránce):
+27167-1 – ANO; 27166-1 – ANO; 20676-101 – ANO; 27170-1 – ANO; 27171-1 – ANO; 23112-101 – ANO; 27165-1 – ANO
+Uloženo 210 produktů LR, z toho není skladem: 5, v akci: 33

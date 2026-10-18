@@ -16,6 +16,7 @@ Když je co importovat, vznikne **upozornění (Issue)** s přehledem a GitHub p
 - Dodavatel má skladem a e-shop ne → **sklad 20**. Dodavatel nemá (nebo produkt nenašel) a e-shop ano → **sklad 0**.
 - Nová cena = **doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9**, nikdy nad doporučenou. Výjimka: **parfémy Essens 50 ml starší řady (doporučená cena 600 Kč) mají pevnou cenu 499 Kč**; novější řada (doporučená 635 Kč) jde podle pravidla na 589 Kč. Luxusní parfémy a sady se řídí pravidlem.
 - Ceny se jen **navrhují ke schválení**. Produkty v akci, Just a Nahrin se nemění. U LR se nepoužijí ceny se štítkem „Akce“ / „Měsíční akce“.
+- **Akce LR → akce i na e-shopu:** když má LR produkt v akci („Akce 17.–23. 10.“, „Měsíční akce“), připraví se `ke_importu/akce.csv` s akční cenou = akční cena LR − 8 %, zaokrouhleno nahoru na Kč končící 9, s platností podle štítku LR („Měsíční akce“ = do konce měsíce) a se štítkem Akce. Navrhuje se jen tehdy, když je akční cena nižší než běžná cena na e-shopu a e-shop ji ještě nemá. Po skončení platnosti se akce v Shoptetu sama vypne. Import stejně jako u cen – po schválení.
 
 ## Co udělat, když přijde e-mail
 
@@ -29,7 +30,7 @@ Soubor stáhnete tak, že v upozornění kliknete pravým tlačítkem na odkaz a
 ## Soubory
 
 - `zprava.md` – poslední zpráva (stejná jako v upozornění)
-- `ke_importu/sklad.csv`, `ke_importu/ceny.csv` – soubory pro import do Shoptetu
+- `ke_importu/sklad.csv`, `ke_importu/ceny.csv`, `ke_importu/akce.csv` – soubory pro import do Shoptetu
 - `data/lr.json`, `data/lr_protokol.txt` – data LR a protokol posledního stažení
 - `data/aliasy.csv` – ruční párování kódů e-shop → dodavatel (např. když dodavatel změní kód)
 - `data/eshop_produkty.json` – seznam všech sledovaných produktů e-shopu; vyprodané produkty, které Google feed vynechává, se podle něj kontrolují přímo na jejich stránce, aby se mohly znovu naskladnit
