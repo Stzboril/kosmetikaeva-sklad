@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 17.10.2026 v 14:29.
+Kontrola u dodavatelů proběhla 18.10.2026 v 10:17.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -6,14 +6,13 @@ Kontrola u dodavatelů proběhla 17.10.2026 v 14:29.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (18 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
 
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-spray--prvni-pomoci--500-ml-2/) (20600-110)
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Sun SPF 50 Anti-aging opalovací fluid 50 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-anti-aging-opalovaci-fluid-50-ml/) (23114-101)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 30 Opalovací mléko 100 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-30-opalovaci-mleko-100-ml/) (23112-101)
 - ❌ dodavatel ho nenašel → 0 ks: [LR MICROSILVER PLUS Ošetřující zubní pasta série 2 ks](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-osetrujici-zubni-pasta-serie-2-ks/) (25124-1)
 - ❌ dodavatel ho nenašel → 0 ks: [LR MICROSILVER PLUS Série pro zdravá ústa](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-serie-pro-zdrava-usta/) (25125-1)
-- ❌ není skladem → 0 ks: [LR Aloe Vera Winter Pumpkin Hydratační pleťové sérum 30 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-winter-pumpkin-hydratacni-pletove-serum-30-ml/) (27166-1)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ dodavatel ho nenašel → 0 ks: [LR Figu Active Koktejl Soft Vanilla 496 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-figu-active-koktejl-soft-vanilla-496-g/) (81240 - 19)
 - ❌ dodavatel ho nenašel → 0 ks: [LR Figu Active Polévka Spicy Curry 488 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-figu-active-polevka-spicy-curry/) (81245 - 19)
