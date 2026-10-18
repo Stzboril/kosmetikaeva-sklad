@@ -1,9 +1,8 @@
-Sun Oct 18 06:33:39 CEST 2026
-pokus 2
+Sun Oct 18 07:33:24 CEST 2026
+pokus 3
 https://www.lr-czech.com/zdravi – chyba WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas schválena; 2 pokusy)
 https://www.lr-czech.com/krasa – chyba WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas schválena; 2 pokusy)
 https://www.lr-czech.com/aloe-vera-care – chyba WebFetch PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas schválena; 2 pokusy)
-První 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED – zbylých 12 stránek přeskočeno (běh v cloudu bez uživatele, stahování přes shell nepoužito).
-Ověření „není skladem“: nic k ověření (0 řádků).
+Zbylých 12 stránek přeskočeno – první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED. Stažení přes shell nepoužito (obcházení omezení WebFetch není povoleno).
+Ověření „není skladem“: neprovedeno (žádná data)
 Podezřele málo produktů LR (0), neukládám.
-exit 1
