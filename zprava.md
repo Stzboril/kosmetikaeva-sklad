@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 18.10.2026 v 10:50.
+Kontrola u dodavatelů proběhla 18.10.2026 v 11:41.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -28,7 +28,7 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 
 ## Ceny ke schválení
 
-Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (5 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (5 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
 
 | Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
 |---|---|---|--:|--:|--:|--:|
@@ -40,7 +40,7 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 
 ## Akce podle LR
 
-Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (28 produktů). LR má produkt v akci → akční cena na e-shopu = akční cena LR − 8 %, zaokrouhleno nahoru na Kč končící 9, platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
+Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (27 produktů). LR má produkt v akci → akční cena na e-shopu = akční cena LR − 8 %, zaokrouhleno nahoru na Kč končící 9, platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
 
 | Produkt | Kód | Běžná | Akční | Akce LR | Platnost |
 |---|---|--:|--:|--:|---|
@@ -59,7 +59,6 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera 1000 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/lr-aloe-vera-drinking-gel-sivera-1000-ml-2/) | 80800-460 | 1059 Kč | **899 Kč** | 970 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
 | [LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem 1000 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/lr-aloe-vera-drinking-gel-honey-1000-ml/) | 80700-81 | 949 Kč | **809 Kč** | 870 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
 | [LR LIFETAKT Cistus Incanus Kapsle 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/lr-cistus-incanus-kapsle-60-kapsli/) | 80325-1 | 1199 Kč | **1019 Kč** | 1099 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
-| [LR LIFETAKT Colostrum Kapsle 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-compact-60-kapsli-3/) | 80360-499 | 1149 Kč | **1119 Kč** | 1209 Kč (Měsíční akce) | 01.10.–31.10. |
 | [LR LIFETAKT Liver Support Kapsle 30 ks](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-liver-support-kapsle-30-ks/) | 81330-98 | 859 Kč | **729 Kč** | 786 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
 | [LR LIFETAKT Mind Master Extreme Performance Powder 14 x 2,5 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lr-lifetakt-mind-master-extreme-performance-powder-14-x-2-5-g/) | 80980-99 | 869 Kč | **739 Kč** | 795 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
 | [LR LIFETAKT Mind Master Formula Gold 500 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-mind-master-formula-gold-500-ml/) | 80940-19 | 599 Kč | **509 Kč** | 548 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
