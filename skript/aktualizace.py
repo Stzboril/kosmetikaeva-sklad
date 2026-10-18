@@ -14,6 +14,7 @@ Pravidla (dohodnutá s majitelem e-shopu):
     nikdy ne nad doporučenou cenu
   * Just a Nahrin se nezpracovávají vůbec
   * produkt v akci (má akční cenu) -> cena se nenavrhuje
+  * LR Colostrum, Sprej první pomoci a parfémy LR -> cena ani akce se nenavrhuje (jen sklad)
   * LR má produkt v akci -> navrhne se akční cena na e-shopu = akční cena LR − 8 % (stejné zaokrouhlení),
     s platností podle štítku LR („Měsíční akce“ do konce měsíce) – ke_importu/akce.csv
 """
@@ -49,6 +50,9 @@ ESSENS_PARFEM = re.compile(r"^Essens (Dámský|Pánský|Unisex) parfém [WMU]\d+
 ESSENS_PARFEM_FEED = re.compile(r"^Essens [WMU]\d+ parfém (dámský|pánský|unisex) 50 ml$", re.I)
 ESSENS_PARFEM_KOD = re.compile(r"^[WMU]\d{3}5[01][A-Z]?$")
 ESSENS_PARFEM_CENA = 499
+# LR: u Colostra (vč. sad s Colostrem), Spreje první pomoci a parfémů se cena ani akce nenavrhuje
+# (rozhodnutí majitele 18. 10. 2026); sklad se kontroluje dál
+LR_BEZ_CEN = re.compile(r"colostrum|sprej první pomoci|parfém", re.I)
 PRAHA = timezone(timedelta(hours=2))
 
 
@@ -336,6 +340,9 @@ def main():
             sklad_radky.append([p["kod"], parove.get(kod, ""), "0"])
             vyprodat.append((p, "dodavatel ho nenašel" if sup is None else (sup.get("stav") or "není skladem")))
 
+        if znacka == "LR" and LR_BEZ_CEN.search(p.get("nazev") or ""):
+            continue  # u těchto produktů LR se ceny nekontrolují
+
         # ---- akce LR -> akční cena i na e-shopu
         a = (sup or {}).get("akce")
         if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and p["cena"] is not None \
@@ -399,7 +406,7 @@ def main():
         velke = sum(1 for c in ceny if abs(c[4]) >= 20)
         z.append(f"Soubor k importu: [ceny.csv]({raw}/ceny.csv) ({len(ceny)} produktů). "
                  "Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. "
-                 "Produkty v akci, Just a Nahrin se nemění.")
+                 "Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.")
         if velke:
             z.append("")
             z.append(f"⚠️ {velke}× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.")

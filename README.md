@@ -15,7 +15,7 @@ Když je co importovat, vznikne **upozornění (Issue)** s přehledem a GitHub p
 
 - Dodavatel má skladem a e-shop ne → **sklad 20**. Dodavatel nemá (nebo produkt nenašel) a e-shop ano → **sklad 0**.
 - Nová cena = **doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9**, nikdy nad doporučenou. Výjimka: **parfémy Essens 50 ml starší řady (doporučená cena 600 Kč) mají pevnou cenu 499 Kč**; novější řada (doporučená 635 Kč) jde podle pravidla na 589 Kč. Luxusní parfémy a sady se řídí pravidlem.
-- Ceny se jen **navrhují ke schválení**. Produkty v akci, Just a Nahrin se nemění. U LR se nepoužijí ceny se štítkem „Akce“ / „Měsíční akce“.
+- Ceny se jen **navrhují ke schválení**. Produkty v akci, Just a Nahrin se nemění. U LR se nepoužijí ceny se štítkem „Akce“ / „Měsíční akce“. **U LR Colostra (i sad Health Mission s Colostrem), Spreje první pomoci a parfémů se cena ani akce nenavrhuje** – kontroluje se jen sklad.
 - **Akce LR → akce i na e-shopu:** když má LR produkt v akci („Akce 17.–23. 10.“, „Měsíční akce“), připraví se `ke_importu/akce.csv` s akční cenou = akční cena LR − 8 %, zaokrouhleno nahoru na Kč končící 9, s platností podle štítku LR („Měsíční akce“ = do konce měsíce) a se štítkem Akce. Navrhuje se jen tehdy, když je akční cena nižší než běžná cena na e-shopu a e-shop ji ještě nemá. Po skončení platnosti se akce v Shoptetu sama vypne. Import stejně jako u cen – po schválení.
 
 ## Co udělat, když přijde e-mail
