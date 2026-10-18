@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-18T10:17+02:00",
+"cas": "2026-10-18T10:27+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -922,12 +922,12 @@
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "25000": {
-"dop": null,
+"dop": 749.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-plet"
 },
 "25009-1": {
-"dop": null,
+"dop": 799.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-plet"
 },
@@ -967,7 +967,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27166-1": {
-"dop": null,
+"dop": 399.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
@@ -2497,7 +2497,7 @@
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "80102-499": {
-"dop": null,
+"dop": 959.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2537,7 +2537,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80325-1": {
-"dop": null,
+"dop": 1295.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2552,7 +2552,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80338-1": {
-"dop": null,
+"dop": 1269.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2587,7 +2587,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80700-81": {
-"dop": null,
+"dop": 1025.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2607,7 +2607,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80800-460": {
-"dop": null,
+"dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2617,7 +2617,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80850-483": {
-"dop": null,
+"dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2632,7 +2632,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80940-19": {
-"dop": null,
+"dop": 645.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2642,17 +2642,17 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80950-482": {
-"dop": null,
+"dop": 515.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80980-99": {
-"dop": null,
+"dop": 939.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81000-19": {
-"dop": null,
+"dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2662,12 +2662,12 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81140-98": {
-"dop": null,
+"dop": 4329.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81170-198": {
-"dop": null,
+"dop": 4329.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2727,7 +2727,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81330-98": {
-"dop": null,
+"dop": 925.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
