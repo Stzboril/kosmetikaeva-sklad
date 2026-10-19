@@ -2,6 +2,7 @@
    „klidně dodělej i další ikony“). Zdroj ikon je živý soubor na webu (data jsou uvnitř), tento skript ho jen upraví:
    - „Vyrobeno v Německu“: místo špendlíku (pin) obrys Německa (majitel: vlajka „strašná“, chtěl obrys Německa; mapa Evropy je v reálné velikosti nečitelná)
    - nová ikona „Ledovcová voda“ (glyf glacier = hory se sněhem)
+   - text na obvodu odsazený od vnitřního kruhu (menší vnitřní disk, oblouk textu dál od středu)
    - ikony pro nové výrobky 11434 Alpský vánek, 11437 Lesní vánek, 11440 LR Serox série, 11443 Aroma Care Vitality peeling
    Použití v prohlížeči: keIkonyPatch(textV1) → textV2. */
 function keIkonyPatch(src) {
@@ -41,9 +42,22 @@ function keIkonyPatch(src) {
   p.v['11443'] = 'ledovec,ch,u_energ,vs_citr,d_sprcha,d_telo';
   put(p, p.v);
 
+
+  /* text na obvodu dál od vnitřního kruhu (majitel 19. 10.: „aby text neležel na vnitřním kruhu, pár pixelů navíc“):
+     oblouk textu 35,6 → 36,4, vnitřní kroužek 35 → 32,4, vnitřní disk 33,2 → 30,8, vnější zapuštěný kroužek 44,1 → 44,9 */
+  [['d="M 19.17 67.8 A 35.6 35.6 0 1 1 80.83 67.8"', 'd="M 18.48 68.2 A 36.4 36.4 0 1 1 81.52 68.2"'],
+   ['r="44.1" fill="none" stroke="url(#keik-sink)" stroke-width="1"', 'r="44.9" fill="none" stroke="url(#keik-sink)" stroke-width="1"'],
+   ['r="35" fill="none" stroke="url(#keik-sink)" stroke-width="1.2"', 'r="32.4" fill="none" stroke="url(#keik-sink)" stroke-width="1.2"'],
+   ['r="33.2" fill="url(#keik-disc)"', 'r="30.8" fill="url(#keik-disc)"'],
+   ['r="33.2" fill="none" stroke="url(#keik-raise)" stroke-width="1.8"', 'r="30.8" fill="none" stroke="url(#keik-raise)" stroke-width="1.8"']
+  ].forEach(function (r) {
+    if (src.split(r[0]).length !== 2) throw new Error('nečekaný výskyt: ' + r[0]);
+    src = src.replace(r[0], r[1]);
+  });
+
   src = src.replace('/* ke-ikony-v1.js – ', '/* ke-ikony-v2.js – ')
     .replace('Ikony výrobků: vygenerováno 2026-10-15 z exportu produktů a údajů výrobců. */',
       'Ikony výrobků: vygenerováno 2026-10-15 z exportu produktů a údajů výrobců.\n' +
-      '   v2 (19. 10. 2026): Německo = obrys Německa (demap), nová ikona Ledovcová voda, ikony výrobků 11434, 11437, 11440, 11443. */');
+      '   v2 (19. 10. 2026): Německo = obrys Německa (demap), nová ikona Ledovcová voda, ikony výrobků 11434, 11437, 11440, 11443, text na obvodu dál od vnitřního kruhu. */');
   return src;
 }
