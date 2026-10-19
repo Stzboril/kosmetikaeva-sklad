@@ -165,18 +165,25 @@
     if (av && ENDED.test(av.textContent)) return { on: false };
     return { on: !!document.querySelector('.p-info-wrapper tr.sold-out') };
   }
-  /* otevře formulář hlídacího psa Shoptetu (okno colorbox) a předvyplní „bude na skladě“ + variantu */
+  /* otevře formulář hlídacího psa Shoptetu (okno colorbox) a předvyplní variantu + „bude na skladě“.
+     Shoptet po otevření (a po změně varianty) načte stav hlídání (/action/ProductDetail/watchdogInfo/) a zaškrtnutí přepíše,
+     proto se „bude na skladě“ zaškrtává až po dokončení tohoto dotazu. Zaškrtávátko vypnuté Shoptetem (= už je skladem) se nemění. */
   function openWatchdog(vid) {
     var a = wdLink(); if (!a) return;
-    var old = document.getElementById('watchdog-form'), n = 0;
+    var old = document.getElementById('watchdog-form'), n = 0, $ = window.jQuery, until = Date.now() + 8000;
+    var tick = function () { var c = document.getElementById('onStock'); if (c && !c.checked && !c.disabled) c.checked = true; };
+    if ($) {
+      var h = function (e, xhr, set) { if (set && /watchdogInfo/.test(set.url || '') && Date.now() < until) setTimeout(tick, 0); };
+      $(document).on('ajaxComplete', h);
+      setTimeout(function () { $(document).off('ajaxComplete', h); }, 8500);
+    }
     a.click();
     (function fill() {
       var f = document.getElementById('watchdog-form');
       if (!f || f === old) { if (++n < 50) setTimeout(fill, 120); return; }
       var s = f.querySelector('#watchdog-simple-variants-select');
       if (s && vid && s.querySelector('option[value="' + vid + '"]') && s.value !== String(vid)) { s.value = String(vid); fire(s); }
-      var c = f.querySelector('#onStock');
-      if (c && !c.checked) { c.checked = true; fire(c); }
+      tick();
     })();
   }
   /* karty výrobků: u výrobků, které nejdou objednat, odkaz „Hlídat naskladnění“ → detail#hlidat */
