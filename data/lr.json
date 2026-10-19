@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-18T10:27+02:00",
+"cas": "2026-10-19T06:27+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -184,7 +184,7 @@
 "20676-101": {
 "cena": 199.0,
 "nazev": "Aloe Vera Hydratační balzám na rty",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20677-401": {
@@ -248,7 +248,13 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20783": {
+"akce": {
 "cena": 315.0,
+"do": "2026-10-31",
+"od": "2026-10-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Aloe Vera Série 2 ks Pro Zdravý Úsměv",
 "skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
@@ -310,7 +316,7 @@
 "23112-101": {
 "cena": 619.0,
 "nazev": "Aloe Vera Sun SPF 30 Opalovací mléko",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -392,7 +398,13 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "27166-1": {
+"akce": {
 "cena": 399.0,
+"do": "2026-10-31",
+"od": "2026-10-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Limitované Aloe Vera Winter Pumpkin Hydratační pleťové sérum",
 "skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
@@ -406,7 +418,7 @@
 },
 "cena": null,
 "nazev": "Limitovaná Aloe Vera Winter Pumpkin Pečující série",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "27170-1": {
@@ -518,13 +530,7 @@
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "28249-1": {
-"akce": {
 "cena": 2805.0,
-"do": "2026-10-21",
-"od": "2026-10-15",
-"stitek": "Akce 15.-21. 10. 2026"
-},
-"cena": null,
 "nazev": "Serox Série pro pleť",
 "skladem": true,
 "url": "https://www.lr-czech.com/pece-o-plet"
