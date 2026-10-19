@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-18T11:41+02:00",
+"cas": "2026-10-19T06:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -813,7 +813,7 @@
 },
 "20676": {
 "dop": 199.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20679-101": {
@@ -903,7 +903,7 @@
 },
 "23112-101": {
 "dop": 619.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -967,7 +967,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27166-1": {
-"dop": 399.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
@@ -1040,6 +1040,11 @@
 "dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+},
+"28249-1": {
+"dop": 2805.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/pece-o-plet"
 },
 "28250-101": {
 "dop": 1619.0,
@@ -4438,7 +4443,7 @@
 },
 "MGLOSS05": {
 "dop": 340.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/lesk-na-rty-pro-vetsi-objem-05-d363830/"
 },
 "MHE01": {

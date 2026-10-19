@@ -1,16 +1,17 @@
-Kontrola u dodavatelů proběhla 18.10.2026 v 11:41.
+Kontrola u dodavatelů proběhla 19.10.2026 v 06:28.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
-- **LR:** zkontrolováno 220 viditelných produktů
+- **LR:** zkontrolováno 221 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (19 produktů)
 
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-spray--prvni-pomoci--500-ml-2/) (20600-110)
+- ✅ zase skladem → 20 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Sun SPF 50 Anti-aging opalovací fluid 50 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-anti-aging-opalovaci-fluid-50-ml/) (23114-101)
-- ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 30 Opalovací mléko 100 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-30-opalovaci-mleko-100-ml/) (23112-101)
+- ✅ zase skladem → 20 ks: [Essens w114 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w114-50-ml/) (W11450)
 - ❌ dodavatel ho nenašel → 0 ks: [LR MICROSILVER PLUS Ošetřující zubní pasta série 2 ks](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-osetrujici-zubni-pasta-serie-2-ks/) (25124-1)
 - ❌ dodavatel ho nenašel → 0 ks: [LR MICROSILVER PLUS Série pro zdravá ústa](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-serie-pro-zdrava-usta/) (25125-1)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
@@ -22,6 +23,7 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ dodavatel ho nenašel → 0 ks: [LR FIGUACTIVE Polévka Sweet Potato (batátová) 488 g](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-figuactive-polevka-sweet-potato--batatova--488-g/) (81251-19)
 - ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m043 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m043-150-ml/) (M043G)
+- ❌ Nedostupné → 0 ks: [Essens Lesk na rty pro větší objem 05 6 ml](https://www.kosmetikaeva.eu/rty/essens-lesk-na-rty-pro-vetsi-objem-05-6-ml/) (MGLOSS05)
 - ❌ Nedostupné → 0 ks: [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel w190 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w190-150-ml/) (W190GX)
@@ -40,7 +42,7 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 
 ## Akce podle LR
 
-Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (27 produktů). LR má produkt v akci → akční cena na e-shopu = akční cena LR − 8 %, zaokrouhleno nahoru na Kč končící 9, platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
+Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (28 produktů). LR má produkt v akci → akční cena na e-shopu = akční cena LR − 8 %, zaokrouhleno nahoru na Kč končící 9, platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
 
 | Produkt | Kód | Běžná | Akční | Akce LR | Platnost |
 |---|---|--:|--:|--:|---|
@@ -51,6 +53,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR Aloe Vera Ochranný krém s propolisem Série 2 ks](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-ochranny-krem-s-propolisem-serie-2-ks/) | 20729-1 | 1179 Kč | **879 Kč** | 955 Kč (Měsíční akce) | 01.10.–31.10. |
 | [LR Aloe Vera Regenerační Krém DermaIntense 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-dermaintense-50-ml/) | 20606 | 1079 Kč | **869 Kč** | 935 Kč (Měsíční akce) | 01.10.–31.10. |
 | [LR Aloe Vera Winter Pumpkin Gelová maska 75 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-winter-pumpkin-gelova-maska-75-ml/) | 27165-1 | 469 Kč | **349 Kč** | 379 Kč (Měsíční akce) | 01.10.–31.10. |
+| [LR Aloe Vera Winter Pumpkin Hydratační pleťové sérum 30 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-winter-pumpkin-hydratacni-pletove-serum-30-ml/) | 27166-1 | 499 Kč | **369 Kč** | 399 Kč (Měsíční akce) | 01.10.–31.10. |
 | [LR Figuactiv Bylinný odtučňovací čaj 250 g](https://www.kosmetikaeva.eu/kava-a-caj/lr-figuactiv-bylinny-odtucnovaci-caj-250-g/) | 80205-419 | 609 Kč | **519 Kč** | 555 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
 | [LR LIFETAKT 5in1 Beauty Elixir 30 × 25 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-5in1-beauty-elixir-30--25-ml/) | 81140-98 | 3989 Kč | **3389 Kč** | 3675 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
 | [LR LIFETAKT 5in1 Men’s Shot 30 × 25 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-5in1-men-s-shot-30--25-ml/) | 81170-198 | 3989 Kč | **3389 Kč** | 3675 Kč (Akce 17.-23.10.2026) | 17.10.–23.10. |
@@ -72,12 +75,6 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR ZEITGARD Serox Instant Skin Perfector 30 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-serox-instant-skin-perfector-30-ml/) | 28250-101 | 1499 Kč | **1119 Kč** | 1209 Kč (Akce 15.-21. 10. 2026) | 15.10.–21.10. |
 | [LR ZEITGARD Serox Sérum s okamžitým účinkem 30 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-serox-serum-s-okamzitym-ucinkem-30-ml-2/) | 28251-101 | 2139 Kč | **1709 Kč** | 1849 Kč (Akce 15.-21. 10. 2026) | 15.10.–21.10. |
 
-### LR – ověřit ručně (1)
-
-Změna o 20 % a víc u LR není v ceny.csv: cena z webu LR může patřit vedlejší kartě. Ověřte na stránce produktu u LR; je-li správně, upravte cenu ručně.
-
-- [LR Aloe Vera Winter Pumpkin Hydratační pleťové sérum 30 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-winter-pumpkin-hydratacni-pletove-serum-30-ml/) (27166-1): nyní 499 Kč, LR uvádí 399 Kč ([stránka](https://www.lr-czech.com/aloe-vera-care)) → vycházelo by 369 Kč (-26.1 %)
-
 ## Dodavatel produkt nenašel (11)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.
@@ -94,12 +91,8 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, pro
 - [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 - [Essens Dámský parfém w175 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w175-50-ml/) (W17550)
 
-## Nové u dodavatele (1)
+## Nové u dodavatele (0)
 
-Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu nejsou. Navržená cena = doporučená − 8 % podle pravidla.
+Za posledních 14 dní dodavatelé nepřidali nic, co by e-shop neměl.
 
-| Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |
-|---|---|---|:-:|--:|--:|--:|
-| LR | [Serox Série pro pleť](https://www.lr-czech.com/pece-o-plet) | 28249-1 | ✅ | – | – | 18.10. |
-
-Celkem dodavatelé nabízejí 66 produktů, které na e-shopu nejsou (Eurona 27, Essens 19, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 65 produktů, které na e-shopu nejsou (Eurona 27, Essens 19, LR 19) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
