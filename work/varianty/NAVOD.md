@@ -1,0 +1,50 @@
+# Sloučení stejných výrobků v různých objemech do variant (19. 10. 2026)
+
+Majitel: „proč neuděláš tyto a další parfémy jako sdruženou položku, např. jako je Eucasol, aby si zákazník
+mohl vybrat z roletkového seznamu?“ → „ano sluč vše“. Pak: „upravit i pořadí v roletce u všech výrobků,
+sjednotit do jednoho seznamu a nepotřebné smazat“.
+
+## Co se udělalo
+- 26 výrobků má teď varianty (roletka „Objem“ nebo „Hmotnost“), 27 dřívějších samostatných výrobků je
+  **skrytých** (nesmazaných), jejich kód má příponu `-SLOUCENO` a jejich adresa CZ i SK je přesměrovaná
+  na hlavní výrobek (seznam v `sloucene.tsv`, 54 přesměrování).
+- Hlavní výrobek si nechal svou adresu, hodnocení, ikony (ke-ikony mapa P podle ID hlavního výrobku).
+- Varianta dostala kód, cenu, běžnou cenu, nákupní cenu, sklad, EAN, jednotky, hmotnost, dostupnost
+  a obrázek ze sloučeného výrobku. Ceny se neměnily (SK cena se dál přepočítává z CZK).
+- Název bez objemu, SEO titulek „<název> 200 ml a 500 ml | KosmetikaEva.eu“, v popisu řádek
+  Objem/Hmotnost „200 ml nebo 500 ml“ (SK „alebo“), meta popis upraven.
+- Zálohy formulářů před změnou: localStorage prohlížeče v aplikaci, klíče `keSlouceniZaloha_<id>`
+  (Garden of Dreams `keMergeBackup_garden_20261019`).
+
+## Skupiny (hlavní ← skryté)
+| Výrobek | Hlavní | Skryté | Šablona |
+|---|---|---|---|
+| Parfémy na praní (10 vůní) 200/500 ml | 10900, 10852, 10858, 10864, 10876, 10888, 10894, 10906, 10912, 10918 | 10903, 10855, 10861, 10867, 10879, 10891, 10897, 10909, 10915, 10921 | 172 |
+| Prací prostředky 935 g / 2 750 g | 4466, 4481, 8013, 5324 | 4460, 4478, 8019, 5321 | 193 (Hmotnost) |
+| Mytí nádobí 400/1000 ml (Lesní plody, Auri Skye) | 4577, 7888 | 4574, 7891 | 175 |
+| Pohotovostní žehlička 100/500 ml (Green, Black Grape) | 5360, 5372 | 5375, 5378 | 178 |
+| Essens colostrum krémy 150 ml / 500 ml (náplň) | 6524, 10723 | 10702, 10708 | 181 |
+| Essens Aloe vera šampony a kondicionéry 200 ml / 500 ml (náplň) | 10648, 10654, 10666, 10669 | 10651, 10657, 10678, 10675 | 184 |
+| Just Bodyfresh 30/60/100 ml | 8919 | 7990, 7621 | 187 |
+| Just Univerzální čistič NR 500/1000 ml | 8911 | 7813 | 190 |
+
+Kontrola 19. 10.: všech 26 stránek CZ i SK vrací 200, roletka má správné objemy a ceny, staré adresy přesměrují.
+
+## Roletka – jeden seznam „Objem“
+- Všechny výrobky s objemy používají parametr **Objem (id 145)**. Hodnoty seřazeny vzestupně
+  (1 ml, 1,5 ml, 2 ml, 3 ml … 500 ml, 500 ml (náplň), 700 ml, 750 ml, 1000 ml, 2000 ml) → stejné pořadí
+  v roletce u všech výrobků. Původní pořadí v localStorage `ke145poradiZaloha_20261019`.
+- Šablony variant „Reapir Gel“, „Appenzellský balzám“, „olej z 31“, „Biopeptide Serum Spray“ přepnuty
+  ze starých seznamů na Objem (145); záloha `keSablonyZaloha_20261019`.
+- Hmotnost (178) zůstává zvlášť (gramy, prací prášky), barva (124) zvlášť (odstíny).
+- Nepoužívané (0 výrobků, 0 šablon) – ke smazání majitelem (mazání dělá majitel sám):
+  parametry 131 „100 ml“, 134 „200 ml“, 127 „Biopeptide Serum Spray“, 137 „Objem_2“, 139 „Objem_1“;
+  nepoužité hodnoty v Objem (145: „1ml“) a barva (124: „04 Velevet Mink“, „Cobalt Blue“).
+
+## Postup (skript `slouceni.js`, spouští se v adminu v prohlížeči)
+1. Šablona variant: POST `/admin/generator-variant/` (`action=save`, `templateTitle`,
+   `newParameterName[<id parametru>]=Objem`, `newParameterValues[<id>]="200 ml\n500 ml"`).
+   Úprava šablony: totéž na `?id=<šablona>`.
+2. `keSloucit({main, others, tpl, param, vals})` – viz komentáře ve skriptu.
+3. Pořadí hodnot: formulář `/admin/parametry-variant-detail/?id=145&language=cs`, pole `priority[]`.
+4. Po sloučení zkontrolovat CZ i SK stránku a přesměrování.
