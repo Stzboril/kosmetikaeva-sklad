@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 19.10.2026 v 06:28.
+Kontrola u dodavatelů proběhla 19.10.2026 v 11:52.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -91,8 +91,12 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, pro
 - [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 - [Essens Dámský parfém w175 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w175-50-ml/) (W17550)
 
-## Nové u dodavatele (0)
+## Nové u dodavatele (1)
 
-Za posledních 14 dní dodavatelé nepřidali nic, co by e-shop neměl.
+Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu nejsou. Navržená cena = doporučená − 8 % podle pravidla.
 
-Celkem dodavatelé nabízejí 65 produktů, které na e-shopu nejsou (Eurona 27, Essens 19, LR 19) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+| Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |
+|---|---|---|:-:|--:|--:|--:|
+| Eurona | [Luxusní kolekce aroma parfémů](https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume) | CA0163 | ✅ | 767 Kč | 709 Kč | 19.10. |
+
+Celkem dodavatelé nabízejí 66 produktů, které na e-shopu nejsou (Eurona 28, Essens 19, LR 19) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
