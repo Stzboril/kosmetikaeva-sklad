@@ -1,8 +1,8 @@
 import os, sys
 sys.path.insert(0,'.')
 from lux2 import I, DEFS, FRAME
-from face import face
-I['Obličej']=face(1)
+from face2 import face
+I['Obličej']=face()
 order=['Obličej','Tělo','Parfémy','Vlasy','Esenciální oleje','Pro děti','Praní prádla','Medové speciality']
 font='/home/claude/kosmetikaeva-sklad/work/design/fonts/'
 css=f'''@font-face{{font-family:M;font-weight:700;src:url(file://{font}montserrat-700.woff)}}@font-face{{font-family:M;font-weight:400;src:url(file://{font}montserrat-400.woff)}}
