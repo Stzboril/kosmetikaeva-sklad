@@ -61,7 +61,13 @@
       '.ke-wd-card .ke-wd-ico{width:15px;height:15px}' +
       '.ke-wd-card:hover span{text-decoration:underline}' +
       '.ke-wd-has .availability::before{display:none!important}' +
-      '.ke-sticky.is-wd .ke-sticky__free{display:none}';
+      '.ke-sticky.is-wd .ke-sticky__free{display:none}' +
+      /* okno hlídacího psa (Shoptet): šablona nemá pravidlo pro .hide → „Zrušit sledování“ bylo vidět vždy */
+      '#watchdog-form .hide{display:none!important}' +
+      '#watchdog-form input[type=checkbox]{accent-color:var(--ke-accent,#a3392a)}' +
+      '#watchdog-form #watchdog-submit{width:100%;max-width:320px;background:var(--ke-accent,#a3392a)!important;border-color:var(--ke-accent,#a3392a)!important;color:#fff!important}' +
+      '#watchdog-form #watchdog-submit:hover,#watchdog-form #watchdog-submit:focus-visible{background:var(--ke-accent-hover,#87301f)!important;border-color:var(--ke-accent-hover,#87301f)!important}' +
+      '#watchdog-form #watchdog-reset{width:100%;max-width:320px;border-radius:14px;background:#fff;border:1px solid #d9d6de;color:var(--ke-muted,#6e6c7a)}';
     (document.head || document.documentElement).appendChild(s);
   }
   function dl(k) { try { return window.getShoptetDataLayer ? window.getShoptetDataLayer(k) : null; } catch (e) { return null; } }
