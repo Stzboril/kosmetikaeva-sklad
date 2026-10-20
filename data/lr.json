@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-19T06:27+02:00",
+"cas": "2026-10-20T09:06+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -184,7 +184,7 @@
 "20676-101": {
 "cena": 199.0,
 "nazev": "Aloe Vera Hydratační balzám na rty",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20677-401": {
@@ -316,7 +316,7 @@
 "23112-101": {
 "cena": 619.0,
 "nazev": "Aloe Vera Sun SPF 30 Opalovací mléko",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
@@ -530,7 +530,13 @@
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "28249-1": {
+"akce": {
 "cena": 2805.0,
+"do": "2026-10-21",
+"od": "2026-10-15",
+"stitek": "Akce 15.-21. 10. 2026"
+},
+"cena": null,
 "nazev": "Serox Série pro pleť",
 "skladem": true,
 "url": "https://www.lr-czech.com/pece-o-plet"
@@ -1052,13 +1058,7 @@
 "url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80205-608": {
-"akce": {
 "cena": 555.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
 "nazev": "LR LIFETAKT Směs bylin se zeleným čajem k přípravě nálevu",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
