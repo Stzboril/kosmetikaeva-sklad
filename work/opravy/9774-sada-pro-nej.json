@@ -1,0 +1,13 @@
+{
+ "product": 9774,
+ "schvaleno": "majitel 20. 10. 2026 16:59: „2 chyby oprav i u CZ a SK verze“",
+ "cs": [
+  ["<strong>Bedrník (Peucedanum Ostruthium)</strong>", "<strong>Všedobr horský (Peucedanum Ostruthium)</strong>"],
+  ["<strong>Aloe ferment (Chlorella Vulgaris / Lupinus Albus Protein Ferment)</strong>", "<strong>Fermentovaný protein z chlorely a lupiny (Chlorella Vulgaris / Lupinus Albus Protein Ferment)</strong>"]
+ ],
+ "sk": [
+  ["Bedrník (Peucedanum Ostruthium)", "Meisterwurz (Peucedanum Ostruthium)"],
+  ["Aloe ferment (Chlorella Vulgaris / Lupinus Albus Protein Ferment)", "Fermentovaný proteín z chlorely a lupiny (Chlorella Vulgaris / Lupinus Albus Protein Ferment)"]
+ ],
+ "848_ceny": {"pricelistPrice[1]": "749", "standardPrice": "835", "purchasePrice_poznamka": "nákupní cena se do repozitáře nepíše – je v projektu (nove-produkty.md)"}
+}
