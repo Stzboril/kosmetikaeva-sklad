@@ -21,3 +21,4 @@ Doplňuje nove-produkty.md a ikony-v2-a-kategorie.md.
 - Ověřeno 21. 10.: CZ mobil, SK počítač (pruh s popisky), načítá se v4.
 - Výrobky mimo Heureka feed (vyprodané, skryté) analýza nezahrnula – doplnit při další verzi.
 - 21. 10. 15:15 majitel „ano oprav to“: u 11444 (Just for Men) odstraněn nadpis h3 z popisu CZ i SK (šablona ho doplňuje sama); work/novy/848 upraveno také.
+- 21. 10. 15:16 majitel „zviditelni ho“: 11444 Just for Men sprchový gel 250 ml (848/250) je VIDITELNÝ – CZ 749 Kč, SK 30,79 €, sklad 0 (Brzy skladem / Čoskoro na sklade), nadpis popisu jen jednou; fotka a ikony vlastností zatím chybí.
