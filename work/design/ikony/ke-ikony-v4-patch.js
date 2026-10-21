@@ -1,13 +1,17 @@
 /* Úprava ke-ikony-v3.js → ke-ikony-v4.js (21. 10. 2026, majitel: „Klidně vymysli i další ikonky k doplnění.
-   Například nejvíc zastoupené bylinky apod.“).
+   Například nejvíc zastoupené bylinky apod.“ a „klidně projdi všechny výrobky, jestli najdeš nějaké informace,
+   ke kterým by se dala vytvořit ikona, udělej ji“).
    Zdroj je živý soubor na webu (data jsou uvnitř), tento skript ho jen upraví:
-   - 7 nových glyfů složek (v4-glyfy.json, generátor v4-glyfy.py): mint, verbena, lime, jasmine, cone, buckthorn, sacha
-   - 7 nových ikon (v4-ikony.json): s_mata, s_sporys, s_limet, s_jasmin, s_cedr, s_rakyt, s_sacha
-   - ikony nových výrobků JUST 5574, 5580, 5381 (id produktů doplnit po založení)
-   Použití v prohlížeči: keIkonyPatch4(textV3, glyfy, ikony, add) → textV4
-     glyfy = obsah v4-glyfy.json, ikony = obsah v4-ikony.json ([klíč, glyf, CZ, SK, CZ popisek, SK popisek]),
-     add = { '<id produktu>': 'klíč,klíč,…' } */
-function keIkonyPatch4(src, glyfy, ikony, add) {
+   - 40 nových glyfů (v4-glyfy.json; generátory v4-glyfy.py a v4-glyfy2.py, náhled v4-nahled.py)
+   - 44 nových ikon složek (v4-ikony.json): byliny, oleje, vitaminy, minerály, aktivní látky – popisek „Obsahuje …“
+   - ikony výrobků: set = { '<id produktu>': 'klíč,klíč,…' } – nahradí celé pole výrobku (max. 6 ikon)
+   Přiřazení složek (ke-ikony-v4-slozky.js): složka v názvu nebo v sekcích Hlavní benefity / Hlavní účinné složky /
+   Aktivní složky / Přednosti… ; u kosmetiky navíc musí být latinsky v INCI (ne jen vůně); u doplňků a potravin
+   v názvu nebo v českém složení (u potravin jen hlavní složka – mezi prvními 3 nebo s %); bez parfémů, vůní
+   do domácnosti, drogerie a úklidu; max. 2 složky na výrobek, řazení za ikony „složení a vlastnosti“ (vegan, bez…),
+   celkem max. 6 (při přebytku odpadnou poslední = nejméně důležité).
+   Použití v prohlížeči: keIkonyPatch4(textV3, glyfy, ikony, set) → textV4 */
+function keIkonyPatch4(src, glyfy, ikony, set) {
   function block(name) {
     var i = src.indexOf('var ' + name + ' = '); if (i < 0) throw new Error('chybí ' + name);
     var s = src.indexOf('{', i), d = 0, e = s;
@@ -36,18 +40,17 @@ function keIkonyPatch4(src, glyfy, ikony, add) {
   put(ic, ic.v);
 
   var p = block('P');
-  Object.keys(add).forEach(function (id) {
-    if (p.v[id]) throw new Error('výrobek už ikony má: ' + id);
-    var ks = add[id].split(',');
+  Object.keys(set).forEach(function (id) {
+    var ks = set[id].split(',');
     if (ks.length > 6) throw new Error('víc než 6 ikon u ' + id);
     ks.forEach(function (k) { if (!ic.v[k]) throw new Error('neznámá ikona ' + k + ' u ' + id); });
-    p.v[id] = add[id];
+    p.v[id] = set[id];
   });
   put(p, p.v);
 
   once('/* ke-ikony-v3.js – ', '/* ke-ikony-v4.js – ');
   once('nové ikony Péče o vousy a Domácí jogurt. */',
     'nové ikony Péče o vousy a Domácí jogurt.\n' +
-    '   v4 (21. 10. 2026): ikony složek Máta, Sporýš, Limetka, Jasmín, Cedr, Rakytník, Sacha inchi; ikony výrobků JUST 5574, 5580, 5381. */');
+    '   v4 (21. 10. 2026): 44 ikon složek (byliny, oleje, vitaminy, minerály, aktivní látky) u výrobků, které je opravdu obsahují; ikony výrobků JUST 5574, 5580, 5381. */');
   return src;
 }

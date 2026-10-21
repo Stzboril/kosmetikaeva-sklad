@@ -1,9 +1,354 @@
 [
- ["s_mata", "mint", "Máta", "Mäta", "S éterickými oleji z máty klasnaté a máty rolní.", "S éterickými olejmi z mäty klasnatej a mäty roľnej."],
- ["s_sporys", "verbena", "Sporýš", "Verbena", "S extraktem ze sporýše lékařského (Verbena officinalis).", "S extraktom z verbeny lekárskej (Verbena officinalis)."],
- ["s_limet", "lime", "Limetka", "Limetka", "S éterickým olejem z limetky.", "S éterickým olejom z limetky."],
- ["s_jasmin", "jasmine", "Jasmín", "Jazmín", "S květovým extraktem z jasmínu.", "S kvetovým extraktom z jazmínu."],
- ["s_cedr", "cone", "Cedr", "Céder", "S extraktem z cedru a olejem z cedrového dřeva.", "S extraktom z cédra a olejom z cédrového dreva."],
- ["s_rakyt", "buckthorn", "Rakytník", "Rakytník", "S olejem z plodů rakytníku.", "S olejom z plodov rakytníka."],
- ["s_sacha", "sacha", "Sacha inchi", "Sacha inchi", "S olejem ze semen sacha inchi.", "S olejom zo semien sacha inchi."]
+[
+"s_mata",
+"mint",
+"Máta",
+"Mäta",
+"Obsahuje mátu.",
+"Obsahuje mätu."
+],
+[
+"s_sporys",
+"verbena",
+"Sporýš",
+"Verbena",
+"Obsahuje sporýš lékařský (verbenu).",
+"Obsahuje verbenu lekársku."
+],
+[
+"s_limet",
+"lime",
+"Limetka",
+"Limetka",
+"Obsahuje limetku.",
+"Obsahuje limetku."
+],
+[
+"s_jasmin",
+"jasmine",
+"Jasmín",
+"Jazmín",
+"Obsahuje jasmín.",
+"Obsahuje jazmín."
+],
+[
+"s_cedr",
+"cone",
+"Cedr",
+"Céder",
+"Obsahuje cedr.",
+"Obsahuje céder."
+],
+[
+"s_rakyt",
+"buckthorn",
+"Rakytník",
+"Rakytník",
+"Obsahuje rakytník.",
+"Obsahuje rakytník."
+],
+[
+"s_sacha",
+"sacha",
+"Sacha inchi",
+"Sacha inchi",
+"Obsahuje olej ze semen sacha inchi.",
+"Obsahuje olej zo semien sacha inchi."
+],
+[
+"s_hyal",
+"hyal",
+"Kyselina hyaluronová",
+"Kyselina hyalurónová",
+"Obsahuje kyselinu hyaluronovou.",
+"Obsahuje kyselinu hyalurónovú."
+],
+[
+"s_panth",
+"panth",
+"Panthenol",
+"Panthenol",
+"Obsahuje panthenol (provitamin B5).",
+"Obsahuje panthenol (provitamín B5)."
+],
+[
+"v_a",
+"vitA",
+"Vitamin A",
+"Vitamín A",
+"Obsahuje vitamin A.",
+"Obsahuje vitamín A."
+],
+[
+"v_b",
+"vitB",
+"Vitamin B",
+"Vitamín B",
+"Obsahuje vitaminy skupiny B.",
+"Obsahuje vitamíny skupiny B."
+],
+[
+"v_c",
+"vitC",
+"Vitamin C",
+"Vitamín C",
+"Obsahuje vitamin C.",
+"Obsahuje vitamín C."
+],
+[
+"v_d",
+"vitD",
+"Vitamin D",
+"Vitamín D",
+"Obsahuje vitamin D.",
+"Obsahuje vitamín D."
+],
+[
+"v_e",
+"vitE",
+"Vitamin E",
+"Vitamín E",
+"Obsahuje vitamin E.",
+"Obsahuje vitamín E."
+],
+[
+"s_q10",
+"q10",
+"Koenzym Q10",
+"Koenzým Q10",
+"Obsahuje koenzym Q10.",
+"Obsahuje koenzým Q10."
+],
+[
+"s_kolag",
+"collagen",
+"Kolagen",
+"Kolagén",
+"Obsahuje kolagen.",
+"Obsahuje kolagén."
+],
+[
+"m_zn",
+"mineral",
+"Zinek",
+"Zinok",
+"Obsahuje zinek.",
+"Obsahuje zinok."
+],
+[
+"m_se",
+"mineral",
+"Selen",
+"Selén",
+"Obsahuje selen.",
+"Obsahuje selén."
+],
+[
+"m_mg",
+"mineral",
+"Hořčík",
+"Horčík",
+"Obsahuje hořčík.",
+"Obsahuje horčík."
+],
+[
+"m_fe",
+"mineral",
+"Železo",
+"Železo",
+"Obsahuje železo.",
+"Obsahuje železo."
+],
+[
+"m_ca",
+"mineral",
+"Vápník",
+"Vápnik",
+"Obsahuje vápník.",
+"Obsahuje vápnik."
+],
+[
+"s_herm",
+"chamomile",
+"Heřmánek",
+"Harmanček",
+"Obsahuje heřmánek.",
+"Obsahuje harmanček."
+],
+[
+"s_arnika",
+"arnica",
+"Arnika",
+"Arnika",
+"Obsahuje arniku.",
+"Obsahuje arniku."
+],
+[
+"s_mesic",
+"calendula",
+"Měsíček",
+"Nechtík",
+"Obsahuje měsíček lékařský.",
+"Obsahuje nechtík lekársky."
+],
+[
+"s_trap",
+"echinacea",
+"Třapatka",
+"Echinacea",
+"Obsahuje třapatku (echinaceu).",
+"Obsahuje echinaceu."
+],
+[
+"s_ruze",
+"rose",
+"Růže",
+"Ruža",
+"Obsahuje růži.",
+"Obsahuje ružu."
+],
+[
+"s_sipek",
+"rosehip",
+"Šípek",
+"Šípka",
+"Obsahuje šípky.",
+"Obsahuje šípky."
+],
+[
+"s_levan",
+"lavender",
+"Levandule",
+"Levanduľa",
+"Obsahuje levanduli.",
+"Obsahuje levanduľu."
+],
+[
+"s_eukal",
+"eucalyptus",
+"Eukalyptus",
+"Eukalyptus",
+"Obsahuje eukalyptus.",
+"Obsahuje eukalyptus."
+],
+[
+"s_rozm",
+"rosemary",
+"Rozmarýn",
+"Rozmarín",
+"Obsahuje rozmarýn.",
+"Obsahuje rozmarín."
+],
+[
+"s_salvej",
+"sage",
+"Šalvěj",
+"Šalvia",
+"Obsahuje šalvěj.",
+"Obsahuje šalviu."
+],
+[
+"s_tymian",
+"thyme",
+"Tymián",
+"Tymian",
+"Obsahuje tymián.",
+"Obsahuje tymian."
+],
+[
+"s_jalov",
+"juniper",
+"Jalovec",
+"Borievka",
+"Obsahuje jalovec.",
+"Obsahuje borievku."
+],
+[
+"s_teatree",
+"teatree",
+"Tea tree",
+"Tea tree",
+"Obsahuje olej z čajovníku (tea tree).",
+"Obsahuje olej z čajovníka (tea tree)."
+],
+[
+"s_zelcaj",
+"tealeaf",
+"Zelený čaj",
+"Zelený čaj",
+"Obsahuje zelený čaj.",
+"Obsahuje zelený čaj."
+],
+[
+"s_zazvor",
+"ginger",
+"Zázvor",
+"Zázvor",
+"Obsahuje zázvor.",
+"Obsahuje zázvor."
+],
+[
+"s_kokos",
+"coconut",
+"Kokos",
+"Kokos",
+"Obsahuje kokos nebo kokosový olej.",
+"Obsahuje kokos alebo kokosový olej."
+],
+[
+"s_kakao",
+"cacao",
+"Kakao",
+"Kakao",
+"Obsahuje kakao.",
+"Obsahuje kakao."
+],
+[
+"s_mandle",
+"almond",
+"Mandle",
+"Mandle",
+"Obsahuje mandle nebo mandlový olej.",
+"Obsahuje mandle alebo mandľový olej."
+],
+[
+"s_oliva",
+"olive",
+"Oliva",
+"Oliva",
+"Obsahuje olivy nebo olivový olej.",
+"Obsahuje olivy alebo olivový olej."
+],
+[
+"s_jojoba",
+"jojoba",
+"Jojoba",
+"Jojoba",
+"Obsahuje jojobový olej.",
+"Obsahuje jojobový olej."
+],
+[
+"s_argan",
+"argan",
+"Argan",
+"Argán",
+"Obsahuje arganový olej.",
+"Obsahuje argánový olej."
+],
+[
+"s_shea",
+"shea",
+"Bambucké máslo",
+"Bambucké maslo",
+"Obsahuje bambucké máslo.",
+"Obsahuje bambucké maslo."
+],
+[
+"s_mentol",
+"menthol",
+"Mentol",
+"Mentol",
+"Obsahuje mentol.",
+"Obsahuje mentol."
+]
 ]

@@ -7,6 +7,8 @@ GL = json.load(open(sys.argv[1]))
 IC = json.load(open(sys.argv[2]))   # seznam [klic, glyf, CZ název, SK název, CZ popisek, SK popisek]
 OUT = sys.argv[3]
 BIG = int(sys.argv[4]) if len(sys.argv) > 4 else 150
+COLS = int(sys.argv[5]) if len(sys.argv) > 5 else 4
+COMPACT = len(sys.argv) > 6
 
 DEFS = ('<svg width="0" height="0" style="position:absolute"><defs>'
         '<path id="keik-arc" d="M 18.48 68.2 A 36.4 36.4 0 1 1 81.52 68.2" fill="none"/>'
@@ -56,15 +58,15 @@ items = ''.join(
 doc = ('<!doctype html><meta charset="utf-8"><style>'
        + ''.join('@font-face{font-family:Montserrat;font-weight:%s;src:url(file://%smontserrat-%s.woff)}' % (w, FONTS, w) for w in (400, 600, 700)) +
        'body{margin:0;background:#fff;font-family:Montserrat;padding:24px}'
-       '.g{display:flex;flex-wrap:wrap;gap:22px 26px;width:%dpx}' % (4 * (BIG + 40) + 3 * 26) +
+       '.g{display:flex;flex-wrap:wrap;gap:22px 26px;width:%dpx}' % (COLS * (BIG + 40) + (COLS - 1) * 26) +
        '.it{width:%dpx;display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px}' % (BIG + 40) +
        '.big{width:%dpx;height:%dpx}.sm{width:80px;height:80px}svg{width:100%%;height:100%%;overflow:visible;filter:drop-shadow(0 3px 5px rgba(94,20,14,.2))}' % (BIG, BIG) +
-       'b{font-size:13px;color:#7c1f17}span{font-size:11.5px;color:#6e6c7a;line-height:1.35}'
+       'b{font-size:13px;color:#7c1f17}span{font-size:11.5px;color:#6e6c7a;line-height:1.35}' + ('.sm,span{display:none}' if COMPACT else '') +
        '</style>' + DEFS + '<div class="g">' + items + '</div>')
 open(OUT + '.html', 'w').write(doc)
 with sync_playwright() as pw:
     b = pw.chromium.launch()
-    pg = b.new_page(viewport={'width': 4 * (BIG + 40) + 3 * 26 + 48, 'height': 400}, device_scale_factor=2)
+    pg = b.new_page(viewport={'width': COLS * (BIG + 40) + (COLS - 1) * 26 + 48, 'height': 400}, device_scale_factor=2)
     pg.goto('file://' + OUT + '.html'); pg.wait_for_timeout(400)
     pg.screenshot(path=OUT, full_page=True)
     b.close()
