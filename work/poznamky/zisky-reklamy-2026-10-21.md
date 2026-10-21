@@ -34,3 +34,8 @@ Majitel 21. 10.: „jak to vypadá s našimi zisky na google, heureka a seznam r
 - Reklamy celkem 36 939 Kč bez DPH (Google 28 691 + Heureka 5 007 + Sklik 3 242) = 9,7 % obratu zboží bez DPH.
 - Zisk po odečtení reklam ~54 200 Kč za 30 dní (před ostatními náklady – Shoptet, platební brány atd.; doprava podle majitele pokrývá dopravce a balení).
 - Reklamám (Google + Heureka) přisouzeno ~59–62 % obratu, ~35–38 tis. Kč marže připadá na objednávky bez placené reklamy (organic, přímé, e-mail, opakované nákupy…). Kanály se překrývají (jedna objednávka může být připsaná Googlu i Heurece) → skutečný podíl neplacených objednávek bude spíš vyšší.
+
+## Sklik – zapnuto měření SEM (21. 10. 2026 ~16:15, majitel: „aktivuj tedy“)
+- Před zapnutím ověřeno: Sklik → Nástroje → Správa měření → Diagnostika měření (Kosmetikaeva.eu, provozovna 231676): od ~14. 10. chodí SEM hity ze Shoptetu – 29 079 hitů (Zobrazení stránky 9 653, Zobrazení obsahu 7 512, Zahájení objednávky 653, Nákup 98), 50 % se souhlasem, 0 validačních chyb. Konverzní událost „Nákup“ (typ Nákup) aktivní.
+- Zapnuto tlačítkem „Začít používat SEM“ → „Zapnout SEM“ (NEVRATNÉ – staré měřicí kódy Skliku se už nezpracovávají). Retargetingové seznamy převedeny automaticky (Nákup – retargeting, Nakoupili 30 dnů, 3 × DRTG). Kampaně: Nákupy: Kosmetikaeva.eu a VP: DRTG – žádná výzva k výběru konverze. Banner „Dokončete aktivaci SEM“ v Skliku zatím dál svítí (statický).
+- Zbývá: v Centru prodejce (Seznam Nákupy) chyba „chybí e-mail zákazníka“ ve zaslaných objednávkách – týká se hodnocení obchodu/recenzí, ne měření v Skliku. Konverze v Skliku vyhodnotit za ~2 týdny.
