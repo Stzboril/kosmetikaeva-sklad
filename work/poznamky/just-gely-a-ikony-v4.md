@@ -22,3 +22,4 @@ Doplňuje nove-produkty.md a ikony-v2-a-kategorie.md.
 - Výrobky mimo Heureka feed (vyprodané, skryté) analýza nezahrnula – doplnit při další verzi.
 - 21. 10. 15:15 majitel „ano oprav to“: u 11444 (Just for Men) odstraněn nadpis h3 z popisu CZ i SK (šablona ho doplňuje sama); work/novy/848 upraveno také.
 - 21. 10. 15:16 majitel „zviditelni ho“: 11444 Just for Men sprchový gel 250 ml (848/250) je VIDITELNÝ – CZ 749 Kč, SK 30,79 €, sklad 0 (Brzy skladem / Čoskoro na sklade), nadpis popisu jen jednou; fotka a ikony vlastností zatím chybí.
+- 21. 10. 15:18 majitel „ano přidej ho a dej mu 3 ks skladem“: 11444 sklad 3 (Skladem, jde koupit); ikony s_panth,ch,u_osv,p_muzi,d_sprcha v ke-ikony-v5.js (150 403 B, patch work/design/ikony/ke-ikony-v5-patch.js), zavaděč v zápatí → v5, záloha HTML kódů localStorage keHtmlKodyBackup_20261021_ikony5. Návrat = v4. Další verze = ke-ikony-v6.js.
