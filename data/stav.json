@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-20T11:24+02:00",
+"cas": "2026-10-21T08:18+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -4757,12 +4757,12 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4003/active-energy"
 },
 "PB4004": {
-"dop": 359.0,
+"dop": 429.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4004/active-recovery"
 },
 "PB4005": {
-"dop": 359.0,
+"dop": 429.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4005/active-detox"
 },

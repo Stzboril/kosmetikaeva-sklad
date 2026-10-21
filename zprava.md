@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 20.10.2026 v 11:24.
+Kontrola u dodavatelů proběhla 21.10.2026 v 08:18.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -32,13 +32,15 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 
 ## Ceny ke schválení
 
-Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (6 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (8 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
 
 | Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
 |---|---|---|--:|--:|--:|--:|
 | Essens | [Essens w903 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-w903/) | W90350 | 600 Kč | **499 Kč** | 600 Kč | -16.8 % |
 | Essens | [Essens Clea'NS - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-clea-ns-doplnek-stravy-30-tablet/) | HOP51 | 749 Kč | **829 Kč** | 895 Kč | +10.7 % |
 | Essens | [Essens ES`Pure - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-es-pure-doplnek-stravy-30-tablet/) | 6512 | 419 Kč | **459 Kč** | 495 Kč | +9.5 % |
+| Eurona | [Eurona ACTIVE RECOVERY ALOE VERA 95 % 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-active-recovery-aloe-vera-95--500-ml/) | PB4004 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
+| Eurona | [Eurona ACTIVE DETOX ALOE VERA 92 % 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-active-detox-aloe-vera-92--500-ml/) | PB4005 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
 | Eurona | [Eurona CC CERNY CAFÉ BRAZÍLIE Sul de Minas zrnková káva 500 g](https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-brazilie-sul-de-minas-500-g/) | CE0008 | 519 Kč | **549 Kč** | 589 Kč | +5.8 % |
 | Eurona | [Eurona Lavender Designový aromadifuzér 50 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-lavender-designovy-aromadifuzer100-ml/) | CC6734 | 319 Kč | **309 Kč** | 329 Kč | -3.1 % |
 | LR | [LR Figuactiv Bylinný odtučňovací čaj 250 g](https://www.kosmetikaeva.eu/kava-a-caj/lr-figuactiv-bylinny-odtucnovaci-caj-250-g/) | 80205-419 | 609 Kč | **519 Kč** | 555 Kč | -14.8 % |
