@@ -1,0 +1,9 @@
+[
+ ["s_mata", "mint", "Máta", "Mäta", "S éterickými oleji z máty klasnaté a máty rolní.", "S éterickými olejmi z mäty klasnatej a mäty roľnej."],
+ ["s_sporys", "verbena", "Sporýš", "Verbena", "S extraktem ze sporýše lékařského (Verbena officinalis).", "S extraktom z verbeny lekárskej (Verbena officinalis)."],
+ ["s_limet", "lime", "Limetka", "Limetka", "S éterickým olejem z limetky.", "S éterickým olejom z limetky."],
+ ["s_jasmin", "jasmine", "Jasmín", "Jazmín", "S květovým extraktem z jasmínu.", "S kvetovým extraktom z jazmínu."],
+ ["s_cedr", "cone", "Cedr", "Céder", "S extraktem z cedru a olejem z cedrového dřeva.", "S extraktom z cédra a olejom z cédrového dreva."],
+ ["s_rakyt", "buckthorn", "Rakytník", "Rakytník", "S olejem z plodů rakytníku.", "S olejom z plodov rakytníka."],
+ ["s_sacha", "sacha", "Sacha inchi", "Sacha inchi", "S olejem ze semen sacha inchi.", "S olejom zo semien sacha inchi."]
+]
