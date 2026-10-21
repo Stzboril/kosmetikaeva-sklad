@@ -1,0 +1,21 @@
+/* v18 – výpis hodnocení obchodu (CZ /hodnoceni-obchodu/, SK /sk/hodnotenie-obchodu/)
+   Příčina: šablona dává .vote-content .stars pevnou šířku 82 px (počítanou na staré ikonové písmo).
+   Nové SVG hvězdičky (v5–v7) mají 15 px + mezera → 5. hvězdička spadla na druhý řádek
+   a text recenze se posunul vedle ní. Hvězdičky a jméno do .vote-content přesouvá skript šablony (venus.js). Na mobilu šablona navíc vše centruje a skrývá kolečko s iniciálami. */
+.votes-wrap .vote-wrap{align-items:flex-start!important;flex-wrap:nowrap!important}
+.votes-wrap .vote-wrap .vote-content{text-align:left!important;font-size:14.5px!important;line-height:1.6!important;color:var(--ke-ink-soft)!important;overflow-wrap:anywhere}
+.votes-wrap .stars{display:flex!important;flex-wrap:nowrap!important;align-items:center;gap:3px;width:auto!important;height:auto!important;min-width:0!important;max-width:none!important;float:none!important;margin:2px 0 10px!important;padding:0!important}
+.votes-wrap .stars .star{width:16px!important;height:16px!important;min-width:16px!important;margin:0!important;float:none!important}
+.votes-wrap .vote-content .vote-summary{display:block!important;margin:12px 0 0!important;padding:0!important;text-align:left!important}
+.votes-wrap .vote-content .vote-name{display:block!important;margin:0 0 2px!important;padding:0!important;font-size:14px!important;font-weight:600!important;color:var(--ke-ink)!important;text-align:left!important}
+.votes-wrap .vote-content .vote-rating{display:flex!important;justify-content:flex-start!important;margin:0!important;padding:0!important}
+.votes-wrap .vote-content .vote-time{font-size:12.5px!important;color:var(--ke-muted)!important}
+@media (max-width:767px){
+.votes-wrap .vote-wrap{display:flex!important;flex-direction:row!important;gap:14px;padding:22px 0!important;text-align:left!important}
+.votes-wrap .vote-wrap .vote-header{display:block!important;flex:0 0 44px;width:44px!important;margin:0!important;padding:0!important}
+.votes-wrap .vote-wrap .vote-pic,.votes-wrap .vote-wrap .vote-pic img,.votes-wrap .vote-wrap .vote-initials{width:44px!important;height:44px!important;min-width:44px!important;line-height:44px!important;font-size:15px!important;margin:0!important}
+.votes-wrap .vote-wrap .vote-content{flex:1 1 0%;max-width:none!important;min-width:0;width:auto!important;padding:0!important;margin:0!important}
+.votes-wrap .vote-content .stars{margin:2px 0 8px!important}
+.votes-wrap .stars .star{width:15px!important;height:15px!important;min-width:15px!important}
+.votes-wrap .vote-content .vote-summary{margin-top:10px!important}
+}
