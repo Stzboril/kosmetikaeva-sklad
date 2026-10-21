@@ -21,5 +21,16 @@ Majitel 21. 10.: „jak to vypadá s našimi zisky na google, heureka a seznam r
 - Odhad zisku ~+6 300 Kč za 30 dní (obrat / 1,21 × 24 % − náklady). Bod zvratu PNO ~20 %.
 - POZOR: kredit PPC jen 102,69 Kč (Heureka: „PPC docházejí prostředky“) – při vyčerpání PPC skončí.
 
-## Seznam (Sklik / Zboží)
-- Administrace Zboží je teď v Skliku; prohlížeč v aplikaci není do Skliku přihlášený (účet info@kosmetikaeva.eu chce heslo) → data zatím chybí.
+## Seznam (Sklik / Zboží) – 21. 9.–20. 10. 2026 (majitel se 16:02 přihlásil do Skliku)
+- Sklik (URL ?dateRange=(from:'2026-09-21',to:'2026-10-20')): Nákupy: Kosmetikaeva.eu – 596 prokliků, 16 802 zobrazení, CPC 5,11 Kč, cena 3 045 Kč, 0 konverzí; VP: DRTG – 95 prokliků, 197 Kč, 1 konverze 140 Kč. Celkem 3 242 Kč bez DPH, 691 prokliků. Kredit Skliku 68,95 Kč bez DPH.
+- Měření konverzí NEFUNGUJE celé: Centrum prodejce (prodejce.seznam.cz → Měření konverzí) „Omezené“, za 14 dní žádná platná konverze, chyba „V posledních zaslaných objednávkách nebyl uveden email zákazníka (100×)“; Sklik hlásí „Shoptet nasadil nové měření SEM a doplnil SEM ID – zbývá aktivace v Skliku (nápověda krok 6)“. Výnos ze Seznamu proto nejde změřit.
+- Statistiky Zboží jsou od 9. 10. 2026 jen v Skliku (záložka Statistiky v Centru prodejce skrytá).
+
+## Upřesnění majitele 16:03
+- „hodnota objednávek je bez DPH“ → Google Ads hodnota konverzí je BEZ DPH → platí horní odhady: Google celkem +13 200 Kč (CZ Just a Essens +7 900, CZ Eurona a LR +400, SK Just a Essens +5 400, SK Eurona a LR −500). Heureka: pokud je i její obrat bez DPH, zisk ~+8 700 Kč (jinak ~+6 300).
+
+## Celý e-shop (majitel 16:04: „udělej na celý eshop, protože jsou i objednávky s organic vyhledávání“), 21. 9.–20. 10. 2026
+- Obrat zboží 379 868 Kč bez DPH (459 640 s DPH), marže 91 153 Kč (24,0 %).
+- Reklamy celkem 36 939 Kč bez DPH (Google 28 691 + Heureka 5 007 + Sklik 3 242) = 9,7 % obratu zboží bez DPH.
+- Zisk po odečtení reklam ~54 200 Kč za 30 dní (před ostatními náklady – Shoptet, platební brány atd.; doprava podle majitele pokrývá dopravce a balení).
+- Reklamám (Google + Heureka) přisouzeno ~59–62 % obratu, ~35–38 tis. Kč marže připadá na objednávky bez placené reklamy (organic, přímé, e-mail, opakované nákupy…). Kanály se překrývají (jedna objednávka může být připsaná Googlu i Heurece) → skutečný podíl neplacených objednávek bude spíš vyšší.
