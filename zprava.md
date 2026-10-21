@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 21.10.2026 v 08:18.
+Kontrola u dodavatelů proběhla 21.10.2026 v 11:20.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
