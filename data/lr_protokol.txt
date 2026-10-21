@@ -1,5 +1,5 @@
-Wed Oct 21 06:34:41 CEST 2026
-pokus 2
+Wed Oct 21 07:33:17 CEST 2026
+pokus 3
 (plánovaný běh v cloudu, stahování přes WebFetch; shell na počítači uživatele není k dispozici)
 https://www.lr-czech.com/zdravi – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena), i při 2. pokusu
 https://www.lr-czech.com/krasa – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena), i při 2. pokusu
