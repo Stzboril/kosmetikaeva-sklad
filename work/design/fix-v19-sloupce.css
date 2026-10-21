@@ -1,0 +1,5 @@
+/* v19 – souhrn hodnocení obchodu (CZ /hodnoceni-obchodu/, SK /sk/hodnotenie-obchodu/):
+   sloupce rozložení zlaté a zaoblené jako v okně „Hodnocení produktu“ (#colorbox.ratingDialog), místo černé čáry na šedé. */
+.rate-wrapper .rate-list .rate-block{height:8px!important;border-radius:99px!important;background:#e9e6ee!important;overflow:visible!important}
+.rate-wrapper .rate-list .rate-bar{height:8px!important;border-radius:99px!important;background:var(--ke-star)!important}
+.rate-wrapper .rate-list .rate-count{font-size:12.5px!important;color:var(--ke-muted)!important}
