@@ -1,0 +1,22 @@
+{
+  "productId": 9364,
+  "code": "6250",
+  "zdroje": [
+    "https://www.justnahrin.cz/produkty/vitamin-d3-komplex (katalogové č. 6250, 760 Kč, složení a tabulka doslova)",
+    "https://www.nahrin.ch/de/vitamin-d3-complex (vitamin D3 z lišejníku, laktosefrei, glutenfrei, 1 Kapsel täglich mit Wasser)",
+    "Nařízení (EU) 432/2012, konsolidované znění 17. 5. 2021, CS a SK (schválená zdravotní tvrzení, doslova)"
+  ],
+  "cs": {
+    "indexName": "nahrin-vitamin-d3-complex-60-kapsli",
+    "staraAdresa": "/vitaminy-a-mineraly/nahrin-vitamin-d3-a-vapnik-60-tablet/",
+    "metaDescription": "Nahrin Vitamin D3 Complex 60 kapslí: doplněk stravy s 50 µg vitaminu D3 z lišejníku, vápníkem, hořčíkem, zinkem, borem a vitaminy B5, B9 a B12."
+  },
+  "sk": {
+    "indexName": "nahrin-vitamin-d3-complex-60-kapsul",
+    "staraAdresa": "/sk/vitaminy-a-mineraly/nahrin-vitamin-d3-a-vapnik-60-tablet/",
+    "metaDescription": "Nahrin Vitamin D3 Complex 60 kapsúl: výživový doplnok s 50 µg vitamínu D3 z lišajníka, vápnikom, horčíkom, zinkom, bórom a vitamínmi B5, B9 a B12."
+  },
+  "parametry": "odebráno Pro koho: Unisex (filtr i doplňkový parametr) – pravidlo 13. 10. 2026: u doplňků stravy jen Děti",
+  "akce": "odebrána prošlá akční cena 649 Kč (23. 9.–31. 12. 2025)",
+  "ikony": "ch,bezlep,bezlakt,v_d,v_b,f_kaps (ke-ikony-v7)"
+}
