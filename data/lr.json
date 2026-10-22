@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-21T08:17+02:00",
+"cas": "2026-10-22T06:36+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -9,7 +9,7 @@
 },
 "20420-301": {
 "cena": 429.0,
-"nazev": "Aloe Vera Zklidňující pěna na holení",
+"nazev": "Aloe Vera Zklidňující pěna na holení pro muže",
 "skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
@@ -59,13 +59,13 @@
 "cena": 469.0,
 "nazev": "Aloe Vera Relaxační hřejivé mléko",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/pece-o-telo"
 },
 "20604-201": {
 "cena": 959.0,
 "nazev": "Aloe Vera Multifunkční MSM tělový gel",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/pece-o-telo"
 },
 "20606-101": {
 "akce": {
@@ -83,25 +83,25 @@
 "cena": 399.0,
 "nazev": "Aloe Vera Jemný krém na ruce",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20611-301": {
 "cena": 275.0,
 "nazev": "Aloe Vera Jemná mycí emulze",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20612-201": {
 "cena": 399.0,
 "nazev": "Aloe Vera Jemná mycí emulze Náhradní balení",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20630-301": {
 "cena": 429.0,
 "nazev": "Aloe Vera Vitalizační sprchový gel",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20631-401": {
 "cena": 459.0,
@@ -113,19 +113,19 @@
 "cena": 559.0,
 "nazev": "Aloe Vera Vlasový a tělový šampon",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20639-201": {
 "cena": 629.0,
 "nazev": "Aloe Vera Hydratační tělový balzám",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20643-401": {
 "cena": 199.0,
 "nazev": "Aloe Vera Ochranný deo roll-on",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20647-101": {
 "cena": 499.0,
@@ -184,7 +184,7 @@
 "20676-101": {
 "cena": 199.0,
 "nazev": "Aloe Vera Hydratační balzám na rty",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20677-401": {
@@ -227,7 +227,7 @@
 "cena": null,
 "nazev": "Aloe Vera Ochranný krém s propolisem Série 2 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/pece-o-telo"
 },
 "20730-101": {
 "cena": 619.0,
@@ -245,7 +245,7 @@
 "cena": null,
 "nazev": "Aloe Vera Ochranný deo roll-on 2 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20783": {
 "akce": {
@@ -307,47 +307,11 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/aloe-vera-care"
 },
-"23110-201": {
-"cena": 809.0,
-"nazev": "Aloe Vera Kids Sun SPF 50 Opalovací mléko ve spreji",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
-},
-"23112-101": {
-"cena": 619.0,
-"nazev": "Aloe Vera Sun SPF 30 Opalovací mléko",
-"skladem": false,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
-},
-"23113-101": {
-"cena": 895.0,
-"nazev": "Aloe Vera Sun SPF 50 Opalovací krém",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
-},
-"23114-101": {
-"cena": 709.0,
-"nazev": "Aloe Vera Sun SPF 50 Anti-aging opalovací fluid",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
-},
 "23116-101": {
 "cena": 619.0,
 "nazev": "Aloe Vera After Sun Krémový gel po opalování",
 "skladem": true,
 "url": "https://www.lr-czech.com/pece-o-telo"
-},
-"25000": {
-"cena": 749.0,
-"nazev": "LR MICROSILVER PLUS Mycí krém",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-plet"
-},
-"25009-1": {
-"cena": 799.0,
-"nazev": "LR MICROSILVER PLUS Pleťový krém",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-plet"
 },
 "25123-1": {
 "cena": 369.0,
@@ -395,7 +359,7 @@
 "cena": null,
 "nazev": "Limitovaná Aloe Vera Winter Pumpkin Gelová maska",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27166-1": {
 "akce": {
@@ -419,12 +383,12 @@
 "cena": null,
 "nazev": "Limitovaná Aloe Vera Winter Pumpkin Pečující série",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "27170-1": {
 "cena": 489.0,
 "nazev": "Aloe Vera Cloudberry Charm Sprchová Pěna",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/pece-o-telo"
 },
 "27171-1": {
@@ -438,12 +402,6 @@
 "nazev": "Aloe Vera Cloudberry Charm Krémový Gel Na Obličej",
 "skladem": true,
 "url": "https://www.lr-czech.com/denni-nocni-ocni"
-},
-"27175-1": {
-"cena": 485.0,
-"nazev": "Aloe Vera Mint & Melon Čistící Sorbet",
-"skladem": true,
-"url": "https://www.lr-czech.com/pece-o-plet"
 },
 "27176-1": {
 "cena": 709.0,
@@ -518,48 +476,24 @@
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "28244-301": {
-"akce": {
-"cena": 1269.0,
-"do": "2026-10-21",
-"od": "2026-10-15",
-"stitek": "Akce 15.-21. 10. 2026"
-},
 "cena": 1699.0,
 "nazev": "LR ZEITGARD Serox Intenzivní krém",
 "skladem": true,
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "28249-1": {
-"akce": {
-"cena": 2805.0,
-"do": "2026-10-21",
-"od": "2026-10-15",
-"stitek": "Akce 15.-21. 10. 2026"
-},
 "cena": null,
 "nazev": "Serox Série pro pleť",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-plet"
+"url": "https://www.lr-czech.com/sera"
 },
 "28250-101": {
-"akce": {
-"cena": 1209.0,
-"do": "2026-10-21",
-"od": "2026-10-15",
-"stitek": "Akce 15.-21. 10. 2026"
-},
 "cena": 1619.0,
 "nazev": "LR ZEITGARD Serox Instant Skin Perfector",
 "skladem": true,
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "28251-101": {
-"akce": {
-"cena": 1849.0,
-"do": "2026-10-21",
-"od": "2026-10-15",
-"stitek": "Akce 15.-21. 10. 2026"
-},
 "cena": 2315.0,
 "nazev": "LR ZEITGARD Serox Sérum s okamžitým účinkem",
 "skladem": true,
@@ -649,131 +583,125 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/make-up"
 },
-"29022-1": {
-"cena": 1389.0,
-"nazev": "LR ZEITGARD Signature Rozjasňující make-up – 01 Fair",
-"skladem": true,
-"url": "https://www.lr-czech.com/krasa"
-},
 "29022-2": {
 "cena": 1389.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující make-up – 02 Light",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29022-3": {
 "cena": 1389.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující make-up – 03 Neutral",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29023-1": {
 "cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Fixační pudr – Light-medium",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29024-1": {
 "cena": 795.0,
 "nazev": "LR ZEITGARD Signature Tekutý rozjasňovač – Rose Gold",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29026-1": {
 "cena": 795.0,
 "nazev": "LR ZEITGARD Signature Tekutá tvářenka – Light Pink",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29027-1": {
 "cena": 1009.0,
 "nazev": "LR ZEITGARD Signature Aktivační sérum na řasy",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29028-1": {
 "cena": 1329.0,
 "nazev": "LR ZEITGARD Signature Paletka očních stínů",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29029-1": {
 "cena": 745.0,
 "nazev": "LR ZEITGARD Signature Řasenka pro intenzivní efekt – Deep Black",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29030-1": {
 "cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Light",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29030-2": {
 "cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Medium",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29031-1": {
 "cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 01 Pure Red",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29031-2": {
 "cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 02 Rosy Nude",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29031-3": {
 "cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 03 Berry Rose",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29031-4": {
 "cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 04 Deep Brown",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29032-1": {
 "cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 01 Pure Red",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29032-2": {
 "cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 02 Rosy Nude",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29032-3": {
 "cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 03 Berry Rose",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29032-4": {
 "cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 04 Ruby Red",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29033-1": {
 "cena": 795.0,
 "nazev": "LR ZEITGARD Signature Lesk na rty – Soft Rose",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29033-2": {
 "cena": 795.0,
 "nazev": "LR ZEITGARD Signature Lesk na rty – Peachy Brown",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/make-up"
 },
 "29068": {
 "cena": 10069.0,
@@ -786,144 +714,6 @@
 "nazev": "Signature Kompletní série",
 "skladem": true,
 "url": "https://www.lr-czech.com/make-up"
-},
-"30700-1": {
-"cena": 1475.0,
-"nazev": "Be Cheerful EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30701-1": {
-"cena": 1475.0,
-"nazev": "Think Big EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30702-1": {
-"cena": 1475.0,
-"nazev": "In Focus EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30703-1": {
-"cena": 1475.0,
-"nazev": "Think Wild EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30704-1": {
-"cena": 1475.0,
-"nazev": "Feel Savage EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30705-1": {
-"cena": 1475.0,
-"nazev": "Stay Calm EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30706-1": {
-"cena": 1475.0,
-"nazev": "Impress Me EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30707-1": {
-"cena": 1475.0,
-"nazev": "Be Magical EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30708-1": {
-"cena": 1475.0,
-"nazev": "Feel Shiny EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30709-1": {
-"cena": 1475.0,
-"nazev": "Feel Gorgeous EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30710-1": {
-"cena": 1475.0,
-"nazev": "Amaze Me Edp",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30711-1": {
-"cena": 1475.0,
-"nazev": "Into Jungle EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30712-1": {
-"cena": 1475.0,
-"nazev": "Be Back EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30713-1": {
-"cena": 1475.0,
-"nazev": "Feel Comfy EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30714-1": {
-"cena": 1475.0,
-"nazev": "Be Flirty EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30715-1": {
-"cena": 1475.0,
-"nazev": "Feel Sexy EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30716-1": {
-"cena": 1475.0,
-"nazev": "No Bounds EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30717-1": {
-"cena": 1475.0,
-"nazev": "Get Addicted EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"30720": {
-"cena": 3979.0,
-"nazev": "LR Mood Infusion Série 3 ks",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"31010-1": {
-"cena": 3679.0,
-"nazev": "Glorious Elixir for women EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"31011-1": {
-"cena": 3679.0,
-"nazev": "Glorious Elixir for men EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"31012-1": {
-"cena": 3679.0,
-"nazev": "Famous Elixir for women EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
-},
-"31013-1": {
-"cena": 3679.0,
-"nazev": "Famous Elixir for men EdP",
-"skladem": true,
-"url": "https://www.lr-czech.com/parfemy"
 },
 "70102-1": {
 "cena": 2089.0,
@@ -953,7 +743,7 @@
 "cena": 8569.0,
 "nazev": "ZEITGARD PRO Série pro čištění obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/proti-starnuti"
 },
 "70107-1": {
 "cena": 829.0,
@@ -965,37 +755,37 @@
 "cena": 8339.0,
 "nazev": "ZEITGARD PRO Set pro čištění obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-2": {
 "cena": 8339.0,
 "nazev": "ZEITGARD PRO Set pro peeling obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-3": {
 "cena": 8339.0,
 "nazev": "ZEITGARD PRO Set pro vyhlazení obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-4": {
 "cena": 8339.0,
 "nazev": "ZEITGARD PRO Set pro péči o tělo",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/proti-starnuti"
 },
 "70111-1": {
 "cena": 14929.0,
 "nazev": "ZEITGARD PRO Kompletní set",
 "skladem": true,
-"url": "https://www.lr-czech.com/krasa"
+"url": "https://www.lr-czech.com/proti-starnuti"
 },
 "71011-1": {
 "cena": 739.0,
 "nazev": "LR ZEITGARD Noční maska",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-plet"
+"url": "https://www.lr-czech.com/sera"
 },
 "71060-1": {
 "cena": 1325.0,
@@ -1013,7 +803,7 @@
 "cena": 959.0,
 "nazev": "LR LIFETAKT Pro Balance Tablety",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80108-499": {
 "cena": 2685.0,
@@ -1037,7 +827,7 @@
 "cena": null,
 "nazev": "LR LIFETAKT Reishi Kapsle Série 2 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80190-699": {
 "akce": {
@@ -1049,7 +839,7 @@
 "cena": null,
 "nazev": "LR LIFETAKT Active Freedom Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80192-499": {
 "cena": 3025.0,
@@ -1058,28 +848,28 @@
 "url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80205-608": {
+"akce": {
 "cena": 555.0,
+"do": "2026-10-23",
+"od": "2026-10-17",
+"stitek": "Akce 17.-23.10.2026"
+},
+"cena": null,
 "nazev": "LR LIFETAKT Směs bylin se zeleným čajem k přípravě nálevu",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80301-698": {
 "cena": 755.0,
 "nazev": "LR LIFETAKT Vita Active Red",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80325-699": {
-"akce": {
-"cena": 1099.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
 "cena": 1295.0,
 "nazev": "LR LIFETAKT Cistus Incanus Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80331-799": {
 "cena": 1389.0,
@@ -1097,7 +887,7 @@
 "cena": null,
 "nazev": "LR LIFETAKT Woman Phyto Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80338-698": {
 "akce": {
@@ -1109,7 +899,7 @@
 "cena": 1269.0,
 "nazev": "LR LIFETAKT Super Omega Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80352-499": {
 "cena": 2815.0,
@@ -1127,13 +917,13 @@
 "cena": null,
 "nazev": "LR LIFETAKT Colostrum Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80361-599": {
 "cena": 1189.0,
 "nazev": "LR LIFETAKT Colostrum Liquid",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80363-599": {
 "akce": {
@@ -1145,19 +935,19 @@
 "cena": null,
 "nazev": "LR LIFETAKT Colostrum Liquid Série 2 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80364-499": {
 "cena": 6785.0,
 "nazev": "LR LIFETAKT Colostrum Liquid Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80389-499": {
 "cena": 4229.0,
 "nazev": "LR LIFETAKT Colostrum Kapsle Série 3 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80550-419": {
 "akce": {
@@ -1169,37 +959,31 @@
 "cena": null,
 "nazev": "LR LIFETAKT Protein Power Vanilkový nápoj v prášku",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80700-680": {
-"akce": {
-"cena": 870.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
 "cena": 1025.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80706-480": {
 "cena": 5615.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80750-681": {
 "cena": 1025.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Broskev",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80756-481": {
 "cena": 5615.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Broskev Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80800-780": {
 "akce": {
@@ -1211,13 +995,13 @@
 "cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80806-460": {
 "cena": 6269.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80850-683": {
 "akce": {
@@ -1229,79 +1013,55 @@
 "cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Active Freedom",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80856-483": {
 "cena": 6269.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Active Freedom Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80935-16": {
 "cena": 2375.0,
 "nazev": "LR LIFETAKT Mind Master Formula Red Série 5 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80940-19": {
-"akce": {
-"cena": 548.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
 "cena": 645.0,
 "nazev": "LR LIFETAKT Mind Master Formula Gold",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80945-19": {
 "cena": 2965.0,
 "nazev": "LR LIFETAKT Mind Master Formula Gold Série 5 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80950-682": {
-"akce": {
-"cena": 437.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
 "cena": 515.0,
 "nazev": "LR LIFETAKT Mind Master Formula Red",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80980-399": {
-"akce": {
-"cena": 795.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
 "cena": 939.0,
 "nazev": "LR LIFETAKT Mind Master Extreme Performance Powder",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "81000-19": {
-"akce": {
-"cena": 970.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
 "cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Immune Plus",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "81006-19": {
 "cena": 6269.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Immune Plus Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "81140-98": {
 "akce": {
@@ -1313,7 +1073,7 @@
 "cena": 4329.0,
 "nazev": "LR LIFETAKT 5in1 Beauty Elixir",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "81170-198": {
 "akce": {
@@ -1325,7 +1085,7 @@
 "cena": 4329.0,
 "nazev": "LR LIFETAKT 5in1 Men´s Shot",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "81180-99": {
 "akce": {
@@ -1337,31 +1097,7 @@
 "cena": null,
 "nazev": "LR LIFETAKT Pro 12+ Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81241-19": {
-"cena": 1195.0,
-"nazev": "LR FIGUACTIVE Koktejl Fruity Strawberry (Jahoda)",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81242-19": {
-"cena": 1195.0,
-"nazev": "LR FIGUACTIVE Koktejl Lovely Coffee (Káva)",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81243-19": {
-"cena": 1195.0,
-"nazev": "LR FIGUACTIVE Koktejl Smooth Cocoa (Kakao)",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"81255-19": {
-"cena": 1195.0,
-"nazev": "LR Figuactive Kaše Berry Dream",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "81330-98": {
 "akce": {
@@ -1373,7 +1109,7 @@
 "cena": 925.0,
 "nazev": "LR LIFETAKT Liver Support Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "96999-19": {
 "cena": 4625.0,
@@ -1441,17 +1177,11 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
-"97631": {
-"cena": 5045.0,
-"nazev": "Detox Set",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
 "97900": {
 "cena": 2159.0,
 "nazev": "Mini Detox Set",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "97903": {
 "akce": {
@@ -1463,7 +1193,7 @@
 "cena": null,
 "nazev": "AV Broskev & Vita Active Set",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 }
 }
 }

@@ -1,8 +1,24 @@
-Thu Oct 22 05:33:02 CEST 2026
-pokus 1
-https://www.lr-czech.com/zdravi – chyba WebFetch: PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena), opakování také PROVENANCE_REQUIRED
-https://www.lr-czech.com/krasa – chyba WebFetch: PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena), opakování také PROVENANCE_REQUIRED
-https://www.lr-czech.com/aloe-vera-care – chyba WebFetch: PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena), opakování také PROVENANCE_REQUIRED
-Zbylých 12 stránek přeskočeno – první 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED. Stahování přes shell/curl nepoužito (běh v cloudu bez přístupu k počítači).
-Ověření „není skladem“: neprovedeno (žádná data)
-Podezřele málo produktů LR (0), neukládám.
+Thu Oct 22 06:36:59 CEST 2026
+pokus 2
+https://www.lr-czech.com/zdravi – chyba WebFetch: 2× PROVENANCE_REQUIRED, pak opakování na konci běhu client_error (stránka nenačtena)
+https://www.lr-czech.com/krasa – chyba WebFetch: PROVENANCE_REQUIRED, opakování client_error (stránka nenačtena)
+https://www.lr-czech.com/aloe-vera-care – 40
+https://www.lr-czech.com/parfemy – chyba WebFetch: client_error, opakování také client_error
+https://www.lr-czech.com/proti-starnuti – 31
+https://www.lr-czech.com/pece-o-telo – 39
+https://www.lr-czech.com/zdravi-reseni – 28
+https://www.lr-czech.com/health-mission-top-produkty – 10
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – chyba WebFetch: client_error, opakování také client_error
+https://www.lr-czech.com/denni-nocni-ocni – 23
+https://www.lr-czech.com/make-up – 25
+https://www.lr-czech.com/pece-o-plet – chyba WebFetch: client_error, opakování také client_error
+https://www.lr-czech.com/sera – 16
+https://www.lr-czech.com/pece-o-telo-zuby – 5
+https://www.lr-czech.com/specialiste – 32
+(make-up: 1 řádek vynechán – místo kódu vrácen název „LR ZEITGARD Signature Rozjasňující make-up – 01 Fair“)
+Stahováno nástrojem WebFetch.
+Ověření není skladem:
+20676-101 (aloe-vera-care) – NE → opraveno na ANO
+27170-1 (pece-o-telo) – NE → opraveno na ANO
+27171-1 (pece-o-telo) – ANO
+Uloženo 174 produktů LR, z toho není skladem: 1, v akci: 25
