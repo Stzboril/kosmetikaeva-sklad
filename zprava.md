@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 22.10.2026 v 06:37.
+Kontrola u dodavatelů proběhla 22.10.2026 v 11:23.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -165,4 +165,4 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 | Essens | [Sprchový gel m008](https://www.essens.cz/sprchovy-gel-m008-d396846/) | M008GX | ✅ | 210 Kč | 199 Kč | 20.10. |
 | Eurona | [Luxusní kolekce aroma parfémů](https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume) | CA0163 | ✅ | 767 Kč | 709 Kč | 19.10. |
 
-Celkem dodavatelé nabízejí 66 produktů, které na e-shopu nejsou (Eurona 28, Essens 20, LR 18) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 65 produktů, které na e-shopu nejsou (Eurona 28, Essens 19, LR 18) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
