@@ -1,5 +1,5 @@
-Fri Oct 23 05:27:47 CEST 2026
-pokus 1
+Fri Oct 23 06:28:49 CEST 2026
+pokus 2
 Stahování: nástroj WebFetch (cloudová relace, bez shellu na počítači uživatele)
 https://www.lr-czech.com/zdravi – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena a byla stažena)
 https://www.lr-czech.com/krasa – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena a byla stažena)
