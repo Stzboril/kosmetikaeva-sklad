@@ -1,13 +1,9 @@
 {
  "code": "6869",
- "stock": null,
+ "stock": 1,
  "volume": "30 ml",
  "zdroj": "krabička (popis, USO, upozornění, INCI – fotky majitele 23. 10. 2026); https://www.just.it/prodotti/infiore/siero-viso-ultra-rigenerante/ (studie)",
- "chybi": [
-  "ceny a nákupní cena",
-  "sklad",
-  "fotka produktu"
- ],
+ "chybi": [],
  "cs": {
   "name": "Just Infiore Ultra-regenerační pleťové sérum 30 ml",
   "seoTitle": "Just Infiore Ultra-regenerační pleťové sérum 30 ml | KosmetikaEva.eu",
@@ -18,5 +14,9 @@
   "seoTitle": "Just Infiore Ultra-regeneračné pleťové sérum 30 ml | KosmetikaEva.eu",
   "metaDescription": "Just Infiore Ultra-regeneračné pleťové sérum 30 ml s plesnivcom, alpskou ružou, acmellou, bakuchiolom a vitamínom C pre hladšiu a žiarivejšiu pleť."
  },
- "code_zdroj": "Art. 6869 na krabičce (italská verze JUST, dovozce Just Italia); švýcarská verze VITAL JUST Serum má art. 869"
+ "code_zdroj": "Art. 6869 na krabičce (italská verze JUST, dovozce Just Italia); švýcarská verze VITAL JUST Serum má art. 869",
+ "productId": 11456,
+ "price": 999,
+ "standardPrice": 1399,
+ "purchasePrice": 1
 }
