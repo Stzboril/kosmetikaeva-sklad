@@ -1,0 +1,18 @@
+{
+ "code": "6868",
+ "code_note": "PROVIZORNÍ – italské katalogové číslo JUST (just.it), švýcarská verze VITAL JUST Serum má art. 869; ověřit na etiketě",
+ "stock": null,
+ "volume": "30 ml",
+ "zdroj": "https://www.just.it/prodotti/infiore/siero-viso-ultra-rigenerante/ (popis, studie, upozornění); https://www.just.ch/it/vital-just-serum-stella-alpina-rosa-alpina.html (použití 1–2 dávky, oleje a vitamin E)",
+ "chybi": ["INCI z etikety", "ceny a nákupní cena", "sklad", "fotka"],
+ "cs": {
+  "name": "Just Infiore Ultra-regenerační pleťové sérum 30 ml",
+  "seoTitle": "Just Infiore Ultra-regenerační pleťové sérum 30 ml | KosmetikaEva.eu",
+  "metaDescription": "Just Infiore Ultra-regenerační pleťové sérum 30 ml s protěží, alpskou růží, acmellou, bakuchiolem a vitaminem C pro hladší a zářivější pleť."
+ },
+ "sk": {
+  "name": "Just Infiore Ultra-regeneračné pleťové sérum 30 ml",
+  "seoTitle": "Just Infiore Ultra-regeneračné pleťové sérum 30 ml | KosmetikaEva.eu",
+  "metaDescription": "Just Infiore Ultra-regeneračné pleťové sérum 30 ml s plesnivcom, alpskou ružou, acmellou, bakuchiolom a vitamínom C pre hladšiu a žiarivejšiu pleť."
+ }
+}
