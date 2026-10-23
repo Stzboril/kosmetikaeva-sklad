@@ -1,9 +1,9 @@
-Fri Oct 23 06:28:49 CEST 2026
-pokus 2
-Stahování: nástroj WebFetch (cloudová relace, bez shellu na počítači uživatele)
-https://www.lr-czech.com/zdravi – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena a byla stažena)
-https://www.lr-czech.com/krasa – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena a byla stažena)
-https://www.lr-czech.com/aloe-vera-care – chyba PROVENANCE_REQUIRED (žádost o povolení URL nebyla včas zodpovězena a byla stažena)
-První 3 stránky selhaly stejnou chybou PROVENANCE_REQUIRED – zbylých 12 stránek přeskočeno.
+Fri Oct 23 07:16:42 CEST 2026
+pokus 3
+Stahování: nástroj WebFetch (cloudová relace; povolení URL už udělěno, PROVENANCE_REQUIRED zmizelo)
+https://www.lr-czech.com/zdravi – chyba client_error na straně webu (stránka nestažena, nejspíš blokace/Cloudflare); opakování: stejná chyba
+https://www.lr-czech.com/krasa – chyba client_error na straně webu (stránka nestažena, nejspíš blokace/Cloudflare)
+https://www.lr-czech.com/aloe-vera-care – chyba client_error na straně webu (stránka nestažena, nejspíš blokace/Cloudflare)
+První 3 stránky selhaly stejnou chybou client_error – zbylých 12 stránek přeskočeno.
 Ověření „není skladem“: neprovedeno (žádné řádky).
 Podezřele málo produktů LR (0), neukládám.
