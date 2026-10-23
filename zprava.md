@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 23.10.2026 v 09:25.
+Kontrola u dodavatelů proběhla 23.10.2026 v 11:19.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -105,19 +105,18 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, pro
 - [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 - [Essens Dámský parfém w175 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w175-50-ml/) (W17550)
 
-## Nové u dodavatele (8)
+## Nové u dodavatele (7)
 
 Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu nejsou. Navržená cena = doporučená − 8 % podle pravidla.
 
 | Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |
 |---|---|---|:-:|--:|--:|--:|
 | LR | [LR FIGUACTIVE Série 3 ks](https://www.lr-czech.com/zdravi) | 81253 | ✅ | – | – | 23.10. |
-| Essens | [Christmas aromatic scent tag - PIne](https://www.essens.cz/christmas-aromatic-scent-tag-pine-d532214/) | 179011 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatic scent tag- Vanilla and Cinnamon](https://www.essens.cz/aromatic-scent-tag-vanilla-and-cinnamon-d532212/) | 179009 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatic scent tag - VIP Diamond](https://www.essens.cz/aromatic-scent-tag-vip-diamond-d532211/) | 179008 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatic scent tag - Coconut](https://www.essens.cz/aromatic-scent-tag-coconut-d532210/) | 179007 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatic scent tag - Bandita](https://www.essens.cz/aromatic-scent-tag-bandita-d532209/) | 179006 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | [Aromatická visačka - Vanilka a skořice](https://www.essens.cz/aromaticka-visacka-vanilka-a-skorice-d532212/) | 179009 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | [Aromatická visačka - VIP Diamond](https://www.essens.cz/aromaticka-visacka-vip-diamond-d532211/) | 179008 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | [Aromatická visačka - Kokos](https://www.essens.cz/aromaticka-visacka-kokos-d532210/) | 179007 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | [Aromatická visačka - Bandita](https://www.essens.cz/aromaticka-visacka-bandita-d532209/) | 179006 | ✅ | 35 Kč | 35 Kč | 23.10. |
 | Essens | [Sprchový gel m008](https://www.essens.cz/sprchovy-gel-m008-d396846/) | M008GX | ✅ | 210 Kč | 199 Kč | 20.10. |
 | Eurona | [Luxusní kolekce aroma parfémů](https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume) | CA0163 | ✅ | 767 Kč | 709 Kč | 19.10. |
 
-Celkem dodavatelé nabízejí 72 produktů, které na e-shopu nejsou (Eurona 28, Essens 24, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 71 produktů, které na e-shopu nejsou (Eurona 28, Essens 23, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
