@@ -1,9 +1,27 @@
-Fri Oct 23 07:16:42 CEST 2026
-pokus 3
-Stahování: nástroj WebFetch (cloudová relace; povolení URL už udělěno, PROVENANCE_REQUIRED zmizelo)
-https://www.lr-czech.com/zdravi – chyba client_error na straně webu (stránka nestažena, nejspíš blokace/Cloudflare); opakování: stejná chyba
-https://www.lr-czech.com/krasa – chyba client_error na straně webu (stránka nestažena, nejspíš blokace/Cloudflare)
-https://www.lr-czech.com/aloe-vera-care – chyba client_error na straně webu (stránka nestažena, nejspíš blokace/Cloudflare)
-První 3 stránky selhaly stejnou chybou client_error – zbylých 12 stránek přeskočeno.
-Ověření „není skladem“: neprovedeno (žádné řádky).
-Podezřele málo produktů LR (0), neukládám.
+Fri Oct 23 09:25:00 CEST 2026
+pokus 4
+Stahování: ručně z chatu přes prohlížeč v aplikaci Claude na počítači Eshop (čtení HTML kategorií přímo z karet produktů). WebFetch dnes selhával (client_error na straně webu, pokusy 1–3 i ruční pokus v 5:50).
+Prohlížeč je do LR přihlášený jako partner: použita jen doporučená „Cena“; 6 partnerských sad bez doporučené ceny vynecháno (81292, 20930-1, 30721, 80103-401, 97203).
+https://www.lr-czech.com/zdravi – 39 řádků (karet 40)
+https://www.lr-czech.com/krasa – 40 řádků (karet 40)
+https://www.lr-czech.com/aloe-vera-care – 39 řádků (karet 40)
+https://www.lr-czech.com/parfemy – 23 řádků (karet 24)
+https://www.lr-czech.com/proti-starnuti – 31 řádků (karet 31)
+https://www.lr-czech.com/pece-o-telo – 39 řádků (karet 40)
+https://www.lr-czech.com/zdravi-reseni – 28 řádků (karet 29)
+https://www.lr-czech.com/health-mission-top-produkty – 10 řádků (karet 10)
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků (karet 5)
+https://www.lr-czech.com/denni-nocni-ocni – 23 řádků (karet 23)
+https://www.lr-czech.com/make-up – 26 řádků (karet 26)
+https://www.lr-czech.com/pece-o-plet – 40 řádků (karet 40)
+https://www.lr-czech.com/sera – 15 řádků (karet 15)
+https://www.lr-czech.com/pece-o-telo-zuby – 5 řádků (karet 5)
+https://www.lr-czech.com/specialiste – 32 řádků (karet 33)
+Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě):
+20676-101 (aloe-vera-care, pece-o-plet) – ANO
+28244-301 (proti-starnuti, pece-o-plet) – ANO
+27170-1 (pece-o-telo, pece-o-plet) – ANO
+27171-1 (pece-o-telo, pece-o-plet) – ANO
+23114-101 (pece-o-telo-ochrana-před-sluncem) – ANO
+23113-101 (pece-o-telo-ochrana-před-sluncem) – ANO
+Uloženo 214 produktů LR, z toho není skladem: 6, v akci: 42
