@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-23T11:19+02:00",
+"cas": "2026-10-24T06:35+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -884,7 +884,7 @@
 "20910-1": {
 "dop": 659.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20915-1": {
 "dop": null,
@@ -899,7 +899,7 @@
 "23110-201": {
 "dop": 809.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "23112-101": {
 "dop": 619.0,
@@ -2502,9 +2502,9 @@
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "80102-499": {
-"dop": null,
+"dop": 959.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80108-19": {
 "dop": 2685.0,
@@ -2522,9 +2522,9 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80190": {
-"dop": null,
+"dop": 1059.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80192-499": {
 "dop": 3025.0,
@@ -2532,19 +2532,19 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80205-419": {
-"dop": null,
+"dop": 655.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80301-499": {
 "dop": 755.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80325-1": {
-"dop": null,
+"dop": 1295.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
+"url_dodavatel": "https://www.lr-czech.com/specialiste"
 },
 "80331-499": {
 "dop": 1389.0,
@@ -2552,14 +2552,14 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80332-1": {
-"dop": null,
+"dop": 1025.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80338-1": {
-"dop": null,
+"dop": 1269.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80352-499": {
 "dop": 2815.0,
@@ -2587,42 +2587,42 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80550-419": {
-"dop": null,
+"dop": 1209.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80700-81": {
-"dop": null,
+"dop": 1025.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80706-81": {
 "dop": 5615.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80750-481": {
 "dop": 1025.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80756-481": {
 "dop": 5615.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80800-460": {
-"dop": null,
+"dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80806-61": {
 "dop": 6269.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80850-483": {
-"dop": null,
+"dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2637,49 +2637,49 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80940-19": {
-"dop": null,
+"dop": 645.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80945-19": {
 "dop": 2965.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80950-482": {
-"dop": null,
+"dop": 515.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80980-99": {
-"dop": null,
+"dop": 939.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81000-19": {
-"dop": null,
+"dop": 1145.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81006": {
 "dop": 6269.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/specialiste"
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81140-98": {
-"dop": null,
+"dop": 4329.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81170-198": {
-"dop": null,
+"dop": 4329.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81180-99": {
-"dop": null,
+"dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
+"url_dodavatel": "https://www.lr-czech.com/zdravi-reseni"
 },
 "81240 - 19": {
 "dop": null,
@@ -2732,7 +2732,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81330-98": {
-"dop": null,
+"dop": 925.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -5168,7 +5168,7 @@
 },
 "SSFND06": {
 "dop": 690.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-06-d201911/"
 },
 "SSFND07": {
