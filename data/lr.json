@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-23T09:24+02:00",
+"cas": "2026-10-24T06:26+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -287,7 +287,7 @@
 "cena": 659.0,
 "nazev": "Aloe Vera Express Skin Balance Serum",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20915-1": {
 "akce": {
@@ -311,7 +311,7 @@
 "cena": 809.0,
 "nazev": "Aloe Vera Kids Sun SPF 50 Opalovací mléko ve spreji",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/pece-o-telo"
 },
 "23112-101": {
 "cena": 619.0,
@@ -968,16 +968,10 @@
 "url": "https://www.lr-czech.com/proti-starnuti"
 },
 "80102-599": {
-"akce": {
-"cena": 815.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 959.0,
 "nazev": "LR LIFETAKT Pro Balance Tablety",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80108-499": {
 "cena": 2685.0,
@@ -1004,16 +998,10 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80190-699": {
-"akce": {
-"cena": 899.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1059.0,
 "nazev": "LR LIFETAKT Active Freedom Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80192-499": {
 "cena": 3025.0,
@@ -1022,13 +1010,7 @@
 "url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80205-608": {
-"akce": {
-"cena": 555.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 655.0,
 "nazev": "LR LIFETAKT Směs bylin se zeleným čajem k přípravě nálevu",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1037,19 +1019,13 @@
 "cena": 755.0,
 "nazev": "LR LIFETAKT Vita Active Red",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80325-699": {
-"akce": {
-"cena": 1099.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1295.0,
 "nazev": "LR LIFETAKT Cistus Incanus Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/specialiste"
 },
 "80331-799": {
 "cena": 1389.0,
@@ -1058,28 +1034,16 @@
 "url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80332-799": {
-"akce": {
-"cena": 870.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1025.0,
 "nazev": "LR LIFETAKT Woman Phyto Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80338-698": {
-"akce": {
-"cena": 1078.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1269.0,
 "nazev": "LR LIFETAKT Super Omega Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "80352-499": {
 "cena": 2815.0,
@@ -1130,25 +1094,13 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80550-419": {
-"akce": {
-"cena": 1027.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1209.0,
 "nazev": "LR LIFETAKT Protein Power Vanilkový nápoj v prášku",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80700-680": {
-"akce": {
-"cena": 870.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1025.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1157,28 +1109,22 @@
 "cena": 5615.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80750-681": {
 "cena": 1025.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Broskev",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80756-481": {
 "cena": 5615.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Broskev Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80800-780": {
-"akce": {
-"cena": 970.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1187,16 +1133,10 @@
 "cena": 6269.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi-reseni"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80850-683": {
-"akce": {
-"cena": 970.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Active Freedom",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1214,13 +1154,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80940-19": {
-"akce": {
-"cena": 548.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 645.0,
 "nazev": "LR LIFETAKT Mind Master Formula Gold",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1229,40 +1163,22 @@
 "cena": 2965.0,
 "nazev": "LR LIFETAKT Mind Master Formula Gold Série 5 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "80950-682": {
-"akce": {
-"cena": 437.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 515.0,
 "nazev": "LR LIFETAKT Mind Master Formula Red",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80980-399": {
-"akce": {
-"cena": 795.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 939.0,
 "nazev": "LR LIFETAKT Mind Master Extreme Performance Powder",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81000-19": {
-"akce": {
-"cena": 970.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Immune Plus",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1271,43 +1187,25 @@
 "cena": 6269.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Immune Plus Série 6 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/specialiste"
+"url": "https://www.lr-czech.com/zdravi"
 },
 "81140-98": {
-"akce": {
-"cena": 3675.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 4329.0,
 "nazev": "LR LIFETAKT 5in1 Beauty Elixir",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81170-198": {
-"akce": {
-"cena": 3675.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 4329.0,
 "nazev": "LR LIFETAKT 5in1 Men´s Shot",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81180-99": {
-"akce": {
-"cena": 1171.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 1379.0,
 "nazev": "LR LIFETAKT Pro 12+ Kapsle",
 "skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
+"url": "https://www.lr-czech.com/zdravi-reseni"
 },
 "81240-19": {
 "akce": {
@@ -1442,13 +1340,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81330-98": {
-"akce": {
-"cena": 786.0,
-"do": "2026-10-23",
-"od": "2026-10-17",
-"stitek": "Akce 17.-23.10.2026"
-},
-"cena": null,
+"cena": 925.0,
 "nazev": "LR LIFETAKT Liver Support Kapsle",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
