@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-26T11:30+02:00",
+"cas": "2026-10-26T12:05+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -5168,7 +5168,7 @@
 },
 "SSFND06": {
 "dop": 690.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-06-d201911/"
 },
 "SSFND07": {

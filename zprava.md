@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 26.10.2026 v 11:30.
+Kontrola u dodavatelů proběhla 26.10.2026 v 12:05.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 26.10.2026 v 11:30.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (16 produktů)
 
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-spray--prvni-pomoci--500-ml-2/) (20600-110)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
@@ -22,7 +22,6 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ Nedostupné → 0 ks: [Essens Lesk na rty pro větší objem 05 6 ml](https://www.kosmetikaeva.eu/rty/essens-lesk-na-rty-pro-vetsi-objem-05-6-ml/) (MGLOSS05)
 - ❌ Nedostupné → 0 ks: [Essens Set Colostrum Probiotics s jogurtovačem](https://www.kosmetikaeva.eu/imunitni-system-2/essens-set-colostrum-probiotics-s-jogurtovacem/) (SCOL01N)
 - ❌ Nedostupné → 0 ks: [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)
-- ❌ Nedostupné → 0 ks: [Essens Second Skin make-up 35 ml barva: 06](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51439) (SSFND06)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel w190 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w190-150-ml/) (W190GX)
 
