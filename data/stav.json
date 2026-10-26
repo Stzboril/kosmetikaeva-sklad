@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-25T11:08+02:00",
+"cas": "2026-10-26T11:30+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3843,7 +3843,7 @@
 },
 "ESOIL11": {
 "dop": 450.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/esencialni-olej-hrebicek-d262445/"
 },
 "ESOIL41": {
