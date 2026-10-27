@@ -438,7 +438,7 @@ def main():
                      f"LR uvádí {dop:.0f} Kč ([stránka]({url})) → vycházelo by {nova:.0f} Kč ({pct:+.1f} %)")
     if nenalezeno:
         z += ["", f"## Dodavatel produkt nenašel ({len(nenalezeno)})", "",
-              "Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.", ""]
+              "Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.", ""]
         for p in nenalezeno:
             z.append(f"- {odkaz(p['nazev'], p['url'])} ({p['kod']})")
 
