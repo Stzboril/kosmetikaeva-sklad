@@ -1,6 +1,6 @@
-Mon Oct 26 10:25:21 CET 2026
+Tue Oct 27 15:55:40 CET 2026
 pokus 1
-Stahování: WebFetch selhal (client_error na straně webu) u zdravi, krasa, aloe-vera-care (zdravi i při opakování) → zbylé stránky přes WebFetch přeskočeny; staženo přes prohlížeč v aplikaci Claude na počítači (fetch HTML kategorií, čtení přímo z karet produktů).
+Stahování: WebFetch selhal (client_error na straně webu) u zdravi, krasa, aloe-vera-care → zbylé stránky přes WebFetch přeskočeny; staženo přes prohlížeč v aplikaci Claude na počítači (fetch HTML kategorií, čtení přímo z karet produktů).
 https://www.lr-czech.com/zdravi – 40 řádků
 https://www.lr-czech.com/krasa – 40 řádků
 https://www.lr-czech.com/aloe-vera-care – 40 řádků
@@ -16,7 +16,7 @@ https://www.lr-czech.com/pece-o-plet – 40 řádků
 https://www.lr-czech.com/sera – 15 řádků
 https://www.lr-czech.com/pece-o-telo-zuby – 5 řádků
 https://www.lr-czech.com/specialiste – 32 řádků
-Celkem 398 řádků, duplicitní kódy (stejné hodnoty ve více kategoriích) sloučeny bez konfliktů → 214 kódů; přenos do cloudu ověřen SHA-256 (shoda). Data shodná s 25. 10. 2026 → lr.json se liší jen časem.
+Celkem 398 řádků, duplicitní kódy (stejné hodnoty ve více kategoriích) sloučeny bez konfliktů → 214 kódů; přenos do cloudu ověřen SHA-256 (shoda).
 Ověření „není skladem“ (štítek čten z HTML každé karty, druhé ověření není potřeba):
 20676-101 – ANO
 28244-301 – ANO
