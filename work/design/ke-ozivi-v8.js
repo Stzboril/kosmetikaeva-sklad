@@ -119,9 +119,9 @@
   function curCode() { var c = dl('currencyInfo'); return (c && c.code) || (SK ? 'EUR' : 'CZK'); }
   /* hranice dopravy (ceny s DPH): při změně ceníku dopravy upravit tady */
   function tiers() {
-    if (curCode() === 'EUR') return { max: 120, m: [{ at: 120, ico: 'truck', l: [T.msFree] }],
+    if (curCode() === 'EUR') return { max: 120, p: [100], m: [{ at: 120, ico: 'truck', l: [T.msFree] }],
       rows: [{ ico: 'truck', done: 120, t: T.rAll.replace('{a}', money(120)) }] };
-    return { max: 3500, m: [{ at: 2500, ico: 'box', l: [T.msPick, T.msCour] }, { at: 3500, ico: 'truck', l: [T.msCourFree] }],
+    return { max: 3500, p: [45, 100], m: [{ at: 2500, ico: 'box', l: [T.msPick, T.msCour] }, { at: 3500, ico: 'truck', l: [T.msCourFree] }],
       rows: [{ ico: 'box', done: 2500, t: T.rPick.replace('{a}', money(2500)) },
              { ico: 'truck', done: 3500, t: T.rCour.replace('{p}', money(119)).replace('{a}', money(2500)).replace('{b}', money(3500)) }] };
   }
@@ -157,9 +157,20 @@
       '.ke-ms__lbl > span{position:absolute;top:0;transform:translateX(-50%);text-align:center;white-space:nowrap}' +
       '.ke-ms__lbl > span.is-end{transform:none;right:0;text-align:right}' +
       '.ke-ms__lbl i{display:none}.ke-ms__lbl b{color:var(--ke-ink,#1c1b29)}.ke-ms__lbl .is-ok,.ke-ms__lbl .is-ok b{color:#1d7a3a}' +
-      '@media (max-width:600px){.ke-ms__lbl{min-height:0;display:flex;flex-direction:column;gap:4px}' +
-        '.ke-ms__lbl > span,.ke-ms__lbl > span.is-end{position:static;transform:none;text-align:left;white-space:normal}.ke-ms__lbl br{display:none}.ke-ms__lbl i{display:inline;font-style:normal}}';
+      '.ke-ms__lbl.is-stack{min-height:0;display:flex;flex-direction:column;gap:4px}' +
+      '.ke-ms__lbl.is-stack > span,.ke-ms__lbl.is-stack > span.is-end{position:static;transform:none;text-align:left;white-space:normal}.ke-ms__lbl.is-stack br{display:none}.ke-ms__lbl.is-stack i{display:inline;font-style:normal}';
     (document.head || document.documentElement).appendChild(s);
+  }
+  /* poloha na liště: úseky mezi milníky mají stejnou délku podle tiers().p (CZK: 2 500 Kč = 45 %, 3 500 Kč = 100 %),
+     aby se popisky u milníků vešly vedle sebe */
+  function posOf(tr, v) {
+    var a = 0, pa = 0;
+    for (var i = 0; i < tr.m.length; i++) {
+      var b = tr.m[i].at, pb = tr.p[i];
+      if (v <= b) return pa + (pb - pa) * Math.max(0, v - a) / (b - a);
+      a = b; pa = pb;
+    }
+    return 100;
   }
   function msHTML() {
     var f = msInfo(), tr = f.tr, max = tr.max, t;
@@ -168,12 +179,12 @@
     else if (f.tot <= 0) t = cover ? (T.msEmptyOk) : T.msEmpty.replace('{x}', '<b>' + money(Math.round((f.left - f.add) * 100) / 100) + '</b>');
     else if (f.next === tr.m[0]) t = T.msLeft1.replace('{x}', '<b>' + money(f.left) + '</b>') + (cover ? T.msCover : '');
     else t = T.msLeft2.replace('{x}', '<b>' + money(f.left) + '</b>') + (cover ? T.msCover : '');
-    var w = Math.min(100, f.tot / max * 100), aw = f.done ? 0 : Math.max(0, Math.min(100 - w, f.add / max * 100));
+    var w = posOf(tr, f.tot), aw = f.done ? 0 : Math.max(0, Math.min(100, posOf(tr, f.tot + f.add)) - w);
     var h = '<p class="ke-ms__t">' + t + '</p><div class="ke-ms__track"><i class="ke-ms__fill" style="width:' + w.toFixed(1) + '%"></i>' +
       (aw > 0 ? '<i class="ke-ms__add" style="left:' + w.toFixed(1) + '%;width:' + aw.toFixed(1) + '%"></i>' : '');
     var lbl = '';
     for (var i = 0; i < tr.m.length; i++) {
-      var m = tr.m[i], pos = (m.at / max * 100).toFixed(1), ok = f.tot >= m.at;
+      var m = tr.m[i], pos = tr.p[i].toFixed(1), ok = f.tot >= m.at;
       h += '<span class="ke-ms__pt' + (ok ? ' is-ok' : '') + '" style="left:' + pos + '%"><svg viewBox="0 0 24 24" aria-hidden="true">' + I[ok ? 'check' : m.ico] + '</svg></span>';
       var end = i === tr.m.length - 1;
       lbl += '<span class="' + (ok ? 'is-ok' : '') + (end ? ' is-end' : '') + '"' + (end ? '' : ' style="left:' + pos + '%"') + '><b>' + money(m.at) + '</b> ' + m.l.join('<i>,</i><br> ') + '</span>';
@@ -345,6 +356,9 @@
         setWd();
         var f = ex.querySelector('.ke-free'), info = msInfo();
         f.innerHTML = msHTML(); f.classList.toggle('is-free', !!info.done);
+        /* popisky u milníků se nevejdou vedle sebe (úzký sloupec, mobil) → pod sebe */
+        var lb = f.querySelector('.ke-ms__lbl'), sp = lb ? lb.children : [];
+        for (var k = 1; k < sp.length; k++) { var r1 = sp[k - 1].getBoundingClientRect(), r2 = sp[k].getBoundingClientRect(); if (r1.width && r2.width && r1.right + 12 > r2.left) { lb.classList.add('is-stack'); break; } }
         st.querySelector('.ke-sticky__free').innerHTML = msShort();
         st.querySelector('.ke-sticky__p').textContent = price();
         toggle();
