@@ -1,14 +1,15 @@
-Kontrola u dodavatelů proběhla 27.10.2026 v 11:47.
+Kontrola u dodavatelů proběhla 27.10.2026 v 16:59.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
-- **LR:** zkontrolováno 221 viditelných produktů – ⚠️ data LR jsou z 26.10.2026, dnešní stažení zatím neproběhlo (stačí napsat Claude „stáhni LR“)
+- **LR:** zkontrolováno 221 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (16 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
 
 - ✅ zase skladem → 20 ks: [LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-spray--prvni-pomoci--500-ml-2/) (20600-110)
+- ✅ zase skladem → 20 ks: [LR LIFETAKT Colostrum Kapsle Série 3 x 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-compact-serie-3-x-60-kapsli/) (80389-101)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
 - ❌ dodavatel ho nenašel → 0 ks: [LR MICROSILVER PLUS Ošetřující zubní pasta 2 x 75 ml](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-osetrujici-zubni-pasta-serie-2-ks/) (25124-1)
 - ❌ dodavatel ho nenašel → 0 ks: [LR MICROSILVER PLUS Série pro zdravá ústa](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-serie-pro-zdrava-usta/) (25125-1)
@@ -101,4 +102,4 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 | Essens | Sprchový gel m008 | M008GX | ✅ | 210 Kč | 199 Kč | 20.10. |
 | Eurona | [Luxusní kolekce aroma parfémů](https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume) | CA0163 | ✅ | 767 Kč | 709 Kč | 19.10. |
 
-Celkem dodavatelé nabízejí 69 produktů, které na e-shopu nejsou (Eurona 26, Essens 23, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 70 produktů, které na e-shopu nejsou (Eurona 27, Essens 23, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
