@@ -24,7 +24,7 @@
     xk: 'Vianoce 2026', xh: 'Darčeky, ktoré potešia', xp: 'Vianočné edície a darčekové sady JUST, Essens a Eurona', xb: 'Vybrať darček →', xu: '/sk/vanocni-darky/',
     msEmpty: 'S týmto produktom vám do dopravy zadarmo bude chýbať {x}.', msEmptyOk: 'S týmto produktom máte dopravu zadarmo.',
     msLeft1: 'Ešte {x} a máte dopravu zadarmo.', msCover: ' Tento produkt to dorovná.', msDone: 'Máte dopravu zadarmo.',
-    msLeft2: '', msFree: 'doprava zadarmo', msPick: '', msCour: '', msCourFree: '',
+    msLeft2: '', fsShort2: '', msFree: 'doprava zadarmo', msPick: '', msCour: '', msCourFree: '',
     wdBtn: 'Upozorniť, keď bude skladom', wdNote: 'Pošleme vám e-mail, keď tovar naskladníme.', wdShort: 'Upozorniť ma', wdCard: 'Strážiť naskladnenie'
   } : {
     fsLeft: 'Přidejte zboží za {x} a máte dopravu zdarma', fsDone: 'Máte dopravu zdarma', fsShort: 'Do dopravy zdarma zbývá {x}', fsShortDone: 'Dopravu máte zdarma',
@@ -33,7 +33,7 @@
     xk: 'Vánoce 2026', xh: 'Dárky, které potěší', xp: 'Vánoční edice a dárkové sady JUST, Essens a Eurona', xb: 'Vybrat dárek →', xu: '/vanocni-darky/',
     msEmpty: 'S tímto výrobkem vám do dopravy zdarma bude chybět {x}.', msEmptyOk: 'S tímto výrobkem máte výdejní místo zdarma.',
     msLeft1: 'Ještě {x} a výdejní místo máte zdarma.', msCover: ' Tento výrobek to dorovná.', msDone: 'Máte dopravu zdarma – na výdejní místo i kurýrem.',
-    msLeft2: 'Výdejní místo máte zdarma. Ještě {x} a zdarma bude i kurýr.', msFree: 'doprava zdarma', msPick: 'výdejní místo zdarma', msCour: 'kurýr 119 Kč', msCourFree: 'kurýr zdarma',
+    msLeft2: 'Výdejní místo máte zdarma. Ještě {x} a zdarma bude i kurýr.', msFree: 'doprava zdarma', fsShort2: 'Do kurýra zdarma zbývá {x}', msPick: 'výdejní místo zdarma', msCour: 'kurýr 119 Kč', msCourFree: 'kurýr zdarma',
     wdBtn: 'Upozornit, až bude skladem', wdNote: 'Pošleme vám e-mail, jakmile zboží naskladníme.', wdShort: 'Upozornit mě', wdCard: 'Hlídat naskladnění'
   };
   /* Výrobky (id produktu v Shoptetu), u kterých se hlídání nenabízí – zboží se už nenaskladní. */
@@ -174,7 +174,7 @@
     return h + '</div><div class="ke-ms__lbl">' + lbl + '</div>';
   }
   function msShort() {
-    var f = msInfo(), t = f.done ? T.fsShortDone : T.fsShort.replace('{x}', '<b>' + money(f.left) + '</b>');
+    var f = msInfo(), t = f.done ? T.fsShortDone : ((f.next !== f.tr.m[0] && T.fsShort2) ? T.fsShort2 : T.fsShort).replace('{x}', '<b>' + money(f.left) + '</b>');
     var pct = f.done ? 100 : Math.max(4, Math.min(100, Math.round(f.tot / f.next.at * 100)));
     return '<span>' + t + '</span><div class="ke-free__bar"><i style="width:' + pct + '%"></i></div>';
   }
