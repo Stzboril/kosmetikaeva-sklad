@@ -146,12 +146,13 @@
       '.ke-ms__pt{position:absolute;top:0;width:30px;height:30px;margin-left:-15px;border-radius:50%;box-sizing:border-box;background:#fff;border:2px solid #d9cfd2;display:flex;align-items:center;justify-content:center}' +
       '.ke-ms__pt svg{width:16px;height:16px;fill:none;stroke:#6e6c7a;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}' +
       '.ke-ms__pt.is-ok{background:#1d7a3a;border-color:#1d7a3a}.ke-ms__pt.is-ok svg{stroke:#fff;stroke-width:2.6}' +
-      '.ke-ms__lbl{position:relative;min-height:58px;margin-top:6px;font-size:12.5px;line-height:1.4;color:var(--ke-muted,#6e6c7a)}' +
-      '.ke-ms__lbl span{position:absolute;top:0;transform:translateX(-50%);text-align:center;white-space:nowrap}' +
-      '.ke-ms__lbl span.is-end{transform:none;right:0;text-align:right}' +
-      '.ke-ms__lbl i{font-style:normal;display:none}.ke-ms__lbl b{color:var(--ke-ink,#1c1b29)}.ke-ms__lbl .is-ok b{color:#1d7a3a}' +
-      '@media (max-width:600px){.ke-ms__lbl{min-height:0;display:flex;flex-direction:column;gap:4px}' +
-        '.ke-ms__lbl span,.ke-ms__lbl span.is-end{position:static;transform:none;text-align:left;white-space:normal}.ke-ms__lbl br{display:none}.ke-ms__lbl i{display:inline}.ke-ms__lbl b:after{content:" – "}}';
+      '.ke-ms__lbl{display:flex;flex-direction:column;gap:8px;margin-top:12px;font-size:13px;line-height:1.4;color:var(--ke-ink-soft,#3f3d4f)}' +
+      '.ke-ms__row{display:grid;grid-template-columns:22px 76px minmax(0,1fr);gap:8px;align-items:start}' +
+      '.ke-ms__ri{width:22px;height:22px;border-radius:50%;box-sizing:border-box;border:1.5px solid #d9cfd2;display:flex;align-items:center;justify-content:center}' +
+      '.ke-ms__ri svg{width:12px;height:12px;fill:none;stroke:#6e6c7a;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}' +
+      '.ke-ms__row b{color:var(--ke-ink,#1c1b29);white-space:nowrap;line-height:22px}.ke-ms__row > span:last-child{padding-top:2px}' +
+      '.ke-ms__row.is-ok .ke-ms__ri{background:#1d7a3a;border-color:#1d7a3a}.ke-ms__row.is-ok .ke-ms__ri svg{stroke:#fff;stroke-width:2.8}' +
+      '.ke-ms__row.is-ok b,.ke-ms__row.is-ok > span:last-child{color:#1d7a3a}';
     (document.head || document.documentElement).appendChild(s);
   }
   function msHTML() {
@@ -166,9 +167,9 @@
       (aw > 0 ? '<i class="ke-ms__add" style="left:' + w.toFixed(1) + '%;width:' + aw.toFixed(1) + '%"></i>' : '');
     var lbl = '';
     for (var i = 0; i < tr.m.length; i++) {
-      var m = tr.m[i], pos = (m.at / max * 100).toFixed(1), ok = f.tot >= m.at, end = i === tr.m.length - 1;
+      var m = tr.m[i], pos = (m.at / max * 100).toFixed(1), ok = f.tot >= m.at;
       h += '<span class="ke-ms__pt' + (ok ? ' is-ok' : '') + '" style="left:' + pos + '%"><svg viewBox="0 0 24 24" aria-hidden="true">' + I[ok ? 'check' : m.ico] + '</svg></span>';
-      lbl += '<span class="' + (ok ? 'is-ok' : '') + (end ? ' is-end' : '') + '"' + (end ? '' : ' style="left:' + pos + '%"') + '><b>' + money(m.at) + '</b><br>' + m.l.join('<i>, </i><br>') + '</span>';
+      lbl += '<div class="ke-ms__row' + (ok ? ' is-ok' : '') + '"><span class="ke-ms__ri"><svg viewBox="0 0 24 24" aria-hidden="true">' + I[ok ? 'check' : m.ico] + '</svg></span><b>' + money(m.at) + '</b><span>' + m.l.join('<br>') + '</span></div>';
     }
     return h + '</div><div class="ke-ms__lbl">' + lbl + '</div>';
   }
