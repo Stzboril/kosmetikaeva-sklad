@@ -1,8 +1,8 @@
-Kontrola u dodavatelů proběhla 26.10.2026 v 12:05.
+Kontrola u dodavatelů proběhla 27.10.2026 v 11:47.
 
 - **Eurona:** zkontrolováno 542 viditelných produktů
 - **Essens:** zkontrolováno 403 viditelných produktů
-- **LR:** zkontrolováno 221 viditelných produktů
+- **LR:** zkontrolováno 221 viditelných produktů – ⚠️ data LR jsou z 26.10.2026, dnešní stažení zatím neproběhlo (stačí napsat Claude „stáhni LR“)
 
 ## Sklad
 
@@ -27,7 +27,7 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 
 ## Ceny ke schválení
 
-Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (8 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (7 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
 
 | Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
 |---|---|---|--:|--:|--:|--:|
@@ -36,7 +36,6 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | Essens | [Essens ES`Pure - doplněk stravy 30 tablet](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-es-pure-doplnek-stravy-30-tablet/) | 6512 | 419 Kč | **459 Kč** | 495 Kč | +9.5 % |
 | Eurona | [Eurona ACTIVE RECOVERY ALOE VERA 95 % 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-active-recovery-aloe-vera-95--500-ml/) | PB4004 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
 | Eurona | [Eurona ACTIVE DETOX ALOE VERA 92 % 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-active-detox-aloe-vera-92--500-ml/) | PB4005 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
-| Eurona | [Eurona All in Spectrum Speciální prací prostředek na všechny druhy prádla Hmotnost: 935 g](https://www.kosmetikaeva.eu/specialni-praci-prostredky/eurona-all-in-spectrum-specialni-praci-prostredek-na-vsechny-druhy-pradla-2750g/?variantId=56458) | 1230 | 349 Kč | **319 Kč** | 341 Kč | -8.6 % |
 | Eurona | [Eurona CC CERNY CAFÉ BRAZÍLIE Sul de Minas zrnková káva 500 g](https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-brazilie-sul-de-minas-500-g/) | CE0008 | 519 Kč | **549 Kč** | 589 Kč | +5.8 % |
 | Eurona | [Eurona Lavender Designový aromadifuzér 50 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-lavender-designovy-aromadifuzer100-ml/) | CC6734 | 319 Kč | **309 Kč** | 329 Kč | -3.1 % |
 
@@ -73,7 +72,7 @@ Změna o 20 % a víc u LR není v ceny.csv: cena z webu LR může patřit vedlej
 - [LR Aloe Vera Mint & Melon Krémový gel na obličej 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-mint-melon-kremovy-gel-na-oblicej-50-ml/) (27176-1): nyní 659 Kč, LR uvádí 495 Kč ([stránka](https://www.lr-czech.com/denni-nocni-ocni)) → vycházelo by 459 Kč (-30.3 %)
 - [LR Aloe Vera Mint & Melon Krémový gel na tělo 200 ml](https://www.kosmetikaeva.eu/telo-2/lr-aloe-vera-mint-melon-kremovy-gel-na-telo-200-ml/) (27178-1): nyní 569 Kč, LR uvádí 429 Kč ([stránka](https://www.lr-czech.com/pece-o-telo)) → vycházelo by 399 Kč (-29.9 %)
 
-## Dodavatel produkt nenašel (8)
+## Dodavatel produkt nenašel (9)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, produkt je vhodné skrýt.
 
@@ -81,6 +80,7 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pokud prodej skončil, pro
 - [LR MICROSILVER PLUS Série pro zdravá ústa](https://www.kosmetikaeva.eu/usta-a-zuby/lr-microsilver-plus-serie-pro-zdrava-usta/) (25125-1)
 - [LR Aloe Vera Mint & Melon Sprchový gel 200 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/lr-aloe-vera-mint-melon-sprchovy-gel-200-ml/) (27177-1)
 - [LR ZEITGARD Serox Série pro pleť](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-serox-serie-pro-plet/) (28249-1)
+- [Eurona Vianelle Čisticí prostředek na kuchyně 500 ml](https://www.kosmetikaeva.eu/kuchyne/eurona-vianelle-cistici-prostredek-na-kuchyne-500-ml/) (3459)
 - [LR Detox Set](https://www.kosmetikaeva.eu/aloe-vera-gel/lr-detox-set/) (97631)
 - [Essens Esenciální olej - citron 10 ml](https://www.kosmetikaeva.eu/esencialni-oleje/essens-esencialni-olej-citron-10-ml/) (ESOIL02)
 - [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
@@ -92,13 +92,13 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 
 | Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |
 |---|---|---|:-:|--:|--:|--:|
-| Eurona | [Prostředek na ruční mytí nádobí s aloe vera](https://www.euronabycerny.com/p/3460/prostredek-na-rucni-myti-nadobi-vianelle-100-ml) | 3460 | ❌ | 109 Kč | 109 Kč | 26.10. |
+| Eurona | [set 3022+3022](https://www.euronabycerny.com/p/38156/set-30223022) | 38156 | ✅ | 269 Kč | 249 Kč | 27.10. |
 | LR | [LR FIGUACTIVE Série 3 ks](https://www.lr-czech.com/zdravi) | 81253 | ✅ | – | – | 23.10. |
-| Essens | [Aromatická visačka - Vanilka a skořice](https://www.essens.cz/aromaticka-visacka-vanilka-a-skorice-d532212/) | 179009 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatická visačka - VIP Diamond](https://www.essens.cz/aromaticka-visacka-vip-diamond-d532211/) | 179008 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatická visačka - Kokos](https://www.essens.cz/aromaticka-visacka-kokos-d532210/) | 179007 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Aromatická visačka - Bandita](https://www.essens.cz/aromaticka-visacka-bandita-d532209/) | 179006 | ✅ | 35 Kč | 35 Kč | 23.10. |
-| Essens | [Sprchový gel m008](https://www.essens.cz/sprchovy-gel-m008-d396846/) | M008GX | ✅ | 210 Kč | 199 Kč | 20.10. |
+| Essens | Aromatická visačka - Vanilka a skořice | 179009 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | Aromatická visačka - VIP Diamond | 179008 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | Aromatická visačka - Kokos | 179007 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | Aromatická visačka - Bandita | 179006 | ✅ | 35 Kč | 35 Kč | 23.10. |
+| Essens | Sprchový gel m008 | M008GX | ✅ | 210 Kč | 199 Kč | 20.10. |
 | Eurona | [Luxusní kolekce aroma parfémů](https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume) | CA0163 | ✅ | 767 Kč | 709 Kč | 19.10. |
 
-Celkem dodavatelé nabízejí 72 produktů, které na e-shopu nejsou (Eurona 29, Essens 23, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 69 produktů, které na e-shopu nejsou (Eurona 26, Essens 23, LR 20) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
