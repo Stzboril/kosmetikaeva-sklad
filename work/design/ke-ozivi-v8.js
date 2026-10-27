@@ -156,9 +156,9 @@
       '.ke-ms__lbl{position:relative;min-height:40px;margin-top:6px;font-size:13px;line-height:1.45;color:var(--ke-ink-soft,#3f3d4f)}' +
       '.ke-ms__lbl > span{position:absolute;top:0;transform:translateX(-50%);text-align:center;white-space:nowrap}' +
       '.ke-ms__lbl > span.is-end{transform:none;right:0;text-align:right}' +
-      '.ke-ms__lbl b{color:var(--ke-ink,#1c1b29)}.ke-ms__lbl .is-ok,.ke-ms__lbl .is-ok b{color:#1d7a3a}' +
+      '.ke-ms__lbl i{display:none}.ke-ms__lbl b{color:var(--ke-ink,#1c1b29)}.ke-ms__lbl .is-ok,.ke-ms__lbl .is-ok b{color:#1d7a3a}' +
       '@media (max-width:600px){.ke-ms__lbl{min-height:0;display:flex;flex-direction:column;gap:4px}' +
-        '.ke-ms__lbl > span,.ke-ms__lbl > span.is-end{position:static;transform:none;text-align:left;white-space:normal}.ke-ms__lbl br{display:none}.ke-ms__lbl i{font-style:normal}}';
+        '.ke-ms__lbl > span,.ke-ms__lbl > span.is-end{position:static;transform:none;text-align:left;white-space:normal}.ke-ms__lbl br{display:none}.ke-ms__lbl i{display:inline;font-style:normal}}';
     (document.head || document.documentElement).appendChild(s);
   }
   function msHTML() {
