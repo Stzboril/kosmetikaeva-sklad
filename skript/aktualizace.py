@@ -265,7 +265,10 @@ def main():
     for r in nacti_csv("data/nesledovat.csv"):
         NESLEDOVAT.add(r["kod"].strip().upper())
     for r in nacti_csv("data/fyzicky_sklad.csv"):
-        FYZICKY.add(r["kod"].strip().upper())
+        # sloupec fyzicky_sklad (stránka fyzicky-sklad.html): počet kusů nebo ANO; prázdné / 0 / NE = běžná kontrola
+        h = (r.get("fyzicky_sklad") or "").upper().replace(" ", "").replace("KS", "")
+        if h == "ANO" or (h.isdigit() and int(h) > 0):
+            FYZICKY.add((r.get("kod") or "").strip().upper())
     for r in nacti_csv("data/nove_ignorovat.csv"):
         NOVE_IGNOROVAT.add(r["kod"].strip().upper())
     for r in nacti_csv("data/essens_url.csv"):
