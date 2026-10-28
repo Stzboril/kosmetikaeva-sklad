@@ -114,7 +114,8 @@ def eshop_produkty():
     if os.path.exists(SNIMEK):
         znam = json.load(open(SNIMEK, encoding="utf-8"))
     for k, p in out.items():
-        znam[k] = {"kod": p["kod"], "nazev": p["nazev"], "znacka": p["znacka"], "url": p["url"]}
+        znam[k] = {"kod": p["kod"], "nazev": p["nazev"], "znacka": p["znacka"], "url": p["url"],
+                   "cena": p["cena"], "akce": p["akce"]}  # prodejní ceny (veřejné) pro stránku Fyzický sklad
     for k, z in sorted(znam.items()):
         if k in out or not z.get("url"):
             continue
@@ -364,7 +365,8 @@ def main():
                 akce.append((p, akcni, a))
 
         # ---- cena
-        if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None or p["akce"]:
+        if not sup or not sup.get("cena") or kod in NEMENIT_CENU or p["cena"] is None or p["akce"] \
+                or (kod in FYZICKY and p["sklad"] > 0):  # fyzický sklad majitele: prodejní cenu nenavrhovat
             continue
         nova = nova_cena(sup["cena"])
         nazev = " ".join(p["nazev"].split())
