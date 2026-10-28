@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-27T16:59+02:00",
+"cas": "2026-10-28T10:08+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -601,6 +601,56 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/1315/man-in-trouble-laundry-gel-1-000-ml"
 },
+"179006": {
+"dop": 35.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"179007": {
+"dop": 35.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"179008": {
+"dop": 35.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"179009": {
+"dop": 35.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"19649": {
+"dop": 924.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19649/set-10021021302230134457"
+},
+"19650": {
+"dop": 924.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19650/set-10021021302230134456"
+},
+"19651": {
+"dop": 1231.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19651/set-101010663254102030994403"
+},
+"19652": {
+"dop": 1231.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19652/set-101010663254102030994455"
+},
+"19653": {
+"dop": 1441.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19653/set-1079106333523494ca03154455"
+},
+"19654": {
+"dop": 1441.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19654/set-1079106333523494ca03154403"
+},
 "2005": {
 "dop": 169.0,
 "skladem": true,
@@ -647,6 +697,11 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/2041/2-in1-dish-care-with-aloe-vera-and-chamomile-spring-aloe-400-2"
 },
 "20420-101": {
+"dop": 429.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
+},
+"20421-401": {
 "dop": 429.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
@@ -741,6 +796,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
+"20612-201": {
+"dop": 399.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
 "2062": {
 "dop": 169.0,
 "skladem": true,
@@ -751,10 +811,20 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/2063/ecowave-2-in-1-dishcare-with-aloe-vera-auri-skye-1-000-ml"
 },
+"20630-301": {
+"dop": 429.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
 "20631-1": {
 "dop": 459.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
+},
+"20633-201": {
+"dop": 559.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20639-102": {
 "dop": 629.0,
@@ -814,6 +884,11 @@
 "20676": {
 "dop": 199.0,
 "skladem": false,
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
+},
+"20677-401": {
+"dop": 839.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
 },
 "20679-101": {
@@ -936,16 +1011,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
-"25124-1": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
-},
-"25125-1": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
-},
 "25130-101": {
 "dop": 959.0,
 "skladem": true,
@@ -961,6 +1026,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
+"27164-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
+},
 "27165-1": {
 "dop": null,
 "skladem": true,
@@ -970,6 +1040,11 @@
 "dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/aloe-vera-care"
+},
+"27167-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27172-1": {
 "dop": 719.0,
@@ -985,11 +1060,6 @@
 "dop": 495.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
-},
-"27177-1": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo"
 },
 "27178-1": {
 "dop": 429.0,
@@ -1041,11 +1111,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
-"28249-1": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/sera"
-},
 "28250-101": {
 "dop": 1619.0,
 "skladem": true,
@@ -1066,6 +1131,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/sera"
 },
+"28314-201": {
+"dop": 1379.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+},
 "28317-201": {
 "dop": 1339.0,
 "skladem": true,
@@ -1078,6 +1148,21 @@
 },
 "28319-201": {
 "dop": 1339.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+},
+"28449-201": {
+"dop": 1339.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+},
+"28500-101": {
+"dop": 405.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+},
+"28501-201": {
+"dop": 475.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
@@ -1455,6 +1540,11 @@
 "dop": 109.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3091/vacuum-cleaner-perfume-black-grape-35-ml"
+},
+"3093": {
+"dop": 109.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/3093/air-aromaticum-black-grape-150-ml-2"
 },
 "3094": {
 "dop": 99.0,
@@ -1886,11 +1976,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3453/active-spray-cleaner-for-electronics-150-ml"
 },
-"3459": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.euronabycerny.com/p/3459/kitchen-cleaner-vianelle-500-ml"
-},
 "3464": {
 "dop": 99.0,
 "skladem": true,
@@ -2060,6 +2145,26 @@
 "dop": 189.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3502/man-in-trouble-haxn-perfume-100-ml"
+},
+"38153": {
+"dop": 915.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/38153/set-300530313009301033604456"
+},
+"38154": {
+"dop": 915.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/38154/set-300530313009301033604457"
+},
+"38155": {
+"dop": 806.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/38155/set-30043341341730433385"
+},
+"38156": {
+"dop": 269.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/38156/set-30223022"
 },
 "4001": {
 "dop": 29.0,
@@ -2411,6 +2516,71 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/es-pure-doplnek-stravy-d117522/"
 },
+"69447": {
+"dop": 1076.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69447/set-cc6718cc6725cc6735cc67674455"
+},
+"69448": {
+"dop": 827.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69448/set-ca0302ca01713485"
+},
+"69449": {
+"dop": 827.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69449/set-ca0310ca01783411"
+},
+"69450": {
+"dop": 687.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69450/set-ca0309cc68441101"
+},
+"69451": {
+"dop": 498.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69451/set-ca0165ca01571085"
+},
+"69453": {
+"dop": 915.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69453/set-cc6801cc6811cc68184384"
+},
+"69454": {
+"dop": 915.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69454/set-cc6800cc6810cc68174384"
+},
+"69455": {
+"dop": 915.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69455/set-cc6799cc6809cc68164384"
+},
+"69456": {
+"dop": 1697.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69456/set-cc6759cc6760cc67584384"
+},
+"69457": {
+"dop": 1497.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69457/set-cc6756cc6757cc67544384"
+},
+"69459": {
+"dop": 1093.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69459/set-cc6839cc6840cc67994384"
+},
+"69460": {
+"dop": 1093.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69460/set-cc6837cc6838cc68034384"
+},
+"69461": {
+"dop": 1093.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69461/set-cc6841cc6842cc68014384"
+},
 "7001": {
 "dop": 329.0,
 "skladem": true,
@@ -2496,6 +2666,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
+"71011-1": {
+"dop": 739.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/pece-o-plet"
+},
 "71060-1": {
 "dop": 1325.0,
 "skladem": true,
@@ -2573,6 +2748,11 @@
 },
 "80361-499": {
 "dop": 1189.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
+"80363-599": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2671,11 +2851,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
-"81170-198": {
-"dop": 4329.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
-},
 "81180-99": {
 "dop": 1379.0,
 "skladem": true,
@@ -2740,71 +2915,6 @@
 "dop": 4625.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
-},
-"97265": {
-"dop": 19699.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97266": {
-"dop": 19699.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97267": {
-"dop": 19699.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97268": {
-"dop": 19699.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97269": {
-"dop": 19699.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97276": {
-"dop": 21769.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97277": {
-"dop": 21769.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97278": {
-"dop": 21769.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97279": {
-"dop": 21769.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97280": {
-"dop": 21769.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/health-mission-top-produkty"
-},
-"97631": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
-},
-"97900": {
-"dop": 2159.0,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
-},
-"97903": {
-"dop": null,
-"skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "AC0001": {
 "dop": 189.0,
@@ -2986,6 +3096,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-deo-stick-d373820/"
 },
+"AVE91N": {
+"dop": 520.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "B00150": {
 "dop": 450.0,
 "skladem": true,
@@ -3050,6 +3165,11 @@
 "dop": 169.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CA0160/cerny-aromatix-luxury-aroma-perfume-black-pearl-5-ml"
+},
+"CA0163": {
+"dop": 767.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume"
 },
 "CA0164": {
 "dop": 329.0,
@@ -3731,6 +3851,16 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/konturovaci-tuzka-na-oblicej-03-deep-d363850/"
 },
+"CPL21N": {
+"dop": 960.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"CPL22N": {
+"dop": 960.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "CPL23N": {
 "dop": 885.0,
 "skladem": true,
@@ -3750,6 +3880,11 @@
 "dop": 640.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/anti-ageing-pletove-mydlo-colostrum-d341953/"
+},
+"CPL27N": {
+"dop": 960.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "CPL40": {
 "dop": 495.0,
@@ -3791,15 +3926,15 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/kosmeticke-orezavatko-must-have-edition-d219674/"
 },
+"ED01N": {
+"dop": 60.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "ESOIL01": {
 "dop": 505.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/esencialni-olej-levandule-d219920/"
-},
-"ESOIL02": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/esencialni-olej-citron-d219921/"
 },
 "ESOIL03": {
 "dop": 450.0,
@@ -4230,6 +4365,11 @@
 "dop": 600.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m008-d184/"
+},
+"M008GX": {
+"dop": 210.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "M01350": {
 "dop": 600.0,
@@ -4936,6 +5076,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/colostrum-set-doplnky-stravy-d396842/"
 },
+"SET1ED": {
+"dop": 360.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "SETCH21": {
 "dop": 505.0,
 "skladem": true,
@@ -5451,11 +5596,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w174-d238211/"
 },
-"W17550": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/damsky-parfem-w175-d238212/"
-},
 "W17750": {
 "dop": 600.0,
 "skladem": true,
@@ -5526,6 +5666,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w188-d326941/"
 },
+"W19050X": {
+"dop": 635.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "W190GX": {
 "dop": 210.0,
 "skladem": false,
@@ -5535,6 +5680,11 @@
 "dop": 210.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w191-d326944/"
+},
+"W19250X": {
+"dop": 635.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "W19350": {
 "dop": 635.0,
@@ -5665,6 +5815,11 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w906-d396677/"
+},
+"W90750X": {
+"dop": 635.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "W90950X": {
 "dop": 635.0,
