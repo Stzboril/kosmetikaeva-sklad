@@ -155,6 +155,7 @@ def zapis_csv(nazev, hlavicka, radky):
 ALIASY = {}        # data/aliasy.csv (kod_eshop;kod_dodavatel)
 NEMENIT_CENU = set()  # data/nemenit_cenu.csv – sady, série a jiné výjimky
 NESLEDOVAT = set()    # data/nesledovat.csv – produkty, které se vůbec nekontrolují
+FYZICKY = set()       # data/fyzicky_sklad.csv – zboží fyzicky na skladě: neměnit sklad ani nenavrhovat akci
 ESSENS_URL = {}       # data/essens_url.csv – detail produktu Essens, který není v žádné kategorii
                       # (vyhledávání essens.cz bez přihlášení nefunguje)
 
@@ -263,6 +264,8 @@ def main():
         NEMENIT_CENU.add(r["kod"].strip().upper())
     for r in nacti_csv("data/nesledovat.csv"):
         NESLEDOVAT.add(r["kod"].strip().upper())
+    for r in nacti_csv("data/fyzicky_sklad.csv"):
+        FYZICKY.add(r["kod"].strip().upper())
     for r in nacti_csv("data/nove_ignorovat.csv"):
         NOVE_IGNOROVAT.add(r["kod"].strip().upper())
     for r in nacti_csv("data/essens_url.csv"):
@@ -333,7 +336,9 @@ def main():
             if p.get("mimo_feed"):
                 continue  # produkt mimo Google feed, který dodavatel nezná: raději neměnit
         dodavatel_ma = bool(sup and sup["skladem"])
-        if dodavatel_ma and p["sklad"] <= 0:
+        if kod in FYZICKY:
+            pass  # fyzický sklad majitele – počet kusů zadává ručně, kontrola ho nemění
+        elif dodavatel_ma and p["sklad"] <= 0:
             sklad_radky.append([p["kod"], parove.get(kod, ""), str(NOVY_SKLAD)])
             naskladnit.append(p)
         elif not dodavatel_ma and p["sklad"] > 0:
@@ -345,7 +350,8 @@ def main():
 
         # ---- akce LR -> akční cena i na e-shopu
         a = (sup or {}).get("akce")
-        if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and p["cena"] is not None \
+        if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and kod not in FYZICKY \
+                and p["cena"] is not None \
                 and a.get("do", "") >= ted.date().isoformat():
             akcni = nova_cena(a["cena"])
             # jen když je akční cena nižší než běžná na e-shopu a e-shop ji ještě nemá
