@@ -1,15 +1,13 @@
-Kontrola u dodavatelů proběhla 28.10.2026 v 10:08.
+Kontrola u dodavatelů proběhla 28.10.2026 v 12:33.
 
-- **Eurona:** zkontrolováno 566 viditelných produktů
+- **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
 - **LR:** zkontrolováno 216 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (11 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (9 produktů)
 
-- ✅ zase skladem → 20 ks: [LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-spray--prvni-pomoci--500-ml-2/) (20600-110)
-- ✅ zase skladem → 20 ks: [LR LIFETAKT Colostrum Kapsle Série 3 x 60 kapslí](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-compact-serie-3-x-60-kapsli/) (80389-101)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
@@ -69,10 +67,11 @@ Změna o 20 % a víc u LR není v ceny.csv: cena z webu LR může patřit vedlej
 - [LR Aloe Vera Mint & Melon Krémový gel na obličej 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-mint-melon-kremovy-gel-na-oblicej-50-ml/) (27176-1): nyní 659 Kč, LR uvádí 495 Kč ([stránka](https://www.lr-czech.com/denni-nocni-ocni)) → vycházelo by 459 Kč (-30.3 %)
 - [LR Aloe Vera Mint & Melon Krémový gel na tělo 200 ml](https://www.kosmetikaeva.eu/telo-2/lr-aloe-vera-mint-melon-kremovy-gel-na-telo-200-ml/) (27178-1): nyní 569 Kč, LR uvádí 429 Kč ([stránka](https://www.lr-czech.com/pece-o-telo)) → vycházelo by 399 Kč (-29.9 %)
 
-## Dodavatel produkt nenašel (1)
+## Dodavatel produkt nenašel (2)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
+- [Eurona Vianelle Čisticí prostředek na interiéry aut 250 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-vianelle-cistici-prostredek-na-interiery-aut-250-ml/) (5018)
 - [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
 
 ## Nové u dodavatele (1)

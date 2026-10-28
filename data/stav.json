@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-28T10:08+02:00",
+"cas": "2026-10-28T12:33+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -2230,6 +2230,11 @@
 "dop": 239.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/5017/car-interior-cleaner-new-one-250-ml"
+},
+"5018": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "5019": {
 "dop": 158.0,
