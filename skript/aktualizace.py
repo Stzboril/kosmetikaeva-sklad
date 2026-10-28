@@ -339,8 +339,8 @@ def main():
             if p.get("mimo_feed"):
                 continue  # produkt mimo Google feed, který dodavatel nezná: raději neměnit
         dodavatel_ma = bool(sup and sup["skladem"])
-        if kod in FYZICKY:
-            pass  # fyzický sklad majitele – počet kusů zadává ručně, kontrola ho nemění
+        if kod in FYZICKY and p["sklad"] > 0:
+            pass  # fyzický sklad majitele (stránka fyzicky-sklad.html) – dokud má kusy, kontrola sklad nemění
         elif dodavatel_ma and p["sklad"] <= 0:
             sklad_radky.append([p["kod"], parove.get(kod, ""), str(NOVY_SKLAD)])
             naskladnit.append(p)
@@ -353,7 +353,7 @@ def main():
 
         # ---- akce LR -> akční cena i na e-shopu
         a = (sup or {}).get("akce")
-        if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and kod not in FYZICKY \
+        if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and not (kod in FYZICKY and p["sklad"] > 0) \
                 and p["cena"] is not None \
                 and a.get("do", "") >= ted.date().isoformat():
             akcni = nova_cena(a["cena"])
