@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-29T07:50+02:00",
+"cas": "2026-10-29T12:53+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -4588,7 +4588,7 @@
 },
 "MGLOSS05": {
 "dop": 340.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/lesk-na-rty-pro-vetsi-objem-05-d363830/"
 },
 "MHE01": {
