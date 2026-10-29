@@ -37,7 +37,7 @@ Soubor stáhnete tak, že v upozornění kliknete pravým tlačítkem na odkaz a
 - `data/nesledovat.csv` – produkty, které se nekontrolují (vzorky, partnerské zboží)
 - `data/essens_url.csv` – odkazy na detail Essens u produktů, které nejsou v žádné kategorii na essens.cz
 - `data/nemenit_cenu.csv` – produkty, u kterých se cena nenavrhuje
-- `data/fyzicky_sklad.csv` – zboží, které máte fyzicky na skladě (stačí kód na řádek, poznámka nepovinná, nebo napište Claudovi „fyzicky mám <kód>“): kontrola u něj **nemění sklad** (počet kusů zadáváte v Shoptetu sami) a **nenavrhuje akci**; cena se hlídá dál. Až zásoba dojde, kód smažte.
+- `data/fyzicky_sklad.csv` – zboží, které máte fyzicky na skladě (stačí kód na řádek, poznámka nepovinná, nebo napište Claudovi „fyzicky mám <kód>“): kontrola ho **neřeší vůbec** – nemění sklad (počet kusů zadáváte v Shoptetu sami), nenavrhuje cenu ani akci a nevypisuje ho mezi produkty, které dodavatel nenašel. Až zásoba dojde, kód smažte.
 - `data/eshop_kody.csv` – párové kódy variant pro import
 - `data/google_doplnek.tsv` – doplňkový zdroj pro Google Merchant Center (stahuje se denně): produkty vyřazené z reklam (nízká marže, podle filtru „Marže do 15 %“ v Shoptetu; od 26. 10. 2026 také všechny výrobky Nahrin a wellU – majitel je z reklam vyřadil). Ve výsledcích zdarma na Googlu zůstávají. Kód smažete z řádku = produkt se do reklam vrátí.
 - `skript/` – program kontroly

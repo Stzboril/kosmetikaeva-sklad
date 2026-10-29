@@ -334,6 +334,12 @@ def main():
             "url_dodavatel": (sup or {}).get("url") or stary.get("url_dodavatel", ""),
         }
 
+        # fyzický sklad majitele (stránka fyzicky-sklad.html): dokud má kusy, kontrola produkt neřeší vůbec –
+        # nemění sklad, nenavrhuje cenu ani akci a nevypisuje ho ani mezi produkty, které dodavatel nenašel
+        # (rozhodnutí majitele 29. 10. 2026)
+        if kod in FYZICKY and p["sklad"] > 0:
+            continue
+
         # ---- sklad: měníme jen tam, kde nesedí „skladem / není skladem“
         if sup is None:
             nenalezeno.append(p)
