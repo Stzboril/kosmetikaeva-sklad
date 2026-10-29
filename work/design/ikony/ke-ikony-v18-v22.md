@@ -13,3 +13,9 @@ Majitel: „zmen tuti ikonku, vypadá to jako černoch“ (Dermatologicky testov
   - Návrat = v20 (stará ikona obličeje + střed), resp. v17.
 - Glyf face dál používá d_plet „Péče o pleť“ (129 výrobků).
 - Varianta A (kůže všude) a upravená B (mikádo – majitel zamítl) jsou v derm/varianty.json @ 376f0f0.
+
+## v23 (29. 10. 2026 ~11:35) – NA WEBU
+- Ikona „Péče o pleť“ (d_plet, 129 výrobků): glyf face → pletzena = obkreslený ženský obličej (celá hlava, vpravo vlasy za uchem), kapátko a kapka séra na tváři, jiskry; data derm/plet-kapatko.json @ 14afac1 (klíč K). Majitel: „ano nasaď“.
+- 199 721 B, SHA-256 207f34562a34e9c8358bd99d943072ad32e93b974d859a999af1348543142a70. Zápatí v22 → v23, záloha localStorage keHtmlKodyBackup_20261029_ikony23. Návrat = v22.
+- Glyf face už nepoužívá žádná ikona. Další verze = ke-ikony-v24.js.
+- Náhledy pro majitele se renderují i mimo prohlížeč aplikace: scratchpad nahled/render.py (Playwright, PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers) → PNG do chatu.
