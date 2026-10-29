@@ -7,8 +7,8 @@
   const ORIG = 'https://cdn.myshoptet.com/usr/www.kosmetikaeva.eu/user/shop/orig/';
   const P = [
     { img: ORIG + '9808_serum-na-kuperosu-kompozice-web.png?6aad156c', name: 'Sérum na kuperózu 30\u00a0ml', line: 'pro citlivou pleť se sklonem k začervenání', price: '589\u00a0Kč', tag: 'NOVINKA' },
-    { img: ORIG + '7726_ocni-sprej-kompozice-web.png?6aaecd2d', name: 'Oční sprej 18\u00a0ml', line: 'osvěží unavené oční okolí', price: '718\u00a0Kč' },
-    { img: ORIG + '8715_alpsky-balzam-kompozice.png?674ee46e', name: 'Alpský bylinný balzám 13\u00a0ml', line: 'k masáži po sportu i zimní procházce', price: '675\u00a0Kč' },
+    { img: ORIG + '7726_ocni-sprej-kompozice-web.png?6aaecd2d', name: 'Oční sprej 18\u00a0ml', line: 'osvěží oční okolí', price: '718\u00a0Kč' },
+    { img: ORIG + '8715_alpsky-balzam-kompozice.png?674ee46e', name: 'Alpský bylinný balzám 13\u00a0ml', line: 'svěží vůně alpských bylin a mentolu', price: '675\u00a0Kč' },
   ];
   await document.fonts.load('700 40px Montserrat');
   await document.fonts.load('500 30px Montserrat');
@@ -30,7 +30,7 @@
   g.textBaseline = 'alphabetic'; g.textAlign = 'left';
   g.fillStyle = ACC; g.font = '700 26px Montserrat'; spaced('ŠVÝCARSKÁ PÉČE JUST', 72, 118, 4);
   g.fillStyle = INK; g.font = '700 76px Montserrat'; g.fillText('Péče na chladné dny', 68, 206);
-  g.fillStyle = SOFT; g.font = '500 36px Montserrat'; g.fillText('pleť  ·  oči  ·  tělo', 72, 268);
+  g.fillStyle = SOFT; g.font = '500 36px Montserrat'; g.fillText('pleť  ·  oční okolí  ·  tělo', 72, 268);
 
   // karty
   const X = 56, CW = W - 2 * X, CH = 268, GAP = 26; let y = 300;

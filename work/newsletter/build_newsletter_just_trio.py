@@ -22,10 +22,13 @@ PATH = {
 }
 
 
-def utm(url, lang):
+CONTENT = {'serum': 'serum-kuperoza', 'sprej': 'ocni-sprej', 'balzam': 'alpsky-balzam'}
+
+
+def utm(url, lang, content):
     sep = '&' if '?' in url else '?'
     country = 'cz' if lang == 'cs' else lang
-    return f'{url}{sep}utm_source=newsletter&utm_medium=email&utm_campaign={CAMPAIGN}-{country}'
+    return f'{url}{sep}utm_source=newsletter&utm_medium=email&utm_campaign={CAMPAIGN}-{country}&utm_content={content}'
 
 
 def steps(items):
@@ -42,22 +45,22 @@ def steps(items):
 T = {
  'cs': dict(
    base=WEB,
-   subject='Péče na chladné dny: sérum na kuperózu, oční sprej a alpský balzám',
-   preheader='Švýcarská péče JUST pro citlivou pleť, unavené oční okolí a masáž po zimní procházce.',
+   subject='Péče na chladné dny: sérum pro citlivou pleť, oční sprej a alpský balzám',
+   preheader='Švýcarská péče JUST pro citlivou pleť, oční okolí i tělo.',
    eyebrow='Tipy z KosmetikaEva.eu · švýcarská péče JUST',
    h1='Venku zima, doma topení – dopřejte si víc péče',
    intro=['Dobrý den,',
-          'studený vítr venku, suchý vzduch z topení doma a k tomu dlouhé večery u obrazovky. Na pleti, očích i těle je to v tomhle období znát. Vybrali jsme proto tři výrobky švýcarské značky JUST, které se do chladných dnů hodí nejvíc.'],
-   s1=('Švýcarská péče JUST', 'Pro pleť, oči i tělo'),
+          'studený vítr venku a suchý vzduch z topení doma – v tomhle období si pleť i tělo zaslouží trochu víc péče. Vybrali jsme proto tři výrobky švýcarské značky JUST, které se do chladných dnů hodí nejvíc.'],
+   s1=('Švýcarská péče JUST', 'Pro pleť, oční okolí i tělo'),
    prods=[
      ('serum', 'Sérum na kuperózu 30 ml',
-      'Lehké sérum pro citlivou pleť se sklonem ke kuperóze a začervenání. Bambucké máslo, mandlový olej, panthenol a vitamin E pleť hydratují a dodají jí pocit zklidnění, výtažky z bezu černého a úročníku pomáhají vizuálně sjednotit její tón. Ráno i večer pod krém.',
+      'Lehké sérum pro citlivou pleť se sklonem k začervenání. Bambucké máslo, mandlový olej, panthenol a vitamin E pleť hydratují a dodají jí pocit zklidnění. Sérum pomáhá vizuálně sjednotit tón pleti. Ráno i večer pod krém.',
       '589 Kč', 'Novinka'),
      ('sprej', 'Oční sprej 18 ml',
-      'Rychlé osvěžení pro unavené oční okolí – u počítače, v přetopené kanceláři i na cestách. Stačí 1–2 vstřiky na zavřená víčka: sprej příjemně chladí a lipozomy se světlíkem lékařským dodají pokožce vláhu. Nerozmaže make-up a hodí se i pro nositele kontaktních čoček.',
+      'Osvěžení pro oční okolí – doma, v práci i na cestách. Stačí 1–2 vstřiky na zavřená víčka: sprej příjemně chladí a lipozomy se světlíkem lékařským dodají pokožce víček vláhu. Nerozmaže make-up a hodí se i pro nositele kontaktních čoček.',
       '718 Kč', None),
      ('balzam', 'Alpský bylinný balzám 13 ml',
-      'Malé balení do kapsy i kabelky s vůní alpských bylin a mentolu. Bambucké máslo, včelí vosk a deset éterických olejů – jedle, eukalyptus, levandule, tymián, máta a další. Ideální k masáži ramen a šíje po sportu nebo po dlouhé zimní procházce.',
+      'Malé balení do kapsy i kabelky s vůní alpských bylin a mentolu. Bambucké máslo, včelí vosk a deset éterických olejů – jedle, eukalyptus, levandule, tymián, máta a další. K masáži ramen a šíje: svěží bylinná vůně s mentolem příjemně chladí.',
       '675 Kč', 'Do kapsy'),
    ],
    buy='Koupit',
@@ -76,22 +79,22 @@ T = {
    op='Provozovatel: Stanislav Zbořil, IČO 86963139, Přílucká 4118, 760 01 Zlín · '),
  'sk': dict(
    base=WEB + '/sk',
-   subject='Starostlivosť na chladné dni: sérum na kuperózu, očný sprej a alpský balzam',
-   preheader='Švajčiarska starostlivosť JUST pre citlivú pleť, unavené očné okolie a masáž po zimnej prechádzke.',
+   subject='Starostlivosť na chladné dni: sérum pre citlivú pleť, očný sprej a alpský balzam',
+   preheader='Švajčiarska starostlivosť JUST pre citlivú pleť, očné okolie aj telo.',
    eyebrow='Tipy z KosmetikaEva.eu · švajčiarska starostlivosť JUST',
    h1='Vonku zima, doma kúrenie – doprajte si viac starostlivosti',
    intro=['Dobrý deň,',
-          'studený vietor vonku, suchý vzduch z kúrenia doma a k tomu dlhé večery pri obrazovke. Na pleti, očiach aj tele je to v tomto období poznať. Vybrali sme preto tri produkty švajčiarskej značky JUST, ktoré sa do chladných dní hodia najviac.'],
-   s1=('Švajčiarska starostlivosť JUST', 'Pre pleť, oči aj telo'),
+          'studený vietor vonku a suchý vzduch z kúrenia doma – v tomto období si pleť aj telo zaslúžia trochu viac starostlivosti. Vybrali sme preto tri produkty švajčiarskej značky JUST, ktoré sa do chladných dní hodia najviac.'],
+   s1=('Švajčiarska starostlivosť JUST', 'Pre pleť, očné okolie aj telo'),
    prods=[
      ('serum', 'Sérum na kuperózu 30 ml',
-      'Ľahké sérum pre citlivú pleť so sklonom ku kuperóze a začervenaniu. Bambucké maslo, mandľový olej, panthenol a vitamín E pleť hydratujú a dodajú jej pocit upokojenia, výťažky z bazy čiernej a úročníka pomáhajú vizuálne zjednotiť jej tón. Ráno aj večer pod krém.',
+      'Ľahké sérum pre citlivú pleť so sklonom k začervenaniu. Bambucké maslo, mandľový olej, panthenol a vitamín E pleť hydratujú a dodajú jej pocit upokojenia. Sérum pomáha vizuálne zjednotiť tón pleti. Ráno aj večer pod krém.',
       '24,20 €', 'Novinka'),
      ('sprej', 'Očný sprej 18 ml',
-      'Rýchle osvieženie pre unavené očné okolie – pri počítači, v prekúrenej kancelárii aj na cestách. Stačia 1–2 vstreky na zatvorené viečka: sprej príjemne chladí a lipozómy so svetlíkom lekárskym dodajú pokožke vlahu. Nerozmaže make-up a hodí sa aj pre nositeľov kontaktných šošoviek.',
+      'Osvieženie pre očné okolie – doma, v práci aj na cestách. Stačia 1–2 vstreky na zatvorené viečka: sprej príjemne chladí a lipozómy so svetlíkom lekárskym dodajú pokožke viečok vlahu. Nerozmaže make-up a hodí sa aj pre nositeľov kontaktných šošoviek.',
       '29,50 €', None),
      ('balzam', 'Alpský bylinný balzam 13 ml',
-      'Malé balenie do vrecka aj kabelky s vôňou alpských bylín a mentolu. Bambucké maslo, včelí vosk a desať éterických olejov – jedľa, eukalyptus, levanduľa, tymian, mäta a ďalšie. Ideálny na masáž ramien a šije po športe alebo po dlhej zimnej prechádzke.',
+      'Malé balenie do vrecka aj kabelky s vôňou alpských bylín a mentolu. Bambucké maslo, včelí vosk a desať éterických olejov – jedľa, eukalyptus, levanduľa, tymian, mäta a ďalšie. Na masáž ramien a šije: svieža bylinná vôňa s mentolom príjemne chladí.',
       '27,73 €', 'Do vrecka'),
    ],
    buy='Kúpiť',
@@ -113,7 +116,7 @@ T = {
 
 def build(lang):
     t = T[lang]
-    link = lambda path: utm(t['base'] + path, lang)  # noqa: E731
+    link = lambda path, content: utm(t['base'] + path, lang, content)  # noqa: E731
     rows = []
     head = (f'<p style="margin:0 0 6px 0;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:{ACC};font-weight:bold;">{t["eyebrow"]}</p>'
             f'<h1 style="margin:0 0 16px 0;font-size:24px;line-height:1.3;font-weight:bold;color:{INK};">{t["h1"]}</h1>'
@@ -121,16 +124,16 @@ def build(lang):
     rows.append(row(head, '8px 0 18px 0'))
     rows.append(row(h2(*t['s1']), '6px 0 4px 0'))
     for key, name, desc, price, tag in t['prods']:
-        rows.append(product(IMG[key], name, link(PATH[key]), desc, price, t['buy'], tag))
+        rows.append(product(IMG[key], name, link(PATH[key], CONTENT[key]), desc, price, t['buy'], tag))
     rows.append(row('', '0 0 14px 0'))
     rows.append(box(h2(*t['s2']) + steps(t['s2steps']), 'blush'))
-    rows.append(box(h2(*t['s3']) + p(t['s3text'], 14, SOFT, 14) + btn(link(t['s3btn'][0]), t['s3btn'][1])
-                    + small(a(link(t['s3link'][0]), t['s3link'][1] + ' ›'), 12)))
+    rows.append(box(h2(*t['s3']) + p(t['s3text'], 14, SOFT, 14) + btn(link(t['s3btn'][0], 'vanocni-darky'), t['s3btn'][1])
+                    + small(a(link(t['s3link'][0], 'darkove-poukazy'), t['s3link'][1] + ' ›'), 12)))
     rows.append(row(p(t['ship'], 14, SOFT, 0), '0 0 18px 0'))
     sig = (f'<p style="margin:18px 0 4px 0;font-size:14px;line-height:1.6;color:{SOFT};">{t["regards"]}</p>'
            f'<p style="margin:0 0 2px 0;font-size:15px;font-weight:bold;color:{INK};">Stanislav Zbořil</p>'
            f'<p style="margin:0 0 14px 0;font-size:13px;line-height:1.7;color:{MUTED};">'
-           f'<a href="{link("/")}" style="color:{MUTED};text-decoration:none;">KosmetikaEva.eu</a><br />'
+           f'<a href="{link("/", "podpis")}" style="color:{MUTED};text-decoration:none;">KosmetikaEva.eu</a><br />'
            f'<a href="tel:+420773905902" style="color:{MUTED};text-decoration:none;">+420 773 905 902</a> · '
            f'<a href="mailto:info@kosmetikaeva.eu" style="color:{ACC};">info@kosmetikaeva.eu</a></p>'
            + btn('https://www.facebook.com/kosmetikaevaeshop/', t['fb'], 'dark'))
