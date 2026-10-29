@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 28.10.2026 v 17:44.
+Kontrola u dodavatelů proběhla 29.10.2026 v 07:50.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
@@ -63,9 +63,9 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 
 Změna o 20 % a víc u LR není v ceny.csv: cena z webu LR může patřit vedlejší kartě. Ověřte na stránce produktu u LR; je-li správně, upravte cenu ručně.
 
-- [LR Aloe Vera Mint & Melon Čisticí sorbet 150 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-mint-melon-cistici-sorbet-150-ml/) (27175-1): nyní 449 Kč, LR uvádí 339 Kč ([stránka](https://www.lr-czech.com/pece-o-plet)) → vycházelo by 319 Kč (-29.0 %)
-- [LR Aloe Vera Mint & Melon Krémový gel na obličej 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-mint-melon-kremovy-gel-na-oblicej-50-ml/) (27176-1): nyní 659 Kč, LR uvádí 495 Kč ([stránka](https://www.lr-czech.com/denni-nocni-ocni)) → vycházelo by 459 Kč (-30.3 %)
-- [LR Aloe Vera Mint & Melon Krémový gel na tělo 200 ml](https://www.kosmetikaeva.eu/telo-2/lr-aloe-vera-mint-melon-kremovy-gel-na-telo-200-ml/) (27178-1): nyní 569 Kč, LR uvádí 429 Kč ([stránka](https://www.lr-czech.com/pece-o-telo)) → vycházelo by 399 Kč (-29.9 %)
+- [LR Aloe Vera Mint & Melon Čisticí sorbet 150 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-mint-melon-cistici-sorbet-150-ml/) (27175-1): nyní 449 Kč, LR uvádí 339 Kč ([stránka](https://www.lr-czech.com/krasa)) → vycházelo by 319 Kč (-29.0 %)
+- [LR Aloe Vera Mint & Melon Krémový gel na obličej 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-mint-melon-kremovy-gel-na-oblicej-50-ml/) (27176-1): nyní 659 Kč, LR uvádí 495 Kč ([stránka](https://www.lr-czech.com/krasa)) → vycházelo by 459 Kč (-30.3 %)
+- [LR Aloe Vera Mint & Melon Krémový gel na tělo 200 ml](https://www.kosmetikaeva.eu/telo-2/lr-aloe-vera-mint-melon-kremovy-gel-na-telo-200-ml/) (27178-1): nyní 569 Kč, LR uvádí 429 Kč ([stránka](https://www.lr-czech.com/krasa)) → vycházelo by 399 Kč (-29.9 %)
 
 ## Dodavatel produkt nenašel (2)
 
