@@ -3,8 +3,7 @@
  "volume": "30 ml",
  "zdroj": "krabička (fotky majitele 29. 10. 2026: přední strana, INCI); https://www.justnahrin.cz/produkty/vj-krem-na-okoli-oci (název, kat. č. 6094, 30 ml, 985 Kč, použití); https://www.just.ch/de/vital-just-eye-contour-care-edelweiss-alpenrose.html (Art. 871, studie 40 žen/28 dní, tip lednice, špička)",
  "chybi": [
-  "upozornění na fotkách krabičky není",
-  "ikony vlastností – zkontrolovat v další verzi ke-ikony"
+  "upozornění na fotkách krabičky není"
  ],
  "cs": {
   "name": "Just VJ Krém na okolí očí 30 ml",
@@ -22,5 +21,6 @@
  "standardPrice": 985,
  "purchasePrice": 1,
  "stock": 1,
- "poznamka": "Výrobek už v e-shopu byl (skrytý, id 7684, kód 6094, 899 Kč, sklad 0). 29. 10. 2026 upraven a zviditelněn: ceny a sklad podle majitele (599 / nákupní 1 Kč / 1 ks), přeškrtnutá 985 = ceník JUST CZ, dostupnost bez skladu Brzy skladem (-4), Heureka 1475 / Zboží 312, nové texty CZ+SK a meta. Fotka výrobce 12670 ponechána. Záloha původních formulářů: localStorage keBackup_7684_cs_20261029 / _sk_."
+ "poznamka": "Výrobek už v e-shopu byl (skrytý, id 7684, kód 6094, 899 Kč, sklad 0). 29. 10. 2026 upraven a zviditelněn: ceny a sklad podle majitele (599 / nákupní 1 Kč / 1 ks), přeškrtnutá 985 = ceník JUST CZ, dostupnost bez skladu Brzy skladem (-4), Heureka 1475 / Zboží 312, nové texty CZ+SK a meta. Fotka výrobce 12670 ponechána. Záloha původních formulářů: localStorage keBackup_7684_cs_20261029 / _sk_.",
+ "ikony": "ch,s_protez,s_alpruze,bezparf,derm,u_hydr (ke-ikony-v17.js, 29. 10. 2026)"
 }
