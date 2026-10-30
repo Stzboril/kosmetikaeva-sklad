@@ -54,5 +54,5 @@ Kontrola 19. 10.: všech 26 stránek CZ i SK vrací 200, roletka má správné o
 - Produkt id 7654 (/telo-2/just-slezovy-krem-60-ml/ – adresa zůstala), dřív bez variant. Šablona 187 (Objem 30/60/100 ml), vybrány hodnoty 30 ml (1030) a 60 ml (1033) parametru Objem (145).
 - Varianta 60 ml (56666): kód 5145 (beze změny), 549 Kč, přeškrtnutá 580 (= JUST CZ), sklad 10, obrázek 12319.
 - Varianta 30 ml (56663): kód 5145_30, 277 Kč (549 / 60 × 1,01 × 30 = 277,25), bez přeškrtnuté ceny (JUST CZ má jen 60 ml za 580 Kč), sklad 1, dostupnost bez skladu Brzy skladem, obrázek 12319, měrná cena / 100 ml.
-- Hlavní výrobek CZ/SK: název „Just Slézový krém“ / „Just Slezový krém“, SEO titulek „… 30 ml a 60 ml | KosmetikaEva.eu“, meta a řádek Objem „30 ml | 60 ml“ CZ i SK (majitel 30. 10.: místo „nebo“/„alebo“), doplňkový parametr Objem „30 ml / 60 ml“, filtr Objem + 30 ml ([1162]=166).
+- Hlavní výrobek CZ/SK: název „Just Slézový krém“ / „Just Slezový krém“, SEO titulek „… 30 ml a 60 ml | KosmetikaEva.eu“, řádek Objem v popisu „30 ml | 60 ml“ CZ i SK (majitel 30. 10.: jen popis), meta „30 ml nebo 60 ml“ (SK „alebo“), doplňkový parametr Objem „30 ml / 60 ml“, filtr Objem + 30 ml ([1162]=166).
 - Zálohy formulářů: localStorage keBackup_7654_cs_20261030, keBackup_7654_sk_20261030.
