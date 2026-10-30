@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-29T07:46+02:00",
+"cas": "2026-10-30T06:30+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -514,7 +514,7 @@
 "28244-301": {
 "cena": 1699.0,
 "nazev": "LR ZEITGARD Serox Intenzivní krém",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "28250-101": {
@@ -1410,6 +1410,12 @@
 "nazev": "LR HEALTH MISSION 3 měsíce (AV Gel Immune + Colostrum Liquid)",
 "skladem": true,
 "url": "https://www.lr-czech.com/health-mission-top-produkty"
+},
+"97631": {
+"cena": 5455.0,
+"nazev": "Detox Set",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
 },
 "97900": {
 "cena": 2159.0,
