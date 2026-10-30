@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-29T12:53+02:00",
+"cas": "2026-10-30T06:33+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -5082,8 +5082,8 @@
 "url_dodavatel": "https://www.essens.cz/colostrum-set-doplnky-stravy-d396842/"
 },
 "SET1ED": {
-"dop": 360.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "SETCH21": {
