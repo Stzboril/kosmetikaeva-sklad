@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-30T12:50+02:00",
+"cas": "2026-10-31T08:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -1028,7 +1028,7 @@
 },
 "27164-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27165-1": {
@@ -1043,7 +1043,7 @@
 },
 "27167-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27172-1": {
@@ -2162,8 +2162,8 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/38155/set-30043341341730433385"
 },
 "38156": {
-"dop": 269.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/38156/set-30223022"
 },
 "4001": {
@@ -5098,7 +5098,7 @@
 },
 "SETCH54": {
 "dop": 925.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-set-d355161/"
 },
 "SETCH67": {
@@ -5318,18 +5318,13 @@
 },
 "SSFND06": {
 "dop": 690.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-06-d201911/"
 },
 "SSFND07": {
 "dop": 690.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-07-d201912/"
-},
-"SSFND08": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/second-skin-make-up-08-d201913/"
 },
 "SSLIP02": {
 "dop": 390.0,
@@ -5675,11 +5670,6 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": ""
-},
-"W190GX": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,
