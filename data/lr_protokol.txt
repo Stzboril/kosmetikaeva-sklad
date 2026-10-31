@@ -1,6 +1,6 @@
-Fri Oct 30 05:30:39 CET 2026
+Sat Oct 31 07:25:19 CET 2026
 pokus 1
-Stahování (ručně na žádost majitele): WebFetch selhal (client_error) → staženo prohlížečem v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000).
+Stahování: WebFetch selhal (client_error u zdravi, krasa, aloe-vera-care i po opakování) → zbylé stránky přes WebFetch přeskočeny; staženo prohlížečem v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000).
 https://www.lr-czech.com/zdravi – 52 řádků
 https://www.lr-czech.com/krasa – 153 řádků
 https://www.lr-czech.com/aloe-vera-care – 45 řádků
@@ -18,10 +18,12 @@ https://www.lr-czech.com/pece-o-telo-zuby – 5 řádků
 https://www.lr-czech.com/specialiste – 32 řádků
 Celkem 557 řádků, duplicitní kódy bez rozporů sloučeny → 215 kódů; přenos do cloudu ověřen SHA-256 (shoda).
 Ověření „není skladem“ (štítek čten z HTML každé karty):
+27167-1 – ANO
+27164-1 – ANO
 20676-101 – ANO
 27170-1 – ANO
 27171-1 – ANO
 23114-101 – ANO
 23113-101 – ANO
-Uloženo 215 produktů LR, z toho není skladem: 5, v akci: 24
+Uloženo 215 produktů LR, z toho není skladem: 7, v akci: 24
 skript: návratový kód 0

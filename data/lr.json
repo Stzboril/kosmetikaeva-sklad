@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-30T06:30+02:00",
+"cas": "2026-10-31T08:25+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -382,7 +382,7 @@
 },
 "cena": null,
 "nazev": "Limitovaný Aloe Vera Winter Pumpkin Harmonizující pleťový krém",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "27165-1": {
@@ -418,7 +418,7 @@
 },
 "cena": null,
 "nazev": "Limitovaná Aloe Vera Winter Pumpkin Pečující série",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "27170-1": {
