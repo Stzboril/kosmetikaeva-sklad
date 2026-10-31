@@ -82,9 +82,9 @@
       '.ke-pod__n:hover{color:#a3392a}' +
       '.ke-pod__f{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:auto;padding-top:8px}' +
       '.ke-pod__p{font-weight:700;font-style:italic;color:#a3392a;font-size:14px;white-space:nowrap}' +
-      '.ke-pod__f form{margin:0}' +
-      '.ke-pod__b{border:1px solid #a3392a;background:#fff;color:#a3392a;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:600;line-height:1.2;cursor:pointer;white-space:nowrap;text-decoration:none;display:inline-block}' +
-      '.ke-pod__b:hover{background:#a3392a;color:#fff}' +
+      '.ke-pod__f form{margin:0;flex:0 0 auto}' +
+      '.ke-pod .ke-pod__b{border:1px solid #a3392a;background:#fff;color:#a3392a;border-radius:999px;padding:5px 11px;font-size:12px;font-weight:600;line-height:1.2;cursor:pointer;white-space:nowrap;text-decoration:none;display:inline-block;width:auto;height:auto;min-height:0;text-transform:none;letter-spacing:0;box-shadow:none}' +
+      '.ke-pod .ke-pod__b:hover{background:#a3392a;color:#fff}' +
       '.ke-pod__arr{position:absolute;top:50%;transform:translateY(-60%);width:34px;height:34px;border-radius:50%;border:1px solid #e3e3e3;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.12);color:#a3392a;font-size:20px;line-height:30px;cursor:pointer;z-index:2;padding:0}' +
       '.ke-pod__arr--l{left:-17px}.ke-pod__arr--r{right:-17px}.ke-pod__arr[hidden]{display:none}' +
       '@media (max-width:767px){.ke-pod{padding:14px 16px 18px}.ke-pod__c{flex-basis:44%}.ke-pod__arr{display:none}.ke-pod__img{height:90px}.ke-pod__img img{max-height:90px}}';
@@ -95,12 +95,12 @@
     css();
     var h = '<div class="ke-pod" role="region" aria-label="' + T.h + '"><div class="ke-pod__h">' + T.h + '</div><div class="ke-pod__wrap">' +
       '<button type="button" class="ke-pod__arr ke-pod__arr--l" aria-label="' + T.prev + '" hidden>&#8249;</button><div class="ke-pod__row">';
-    list.forEach(function (x) {
+    list.forEach(function (x, i) {
       var btn = x.priceId
-        ? '<form action="/action/Cart/addCartItem/" method="post" class="pr-action csrf-enabled"><input type="hidden" name="language" value="' + esc(x.lang) + '"><input type="hidden" name="priceId" value="' + esc(x.priceId) + '"><input type="hidden" name="productId" value="' + esc(x.id) + '"><input type="hidden" name="amount" value="1"><button type="submit" class="ke-pod__b add-to-cart-button">' + T.cart + '</button></form>'
+        ? '<form action="/action/Cart/addCartItem/" method="post" class="pr-action csrf-enabled"><input type="hidden" name="language" value="' + esc(x.lang) + '"><input type="hidden" name="priceId" value="' + esc(x.priceId) + '"><input type="hidden" name="productId" value="' + esc(x.id) + '"><input type="hidden" name="amount" value="1"><button type="submit" class="ke-pod__b">' + T.cart + '</button></form>'
         : '<a class="ke-pod__b" href="' + esc(x.url) + '">' + T.detail + '</a>';
       h += '<div class="ke-pod__c" data-id="' + esc(x.id) + '" data-url="' + esc(x.url) + '">' +
-        '<a class="ke-pod__img" href="' + esc(x.url) + '" tabindex="-1">' + (x.img ? '<img src="' + esc(x.img) + '" alt="" loading="lazy">' : '') + '</a>' +
+        '<a class="ke-pod__img" href="' + esc(x.url) + '" tabindex="-1">' + (x.img ? '<img src="' + esc(x.img) + '" alt=""' + (i > 3 ? ' loading="lazy"' : '') + '>' : '') + '</a>' +
         '<a class="ke-pod__n" href="' + esc(x.url) + '">' + esc(x.name) + '</a>' +
         '<div class="ke-pod__f"><span class="ke-pod__p">' + esc(x.price) + '</span>' + btn + '</div></div>';
     });
