@@ -1,6 +1,6 @@
 # Naplánovaná úloha „Kontrola adres kurýrních objednávek“ – návrh (31. 10. 2026)
 
-Stav: čeká na potvrzení majitele (založení úlohy 31. 10. vyžadovalo jeho souhlas). Navržený čas: pracovní dny 7:53 (CRON_TZ=Europe/Prague 53 7 * * 1-5), běží na počítači majitele (prohlížeč v aplikaci Claude), upozornění na telefon jen při podezřelé adrese.
+Stav: založena 31. 10. 2026 10:05 po souhlasu majitele („udělej kontrolu … ať to pošle na mail“) jako trig_017sweA2RY2iai4kiVGucSTQ. Pracovní dny 7:53 (CRON_TZ=Europe/Prague 53 7 * * 1-5), běží na počítači majitele (prohlížeč v aplikaci Claude), upozornění E-MAILEM jen při podezřelé adrese. Živý text úlohy je v naplánované úloze; níže první návrh (s upozorněním na telefon – nahrazeno e-mailem, klíč musí mít aspoň 12 znaků, při chybě API nic neoznačovat).
 
 ## Text úlohy
 
