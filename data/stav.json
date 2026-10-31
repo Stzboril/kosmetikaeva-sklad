@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-31T08:28+02:00",
+"cas": "2026-10-31T12:22+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -4073,7 +4073,7 @@
 },
 "HC03": {
 "dop": 115.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/krem-na-ruce-limitovana-vanocni-edice-d210794/"
 },
 "HC05": {
@@ -5326,6 +5326,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-07-d201912/"
 },
+"SSFND08": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SSLIP02": {
 "dop": 390.0,
 "skladem": true,
@@ -5670,6 +5675,11 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": ""
+},
+"W190GX": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,
