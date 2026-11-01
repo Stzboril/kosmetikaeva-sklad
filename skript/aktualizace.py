@@ -15,8 +15,9 @@ Pravidla (dohodnutá s majitelem e-shopu):
   * Just a Nahrin se nezpracovávají vůbec
   * produkt v akci (má akční cenu) -> cena se nenavrhuje
   * LR Colostrum, Sprej první pomoci a parfémy LR -> cena ani akce se nenavrhuje (jen sklad)
-  * LR má produkt v akci -> navrhne se akční cena na e-shopu = akční cena LR − 8 % (stejné zaokrouhlení),
-    s platností podle štítku LR („Měsíční akce“ do konce měsíce) – ke_importu/akce.csv
+  * LR má produkt v akci -> navrhne se akční cena na e-shopu = akční cena LR beze změny (bez −8 %,
+    majitel 1. 11. 2026: „akční ceny od LR nechej jak jsou u LR i u nás“), s platností podle štítku LR
+    („Měsíční akce“ do konce měsíce) – ke_importu/akce.csv
 """
 import csv
 import io
@@ -363,7 +364,7 @@ def main():
         if znacka == "LR" and a and a.get("cena") and kod not in NEMENIT_CENU and not (kod in FYZICKY and p["sklad"] > 0) \
                 and p["cena"] is not None \
                 and a.get("do", "") >= ted.date().isoformat():
-            akcni = nova_cena(a["cena"])
+            akcni = float(round(a["cena"]))  # akční cena = stejná jako u LR (majitel 1. 11. 2026)
             # jen když je akční cena nižší než běžná na e-shopu a e-shop ji ještě nemá
             if akcni < p["cena"] - 0.5 and not (p["akce"] and abs(p["akce"] - akcni) < 0.5):
                 od = a["od"]
@@ -436,8 +437,8 @@ def main():
     z += ["", "## Akce podle LR", ""]
     if akce:
         z.append(f"Soubor k importu: [akce.csv]({raw}/akce.csv) ({len(akce)} produktů). "
-                 "LR má produkt v akci → akční cena na e-shopu = akční cena LR − 8 %, zaokrouhleno nahoru "
-                 "na Kč končící 9, platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). "
+                 "LR má produkt v akci → akční cena na e-shopu = stejná jako akční cena LR (bez slevy −8 %), "
+                 "platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). "
                  "Po skončení se akční cena v Shoptetu sama vypne.")
         z += ["", "| Produkt | Kód | Běžná | Akční | Akce LR | Platnost |", "|---|---|--:|--:|--:|---|"]
         for p, akcni, a in sorted(akce, key=lambda x: x[0]["nazev"]):
