@@ -1,9 +1,27 @@
 {
-"cas": "2026-10-31T08:25+02:00",
+"cas": "2026-11-01T06:25+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
 "nazev": "Aloe Vera Kids Care 3v1 Šampón, Kondicionér & Sprchový Gel",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"20336-1": {
+"cena": 239.0,
+"nazev": "Limitované Aloe Vera Kouzelné třpytivé pěnové mýdlo",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"20345-1": {
+"akce": {
+"cena": 529.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Aloe Vera Set péče pro děti",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -68,13 +86,7 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20606-101": {
-"akce": {
-"cena": 935.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
+"cena": 1169.0,
 "nazev": "Aloe Vera Regenerační krém Dermaintense",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -97,6 +109,18 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
+"20613-301": {
+"akce": {
+"cena": 319.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Aloe Vera Extra hustý krém na ruce",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
 "20630-301": {
 "cena": 429.0,
 "nazev": "Aloe Vera Vitalizační sprchový gel",
@@ -104,7 +128,13 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20631-401": {
-"cena": 459.0,
+"akce": {
+"cena": 365.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Aloe Vera Jemný krém",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -116,7 +146,13 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20639-201": {
-"cena": 629.0,
+"akce": {
+"cena": 499.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Aloe Vera Hydratační tělový balzám",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -176,7 +212,13 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20675-301": {
-"cena": 869.0,
+"akce": {
+"cena": 649.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Aloe Vera Regenerační noční krém",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -188,7 +230,13 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20677-401": {
-"cena": 839.0,
+"akce": {
+"cena": 629.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Aloe Vera Zjemňující oční krém",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -217,45 +265,15 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
-"20729-1": {
-"akce": {
-"cena": 955.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "Aloe Vera Ochranný krém s propolisem Série 2 ks",
-"skladem": true,
-"url": "https://www.lr-czech.com/krasa"
-},
 "20730-101": {
 "cena": 619.0,
 "nazev": "Aloe Vera Nutri-Repair Maska na vlasy",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
-"20757-1": {
-"akce": {
-"cena": 295.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "Aloe Vera Ochranný deo roll-on 2 ks",
-"skladem": true,
-"url": "https://www.lr-czech.com/krasa"
-},
-"20783": {
-"akce": {
-"cena": 315.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "Aloe Vera Série 2 ks Pro Zdravý Úsměv",
+"20740-201": {
+"cena": 869.0,
+"nazev": "Limitovaný Aloe Vera Extra výživný denní krém",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -277,8 +295,26 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
+"20886-1": {
+"akce": {
+"cena": 1159.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Limitovaný Aloe Vera Set pro péči o obličej - dárkové balení",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
 "20905-1": {
-"cena": 1775.0,
+"akce": {
+"cena": 1419.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Aloe Vera Série speciální péče",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -290,13 +326,7 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "20915-1": {
-"akce": {
-"cena": 476.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
+"cena": 635.0,
 "nazev": "Aloe Vera Krémový gel první pomoci",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
@@ -304,6 +334,12 @@
 "20920-1": {
 "cena": 1029.0,
 "nazev": "Aloe Vera Regenerační péče o strie",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"20925-1": {
+"cena": 685.0,
+"nazev": "Limitované Aloe Vera Pleťové sérum pro posílení kožní bariéry",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -373,52 +409,40 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
-"27164-1": {
-"akce": {
-"cena": 284.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "Limitovaný Aloe Vera Winter Pumpkin Harmonizující pleťový krém",
-"skladem": false,
-"url": "https://www.lr-czech.com/krasa"
-},
-"27165-1": {
-"akce": {
-"cena": 379.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "Limitovaná Aloe Vera Winter Pumpkin Gelová maska",
+"27073-201": {
+"cena": 469.0,
+"nazev": "Limitovaný Milk & Honey Tělový krém",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
-"27166-1": {
-"akce": {
-"cena": 399.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "Limitované Aloe Vera Winter Pumpkin Hydratační pleťové sérum",
+"27074-501": {
+"cena": 319.0,
+"nazev": "Limitovaná Milk & Honey Pěna do koupele",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
-"27167-1": {
+"27087-101": {
+"cena": 275.0,
+"nazev": "Limitované Milk & Honey Krémové mýdlo na ruce",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"27089-1": {
+"cena": 275.0,
+"nazev": "Limitovaný Milk & Honey Krém na ruce",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"27091-101": {
 "akce": {
-"cena": 850.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
+"cena": 999.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
 "stitek": "Měsíční akce"
 },
 "cena": null,
-"nazev": "Limitovaná Aloe Vera Winter Pumpkin Pečující série",
-"skladem": false,
+"nazev": "Limitovaná Milk & Honey Série pro péči o tělo - dárkové balení",
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "27170-1": {
@@ -457,6 +481,30 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
+"27180-1": {
+"cena": 629.0,
+"nazev": "Limitovaný Frosted Rosehip Tělový balzám",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"27181-1": {
+"cena": 319.0,
+"nazev": "Limitovaná Frosted Rosehip Maska na ruce a chodidla",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"27183-1": {
+"akce": {
+"cena": 755.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Limitovaný Aloe Vera Frosted Rosehip Set pro péči o tělo",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
 "27517-1": {
 "cena": 429.0,
 "nazev": "Aloe Vera Regenerační péče o chodidla",
@@ -484,6 +532,30 @@
 "28100-201": {
 "cena": 725.0,
 "nazev": "LR ZEITGARD PowerLIFT",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"28101-1": {
+"akce": {
+"cena": 1085.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "LR ZEITGARD PowerLIFT Série 2 ks",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"28172": {
+"akce": {
+"cena": 1925.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "LR Zeitgard Séra pro péči o pleť Série 2 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -562,6 +634,18 @@
 "28319-201": {
 "cena": 1339.0,
 "nazev": "LR ZEITGARD Beauty Diamonds 2v1 Oční krém & maska",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"28325-1": {
+"akce": {
+"cena": 3125.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Beauty Diamonds série",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -752,140 +836,338 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "30700-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Be Cheerful EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30701-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Think Big EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30702-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "In Focus EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30703-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Think Wild EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30704-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Feel Savage EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30705-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Stay Calm EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30706-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Impress Me EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30707-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Be Magical EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30708-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Feel Shiny EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30709-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Feel Gorgeous EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30710-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Amaze Me Edp",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30711-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Into Jungle EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30712-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Be Back EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30713-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Feel Comfy EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30714-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Be Flirty EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30715-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Feel Sexy EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30716-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "No Bounds EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30717-1": {
-"cena": 1475.0,
+"akce": {
+"cena": 1175.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "Get Addicted EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30720": {
-"cena": 3979.0,
+"akce": {
+"cena": 2950.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
 "nazev": "LR Mood Infusion Série 3 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
+"30722": {
+"akce": {
+"cena": 2209.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
+"nazev": "LR Mood Infusion Série 2 ks + 2x Dárková taška malá",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"30730-1": {
+"cena": 339.0,
+"nazev": "Into Jungle Vlasový a tělový šampon",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"30731-1": {
+"cena": 629.0,
+"nazev": "Limitovaný Be Flirty Tělový krém",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"30734-1": {
+"akce": {
+"cena": 1579.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Limitovaný Pečující set s vůní Into Jungle + Into Jungle Roll-on parfém",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"30735-1": {
+"akce": {
+"cena": 1799.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Limitovaný Pečující set s vůní Be Flirty + Be Flirty Roll-on parfém",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
 "31010-1": {
-"cena": 3679.0,
+"akce": {
+"cena": 2749.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
 "nazev": "Glorious Elixir for women EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "31011-1": {
-"cena": 3679.0,
+"akce": {
+"cena": 2749.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
 "nazev": "Glorious Elixir for men EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "31012-1": {
-"cena": 3679.0,
+"akce": {
+"cena": 2749.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
 "nazev": "Famous Elixir for women EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "31013-1": {
-"cena": 3679.0,
+"akce": {
+"cena": 2749.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
 "nazev": "Famous Elixir for men EdP",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"31015": {
+"akce": {
+"cena": 5145.0,
+"do": "2026-11-07",
+"od": "2026-11-01",
+"stitek": "Akce 01.-07. 11. 2026"
+},
+"cena": null,
+"nazev": "LR Iconic Elixirs Série 2 ks + 2x Dárková taška malá",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -961,6 +1243,24 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
+"71014-1": {
+"cena": 739.0,
+"nazev": "LR Zeitgard Noční maska s vůní levandule",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
+"71024": {
+"akce": {
+"cena": 1105.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Limitovaná Noční maska Série 2 ks (volný výběr)",
+"skladem": true,
+"url": "https://www.lr-czech.com/krasa"
+},
 "71060-1": {
 "cena": 1325.0,
 "nazev": "LR ZEITGARD Blue Light Defender",
@@ -982,18 +1282,6 @@
 "80148-499": {
 "cena": 2065.0,
 "nazev": "LR LIFETAKT Vita Active Red Série 3 ks",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"80155-99": {
-"akce": {
-"cena": 2079.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "LR LIFETAKT Reishi Kapsle Série 2 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
@@ -1052,13 +1340,7 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80360-799": {
-"akce": {
-"cena": 1209.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
+"cena": 1515.0,
 "nazev": "LR LIFETAKT Colostrum Kapsle",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1066,18 +1348,6 @@
 "80361-599": {
 "cena": 1189.0,
 "nazev": "LR LIFETAKT Colostrum Liquid",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"80363-599": {
-"akce": {
-"cena": 1900.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "LR LIFETAKT Colostrum Liquid Série 2 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
@@ -1093,6 +1363,30 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
+"80527-19": {
+"akce": {
+"cena": 1205.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "LR LIFETAKT Vita Active Red Série 2 ks",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
+"80528-199": {
+"akce": {
+"cena": 2199.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "LR LIFETAKT Cistus Incanus Série Kapsle 2 ks",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
 "80550-419": {
 "cena": 1209.0,
 "nazev": "LR LIFETAKT Protein Power Vanilkový nápoj v prášku",
@@ -1102,6 +1396,18 @@
 "80700-680": {
 "cena": 1025.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
+"80702-680": {
+"akce": {
+"cena": 1839.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "AV Drinking Gel Traditional s medem Série 2 ks + Aloe Vera Krémový gel první pomoci",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
@@ -1123,9 +1429,33 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
+"80779-681": {
+"akce": {
+"cena": 1839.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "AV Drinking Gel Broskev Série 2 ks + Aloe Vera Krémový gel první pomoci",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
 "80800-780": {
 "cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
+"80802-780": {
+"akce": {
+"cena": 2059.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "AV Drinking Gel Sivera Série 2 ks + Aloe Vera Krémový gel první pomoci",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
@@ -1147,6 +1477,18 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
+"80868-683": {
+"akce": {
+"cena": 2059.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "AV Drinking Gel Active Freedom Série 2 ks + Aloe Vera Krémový gel první pomoci",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
 "80935-16": {
 "cena": 2375.0,
 "nazev": "LR LIFETAKT Mind Master Formula Red Série 5 ks",
@@ -1160,7 +1502,13 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80945-19": {
-"cena": 2965.0,
+"akce": {
+"cena": 2665.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
 "nazev": "LR LIFETAKT Mind Master Formula Gold Série 5 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1180,6 +1528,18 @@
 "81000-19": {
 "cena": 1145.0,
 "nazev": "LR LIFETAKT Aloe Vera Drinking Gel Immune Plus",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
+"81002-19": {
+"akce": {
+"cena": 2059.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "AV Drinking gel Immune Plus Série 2 ks + Aloe Vera Krém na ruce",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
@@ -1208,133 +1568,61 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81240-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Koktejl Soft Vanilla (Vanilka)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81241-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Koktejl Fruity Strawberry (Jahoda)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81242-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Koktejl Lovely Coffee (Káva)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81243-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Koktejl Smooth Cocoa (Kakao)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81245-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Polévka Spicy Curry (Kari)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81246-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Polévka Yummy Veggie (Zeleninová)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81247-119": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Lupínky Crusty Raspberry (Malina)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81250-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Koktejl Tasty Caramel (Karamel)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "81251-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR FIGUACTIVE Polévka Sweet Potato (Batátová)",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
-"81253": {
-"akce": {
-"cena": 2865.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
-"nazev": "LR FIGUACTIVE Série 3 ks",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
 "81255-19": {
-"akce": {
-"cena": 1015.0,
-"do": "2026-10-31",
-"od": "2026-10-22",
-"stitek": "Akce 22.-31.10.2026"
-},
-"cena": null,
+"cena": 1195.0,
 "nazev": "LR Figuactive Kaše Berry Dream",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1411,6 +1699,18 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
+"97386-99": {
+"akce": {
+"cena": 5169.0,
+"do": "2026-11-30",
+"od": "2026-11-01",
+"stitek": "Měsíční akce"
+},
+"cena": null,
+"nazev": "Cistus Incanus Winter Cure Set",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
 "97631": {
 "cena": 5455.0,
 "nazev": "Detox Set",
@@ -1420,18 +1720,6 @@
 "97900": {
 "cena": 2159.0,
 "nazev": "Mini Detox Set",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"97903": {
-"akce": {
-"cena": 1424.0,
-"do": "2026-10-31",
-"od": "2026-10-01",
-"stitek": "Měsíční akce"
-},
-"cena": null,
-"nazev": "AV Broskev & Vita Active Set",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 }
