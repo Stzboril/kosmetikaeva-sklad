@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-01T06:28+02:00",
+"cas": "2026-11-01T13:14+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -676,6 +676,16 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
+"20336-1": {
+"dop": 239.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"20345-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
 "2038": {
 "dop": 229.0,
 "skladem": true,
@@ -798,6 +808,11 @@
 },
 "20612-201": {
 "dop": 399.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"20613-301": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -931,6 +946,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
+"20740-201": {
+"dop": 869.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
 "20757-1": {
 "dop": null,
 "skladem": false,
@@ -951,6 +971,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
+"20886-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
 "20905-1": {
 "dop": null,
 "skladem": true,
@@ -968,6 +993,11 @@
 },
 "20920-1": {
 "dop": 1029.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"20925-1": {
+"dop": 685.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -1026,24 +1056,29 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
-"27164-1": {
-"dop": null,
-"skladem": false,
+"27073-201": {
+"dop": 469.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
-"27165-1": {
-"dop": null,
-"skladem": false,
+"27074-501": {
+"dop": 319.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
-"27166-1": {
-"dop": null,
-"skladem": false,
+"27087-101": {
+"dop": 275.0,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
-"27167-1": {
+"27089-1": {
+"dop": 275.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"27091-101": {
 "dop": null,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27172-1": {
@@ -1063,6 +1098,21 @@
 },
 "27178-1": {
 "dop": 429.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"27180-1": {
+"dop": 629.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"27181-1": {
+"dop": 319.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"27183-1": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -1088,6 +1138,61 @@
 },
 "28100-201": {
 "dop": 725.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28101-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-01": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-02": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-03": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-04": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-05": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-06": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-07": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-08": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-09": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28172-10": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -1148,6 +1253,11 @@
 },
 "28319-201": {
 "dop": 1339.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"28325-1": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -1517,6 +1627,26 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30717-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"30730-1": {
+"dop": 339.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"30731-1": {
+"dop": 629.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"30734-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"30735-1": {
 "dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
@@ -2676,6 +2806,26 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
+"71014-1": {
+"dop": 739.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"71024-1": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"71024-2": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"71024-3": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/krasa"
+},
 "71060-1": {
 "dop": 1325.0,
 "skladem": true,
@@ -2771,6 +2921,16 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
+"80527-19": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
+"80528-199": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
 "80550-419": {
 "dop": 1209.0,
 "skladem": true,
@@ -2778,6 +2938,11 @@
 },
 "80700-81": {
 "dop": 1025.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
+"80702-680": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2796,8 +2961,18 @@
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
+"80779-681": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
 "80800-460": {
 "dop": 1145.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
+"80802-780": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2813,6 +2988,11 @@
 },
 "80856-483": {
 "dop": 6269.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
+"80868-683": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2843,6 +3023,11 @@
 },
 "81000-19": {
 "dop": 1145.0,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
+},
+"81002-19": {
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2920,6 +3105,11 @@
 "dop": 4625.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
+},
+"97386-99": {
+"dop": null,
+"skladem": true,
+"url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "AC0001": {
 "dop": 189.0,
@@ -4086,6 +4276,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-kremu-na-ruce-d129558/"
 },
+"HERB01": {
+"dop": 1230.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "HERB02X": {
 "dop": 490.0,
 "skladem": true,
@@ -4460,6 +4655,11 @@
 "dop": 635.0,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m043-d341366/"
+},
+"M044G": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m044-d341659/"
 },
 "M04550": {
 "dop": 635.0,
