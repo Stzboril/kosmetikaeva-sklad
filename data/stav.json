@@ -1,5 +1,5 @@
 {
-"cas": "2026-10-31T12:22+02:00",
+"cas": "2026-11-01T06:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -777,7 +777,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20606": {
-"dop": null,
+"dop": 1169.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -817,7 +817,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20631-1": {
-"dop": 459.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -827,7 +827,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20639-102": {
-"dop": 629.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -877,7 +877,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20675-301": {
-"dop": 869.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -887,7 +887,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20677-401": {
-"dop": 839.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -923,7 +923,7 @@
 },
 "20729-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20730-1": {
@@ -933,7 +933,7 @@
 },
 "20757-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20813-1": {
@@ -952,7 +952,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20905-1": {
-"dop": 1775.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -962,7 +962,7 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20915-1": {
-"dop": null,
+"dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -1033,12 +1033,12 @@
 },
 "27165-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27166-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27167-1": {
@@ -1432,92 +1432,92 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/3065/air-aromaticum-lemon-grass-150-ml-2"
 },
 "30700-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30701-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30702-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30703-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30704-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30705-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30706-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30707-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30708-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30709-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30710-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30711-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30712-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30713-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30714-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30715-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30716-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30717-1": {
-"dop": 1475.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -1567,22 +1567,22 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/3101/air-aromaticum-vesper-150-ml"
 },
 "31010-1": {
-"dop": 3679.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "31011-1": {
-"dop": 3679.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "31012-1": {
-"dop": 3679.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "31013-1": {
-"dop": 3679.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
@@ -2698,7 +2698,7 @@
 },
 "80155-99": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80190": {
@@ -2747,7 +2747,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80360-499": {
-"dop": null,
+"dop": 1515.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2758,7 +2758,7 @@
 },
 "80363-599": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80364-101": {
@@ -2827,7 +2827,7 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80945-19": {
-"dop": 2965.0,
+"dop": null,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -2862,52 +2862,52 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81240 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81241 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81242 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81243 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81245 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81246 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81247 - 19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81250-19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81251-19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "81255-19": {
-"dop": null,
+"dop": 1195.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -4028,7 +4028,7 @@
 },
 "EYEBR01": {
 "dop": 390.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/tuzka-na-oboci-01-blonde-d201941/"
 },
 "EYEBRW01": {
@@ -4086,11 +4086,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-kremu-na-ruce-d129558/"
 },
-"HERB01": {
-"dop": 1230.0,
-"skladem": true,
-"url_dodavatel": "https://www.essens.cz/canassens-kapky-d341253/"
-},
 "HERB02X": {
 "dop": 490.0,
 "skladem": true,
@@ -4140,11 +4135,6 @@
 "dop": 225.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/cistici-prostredek-na-koupelnove-povrchy-d363367/"
-},
-"HOME80": {
-"dop": 85.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/redici-lahev-s-rozprasovacem-d149395/"
 },
 "HOME82": {
 "dop": 60.0,
@@ -4287,7 +4277,7 @@
 "url_dodavatel": "https://www.essens.cz/luxusni-parfem-divine-green-niche-d411820/"
 },
 "LUX01G": {
-"dop": 355.0,
+"dop": 1035.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-divine-green-d477772/"
 },
@@ -4468,18 +4458,8 @@
 },
 "M04350": {
 "dop": 635.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m043-d341366/"
-},
-"M043G": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m043-d341658/"
-},
-"M044G": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m044-d341659/"
 },
 "M04550": {
 "dop": 635.0,
@@ -4488,7 +4468,7 @@
 },
 "M045GX": {
 "dop": 210.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-m045-d341660/"
 },
 "M04650X": {
@@ -5066,11 +5046,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sun-care-tablets-doplnek-stravy-d173024/"
 },
-"SCOL01N": {
-"dop": 1610.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/set-colostrum-probiotics-doplnek-stravy-d397164/"
-},
 "SCOL13N": {
 "dop": 845.0,
 "skladem": true,
@@ -5080,11 +5055,6 @@
 "dop": 3070.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/colostrum-set-doplnky-stravy-d396842/"
-},
-"SET1ED": {
-"dop": 360.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/energeticky-napoj-6-ks-d383583/"
 },
 "SETCH21": {
 "dop": 505.0,
@@ -5150,11 +5120,6 @@
 "dop": 4970.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-colostrum-anti-ageing-premium-d396913/"
-},
-"SETHERB1": {
-"dop": 980.0,
-"skladem": true,
-"url_dodavatel": "https://www.essens.cz/set-hrejiveho-a-chladiveho-gelu-canassens-nbsp-d373857/"
 },
 "SETLUX01": {
 "dop": 1390.0,
@@ -5253,7 +5218,7 @@
 },
 "SETW171T": {
 "dop": 810.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w171-d411014/"
 },
 "SETW183": {
@@ -5275,11 +5240,6 @@
 "dop": 870.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w188-d363316/"
-},
-"SETW190": {
-"dop": 870.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w190-d363318/"
 },
 "SETW193": {
 "dop": 870.0,
@@ -5325,11 +5285,6 @@
 "dop": 690.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-07-d201912/"
-},
-"SSFND08": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SSLIP02": {
 "dop": 390.0,
@@ -5658,7 +5613,7 @@
 },
 "W187GX": {
 "dop": 210.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w187-d326940/"
 },
 "W18850": {
@@ -5675,11 +5630,6 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": ""
-},
-"W190GX": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,

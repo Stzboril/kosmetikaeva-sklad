@@ -1246,7 +1246,7 @@
 "znacka": "LR"
 },
 "20606": {
-"akce": 869.0,
+"akce": null,
 "cena": 1079.0,
 "kod": "20606",
 "nazev": "LR Aloe Vera Regenerační Krém DermaIntense 50 ml",
@@ -1474,7 +1474,7 @@
 "znacka": "LR"
 },
 "20729-1": {
-"akce": 879.0,
+"akce": null,
 "cena": 1179.0,
 "kod": "20729-1",
 "nazev": "LR Aloe Vera Ochranný krém s propolisem Série 2 ks",
@@ -1490,7 +1490,7 @@
 "znacka": "LR"
 },
 "20757-1": {
-"akce": 279.0,
+"akce": null,
 "cena": 369.0,
 "kod": "20757-1",
 "nazev": "LR Aloe Vera Ochranný deo roll-on 2 ks",
@@ -1536,7 +1536,7 @@
 "znacka": "LR"
 },
 "20915-1": {
-"akce": 439.0,
+"akce": null,
 "cena": 589.0,
 "kod": "20915-1",
 "nazev": "LR Aloe Vera Krémový gel první pomoci 30 ml",
@@ -1650,7 +1650,7 @@
 "znacka": "LR"
 },
 "27164-1": {
-"akce": 269.0,
+"akce": null,
 "cena": 349.0,
 "kod": "27164-1",
 "nazev": "LR Aloe Vera Winter Pumpkin Harmonizující pleťový krém 75 ml",
@@ -1658,7 +1658,7 @@
 "znacka": "LR"
 },
 "27165-1": {
-"akce": 349.0,
+"akce": null,
 "cena": 469.0,
 "kod": "27165-1",
 "nazev": "LR Aloe Vera Winter Pumpkin Gelová maska 75 ml",
@@ -1666,7 +1666,7 @@
 "znacka": "LR"
 },
 "27166-1": {
-"akce": 369.0,
+"akce": null,
 "cena": 499.0,
 "kod": "27166-1",
 "nazev": "LR Aloe Vera Winter Pumpkin Hydratační pleťové sérum 30 ml",
@@ -1674,7 +1674,7 @@
 "znacka": "LR"
 },
 "27167-1": {
-"akce": 789.0,
+"akce": null,
 "cena": 1319.0,
 "kod": "27167-1",
 "nazev": "LR Aloe Vera Winter Pumpkin Pečující série",
@@ -4342,7 +4342,7 @@
 "znacka": "LR"
 },
 "80155-99": {
-"akce": 1919.0,
+"akce": null,
 "cena": 2559.0,
 "kod": "80155-99",
 "nazev": "LR LIFETAKT Reishi Plus Kapsle Série 2 ks",
@@ -4612,7 +4612,7 @@
 "znacka": "LR"
 },
 "81240 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81240 - 19",
 "nazev": "LR Figu Active Koktejl Soft Vanilla 496 g",
@@ -4620,7 +4620,7 @@
 "znacka": "LR"
 },
 "81241 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81241 - 19",
 "nazev": "LR Figu Active Koktejl Fruity Strawberry 496 g",
@@ -4628,7 +4628,7 @@
 "znacka": "LR"
 },
 "81242 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81242 - 19",
 "nazev": "LR Figu Active Koktejl Lovely Coffee 496 g",
@@ -4636,7 +4636,7 @@
 "znacka": "LR"
 },
 "81243 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81243 - 19",
 "nazev": "LR Figu Active Koktejl Smooth Cocoa 496 g",
@@ -4644,7 +4644,7 @@
 "znacka": "LR"
 },
 "81245 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81245 - 19",
 "nazev": "LR Figu Active Polévka Spicy Curry 488 g",
@@ -4652,7 +4652,7 @@
 "znacka": "LR"
 },
 "81246 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81246 - 19",
 "nazev": "LR Figu Active Polévka Yummy Veggie 488 g",
@@ -4660,7 +4660,7 @@
 "znacka": "LR"
 },
 "81247 - 19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81247 - 19",
 "nazev": "LR Figu Active Lupínky Crusty Raspberry 420 g",
@@ -4668,7 +4668,7 @@
 "znacka": "LR"
 },
 "81250-19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81250-19",
 "nazev": "LR LR FIGUACTIVE Koktejl Tasty Caramel 496 g",
@@ -4676,7 +4676,7 @@
 "znacka": "LR"
 },
 "81251-19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81251-19",
 "nazev": "LR FIGUACTIVE Polévka Sweet Potato (batátová) 488 g",
@@ -4684,7 +4684,7 @@
 "znacka": "LR"
 },
 "81255-19": {
-"akce": 939.0,
+"akce": null,
 "cena": 1109.0,
 "kod": "81255-19",
 "nazev": "LR FIGUACTIVE Kaše Berry Dream 450 g",
