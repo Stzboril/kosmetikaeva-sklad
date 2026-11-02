@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-01T13:14+02:00",
+"cas": "2026-11-02T06:44+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -4331,6 +4331,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/cistici-prostredek-na-koupelnove-povrchy-d363367/"
 },
+"HOME80": {
+"dop": 85.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/redici-lahev-s-rozprasovacem-d149395/"
+},
 "HOME82": {
 "dop": 60.0,
 "skladem": true,
@@ -4655,6 +4660,11 @@
 "dop": 635.0,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m043-d341366/"
+},
+"M043G": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m043-d341658/"
 },
 "M044G": {
 "dop": 210.0,
@@ -5246,6 +5256,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sun-care-tablets-doplnek-stravy-d173024/"
 },
+"SCOL01N": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SCOL13N": {
 "dop": 845.0,
 "skladem": true,
@@ -5255,6 +5270,11 @@
 "dop": 3070.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/colostrum-set-doplnky-stravy-d396842/"
+},
+"SET1ED": {
+"dop": 360.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/energeticky-napoj-6-ks-d383583/"
 },
 "SETCH21": {
 "dop": 505.0,
@@ -5321,9 +5341,14 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-colostrum-anti-ageing-premium-d396913/"
 },
+"SETHERB1": {
+"dop": 980.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "SETLUX01": {
 "dop": 1390.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/parfemovany-set-divine-green-d498498/"
 },
 "SETLUX05": {
@@ -5433,13 +5458,18 @@
 },
 "SETW187": {
 "dop": 870.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w187-d363315/"
 },
 "SETW188": {
 "dop": 870.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w188-d363316/"
+},
+"SETW190": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "SETW193": {
 "dop": 870.0,
@@ -5485,6 +5515,11 @@
 "dop": 690.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-07-d201912/"
+},
+"SSFND08": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "SSLIP02": {
 "dop": 390.0,
@@ -5830,6 +5865,11 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": ""
+},
+"W190GX": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,
