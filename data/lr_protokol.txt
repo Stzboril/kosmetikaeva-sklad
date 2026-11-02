@@ -1,27 +1,5 @@
-Sun Nov  1 05:22:39 CET 2026
-pokus 1
-Stahování: WebFetch selhal (client_error u zdravi, krasa, aloe-vera-care i po opakování) → zbylé stránky přes WebFetch přeskočeny; staženo prohlížečem v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000).
-https://www.lr-czech.com/zdravi – 56 řádků
-https://www.lr-czech.com/krasa – 171 řádků
-https://www.lr-czech.com/aloe-vera-care – 48 řádků
-https://www.lr-czech.com/parfemy – 29 řádků
-https://www.lr-czech.com/proti-starnuti – 32 řádků
-https://www.lr-czech.com/pece-o-telo – 51 řádků
-https://www.lr-czech.com/zdravi-reseni – 28 řádků
-https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
-https://www.lr-czech.com/denni-nocni-ocni – 25 řádků
-https://www.lr-czech.com/make-up – 26 řádků
-https://www.lr-czech.com/pece-o-plet – 70 řádků
-https://www.lr-czech.com/sera – 17 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – 4 řádků
-https://www.lr-czech.com/specialiste – 38 řádků
-Celkem 610 řádků, duplicitní kódy bez rozporů sloučeny → 237 kódů; přenos do cloudu ověřen SHA-256 (shoda).
-Ověření „není skladem“ (štítek čten z HTML každé karty):
-20676-101 – ANO
-27170-1 – ANO
-27171-1 – ANO
-23114-101 – ANO
-23113-101 – ANO
-Uloženo 237 produktů LR, z toho není skladem: 5, v akci: 50
-skript: návratový kód 0
+2026-11-02T05:42+01:00
+Mon Nov  2 05:42:00 CET 2026
+pokus 4 (ruční – majitel z chatu: nové stažení všech skladů)
+Stahování: prohlížeč v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000), 15 kategorií, 610 karet, 237 kódů, rozpory 0.
+Není skladem 5: 20676-101, 23113-101, 23114-101, 27170-1, 27171-1. V akci 50.
