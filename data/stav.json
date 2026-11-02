@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-02T06:44+02:00",
+"cas": "2026-11-02T14:20+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3268,7 +3268,7 @@
 },
 "AVE65": {
 "dop": 480.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-soft-spray-plus-d316367/"
 },
 "AVE66": {
@@ -4083,7 +4083,7 @@
 },
 "CPL40": {
 "dop": 495.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/balzam-na-rty-s-colostrem-d146645/"
 },
 "DETOX": {
@@ -4122,8 +4122,8 @@
 "url_dodavatel": "https://www.essens.cz/kosmeticke-orezavatko-must-have-edition-d219674/"
 },
 "ED01N": {
-"dop": 60.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "ESOIL01": {
@@ -4658,7 +4658,7 @@
 },
 "M04350": {
 "dop": 635.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m043-d341366/"
 },
 "M043G": {
@@ -4678,7 +4678,7 @@
 },
 "M045GX": {
 "dop": 210.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-m045-d341660/"
 },
 "M04650X": {
@@ -5288,7 +5288,7 @@
 },
 "SETCH54": {
 "dop": 925.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-set-d355161/"
 },
 "SETCH67": {
@@ -5442,7 +5442,7 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w153-d411012/"
 },
 "SETW171T": {
-"dop": 810.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w171-d411014/"
 },
@@ -5457,7 +5457,7 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w184-d363312/"
 },
 "SETW187": {
-"dop": 870.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w187-d363315/"
 },
@@ -5507,7 +5507,7 @@
 "url_dodavatel": "https://www.essens.cz/ocni-stiny-v-tuzce-04-midnight-blue-d201961/"
 },
 "SSFND06": {
-"dop": 690.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/second-skin-make-up-06-d201911/"
 },
@@ -5847,7 +5847,7 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w187-d341356/"
 },
 "W187GX": {
-"dop": 210.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w187-d326940/"
 },
