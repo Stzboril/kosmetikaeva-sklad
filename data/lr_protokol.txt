@@ -1,7 +1,5 @@
-2026-11-03T08:10+01:00
-pokus 1 (ruční – majitel z chatu: importuj sklady)
-Stahování: prohlížeč v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000), 15 kategorií, 610 karet, 237 kódů, rozpory 0.
-Kategorie: zdravi 56, krasa 171, aloe-vera-care 48, parfemy 29, proti-starnuti 32, pece-o-telo 51, zdravi-reseni 28, health-mission-top-produkty 10, pece-o-telo-ochrana-před-sluncem 5, denni-nocni-ocni 25, make-up 26, pece-o-plet 70, sera 17, pece-o-telo-zuby 4, specialiste 38.
-Data shodná se stažením 02.11.2026 (SHA-256 řádků 59adb135…98d78).
-Není skladem (štítek přímo v HTML karty): 20676-101, 23113-101, 23114-101, 27170-1, 27171-1.
-Uloženo 237 produktů LR, z toho není skladem: 5, v akci: 50
+2026-11-03T08:13+01:00
+Tue Nov  3 08:13:09 CET 2026
+pokus 4 (ruční – majitel z chatu: „stáhni sklady lr, eurona a essens“)
+Stahování: prohlížeč v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000), 75 kategorií z menu, 1002 karet, 240 řádků po sloučení, 240 kódů, rozpory 0.
+Není skladem 6: 81110-99, 20676-101, 23113-101, 23114-101, 27170-1, 27171-1. V akci 50.
