@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-03T09:13+02:00",
+"cas": "2026-11-04T08:59+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -677,7 +677,7 @@
 "cena": 759.0,
 "nazev": "LR ZEITGARD Racine Kolagen sérum",
 "skladem": true,
-"url": "https://www.lr-czech.com/kolagen"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29021-1": {
 "cena": 889.0,
@@ -1549,12 +1549,6 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
-"81110-99": {
-"cena": 2339.0,
-"nazev": "LR LIFETAKT Night Master",
-"skladem": false,
-"url": "https://www.lr-czech.com/stres-a-energie"
-},
 "81140-98": {
 "cena": 4329.0,
 "nazev": "LR LIFETAKT 5in1 Beauty Elixir",
@@ -1633,18 +1627,6 @@
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
-"81260": {
-"cena": 7849.0,
-"nazev": "LR BODY MISSION 1 měsíc",
-"skladem": true,
-"url": "https://www.lr-czech.com/body-mission-1-mesic"
-},
-"81261": {
-"cena": 20925.0,
-"nazev": "LR BODY MISSION 3 měsíce",
-"skladem": true,
-"url": "https://www.lr-czech.com/body-mission-3-mesice"
-},
 "81330-98": {
 "cena": 925.0,
 "nazev": "LR LIFETAKT Liver Support Kapsle",
@@ -1661,61 +1643,61 @@
 "cena": 19699.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (Aloe Vera Gel Med + Colostrum Kapsle)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-kapsle"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97266": {
 "cena": 19699.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (Aloe Vera Gel Broskev + Colostrum Kapsle)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-kapsle"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97267": {
 "cena": 19699.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (Aloe Vera Gel Sivera + Colostrum Kapsle)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-kapsle"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97268": {
 "cena": 19699.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (Aloe Vera Gel Freedom + Colostrum Kapsle)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-kapsle"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97269": {
 "cena": 19699.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (Aloe Vera Gel Immune + Colostrum Kapsle)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-kapsle"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97276": {
 "cena": 21769.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (AV Gel Med + Colostrum Liquid)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-liquid"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97277": {
 "cena": 21769.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (AV Gel Broskev + Colostrum Liquid)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-liquid"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97278": {
 "cena": 21769.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (AV Gel Sivera + Colostrum Liquid)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-liquid"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97279": {
 "cena": 21769.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (AV Gel Freedom + Colostrum Liquid)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-liquid"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97280": {
 "cena": 21769.0,
 "nazev": "LR HEALTH MISSION 3 měsíce (AV Gel Immune + Colostrum Liquid)",
 "skladem": true,
-"url": "https://www.lr-czech.com/health-mission-3-mesice-colostrum-liquid"
+"url": "https://www.lr-czech.com/health-mission-top-produkty"
 },
 "97386-99": {
 "akce": {

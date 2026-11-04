@@ -1,5 +1,28 @@
-2026-11-03T08:13+01:00
-Tue Nov  3 08:13:09 CET 2026
-pokus 4 (ruční – majitel z chatu: „stáhni sklady lr, eurona a essens“)
-Stahování: prohlížeč v aplikaci Claude přes AJAX výpis kategorií (/dataN?data=KategorieProduktyAjax, limitdo=1000), 75 kategorií z menu, 1002 karet, 240 řádků po sloučení, 240 kódů, rozpory 0.
-Není skladem 6: 81110-99, 20676-101, 23113-101, 23114-101, 27170-1, 27171-1. V akci 50.
+2026-11-04T07:59+01:00
+Wed Nov  4 07:59:15 CET 2026
+pokus 1
+WebFetch: https://www.lr-czech.com/zdravi, /krasa, /aloe-vera-care – client_error (i po opakování) → zbylé stránky přes WebFetch přeskočeny
+Stahování: prohlížeč v aplikaci Claude, AJAX výpis /dataN?data=KategorieProduktyAjax&page=<kategorie>&limitdo=1000 (všechny karty kategorie)
+https://www.lr-czech.com/zdravi – 56 řádků
+https://www.lr-czech.com/krasa – 171 řádků
+https://www.lr-czech.com/aloe-vera-care – 48 řádků
+https://www.lr-czech.com/parfemy – 29 řádků
+https://www.lr-czech.com/proti-starnuti – 32 řádků
+https://www.lr-czech.com/pece-o-telo – 51 řádků
+https://www.lr-czech.com/zdravi-reseni – 28 řádků
+https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
+https://www.lr-czech.com/denni-nocni-ocni – 25 řádků
+https://www.lr-czech.com/make-up – 26 řádků
+https://www.lr-czech.com/pece-o-plet – 70 řádků
+https://www.lr-czech.com/sera – 17 řádků
+https://www.lr-czech.com/pece-o-telo-zuby – 4 řádků
+https://www.lr-czech.com/specialiste – 38 řádků
+Celkem 610 karet → 237 kódů (po sloučení shodných karet 237 řádků, rozpory 0); přenos gzip+base64, SHA-256 shoda (70522c34…)
+Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě):
+20676-101 – ANO
+23113-101 – ANO
+23114-101 – ANO
+27170-1 – ANO
+27171-1 – ANO
+Uloženo 237 produktů LR, z toho není skladem: 5, v akci: 50
