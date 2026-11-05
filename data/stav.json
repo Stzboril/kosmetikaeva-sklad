@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-05T14:17+02:00",
+"cas": "2026-11-05T15:26+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3137,8 +3137,8 @@
 "url_dodavatel": "https://www.essens.cz/tekuta-matna-rtenka-02-d201917/"
 },
 "ADML03": {
-"dop": null,
-"skladem": false,
+"dop": 420.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "AVE01": {

@@ -1,8 +1,8 @@
-Kontrola u dodavatelů proběhla 05.11.2026 v 14:17.
+Kontrola u dodavatelů proběhla 05.11.2026 v 15:26.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
-- **LR:** zkontrolováno 254 viditelných produktů – ⚠️ data LR jsou z 04.11.2026, dnešní stažení zatím neproběhlo (stačí napsat Claude „stáhni LR“)
+- **LR:** zkontrolováno 254 viditelných produktů
 
 ## Sklad
 
@@ -37,7 +37,7 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 
 Žádná nová akce – produkty LR v akci buď na e-shopu nejsou, nebo už akční cenu mají.
 
-## Dodavatel produkt nenašel (21)
+## Dodavatel produkt nenašel (20)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -46,7 +46,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Eurona Čistič na trouby a grily 2 × 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-cistic-na-trouby-a-grily-2--250-ml/) (38156)
 - [LR LIFETAKT Reishi Plus Kapsle Série 2 ks](https://www.kosmetikaeva.eu/imunitni-system-2/lr-lifetakt-reishi-plus-kapsle-serie-2-ks/) (80155-99)
 - [LR LIFETAKT Colostrum Liquid Série 2 x 125 ml](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-direct-2-x-125-ml/) (80363-599)
-- [Essens Tekutá matná rtěnka 6 ml barva: 03](https://www.kosmetikaeva.eu/rty/essens-tekuta-matna-rtenka-6-ml/?variantId=51484) (ADML03)
 - [Essens Zubní kartáček Ultra Soft - modrá/bílá](https://www.kosmetikaeva.eu/usta-a-zuby/essens-zubni-kartacek-ultra-soft-modra-bila/) (AVE56)
 - [Essens Aloe Vera Soft Spray Plus 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-plus-100-ml/) (AVE65)
 - [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
