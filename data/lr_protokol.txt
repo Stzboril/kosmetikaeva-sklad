@@ -1,19 +1,28 @@
-2026-11-06T08:39+01:00
-pokus 4 (ručně z chatu – majitel „importuj všechno a stáhni od dodavatelů“)
-Prohlížeč v aplikaci Claude (počítač Eshop), AJAX /dataN?data=KategorieProduktyAjax&page=<kategorie>&limitdo=1000, přenos gzip+base64, SHA-256 shoda
-https://www.lr-czech.com/zdravi – 56 řádků
-https://www.lr-czech.com/krasa – 171 řádků
-https://www.lr-czech.com/aloe-vera-care – 48 řádků
-https://www.lr-czech.com/parfemy – 29 řádků
-https://www.lr-czech.com/proti-starnuti – 32 řádků
-https://www.lr-czech.com/pece-o-telo – 51 řádků
-https://www.lr-czech.com/zdravi-reseni – 28 řádků
-https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
-https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
-https://www.lr-czech.com/denni-nocni-ocni – 25 řádků
-https://www.lr-czech.com/make-up – 26 řádků
-https://www.lr-czech.com/pece-o-plet – 70 řádků
-https://www.lr-czech.com/sera – 17 řádků
-https://www.lr-czech.com/pece-o-telo-zuby – 4 řádků
-https://www.lr-czech.com/specialiste – 38 řádků
-Celkem 610 karet → 237 kódů (duplicity sloučeny, rozpory 0)
+2026-11-07T05:28+01:00
+pokus 1
+WebFetch: client_error u zdravi, krasa, aloe-vera-care (i po opakování) → zbylé stránky přes WebFetch přeskočeny.
+Staženo prohlížečem v aplikaci Claude (počítač Eshop): AJAX výpis /dataN?data=KategorieProduktyAjax&page=<kategorie>&limitdo=1000 otevřený jako stránka, karty čteny z HTML (DOMParser); přenos jako text po částech, SHA-256 shoda (ae2dde21…).
+https://www.lr-czech.com/zdravi – 60 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/krasa – 173 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/aloe-vera-care – 49 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/parfemy – 30 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/proti-starnuti – 32 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/pece-o-telo – 52 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/zdravi-reseni – 29 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/health-mission-top-produkty – 10 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/denni-nocni-ocni – 25 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/make-up – 26 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/pece-o-plet – 70 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/sera – 17 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/pece-o-telo-zuby – 4 řádků (karet, rowMax shodný)
+https://www.lr-czech.com/specialiste – 40 řádků (karet, rowMax shodný)
+Celkem 622 karet, 12 bez „Cena“ vynecháno, po sloučení duplicit 237 řádků = 237 kódů, rozpory mezi kategoriemi 0.
+Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě):
+20676-101 – ANO
+27170-1 – ANO
+27171-1 – ANO
+23114-101 – ANO
+23113-101 – ANO
+Uloženo 237 produktů LR, z toho není skladem: 5, v akci: 50
+git push z cloudu 403 → soubory nahrány přes github.com/upload (SHA-256 ověřeno), workflow spuštěn ručně v prohlížeči.
