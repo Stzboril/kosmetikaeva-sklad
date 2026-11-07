@@ -1,12 +1,12 @@
-Kontrola u dodavatelů proběhla 06.11.2026 v 14:04.
+Kontrola u dodavatelů proběhla 07.11.2026 v 06:33.
 
-- **Eurona:** zkontrolováno 567 viditelných produktů
-- **Essens:** zkontrolováno 415 viditelných produktů
+- **Eurona:** zkontrolováno 565 viditelných produktů
+- **Essens:** zkontrolováno 381 viditelných produktů
 - **LR:** zkontrolováno 254 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (15 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (9 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
@@ -15,14 +15,8 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Eurona Přírodní aktivní hřejivý krém 200 ml](https://www.kosmetikaeva.eu/telo-2/eurona-aktivni-konopny-krem-hrejivy-200-ml/) (6071)
-- ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
-- ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
-- ❌ Nedostupné → 0 ks: [Essens Esenciální olej hřebíček 10 ml](https://www.kosmetikaeva.eu/esencialni-oleje/essens-esencialni-olej-hrebicek-10-ml/) (ESOIL11)
-- ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
-- ❌ Nedostupné → 0 ks: [Essens m038 parfém pánský 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m038-50-ml/) (M03850)
-- ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
-- ❌ Nedostupné → 0 ks: [Essens Set Aloe Vera Soft Spray 3 × 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-set-aloe-vera-soft-spray-3--100-ml/) (SAVE05)
-- ❌ Nedostupné → 0 ks: [Essens w201 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w201-50-ml/) (W20150X)
+- ❌ Nedostupné → 0 ks: [Essens m045 parfémová sada pánská](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m045/) (SETM045)
+- ❌ Nedostupné → 0 ks: [Essens w200 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w200-50-ml/) (W20050X)
 
 ## Ceny ke schválení
 
@@ -77,7 +71,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR Aloe Vera Zjemňující oční krém 15 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-zjemnujici-ocni-krem-15-ml/) | 20677-401 | 779 Kč | **629 Kč** | 629 Kč (Měsíční akce) | 01.11.–30.11. |
 | [LR LIFETAKT Mind Master Formula Gold Série 5 × 500 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-mind-master-formula-gold-serie-5--500-ml/) | 80945-19 | 2729 Kč | **2665 Kč** | 2665 Kč (Měsíční akce) | 01.11.–30.11. |
 
-## Dodavatel produkt nenašel (20)
+## Dodavatel produkt nenašel (5)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -86,21 +80,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Eurona Čistič na trouby a grily 2 × 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-cistic-na-trouby-a-grily-2--250-ml/) (38156)
 - [LR LIFETAKT Reishi Plus Kapsle Série 2 ks](https://www.kosmetikaeva.eu/imunitni-system-2/lr-lifetakt-reishi-plus-kapsle-serie-2-ks/) (80155-99)
 - [LR LIFETAKT Colostrum Liquid Série 2 x 125 ml](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-direct-2-x-125-ml/) (80363-599)
-- [Essens Zubní kartáček Ultra Soft - modrá/bílá](https://www.kosmetikaeva.eu/usta-a-zuby/essens-zubni-kartacek-ultra-soft-modra-bila/) (AVE56)
-- [Essens Aloe Vera Soft Spray Plus 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-plus-100-ml/) (AVE65)
-- [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
-- [Essens Balzám na rty s colostrem 4 g](https://www.kosmetikaeva.eu/usta-a-zuby/essens-balzam-na-rty-s-colostrem-4-g/) (CPL40)
-- [Essens Energetický nápoj 250 ml](https://www.kosmetikaeva.eu/doplnky-stravy/essens-energeticky-napoj-250-ml/) (ED01N)
-- [Essens Tužka na obočí 1,2 g barva: 01 Blonde](https://www.kosmetikaeva.eu/oci/essens-tuzka-na-oboci-1-2-g/?variantId=51400) (EYEBR01)
-- [Essens Sprchový gel m045 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-m045-150-ml/) (M045GX)
-- [Essens Set Colostrum Probiotics s jogurtovačem](https://www.kosmetikaeva.eu/imunitni-system-2/essens-set-colostrum-probiotics-s-jogurtovacem/) (SCOL01N)
-- [Essens Aloe Vera Set pleťový krém + Soft Spray Plus](https://www.kosmetikaeva.eu/oblicej-3/essens-aloe-vera-set-pletovy-krem-soft-spray-plus/) (SETCH54)
-- [Essens w171 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w171/) (SETW171T)
-- [Essens w187 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w187/) (SETW187)
-- [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)
-- [Essens Second Skin make-up 35 ml barva: 06](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51439) (SSFND06)
-- [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
-- [Essens Sprchový gel w187 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w187-150-ml/) (W187GX)
 
 ## Nové u dodavatele (22)
 
