@@ -1,7 +1,7 @@
-Kontrola u dodavatelů proběhla 07.11.2026 v 06:33.
+Kontrola u dodavatelů proběhla 07.11.2026 v 13:02.
 
-- **Eurona:** zkontrolováno 565 viditelných produktů
-- **Essens:** zkontrolováno 381 viditelných produktů
+- **Eurona:** zkontrolováno 566 viditelných produktů
+- **Essens:** zkontrolováno 382 viditelných produktů
 - **LR:** zkontrolováno 254 viditelných produktů
 
 ## Sklad
@@ -15,8 +15,8 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Eurona Přírodní aktivní hřejivý krém 200 ml](https://www.kosmetikaeva.eu/telo-2/eurona-aktivni-konopny-krem-hrejivy-200-ml/) (6071)
-- ❌ Nedostupné → 0 ks: [Essens m045 parfémová sada pánská](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m045/) (SETM045)
-- ❌ Nedostupné → 0 ks: [Essens w200 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w200-50-ml/) (W20050X)
+- ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
+- ❌ Nedostupné → 0 ks: [Essens Růžová voda 125 ml](https://www.kosmetikaeva.eu/oblicej-3/essens-ruzova-voda-125-ml/) (MHE07)
 
 ## Ceny ke schválení
 
@@ -71,7 +71,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR Aloe Vera Zjemňující oční krém 15 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-zjemnujici-ocni-krem-15-ml/) | 20677-401 | 779 Kč | **629 Kč** | 629 Kč (Měsíční akce) | 01.11.–30.11. |
 | [LR LIFETAKT Mind Master Formula Gold Série 5 × 500 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-mind-master-formula-gold-serie-5--500-ml/) | 80945-19 | 2729 Kč | **2665 Kč** | 2665 Kč (Měsíční akce) | 01.11.–30.11. |
 
-## Dodavatel produkt nenašel (5)
+## Dodavatel produkt nenašel (7)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -80,6 +80,8 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Eurona Čistič na trouby a grily 2 × 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-cistic-na-trouby-a-grily-2--250-ml/) (38156)
 - [LR LIFETAKT Reishi Plus Kapsle Série 2 ks](https://www.kosmetikaeva.eu/imunitni-system-2/lr-lifetakt-reishi-plus-kapsle-serie-2-ks/) (80155-99)
 - [LR LIFETAKT Colostrum Liquid Série 2 x 125 ml](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-direct-2-x-125-ml/) (80363-599)
+- [Essens Balzám na rty s colostrem 4 g](https://www.kosmetikaeva.eu/usta-a-zuby/essens-balzam-na-rty-s-colostrem-4-g/) (CPL40)
+- [Essens Tužka na obočí 1,2 g barva: 01 Blonde](https://www.kosmetikaeva.eu/oci/essens-tuzka-na-oboci-1-2-g/?variantId=51400) (EYEBR01)
 
 ## Nové u dodavatele (22)
 
