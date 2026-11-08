@@ -1,12 +1,12 @@
-Kontrola u dodavatelů proběhla 07.11.2026 v 13:02.
+Kontrola u dodavatelů proběhla 08.11.2026 v 06:35.
 
-- **Eurona:** zkontrolováno 566 viditelných produktů
-- **Essens:** zkontrolováno 382 viditelných produktů
+- **Eurona:** zkontrolováno 567 viditelných produktů
+- **Essens:** zkontrolováno 415 viditelných produktů
 - **LR:** zkontrolováno 254 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (9 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (12 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
@@ -15,7 +15,10 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Eurona Přírodní aktivní hřejivý krém 200 ml](https://www.kosmetikaeva.eu/telo-2/eurona-aktivni-konopny-krem-hrejivy-200-ml/) (6071)
+- ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
 - ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
+- ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
+- ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
 - ❌ Nedostupné → 0 ks: [Essens Růžová voda 125 ml](https://www.kosmetikaeva.eu/oblicej-3/essens-ruzova-voda-125-ml/) (MHE07)
 
 ## Ceny ke schválení
@@ -62,7 +65,7 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 
 ## Akce podle LR
 
-Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (4 produktů). LR má produkt v akci → akční cena na e-shopu = stejná jako akční cena LR (bez slevy −8 %), platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
+Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (29 produktů). LR má produkt v akci → akční cena na e-shopu = stejná jako akční cena LR (bez slevy −8 %), platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
 
 | Produkt | Kód | Běžná | Akční | Akce LR | Platnost |
 |---|---|--:|--:|--:|---|
@@ -70,8 +73,33 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR Aloe Vera Série speciální péče](https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-serie-specialni-pece/) | 20905-1 | 1639 Kč | **1419 Kč** | 1419 Kč (Měsíční akce) | 01.11.–30.11. |
 | [LR Aloe Vera Zjemňující oční krém 15 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-zjemnujici-ocni-krem-15-ml/) | 20677-401 | 779 Kč | **629 Kč** | 629 Kč (Měsíční akce) | 01.11.–30.11. |
 | [LR LIFETAKT Mind Master Formula Gold Série 5 × 500 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-mind-master-formula-gold-serie-5--500-ml/) | 80945-19 | 2729 Kč | **2665 Kč** | 2665 Kč (Měsíční akce) | 01.11.–30.11. |
+| [LR ZEITGARD Signature Aktivační sérum na řasy 5,5 ml](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-aktivacni-serum-na-rasy-5-5-ml/) | 29027-1 | 929 Kč | **855 Kč** | 855 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Fixační pudr Light-medium 9 g](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-fixacni-pudr-light-medium-9-g/) | 29023-1 | 979 Kč | **635 Kč** | 635 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Gel na obočí Light 3,5 ml](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-gel-na-oboci-light-3-5-ml/) | 29030-1 | 499 Kč | **319 Kč** | 319 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Gel na obočí Medium 3,5 ml](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-gel-na-oboci-medium-3-5-ml/) | 29030-2 | 499 Kč | **319 Kč** | 319 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Hedvábně matná rtěnka 01 Pure Red 4 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-hedvabne-matna-rtenka-01-pure-red-4-g/) | 29032-1 | 979 Kč | **635 Kč** | 635 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Hedvábně matná rtěnka 02 Rosy Nude 4 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-hedvabne-matna-rtenka-02-rosy-nude-4-g/) | 29032-2 | 979 Kč | **635 Kč** | 635 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Hedvábně matná rtěnka 03 Berry Rose 4 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-hedvabne-matna-rtenka-03-berry-rose-4-g/) | 29032-3 | 979 Kč | **635 Kč** | 635 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Hedvábně matná rtěnka 04 Ruby Red 4 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-hedvabne-matna-rtenka-04-ruby-red-4-g/) | 29032-4 | 979 Kč | **635 Kč** | 635 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Jemná konturovací tužka na rty 01 Pure Red 0,2 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-jemna-konturovaci-tuzka-na-rty-01-pure-red/) | 29031-1 | 619 Kč | **399 Kč** | 399 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Jemná konturovací tužka na rty 02 Rosy Nude 0,2 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-jemna-konturovaci-tuzka-na-rty-02-rosy-nude-0-2-g/) | 29031-2 | 619 Kč | **399 Kč** | 399 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Jemná konturovací tužka na rty 03 Berry Rose 0,2 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-jemna-konturovaci-tuzka-na-rty-03-berry-rose-0-2-g/) | 29031-3 | 619 Kč | **399 Kč** | 399 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Jemná konturovací tužka na rty 04 Deep Brown 0,2 g](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-jemna-konturovaci-tuzka-na-rty-04-deep-brown-0-2-g/) | 29031-4 | 619 Kč | **399 Kč** | 399 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Kompletní série Skin Tone 1](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-kompletni-serie-skin-tone-1/) | 29069-99 | 14699 Kč | **10690 Kč** | 10690 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Lesk na rty Peachy Brown 5 ml](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-lesk-na-rty-peachy-brown-5-ml/) | 29033-2 | 739 Kč | **675 Kč** | 675 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Lesk na rty Soft Rose 5 ml](https://www.kosmetikaeva.eu/rty/lr-zeitgard-signature-lesk-na-rty-soft-rose-5-ml/) | 29033-1 | 739 Kč | **675 Kč** | 675 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Paletka očních stínů 6,5 g](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-paletka-ocnich-stinu-6-5-g/) | 29028-1 | 1229 Kč | **729 Kč** | 729 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Rozjasňující korektor 01 Fair 5 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-rozjasnujici-korektor-01-fair-5-ml/) | 29021-1 | 819 Kč | **529 Kč** | 529 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Rozjasňující korektor 02 Light 5 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-rozjasnujici-korektor-02-light-5-ml/) | 29021-2 | 819 Kč | **529 Kč** | 529 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Rozjasňující korektor 03 Neutral 5 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-rozjasnujici-korektor-03-neutral-5-ml/) | 29021-3 | 819 Kč | **529 Kč** | 529 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Rozjasňující make-up 01 Fair 32 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-rozjasnujici-make-up-01-fair-32-ml/) | 29022-1 | 1279 Kč | **969 Kč** | 969 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Rozjasňující make-up 02 Light 32 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-rozjasnujici-make-up-02-light-32-ml/) | 29022-2 | 1279 Kč | **969 Kč** | 969 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Rozjasňující make-up 03 Neutral 32 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-rozjasnujici-make-up-03-neutral-32-ml/) | 29022-3 | 1279 Kč | **969 Kč** | 969 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Tekutá tvářenka Light Pink 10 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-tekuta-tvarenka-light-pink-10-ml/) | 29026-1 | 739 Kč | **595 Kč** | 595 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Tekutý rozjasňovač Rose Gold 10 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-tekuty-rozjasnovac-rose-gold-10-ml/) | 29024-1 | 739 Kč | **595 Kč** | 595 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
+| [LR ZEITGARD Signature Řasenka pro intenzivní efekt Deep Black 8 ml](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-rasenka-pro-intenzivni-efekt-deep-black-8-ml/) | 29029-1 | 689 Kč | **629 Kč** | 629 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
 
-## Dodavatel produkt nenašel (7)
+## Dodavatel produkt nenašel (27)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -80,8 +108,28 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Eurona Čistič na trouby a grily 2 × 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-cistic-na-trouby-a-grily-2--250-ml/) (38156)
 - [LR LIFETAKT Reishi Plus Kapsle Série 2 ks](https://www.kosmetikaeva.eu/imunitni-system-2/lr-lifetakt-reishi-plus-kapsle-serie-2-ks/) (80155-99)
 - [LR LIFETAKT Colostrum Liquid Série 2 x 125 ml](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-direct-2-x-125-ml/) (80363-599)
+- [Essens Zubní kartáček Ultra Soft - modrá/bílá](https://www.kosmetikaeva.eu/usta-a-zuby/essens-zubni-kartacek-ultra-soft-modra-bila/) (AVE56)
+- [Essens Aloe Vera Soft Spray Plus 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-plus-100-ml/) (AVE65)
+- [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
 - [Essens Balzám na rty s colostrem 4 g](https://www.kosmetikaeva.eu/usta-a-zuby/essens-balzam-na-rty-s-colostrem-4-g/) (CPL40)
+- [Essens Energetický nápoj 250 ml](https://www.kosmetikaeva.eu/doplnky-stravy/essens-energeticky-napoj-250-ml/) (ED01N)
+- [Essens Esenciální olej hřebíček 10 ml](https://www.kosmetikaeva.eu/esencialni-oleje/essens-esencialni-olej-hrebicek-10-ml/) (ESOIL11)
 - [Essens Tužka na obočí 1,2 g barva: 01 Blonde](https://www.kosmetikaeva.eu/oci/essens-tuzka-na-oboci-1-2-g/?variantId=51400) (EYEBR01)
+- [Essens m038 parfém pánský 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m038-50-ml/) (M03850)
+- [Essens Sprchový gel m045 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-m045-150-ml/) (M045GX)
+- [Essens Set Aloe Vera Soft Spray 3 × 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-set-aloe-vera-soft-spray-3--100-ml/) (SAVE05)
+- [Essens Set Colostrum Probiotics s jogurtovačem](https://www.kosmetikaeva.eu/imunitni-system-2/essens-set-colostrum-probiotics-s-jogurtovacem/) (SCOL01N)
+- [Essens Aloe Vera Set pleťový krém + Soft Spray Plus](https://www.kosmetikaeva.eu/oblicej-3/essens-aloe-vera-set-pletovy-krem-soft-spray-plus/) (SETCH54)
+- [Essens m045 parfémová sada pánská](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m045/) (SETM045)
+- [Essens w171 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w171/) (SETW171T)
+- [Essens w187 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w187/) (SETW187)
+- [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)
+- [Essens Second Skin make-up 35 ml barva: 06](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51439) (SSFND06)
+- [Essens Second Skin make-up 35 ml barva: 07](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51442) (SSFND07)
+- [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)
+- [Essens Sprchový gel w187 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w187-150-ml/) (W187GX)
+- [Essens w200 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w200-50-ml/) (W20050X)
+- [Essens w201 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w201-50-ml/) (W20150X)
 
 ## Nové u dodavatele (22)
 
