@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-09T14:49+02:00",
+"cas": "2026-11-10T14:36+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3237,8 +3237,8 @@
 "url_dodavatel": "https://www.essens.cz/ustni-voda-s-aloe-vera-meloun-d270644/"
 },
 "AVE56": {
-"dop": null,
-"skladem": false,
+"dop": 130.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "AVE57": {
@@ -3823,7 +3823,7 @@
 },
 "CC6849": {
 "dop": 215.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6849/aqua-blue-aroma-roll-on-oil-perfume-10-ml"
 },
 "CC6850": {
@@ -4252,8 +4252,8 @@
 "url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-05-light-coral-d260225/"
 },
 "GLOSS06": {
-"dop": 340.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-06-candy-rose-d260226/"
 },
 "HC01": {
@@ -4262,8 +4262,8 @@
 "url_dodavatel": "https://www.essens.cz/krem-na-ruce-d129545/"
 },
 "HC03": {
-"dop": 115.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "HC05": {
@@ -5428,7 +5428,7 @@
 },
 "SETW111T": {
 "dop": 810.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w111-d411007/"
 },
 "SETW142T": {
@@ -5623,7 +5623,7 @@
 },
 "W111GX": {
 "dop": 210.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w111-d396850/"
 },
 "W11450": {
