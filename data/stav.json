@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-10T14:36+02:00",
+"cas": "2026-11-10T18:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -4238,7 +4238,7 @@
 },
 "GLOSS02": {
 "dop": 340.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-02-bronze-d201935/"
 },
 "GLOSS04": {
