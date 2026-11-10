@@ -1,7 +1,7 @@
-2026-11-08T05:31+01:00
+2026-11-10T17:25+01:00
 pokus 1
 WebFetch: client_error u zdravi, krasa, aloe-vera-care (i po opakování) → zbylé stránky přes WebFetch přeskočeny.
-Staženo prohlížečem v aplikaci Claude (počítač Eshop): stránky kategorií otevřeny normálně, zbylé karty dočteny tlačítkem „Načíst další“ (najetí myší), karty čteny z DOM stránky; u každé stránky počet karet = rowMax.
+Staženo prohlížečem v aplikaci Claude (počítač Eshop): AJAX výpis /dataN?data=KategorieProduktyAjax (limitdo=1000), karty čteny z HTML; u každé stránky počet karet = rowMax; přenos gzip+base64, SHA-256 shoda.
 https://www.lr-czech.com/zdravi – 56 řádků
 https://www.lr-czech.com/krasa – 169 řádků
 https://www.lr-czech.com/aloe-vera-care – 48 řádků

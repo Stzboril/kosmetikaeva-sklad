@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-08T06:31+02:00",
+"cas": "2026-11-10T18:25+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -1209,7 +1209,7 @@
 },
 "30720": {
 "cena": 3979.0,
-"nazev": "LR Mood Infusion Série 3 ks + 3x Dárková taška malá",
+"nazev": "LR Mood Infusion Série 3 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
@@ -1251,25 +1251,25 @@
 },
 "31010-1": {
 "cena": 3679.0,
-"nazev": "Glorious Elixir for women EdP + Dárková taška malá",
+"nazev": "Glorious Elixir for women EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "31011-1": {
 "cena": 3679.0,
-"nazev": "Glorious Elixir for men EdP + Dárková taška malá",
+"nazev": "Glorious Elixir for men EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "31012-1": {
 "cena": 3679.0,
-"nazev": "Famous Elixir for women EdP + Dárková taška malá",
+"nazev": "Famous Elixir for women EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "31013-1": {
 "cena": 3679.0,
-"nazev": "Famous Elixir for men EdP + Dárková taška malá",
+"nazev": "Famous Elixir for men EdP",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
