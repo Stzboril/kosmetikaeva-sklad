@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-10T18:28+02:00",
+"cas": "2026-11-11T11:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -1598,7 +1598,7 @@
 },
 "30711-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30712-1": {
@@ -1643,7 +1643,7 @@
 },
 "30734-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30735-1": {
@@ -3218,7 +3218,7 @@
 },
 "AVE42": {
 "dop": 180.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-balzam-po-holeni-d169916/"
 },
 "AVE50": {
@@ -3237,8 +3237,8 @@
 "url_dodavatel": "https://www.essens.cz/ustni-voda-s-aloe-vera-meloun-d270644/"
 },
 "AVE56": {
-"dop": 130.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "AVE57": {
@@ -3303,7 +3303,7 @@
 },
 "BEARD01": {
 "dop": 300.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sampon-na-vousy-d316542/"
 },
 "BEARD03": {
@@ -4118,7 +4118,7 @@
 },
 "EBA06": {
 "dop": 85.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/kosmeticke-orezavatko-must-have-edition-d219674/"
 },
 "ED01N": {

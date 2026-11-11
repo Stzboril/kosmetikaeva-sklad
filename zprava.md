@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 10.11.2026 v 18:28.
+Kontrola u dodavatelů proběhla 11.11.2026 v 11:28.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
@@ -6,18 +6,23 @@ Kontrola u dodavatelů proběhla 10.11.2026 v 18:28.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (22 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Anti-aging opalovací fluid 50 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-anti-aging-opalovaci-fluid-50-ml/) (23114-101)
+- ❌ není skladem → 0 ks: [LR Into Jungle parfémovaná voda pánská Objem: 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/lr-into-jungle-edp-pro-muze/?variantId=54435) (30711-1)
+- ❌ není skladem → 0 ks: [LR Into Jungle Pečující set – EdP 50 ml + šampon + roll-on parfém](https://www.kosmetikaeva.eu/panske-parfemy/lr-into-jungle-pecujici-set-edp-50-ml-sampon-roll-on-parfem/) (30734-1)
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Eurona Přírodní aktivní hřejivý krém 200 ml](https://www.kosmetikaeva.eu/telo-2/eurona-aktivni-konopny-krem-hrejivy-200-ml/) (6071)
+- ❌ Nedostupné → 0 ks: [Essens Aloe Vera Balzám po holení 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-aloe-vera-balzam-po-holeni-100-ml/) (AVE42)
+- ❌ Nedostupné → 0 ks: [Essens Šampon na vousy 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-sampon-na-vousy-100-ml/) (BEARD01)
 - ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
 - ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
 - ❌ není skladem → 0 ks: [Eurona Neony Go! Aqua Blue aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--aqua-blue-10-ml/) (CC6849)
+- ❌ Nedostupné → 0 ks: [Essens Kosmetické ořezávátko MUST HAVE EDITION](https://www.kosmetikaeva.eu/oci/essens-kosmeticke-orezavatko-must-have-edition/) (EBA06)
 - ❌ Nedostupné → 0 ks: [Essens Tekutý lesk na rty 02 Bronze 6 ml](https://www.kosmetikaeva.eu/rty/essens-tekuty-lesk-na-rty-02-bronze-6-ml/) (GLOSS02)
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Tekutý lesk na rty 06 Candy Rose 6 ml](https://www.kosmetikaeva.eu/rty/essens-tekuty-lesk-na-rty-06-candy-rose-6-ml/) (GLOSS06)
 - ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
@@ -104,7 +109,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR ZEITGARD Signature Tekutý rozjasňovač Rose Gold 10 ml](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-tekuty-rozjasnovac-rose-gold-10-ml/) | 29024-1 | 739 Kč | **595 Kč** | 595 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
 | [LR ZEITGARD Signature Řasenka pro intenzivní efekt Deep Black 8 ml](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-rasenka-pro-intenzivni-efekt-deep-black-8-ml/) | 29029-1 | 689 Kč | **629 Kč** | 629 Kč (Akce 08.-14. 11. 2026) | 08.11.–14.11. |
 
-## Dodavatel produkt nenašel (30)
+## Dodavatel produkt nenašel (31)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -113,6 +118,7 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Eurona Čistič na trouby a grily 2 × 250 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/eurona-cistic-na-trouby-a-grily-2--250-ml/) (38156)
 - [LR LIFETAKT Reishi Plus Kapsle Série 2 ks](https://www.kosmetikaeva.eu/imunitni-system-2/lr-lifetakt-reishi-plus-kapsle-serie-2-ks/) (80155-99)
 - [LR LIFETAKT Colostrum Liquid Série 2 x 125 ml](https://www.kosmetikaeva.eu/imunitni-system-2/lr-colostrum-direct-2-x-125-ml/) (80363-599)
+- [Essens Zubní kartáček Ultra Soft - modrá/bílá](https://www.kosmetikaeva.eu/usta-a-zuby/essens-zubni-kartacek-ultra-soft-modra-bila/) (AVE56)
 - [Essens Aloe Vera Soft Spray Plus 100 ml](https://www.kosmetikaeva.eu/specialni-pece/essens-aloe-vera-soft-spray-plus-100-ml/) (AVE65)
 - [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
 - [Essens Balzám na rty s colostrem 4 g](https://www.kosmetikaeva.eu/usta-a-zuby/essens-balzam-na-rty-s-colostrem-4-g/) (CPL40)
