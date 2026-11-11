@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 11.11.2026 v 11:28.
+Kontrola u dodavatelů proběhla 11.11.2026 v 13:51.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 11.11.2026 v 11:28.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (22 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (21 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
@@ -17,8 +17,6 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Eurona Přírodní aktivní hřejivý krém 200 ml](https://www.kosmetikaeva.eu/telo-2/eurona-aktivni-konopny-krem-hrejivy-200-ml/) (6071)
-- ❌ Nedostupné → 0 ks: [Essens Aloe Vera Balzám po holení 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-aloe-vera-balzam-po-holeni-100-ml/) (AVE42)
-- ❌ Nedostupné → 0 ks: [Essens Šampon na vousy 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-sampon-na-vousy-100-ml/) (BEARD01)
 - ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
 - ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
 - ❌ není skladem → 0 ks: [Eurona Neony Go! Aqua Blue aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--aqua-blue-10-ml/) (CC6849)
@@ -27,13 +25,14 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ dodavatel ho nenašel → 0 ks: [Essens Tekutý lesk na rty 06 Candy Rose 6 ml](https://www.kosmetikaeva.eu/rty/essens-tekuty-lesk-na-rty-06-candy-rose-6-ml/) (GLOSS06)
 - ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
+- ❌ Nedostupné → 0 ks: [Essens Solar Noire parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-parfemovany-set-solar-noire/) (SETLUX08)
 - ❌ Nedostupné → 0 ks: [Essens MHE Beauty Boost Set](https://www.kosmetikaeva.eu/oblicej-3/essens-mhe-beauty-boost-set/) (SETMHE14)
 - ❌ Nedostupné → 0 ks: [Essens w111 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w111/) (SETW111T)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel w111 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w111-150-ml/) (W111GX)
 
 ## Ceny ke schválení
 
-Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (33 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (35 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
 
 ⚠️ 18× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.
 
@@ -57,6 +56,8 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | Eurona | [Eurona Faith Magic Prostorové aromatikum 150 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-faith-magic-prostorove-aromatikum-150-ml/) | 3467 | 99 Kč | **79 Kč** | 84 Kč | -20.2 % ⚠️ |
 | Eurona | [Eurona Impregnace na sklo a zrcadla proti vodě a zamlžení 250 ml](https://www.kosmetikaeva.eu/okna-a-zrcadla/eurona-impregnace-na-sklo-a-zrcadla-proti-vode-a-zamlzeni--250-ml/) | 3386 | 149 Kč | **119 Kč** | 122 Kč | -20.1 % ⚠️ |
 | Eurona | [Eurona Tekuté mýdlo s Aloe vera - Pinky Frou 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-pinky-frou--400-ml/) | 6336 | 149 Kč | **119 Kč** | 122 Kč | -20.1 % ⚠️ |
+| Eurona | [Eurona ACTIVE IMMUNITY ALOE VERA 92 % 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-active-immunity-aloe-vera-92--500-ml/) | PB4002 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
+| Eurona | [Eurona Aloe vera nápoj BOHEMIAN ALOEBAR ACTIVE REFRESH 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-aloe-vera-napoj-bohemian-aloebar-active-refresh-500-ml/) | PB4007 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
 | Eurona | [Eurona Hope Magic Parfémová sašetka 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-hope-magic-parfemova-sasetka-125-ml/) | 1276 | 79 Kč | **67 Kč** | 67 Kč | -15.2 % |
 | Eurona | [Eurona Faith Magic Parfémová sašetka 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-faith-magic-parfemova-sasetka-125-ml/) | 1279 | 79 Kč | **67 Kč** | 67 Kč | -15.2 % |
 | Eurona | [Eurona Parfém na praní Thought Magic 250 ml](https://www.kosmetikaeva.eu/parfemy-na-prani/eurona-parfem-na-prani-thought-magic-250-ml/) | 1282 | 469 Kč | **399 Kč** | 424 Kč | -14.9 % |

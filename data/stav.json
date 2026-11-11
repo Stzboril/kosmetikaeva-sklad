@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-11T11:28+02:00",
+"cas": "2026-11-11T13:51+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3218,7 +3218,7 @@
 },
 "AVE42": {
 "dop": 180.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-balzam-po-holeni-d169916/"
 },
 "AVE50": {
@@ -3303,7 +3303,7 @@
 },
 "BEARD01": {
 "dop": 300.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/sampon-na-vousy-d316542/"
 },
 "BEARD03": {
@@ -5082,7 +5082,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4001/pure-power"
 },
 "PB4002": {
-"dop": 359.0,
+"dop": 429.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4002/active-immunity"
 },
@@ -5102,7 +5102,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4005/active-detox"
 },
 "PB4007": {
-"dop": 359.0,
+"dop": 429.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/PB4007/bohemian-aloebar-active-refresh-500-ml"
 },
@@ -5358,7 +5358,7 @@
 },
 "SETLUX08": {
 "dop": 1390.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/parfemovany-set-solar-noire-d498500/"
 },
 "SETLUX10": {
