@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-10T18:25+02:00",
+"cas": "2026-11-11T11:25+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -1132,7 +1132,7 @@
 },
 "cena": null,
 "nazev": "Into Jungle EdP + Dárková taška malá",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30712-1": {
@@ -1234,7 +1234,7 @@
 },
 "cena": null,
 "nazev": "Limitovaný Pečující set s vůní Into Jungle + Into Jungle Roll-on parfém",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30735-1": {
