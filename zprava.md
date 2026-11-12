@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 12.11.2026 v 11:08.
+Kontrola u dodavatelů proběhla 12.11.2026 v 14:40.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 12.11.2026 v 11:08.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (21 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (16 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
@@ -19,60 +19,15 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
 - ❌ není skladem → 0 ks: [Eurona Neony Go! Aqua Blue aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--aqua-blue-10-ml/) (CC6849)
 - ❌ Nedostupné → 0 ks: [Essens Kosmetické ořezávátko MUST HAVE EDITION](https://www.kosmetikaeva.eu/oci/essens-kosmeticke-orezavatko-must-have-edition/) (EBA06)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Tekutý lesk na rty 02 Bronze 6 ml](https://www.kosmetikaeva.eu/rty/essens-tekuty-lesk-na-rty-02-bronze-6-ml/) (GLOSS02)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Tekutý lesk na rty 06 Candy Rose 6 ml](https://www.kosmetikaeva.eu/rty/essens-tekuty-lesk-na-rty-06-candy-rose-6-ml/) (GLOSS06)
 - ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
 - ❌ Nedostupné → 0 ks: [Essens w111 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w111/) (SETW111T)
 - ❌ Nedostupné → 0 ks: [Essens w142 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w142/) (SETW142T)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Second Skin podkladová báze pod oční stíny 11 ml](https://www.kosmetikaeva.eu/oci/essens-second-skin-podkladova-baze-pod-ocni-stiny-11-ml/) (SSEPRIM01)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens Sprchový gel w111 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w111-150-ml/) (W111GX)
-- ❌ dodavatel ho nenašel → 0 ks: [Essens w134 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w134-50-ml/) (W13450)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel w142 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w142-150-ml/) (W142GX)
 
 ## Ceny ke schválení
 
-Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (35 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
-
-⚠️ 18× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.
-
-| Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
-|---|---|---|--:|--:|--:|--:|
-| Eurona | [Eurona Sprchový gel NEONY GO! Aqua Blue 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-sprchovy-gel-neony-go--aqua-blue-250-ml/) | CC6847 | 239 Kč | **179 Kč** | 192 Kč | -25.1 % ⚠️ |
-| Eurona | [Eurona Tělová mlha NEONY GO! Aqua Blue 150 ml](https://www.kosmetikaeva.eu/damske-parfemy/eurona-telova-mlha-neony-go--aqua-blue-150-ml/) | CC6848 | 239 Kč | **179 Kč** | 192 Kč | -25.1 % ⚠️ |
-| Eurona | [Eurona Sprchový gel NEONY GO! Energy Green 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-sprchovy-gel-neony-go--energy-green-250-ml/) | CC6850 | 239 Kč | **179 Kč** | 192 Kč | -25.1 % ⚠️ |
-| Eurona | [Eurona Tělová mlha NEONY GO! Energy Green 150 ml](https://www.kosmetikaeva.eu/damske-parfemy/eurona-telova-mlha-neony-go--energy-green-150-ml/) | CC6851 | 239 Kč | **179 Kč** | 192 Kč | -25.1 % ⚠️ |
-| Eurona | [Eurona Sprchový gel NEONY GO! Juicy Pink 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-sprchovy-gel-neony-go--juicy-pink-250-ml/) | CC6853 | 239 Kč | **179 Kč** | 192 Kč | -25.1 % ⚠️ |
-| Eurona | [Eurona Tělová mlha NEONY GO! Juicy Pink 150 ml](https://www.kosmetikaeva.eu/damske-parfemy/eurona-telova-mlha-neony-go--juicy-pink-150-ml/) | CC6854 | 239 Kč | **179 Kč** | 192 Kč | -25.1 % ⚠️ |
-| Eurona | [Eurona Neony Go! Aqua Blue aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--aqua-blue-10-ml/) | CC6849 | 259 Kč | **199 Kč** | 215 Kč | -23.2 % ⚠️ |
-| Eurona | [Eurona Neony Go! Energy Green aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--energy-green-10-ml/) | CC6852 | 259 Kč | **199 Kč** | 215 Kč | -23.2 % ⚠️ |
-| Eurona | [Eurona Neony Go! Juicy Pink aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--juicy-pink-10-ml/) | CC6855 | 259 Kč | **199 Kč** | 215 Kč | -23.2 % ⚠️ |
-| Eurona | [Eurona Wool & Delicate Tekutý prostředek na vlnu a jemné, 1000 ml](https://www.kosmetikaeva.eu/jemne-pradlo/eurona-tekuty-praci-prostredek-na-prani-vlneneho-a-jemneho-pradla--1000-ml/) | 1008 | 369 Kč | **289 Kč** | 305 Kč | -21.7 % ⚠️ |
-| Eurona | [Eurona Parfém do vodního vysavače- Černý hrozen 500 ml](https://www.kosmetikaeva.eu/koberce-a-vysavace/eurona-parfem-do-vodniho-vysavace-cerny-hrozen/) | 3384 | 139 Kč | **109 Kč** | 115 Kč | -21.6 % ⚠️ |
-| Eurona | [Eurona Prací prostředek na jeansové a denimové oblečení 250 ml](https://www.kosmetikaeva.eu/specialni-praci-prostredky/eurona-praci-prostredek-na-jeansove-a-denimove-obleceni--250-ml/) | 1039 | 189 Kč | **149 Kč** | 153 Kč | -21.2 % ⚠️ |
-| Eurona | [Eurona Hope Magic Prostorové aromatikum 150 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-hope-magic-prostorove-aromatikum-150-ml/) | 3464 | 99 Kč | **79 Kč** | 84 Kč | -20.2 % ⚠️ |
-| Eurona | [Eurona Moment Magic Prostorové aromatikum 150 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-moment-magic-prostorove-aromatikum-150-ml/) | 3465 | 99 Kč | **79 Kč** | 84 Kč | -20.2 % ⚠️ |
-| Eurona | [Eurona Prostorové aromatikum Thought Magic 150 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-prostorove-aromatikum-thought-magic-150-ml/) | 3466 | 99 Kč | **79 Kč** | 84 Kč | -20.2 % ⚠️ |
-| Eurona | [Eurona Faith Magic Prostorové aromatikum 150 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-faith-magic-prostorove-aromatikum-150-ml/) | 3467 | 99 Kč | **79 Kč** | 84 Kč | -20.2 % ⚠️ |
-| Eurona | [Eurona Impregnace na sklo a zrcadla proti vodě a zamlžení 250 ml](https://www.kosmetikaeva.eu/okna-a-zrcadla/eurona-impregnace-na-sklo-a-zrcadla-proti-vode-a-zamlzeni--250-ml/) | 3386 | 149 Kč | **119 Kč** | 122 Kč | -20.1 % ⚠️ |
-| Eurona | [Eurona Tekuté mýdlo s Aloe vera - Pinky Frou 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-pinky-frou--400-ml/) | 6336 | 149 Kč | **119 Kč** | 122 Kč | -20.1 % ⚠️ |
-| Eurona | [Eurona ACTIVE IMMUNITY ALOE VERA 92 % 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-active-immunity-aloe-vera-92--500-ml/) | PB4002 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
-| Eurona | [Eurona Aloe vera nápoj BOHEMIAN ALOEBAR ACTIVE REFRESH 500 ml](https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-aloe-vera-napoj-bohemian-aloebar-active-refresh-500-ml/) | PB4007 | 339 Kč | **399 Kč** | 429 Kč | +17.7 % |
-| Eurona | [Eurona Hope Magic Parfémová sašetka 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-hope-magic-parfemova-sasetka-125-ml/) | 1276 | 79 Kč | **67 Kč** | 67 Kč | -15.2 % |
-| Eurona | [Eurona Faith Magic Parfémová sašetka 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-faith-magic-parfemova-sasetka-125-ml/) | 1279 | 79 Kč | **67 Kč** | 67 Kč | -15.2 % |
-| Eurona | [Eurona Parfém na praní Thought Magic 250 ml](https://www.kosmetikaeva.eu/parfemy-na-prani/eurona-parfem-na-prani-thought-magic-250-ml/) | 1282 | 469 Kč | **399 Kč** | 424 Kč | -14.9 % |
-| Eurona | [Eurona Hope Magic Parfém na praní 250 ml](https://www.kosmetikaeva.eu/parfemy-na-prani/eurona-hope-magic-parfem-na-prani-250-ml/) | 1283 | 469 Kč | **399 Kč** | 424 Kč | -14.9 % |
-| Eurona | [Eurona Aviváž s kondicionérem Moment Magic 1000 ml](https://www.kosmetikaeva.eu/avivaze-s-kondicionerem/eurona-moment-magic-avivaz-s-kondicionerem-1000-ml/) | 1280 | 219 Kč | **189 Kč** | 195 Kč | -13.7 % |
-| Eurona | [Eurona Aviváž s kondicionérem Faith Magic 1000 ml](https://www.kosmetikaeva.eu/avivaze-s-kondicionerem/eurona-avivaz-s-kondicionerem-faith-magic-1000-ml/) | 1281 | 219 Kč | **189 Kč** | 195 Kč | -13.7 % |
-| Eurona | [Eurona Tekuté mýdlo s Aloe vera - Citronová tráva 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-citronova-trava--400-ml/) | 3261 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Hope Magic Tekuté mýdlo s aloe vera 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-hope-magic-tekute-mydlo-s-aloe-vera-400-ml/) | 3468 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Moment Magic Tekuté mýdlo s aloe vera 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-moment-magic-tekute-mydlo-s-aloe-vera-400-ml/) | 3469 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Tekuté mýdlo s aloe vera Thought Magic 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-thought-magic-400-ml/) | 3470 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Faith Magic Tekuté mýdlo s aloe vera 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-faith-magic-tekute-mydlo-s-aloe-vera-400-ml/) | 3471 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Hope Magic Univerzální úklidový prostředek 500 ml](https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/eurona-hope-magic-univerzalni-uklidovy-prostredek-500-ml/) | 3472 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Moment Magic Univerzální úklidový prostředek 500 ml](https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/eurona-moment-magic-univerzalni-uklidovy-prostredek-500-ml/) | 3473 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Univerzální úklidový prostředek Thought Magic 500 ml](https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/eurona-univerzalni-uklidovy-prostredek-thought-magic-500-ml/) | 3474 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
-| Eurona | [Eurona Univerzální úklidový prostředek Faith Magic 500 ml](https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/eurona-univerzalni-uklidovy-prostredek-faith-magic-500-ml/) | 3475 | 149 Kč | **129 Kč** | 135 Kč | -13.4 % |
+Beze změn – ceny odpovídají pravidlu.
 
 ## Akce podle LR
 
