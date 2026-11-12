@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-11T13:51+02:00",
+"cas": "2026-11-12T11:02+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -4237,7 +4237,7 @@
 "url_dodavatel": "https://www.essens.cz/toaletni-voda-bright-star-pro-divky-d316441/"
 },
 "GLOSS02": {
-"dop": 340.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-02-bronze-d201935/"
 },
@@ -4817,8 +4817,8 @@
 "url_dodavatel": "https://www.essens.cz/dvoufazovy-odlicovac-d297263/"
 },
 "MHE07": {
-"dop": null,
-"skladem": false,
+"dop": 385.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "MHE09": {
@@ -5358,7 +5358,7 @@
 },
 "SETLUX08": {
 "dop": 1390.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/parfemovany-set-solar-noire-d498500/"
 },
 "SETLUX10": {
@@ -5398,7 +5398,7 @@
 },
 "SETMHE14": {
 "dop": 1635.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/mhe-beauty-boost-set-d411928/"
 },
 "SETMHE15": {
@@ -5433,7 +5433,7 @@
 },
 "SETW142T": {
 "dop": 810.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w142-d411010/"
 },
 "SETW153T": {
@@ -5487,8 +5487,8 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w904-d411015/"
 },
 "SSEPRIM01": {
-"dop": 290.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/second-skin-podkladova-baze-pod-ocni-stiny-d201905/"
 },
 "SSEYE01": {
@@ -5622,7 +5622,7 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w111-d167/"
 },
 "W111GX": {
-"dop": 210.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w111-d396850/"
 },
@@ -5667,8 +5667,8 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w130-d1196/"
 },
 "W13450": {
-"dop": 600.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w134-d19749/"
 },
 "W13750": {
@@ -5693,7 +5693,7 @@
 },
 "W142GX": {
 "dop": 210.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w142-d396853/"
 },
 "W14350": {
