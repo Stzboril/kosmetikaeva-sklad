@@ -1,19 +1,17 @@
-Kontrola u dodavatelů proběhla 12.11.2026 v 11:02.
+Kontrola u dodavatelů proběhla 12.11.2026 v 11:08.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
-- **LR:** zkontrolováno 254 viditelných produktů – ⚠️ data LR jsou z 11.11.2026, dnešní stažení zatím neproběhlo (stačí napsat Claude „stáhni LR“)
+- **LR:** zkontrolováno 254 viditelných produktů
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (23 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (21 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Anti-aging opalovací fluid 50 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-anti-aging-opalovaci-fluid-50-ml/) (23114-101)
-- ❌ není skladem → 0 ks: [LR Into Jungle parfémovaná voda pánská Objem: 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/lr-into-jungle-edp-pro-muze/?variantId=54435) (30711-1)
-- ❌ není skladem → 0 ks: [LR Into Jungle Pečující set – EdP 50 ml + šampon + roll-on parfém](https://www.kosmetikaeva.eu/panske-parfemy/lr-into-jungle-pecujici-set-edp-50-ml-sampon-roll-on-parfem/) (30734-1)
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)
 - ❌ není skladem → 0 ks: [Eurona Přírodní aktivní hřejivý krém 200 ml](https://www.kosmetikaeva.eu/telo-2/eurona-aktivni-konopny-krem-hrejivy-200-ml/) (6071)
