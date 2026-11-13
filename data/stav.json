@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-12T14:40+02:00",
+"cas": "2026-11-13T09:30+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -3137,8 +3137,8 @@
 "url_dodavatel": "https://www.essens.cz/tekuta-matna-rtenka-02-d201917/"
 },
 "ADML03": {
-"dop": 420.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "AVE01": {
@@ -3237,8 +3237,8 @@
 "url_dodavatel": "https://www.essens.cz/ustni-voda-s-aloe-vera-meloun-d270644/"
 },
 "AVE56": {
-"dop": null,
-"skladem": false,
+"dop": 130.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "AVE57": {
@@ -3267,8 +3267,8 @@
 "url_dodavatel": "https://www.essens.cz/zubni-kartacek-ultra-soft-bila-cerna-d173022/"
 },
 "AVE65": {
-"dop": null,
-"skladem": false,
+"dop": 480.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "AVE66": {
@@ -3303,7 +3303,7 @@
 },
 "BEARD01": {
 "dop": 300.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sampon-na-vousy-d316542/"
 },
 "BEARD03": {
@@ -4093,7 +4093,7 @@
 },
 "DRAMA01": {
 "dop": 495.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/zhustujici-rasenka-d201937/"
 },
 "E3021": {
@@ -5243,7 +5243,7 @@
 },
 "SBEARD": {
 "dop": 1260.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/sada-pro-peci-o-vousy-d316541/"
 },
 "SC26": {
@@ -5932,8 +5932,8 @@
 "url_dodavatel": ""
 },
 "W20150X": {
-"dop": null,
-"skladem": false,
+"dop": 635.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "W20250X": {
