@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 13.11.2026 v 09:30.
+Kontrola u dodavatelů proběhla 13.11.2026 v 14:10.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
@@ -105,12 +105,13 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Essens Sprchový gel w187 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-w187-150-ml/) (W187GX)
 - [Essens w200 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w200-50-ml/) (W20050X)
 
-## Nové u dodavatele (26)
+## Nové u dodavatele (27)
 
 Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu nejsou. Navržená cena = doporučená − 8 % podle pravidla.
 
 | Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |
 |---|---|---|:-:|--:|--:|--:|
+| Essens | Shopper bag - tmavě modrá | BAG68 | ✅ | 895 Kč | 829 Kč | 13.11. |
 | Eurona | [Váš moment s šálkem čaje](https://www.euronabycerny.com/p/69464/set-44274427) | 69464 | ✅ | 986 Kč | 909 Kč | 10.11. |
 | Eurona | [Pro milovníky kávy](https://www.euronabycerny.com/p/69463/set-4426442644264426ce0005) | 69463 | ✅ | 1316 Kč | 1219 Kč | 10.11. |
 | Eurona | [Provoňte svůj domov](https://www.euronabycerny.com/p/69462/set-ca0312ca0313ca0314ca03154458) | 69462 | ✅ | 2029 Kč | 1869 Kč | 10.11. |
@@ -138,4 +139,4 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 | Essens | Tekutá tvářenka - Flicker | BLUSH05 | ✅ | 340 Kč | 319 Kč | 05.11. |
 | Essens | Tekutá tvářenka - Fever | BLUSH04 | ✅ | 340 Kč | 319 Kč | 05.11. |
 
-Celkem dodavatelé nabízejí 42 produktů, které na e-shopu nejsou (Eurona 25, Essens 14, LR 3) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 43 produktů, které na e-shopu nejsou (Eurona 25, Essens 15, LR 3) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
