@@ -1,8 +1,8 @@
-Kontrola u dodavatelů proběhla 13.11.2026 v 14:10.
+Kontrola u dodavatelů proběhla 14.11.2026 v 13:26.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
-- **LR:** zkontrolováno 254 viditelných produktů
+- **LR:** zkontrolováno 254 viditelných produktů – ⚠️ data LR jsou z 13.11.2026, dnešní stažení zatím neproběhlo (stačí napsat Claude „stáhni LR“)
 
 ## Sklad
 
