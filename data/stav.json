@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-14T13:26+02:00",
+"cas": "2026-11-14T14:28+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -1338,7 +1338,7 @@
 },
 "29028-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "29029-1": {
@@ -1408,7 +1408,7 @@
 },
 "29069-99": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "3001": {
@@ -3576,20 +3576,10 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6760/new-genea-rejuvenating-night-cream-50-ml"
 },
-"CC6762": {
-"dop": 299.0,
-"skladem": false,
-"url_dodavatel": "https://www.euronabycerny.com/p/CC6762/luxury-caring-hydrating-body-scrub-for-women-150-ml"
-},
 "CC6763": {
 "dop": 299.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6763/luxury-brightening-warming-body-scrub-for-women-150-ml"
-},
-"CC6764": {
-"dop": 269.0,
-"skladem": false,
-"url_dodavatel": "https://www.euronabycerny.com/p/CC6764/luxury-gentle-nourishing-skin-peeling-for-women-50-ml"
 },
 "CC6767": {
 "dop": 349.0,
@@ -3821,11 +3811,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6848/aqua-blue-body-mist-150-ml"
 },
-"CC6849": {
-"dop": 215.0,
-"skladem": false,
-"url_dodavatel": "https://www.euronabycerny.com/p/CC6849/aqua-blue-aroma-roll-on-oil-perfume-10-ml"
-},
 "CC6850": {
 "dop": 192.0,
 "skladem": true,
@@ -4026,11 +4011,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/jogurtovac-d219793/"
 },
-"COL72": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "CONS01": {
 "dop": 320.0,
 "skladem": true,
@@ -4081,20 +4061,10 @@
 "skladem": true,
 "url_dodavatel": ""
 },
-"CPL40": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "DETOX": {
 "dop": 3055.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/essens-detox-set-doplnky-stravy-d521733/"
-},
-"DRAMA01": {
-"dop": 495.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/zhustujici-rasenka-d201937/"
 },
 "E3021": {
 "dop": 249.0,
@@ -4115,16 +4085,6 @@
 "dop": 129.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/6097/brilliant-condition-toothbrush-supersoft-yellow"
-},
-"EBA06": {
-"dop": 85.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/kosmeticke-orezavatko-must-have-edition-d219674/"
-},
-"ED01N": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "ESOIL01": {
 "dop": 505.0,
@@ -4166,16 +4126,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/esencialni-olej-tea-tree-d259388/"
 },
-"ESOIL10": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/esencialni-olej-kasia-d262444/"
-},
-"ESOIL11": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "ESOIL41": {
 "dop": 480.0,
 "skladem": true,
@@ -4216,11 +4166,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/prodluzujici-rasenka-royal-blue-d363843/"
 },
-"EYEBR01": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "EYEBRW01": {
 "dop": 355.0,
 "skladem": true,
@@ -4236,11 +4181,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/toaletni-voda-bright-star-pro-divky-d316441/"
 },
-"GLOSS02": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-02-bronze-d201935/"
-},
 "GLOSS04": {
 "dop": 340.0,
 "skladem": true,
@@ -4251,20 +4191,10 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-05-light-coral-d260225/"
 },
-"GLOSS06": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-06-candy-rose-d260226/"
-},
 "HC01": {
 "dop": 240.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/krem-na-ruce-d129545/"
-},
-"HC03": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "HC05": {
 "dop": 115.0,
@@ -4275,26 +4205,6 @@
 "dop": 430.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-kremu-na-ruce-d129558/"
-},
-"HERB01": {
-"dop": 1230.0,
-"skladem": true,
-"url_dodavatel": ""
-},
-"HERB02X": {
-"dop": 490.0,
-"skladem": true,
-"url_dodavatel": ""
-},
-"HERB03X": {
-"dop": 490.0,
-"skladem": true,
-"url_dodavatel": ""
-},
-"HERB05N": {
-"dop": 210.0,
-"skladem": true,
-"url_dodavatel": ""
 },
 "HOME01": {
 "dop": 250.0,
@@ -4330,11 +4240,6 @@
 "dop": 225.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/cistici-prostredek-na-koupelnove-povrchy-d363367/"
-},
-"HOME80": {
-"dop": 85.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/redici-lahev-s-rozprasovacem-d149395/"
 },
 "HOME82": {
 "dop": 60.0,
@@ -4626,11 +4531,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m036-d238202/"
 },
-"M03850": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "M04050": {
 "dop": 600.0,
 "skladem": true,
@@ -4656,30 +4556,10 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-m042-d341657/"
 },
-"M04350": {
-"dop": 635.0,
-"skladem": true,
-"url_dodavatel": ""
-},
-"M043G": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m043-d341658/"
-},
-"M044G": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m044-d341659/"
-},
 "M04550": {
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m045-d341368/"
-},
-"M045GX": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "M04650X": {
 "dop": 635.0,
@@ -4815,11 +4695,6 @@
 "dop": 475.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/dvoufazovy-odlicovac-d297263/"
-},
-"MHE07": {
-"dop": 385.0,
-"skladem": true,
-"url_dodavatel": ""
 },
 "MHE09": {
 "dop": 510.0,
@@ -5201,11 +5076,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/PB7014/cerny-lavender-sugar-free-lavender-nectar-250-ml"
 },
-"SAVE05": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "SAVE06": {
 "dop": 805.0,
 "skladem": true,
@@ -5241,11 +5111,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-d498497/"
 },
-"SBEARD": {
-"dop": 1260.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sada-pro-peci-o-vousy-d316541/"
-},
 "SC26": {
 "dop": 760.0,
 "skladem": true,
@@ -5255,11 +5120,6 @@
 "dop": 455.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sun-care-tablets-doplnek-stravy-d173024/"
-},
-"SCOL01N": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SCOL13N": {
 "dop": 845.0,
@@ -5271,11 +5131,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/colostrum-set-doplnky-stravy-d396842/"
 },
-"SET1ED": {
-"dop": 360.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/energeticky-napoj-6-ks-d383583/"
-},
 "SETCH21": {
 "dop": 505.0,
 "skladem": true,
@@ -5285,11 +5140,6 @@
 "dop": 1305.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-gel-drinky-d317230/"
-},
-"SETCH54": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SETCH67": {
 "dop": 970.0,
@@ -5341,25 +5191,10 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-colostrum-anti-ageing-premium-d396913/"
 },
-"SETHERB1": {
-"dop": 980.0,
-"skladem": true,
-"url_dodavatel": ""
-},
-"SETLUX01": {
-"dop": 1390.0,
-"skladem": true,
-"url_dodavatel": ""
-},
 "SETLUX05": {
 "dop": 1390.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/parfemovany-set-stellar-glow-d498499/"
-},
-"SETLUX08": {
-"dop": 1390.0,
-"skladem": true,
-"url_dodavatel": "https://www.essens.cz/parfemovany-set-solar-noire-d498500/"
 },
 "SETLUX10": {
 "dop": 1390.0,
@@ -5381,11 +5216,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfemovany-set-m042-d363330/"
 },
-"SETM045": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "SETM902T": {
 "dop": 845.0,
 "skladem": true,
@@ -5395,11 +5225,6 @@
 "dop": 1165.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/mhe-beauty-glow-set-d411927/"
-},
-"SETMHE14": {
-"dop": 1635.0,
-"skladem": true,
-"url_dodavatel": "https://www.essens.cz/mhe-beauty-boost-set-d411928/"
 },
 "SETMHE15": {
 "dop": 3615.0,
@@ -5426,25 +5251,10 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w107-d411006/"
 },
-"SETW111T": {
-"dop": 810.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w111-d411007/"
-},
-"SETW142T": {
-"dop": 810.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w142-d411010/"
-},
 "SETW153T": {
 "dop": 810.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w153-d411012/"
-},
-"SETW171T": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SETW183": {
 "dop": 870.0,
@@ -5456,20 +5266,10 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w184-d363312/"
 },
-"SETW187": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "SETW188": {
 "dop": 870.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w188-d363316/"
-},
-"SETW190": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SETW193": {
 "dop": 870.0,
@@ -5486,11 +5286,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w904-d411015/"
 },
-"SSEPRIM01": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/second-skin-podkladova-baze-pod-ocni-stiny-d201905/"
-},
 "SSEYE01": {
 "dop": 430.0,
 "skladem": true,
@@ -5505,21 +5300,6 @@
 "dop": 430.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/ocni-stiny-v-tuzce-04-midnight-blue-d201961/"
-},
-"SSFND06": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
-"SSFND07": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
-"SSFND08": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
 },
 "SSLIP02": {
 "dop": 390.0,
@@ -5621,11 +5401,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w111-d167/"
 },
-"W111GX": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w111-d396850/"
-},
 "W11450": {
 "dop": 600.0,
 "skladem": true,
@@ -5666,11 +5441,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w130-d1196/"
 },
-"W13450": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/damsky-parfem-w134-d19749/"
-},
 "W13750": {
 "dop": 600.0,
 "skladem": true,
@@ -5690,11 +5460,6 @@
 "dop": 600.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w142-d97425/"
-},
-"W142GX": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w142-d396853/"
 },
 "W14350": {
 "dop": 600.0,
@@ -5846,11 +5611,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w187-d341356/"
 },
-"W187GX": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
 "W18850": {
 "dop": 635.0,
 "skladem": true,
@@ -5865,11 +5625,6 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": ""
-},
-"W190GX": {
-"dop": 210.0,
-"skladem": false,
-"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,
@@ -5925,16 +5680,6 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w199-d402023/"
-},
-"W20050X": {
-"dop": null,
-"skladem": false,
-"url_dodavatel": ""
-},
-"W20150X": {
-"dop": 635.0,
-"skladem": true,
-"url_dodavatel": ""
 },
 "W20250X": {
 "dop": 635.0,
