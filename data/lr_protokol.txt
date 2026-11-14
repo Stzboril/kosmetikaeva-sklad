@@ -1,7 +1,7 @@
-2026-11-13T08:23+01:00
+2026-11-14T13:25+01:00
 pokus 1
-WebFetch: client_error u zdravi, krasa, aloe-vera-care (zdravi i po opakování) → zbylé stránky přes WebFetch přeskočeny.
-Staženo prohlížečem v aplikaci Claude (počítač uživatele): AJAX výpis /dataN?data=KategorieProduktyAjax (limitdo=1000), karty čteny z HTML; počet karet = rowMax u všech stránek; přenos gzip+base64, SHA-256 shoda.
+WebFetch: https://www.lr-czech.com/zdravi, /krasa, /aloe-vera-care – client_error (i po opakování) → zbylé stránky přes WebFetch přeskočeny
+Stahování: prohlížeč v aplikaci Claude, AJAX /dataN?data=KategorieProduktyAjax (limitdo=1000), karty bez „Cena“ vynechány
 https://www.lr-czech.com/zdravi – 56 řádků
 https://www.lr-czech.com/krasa – 169 řádků
 https://www.lr-czech.com/aloe-vera-care – 48 řádků
@@ -17,11 +17,6 @@ https://www.lr-czech.com/pece-o-plet – 70 řádků
 https://www.lr-czech.com/sera – 17 řádků
 https://www.lr-czech.com/pece-o-telo-zuby – 4 řádků
 https://www.lr-czech.com/specialiste – 38 řádků
-Celkem 618 karet, 12 bez „Cena“ vynecháno, 606 řádků.
-Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě):
-20676-101 – ANO
-23113-101 – ANO
-23114-101 – ANO
-27170-1 – ANO
-27171-1 – ANO
-Uloženo 235 produktů LR, z toho není skladem: 5, v akci: 69
+Celkem 606 řádků, po sloučení duplicit 235 řádků / 235 kódů, rozpory 0; přenos gzip+base64, SHA-256 shoda
+Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě) – 29069-99, 29028-1, 20676-101, 27170-1, 27171-1, 23114-101, 23113-101 – ANO
+Uloženo 235 produktů LR, z toho není skladem: 7, v akci: 69
