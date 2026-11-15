@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-14T14:25+02:00",
+"cas": "2026-11-15T11:29+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -680,313 +680,157 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "29021-1": {
-"akce": {
-"cena": 529.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 889.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující korektor – 01 Fair",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29021-2": {
-"akce": {
-"cena": 529.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 889.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující korektor – 02 Light",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29021-3": {
-"akce": {
-"cena": 529.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 889.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující korektor – 03 Neutral",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29022-1": {
-"akce": {
-"cena": 969.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1389.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující make-up – 01 Fair",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29022-2": {
-"akce": {
-"cena": 969.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1389.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující make-up – 02 Light",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29022-3": {
-"akce": {
-"cena": 969.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1389.0,
 "nazev": "LR ZEITGARD Signature Rozjasňující make-up – 03 Neutral",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29023-1": {
-"akce": {
-"cena": 635.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Fixační pudr – Light-medium",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29024-1": {
-"akce": {
-"cena": 595.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 795.0,
 "nazev": "LR ZEITGARD Signature Tekutý rozjasňovač – Rose Gold",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29026-1": {
-"akce": {
-"cena": 595.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 795.0,
 "nazev": "LR ZEITGARD Signature Tekutá tvářenka – Light Pink",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29027-1": {
-"akce": {
-"cena": 855.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1009.0,
 "nazev": "LR ZEITGARD Signature Aktivační sérum na řasy",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29028-1": {
-"akce": {
-"cena": 729.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1329.0,
 "nazev": "LR ZEITGARD Signature Paletka očních stínů",
 "skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29029-1": {
-"akce": {
-"cena": 629.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 745.0,
 "nazev": "LR ZEITGARD Signature Řasenka pro intenzivní efekt – Deep Black",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29030-1": {
-"akce": {
-"cena": 319.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Light",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29030-2": {
-"akce": {
-"cena": 319.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Medium",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29031-1": {
-"akce": {
-"cena": 399.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 01 Pure Red",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29031-2": {
-"akce": {
-"cena": 399.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 02 Rosy Nude",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29031-3": {
-"akce": {
-"cena": 399.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 03 Berry Rose",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29031-4": {
-"akce": {
-"cena": 399.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 665.0,
 "nazev": "LR ZEITGARD Signature Jemná konturovací tužka – 04 Deep Brown",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29032-1": {
-"akce": {
-"cena": 635.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 01 Pure Red",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29032-2": {
-"akce": {
-"cena": 635.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 02 Rosy Nude",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29032-3": {
-"akce": {
-"cena": 635.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 03 Berry Rose",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29032-4": {
-"akce": {
-"cena": 635.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 1059.0,
 "nazev": "LR ZEITGARD Signature Hedvábně matná rtěnka – 04 Ruby Red",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29033-1": {
-"akce": {
-"cena": 675.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 795.0,
 "nazev": "LR ZEITGARD Signature Lesk na rty – Soft Rose",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29033-2": {
-"akce": {
-"cena": 675.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 795.0,
 "nazev": "LR ZEITGARD Signature Lesk na rty – Peachy Brown",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29068": {
-"akce": {
-"cena": 7069.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 10069.0,
 "nazev": "Signature Série na líčení",
 "skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29069-99": {
-"akce": {
-"cena": 10690.0,
-"do": "2026-11-14",
-"od": "2026-11-08",
-"stitek": "Akce 08.-14. 11. 2026"
-},
-"cena": null,
+"cena": 15969.0,
 "nazev": "Signature Kompletní série",
 "skladem": false,
 "url": "https://www.lr-czech.com/krasa"
@@ -1424,13 +1268,25 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80332-799": {
-"cena": 1025.0,
+"akce": {
+"cena": 869.0,
+"do": "2026-11-21",
+"od": "2026-11-15",
+"stitek": "Akce 15.-21. 11. 2026"
+},
+"cena": null,
 "nazev": "LR LIFETAKT Woman Phyto Kapsle",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80338-698": {
-"cena": 1269.0,
+"akce": {
+"cena": 1075.0,
+"do": "2026-11-21",
+"od": "2026-11-15",
+"stitek": "Akce 15.-21. 11. 2026"
+},
+"cena": null,
 "nazev": "LR LIFETAKT Super Omega Kapsle",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1486,6 +1342,18 @@
 },
 "cena": null,
 "nazev": "LR LIFETAKT Cistus Incanus Série Kapsle 2 ks",
+"skladem": true,
+"url": "https://www.lr-czech.com/zdravi"
+},
+"80529-698": {
+"akce": {
+"cena": 3799.0,
+"do": "2026-11-21",
+"od": "2026-11-15",
+"stitek": "Akce 15.-21. 11. 2026"
+},
+"cena": null,
+"nazev": "LR LIFETAKT Super Omega Kapsle Série 4 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
