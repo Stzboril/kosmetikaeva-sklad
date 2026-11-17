@@ -1,4 +1,4 @@
-2026-11-16T10:16+01:00
+2026-11-17T05:25+01:00
 pokus 1
 WebFetch: https://www.lr-czech.com/zdravi, /krasa, /aloe-vera-care – client_error (i po opakování) → zbylé stránky přes WebFetch přeskočeny
 Stahování: prohlížeč v aplikaci Claude, AJAX /dataN?data=KategorieProduktyAjax (limitdo=1000), karty bez „Cena“ vynechány
