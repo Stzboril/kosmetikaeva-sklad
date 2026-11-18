@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-18T09:58+02:00",
+"cas": "2026-11-18T15:00+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -401,6 +401,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/1262/aroma-sachet-the-garden-of-dreams-125-ml"
 },
+"1268": {
+"dop": 346.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/1268/parfem-na-prani-c6"
+},
 "1274": {
 "dop": 69.0,
 "skladem": false,
@@ -650,6 +655,16 @@
 "dop": 1441.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/19654/set-1079106333523494ca03154403"
+},
+"19659": {
+"dop": 796.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19659/set-10371038114611434420"
+},
+"19660": {
+"dop": 796.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/19660/set-10371038114611434421"
 },
 "2005": {
 "dop": 169.0,
@@ -2231,6 +2246,26 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3488/universal-cleaner-angel-rose-500-ml"
 },
+"3489": {
+"dop": 76.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/3489/2in1-detergent-softener-angel-rose-100-ml"
+},
+"3490": {
+"dop": 73.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/3490/hand-soap-with-aloe-vera-angel-rose-100-ml"
+},
+"3491": {
+"dop": 76.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/3491/quick-handy-ironing-angel-rose-100-ml"
+},
+"3492": {
+"dop": 76.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/3492/emergency-disinfection-gel-angel-rose-50-ml"
+},
 "3493": {
 "dop": 99.0,
 "skladem": true,
@@ -2715,6 +2750,11 @@
 "dop": 1093.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/69461/set-cc6841cc6842cc68014384"
+},
+"69462": {
+"dop": 2029.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/69462/set-ca0312ca0313ca0314ca03154458"
 },
 "7001": {
 "dop": 329.0,
@@ -3267,8 +3307,8 @@
 "url_dodavatel": "https://www.essens.cz/zubni-kartacek-ultra-soft-bila-cerna-d173022/"
 },
 "AVE65": {
-"dop": null,
-"skladem": false,
+"dop": 480.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "AVE66": {
@@ -3320,6 +3360,16 @@
 "dop": 525.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/paleta-rozjasnovacu-3v1-d363358/"
+},
+"BLUSH04": {
+"dop": 340.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"BLUSH05": {
+"dop": 340.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "CA0152": {
 "dop": 229.0,
@@ -3761,6 +3811,21 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6832/pure-ways-for-him-cool-eau-de-parfum-50-ml"
 },
+"CC6834": {
+"dop": 230.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/CC6834/warming-massage-oil-love-story-150-ml"
+},
+"CC6835": {
+"dop": 192.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/CC6835/relaxing-bath-foam-love-story-250-ml"
+},
+"CC6836": {
+"dop": 192.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/CC6836/silky-shower-gel-love-story-250-ml"
+},
 "CC6837": {
 "dop": 397.0,
 "skladem": true,
@@ -4092,6 +4157,11 @@
 "url_dodavatel": "https://www.essens.cz/essens-detox-set-doplnky-stravy-d521733/"
 },
 "DRAMA01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"DRAMA02": {
 "dop": 495.0,
 "skladem": true,
 "url_dodavatel": ""
@@ -5202,8 +5272,8 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/PB7014/cerny-lavender-sugar-free-lavender-nectar-250-ml"
 },
 "SAVE05": {
-"dop": null,
-"skladem": false,
+"dop": 1320.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "SAVE06": {
@@ -5242,8 +5312,8 @@
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-d498497/"
 },
 "SBEARD": {
-"dop": 1260.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "SC26": {
@@ -5287,8 +5357,8 @@
 "url_dodavatel": "https://www.essens.cz/aloe-vera-gel-drinky-d317230/"
 },
 "SETCH54": {
-"dop": null,
-"skladem": false,
+"dop": 925.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "SETCH67": {

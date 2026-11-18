@@ -637,6 +637,14 @@
 "url": "https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-the-garden-of-dreams-125-ml/",
 "znacka": "Eurona"
 },
+"1268": {
+"akce": null,
+"cena": 319.0,
+"kod": "1268",
+"nazev": "Eurona The Garden of Dreams Parfém na praní 250 ml",
+"url": "https://www.kosmetikaeva.eu/parfemy-na-prani/eurona-the-garden-of-dreams-parfem-na-prani-250-ml/",
+"znacka": "Eurona"
+},
 "1274": {
 "akce": null,
 "cena": 69.0,
@@ -1001,7 +1009,7 @@
 "akce": null,
 "cena": 859.0,
 "kod": "19649",
-"nazev": "Eurona set Vánoční úklid v klidu! + unisex ponožky zdarma",
+"nazev": "Eurona prací prostředek na bílé prádlo 935 g + multifunkční agent s kyslíkem 800 g + čistič pračky 250 g + čistič trub a grilů 250 ml dárková sada s …",
 "url": "https://www.kosmetikaeva.eu/prani-pradla/eurona-set-vanocni-uklid-v-klidu--unisex-ponozky-zdarma/",
 "znacka": "Eurona"
 },
@@ -1009,7 +1017,7 @@
 "akce": null,
 "cena": 859.0,
 "kod": "19650",
-"nazev": "Eurona set Vánoční úklid v klidu! + dámské ponožky zdarma",
+"nazev": "Eurona prací prostředek na bílé prádlo 935 g + multifunkční agent s kyslíkem 800 g + čistič pračky 250 g + čistič trub a grilů 250 ml dárková sada s …",
 "url": "https://www.kosmetikaeva.eu/prani-pradla/eurona-set-vanocni-uklid-v-klidu--damske-ponozky-zdarma/",
 "znacka": "Eurona"
 },
@@ -1017,7 +1025,7 @@
 "akce": null,
 "cena": 1139.0,
 "kod": "19651",
-"nazev": "Eurona set Zahalte se smyslností Černé perly + dámská šála zdarma",
+"nazev": "Eurona Černá perla prací prostředek na černé prádlo 1000 ml + předpírkový sprej 500 ml + aviváž 1000 ml + přípravek proti roztočům 250 ml + tekuté mý…",
 "url": "https://www.kosmetikaeva.eu/prani-pradla/eurona-set-zahalte-se-smyslnosti-cerne-perly-damska-sala-zdarma/",
 "znacka": "Eurona"
 },
@@ -1025,7 +1033,7 @@
 "akce": null,
 "cena": 1139.0,
 "kod": "19652",
-"nazev": "Eurona set Zahalte se smyslností Černé perly + pánská šála zdarma",
+"nazev": "Eurona Černá perla prací prostředek na černé prádlo 1000 ml + předpírkový sprej 500 ml + aviváž 1000 ml + přípravek proti roztočům 250 ml + tekuté mý…",
 "url": "https://www.kosmetikaeva.eu/prani-pradla/eurona-set-zahalte-se-smyslnosti-cerne-perly-panska-sala-zdarma/",
 "znacka": "Eurona"
 },
@@ -1033,7 +1041,7 @@
 "akce": null,
 "cena": 1329.0,
 "kod": "19653",
-"nazev": "Eurona set Nechte se provázet vůní Večernice + pánská šála zdarma",
+"nazev": "Eurona Večernice aviváž 1000 ml + White & Bright 1000 ml + tekuté mýdlo Vesper 400 ml + univerzální úklidový prostředek 500 ml + vonná svíčka O´Jingl…",
 "url": "https://www.kosmetikaeva.eu/prani-pradla/eurona-set-nechte-se-provazet-vuni-vecernice-panska-sala-zdarma/",
 "znacka": "Eurona"
 },
@@ -1041,8 +1049,24 @@
 "akce": null,
 "cena": 1329.0,
 "kod": "19654",
-"nazev": "Eurona set Nechte se provázet vůní Večernice + dámská šála zdarma",
+"nazev": "Eurona Večernice aviváž 1000 ml + White & Bright 1000 ml + tekuté mýdlo Vesper 400 ml + univerzální úklidový prostředek 500 ml + vonná svíčka O´Jingl…",
 "url": "https://www.kosmetikaeva.eu/prani-pradla/eurona-set-nechte-se-provazet-vuni-vecernice-damska-sala-zdarma/",
+"znacka": "Eurona"
+},
+"19659": {
+"akce": null,
+"cena": 739.0,
+"kod": "19659",
+"nazev": "Eurona set Kompletní péče o zimní a funkční oblečení + modrý sportovní šátek zdarma",
+"url": "https://www.kosmetikaeva.eu/specialni-praci-prostredky/eurona-set-kompletni-pece-o-zimni-a-funkcni-obleceni-modry-sportovni-satek-zdarma/",
+"znacka": "Eurona"
+},
+"19660": {
+"akce": null,
+"cena": 739.0,
+"kod": "19660",
+"nazev": "Eurona set Kompletní péče o zimní a funkční oblečení + růžový sportovní šátek zdarma",
+"url": "https://www.kosmetikaeva.eu/specialni-praci-prostredky/eurona-set-kompletni-pece-o-zimni-a-funkcni-obleceni-ruzovy-sportovni-satek-zdarma/",
 "znacka": "Eurona"
 },
 "2005": {
@@ -1097,7 +1121,7 @@
 "akce": 499.0,
 "cena": 529.0,
 "kod": "20345-1",
-"nazev": "LR Aloe Vera Kids Set péče pro děti",
+"nazev": "LR Aloe Vera Kids 3v1 šampon, kondicionér a sprchový gel 250 ml + kouzelné třpytivé pěnové mýdlo 200 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/pro-deti/lr-aloe-vera-kids-set-pece-pro-deti/",
 "znacka": "LR"
 },
@@ -1555,7 +1579,7 @@
 "akce": 1079.0,
 "cena": 1159.0,
 "kod": "20886-1",
-"nazev": "LR Aloe Vera Set pro péči o obličej – dárkové balení",
+"nazev": "LR Aloe Vera extra výživný denní krém 50 ml + pleťové sérum pro posílení kožní bariéry 30 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-set-pro-peci-o-oblicej-darkove-baleni/",
 "znacka": "LR"
 },
@@ -1563,7 +1587,7 @@
 "akce": 1319.0,
 "cena": 1639.0,
 "kod": "20905-1",
-"nazev": "LR Aloe Vera Série speciální péče",
+"nazev": "LR Aloe Vera sprej první pomoci 150 ml + hydratační gelový koncentrát 100 ml + ochranný krém s propolisem 100 ml + krémový gel první pomoci 30 ml dár…",
 "url": "https://www.kosmetikaeva.eu/specialni-pece/lr-aloe-vera-serie-specialni-pece/",
 "znacka": "LR"
 },
@@ -1733,7 +1757,7 @@
 "akce": 929.0,
 "cena": 999.0,
 "kod": "27091-101",
-"nazev": "LR Milk & Honey Série pro péči o tělo – dárkové balení",
+"nazev": "LR Milk & Honey tělový krém 200 ml + pěna do koupele 250 ml + krémové mýdlo 250 ml + krém na ruce 75 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/lr-milk-honey-serie-pro-peci-o-telo-darkove-baleni/",
 "znacka": "LR"
 },
@@ -1827,7 +1851,7 @@
 "akce": 699.0,
 "cena": 755.0,
 "kod": "27183-1",
-"nazev": "LR Aloe Vera Frosted Rosehip Set pro péči o tělo",
+"nazev": "LR Aloe Vera Frosted Rosehip tělový balzám 250 ml + maska na ruce a chodidla 100 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/lr-aloe-vera-frosted-rosehip-set-pro-peci-o-telo/",
 "znacka": "LR"
 },
@@ -2065,7 +2089,7 @@
 "akce": 2899.0,
 "cena": 3125.0,
 "kod": "28325-1",
-"nazev": "LR ZEITGARD Beauty Diamonds série + kosmetická taštička",
+"nazev": "LR ZEITGARD Beauty Diamonds denní krém 50 ml + noční krém 50 ml + oční krém a maska 2v1 30 ml + kosmetická taštička dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-beauty-diamonds-serie-kosmeticka-tasticka/",
 "znacka": "LR"
 },
@@ -2697,7 +2721,7 @@
 "akce": null,
 "cena": 1799.0,
 "kod": "30735-1",
-"nazev": "LR Be Flirty Pečující set – EdP 50 ml + tělový krém + roll-on parfém",
+"nazev": "LR Be Flirty parfémovaná voda 50 ml + tělový krém 200 ml + roll-on parfém 10 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/lr-be-flirty-pecujici-set-edp-50-ml-telovy-krem-roll-on-parfem/",
 "znacka": "LR"
 },
@@ -3635,6 +3659,38 @@
 "url": "https://www.kosmetikaeva.eu/univerzalni-cistici-prostredky/eurona-univerzalni-uklidovy-prostredek-angel-rose-500-ml/",
 "znacka": "Eurona"
 },
+"3489": {
+"akce": null,
+"cena": 76.0,
+"kod": "3489",
+"nazev": "Eurona Tekutý prací prostředek 2 v 1 Angel Rose 100 ml",
+"url": "https://www.kosmetikaeva.eu/univerzalni-praci-prostredky/eurona-tekuty-praci-prostredek-2-v-1-angel-rose-100-ml/",
+"znacka": "Eurona"
+},
+"3490": {
+"akce": null,
+"cena": 69.0,
+"kod": "3490",
+"nazev": "Eurona Tekuté mýdlo s aloe vera Angel Rose 100 ml",
+"url": "https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-angel-rose-100-ml/",
+"znacka": "Eurona"
+},
+"3491": {
+"akce": null,
+"cena": 76.0,
+"kod": "3491",
+"nazev": "Eurona Pohotovostní žehlička s vůní Angel Rose 100 ml",
+"url": "https://www.kosmetikaeva.eu/specialni-praci-prostredky/eurona-pohotovostni-zehlicka-s-vuni-angel-rose-100-ml/",
+"znacka": "Eurona"
+},
+"3492": {
+"akce": null,
+"cena": 76.0,
+"kod": "3492",
+"nazev": "Eurona Pohotovostní gel pro rychlou dezinfekci Angel Rose 50 ml",
+"url": "https://www.kosmetikaeva.eu/dezinfekce/eurona-pohotovostni-gel-pro-rychlou-dezinfekci-angel-rose-50-ml/",
+"znacka": "Eurona"
+},
 "3493": {
 "akce": null,
 "cena": 99.0,
@@ -3711,7 +3767,7 @@
 "akce": null,
 "cena": 849.0,
 "kod": "38153",
-"nazev": "Eurona set Ať kuchyně září čistotou! + dámské ponožky zdarma",
+"nazev": "Eurona čistič kuchyní 500 ml + gel na rez a vodní kámen 500 ml + rozpouštěč vodního kamene 500 ml + čistič nerezu 250 ml + čistič digestoří 250 ml dá…",
 "url": "https://www.kosmetikaeva.eu/kuchyne/eurona-set-at-kuchyne-zari-cistotou--damske-ponozky-zdarma/",
 "znacka": "Eurona"
 },
@@ -3719,7 +3775,7 @@
 "akce": null,
 "cena": 849.0,
 "kod": "38154",
-"nazev": "Eurona set Ať kuchyně září čistotou! + unisex ponožky zdarma",
+"nazev": "Eurona čistič kuchyní 500 ml + gel na rez a vodní kámen 500 ml + rozpouštěč vodního kamene 500 ml + čistič nerezu 250 ml + čistič digestoří 250 ml dá…",
 "url": "https://www.kosmetikaeva.eu/kuchyne/eurona-set-at-kuchyne-zari-cistotou--unisex-ponozky-zdarma/",
 "znacka": "Eurona"
 },
@@ -3727,7 +3783,7 @@
 "akce": null,
 "cena": 749.0,
 "kod": "38155",
-"nazev": "Eurona set Mořská záře v koupelně + čistič sprchových koutů zdarma",
+"nazev": "Eurona čistič koupelen 500 ml + čistič odpadů 750 ml + WC gel Mořská záře 200 ml + čistič toalet Mořská záře 750 ml + čistič sprchových koutů 250 ml …",
 "url": "https://www.kosmetikaeva.eu/koupelny/eurona-set-morska-zare-v-koupelne-cistic-sprchovych-koutu-zdarma/",
 "znacka": "Eurona"
 },
@@ -4305,7 +4361,7 @@
 "akce": null,
 "cena": 999.0,
 "kod": "69447",
-"nazev": "Eurona set Ryze mužská záležitost! MAN ZONE + pánská šála zdarma",
+"nazev": "Eurona MAN ZONE No.1 sprchový gel 250 ml + deodorant 50 ml + šampon 250 ml + DEYRES elixír pro růst vlasů 50 ml dárková sada s pánskou šálou",
 "url": "https://www.kosmetikaeva.eu/pro-muze/eurona-set-ryze-muzska-zalezitost--man-zone-panska-sala-zdarma/",
 "znacka": "Eurona"
 },
@@ -4313,7 +4369,7 @@
 "akce": null,
 "cena": 769.0,
 "kod": "69448",
-"nazev": "Eurona Dárky s vůní Aiwysnow + tuhé mýdlo zdarma",
+"nazev": "Eurona AIWYSNOW vonná svíčka 200 g + aroma difuzér 50 ml + tuhé mýdlo 90 g dárková sada",
 "url": "https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-darky-s-vuni-aiwysnow-tuhe-mydlo-zdarma/",
 "znacka": "Eurona"
 },
@@ -4321,7 +4377,7 @@
 "akce": null,
 "cena": 769.0,
 "kod": "69449",
-"nazev": "Eurona Dárky s vůní Améthis + tekuté mýdlo zdarma",
+"nazev": "Eurona Améthis vonná svíčka 200 g + aroma difuzér 50 ml + tekuté mýdlo 400 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-darky-s-vuni-amethis-tekute-mydlo-zdarma/",
 "znacka": "Eurona"
 },
@@ -4329,7 +4385,7 @@
 "akce": null,
 "cena": 639.0,
 "kod": "69450",
-"nazev": "Eurona Dárky s vůní Vanilkové ambry + parfémová sašetka zdarma",
+"nazev": "Eurona Amber Vanilla vonná svíčka 200 g + tuhé mýdlo s medem 90 g + parfémová sašetka 125 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-darky-s-vuni-vanilkove-ambry-parfemova-sasetka-zdarma/",
 "znacka": "Eurona"
 },
@@ -4337,7 +4393,7 @@
 "akce": null,
 "cena": 459.0,
 "kod": "69451",
-"nazev": "Eurona Dárky s vůní Green + parfémová sašetka zdarma",
+"nazev": "Eurona Green aroma difuzér 50 ml + Iconic Stars Green 5 ml + parfémová sašetka 125 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-darky-s-vuni-green-parfemova-sasetka-zdarma/",
 "znacka": "Eurona"
 },
@@ -4345,7 +4401,7 @@
 "akce": null,
 "cena": 849.0,
 "kod": "69453",
-"nazev": "Eurona Dárkový set PURE WAYS for her Loving + ručník zdarma",
+"nazev": "Eurona PURE WAYS for her Loving sprchový gel 250 ml + suchý tělový olej 100 ml + aroma roll-on parfém 10 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/eurona-darkovy-set-pure-ways-for-her-loving-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4353,7 +4409,7 @@
 "akce": null,
 "cena": 849.0,
 "kod": "69454",
-"nazev": "Eurona Dárkový set PURE WAYS for her Elegant + ručník zdarma",
+"nazev": "Eurona PURE WAYS for her Elegant sprchový gel 250 ml + suchý tělový olej 100 ml + aroma roll-on parfém 10 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/eurona-darkovy-set-pure-ways-for-her-elegant-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4361,7 +4417,7 @@
 "akce": null,
 "cena": 849.0,
 "kod": "69455",
-"nazev": "Eurona Dárkový set PURE WAYS for her Inspiring + ručník zdarma",
+"nazev": "Eurona PURE WAYS for her Inspiring sprchový gel 250 ml + suchý tělový olej 100 ml + aroma roll-on parfém 10 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/eurona-darkovy-set-pure-ways-for-her-inspiring-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4369,7 +4425,7 @@
 "akce": null,
 "cena": 1569.0,
 "kod": "69456",
-"nazev": "Eurona NEW GENEA dárkové balení omlazující péče + ručník zdarma",
+"nazev": "Eurona NEW GENEA omlazující denní krém 50 ml + noční krém 50 ml + oční krém 30 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/eurona-new-genea-darkove-baleni-omlazujici-pece-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4377,7 +4433,7 @@
 "akce": null,
 "cena": 1379.0,
 "kod": "69457",
-"nazev": "Eurona NEW UNIQUA dárkové balení hydratační péče + ručník zdarma",
+"nazev": "Eurona NEW UNIQUA hydratační denní krém 50 ml + noční krém 50 ml + čisticí pleťový gel 200 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/eurona-new-uniqua-darkove-baleni-hydratacni-pece-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4385,7 +4441,7 @@
 "akce": null,
 "cena": 1009.0,
 "kod": "69459",
-"nazev": "Eurona Dárkový set DEEP PURIFY a PURE WAYS for her Inspiring + ručník zdarma",
+"nazev": "Eurona DEEP PURIFY šampon 250 ml + kondicionér 250 ml + PURE WAYS for her Inspiring sprchový gel 250 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/vlasy/eurona-darkovy-set-deep-purify-a-pure-ways-for-her-inspiring-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4393,7 +4449,7 @@
 "akce": null,
 "cena": 1009.0,
 "kod": "69460",
-"nazev": "Eurona Dárkový set VITAL ESSENTIA a PURE WAYS for her Boho + ručník zdarma",
+"nazev": "Eurona VITAL ESSENTIA šampon 250 ml + kondicionér 250 ml + PURE WAYS for her Boho sprchový gel 250 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/vlasy/eurona-darkovy-set-vital-essentia-a-pure-ways-for-her-boho-rucnik-zdarma/",
 "znacka": "Eurona"
 },
@@ -4401,8 +4457,16 @@
 "akce": null,
 "cena": 1009.0,
 "kod": "69461",
-"nazev": "Eurona Dárkový set SENSITIVE CLINIC a PURE WAYS for her Loving + ručník zdarma",
+"nazev": "Eurona SENSITIVE CLINIC šampon 250 ml + kondicionér 250 ml + PURE WAYS for her Loving sprchový gel 250 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/vlasy/eurona-darkovy-set-sensitive-clinic-a-pure-ways-for-her-loving-rucnik-zdarma/",
+"znacka": "Eurona"
+},
+"69462": {
+"akce": null,
+"cena": 1869.0,
+"kod": "69462",
+"nazev": "Eurona set Provoňte svůj domov – 4 vonné svíčky + parfemovaná deka zdarma",
+"url": "https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-set-provonte-svuj-domov-4-vonne-svicky-parfemovana-deka-zdarma/",
 "znacka": "Eurona"
 },
 "7001": {
@@ -4473,7 +4537,7 @@
 "akce": null,
 "cena": 1929.0,
 "kod": "70104-1",
-"nazev": "LR ZEITGARD PRO Peelingová hlavice",
+"nazev": "LR Health Beauty Zeitgard Face Peelingová hlavice",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-peelingova-hlavice/",
 "znacka": "LR"
 },
@@ -4481,7 +4545,7 @@
 "akce": null,
 "cena": 1929.0,
 "kod": "70105-1",
-"nazev": "LR ZEITGARD PRO Čisticí hlavice včetně adaptéru",
+"nazev": "LR Health Beauty Zeitgard Pro Čistící hlavice včetně adaptéru",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-cistici-hlavice-vcetne-adapteru/",
 "znacka": "LR"
 },
@@ -4489,7 +4553,7 @@
 "akce": null,
 "cena": 7889.0,
 "kod": "70106-1",
-"nazev": "LR ZEITGARD PRO Série pro čištění obličeje",
+"nazev": "LR Health Beauty Zeitgard Pro Série pro čištění obličeje",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-serie-pro-cisteni-obliceje/",
 "znacka": "LR"
 },
@@ -4505,7 +4569,7 @@
 "akce": null,
 "cena": 7679.0,
 "kod": "70110-1",
-"nazev": "LR ZEITGARD PRO Set pro čištění obličeje",
+"nazev": "LR Health Beauty Zeitgard Pro Set pro čištění obličeje",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-set-pro-cisteni-obliceje/",
 "znacka": "LR"
 },
@@ -4513,7 +4577,7 @@
 "akce": null,
 "cena": 7679.0,
 "kod": "70110-2",
-"nazev": "LR ZEITGARD PRO Set pro peeling obličeje",
+"nazev": "LR Health Beauty Zeitgard Pro Set pro peeling obličeje",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-set-pro-peeling-obliceje/",
 "znacka": "LR"
 },
@@ -4521,7 +4585,7 @@
 "akce": null,
 "cena": 7679.0,
 "kod": "70110-3",
-"nazev": "LR ZEITGARD PRO Set pro vyhlazení obličeje",
+"nazev": "LR Health Beauty Zeitgard Pro Set pro vyhlazení obličeje",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-set-pro-vyhlazeni-obliceje/",
 "znacka": "LR"
 },
@@ -4529,7 +4593,7 @@
 "akce": null,
 "cena": 7679.0,
 "kod": "70110-4",
-"nazev": "LR ZEITGARD PRO Set pro péči o tělo",
+"nazev": "LR Health Beauty Zeitgard Pro Set pro péči o tělo",
 "url": "https://www.kosmetikaeva.eu/telo-2/lr-zeitgard-pro-set-pro-peci-o-telo/",
 "znacka": "LR"
 },
@@ -4537,7 +4601,7 @@
 "akce": null,
 "cena": 13739.0,
 "kod": "70111-1",
-"nazev": "LR ZEITGARD PRO Kompletní set",
+"nazev": "LR Health Beauty Zeitgard Pro Kompletní set",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-kompletni-set/",
 "znacka": "LR"
 },
@@ -4689,7 +4753,7 @@
 "akce": null,
 "cena": 2599.0,
 "kod": "80352-499",
-"nazev": "LR LIFETAKT Woman Phyto Kapsle Série 3 ks",
+"nazev": "LR Lifetakt Woman Phyto 3 x 90 kapslí",
 "url": "https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-woman-phyto-kapsle-serie-3-ks/",
 "znacka": "LR"
 },
@@ -4769,7 +4833,7 @@
 "akce": 1709.0,
 "cena": 1839.0,
 "kod": "80702-680",
-"nazev": "LR LIFETAKT Aloe Vera Drinking Gel Traditional s medem Série 2 × 1000 ml + Extra hustý krém na ruce",
+"nazev": "LR Lifetakt Aloe Vera Drinking Gel Traditional s medem 2 x 1000 ml + Aloe Vera extra hustý krém na ruce 75 ml sada",
 "url": "https://www.kosmetikaeva.eu/aloe-vera-gel/lr-lifetakt-aloe-vera-drinking-gel-traditional-s-medem-serie-2x1000-ml-extra-husty-krem-na-ruce/",
 "znacka": "LR"
 },
@@ -4801,7 +4865,7 @@
 "akce": 1709.0,
 "cena": 1839.0,
 "kod": "80779-681",
-"nazev": "LR LIFETAKT Aloe Vera Drinking Gel Broskev Série 2 × 1000 ml + Extra hustý krém na ruce",
+"nazev": "LR Lifetakt Aloe Vera Drinking Gel Broskev 2 x 1000 ml + Aloe Vera extra hustý krém na ruce 75 ml sada",
 "url": "https://www.kosmetikaeva.eu/aloe-vera-gel/lr-lifetakt-aloe-vera-drinking-gel-broskev-serie-2x1000-ml-extra-husty-krem-na-ruce/",
 "znacka": "LR"
 },
@@ -4817,7 +4881,7 @@
 "akce": 1909.0,
 "cena": 2059.0,
 "kod": "80802-780",
-"nazev": "LR LIFETAKT Aloe Vera Drinking Gel Intense Sivera Série 2 × 1000 ml + Extra hustý krém na ruce",
+"nazev": "LR Lifetakt Aloe Vera Drinking Gel Intense Sivera 2 x 1000 ml + Aloe Vera extra hustý krém na ruce 75 ml sada",
 "url": "https://www.kosmetikaeva.eu/aloe-vera-gel/lr-lifetakt-aloe-vera-drinking-gel-intense-sivera-serie-2x1000-ml-extra-husty-krem-na-ruce/",
 "znacka": "LR"
 },
@@ -4849,7 +4913,7 @@
 "akce": 1909.0,
 "cena": 2059.0,
 "kod": "80868-683",
-"nazev": "LR LIFETAKT Aloe Vera Drinking Gel Active Freedom Série 2 × 1000 ml + Extra hustý krém na ruce",
+"nazev": "LR Lifetakt Aloe Vera Drinking Gel Active Freedom 2 x 1000 ml + Aloe Vera extra hustý krém na ruce 75 ml sada",
 "url": "https://www.kosmetikaeva.eu/aloe-vera-gel/lr-lifetakt-aloe-vera-drinking-gel-active-freedom-serie-2x1000-ml-extra-husty-krem-na-ruce/",
 "znacka": "LR"
 },
@@ -4905,7 +4969,7 @@
 "akce": 1909.0,
 "cena": 2059.0,
 "kod": "81002-19",
-"nazev": "LR LIFETAKT Aloe Vera Drinking Gel Immune Plus Série 2 × 1000 ml + Extra hustý krém na ruce",
+"nazev": "LR Lifetakt Aloe Vera Drinking Gel Immune Plus 2 x 1000 ml + Aloe Vera extra hustý krém na ruce 75 ml sada",
 "url": "https://www.kosmetikaeva.eu/aloe-vera-gel/lr-lifetakt-aloe-vera-drinking-gel-immune-plus-serie-2x1000-ml-extra-husty-krem-na-ruce/",
 "znacka": "LR"
 },
@@ -5031,7 +5095,7 @@
 "akce": null,
 "cena": 4259.0,
 "kod": "96999-19",
-"nazev": "LR ZEITGARD Beauty Diamonds Care série + ZEITGARD taštička",
+"nazev": "LR ZEITGARD čisticí krém 125 ml + pleťová voda 200 ml + Beauty Diamonds denní krém 50 ml + noční krém 50 ml + oční krém a maska 2v1 30 ml + taštička …",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-beauty-diamonds-care-serie-zeitgard-tasticka/",
 "znacka": "LR"
 },
@@ -5517,7 +5581,7 @@
 "akce": null,
 "cena": 129.0,
 "kod": "AVE60",
-"nazev": "Essens Set mezizubních kartáčků 6 ks",
+"nazev": "Essens mezizubní kartáčky 0,4 mm + 0,5 mm + 0,6 mm 6 ks",
 "url": "https://www.kosmetikaeva.eu/usta-a-zuby/essens-set-mezizubnich-kartacku-6-ks/",
 "znacka": "Essens"
 },
@@ -5623,6 +5687,22 @@
 "kod": "BLUSH03",
 "nazev": "Essens Paleta rozjasňovačů 3v1 12 g",
 "url": "https://www.kosmetikaeva.eu/oblicej-2/essens-paleta-rozjasnovacu-3v1-12-g/",
+"znacka": "Essens"
+},
+"BLUSH04": {
+"akce": null,
+"cena": 319.0,
+"kod": "BLUSH04",
+"nazev": "Essens Tekutá tvářenka Cheek Freak Fever 6 ml",
+"url": "https://www.kosmetikaeva.eu/oblicej-2/essens-tekuta-tvarenka-cheek-freak-fever-6-ml/",
+"znacka": "Essens"
+},
+"BLUSH05": {
+"akce": null,
+"cena": 319.0,
+"kod": "BLUSH05",
+"nazev": "Essens Tekutá tvářenka Cheek Freak Flicker 6 ml",
+"url": "https://www.kosmetikaeva.eu/oblicej-2/essens-tekuta-tvarenka-cheek-freak-flicker-6-ml/",
 "znacka": "Essens"
 },
 "CA0152": {
@@ -6327,6 +6407,30 @@
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/eurona-parfem-pro-muze-pure-ways-for-him-cool-50-ml/",
 "znacka": "Eurona"
 },
+"CC6834": {
+"akce": null,
+"cena": 219.0,
+"kod": "CC6834",
+"nazev": "Eurona Masážní olej s hřejivým účinkem Love Story 150 ml",
+"url": "https://www.kosmetikaeva.eu/telo-2/eurona-masazni-olej-s-hrejivym-ucinkem-love-story-150-ml/",
+"znacka": "Eurona"
+},
+"CC6835": {
+"akce": null,
+"cena": 179.0,
+"kod": "CC6835",
+"nazev": "Eurona Relaxační pěna do koupele Love Story 250 ml",
+"url": "https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-relaxacni-pena-do-koupele-love-story-250-ml/",
+"znacka": "Eurona"
+},
+"CC6836": {
+"akce": null,
+"cena": 179.0,
+"kod": "CC6836",
+"nazev": "Eurona Hedvábný sprchový gel Love Story 250 ml",
+"url": "https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-hedvabny-sprchovy-gel-love-story-250-ml/",
+"znacka": "Eurona"
+},
 "CC6837": {
 "akce": null,
 "cena": 369.0,
@@ -6863,6 +6967,14 @@
 "url": "https://www.kosmetikaeva.eu/oci/essens-zhustujici-rasenka-13-ml/",
 "znacka": "Essens"
 },
+"DRAMA02": {
+"akce": null,
+"cena": 459.0,
+"kod": "DRAMA02",
+"nazev": "Essens Voděodolná zhušťující řasenka 13 ml",
+"url": "https://www.kosmetikaeva.eu/oci/essens-vodeodolna-zhustujici-rasenka-13-ml/",
+"znacka": "Essens"
+},
 "E3021": {
 "akce": null,
 "cena": 239.0,
@@ -7153,7 +7265,7 @@
 "akce": null,
 "cena": 399.0,
 "kod": "HC91",
-"nazev": "Essens Set krémů na ruce 3 x 30 ml",
+"nazev": "Essens krém na ruce med a jasmín 30 ml + černý čaj a granátové jablko 30 ml + růžové dřevo 30 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/ruce-a-nohy-2/essens-set-kremu-na-ruce-3-x-30-ml/",
 "znacka": "Essens"
 },
@@ -8635,7 +8747,7 @@
 "akce": null,
 "cena": 749.0,
 "kod": "SAVE06",
-"nazev": "Essens Set pro hydratovanou pokožku",
+"nazev": "Essens hydratační pleťový krém 50 ml + tělový peeling s Aloe vera 185 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/essens-set-pro-hydratovanou-pokozku/",
 "znacka": "Essens"
 },
@@ -8643,7 +8755,7 @@
 "akce": null,
 "cena": 1279.0,
 "kod": "SAVE07",
-"nazev": "Essens Aloe Vera Care Set",
+"nazev": "Essens Aloe vera Soft Spray 100 ml + pěna na holení 200 ml + hydratační pleťový krém 50 ml + tělový peeling 185 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/essens-aloe-vera-care-set/",
 "znacka": "Essens"
 },
@@ -8675,7 +8787,7 @@
 "akce": null,
 "cena": 949.0,
 "kod": "SAVE23",
-"nazev": "Essens Set Aloe vera kondicionér pro barvené a suché vlasy + refill 200 ml + 500 ml",
+"nazev": "Essens Set Aloe vera kondicionér pro barvené a suché vlasy 200 ml + 500 ml refill",
 "url": "https://www.kosmetikaeva.eu/vlasy/essens-set-aloe-vera-kondicioner-pro-barvene-a-suche-vlasy-refill-200-ml-500-ml/",
 "znacka": "Essens"
 },
@@ -8683,7 +8795,7 @@
 "akce": null,
 "cena": 949.0,
 "kod": "SAVE24",
-"nazev": "Essens Set Aloe vera Kondicionér pro všechny typy vlasů + refill 200 ml + 500 ml",
+"nazev": "Essens Set Aloe vera kondicionér pro všechny typy vlasů 200 ml + 500 ml refill",
 "url": "https://www.kosmetikaeva.eu/vlasy/essens-set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-refill-200-ml-500-ml/",
 "znacka": "Essens"
 },
@@ -8723,7 +8835,7 @@
 "akce": null,
 "cena": 779.0,
 "kod": "SCOL13N",
-"nazev": "Essens Colostrum Body Set",
+"nazev": "Essens Colostrum sprchový gel 150 ml + krém proti celulitidě 150 ml + výživný tělový krém 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/essens-colostrum-body-set/",
 "znacka": "Essens"
 },
@@ -8747,7 +8859,7 @@
 "akce": null,
 "cena": 469.0,
 "kod": "SETCH21",
-"nazev": "Essens Set krémů na ruce a nohy",
+"nazev": "Essens krém na ruce 100 ml + krém na nohy 100 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/ruce-a-nohy-2/essens-set-kremu-na-ruce-a-nohy/",
 "znacka": "Essens"
 },
@@ -8771,7 +8883,7 @@
 "akce": null,
 "cena": 899.0,
 "kod": "SETCH67",
-"nazev": "Essens Set pro zklidnění dýchacích cest",
+"nazev": "Essens Eucassens 50 ml + tymiánový krém 50 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/specialni-pece/essens-set-pro-zklidneni-dychacich-cest/",
 "znacka": "Essens"
 },
@@ -8779,7 +8891,7 @@
 "akce": null,
 "cena": 429.0,
 "kod": "SETCH79",
-"nazev": "Essens Aloe Care Duo",
+"nazev": "Essens Aloe vera pěna na holení 200 ml + Deo Stick 50 g dárková sada",
 "url": "https://www.kosmetikaeva.eu/telo-2/essens-aloe-care-duo/",
 "znacka": "Essens"
 },
@@ -8787,7 +8899,7 @@
 "akce": null,
 "cena": 649.0,
 "kod": "SETCH80",
-"nazev": "Essens Set Dokonalý rituál s maskou",
+"nazev": "Essens Korean Edition plátýnková maska 3 ks + Must Have Edition hydratační pleťová maska 50 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/essens-set-dokonaly-ritual-s-maskou/",
 "znacka": "Essens"
 },
@@ -8795,7 +8907,7 @@
 "akce": null,
 "cena": 1159.0,
 "kod": "SETCH88",
-"nazev": "Essens Clean Girl Combo",
+"nazev": "Essens Clean Girl Combo krémový korektor 5 ml + paleta pudrových tvářenek 3v1 12 g + řasenka dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-2/essens-clean-girl-combo/",
 "znacka": "Essens"
 },
@@ -8803,7 +8915,7 @@
 "akce": null,
 "cena": 739.0,
 "kod": "SETCOL14",
-"nazev": "Essens Set Sprchový gel s colostrem + refill 150 ml + 500 ml",
+"nazev": "Essens Set sprchový gel s colostrem 150 ml + 500 ml refill",
 "url": "https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-set-sprchovy-gel-s-colostrem-refill-150-ml-500-ml/",
 "znacka": "Essens"
 },
@@ -8819,7 +8931,7 @@
 "akce": null,
 "cena": 869.0,
 "kod": "SETCOL16",
-"nazev": "Essens Set Výživný tělový krém s colostrem + refill 150 ml + 500 ml",
+"nazev": "Essens Set výživný tělový krém s colostrem 150 ml + 500 ml refill",
 "url": "https://www.kosmetikaeva.eu/telo-2/essens-set-vyzivny-telovy-krem-s-colostrem-refill-150-ml-500-ml/",
 "znacka": "Essens"
 },
@@ -8827,7 +8939,7 @@
 "akce": null,
 "cena": 2589.0,
 "kod": "SETCPL01",
-"nazev": "Essens Set Colostrum+ Anti-ageing Basic",
+"nazev": "Essens Colostrum+ Anti-ageing denní krém 50 ml + noční krém 50 ml + obličejové sérum 30 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/essens-set-colostrum--anti-ageing-basic/",
 "znacka": "Essens"
 },
@@ -8835,7 +8947,7 @@
 "akce": null,
 "cena": 2069.0,
 "kod": "SETCPL02",
-"nazev": "Essens Set Colostrum+ Moisturising",
+"nazev": "Essens Colostrum+ hydratační krém 50 ml + pleťové tonikum 150 ml + pleťové mýdlo 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/essens-set-colostrum--moisturising/",
 "znacka": "Essens"
 },
@@ -8843,7 +8955,7 @@
 "akce": null,
 "cena": 4579.0,
 "kod": "SETCPL03",
-"nazev": "Essens Set Colostrum+ Anti-ageing Premium",
+"nazev": "Essens Colostrum+ Anti-ageing denní krém 50 ml + noční krém 50 ml + obličejové sérum 30 ml + oční gel 30 ml + pleťové tonikum 150 ml + pleťové mýdlo …",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/essens-set-colostrum--anti-ageing-premium/",
 "znacka": "Essens"
 },
@@ -8865,7 +8977,7 @@
 "akce": null,
 "cena": 1279.0,
 "kod": "SETLUX05",
-"nazev": "Essens Stellar Glow parfémová sada unisex",
+"nazev": "Essens Stellar Glow luxusní parfém unisex 50 ml + sprchový gel 200 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/unisex-parfemy/essens-parfemovany-set-stellar-glow/",
 "znacka": "Essens"
 },
@@ -8881,7 +8993,7 @@
 "akce": null,
 "cena": 1279.0,
 "kod": "SETLUX10",
-"nazev": "Essens Western Spirit parfémová sada pánská",
+"nazev": "Essens Western Spirit luxusní parfém pánský 50 ml + sprchový gel 200 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/essens-parfemovany-set-western-spirit/",
 "znacka": "Essens"
 },
@@ -8889,7 +9001,7 @@
 "akce": null,
 "cena": 749.0,
 "kod": "SETM028T",
-"nazev": "Essens m028 parfémová sada pánská",
+"nazev": "Essens m028 parfém pánský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m028/",
 "znacka": "Essens"
 },
@@ -8897,7 +9009,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETM041",
-"nazev": "Essens m041 parfémová sada pánská",
+"nazev": "Essens m041 parfém pánský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m041/",
 "znacka": "Essens"
 },
@@ -8905,7 +9017,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETM042",
-"nazev": "Essens m042 parfémová sada pánská",
+"nazev": "Essens m042 parfém pánský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m042/",
 "znacka": "Essens"
 },
@@ -8921,7 +9033,7 @@
 "akce": null,
 "cena": 779.0,
 "kod": "SETM902T",
-"nazev": "Essens m902 parfémová sada pánská",
+"nazev": "Essens m902 parfém pánský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m902/",
 "znacka": "Essens"
 },
@@ -8929,7 +9041,7 @@
 "akce": null,
 "cena": 1079.0,
 "kod": "SETMHE13",
-"nazev": "Essens MHE Beauty Glow Set",
+"nazev": "Essens Must Have Edition čisticí gel se silikonovým kartáčkem 100 ml + hydratační sorbet na pleť 50 ml + hydratační pleťová maska 50 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/essens-mhe-beauty-glow-set/",
 "znacka": "Essens"
 },
@@ -8945,7 +9057,7 @@
 "akce": null,
 "cena": 3329.0,
 "kod": "SETMHE15",
-"nazev": "Essens Skin Renewal Duo",
+"nazev": "Essens Skin Renewal Duo set Collagen 4 x 7 x 50 g + Elastir 30 tobolek",
 "url": "https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-skin-renewal-duo/",
 "znacka": "Essens"
 },
@@ -8953,7 +9065,7 @@
 "akce": null,
 "cena": 3809.0,
 "kod": "SETMHE16",
-"nazev": "Essens Skin Renewal Duo Fish",
+"nazev": "Essens Skin Renewal Duo Fish set Collagen Fish 4 x 7 x 50 g + Elastir 30 tobolek",
 "url": "https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-skin-renewal-duo-fish/",
 "znacka": "Essens"
 },
@@ -8961,7 +9073,7 @@
 "akce": null,
 "cena": 1019.0,
 "kod": "SETMHE17",
-"nazev": "Essens Set čisticí gel na obličej + refill 100 ml + 300 ml",
+"nazev": "Essens Set Must Have Edition čisticí gel se silikonovým kartáčkem 100 ml + čisticí gel na obličej 300 ml refill",
 "url": "https://www.kosmetikaeva.eu/oblicej-3/essens-set-cistici-gel-na-oblicej-refill-100-ml-300-ml/",
 "znacka": "Essens"
 },
@@ -8969,7 +9081,7 @@
 "akce": null,
 "cena": 749.0,
 "kod": "SETW102T",
-"nazev": "Essens w102 parfémová sada dámská",
+"nazev": "Essens w102 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w102/",
 "znacka": "Essens"
 },
@@ -8977,7 +9089,7 @@
 "akce": null,
 "cena": 749.0,
 "kod": "SETW107T",
-"nazev": "Essens w107 parfémová sada dámská",
+"nazev": "Essens w107 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w107/",
 "znacka": "Essens"
 },
@@ -9001,7 +9113,7 @@
 "akce": null,
 "cena": 749.0,
 "kod": "SETW153T",
-"nazev": "Essens w153 parfémová sada dámská",
+"nazev": "Essens w153 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w153/",
 "znacka": "Essens"
 },
@@ -9017,7 +9129,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETW183",
-"nazev": "Essens w183 parfémová sada dámská",
+"nazev": "Essens w183 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w183/",
 "znacka": "Essens"
 },
@@ -9025,7 +9137,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETW184",
-"nazev": "Essens w184 parfémová sada dámská",
+"nazev": "Essens w184 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w184/",
 "znacka": "Essens"
 },
@@ -9041,7 +9153,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETW188",
-"nazev": "Essens w188 parfémová sada dámská",
+"nazev": "Essens w188 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w188/",
 "znacka": "Essens"
 },
@@ -9057,7 +9169,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETW193",
-"nazev": "Essens w193 parfémová sada dámská",
+"nazev": "Essens w193 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w193/",
 "znacka": "Essens"
 },
@@ -9065,7 +9177,7 @@
 "akce": null,
 "cena": 809.0,
 "kod": "SETW194",
-"nazev": "Essens w194 parfémová sada dámská",
+"nazev": "Essens w194 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w194/",
 "znacka": "Essens"
 },
@@ -9073,7 +9185,7 @@
 "akce": null,
 "cena": 779.0,
 "kod": "SETW904T",
-"nazev": "Essens w904 parfémová sada dámská",
+"nazev": "Essens w904 parfém dámský 50 ml + sprchový gel 150 ml dárková sada",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w904/",
 "znacka": "Essens"
 },
@@ -9193,7 +9305,7 @@
 "akce": null,
 "cena": 4199.0,
 "kod": "SYNSET01",
-"nazev": "Essens Vitassens Balance Duo",
+"nazev": "Essens Vitassens Balance Duo set Essynbio Forte 2 x 30 kapslí + Cololipid 4 x 30 kapslí",
 "url": "https://www.kosmetikaeva.eu/vitaminy-a-mineraly/essens-vitassens-balance-duo/",
 "znacka": "Essens"
 },
