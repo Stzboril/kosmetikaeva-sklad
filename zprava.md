@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 17.11.2026 v 15:20.
+Kontrola u dodavatelů proběhla 18.11.2026 v 07:27.
 
 - **Eurona:** zkontrolováno 567 viditelných produktů
 - **Essens:** zkontrolováno 415 viditelných produktů
@@ -6,15 +6,17 @@ Kontrola u dodavatelů proběhla 17.11.2026 v 15:20.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (18 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (20 produktů)
 
 - ❌ není skladem → 0 ks: [Eurona Parfémová sašetka Thought Magic 125 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/eurona-parfemova-sasetka-thought-magic-125-ml/) (1278)
+- ❌ není skladem → 0 ks: [LR Aloe Vera Vitalizační sprchový gel 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/lr-aloe-vera-sprchovy-gel-250-ml/) (20630-301)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Anti-aging opalovací fluid 50 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-anti-aging-opalovaci-fluid-50-ml/) (23114-101)
 - ❌ není skladem → 0 ks: [LR ZEITGARD Signature Paletka očních stínů 6,5 g](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-paletka-ocnich-stinu-6-5-g/) (29028-1)
 - ❌ není skladem → 0 ks: [LR ZEITGARD Signature Gel na obočí Medium 3,5 ml](https://www.kosmetikaeva.eu/oci/lr-zeitgard-signature-gel-na-oboci-medium-3-5-ml/) (29030-2)
 - ❌ není skladem → 0 ks: [LR ZEITGARD Signature Kompletní série Skin Tone 1](https://www.kosmetikaeva.eu/oblicej-2/lr-zeitgard-signature-kompletni-serie-skin-tone-1/) (29069-99)
+- ❌ není skladem → 0 ks: [LR Stay Calm parfémovaná voda dámská Objem: 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/stay-calm-edp-pro-zeny/?variantId=54381) (30705-1)
 - ❌ není skladem → 0 ks: [LR Into Jungle parfémovaná voda pánská Objem: 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/lr-into-jungle-edp-pro-muze/?variantId=54435) (30711-1)
 - ❌ není skladem → 0 ks: [Eurona Univerzální leštěnka na karoserie s obsahem silikonu, 500 ml](https://www.kosmetikaeva.eu/pece-o-vozidlo/eurona-univerzalni-lestenka-na-karoserie-s-obsahem-silikonu--500-ml/) (5006)
 - ❌ není skladem → 0 ks: [Eurona Delicate Condition - Jemný přírodní sprchový gel pro ženy 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-delicate-condition-jemny-prirodni-sprchovy-gel-pro-zeny--250-ml/) (6062)

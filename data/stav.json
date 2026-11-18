@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-17T15:20+02:00",
+"cas": "2026-11-18T07:27+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -828,7 +828,7 @@
 },
 "20630-301": {
 "dop": 429.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20631-1": {
@@ -1568,7 +1568,7 @@
 },
 "30705-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30706-1": {
