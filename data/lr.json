@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-17T06:25+02:00",
+"cas": "2026-11-18T07:25+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -124,7 +124,7 @@
 "20630-301": {
 "cena": 429.0,
 "nazev": "Aloe Vera Vitalizační sprchový gel",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "20631-401": {
@@ -904,7 +904,7 @@
 },
 "cena": null,
 "nazev": "Stay Calm EdPP + Dárková taška malá",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30706-1": {
