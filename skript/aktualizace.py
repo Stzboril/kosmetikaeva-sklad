@@ -15,6 +15,8 @@ Pravidla (dohodnutá s majitelem e-shopu):
   * Just a Nahrin se nezpracovávají vůbec
   * produkt v akci (má akční cenu) -> cena se nenavrhuje
   * LR Colostrum, Sprej první pomoci a parfémy LR -> cena ani akce se nenavrhuje (jen sklad)
+  * fyzický sklad majitele (data/fyzicky_sklad.csv): když se kusy na e-shopu prodají, počet se sníží i tam;
+    po doprodání se produkt vrátí do běžné kontroly (majitel 19. 11. 2026)
   * LR má produkt v akci -> navrhne se akční cena na e-shopu = akční cena LR beze změny (bez −8 %,
     majitel 1. 11. 2026: „akční ceny od LR nechej jak jsou u LR i u nás“), s platností podle štítku LR
     („Měsíční akce“ do konce měsíce) – ke_importu/akce.csv
@@ -107,6 +109,7 @@ def eshop_produkty():
             q = cislo(it.findtext("stock_quantity"))
             if kod in out and q is not None:
                 out[kod]["sklad"] = int(q)
+                out[kod]["presny"] = True  # přesný počet kusů (ne jen skladem / není skladem)
 
     # Google feed vynechává vyprodané produkty (a např. CBD). Bez nich by se vyprodaný produkt
     # už nikdy nenaskladnil -> pamatujeme si všechny produkty (data/eshop_produkty.json)
@@ -158,6 +161,8 @@ ALIASY = {}        # data/aliasy.csv (kod_eshop;kod_dodavatel)
 NEMENIT_CENU = set()  # data/nemenit_cenu.csv – sady, série a jiné výjimky
 NESLEDOVAT = set()    # data/nesledovat.csv – produkty, které se vůbec nekontrolují
 FYZICKY = set()       # data/fyzicky_sklad.csv – zboží fyzicky na skladě: neměnit sklad ani nenavrhovat akci
+FYZ_KS = {}           # kód -> počet kusů, které má majitel doma (jen číselné hodnoty > 0)
+FYZ_SOUBOR = "data/fyzicky_sklad.csv"
 ESSENS_URL = {}       # data/essens_url.csv – detail produktu Essens, který není v žádné kategorii
                       # (vyhledávání essens.cz bez přihlášení nefunguje)
 
@@ -184,6 +189,51 @@ def najdi(kod, katalog):
         if len(shody) == 1:
             return katalog[shody[0]]
     return None
+
+
+def srovnej_fyzicky(eshop, videno):
+    """Prodané kusy odečte i z fyzického skladu majitele (data/fyzicky_sklad.csv).
+
+    Shoptet při prodeji sklad snižuje sám; stránka Fyzický sklad o tom neví. Když sklad na e-shopu
+    od minulé kontroly KLESL a je nižší než počet doma, počet doma se sníží na sklad e-shopu.
+    Při skladu 0 se počet smaže a produkt se vrací do běžné kontroly (dodavatel má -> 20).
+    Nikdy se nezvyšuje – přidat kusy může jen majitel na stránce. Bez předchozí zapamatované
+    hodnoty se nic nemění (nově zadané kusy, které ještě nejsou naimportované v Shoptetu).
+    Vrací (nové zapamatované sklady, seznam změn [(kód, název, bylo doma, nově doma)])."""
+    nove, zmeny = {}, []
+    for kod, ks in FYZ_KS.items():
+        p = eshop.get(kod)
+        if p is None or not (p.get("presny") or p["sklad"] <= 0):
+            if kod in videno:  # skrytý produkt nebo neznámý přesný počet: nic neměnit
+                nove[kod] = videno[kod]
+            continue
+        ted_ks = max(0, int(p["sklad"]))
+        bylo = videno.get(kod)
+        if bylo is not None and ted_ks < bylo and ted_ks < ks:
+            zmeny.append((kod, p.get("nazev", ""), ks, ted_ks))
+            if ted_ks > 0:
+                nove[kod] = ted_ks
+        else:
+            nove[kod] = ted_ks
+    if zmeny:
+        na = {k: n for k, _, _, n in zmeny}
+        cesta_f = cesta(*FYZ_SOUBOR.split("/"))
+        with open(cesta_f, encoding="utf-8-sig", newline="") as f:
+            radky = f.read().split("\n")
+        for i, r in enumerate(radky):
+            casti = r.rstrip("\r").rsplit(";", 2)  # název může obsahovat středník -> dělíme zprava
+            if len(casti) == 3 and casti[1].strip().upper() in na:
+                n = na[casti[1].strip().upper()]
+                radky[i] = f"{casti[0]};{casti[1]};{n if n > 0 else ''}" + ("\r" if r.endswith("\r") else "")
+        with open(cesta_f, "w", encoding="utf-8-sig", newline="") as f:
+            f.write("\n".join(radky))
+        for kod, _, _, n in zmeny:
+            if n > 0:
+                FYZ_KS[kod] = n
+            else:
+                FYZ_KS.pop(kod, None)
+                FYZICKY.discard(kod)
+    return nove, zmeny
 
 
 NOVE_JSON = "data/nove_u_dodavatele.json"    # kdy se který produkt u dodavatele objevil poprvé
@@ -271,6 +321,8 @@ def main():
         h = (r.get("fyzicky_sklad") or "").upper().replace(" ", "").replace("KS", "")
         if h == "ANO" or (h.isdigit() and int(h) > 0):
             FYZICKY.add((r.get("kod") or "").strip().upper())
+            if h.isdigit():
+                FYZ_KS[(r.get("kod") or "").strip().upper()] = int(h)
     for r in nacti_csv("data/nove_ignorovat.csv"):
         NOVE_IGNOROVAT.add(r["kod"].strip().upper())
     for r in nacti_csv("data/essens_url.csv"):
@@ -281,6 +333,9 @@ def main():
     predchozi = {}
     if os.path.exists(cesta("data", "stav.json")):
         predchozi = json.load(open(cesta("data", "stav.json"), encoding="utf-8"))
+
+    # prodané kusy odečíst i z fyzického skladu majitele (před kontrolou: doprodané jdou do běžné kontroly)
+    fyz_videno, fyz_zmeny = srovnej_fyzicky(eshop, predchozi.get("fyzicky") or {})
 
     katalogy, chyby = {}, {}
     for znacka, fce in (("Eurona", dodavatele.eurona), ("Essens", dodavatele.essens)):
@@ -321,7 +376,7 @@ def main():
 
     sklad_radky, ceny_radky, akce_radky = [], [], []
     naskladnit, vyprodat, nenalezeno, ceny, lr_overit, akce = [], [], [], [], [], []
-    stav = {"cas": ted.isoformat(timespec="minutes"), "produkty": {}}
+    stav = {"cas": ted.isoformat(timespec="minutes"), "produkty": {}, "fyzicky": fyz_videno}
 
     for kod, p in sorted(eshop.items()):
         znacka = p["znacka"]
@@ -419,6 +474,12 @@ def main():
             z.append(f"- ❌ {proc} → 0 ks: {odkaz(p['nazev'], p['url'])} ({p['kod']})")
     else:
         z.append("Beze změn – sklad na e-shopu odpovídá dodavatelům.")
+    if fyz_zmeny:
+        z += ["", "## Fyzický sklad", "",
+              "Prodané kusy odečtené ze stránky Fyzický sklad (podle skladu na e-shopu):", ""]
+        for kod, nazev, bylo, nove_ks in fyz_zmeny:
+            z.append(f"- {nazev.replace('|', '/')} ({kod}): doma {bylo} → {nove_ks} ks"
+                     + (" – doprodáno, dál se řídí dodavatelem" if nove_ks == 0 else ""))
     z += ["", "## Ceny ke schválení", ""]
     if ceny:
         velke = sum(1 for c in ceny if abs(c[4]) >= 20)
@@ -493,7 +554,7 @@ def main():
     with open(cesta("data", "stav.json"), "w", encoding="utf-8") as f:
         json.dump(stav, f, ensure_ascii=False, indent=0, sort_keys=True)
 
-    souhrn = f"sklad {len(sklad_radky)}, ceny {len(ceny)}, akce {len(akce)}"
+    souhrn = f"sklad {len(sklad_radky)}, ceny {len(ceny)}, akce {len(akce)}, fyzický sklad {len(fyz_zmeny)}"
     print(f"Hotovo: {souhrn}; nenalezeno {len(nenalezeno)}; chyby: {chyby}")
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
