@@ -31,6 +31,7 @@ import sys
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -56,7 +57,7 @@ ESSENS_PARFEM_CENA = 499
 # LR: u Colostra (vč. sad s Colostrem), Spreje první pomoci a parfémů se cena ani akce nenavrhuje
 # (rozhodnutí majitele 18. 10. 2026); sklad se kontroluje dál
 LR_BEZ_CEN = re.compile(r"colostrum|sprej první pomoci|parfém", re.I)
-PRAHA = timezone(timedelta(hours=2))
+PRAHA = ZoneInfo("Europe/Prague")  # dřív natvrdo UTC+2 -> v zimě o hodinu napřed
 
 
 def cesta(*p):
@@ -163,6 +164,9 @@ NESLEDOVAT = set()    # data/nesledovat.csv – produkty, které se vůbec nekon
 FYZICKY = set()       # data/fyzicky_sklad.csv – zboží fyzicky na skladě: neměnit sklad ani nenavrhovat akci
 FYZ_KS = {}           # kód -> počet kusů, které má majitel doma (jen číselné hodnoty > 0)
 FYZ_SOUBOR = "data/fyzicky_sklad.csv"
+# co kontrola odečetla: kód -> {"ks": nový počet doma (0 = doprodáno), "cas": kdy}. Čte to stránka Fyzický sklad,
+# aby snížený počet neposílala znovu do Shoptetu a u doprodaného vrátila jen běžnou nákupní cenu.
+FYZ_ODECTENO = "data/fyzicky_odecteno.json"
 ESSENS_URL = {}       # data/essens_url.csv – detail produktu Essens, který není v žádné kategorii
                       # (vyhledávání essens.cz bez přihlášení nefunguje)
 
@@ -233,6 +237,17 @@ def srovnej_fyzicky(eshop, videno):
             else:
                 FYZ_KS.pop(kod, None)
                 FYZICKY.discard(kod)
+    # záznam odečtů pro stránku; smaže se, jakmile majitel zadá jiný počet, než kontrola nastavila
+    cesta_o = cesta(*FYZ_ODECTENO.split("/"))
+    odecteno = json.load(open(cesta_o, encoding="utf-8")) if os.path.exists(cesta_o) else {}
+    puvodni = json.dumps(odecteno, sort_keys=True)
+    odecteno = {k: v for k, v in odecteno.items() if FYZ_KS.get(k, 0) == v.get("ks")}
+    cas = datetime.now(PRAHA).isoformat(timespec="minutes")
+    for kod, _, _, n in zmeny:
+        odecteno[kod] = {"ks": n, "cas": cas}
+    if json.dumps(odecteno, sort_keys=True) != puvodni or not os.path.exists(cesta_o):
+        with open(cesta_o, "w", encoding="utf-8") as f:
+            json.dump(odecteno, f, ensure_ascii=False, indent=0, sort_keys=True)
     return nove, zmeny
 
 
