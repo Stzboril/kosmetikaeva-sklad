@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-18T15:00+02:00",
+"cas": "2026-11-19T06:18+02:00",
 "produkty": {
 "1001": {
 "dop": 899.0,
@@ -1363,12 +1363,12 @@
 },
 "29030-1": {
 "dop": 535.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "29030-2": {
 "dop": 535.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "29031-1": {
@@ -2932,8 +2932,8 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80352-499": {
-"dop": 2815.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80360-499": {
@@ -4983,7 +4983,7 @@
 },
 "NLL07": {
 "dop": 420.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/tekuta-rtenka-nude-07-d363823/"
 },
 "NSD73": {
@@ -5312,8 +5312,8 @@
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-d498497/"
 },
 "SBEARD": {
-"dop": null,
-"skladem": false,
+"dop": 1260.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "SC26": {
@@ -5683,7 +5683,7 @@
 },
 "W11050": {
 "dop": 600.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w110-d166/"
 },
 "W11150": {
@@ -6118,7 +6118,7 @@
 },
 "WBOUD01": {
 "dop": 730.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/parfem-essens-boudoir-second-skin-50-ml-d220225/"
 },
 "WLMT11M": {
