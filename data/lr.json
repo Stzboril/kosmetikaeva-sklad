@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-18T07:25+02:00",
+"cas": "2026-11-19T06:14+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -754,13 +754,13 @@
 "29030-1": {
 "cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Light",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29030-2": {
 "cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Medium",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29031-1": {
@@ -1288,12 +1288,6 @@
 },
 "cena": null,
 "nazev": "LR LIFETAKT Super Omega Kapsle",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"80352-499": {
-"cena": 2815.0,
-"nazev": "LR LIFETAKT Woman Phyto Kapsle Série 3 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
