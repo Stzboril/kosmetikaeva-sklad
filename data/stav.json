@@ -1,9 +1,10 @@
 {
-"cas": "2026-11-19T08:18+02:00",
+"cas": "2026-11-19T13:59+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
 "1281": 1,
+"20600-110": 3,
 "30734-1": 7,
 "3467": 1,
 "3471": 1,
@@ -2366,7 +2367,7 @@
 },
 "4ELB05": {
 "dop": 1020.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/blanc-parfem-c-5-d301411/"
 },
 "4ELN03": {
@@ -3891,7 +3892,7 @@
 },
 "CC6847": {
 "dop": 192.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6847/aqua-blue-shower-gel-250-ml"
 },
 "CC6848": {
@@ -4200,8 +4201,8 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/6097/brilliant-condition-toothbrush-supersoft-yellow"
 },
 "EBA06": {
-"dop": null,
-"skladem": false,
+"dop": 85.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "ED01N": {
@@ -4996,7 +4997,7 @@
 },
 "NLL07": {
 "dop": 420.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/tekuta-rtenka-nude-07-d363823/"
 },
 "NSD73": {
@@ -5696,7 +5697,7 @@
 },
 "W11050": {
 "dop": 600.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w110-d166/"
 },
 "W11150": {
@@ -5736,7 +5737,7 @@
 },
 "W12450": {
 "dop": 600.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w124-d1190/"
 },
 "W12750": {
@@ -6130,7 +6131,7 @@
 "url_dodavatel": "https://www.essens.cz/passenger-princess-d530777/"
 },
 "WBOUD01": {
-"dop": 730.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/parfem-essens-boudoir-second-skin-50-ml-d220225/"
 },

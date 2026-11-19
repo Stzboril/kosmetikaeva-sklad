@@ -76,7 +76,7 @@
 "od": "výchozí"
 },
 "Essens:HC04": {
-"naposledy": "2026-11-08",
+"naposledy": "2026-11-19",
 "od": "2026-11-05"
 },
 "Essens:LGEYE05": {
@@ -134,6 +134,10 @@
 "Essens:W90750X": {
 "naposledy": "2026-10-27",
 "od": "výchozí"
+},
+"Essens:W91550X": {
+"naposledy": "2026-11-19",
+"od": "2026-11-19"
 },
 "Eurona:1264": {
 "naposledy": "2026-11-19",
@@ -262,6 +266,10 @@
 "Eurona:4412": {
 "naposledy": "2026-11-19",
 "od": "výchozí"
+},
+"Eurona:4452": {
+"naposledy": "2026-11-19",
+"od": "2026-11-19"
 },
 "Eurona:69447": {
 "naposledy": "2026-10-27",
