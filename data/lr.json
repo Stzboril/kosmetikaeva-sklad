@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-19T06:14+02:00",
+"cas": "2026-11-20T10:14+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -124,7 +124,7 @@
 "20630-301": {
 "cena": 429.0,
 "nazev": "Aloe Vera Vitalizační sprchový gel",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "20631-401": {
@@ -742,7 +742,7 @@
 "29028-1": {
 "cena": 1329.0,
 "nazev": "LR ZEITGARD Signature Paletka očních stínů",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29029-1": {
@@ -754,7 +754,7 @@
 "29030-1": {
 "cena": 535.0,
 "nazev": "LR ZEITGARD Signature Gel na obočí – Light",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "29030-2": {
@@ -832,7 +832,7 @@
 "29069-99": {
 "cena": 15969.0,
 "nazev": "Signature Kompletní série",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30700-1": {
@@ -904,7 +904,7 @@
 },
 "cena": null,
 "nazev": "Stay Calm EdPP + Dárková taška malá",
-"skladem": false,
+"skladem": true,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30706-1": {
