@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 20.11.2026 v 09:17.
+Kontrola u dodavatelů proběhla 20.11.2026 v 13:51.
 
 - **Eurona:** zkontrolováno 578 viditelných produktů
 - **Essens:** zkontrolováno 418 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 20.11.2026 v 09:17.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (18 produktů)
 
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
@@ -24,13 +24,8 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m041 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m041-150-ml/) (M041G)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
 - ❌ Nedostupné → 0 ks: [Essens Oční stíny v tužce 1,15 g barva: 01 Midnight Blue](https://www.kosmetikaeva.eu/oci/essens-ocni-stiny-v-tuzce-1-15-g/?variantId=51385) (SSEYE01)
+- ❌ Nedostupné → 0 ks: [Essens w110 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w110-50-ml/) (W11050)
 - ❌ Nedostupné → 0 ks: [Essens w124 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w124-50-ml/) (W12450)
-
-## Fyzický sklad
-
-Prodané kusy odečtené ze stránky Fyzický sklad (podle skladu na e-shopu):
-
-- LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml (20600-110): doma 3 → 2 ks
 
 ## Ceny ke schválení
 
@@ -66,7 +61,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR LIFETAKT Super Omega Kapsle 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-super-omega-3-activ-60-kapsli/) | 80338-1 | 1169 Kč | **1075 Kč** | 1075 Kč (Akce 15.-21. 11. 2026) | 15.11.–21.11. |
 | [LR LIFETAKT Woman Phyto Kapsle 90 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-woman-phyto-activ-90-kapsli/) | 80332-1 | 949 Kč | **869 Kč** | 869 Kč (Akce 15.-21. 11. 2026) | 15.11.–21.11. |
 
-## Dodavatel produkt nenašel (40)
+## Dodavatel produkt nenašel (41)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -97,6 +92,7 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Essens Set Colostrum Probiotics s jogurtovačem](https://www.kosmetikaeva.eu/imunitni-system-2/essens-set-colostrum-probiotics-s-jogurtovacem/) (SCOL01N)
 - [Essens m045 parfémová sada pánská](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m045/) (SETM045)
 - [Essens w111 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w111/) (SETW111T)
+- [Essens w142 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w142/) (SETW142T)
 - [Essens w171 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w171/) (SETW171T)
 - [Essens w187 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w187/) (SETW187)
 - [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)

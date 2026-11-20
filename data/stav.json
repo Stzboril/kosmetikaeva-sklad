@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-20T09:17+01:00",
+"cas": "2026-11-20T13:51+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -5516,8 +5516,8 @@
 "url_dodavatel": ""
 },
 "SETW142T": {
-"dop": 810.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "SETW153T": {
@@ -5697,7 +5697,7 @@
 },
 "W11050": {
 "dop": 600.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w110-d166/"
 },
 "W11150": {
