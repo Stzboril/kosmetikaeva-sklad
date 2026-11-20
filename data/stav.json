@@ -1,10 +1,10 @@
 {
-"cas": "2026-11-19T13:59+01:00",
+"cas": "2026-11-20T09:17+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
 "1281": 1,
-"20600-110": 3,
+"20600-110": 2,
 "30734-1": 7,
 "3467": 1,
 "3471": 1,
@@ -431,7 +431,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/1276/aroma-sachet-kouzlo-nadeje-125-ml"
 },
 "1278": {
-"dop": 79.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/1278/aroma-sachet-kouzlo-myslenky-125-ml"
 },
@@ -857,7 +857,7 @@
 },
 "20630-301": {
 "dop": 429.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20631-1": {
@@ -1367,7 +1367,7 @@
 },
 "29028-1": {
 "dop": 1329.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "29029-1": {
@@ -1377,7 +1377,7 @@
 },
 "29030-1": {
 "dop": 535.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "29030-2": {
@@ -1437,7 +1437,7 @@
 },
 "29069-99": {
 "dop": 15969.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "3001": {
@@ -1597,7 +1597,7 @@
 },
 "30705-1": {
 "dop": null,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30706-1": {
@@ -3891,7 +3891,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6846/natural-bar-soap-with-lavender-oil-90-g"
 },
 "CC6847": {
-"dop": 192.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6847/aqua-blue-shower-gel-250-ml"
 },
@@ -3901,7 +3901,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6848/aqua-blue-body-mist-150-ml"
 },
 "CC6849": {
-"dop": 215.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6849/aqua-blue-aroma-roll-on-oil-perfume-10-ml"
 },
@@ -4457,7 +4457,7 @@
 },
 "HOP31": {
 "dop": 295.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/vitamin-c-doplnek-stravy-d96526/"
 },
 "HOP41": {
@@ -4741,8 +4741,8 @@
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-m042-d341657/"
 },
 "M04350": {
-"dop": 635.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "M043G": {
@@ -5776,8 +5776,8 @@
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w142-d97425/"
 },
 "W142GX": {
-"dop": 210.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "W14350": {
