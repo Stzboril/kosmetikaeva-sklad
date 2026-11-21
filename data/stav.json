@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-21T13:37+01:00",
+"cas": "2026-11-21T20:03+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -748,7 +748,7 @@
 "20422-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20436-401": {
 "dop": 469.0,
@@ -863,7 +863,7 @@
 "20631-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20633-201": {
 "dop": 559.0,
@@ -918,12 +918,12 @@
 "20674-1": {
 "dop": 869.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20675-301": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20676": {
 "dop": 199.0,
@@ -933,12 +933,12 @@
 "20677-401": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20679-101": {
 "dop": 849.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "2068": {
 "dop": 229.0,
@@ -948,7 +948,7 @@
 "20689-1": {
 "dop": 679.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "2069": {
 "dop": 119.0,
@@ -958,12 +958,12 @@
 "20690-301": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
 },
 "20691-101": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
 },
 "20729-1": {
 "dop": null,
@@ -978,7 +978,7 @@
 "20740-201": {
 "dop": 869.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20757-1": {
 "dop": null,
@@ -998,12 +998,12 @@
 "20856-1": {
 "dop": 969.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20886-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "20905-1": {
 "dop": null,
@@ -1013,7 +1013,7 @@
 "20910-1": {
 "dop": 659.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "20915-1": {
 "dop": 635.0,
@@ -1028,32 +1028,32 @@
 "20925-1": {
 "dop": 685.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "23110-201": {
 "dop": 809.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23112-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23113-101": {
 "dop": 895.0,
 "skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23114-101": {
 "dop": 709.0,
 "skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "23116-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
 },
 "25000": {
 "dop": 749.0,
@@ -1068,12 +1068,12 @@
 "25123-1": {
 "dop": 369.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
 },
 "25130-101": {
 "dop": 959.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
 },
 "27001": {
 "dop": 1590.0,
@@ -1113,7 +1113,7 @@
 "27172-1": {
 "dop": 719.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "27175-1": {
 "dop": 339.0,
@@ -1123,7 +1123,7 @@
 "27176-1": {
 "dop": 495.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "27178-1": {
 "dop": 429.0,
@@ -1153,167 +1153,167 @@
 "28000-101": {
 "dop": 639.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28001-101": {
 "dop": 639.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28002-1": {
 "dop": 1129.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28100-201": {
 "dop": 725.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28101-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28172-01": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-02": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-03": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-04": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-05": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-06": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-07": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-08": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-09": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28172-10": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28191-1": {
 "dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28192-101": {
 "dop": 1145.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28193-101": {
 "dop": 1349.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28194-101": {
 "dop": 1145.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28250-101": {
 "dop": 1619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28251-101": {
 "dop": 2315.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28280-1": {
 "dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28283-1": {
 "dop": 615.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "28314-201": {
 "dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "28317-201": {
 "dop": 1339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28318-201": {
 "dop": 1495.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28319-201": {
 "dop": 1339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28325-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28449-201": {
 "dop": 1339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28500-101": {
 "dop": 405.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28501-201": {
 "dop": 475.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28502-1": {
 "dop": 355.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "28504-1": {
 "dop": 759.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "29021-1": {
 "dop": 889.0,
@@ -2803,87 +2803,87 @@
 "70102-1": {
 "dop": 2089.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70103-1": {
 "dop": 2089.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70104-1": {
 "dop": 2089.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70105-1": {
 "dop": 2089.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70106-1": {
 "dop": 8569.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70107-1": {
 "dop": 829.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-1": {
 "dop": 8339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-2": {
 "dop": 8339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-3": {
 "dop": 8339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70110-4": {
 "dop": 8339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "70111-1": {
 "dop": 14929.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "71011-1": {
 "dop": 739.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "71014-1": {
 "dop": 739.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "71024-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "71024-2": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "71024-3": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/sera"
 },
 "71060-1": {
 "dop": 1325.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
 },
 "80102-499": {
 "dop": 959.0,
@@ -2911,8 +2911,8 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80192-499": {
-"dop": 3025.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80205-419": {
@@ -3158,7 +3158,7 @@
 "96999-19": {
 "dop": 4625.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/krasa"
+"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
 },
 "97386-99": {
 "dop": null,
@@ -3290,6 +3290,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/ustni-voda-s-aloe-vera-meloun-d270644/"
 },
+"AVE56": {
+"dop": 130.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "AVE57": {
 "dop": 130.0,
 "skladem": true,
@@ -3314,6 +3319,11 @@
 "dop": 130.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/zubni-kartacek-ultra-soft-bila-cerna-d173022/"
+},
+"AVE65": {
+"dop": 480.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "AVE66": {
 "dop": 480.0,
@@ -3344,6 +3354,11 @@
 "dop": 450.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/toaletni-voda-mystic-moon-pro-chlapce-d316442/"
+},
+"BEARD01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "BEARD03": {
 "dop": 310.0,
@@ -3412,7 +3427,7 @@
 },
 "CA0163": {
 "dop": 767.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume"
 },
 "CA0164": {
@@ -3625,10 +3640,20 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6760/new-genea-rejuvenating-night-cream-50-ml"
 },
+"CC6762": {
+"dop": 299.0,
+"skladem": false,
+"url_dodavatel": "https://www.euronabycerny.com/p/CC6762/luxury-caring-hydrating-body-scrub-for-women-150-ml"
+},
 "CC6763": {
 "dop": 299.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6763/luxury-brightening-warming-body-scrub-for-women-150-ml"
+},
+"CC6764": {
+"dop": 269.0,
+"skladem": false,
+"url_dodavatel": "https://www.euronabycerny.com/p/CC6764/luxury-gentle-nourishing-skin-peeling-for-women-50-ml"
 },
 "CC6767": {
 "dop": 349.0,
@@ -3875,6 +3900,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6848/aqua-blue-body-mist-150-ml"
 },
+"CC6849": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "CC6850": {
 "dop": 192.0,
 "skladem": true,
@@ -4075,6 +4105,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/jogurtovac-d219793/"
 },
+"COL72": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "CONS01": {
 "dop": 320.0,
 "skladem": true,
@@ -4125,10 +4160,20 @@
 "skladem": true,
 "url_dodavatel": ""
 },
+"CPL40": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "DETOX": {
 "dop": 3055.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/essens-detox-set-doplnky-stravy-d521733/"
+},
+"DRAMA01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "DRAMA02": {
 "dop": 495.0,
@@ -4154,6 +4199,16 @@
 "dop": 129.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/6097/brilliant-condition-toothbrush-supersoft-yellow"
+},
+"EBA06": {
+"dop": 85.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"ED01N": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "ESOIL01": {
 "dop": 505.0,
@@ -4195,6 +4250,16 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/esencialni-olej-tea-tree-d259388/"
 },
+"ESOIL10": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"ESOIL11": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "ESOIL41": {
 "dop": 480.0,
 "skladem": true,
@@ -4235,6 +4300,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/prodluzujici-rasenka-royal-blue-d363843/"
 },
+"EYEBR01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "EYEBRW01": {
 "dop": 355.0,
 "skladem": true,
@@ -4250,6 +4320,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/toaletni-voda-bright-star-pro-divky-d316441/"
 },
+"GLOSS02": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "GLOSS04": {
 "dop": 340.0,
 "skladem": true,
@@ -4260,10 +4335,20 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/tekuty-lesk-na-rty-05-light-coral-d260225/"
 },
+"GLOSS06": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "HC01": {
 "dop": 240.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/krem-na-ruce-d129545/"
+},
+"HC03": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "HC05": {
 "dop": 115.0,
@@ -4274,6 +4359,26 @@
 "dop": 430.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-kremu-na-ruce-d129558/"
+},
+"HERB01": {
+"dop": 1230.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"HERB02X": {
+"dop": 490.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"HERB03X": {
+"dop": 490.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"HERB05N": {
+"dop": 210.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "HOME01": {
 "dop": 250.0,
@@ -4309,6 +4414,11 @@
 "dop": 225.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/cistici-prostredek-na-koupelnove-povrchy-d363367/"
+},
+"HOME80": {
+"dop": 85.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/redici-lahev-s-rozprasovacem-d149395/"
 },
 "HOME82": {
 "dop": 60.0,
@@ -4600,6 +4710,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m036-d238202/"
 },
+"M03850": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "M04050": {
 "dop": 600.0,
 "skladem": true,
@@ -4609,6 +4724,11 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m041-d341364/"
+},
+"M041G": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "M04250": {
 "dop": 635.0,
@@ -4620,10 +4740,30 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-m042-d341657/"
 },
+"M04350": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"M043G": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m043-d341658/"
+},
+"M044G": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-m044-d341659/"
+},
 "M04550": {
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfem-m045-d341368/"
+},
+"M045GX": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "M04650X": {
 "dop": 635.0,
@@ -4760,6 +4900,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/dvoufazovy-odlicovac-d297263/"
 },
+"MHE07": {
+"dop": 385.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "MHE09": {
 "dop": 510.0,
 "skladem": true,
@@ -4849,6 +4994,11 @@
 "dop": 420.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/tekuta-rtenka-nude-06-d363822/"
+},
+"NLL07": {
+"dop": 420.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "NSD73": {
 "dop": 2760.0,
@@ -5135,6 +5285,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/PB7014/cerny-lavender-sugar-free-lavender-nectar-250-ml"
 },
+"SAVE05": {
+"dop": 1320.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "SAVE06": {
 "dop": 805.0,
 "skladem": true,
@@ -5170,6 +5325,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-aloe-vera-kondicioner-pro-vsechny-typy-vlasu-d498497/"
 },
+"SBEARD": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SC26": {
 "dop": 760.0,
 "skladem": true,
@@ -5179,6 +5339,11 @@
 "dop": 455.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sun-care-tablets-doplnek-stravy-d173024/"
+},
+"SCOL01N": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "SCOL13N": {
 "dop": 845.0,
@@ -5190,6 +5355,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/colostrum-set-doplnky-stravy-d396842/"
 },
+"SET1ED": {
+"dop": 360.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/energeticky-napoj-6-ks-d383583/"
+},
 "SETCH21": {
 "dop": 505.0,
 "skladem": true,
@@ -5199,6 +5369,11 @@
 "dop": 1305.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/aloe-vera-gel-drinky-d317230/"
+},
+"SETCH54": {
+"dop": 925.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "SETCH67": {
 "dop": 970.0,
@@ -5250,10 +5425,25 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/set-colostrum-anti-ageing-premium-d396913/"
 },
+"SETHERB1": {
+"dop": 980.0,
+"skladem": true,
+"url_dodavatel": ""
+},
+"SETLUX01": {
+"dop": 1390.0,
+"skladem": true,
+"url_dodavatel": ""
+},
 "SETLUX05": {
 "dop": 1390.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/parfemovany-set-stellar-glow-d498499/"
+},
+"SETLUX08": {
+"dop": 1390.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "SETLUX10": {
 "dop": 1390.0,
@@ -5275,6 +5465,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/pansky-parfemovany-set-m042-d363330/"
 },
+"SETM045": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SETM902T": {
 "dop": 845.0,
 "skladem": true,
@@ -5284,6 +5479,11 @@
 "dop": 1165.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/mhe-beauty-glow-set-d411927/"
+},
+"SETMHE14": {
+"dop": 1635.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "SETMHE15": {
 "dop": 3615.0,
@@ -5310,10 +5510,25 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w107-d411006/"
 },
+"SETW111T": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"SETW142T": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SETW153T": {
 "dop": 810.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w153-d411012/"
+},
+"SETW171T": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "SETW183": {
 "dop": 870.0,
@@ -5325,10 +5540,20 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w184-d363312/"
 },
+"SETW187": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SETW188": {
 "dop": 870.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w188-d363316/"
+},
+"SETW190": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "SETW193": {
 "dop": 870.0,
@@ -5345,6 +5570,16 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfemovany-set-w904-d411015/"
 },
+"SSEPRIM01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"SSEYE01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "SSEYE03": {
 "dop": 430.0,
 "skladem": true,
@@ -5354,6 +5589,21 @@
 "dop": 430.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/ocni-stiny-v-tuzce-04-midnight-blue-d201961/"
+},
+"SSFND06": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"SSFND07": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"SSFND08": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "SSLIP02": {
 "dop": 390.0,
@@ -5445,10 +5695,20 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-w107-d396849/"
 },
+"W11050": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "W11150": {
 "dop": 600.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w111-d167/"
+},
+"W111GX": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "W11450": {
 "dop": 600.0,
@@ -5490,6 +5750,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w130-d1196/"
 },
+"W13450": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "W13750": {
 "dop": 600.0,
 "skladem": true,
@@ -5509,6 +5774,11 @@
 "dop": 600.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w142-d97425/"
+},
+"W142GX": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "W14350": {
 "dop": 600.0,
@@ -5660,6 +5930,11 @@
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w187-d341356/"
 },
+"W187GX": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
 "W18850": {
 "dop": 635.0,
 "skladem": true,
@@ -5674,6 +5949,11 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": ""
+},
+"W190GX": {
+"dop": 210.0,
+"skladem": false,
+"url_dodavatel": "https://www.essens.cz/sprchovy-gel-w190-d326943/"
 },
 "W191GX": {
 "dop": 210.0,
@@ -5729,6 +6009,16 @@
 "dop": 635.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/damsky-parfem-w199-d402023/"
+},
+"W20050X": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
+},
+"W20150X": {
+"dop": 635.0,
+"skladem": true,
+"url_dodavatel": ""
 },
 "W20250X": {
 "dop": 635.0,
@@ -5839,6 +6129,11 @@
 "dop": 825.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/passenger-princess-d530777/"
+},
+"WBOUD01": {
+"dop": null,
+"skladem": false,
+"url_dodavatel": ""
 },
 "WLMT11M": {
 "dop": 370.0,
