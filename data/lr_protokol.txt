@@ -1,14 +1,14 @@
-2026-11-20T09:14+01:00
+2026-11-21T20:00+01:00
 pokus 1
-WebFetch: https://www.lr-czech.com/zdravi, /krasa, /aloe-vera-care – client_error (stejná chyba u prvních 3 stránek) → zbylé stránky přes WebFetch přeskočeny
+WebFetch (přes pomocné agenty): zdravi, krasa, aloe-vera-care, parfemy, pece-o-telo, health-mission-top-produkty, pece-o-telo-ochrana-před-sluncem, denni-nocni-ocni, make-up, pece-o-plet, pece-o-telo-zuby, specialiste – client_error; proti-starnuti, zdravi-reseni, sera vrátily zřejmě starou kopii z cache (štítky z října) → nepoužito
 Stahování: prohlížeč v aplikaci Claude, AJAX /dataN?data=KategorieProduktyAjax (limitdo=1000), karty bez „Cena“ vynechány
-https://www.lr-czech.com/zdravi – 56 řádků
-https://www.lr-czech.com/krasa – 169 řádků
-https://www.lr-czech.com/aloe-vera-care – 48 řádků
-https://www.lr-czech.com/parfemy – 27 řádků
+https://www.lr-czech.com/zdravi – 55 řádků (4 karty bez Cena vynechány)
+https://www.lr-czech.com/krasa – 169 řádků (2 karty bez Cena vynechány)
+https://www.lr-czech.com/aloe-vera-care – 48 řádků (1 karta bez Cena vynechána)
+https://www.lr-czech.com/parfemy – 27 řádků (1 karta bez Cena vynechána)
 https://www.lr-czech.com/proti-starnuti – 32 řádků
-https://www.lr-czech.com/pece-o-telo – 51 řádků
-https://www.lr-czech.com/zdravi-reseni – 28 řádků
+https://www.lr-czech.com/pece-o-telo – 51 řádků (1 karta bez Cena vynechána)
+https://www.lr-czech.com/zdravi-reseni – 27 řádků (1 karta bez Cena vynechána)
 https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
 https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
 https://www.lr-czech.com/denni-nocni-ocni – 25 řádků
@@ -16,7 +16,7 @@ https://www.lr-czech.com/make-up – 26 řádků
 https://www.lr-czech.com/pece-o-plet – 70 řádků
 https://www.lr-czech.com/sera – 17 řádků
 https://www.lr-czech.com/pece-o-telo-zuby – 4 řádků
-https://www.lr-czech.com/specialiste – 39 řádků
-Celkem 607 řádků, po sloučení duplicit 235 řádků / 235 kódů; přenos gzip+base64, SHA-256 shoda
-Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě) – 30734-1, 30711-1, 20676-101, 27170-1, 27171-1, 23114-101, 23113-101 – ANO
-Uloženo 235 produktů LR, z toho není skladem: 7, v akci: 46
+https://www.lr-czech.com/specialiste – 39 řádků (2 karty bez Cena vynechány)
+Celkem 605 řádků, po sloučení duplicit 234 řádků / 234 kódů, rozpory 0; přenos gzip+base64, SHA-256 shoda
+Ověření „není skladem“: štítek čten přímo z HTML každé karty (nemůže patřit jiné kartě) – 23114-101, 23113-101, 30734-1, 30711-1, 20676-101, 27170-1, 27171-1 – ANO
+Uloženo 234 produktů LR, z toho není skladem: 7, v akci: 46
