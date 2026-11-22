@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-21T21:00+02:00",
+"cas": "2026-11-22T12:51+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -41,7 +41,7 @@
 "cena": 619.0,
 "nazev": "Aloe Vera Antistresový krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20436-401": {
 "cena": 469.0,
@@ -137,7 +137,7 @@
 "cena": null,
 "nazev": "Aloe Vera Jemný krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20633-201": {
 "cena": 559.0,
@@ -209,7 +209,7 @@
 "cena": 869.0,
 "nazev": "Aloe Vera Multi-aktivní denní krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20675-301": {
 "akce": {
@@ -221,7 +221,7 @@
 "cena": null,
 "nazev": "Aloe Vera Regenerační noční krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20676-101": {
 "cena": 199.0,
@@ -239,31 +239,31 @@
 "cena": null,
 "nazev": "Aloe Vera Zjemňující oční krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20679-301": {
 "cena": 849.0,
 "nazev": "Aloe Vera Hydratační krémový gel",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20689-201": {
 "cena": 679.0,
 "nazev": "Aloe Vera Hydratační pleťová maska",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20690-301": {
 "cena": 199.0,
 "nazev": "Aloe Vera Extra svěží zubní gel",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20691-301": {
 "cena": 199.0,
 "nazev": "Aloe Vera Zubní pasta Sensitive",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20730-101": {
 "cena": 619.0,
@@ -275,7 +275,7 @@
 "cena": 869.0,
 "nazev": "Limitovaný Aloe Vera Extra výživný denní krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20813-1": {
 "cena": 309.0,
@@ -293,7 +293,7 @@
 "cena": 969.0,
 "nazev": "Aloe Vera Essence of Rose Pleťové sérum",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20886-1": {
 "akce": {
@@ -305,7 +305,7 @@
 "cena": null,
 "nazev": "Limitovaný Aloe Vera Set pro péči o obličej - dárkové balení",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20905-1": {
 "akce": {
@@ -323,7 +323,7 @@
 "cena": 659.0,
 "nazev": "Aloe Vera Express Skin Balance Serum",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "20915-1": {
 "cena": 635.0,
@@ -341,37 +341,37 @@
 "cena": 685.0,
 "nazev": "Limitované Aloe Vera Pleťové sérum pro posílení kožní bariéry",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "23110-201": {
 "cena": 809.0,
 "nazev": "Aloe Vera Kids Sun SPF 50 Opalovací mléko ve spreji",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/krasa"
 },
 "23112-101": {
 "cena": 619.0,
 "nazev": "Aloe Vera Sun SPF 30 Opalovací mléko",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/krasa"
 },
 "23113-101": {
 "cena": 895.0,
 "nazev": "Aloe Vera Sun SPF 50 Opalovací krém",
 "skladem": false,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/krasa"
 },
 "23114-101": {
 "cena": 709.0,
 "nazev": "Aloe Vera Sun SPF 50 Anti-aging opalovací fluid",
 "skladem": false,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/krasa"
 },
 "23116-101": {
 "cena": 619.0,
 "nazev": "Aloe Vera After Sun Krémový gel po opalování",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url": "https://www.lr-czech.com/krasa"
 },
 "25000": {
 "cena": 749.0,
@@ -389,13 +389,13 @@
 "cena": 369.0,
 "nazev": "LR MICROSILVER PLUS Ošetřující zubní pasta",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url": "https://www.lr-czech.com/krasa"
 },
 "25130-101": {
 "cena": 959.0,
 "nazev": "LR MICROSILVER PLUS Ochranná ústní voda",
 "skladem": true,
-"url": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url": "https://www.lr-czech.com/krasa"
 },
 "27001": {
 "cena": 1590.0,
@@ -461,7 +461,7 @@
 "cena": 719.0,
 "nazev": "Aloe Vera Cloudberry Charm Krémový Gel Na Obličej",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "27175-1": {
 "cena": 339.0,
@@ -473,7 +473,7 @@
 "cena": 495.0,
 "nazev": "Aloe Vera Mint & Melon Krémový Gel Na Obličej",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "27178-1": {
 "cena": 429.0,
@@ -512,28 +512,46 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "28000-101": {
-"cena": 639.0,
+"akce": {
+"cena": 445.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "LR ZEITGARD Čisticí krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28001-101": {
-"cena": 639.0,
+"akce": {
+"cena": 445.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "LR Zeitgard Pleťová voda",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28002-1": {
-"cena": 1129.0,
+"akce": {
+"cena": 789.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "LR ZEITGARD Tělový krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28100-201": {
 "cena": 725.0,
 "nazev": "LR ZEITGARD PowerLIFT",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28101-1": {
 "akce": {
@@ -545,7 +563,7 @@
 "cena": null,
 "nazev": "LR ZEITGARD PowerLIFT Série 2 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28172": {
 "akce": {
@@ -557,85 +575,91 @@
 "cena": null,
 "nazev": "LR Zeitgard Séra pro péči o pleť Série 2 ks",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28191-1": {
 "cena": 1379.0,
 "nazev": "LR ZEITGARD Vitamín C sérum",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28192-101": {
 "cena": 1145.0,
 "nazev": "LR ZEITGARD Nanogold Denní krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28193-101": {
 "cena": 1349.0,
 "nazev": "LR ZEITGARD Nanogold Noční krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28194-101": {
 "cena": 1145.0,
 "nazev": "LR ZEITGARD Nanogold 2v1 Oční krém & maska",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28244-301": {
 "cena": 1699.0,
 "nazev": "LR ZEITGARD Serox Intenzivní krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28250-101": {
 "cena": 1619.0,
 "nazev": "LR ZEITGARD Serox Instant Skin Perfector",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28251-101": {
 "cena": 2315.0,
 "nazev": "LR ZEITGARD Serox Sérum s okamžitým účinkem",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28280-1": {
 "cena": 1379.0,
 "nazev": "LR ZEITGARD Niacinamid sérum",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28283-1": {
-"cena": 615.0,
+"akce": {
+"cena": 489.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "LR ZEITGARD Skin Fluid Vitamin Essence 7 x 2,5 ml",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28314-201": {
 "cena": 1379.0,
 "nazev": "LR ZEITGARD Radiant Youth Pleťový olej",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28317-201": {
 "cena": 1339.0,
 "nazev": "LR ZEITGARD Beauty Diamonds Denní krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28318-201": {
 "cena": 1495.0,
 "nazev": "LR ZEITGARD Beauty Diamonds Noční krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28319-201": {
 "cena": 1339.0,
 "nazev": "LR ZEITGARD Beauty Diamonds 2v1 Oční krém & maska",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28325-1": {
 "akce": {
@@ -647,37 +671,37 @@
 "cena": null,
 "nazev": "Beauty Diamonds série",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28449-201": {
 "cena": 1339.0,
 "nazev": "LR ZEITGARD Platinum Anti-Aging krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28500-101": {
 "cena": 405.0,
 "nazev": "LR ZEITGARD Racine Q10 Denní krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28501-201": {
 "cena": 475.0,
 "nazev": "LR ZEITGARD Racine Q10 Noční krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28502-1": {
 "cena": 355.0,
 "nazev": "LR ZEITGARD Racine Q10 Oční krém",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "28504-1": {
 "cena": 759.0,
 "nazev": "LR ZEITGARD Racine Kolagen sérum",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "29021-1": {
 "cena": 889.0,
@@ -1118,82 +1142,148 @@
 "url": "https://www.lr-czech.com/krasa"
 },
 "70102-1": {
-"cena": 2089.0,
+"akce": {
+"cena": 1249.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Anti-aging hlavice",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70103-1": {
-"cena": 2089.0,
+"akce": {
+"cena": 1249.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Hlavice pro péči o tělo",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70104-1": {
-"cena": 2089.0,
+"akce": {
+"cena": 1249.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Peelingová hlavice",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70105-1": {
-"cena": 2089.0,
+"akce": {
+"cena": 1249.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Čisticí hlavice + adaptér",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70106-1": {
-"cena": 8569.0,
+"akce": {
+"cena": 4279.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Série pro čištění obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70107-1": {
-"cena": 829.0,
+"akce": {
+"cena": 579.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Čisticí hlavice",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-1": {
-"cena": 8339.0,
+"akce": {
+"cena": 4165.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Set pro čištění obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-2": {
-"cena": 8339.0,
+"akce": {
+"cena": 4165.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Set pro peeling obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-3": {
-"cena": 8339.0,
+"akce": {
+"cena": 4165.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Set pro vyhlazení obličeje",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70110-4": {
-"cena": 8339.0,
+"akce": {
+"cena": 4165.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Set pro péči o tělo",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "70111-1": {
-"cena": 14929.0,
+"akce": {
+"cena": 7425.0,
+"do": "2026-11-30",
+"od": "2026-11-22",
+"stitek": "Akce 22.-30.11.2026"
+},
+"cena": null,
 "nazev": "ZEITGARD PRO Kompletní set",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "71011-1": {
 "cena": 739.0,
 "nazev": "LR ZEITGARD Noční maska",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "71014-1": {
 "cena": 739.0,
 "nazev": "LR Zeitgard Noční maska s vůní levandule",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "71024": {
 "akce": {
@@ -1205,13 +1295,13 @@
 "cena": null,
 "nazev": "Limitovaná Noční maska Série 2 ks (volný výběr)",
 "skladem": true,
-"url": "https://www.lr-czech.com/sera"
+"url": "https://www.lr-czech.com/krasa"
 },
 "71060-1": {
 "cena": 1325.0,
 "nazev": "LR ZEITGARD Blue Light Defender",
 "skladem": true,
-"url": "https://www.lr-czech.com/proti-starnuti"
+"url": "https://www.lr-czech.com/krasa"
 },
 "80102-599": {
 "cena": 959.0,
@@ -1262,25 +1352,13 @@
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80332-799": {
-"akce": {
-"cena": 869.0,
-"do": "2026-11-21",
-"od": "2026-11-15",
-"stitek": "Akce 15.-21. 11. 2026"
-},
-"cena": null,
+"cena": 1025.0,
 "nazev": "LR LIFETAKT Woman Phyto Kapsle",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
 "80338-698": {
-"akce": {
-"cena": 1075.0,
-"do": "2026-11-21",
-"od": "2026-11-15",
-"stitek": "Akce 15.-21. 11. 2026"
-},
-"cena": null,
+"cena": 1269.0,
 "nazev": "LR LIFETAKT Super Omega Kapsle",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
@@ -1330,18 +1408,6 @@
 },
 "cena": null,
 "nazev": "LR LIFETAKT Cistus Incanus Série Kapsle 2 ks",
-"skladem": true,
-"url": "https://www.lr-czech.com/zdravi"
-},
-"80529-698": {
-"akce": {
-"cena": 3799.0,
-"do": "2026-11-21",
-"od": "2026-11-15",
-"stitek": "Akce 15.-21. 11. 2026"
-},
-"cena": null,
-"nazev": "LR LIFETAKT Super Omega Kapsle Série 4 ks",
 "skladem": true,
 "url": "https://www.lr-czech.com/zdravi"
 },
@@ -1595,7 +1661,7 @@
 "cena": 4625.0,
 "nazev": "LR ZEITGARD Beauty Diamonds Care série + Zeitgard taštička",
 "skladem": true,
-"url": "https://www.lr-czech.com/denni-nocni-ocni"
+"url": "https://www.lr-czech.com/krasa"
 },
 "97265": {
 "cena": 19699.0,
