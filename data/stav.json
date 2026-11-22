@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-22T11:54+01:00",
+"cas": "2026-11-22T13:33+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -374,11 +374,6 @@
 "dop": 229.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/1248/soft-bright-easy-lucky-bells-1-000-ml"
-},
-"1249": {
-"dop": 249.0,
-"skladem": true,
-"url_dodavatel": "https://www.euronabycerny.com/p/1249/soft-bright-easy-amethis-1-000-ml"
 },
 "1250": {
 "dop": 69.0,
