@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-21T20:03+01:00",
+"cas": "2026-11-22T11:54+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -748,7 +748,7 @@
 "20422-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20436-401": {
 "dop": 469.0,
@@ -863,7 +863,7 @@
 "20631-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20633-201": {
 "dop": 559.0,
@@ -918,12 +918,12 @@
 "20674-1": {
 "dop": 869.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20675-301": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20676": {
 "dop": 199.0,
@@ -933,12 +933,12 @@
 "20677-401": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20679-101": {
 "dop": 849.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "2068": {
 "dop": 229.0,
@@ -948,7 +948,7 @@
 "20689-1": {
 "dop": 679.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "2069": {
 "dop": 119.0,
@@ -958,12 +958,12 @@
 "20690-301": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20691-101": {
 "dop": 199.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20729-1": {
 "dop": null,
@@ -978,7 +978,7 @@
 "20740-201": {
 "dop": 869.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20757-1": {
 "dop": null,
@@ -998,12 +998,12 @@
 "20856-1": {
 "dop": 969.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20886-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20905-1": {
 "dop": null,
@@ -1013,7 +1013,7 @@
 "20910-1": {
 "dop": 659.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "20915-1": {
 "dop": 635.0,
@@ -1028,32 +1028,32 @@
 "20925-1": {
 "dop": 685.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "23110-201": {
 "dop": 809.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "23112-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "23113-101": {
 "dop": 895.0,
 "skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "23114-101": {
 "dop": 709.0,
 "skladem": false,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "23116-101": {
 "dop": 619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "25000": {
 "dop": 749.0,
@@ -1068,12 +1068,12 @@
 "25123-1": {
 "dop": 369.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "25130-101": {
 "dop": 959.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/pece-o-telo-zuby"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27001": {
 "dop": 1590.0,
@@ -1113,7 +1113,7 @@
 "27172-1": {
 "dop": 719.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27175-1": {
 "dop": 339.0,
@@ -1123,7 +1123,7 @@
 "27176-1": {
 "dop": 495.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "27178-1": {
 "dop": 429.0,
@@ -1151,169 +1151,169 @@
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28000-101": {
-"dop": 639.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28001-101": {
-"dop": 639.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28002-1": {
-"dop": 1129.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28100-201": {
 "dop": 725.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28101-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-01": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-02": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-03": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-04": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-05": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-06": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-07": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-08": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-09": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28172-10": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28191-1": {
 "dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28192-101": {
 "dop": 1145.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28193-101": {
 "dop": 1349.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28194-101": {
 "dop": 1145.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28250-101": {
 "dop": 1619.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28251-101": {
 "dop": 2315.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28280-1": {
 "dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28283-1": {
-"dop": 615.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28314-201": {
 "dop": 1379.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28317-201": {
 "dop": 1339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28318-201": {
 "dop": 1495.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28319-201": {
 "dop": 1339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28325-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28449-201": {
 "dop": 1339.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28500-101": {
 "dop": 405.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28501-201": {
 "dop": 475.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28502-1": {
 "dop": 355.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "28504-1": {
 "dop": 759.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "29021-1": {
 "dop": 889.0,
@@ -2801,89 +2801,89 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/7008/royal-orchid-care-2in1-250-ml"
 },
 "70102-1": {
-"dop": 2089.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70103-1": {
-"dop": 2089.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70104-1": {
-"dop": 2089.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70105-1": {
-"dop": 2089.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70106-1": {
-"dop": 8569.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70107-1": {
-"dop": 829.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70110-1": {
-"dop": 8339.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70110-2": {
-"dop": 8339.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70110-3": {
-"dop": 8339.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70110-4": {
-"dop": 8339.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "70111-1": {
-"dop": 14929.0,
+"dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "71011-1": {
 "dop": 739.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "71014-1": {
 "dop": 739.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "71024-1": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "71024-2": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "71024-3": {
 "dop": null,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/sera"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "71060-1": {
 "dop": 1325.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/proti-starnuti"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "80102-499": {
 "dop": 959.0,
@@ -2936,12 +2936,12 @@
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80332-1": {
-"dop": null,
+"dop": 1025.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
 "80338-1": {
-"dop": null,
+"dop": 1269.0,
 "skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/zdravi"
 },
@@ -3158,7 +3158,7 @@
 "96999-19": {
 "dop": 4625.0,
 "skladem": true,
-"url_dodavatel": "https://www.lr-czech.com/denni-nocni-ocni"
+"url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "97386-99": {
 "dop": null,

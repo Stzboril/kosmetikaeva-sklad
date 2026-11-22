@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 21.11.2026 v 20:03.
+Kontrola u dodavatelů proběhla 22.11.2026 v 11:54.
 
 - **Eurona:** zkontrolováno 578 viditelných produktů
 - **Essens:** zkontrolováno 418 viditelných produktů
@@ -50,15 +50,28 @@ Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 
 ## Akce podle LR
 
-Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (5 produktů). LR má produkt v akci → akční cena na e-shopu = stejná jako akční cena LR (bez slevy −8 %), platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
+Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/akce.csv) (18 produktů). LR má produkt v akci → akční cena na e-shopu = stejná jako akční cena LR (bez slevy −8 %), platnost a štítek Akce podle LR („Měsíční akce“ do konce měsíce). Po skončení se akční cena v Shoptetu sama vypne.
 
 | Produkt | Kód | Běžná | Akční | Akce LR | Platnost |
 |---|---|--:|--:|--:|---|
 | [LR Aloe Vera Regenerační Noční Krém 50 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-regeneracni-nocni-krem-50-ml/) | 20675-301 | 809 Kč | **649 Kč** | 649 Kč (Měsíční akce) | 01.11.–30.11. |
 | [LR Aloe Vera Zjemňující oční krém 15 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-aloe-vera-zjemnujici-ocni-krem-15-ml/) | 20677-401 | 779 Kč | **629 Kč** | 629 Kč (Měsíční akce) | 01.11.–30.11. |
+| [LR Health Beauty Zeitgard Face Peelingová hlavice](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-peelingova-hlavice/) | 70104-1 | 1929 Kč | **1249 Kč** | 1249 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Kompletní set](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-kompletni-set/) | 70111-1 | 13739 Kč | **7425 Kč** | 7425 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Set pro peeling obličeje](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-set-pro-peeling-obliceje/) | 70110-2 | 7679 Kč | **4165 Kč** | 4165 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Set pro péči o tělo](https://www.kosmetikaeva.eu/telo-2/lr-zeitgard-pro-set-pro-peci-o-telo/) | 70110-4 | 7679 Kč | **4165 Kč** | 4165 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Set pro vyhlazení obličeje](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-set-pro-vyhlazeni-obliceje/) | 70110-3 | 7679 Kč | **4165 Kč** | 4165 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Set pro čištění obličeje](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-set-pro-cisteni-obliceje/) | 70110-1 | 7679 Kč | **4165 Kč** | 4165 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Série pro čištění obličeje](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-serie-pro-cisteni-obliceje/) | 70106-1 | 7889 Kč | **4279 Kč** | 4279 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Health Beauty Zeitgard Pro Čistící hlavice včetně adaptéru](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-cistici-hlavice-vcetne-adapteru/) | 70105-1 | 1929 Kč | **1249 Kč** | 1249 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
 | [LR LIFETAKT Mind Master Formula Gold Série 5 × 500 ml](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-lifetakt-mind-master-formula-gold-serie-5--500-ml/) | 80945-19 | 2729 Kč | **2665 Kč** | 2665 Kč (Měsíční akce) | 01.11.–30.11. |
-| [LR LIFETAKT Super Omega Kapsle 60 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-super-omega-3-activ-60-kapsli/) | 80338-1 | 1169 Kč | **1075 Kč** | 1075 Kč (Akce 15.-21. 11. 2026) | 15.11.–21.11. |
-| [LR LIFETAKT Woman Phyto Kapsle 90 kapslí](https://www.kosmetikaeva.eu/vitaminy-a-mineraly/lr-woman-phyto-activ-90-kapsli/) | 80332-1 | 949 Kč | **869 Kč** | 869 Kč (Akce 15.-21. 11. 2026) | 15.11.–21.11. |
+| [LR ZEITGARD PRO Anti-aging hlavice](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-anti-aging-hlavice/) | 70102-1 | 1929 Kč | **1249 Kč** | 1249 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR ZEITGARD PRO Hlavice pro péči o tělo](https://www.kosmetikaeva.eu/telo-2/lr-zeitgard-pro-hlavice-pro-peci-o-telo/) | 70103-1 | 1929 Kč | **1249 Kč** | 1249 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR ZEITGARD PRO Čisticí hlavice](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pro-cistici-hlavice/) | 70107-1 | 769 Kč | **579 Kč** | 579 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR ZEITGARD Skin Fluid Vitamin Essence 7 × 2,5 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-skin-fluid-vitamin-essence-7--2-5-ml/) | 28283-1 | 569 Kč | **489 Kč** | 489 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR ZEITGARD Tělový krém 200 ml](https://www.kosmetikaeva.eu/telo-2/lr-zeitgard-telovy-krem-200-ml/) | 28002-1 | 1039 Kč | **789 Kč** | 789 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR ZEITGARD Čisticí krém 125 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-cistici-krem-125-ml/) | 28000-101 | 589 Kč | **445 Kč** | 445 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
+| [LR Zeitgard Pleťová voda 200 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pletova-voda-200-ml/) | 28001-101 | 589 Kč | **445 Kč** | 445 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
 
 ## Dodavatel produkt nenašel (46)
 
@@ -111,7 +124,7 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Essens w200 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w200-50-ml/) (W20050X)
 - [Essens Boudoir Second Skin parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-parfem-essens-boudoir-second-skin-50-ml/) (WBOUD01)
 
-## Nové u dodavatele (13)
+## Nové u dodavatele (12)
 
 Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu nejsou. Navržená cena = doporučená − 8 % podle pravidla.
 
@@ -126,9 +139,8 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 | Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0185/design-aroma-diffuser-enssime-for-her-50-ml) | CA0185 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Bonus k objednávce BK - ACTIVE IMMUNITY ALOE VERA 92 %](https://www.euronabycerny.com/p/4452/bonus-k-objednavce) | 4452 | ❌ | 429 Kč | 399 Kč | 19.11. |
 | Essens | Dámský parfém Boudoir | W91550X | ✅ | 635 Kč | 589 Kč | 19.11. |
-| LR | [LR LIFETAKT Super Omega Kapsle Série 4 ks](https://www.lr-czech.com/zdravi) | 80529-698 | ✅ | – | – | 15.11. |
 | Essens | Shopper bag - tmavě modrá | BAG68 | ✅ | 895 Kč | 829 Kč | 13.11. |
 | Eurona | [Váš moment s šálkem čaje](https://www.euronabycerny.com/p/69464/set-44274427) | 69464 | ✅ | 986 Kč | 909 Kč | 10.11. |
 | Eurona | [Pro milovníky kávy](https://www.euronabycerny.com/p/69463/set-4426442644264426ce0005) | 69463 | ✅ | 1316 Kč | 1219 Kč | 10.11. |
 
-Celkem dodavatelé nabízejí 31 produktů, které na e-shopu nejsou (Eurona 13, Essens 14, LR 4) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.
+Celkem dodavatelé nabízejí 30 produktů, které na e-shopu nejsou (Eurona 13, Essens 14, LR 3) – úplný seznam: [nove_u_dodavatele.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/prehled/nove_u_dodavatele.csv). Produkt, který na e-shop nechcete, stačí zapsat do data/nove_ignorovat.csv a přestane se ukazovat.

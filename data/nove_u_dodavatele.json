@@ -16,7 +16,7 @@
 "od": "2026-10-23"
 },
 "Essens:179011": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-10-23"
 },
 "Essens:AVE91N": {
@@ -24,7 +24,7 @@
 "od": "výchozí"
 },
 "Essens:BAG68": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-13"
 },
 "Essens:BLUSH04": {
@@ -36,11 +36,11 @@
 "od": "2026-11-05"
 },
 "Essens:CLASSY01N": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Essens:CLASSY04N": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Essens:CLASSY05": {
@@ -48,11 +48,11 @@
 "od": "výchozí"
 },
 "Essens:CLASSY05N": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Essens:CLASSY06N": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Essens:CPL21N": {
@@ -76,11 +76,11 @@
 "od": "výchozí"
 },
 "Essens:HC04": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-05"
 },
 "Essens:LGEYE05": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-10-29"
 },
 "Essens:M008GX": {
@@ -88,15 +88,15 @@
 "od": "2026-10-20"
 },
 "Essens:PB07": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-10-30"
 },
 "Essens:PB08": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-10-30"
 },
 "Essens:PB10": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-10-30"
 },
 "Essens:S126A": {
@@ -111,16 +111,12 @@
 "naposledy": "2026-10-27",
 "od": "výchozí"
 },
-"Essens:SET2ED": {
-"naposledy": "2026-10-22",
-"od": "výchozí"
-},
 "Essens:SSBB01N": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Essens:SSBB02N": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Essens:W19050X": {
@@ -136,7 +132,7 @@
 "od": "výchozí"
 },
 "Essens:W91550X": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-19"
 },
 "Eurona:1264": {
@@ -228,7 +224,7 @@
 "od": "2026-10-26"
 },
 "Eurona:3461": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Eurona:3489": {
@@ -264,19 +260,19 @@
 "od": "2026-10-27"
 },
 "Eurona:4412": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "Eurona:4452": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-19"
 },
 "Eurona:6151": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-21"
 },
 "Eurona:6152": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-21"
 },
 "Eurona:69447": {
@@ -336,11 +332,11 @@
 "od": "2026-11-10"
 },
 "Eurona:69463": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-10"
 },
 "Eurona:69464": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-10"
 },
 "Eurona:CA0163": {
@@ -348,23 +344,23 @@
 "od": "2026-10-19"
 },
 "Eurona:CA0185": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-20"
 },
 "Eurona:CA0186": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-20"
 },
 "Eurona:CA0187": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-20"
 },
 "Eurona:CA0189": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-20"
 },
 "Eurona:CA0190": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-20"
 },
 "Eurona:CA0307": {
@@ -372,7 +368,7 @@
 "od": "2026-11-06"
 },
 "Eurona:CC6826": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "2026-11-06"
 },
 "Eurona:CC6834": {
@@ -464,11 +460,11 @@
 "od": "výchozí"
 },
 "LR:27170-1": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "LR:27171-1": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "LR:27180-1": {
@@ -492,7 +488,7 @@
 "od": "2026-11-01"
 },
 "LR:28244-301": {
-"naposledy": "2026-11-21",
+"naposledy": "2026-11-22",
 "od": "výchozí"
 },
 "LR:28314-201": {
