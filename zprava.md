@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 23.11.2026 v 10:11.
+Kontrola u dodavatelů proběhla 23.11.2026 v 15:34.
 
 - **Eurona:** zkontrolováno 578 viditelných produktů
 - **Essens:** zkontrolováno 418 viditelných produktů
@@ -112,15 +112,15 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 
 | Výrobce | Produkt | Kód | Skladem | Doporučená | Navržená | Od |
 |---|---|---|:-:|--:|--:|--:|
-| Essens | Vitamin C - food supplement | VIT31 | ✅ | 400 Kč | 369 Kč | 23.11. |
+| Essens | Vitamin C – doplněk stravy | VIT31 | ✅ | 400 Kč | 369 Kč | 23.11. |
 | Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0190/design-aroma-diffuser-chantein-50-ml) | CA0190 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér for HER](https://www.euronabycerny.com/p/CA0189/design-aroma-diffuser-lovegem-for-her-50-ml) | CA0189 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér for HIM](https://www.euronabycerny.com/p/CA0187/design-aroma-diffuser-lovegem-for-him-50-ml) | CA0187 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0186/design-aroma-diffuser-mala-pua-50-ml) | CA0186 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0185/design-aroma-diffuser-enssime-for-her-50-ml) | CA0185 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Bonus k objednávce BK - ACTIVE IMMUNITY ALOE VERA 92 %](https://www.euronabycerny.com/p/4452/bonus-k-objednavce) | 4452 | ❌ | 429 Kč | 399 Kč | 19.11. |
-| Essens | Dámský parfém Boudoir | W91550X | ✅ | 635 Kč | 589 Kč | 19.11. |
-| Essens | Shopper bag - tmavě modrá | BAG68 | ✅ | 895 Kč | 829 Kč | 13.11. |
+| Essens | Boudoir | W91550X | ✅ | 635 Kč | 589 Kč | 19.11. |
+| Essens | Shopper bag – tmavě modrá | BAG68 | ✅ | 895 Kč | 829 Kč | 13.11. |
 | Eurona | [Váš moment s šálkem čaje](https://www.euronabycerny.com/p/69464/set-44274427) | 69464 | ✅ | 986 Kč | 909 Kč | 10.11. |
 | Eurona | [Pro milovníky kávy](https://www.euronabycerny.com/p/69463/set-4426442644264426ce0005) | 69463 | ✅ | 1316 Kč | 1219 Kč | 10.11. |
 
