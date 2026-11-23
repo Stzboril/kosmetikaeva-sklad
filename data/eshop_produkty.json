@@ -4133,6 +4133,22 @@
 "url": "https://www.kosmetikaeva.eu/dezinfekce/eurona-pohotovostni-gel-pro-rychlou-dezinfekci-covidor-home-gia-mena-50-ml/",
 "znacka": "Eurona"
 },
+"6151": {
+"akce": null,
+"cena": 399.0,
+"kod": "6151",
+"nazev": "Eurona Nature Condition Aktivní chladivý krém 250 ml",
+"url": "https://www.kosmetikaeva.eu/telo-2/eurona-nature-condition-aktivni-chladivy-krem-250-ml/",
+"znacka": "Eurona"
+},
+"6152": {
+"akce": null,
+"cena": 399.0,
+"kod": "6152",
+"nazev": "Eurona Nature Condition Aktivní hřejivý krém 250 ml",
+"url": "https://www.kosmetikaeva.eu/telo-2/eurona-nature-condition-aktivni-hrejivy-krem-250-ml/",
+"znacka": "Eurona"
+},
 "6304": {
 "akce": null,
 "cena": 169.0,
@@ -6145,7 +6161,7 @@
 },
 "CC6784": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6784",
 "nazev": "Eurona Cerny Cosmetix Gentless parfémovaná voda pánská 50 ml",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/eurona-cc-cerny-cosmetix-gentless-parfemovana-voda-pro-muze-50-ml/",
@@ -6153,7 +6169,7 @@
 },
 "CC6787": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6787",
 "nazev": "Eurona Cerny Cosmetix Skailyn parfémovaná voda dámská 50 ml",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/eurona-cc-cerny-cosmetix-skailyn-parfemovana-voda-pro-zeny-50-ml/",
@@ -6161,7 +6177,7 @@
 },
 "CC6791": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6791",
 "nazev": "Eurona Man Zone No.1 parfémovaná voda pánská 50 ml",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/eurona-man-zone-no-1-eau-de-parfum-pro-muze-50-ml/",
@@ -6177,7 +6193,7 @@
 },
 "CC6793": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6793",
 "nazev": "Eurona Eyos Magnoli parfémovaná voda dámská 50 ml",
 "url": "https://www.kosmetikaeva.eu/damske-parfemy/eurona-eyos-magnoli-eau-de-parfum-pro-zeny-50-ml/",
@@ -6385,7 +6401,7 @@
 },
 "CC6830": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6830",
 "nazev": "Eurona Pure Ways for him Charismatic parfém pánský 50 ml",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/eurona-parfem-pro-muze-pure-ways-for-him-charismatic-50-ml/",
@@ -6393,7 +6409,7 @@
 },
 "CC6831": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6831",
 "nazev": "Eurona Pure Ways for him Active parfém pánský 50 ml",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/eurona-parfem-pro-muze-pure-ways-for-him-active-50-ml/",
@@ -6401,7 +6417,7 @@
 },
 "CC6832": {
 "akce": null,
-"cena": 1479.0,
+"cena": 1179.0,
 "kod": "CC6832",
 "nazev": "Eurona Pure Ways for him Cool parfém pánský 50 ml",
 "url": "https://www.kosmetikaeva.eu/panske-parfemy/eurona-parfem-pro-muze-pure-ways-for-him-cool-50-ml/",
@@ -6617,7 +6633,7 @@
 },
 "CE0004": {
 "akce": null,
-"cena": 549.0,
+"cena": 489.0,
 "kod": "CE0004",
 "nazev": "Eurona CC Cernycafé KOLUMBIE Tolima La Orquidea zrnková káva 500 g",
 "url": "https://www.kosmetikaeva.eu/kava/eurona-cernycafe-kolumbie-tolima-la-orquidea-500-g/",
@@ -6625,7 +6641,7 @@
 },
 "CE0005": {
 "akce": null,
-"cena": 549.0,
+"cena": 489.0,
 "kod": "CE0005",
 "nazev": "Eurona CC CERNY CAFÉ ESPRESSO směs zrnková káva 500 g",
 "url": "https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-espresso-smes-500-g/",
@@ -6633,7 +6649,7 @@
 },
 "CE0006": {
 "akce": null,
-"cena": 549.0,
+"cena": 489.0,
 "kod": "CE0006",
 "nazev": "Eurona CC CERNY CAFÉ ETIOPIE Sidamo zrnková káva 500 g",
 "url": "https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-etiopie-sidamo-500-g/",
@@ -6641,7 +6657,7 @@
 },
 "CE0007": {
 "akce": null,
-"cena": 549.0,
+"cena": 489.0,
 "kod": "CE0007",
 "nazev": "Eurona CC CERNY CAFÉ INDIE Chikmagalur zrnková káva 500 g",
 "url": "https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-indie-chikmagalur-500-g/",
@@ -6649,7 +6665,7 @@
 },
 "CE0008": {
 "akce": null,
-"cena": 549.0,
+"cena": 489.0,
 "kod": "CE0008",
 "nazev": "Eurona CC CERNY CAFÉ BRAZÍLIE Sul de Minas zrnková káva 500 g",
 "url": "https://www.kosmetikaeva.eu/kava/eurona-cc-cerny-cafe-brazilie-sul-de-minas-500-g/",
@@ -8537,7 +8553,7 @@
 },
 "PB4001": {
 "akce": null,
-"cena": 339.0,
+"cena": 399.0,
 "kod": "PB4001",
 "nazev": "Eurona BOHEMIAN ALOEBAR Aloe vera nápoj Pure Power 99,9 % 500 ml",
 "url": "https://www.kosmetikaeva.eu/aloe-vera-gel/eurona-bohemian-aloebar-aloe-vera-napoj-pure-power-99-9-500-ml/",

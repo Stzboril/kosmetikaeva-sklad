@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-22T18:53+01:00",
+"cas": "2026-11-23T10:11+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -2500,16 +2500,6 @@
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/6069/nature-condition-foot-cream-75-ml"
 },
-"6070": {
-"dop": 369.0,
-"skladem": true,
-"url_dodavatel": "https://www.euronabycerny.com/p/6070/nature-condition-cooling-cream-200-ml"
-},
-"6071": {
-"dop": 369.0,
-"skladem": false,
-"url_dodavatel": "https://www.euronabycerny.com/p/6071/nature-condition-warming-cream-200-ml"
-},
 "6073": {
 "dop": 199.0,
 "skladem": true,
@@ -2559,6 +2549,16 @@
 "dop": 69.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/6140/emergency-disinfection-gel-gia-mena-50-ml"
+},
+"6151": {
+"dop": 429.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/6151/nature-condition-cooling-cream-250-ml"
+},
+"6152": {
+"dop": 429.0,
+"skladem": true,
+"url_dodavatel": "https://www.euronabycerny.com/p/6152/nature-condition-warming-cream-250-ml"
 },
 "6304": {
 "dop": 179.0,
@@ -4456,7 +4456,7 @@
 "url_dodavatel": "https://www.essens.cz/head-es-doplnek-stravy-d39851/"
 },
 "HOP31": {
-"dop": 295.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/vitamin-c-doplnek-stravy-d96526/"
 },
@@ -5457,7 +5457,7 @@
 },
 "SETM041": {
 "dop": 870.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/pansky-parfemovany-set-m041-d363329/"
 },
 "SETM042": {
@@ -6016,8 +6016,8 @@
 "url_dodavatel": ""
 },
 "W20150X": {
-"dop": 635.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "W20250X": {
