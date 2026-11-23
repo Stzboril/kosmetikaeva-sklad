@@ -1,6 +1,6 @@
-2026-11-22T11:51+01:00
+2026-11-23T10:10+01:00
 pokus 1
-Ruční stažení z chatu (majitel: „stahni všechny sklady“) – AJAX výpis KategorieProduktyAjax v prohlížeči aplikace Claude, 1 řádek na kód po sloučení duplicit
+Ruční stažení z chatu (majitel: „importuj všechny sklady“) – AJAX výpis KategorieProduktyAjax v prohlížeči aplikace Claude, 1 řádek na kód po sloučení duplicit
 https://www.lr-czech.com/zdravi – 54 řádků (58 karet)
 https://www.lr-czech.com/krasa – 169 řádků (171 karet)
 https://www.lr-czech.com/aloe-vera-care – 48 řádků (49 karet)
