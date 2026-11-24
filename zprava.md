@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 24.11.2026 v 13:28.
+Kontrola u dodavatelů proběhla 24.11.2026 v 15:50.
 
 - **Eurona:** zkontrolováno 578 viditelných produktů
 - **Essens:** zkontrolováno 418 viditelných produktů
@@ -22,12 +22,6 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
 - ❌ Nedostupné → 0 ks: [Essens m041 parfém pánský 50 ml + sprchový gel 150 ml dárková sada](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m041/) (SETM041)
 - ❌ Nedostupné → 0 ks: [Essens w124 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w124-50-ml/) (W12450)
-
-## Fyzický sklad
-
-Prodané kusy odečtené ze stránky Fyzický sklad (podle skladu na e-shopu):
-
-- LR Aloe Vera Aloe Vera Sprej První Pomoci 400 ml (20600-110): doma 2 → 1 ks
 
 ## Ceny ke schválení
 
@@ -58,7 +52,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR ZEITGARD Čisticí krém 125 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-cistici-krem-125-ml/) | 28000-101 | 589 Kč | **445 Kč** | 445 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
 | [LR Zeitgard Pleťová voda 200 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pletova-voda-200-ml/) | 28001-101 | 589 Kč | **445 Kč** | 445 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
 
-## Dodavatel produkt nenašel (50)
+## Dodavatel produkt nenašel (48)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -77,7 +71,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Eurona Neony Go! Aqua Blue aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--aqua-blue-10-ml/) (CC6849)
 - [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
 - [Essens Balzám na rty s colostrem 4 g](https://www.kosmetikaeva.eu/usta-a-zuby/essens-balzam-na-rty-s-colostrem-4-g/) (CPL40)
-- [Essens Zhušťující řasenka černá 13 ml](https://www.kosmetikaeva.eu/oci/essens-zhustujici-rasenka-13-ml/) (DRAMA01)
 - [Essens Energetický nápoj 250 ml](https://www.kosmetikaeva.eu/doplnky-stravy/essens-energeticky-napoj-250-ml/) (ED01N)
 - [Essens Esenciální olej kasia 10 ml](https://www.kosmetikaeva.eu/esencialni-oleje/essens-esencialni-olej-kasia-10-ml/) (ESOIL10)
 - [Essens Esenciální olej hřebíček 10 ml](https://www.kosmetikaeva.eu/esencialni-oleje/essens-esencialni-olej-hrebicek-10-ml/) (ESOIL11)
@@ -100,7 +93,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Essens w187 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w187/) (SETW187)
 - [Essens w190 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w190/) (SETW190)
 - [Essens Second Skin podkladová báze pod oční stíny 11 ml](https://www.kosmetikaeva.eu/oci/essens-second-skin-podkladova-baze-pod-ocni-stiny-11-ml/) (SSEPRIM01)
-- [Essens Oční stíny v tužce 1,15 g barva: 01 Midnight Blue](https://www.kosmetikaeva.eu/oci/essens-ocni-stiny-v-tuzce-1-15-g/?variantId=51385) (SSEYE01)
 - [Essens Second Skin make-up 35 ml barva: 06](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51439) (SSFND06)
 - [Essens Second Skin make-up 35 ml barva: 07](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51442) (SSFND07)
 - [Essens Second Skin make-up 35 ml barva: 08](https://www.kosmetikaeva.eu/oblicej-2/essens-second-skin-make-up-35-ml/?variantId=51445) (SSFND08)

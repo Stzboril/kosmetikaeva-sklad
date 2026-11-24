@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-24T13:28+01:00",
+"cas": "2026-11-24T15:50+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -4171,8 +4171,8 @@
 "url_dodavatel": "https://www.essens.cz/essens-detox-set-doplnky-stravy-d521733/"
 },
 "DRAMA01": {
-"dop": null,
-"skladem": false,
+"dop": 495.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "DRAMA02": {
@@ -5576,8 +5576,8 @@
 "url_dodavatel": ""
 },
 "SSEYE01": {
-"dop": null,
-"skladem": false,
+"dop": 430.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "SSEYE03": {
