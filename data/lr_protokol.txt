@@ -1,6 +1,7 @@
-2026-11-23T10:10+01:00
+2026-11-24T13:25+01:00
 pokus 1
-Ruční stažení z chatu (majitel: „importuj všechny sklady“) – AJAX výpis KategorieProduktyAjax v prohlížeči aplikace Claude, 1 řádek na kód po sloučení duplicit
+WebFetch: zdravi, krasa, aloe-vera-care – client_error (všechny 3 stejně) → zbylé stránky přes WebFetch přeskočeny
+Náhradně: AJAX výpis KategorieProduktyAjax v prohlížeči aplikace Claude, 1 řádek na kód po sloučení duplicit (rozpory 0), přenos gzip+base64, SHA-256 shoda
 https://www.lr-czech.com/zdravi – 54 řádků (58 karet)
 https://www.lr-czech.com/krasa – 169 řádků (171 karet)
 https://www.lr-czech.com/aloe-vera-care – 48 řádků (49 karet)
