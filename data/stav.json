@@ -1,10 +1,10 @@
 {
-"cas": "2026-11-23T15:34+01:00",
+"cas": "2026-11-24T13:28+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
 "1281": 1,
-"20600-110": 2,
+"20600-110": 1,
 "30734-1": 7,
 "3467": 1,
 "3471": 1,
@@ -2366,7 +2366,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/4446/pumpicka-na-parfem-na-prani"
 },
 "4ELB05": {
-"dop": 1020.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.essens.cz/blanc-parfem-c-5-d301411/"
 },
@@ -5441,8 +5441,8 @@
 "url_dodavatel": "https://www.essens.cz/parfemovany-set-stellar-glow-d498499/"
 },
 "SETLUX08": {
-"dop": 1390.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "SETLUX10": {
