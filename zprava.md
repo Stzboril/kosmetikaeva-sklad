@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 24.11.2026 v 15:50.
+Kontrola u dodavatelů proběhla 25.11.2026 v 15:17.
 
 - **Eurona:** zkontrolováno 578 viditelných produktů
 - **Essens:** zkontrolováno 418 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 24.11.2026 v 15:50.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (14 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (17 produktů)
 
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
@@ -17,15 +17,24 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ není skladem → 0 ks: [Eurona Iconic Stars Luxusní kolekce aroma parfémů 6 × 5 ml](https://www.kosmetikaeva.eu/esencialni-oleje/eurona-iconic-stars-luxusni-kolekce-aroma-parfemu-6-x-5-ml/) (CA0163)
 - ❌ není skladem → 0 ks: [Pečující tělový peeling pro intenzivní hydrataci Eurona 150 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-pecujici-telovy-peeling-pro-intenzivni-hydrataci-150-ml/) (CC6762)
 - ❌ není skladem → 0 ks: [Eurona PŘÍRODNÍ PEELINGY Jemný vyživující pleťový peeling 50 ml](https://www.kosmetikaeva.eu/telo-2/eurona-prirodni-peelingy-jemny-vyzivujici-pletovy-peeling-50-ml/) (CC6764)
+- ❌ není skladem → 0 ks: [Eurona Hedvábný sprchový gel Love Story 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-hedvabny-sprchovy-gel-love-story-250-ml/) (CC6836)
 - ❌ není skladem → 0 ks: [Eurona Sprchový gel NEONY GO! Energy Green 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-sprchovy-gel-neony-go--energy-green-250-ml/) (CC6850)
 - ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
+- ❌ Nedostupné → 0 ks: [Essens Home Perfume - Unconditional Horizon 150 ml](https://www.kosmetikaeva.eu/osvezovace-vzduchu-a-textilii/essens-home-perfume-unconditional-horizon-150-ml/) (HPS10)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
+- ❌ Nedostupné → 0 ks: [Essens Pleťové sérum s bakuchiolem limitovaná edice 30 ml](https://www.kosmetikaeva.eu/oblicej-3/essens-pletove-serum-s-bakuchiolem-limitovana-edice-30-ml/) (MHE19)
 - ❌ Nedostupné → 0 ks: [Essens m041 parfém pánský 50 ml + sprchový gel 150 ml dárková sada](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m041/) (SETM041)
 - ❌ Nedostupné → 0 ks: [Essens w124 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w124-50-ml/) (W12450)
 
 ## Ceny ke schválení
 
-Beze změn – ceny odpovídají pravidlu.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (1 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
+
+⚠️ 1× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.
+
+| Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
+|---|---|---|--:|--:|--:|--:|
+| Essens | [Essens Sprchový gel Solar Noire 200 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-solar-noire-200-ml/) | LUX08G | 329 Kč | **959 Kč** | 1035 Kč | +191.5 % ⚠️ |
 
 ## Akce podle LR
 
@@ -52,7 +61,7 @@ Soubor k importu: [akce.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/
 | [LR ZEITGARD Čisticí krém 125 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-cistici-krem-125-ml/) | 28000-101 | 589 Kč | **445 Kč** | 445 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
 | [LR Zeitgard Pleťová voda 200 ml](https://www.kosmetikaeva.eu/oblicej-3/lr-zeitgard-pletova-voda-200-ml/) | 28001-101 | 589 Kč | **445 Kč** | 445 Kč (Akce 22.-30.11.2026) | 22.11.–30.11. |
 
-## Dodavatel produkt nenašel (48)
+## Dodavatel produkt nenašel (46)
 
 Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10. 2026): co výrobce už na webu nemá, na e-shopu nebude – po ověření u výrobce (vyhledávání na jeho webu) produkt skrýt. Vyprodané zboží, které výrobce na webu má, zůstává viditelné se skladem 0.
 
@@ -69,7 +78,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Essens Šampon na vousy 100 ml](https://www.kosmetikaeva.eu/pro-muze/essens-sampon-na-vousy-100-ml/) (BEARD01)
 - [Eurona Sprchový gel NEONY GO! Aqua Blue 250 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/eurona-sprchovy-gel-neony-go--aqua-blue-250-ml/) (CC6847)
 - [Eurona Neony Go! Aqua Blue aroma roll-on olejový parfém unisex 10 ml](https://www.kosmetikaeva.eu/unisex-parfemy/eurona-aroma-roll-on-olejovy-parfem-neony-go--aqua-blue-10-ml/) (CC6849)
-- [Essens Colostrum probiotika 6 ks](https://www.kosmetikaeva.eu/imunitni-system-2/essens-colostrum-probiotika-6-ks/) (COL72)
 - [Essens Balzám na rty s colostrem 4 g](https://www.kosmetikaeva.eu/usta-a-zuby/essens-balzam-na-rty-s-colostrem-4-g/) (CPL40)
 - [Essens Energetický nápoj 250 ml](https://www.kosmetikaeva.eu/doplnky-stravy/essens-energeticky-napoj-250-ml/) (ED01N)
 - [Essens Esenciální olej kasia 10 ml](https://www.kosmetikaeva.eu/esencialni-oleje/essens-esencialni-olej-kasia-10-ml/) (ESOIL10)
@@ -84,7 +92,6 @@ Nejspíš ho přestal prodávat, nebo má jiný kód. Pravidlo majitele (27. 10.
 - [Essens m043 parfém pánský 50 ml](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfem-m043-50-ml/) (M04350)
 - [Essens Sprchový gel m045 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-m045-150-ml/) (M045GX)
 - [Essens Sada pro péči o vousy](https://www.kosmetikaeva.eu/pro-muze/essens-sada-pro-peci-o-vousy/) (SBEARD)
-- [Essens Set Colostrum Probiotics s jogurtovačem](https://www.kosmetikaeva.eu/imunitni-system-2/essens-set-colostrum-probiotics-s-jogurtovacem/) (SCOL01N)
 - [Essens Solar Noire parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-parfemovany-set-solar-noire/) (SETLUX08)
 - [Essens m045 parfémová sada pánská](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m045/) (SETM045)
 - [Essens w111 parfémová sada dámská](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfemovany-set-w111/) (SETW111T)

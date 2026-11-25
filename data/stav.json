@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-24T15:50+01:00",
+"cas": "2026-11-25T15:17+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -3837,7 +3837,7 @@
 },
 "CC6836": {
 "dop": 192.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/CC6836/silky-shower-gel-love-story-250-ml"
 },
 "CC6837": {
@@ -4106,8 +4106,8 @@
 "url_dodavatel": "https://www.essens.cz/jogurtovac-d219793/"
 },
 "COL72": {
-"dop": null,
-"skladem": false,
+"dop": 625.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "CONS01": {
@@ -4492,7 +4492,7 @@
 },
 "HPS10": {
 "dop": 745.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/home-perfume-unconditional-horizon-d416241/"
 },
 "HPS11": {
@@ -4606,7 +4606,7 @@
 "url_dodavatel": "https://www.essens.cz/luxusni-parfem-solar-noire-d411827/"
 },
 "LUX08G": {
-"dop": 355.0,
+"dop": 1035.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-solar-noire-d477774/"
 },
@@ -4947,7 +4947,7 @@
 },
 "MHE19": {
 "dop": 510.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/pletove-serum-s-bakuchiolem-limited-edition-d498307/"
 },
 "MHE20": {
@@ -5341,8 +5341,8 @@
 "url_dodavatel": "https://www.essens.cz/sun-care-tablets-doplnek-stravy-d173024/"
 },
 "SCOL01N": {
-"dop": null,
-"skladem": false,
+"dop": 1610.0,
+"skladem": true,
 "url_dodavatel": ""
 },
 "SCOL13N": {
