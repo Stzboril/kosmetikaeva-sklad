@@ -1,14 +1,14 @@
-2026-11-24T13:25+01:00
+2026-11-25T08:24+01:00
 pokus 1
-WebFetch: zdravi, krasa, aloe-vera-care – client_error (všechny 3 stejně) → zbylé stránky přes WebFetch přeskočeny
+WebFetch: zdravi, krasa, aloe-vera-care – client_error (všechny 3 stejně, i po opakování) → zbylé stránky přes WebFetch přeskočeny
 Náhradně: AJAX výpis KategorieProduktyAjax v prohlížeči aplikace Claude, 1 řádek na kód po sloučení duplicit (rozpory 0), přenos gzip+base64, SHA-256 shoda
-https://www.lr-czech.com/zdravi – 54 řádků (58 karet)
-https://www.lr-czech.com/krasa – 169 řádků (171 karet)
-https://www.lr-czech.com/aloe-vera-care – 48 řádků (49 karet)
-https://www.lr-czech.com/parfemy – 27 řádků (28 karet)
+https://www.lr-czech.com/zdravi – 54 řádků
+https://www.lr-czech.com/krasa – 169 řádků
+https://www.lr-czech.com/aloe-vera-care – 48 řádků
+https://www.lr-czech.com/parfemy – 27 řádků
 https://www.lr-czech.com/proti-starnuti – 32 řádků
-https://www.lr-czech.com/pece-o-telo – 51 řádků (52 karet)
-https://www.lr-czech.com/zdravi-reseni – 26 řádků (27 karet)
+https://www.lr-czech.com/pece-o-telo – 51 řádků
+https://www.lr-czech.com/zdravi-reseni – 26 řádků
 https://www.lr-czech.com/health-mission-top-produkty – 10 řádků
 https://www.lr-czech.com/pece-o-telo-ochrana-před-sluncem – 5 řádků
 https://www.lr-czech.com/denni-nocni-ocni – 25 řádků
@@ -16,6 +16,6 @@ https://www.lr-czech.com/make-up – 26 řádků
 https://www.lr-czech.com/pece-o-plet – 70 řádků
 https://www.lr-czech.com/sera – 17 řádků
 https://www.lr-czech.com/pece-o-telo-zuby – 4 řádky
-https://www.lr-czech.com/specialiste – 38 řádků (40 karet)
+https://www.lr-czech.com/specialiste – 38 řádků
 Ověření „není skladem“: štítek čten z HTML každé karty zvlášť – 30734-1, 30711-1, 20676-101, 27170-1, 27171-1, 23114-101, 23113-101 – ANO
 Uloženo 233 produktů LR, z toho není skladem: 7, v akci: 58
