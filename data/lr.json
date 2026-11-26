@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-25T09:24+02:00",
+"cas": "2026-11-26T08:24+02:00",
 "produkty": {
 "20328-101": {
 "cena": 429.0,
@@ -1012,7 +1012,7 @@
 },
 "cena": null,
 "nazev": "Be Back EdP + Dárková taška malá",
-"skladem": true,
+"skladem": false,
 "url": "https://www.lr-czech.com/krasa"
 },
 "30713-1": {
