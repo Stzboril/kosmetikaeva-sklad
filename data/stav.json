@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-25T15:17+01:00",
+"cas": "2026-11-26T14:51+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -421,7 +421,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/1268/parfem-na-prani-c6"
 },
 "1274": {
-"dop": 69.0,
+"dop": null,
 "skladem": false,
 "url_dodavatel": "https://www.euronabycerny.com/p/1274/aroma-sachet-vianelle-125-ml"
 },
@@ -1632,7 +1632,7 @@
 },
 "30712-1": {
 "dop": null,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30713-1": {
@@ -3427,7 +3427,7 @@
 },
 "CA0163": {
 "dop": 767.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/CA0163/cerny-aromatix-luxury-gift-collection-of-selection-aroma-perfume"
 },
 "CA0164": {
@@ -4106,8 +4106,8 @@
 "url_dodavatel": "https://www.essens.cz/jogurtovac-d219793/"
 },
 "COL72": {
-"dop": 625.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "CONS01": {
@@ -4422,7 +4422,7 @@
 },
 "HOME82": {
 "dop": 60.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/davkovaci-pumpa-d146696/"
 },
 "HOME83": {
@@ -4492,7 +4492,7 @@
 },
 "HPS10": {
 "dop": 745.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/home-perfume-unconditional-horizon-d416241/"
 },
 "HPS11": {
@@ -4947,7 +4947,7 @@
 },
 "MHE19": {
 "dop": 510.0,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.essens.cz/pletove-serum-s-bakuchiolem-limited-edition-d498307/"
 },
 "MHE20": {
@@ -5341,8 +5341,8 @@
 "url_dodavatel": "https://www.essens.cz/sun-care-tablets-doplnek-stravy-d173024/"
 },
 "SCOL01N": {
-"dop": 1610.0,
-"skladem": true,
+"dop": null,
+"skladem": false,
 "url_dodavatel": ""
 },
 "SCOL13N": {
