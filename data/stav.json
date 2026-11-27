@@ -1,5 +1,5 @@
 {
-"cas": "2026-11-27T06:31+01:00",
+"cas": "2026-11-27T14:49+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
@@ -31,7 +31,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/1003/color-pastel-2-750-g"
 },
 "1008": {
-"dop": 305.0,
+"dop": 396.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/1008/wool-delicate-1-000-ml"
 },
@@ -111,7 +111,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/1038/sport-wash-250-ml"
 },
 "1039": {
-"dop": 153.0,
+"dop": 199.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/1039/jeans-denim-250-ml"
 },
@@ -1831,7 +1831,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/3257/hand-soap-with-aloe-vera-ice-wind-400-ml-2"
 },
 "3261": {
-"dop": 135.0,
+"dop": 159.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3261/hand-soap-with-aloe-vera-lemon-grass-400-ml-2"
 },
@@ -2001,7 +2001,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/3383/universal-cleaner-green-1000-ml"
 },
 "3384": {
-"dop": 115.0,
+"dop": 149.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3384/water-vacuum-cleaner-perfume-black-grape-500-ml"
 },
@@ -2011,7 +2011,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/3385/shower-cleaner-250-ml"
 },
 "3386": {
-"dop": 122.0,
+"dop": 159.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/3386/water-fog-protection-250-ml"
 },
@@ -2596,7 +2596,7 @@
 "url_dodavatel": "https://www.euronabycerny.com/p/6331/ecomimi-bottle-dish-cleaner-with-aloe-vera-400-ml"
 },
 "6336": {
-"dop": 122.0,
+"dop": 149.0,
 "skladem": true,
 "url_dodavatel": "https://www.euronabycerny.com/p/6336/hand-soap-with-aloe-vera-pinky-frou-400-ml-2"
 },
@@ -4862,7 +4862,7 @@
 },
 "MGLOSS05": {
 "dop": 340.0,
-"skladem": true,
+"skladem": false,
 "url_dodavatel": "https://www.essens.cz/lesk-na-rty-pro-vetsi-objem-05-d363830/"
 },
 "MHE01": {

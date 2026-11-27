@@ -1,4 +1,4 @@
-Kontrola u dodavatelů proběhla 27.11.2026 v 06:31.
+Kontrola u dodavatelů proběhla 27.11.2026 v 14:49.
 
 - **Eurona:** zkontrolováno 578 viditelných produktů
 - **Essens:** zkontrolováno 418 viditelných produktů
@@ -6,7 +6,7 @@ Kontrola u dodavatelů proběhla 27.11.2026 v 06:31.
 
 ## Sklad
 
-Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (14 produktů)
+Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/sklad.csv) (15 produktů)
 
 - ❌ není skladem → 0 ks: [LR Aloe Vera Hydratační Balzám na Rty 4,8g](https://www.kosmetikaeva.eu/usta-a-zuby/lr-aloe-vera-tycinka-na-rty-4-8g/) (20676)
 - ❌ není skladem → 0 ks: [LR Aloe Vera Sun SPF 50 Opalovací krém 75 ml](https://www.kosmetikaeva.eu/opalovani/lr-aloe-vera-sun-spf-50-opalovaci-krem-75-ml/) (23113-101)
@@ -20,18 +20,24 @@ Soubor k importu: [sklad.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw
 - ❌ Nedostupné → 0 ks: [Essens Ředicí láhev s rozprašovačem 500 ml](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-redici-lahev-s-rozprasovacem-500-ml/) (HOME80)
 - ❌ Nedostupné → 0 ks: [Essens Dávkovací pumpa](https://www.kosmetikaeva.eu/specialni-cistici-prostredky/essens-davkovaci-pumpa/) (HOME82)
 - ❌ Nedostupné → 0 ks: [Essens Sprchový gel pro muže m044 150 ml](https://www.kosmetikaeva.eu/sprchove-gely-a-peny-2/essens-sprchovy-gel-pro-muze-m044-150-ml/) (M044G)
+- ❌ Nedostupné → 0 ks: [Essens Lesk na rty pro větší objem 05 6 ml](https://www.kosmetikaeva.eu/rty/essens-lesk-na-rty-pro-vetsi-objem-05-6-ml/) (MGLOSS05)
 - ❌ Nedostupné → 0 ks: [Essens m041 parfém pánský 50 ml + sprchový gel 150 ml dárková sada](https://www.kosmetikaeva.eu/panske-parfemy/essens-pansky-parfemovany-set-m041/) (SETM041)
 - ❌ Nedostupné → 0 ks: [Essens w124 parfém dámský 50 ml](https://www.kosmetikaeva.eu/damske-parfemy/essens-damsky-parfem-w124-50-ml/) (W12450)
 
-## Fyzický sklad
-
-Prodané kusy odečtené ze stránky Fyzický sklad (podle skladu na e-shopu):
-
-- LR Into Jungle Pečující set – EdP 50 ml + šampon + roll-on parfém (30734-1): doma 7 → 5 ks
-
 ## Ceny ke schválení
 
-Beze změn – ceny odpovídají pravidlu.
+Soubor k importu: [ceny.csv](https://github.com/Stzboril/kosmetikaeva-sklad/raw/main/ke_importu/ceny.csv) (6 produktů). Pravidlo: doporučená cena − 8 %, zaokrouhleno nahoru na Kč končící 9. Produkty v akci, Just a Nahrin se nemění; u LR ani Colostrum, Sprej první pomoci a parfémy.
+
+⚠️ 4× změna o 20 % a víc – zkontrolujte, jestli nejde o sadu nebo jiné balení.
+
+| Výrobce | Produkt | Kód | Nyní | Nově | Doporučená | Změna |
+|---|---|---|--:|--:|--:|--:|
+| Eurona | [Eurona Wool & Delicate Tekutý prostředek na vlnu a jemné, 1000 ml](https://www.kosmetikaeva.eu/jemne-pradlo/eurona-tekuty-praci-prostredek-na-prani-vlneneho-a-jemneho-pradla--1000-ml/) | 1008 | 289 Kč | **369 Kč** | 396 Kč | +27.7 % ⚠️ |
+| Eurona | [Eurona Parfém do vodního vysavače- Černý hrozen 500 ml](https://www.kosmetikaeva.eu/koberce-a-vysavace/eurona-parfem-do-vodniho-vysavace-cerny-hrozen/) | 3384 | 109 Kč | **139 Kč** | 149 Kč | +27.5 % ⚠️ |
+| Eurona | [Eurona Prací prostředek na jeansové a denimové oblečení 250 ml](https://www.kosmetikaeva.eu/specialni-praci-prostredky/eurona-praci-prostredek-na-jeansove-a-denimove-obleceni--250-ml/) | 1039 | 149 Kč | **189 Kč** | 199 Kč | +26.8 % ⚠️ |
+| Eurona | [Eurona Impregnace na sklo a zrcadla proti vodě a zamlžení 250 ml](https://www.kosmetikaeva.eu/okna-a-zrcadla/eurona-impregnace-na-sklo-a-zrcadla-proti-vode-a-zamlzeni--250-ml/) | 3386 | 119 Kč | **149 Kč** | 159 Kč | +25.2 % ⚠️ |
+| Eurona | [Eurona Tekuté mýdlo s Aloe vera - Pinky Frou 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-pinky-frou--400-ml/) | 6336 | 119 Kč | **139 Kč** | 149 Kč | +16.8 % |
+| Eurona | [Eurona Tekuté mýdlo s Aloe vera - Citronová tráva 400 ml](https://www.kosmetikaeva.eu/tekuta-mydla-2/eurona-tekute-mydlo-s-aloe-vera-citronova-trava--400-ml/) | 3261 | 129 Kč | **149 Kč** | 159 Kč | +15.5 % |
 
 ## Akce podle LR
 
@@ -119,7 +125,7 @@ Produkty, které se u dodavatele objevily za posledních 14 dní a na e-shopu ne
 |---|---|---|:-:|--:|--:|--:|
 | Essens | Vanilla Melt Peptide Lip Treatment | LIPT02 | ✅ | 250 Kč | 239 Kč | 24.11. |
 | Essens | Vitamin C – doplněk stravy | VIT31 | ✅ | 400 Kč | 369 Kč | 23.11. |
-| Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0190/design-aroma-diffuser-chantein-50-ml) | CA0190 | ❌ | 263 Kč | 249 Kč | 20.11. |
+| Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0190/design-aroma-diffuser-chantein-50-ml) | CA0190 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér for HER](https://www.euronabycerny.com/p/CA0189/design-aroma-diffuser-lovegem-for-her-50-ml) | CA0189 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér for HIM](https://www.euronabycerny.com/p/CA0187/design-aroma-diffuser-lovegem-for-him-50-ml) | CA0187 | ✅ | 263 Kč | 249 Kč | 20.11. |
 | Eurona | [Designový aroma difuzér](https://www.euronabycerny.com/p/CA0186/design-aroma-diffuser-mala-pua-50-ml) | CA0186 | ✅ | 263 Kč | 249 Kč | 20.11. |
