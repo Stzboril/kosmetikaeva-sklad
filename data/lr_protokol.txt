@@ -1,4 +1,4 @@
-2026-11-26T07:24+01:00
+2026-11-27T06:24+01:00
 pokus 1
 WebFetch: zdravi, krasa, aloe-vera-care – client_error (všechny 3 stejně) → zbylé stránky přes WebFetch přeskočeny
 Náhradně: AJAX výpis KategorieProduktyAjax v prohlížeči aplikace Claude, 1 řádek na kód po sloučení duplicit (602 karet → 233 kódů, rozpory 0), přenos gzip+base64, SHA-256 shoda
@@ -17,5 +17,5 @@ https://www.lr-czech.com/pece-o-plet – 70 karet
 https://www.lr-czech.com/sera – 17 karet
 https://www.lr-czech.com/pece-o-telo-zuby – 4 karet
 https://www.lr-czech.com/specialiste – 38 karet
-Ověření „není skladem“: štítek čten z HTML každé karty zvlášť – 30734-1, 30712-1, 30711-1, 20676-101, 27170-1, 27171-1, 23114-101, 23113-101 – ANO
-Uloženo 233 produktů LR, z toho není skladem: 8, v akci: 58
+Ověření „není skladem“: štítek čten z HTML každé karty zvlášť – 20676-101, 27170-1, 27171-1, 23114-101, 23113-101 – ANO
+Uloženo 233 produktů LR, z toho není skladem: 5, v akci: 58
