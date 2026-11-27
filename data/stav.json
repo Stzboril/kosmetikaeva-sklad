@@ -1,11 +1,11 @@
 {
-"cas": "2026-11-26T14:51+01:00",
+"cas": "2026-11-27T06:27+01:00",
 "fyzicky": {
 "1274": 2,
 "1275": 1,
 "1281": 1,
 "20600-110": 1,
-"30734-1": 7,
+"30734-1": 5,
 "3467": 1,
 "3471": 1,
 "3475": 1,
@@ -1627,12 +1627,12 @@
 },
 "30711-1": {
 "dop": null,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30712-1": {
 "dop": null,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30713-1": {
@@ -1672,7 +1672,7 @@
 },
 "30734-1": {
 "dop": null,
-"skladem": false,
+"skladem": true,
 "url_dodavatel": "https://www.lr-czech.com/krasa"
 },
 "30735-1": {
@@ -4606,7 +4606,7 @@
 "url_dodavatel": "https://www.essens.cz/luxusni-parfem-solar-noire-d411827/"
 },
 "LUX08G": {
-"dop": 1035.0,
+"dop": 355.0,
 "skladem": true,
 "url_dodavatel": "https://www.essens.cz/sprchovy-gel-solar-noire-d477774/"
 },
